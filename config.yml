@@ -1,0 +1,19 @@
+baseURL: "http://test.peacefulscience.org/"
+
+languageCode: "en-us"
+title: "Peaceful Science"
+enableGitInfo: true
+
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+sitemap:
+  priority: 0.5
+
+permalinks: 
+  article: /:title/
+
+theme: hyde-x
