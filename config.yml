@@ -16,4 +16,4 @@ sitemap:
 permalinks: 
   article: /:title/
 
-theme: hyde-x
+theme: flexible-seo-hugo
