@@ -4,6 +4,10 @@ languageCode: "en-us"
 
 enableGitInfo: true
 
+
+params:
+  headerType: none
+
 taxonomies:
   category: categories
   series: series

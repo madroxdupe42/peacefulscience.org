@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
+<div class="container" role="main">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+  {{ if eq $showBreadcrumbs true -}}
+    {{ partial "breadcrumbs.html" ( dict "ctx" . "output_type" "list" ) }}
+  {{- end }}
+
+    <h1>{{ .Params.page_title | default .Title }}</h1>
+
+    <span>
+    {{- range .Params.authors }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+        <a class="pr-2 author" href="{{ .Permalink }}"> {{ .Params.name }} </a>
+      {{- end }}
+    {{- end }}
+    </span>
+
+    <span class="text-muted"> {{ .PublishDate.Format "January 2, 2006" }} <span>
+
+    <div class="mb-5">
+    {{- range .Params.categories }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+        <a class="badge badge-secondary" href="{{ .Permalink }}"> {{ .Params.name }} </a>
+      {{- end }}
+    {{- end }}
+    </div>
+    </div>
+  </div>
+  <article>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+          {{ .Content }}
+        </div>
+    </div>
+  </article>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10 border-top mt-5">
+	{{ if .PrevPage }}
+        <div class="w-50 d-inline-block float-left"> <a class="link-reverse" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }}</a> </div>
+	{{ end }}
+
+        {{ if .NextPage }}
+        <div class="w-50 text-right d-inline-block float-right"> <a class="link-reverse" href="{{ .NextPage.Permalink }}">{{ .NextPage.Title }}</a> </div>
+        {{ end }}
+
+        </div>
+    </div>
+
+</div>
+{{- end }}
