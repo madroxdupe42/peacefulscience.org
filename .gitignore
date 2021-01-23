@@ -2,3 +2,7 @@
 public
 cache
 .DS_Store
+content/*/
+wp
+assets/css/bootstrap*
+migrate.ipynb
