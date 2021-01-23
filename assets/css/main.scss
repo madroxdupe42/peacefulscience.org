@@ -1,5 +1,30 @@
-
-h1, h2, h3, h4, h5, h7, h8 {
-  color: black;
+@font-face {
+   font-family: "AlverataSb";
+   src: local("AlverataSb"), url("https://peacefulscience.org/wp-content/uploads/2019/07/alveratasb-webfont.woff2") format("woff");
+   font-display: swap;
 }
+
+$primary: #008800;
+$dark: #000000;
+
+@import "bootstrap-4.1.3/scss/bootstrap.scss";
+
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+  color: black;
+  font-family: AlverataSb;
+};
+
+article img { 
+  width: 100%;
+};
+
+blockquote {
+  padding-left: 2em;
+}
+
+.author,.button,.badge,.label {
+  font-family: AlverataSb;
+}
+
 
