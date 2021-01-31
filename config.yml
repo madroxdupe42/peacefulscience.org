@@ -18,6 +18,6 @@ sitemap:
   priority: 0.5
 
 permalinks: 
-  article: /:title/
+  article: /:sections/:title/
 
 theme: flexible-seo-hugo
