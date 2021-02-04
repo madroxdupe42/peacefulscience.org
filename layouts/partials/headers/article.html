@@ -1,0 +1,34 @@
+
+
+<div class="container">
+ <div class="row justify-content-center">
+  <div class="py-5 col-lg-8">
+
+
+    <h1>{{ .Params.page_title | default .Title }}</h1>
+
+    {{- with .Params.subtitle }}
+      <p class="lead">{{ . }}</p>
+    {{- end }}
+
+
+    <span>
+    {{- range .Params.authors }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+        <a class="pr-2" href="{{ .Permalink }}"> {{ .Params.name }} </a>
+      {{- end }}
+    {{- end }}
+    </span>
+
+    <span class="text-muted"> {{ .PublishDate.Format "January 2, 2006" }} <span>
+
+    <div>
+    {{- range .Params.categories }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+        <a class="badge badge-secondary" href="{{ .Permalink }}"> {{ .Params.name }} </a>
+      {{- end }}
+    {{- end }}
+    </div>
+  </div>
+ </div>
+</div>
