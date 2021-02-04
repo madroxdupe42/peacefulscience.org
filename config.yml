@@ -5,6 +5,37 @@ languageCode: "en-us"
 enableGitInfo: true
 
 
+
+outputformats:
+  Algolia:
+    baseName: "algolia"
+    isPlainText: true
+    mediaType: "application/json"
+    notAlternative: true
+    
+params:
+  algolia:
+    vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+    params: ["categories", "tags"]
+    
+outputs: 
+  home: ["HTML", "RSS", "Algolia"   ]
+    
+menu:
+  main:
+  - name: Home
+    url: /
+    weight: -110
+  - name: Book
+    url: /genealogical-adam-eve/
+    weight: -109
+  - name: Forum
+    url: /forum/
+    weight: -108
+  - name: Mission and Values
+    url: /articles/mission-and-values/
+    weight: -100
+
 params:
   headerType: none
 
