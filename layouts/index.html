@@ -1,0 +1,103 @@
+{{ define "main" }}
+
+{{ $latest := first 3 (where .Site.RegularPages "Section" "!=" "videos") }}
+{{ $videos := first 4 (where .Site.RegularPages "Section" "videos") }}
+{{ $used := union $latest $videos }}
+
+{{ $featured := first 6 (where .Site.RegularPages ".Params.feature" true | complement $used) }} 
+{{ $used := union $used $featured }}
+
+{{ $race := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
+{{ $used := union $used $race }}
+
+{{ $ai := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "artificial-intelligence" | complement $used) }}
+{{ $used := union $used $ai }}    
+
+{{ $art := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "art" | complement $used) }}
+{{ $used := union $used $art }}
+
+{{ $gae := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "gae" | complement $used) }}
+{{ $used := union $used $gae }}
+
+
+<div style="background-color: #dfdfdf;background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('https://peacefulscience.org/wp-content/uploads/2020/12/hex-green-leaves-scaled.jpeg'); background-size:cover;background-position:center top;">
+<div class="container">
+  <div class="row pt-5 pb-5">
+    <div class="col p-5 text-center">
+      <img class="d-print-none" width="80%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-white.png"></img>
+      <img class="d-print-block d-none" width="80%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img>
+      <h4  class="text-white"> What Does It Mean To Be Human? </h4>
+    </div>
+  </div>
+</div>
+</div>
+<div style="background-color:black">
+<div class="container pb-3 d-print-none">
+  <div class="row text-center"  >
+    <div class="col-sm">
+    <a href="https://www.facebook.com/peacefulscience.org/" target="_blank" class="text-light"><h6 class="text-light"><i class="fab fa-facebook"></i> LIKE</h6></a>
+    </div>
+    <div class="col-sm">
+    <a href="https://www.youtube.com/channel/UCv9gNGOpR7mH4usLW4cpNvg" target="_blank" class="text-light"><h6 class="text-light"><i class="fab fa-youtube"></i> SUBSCRIBE </h6></a>
+    </div>
+    <div class="col-sm">
+    <a href="https://twitter.com/PeacefulScience" target="_blank" class="text-light"><h6 class="text-light"><i class="fab fa-twitter"></i> FOLLOW </h6></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div style="background-color: #dfdfdf">
+<div class="container" role="main">
+    <div class="row justify-content-center pt-3">
+      <div class="col">
+        <div class="heading heading-green"> <a>Latest</a> </div>
+      </div>
+      <div class="w-100"></div>
+      {{ range $latest }}
+        {{ .Render "mediabox2" }}
+      {{ end }}
+    </div>
+</div>
+</div>
+
+
+<div style="background-color: #dfdfdf">
+<div class="container" role="main">
+    <div class="row justify-content-center pt-3">
+      <div class="col">
+        <div class="heading heading-green"> <a>Videos</a> </div>
+      </div>
+      <div class="w-100"></div>
+      {{ range $videos }}
+        {{ .Render "mediabox3" }}
+      {{ end }}
+    </div>
+</div>
+</div>
+
+
+<div style="background-color: white">
+<div class="container pt-3" role="main">
+  <div class="row justify-content-center">
+  
+  
+   <div class="col-lg-6">
+    <div class="row">
+      <div class="col">
+        <div class="heading heading-green"> <a>Featured</a> </div>
+      </div>
+      <div class="w-100"></div>
+      {{ range $featured }}
+        {{ .Render "mediabox4" "col-lg-6"}}
+      {{ end }}
+    </div>
+   </div>
+  </div>
+</div>
+</div>
+
+
+{{ end }}

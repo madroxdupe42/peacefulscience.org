@@ -1,0 +1,34 @@
+
+
+<article class="col-12 d-flex p-3  text-smaller">
+
+  <img src="{{.Params.headerImage.Src}}?resize=696%2C392&ssl=1"
+         class="flex-shrink-0 mr-3 rounded mb-1 d-print-none" style="width: 160px; height: 90px">
+         
+         
+  <div>  
+    <span class="title d-block"> <a class=" text-dark " href="{{.Permalink}}"> {{ .Params.page_title | default .Title }} </a> </span>
+
+    <span>
+    {{- with .Params.authors }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize (index . 0))) }}
+        <a class="pr-2 author text-muted text-smaller" href="{{ .Permalink }}"> {{ .Title }} 
+      {{- end }}
+        {{- with index . 1 }}et al.{{- end }} </a>
+    {{- end }}
+    </span>
+
+    <span class="text-muted article-date text-smaller"> {{ .PublishDate.Format "January 2, 2006" }} <span>
+
+    <span class="d-block excerpt"> {{ .Params.description }} </span>
+
+    {{- range .Params.categories }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+        <a class="badge badge-secondary" href="{{ .Permalink }}"> {{ .Title }} </a>
+      {{- end }}
+    {{- end }}
+  </div>
+</article>
+
+
+
