@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
+{{- $showGeneratedList := $.Params.showGeneratedList | default $.Site.Params.showGeneratedList | default true }}
+{{- $showItemMeta := $.Params.showItemMeta | default $.Site.Params.showItemMeta | default true }}
+<div class="container" role="main">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+  {{ if eq $showBreadcrumbs true -}}
+    {{ partial "breadcrumbs.html" ( dict "ctx" . "output_type" "list" ) }}
+  {{- end }}
+    </div>
+  </div>
+  <h1> {{ .Title }} </h1>
+  {{- with .Content }}
+  <article>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        {{- . -}}
+      </div>
+    </div>
+  </article>
+  {{- end }}
+  {{ if eq $showGeneratedList true -}}
+
+    <div class="row justify-content-center mt-3">
+        {{ range .Paginator.Pages }}
+            {{ .Render "mediabox1" }}
+        {{ end }}
+    </div>
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-8 posts-list">
+      {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+      <ul class="pagination">
+        {{ if .Paginator.HasPrev }}
+        <li class="page-item">
+          <a class="page-link" href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Newer posts</a>
+        </li>
+        {{ end }}
+        {{ if .Paginator.HasNext }}
+        <li class="page-item">
+          <a class="page-link" href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Older posts &rarr;</a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      </div>
+    </div>
+    {{- end }}
+</div>
+{{ end }}
