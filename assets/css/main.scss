@@ -84,13 +84,13 @@ a.external::after {
 
 
 .shake {
-  animation: pulse 1s ease 0s infinite alternate;
+  animation: pulse .5s ease 0s infinite alternate;
 
 }
 
 @keyframes pulse {
 0% {background-color: black}
-100% {background-color: #777}
+100% {background-color: #070}
 }
 
 @keyframes shaking {
@@ -139,6 +139,21 @@ a.external::after {
   padding: 0 15px;
 }
 
+.tag-link {
+  @extend .badge;
+  @extend .text-dark;
+  background-color: rgba(200,200,200,.5);
+}
+
+.breadcrumb-item {
+  a {
+    @extend .text-dark;
+  }
+}
+
+.article-title {
+  font-size: 50pt;
+}
 
 .footnotes {
   @extend .pt-5;
@@ -147,7 +162,7 @@ a.external::after {
 }
 
 .article-header-bg {
-background: linear-gradient(319deg, rgb(189, 255, 189) 0%, rgb(206, 206, 255) 100%);
+background: linear-gradient(160deg,#a5a5a5,#82a582);
 }
 
 #TableOfContents {
