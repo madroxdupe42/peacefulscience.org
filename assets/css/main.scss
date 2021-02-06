@@ -14,6 +14,7 @@ $enable-rounded: false;
 
 h1, h2, h3, h4, h5, h6, h7, h8 {
   color: black;
+  position:relative;
   font-family: AlverataSb;
 };
 
@@ -165,26 +166,54 @@ a.external::after {
 background: linear-gradient(160deg,#a5a5a5,#82a582);
 }
 
-#TableOfContents {
-   @extend .sidebar-item;
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.toc {
+ 	@extend .make-me-sticky;
+    top: 100px;
+    width: 380px;
     font-family: AlverataSb;
     font-size: smaller;
    
   ul {
-    @extend .pl-2;
-    @extend .make-me-sticky;
-    @extend .navbar-nav;
-   
+    @extend .p-0;
+    display: block;
     
-    li {    
-    @extend .nav-item;
-    
-    
+
 	a  {
-	
-    @extend .nav-link;
+    @extend .pl-1;
+    @extend .pr-0;
+    @extend .py-1;
+
+    
     @extend .text-muted;
+
+    }
+    
+    
+    .active > a {
+    @extend .text-dark;
   }  
-  }  
+    
  }
+}
+
+.anchor {
+top:-100px;
+position:absolute;
+}
+.toc-marker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+
+	path {
+		transition: all 0.3s ease;
+	}
 }

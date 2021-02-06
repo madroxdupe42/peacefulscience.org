@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+
 <!-- Site Title, Description, Author, and Favicon -->
 {{- with ($.Scratch.Get "Title") }}
     <title>{{ print . }}</title>
@@ -39,5 +40,8 @@
     {{- partial "head_custom.html" . -}}
 
     <link rel="stylesheet" href="/css/theme.css">
+
+
+<script src="navprogress.js"></script>
 
 {{ template "_internal/google_analytics_async.html" . -}}
