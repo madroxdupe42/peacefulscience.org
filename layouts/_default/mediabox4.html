@@ -24,7 +24,7 @@
 
     {{- range .Params.categories }}
       {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-        <a class="badge badge-secondary" href="{{ .Permalink }}"> {{ .Title }} </a>
+        <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
       {{- end }}
     {{- end }}
   </div>
