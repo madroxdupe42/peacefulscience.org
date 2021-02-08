@@ -8,7 +8,7 @@
   <div class="aspect-wide-screen flex-shrink-0 rounded mb-1 d-print-none" style="background-image: url('{{.Params.headerImage.Src}}?resize=696%2C392&ssl=1')"> </div>
   </a>
   
-    <span class="title d-block"> <a class=" text-dark" href="{{.Permalink}}"> {{ .Params.page_title | default .Title }} </a> </span>
+    <a class="title d-block" href="{{.Permalink}}"> {{ .Params.page_title | default .Title }} </a> 
 
     <span>
     {{- with .Params.authors }}

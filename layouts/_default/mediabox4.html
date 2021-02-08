@@ -2,12 +2,15 @@
 
 <article class="col-12 d-flex p-3  text-smaller">
 
+  <a href="{{.Permalink}}"> 
   <img src="{{.Params.headerImage.Src}}?resize=696%2C392&ssl=1"
          class="flex-shrink-0 mr-3 rounded mb-1 d-print-none" style="width: 160px; height: 90px">
-         
+  </a> 
          
   <div>  
-    <span class="title d-block"> <a class=" text-dark " href="{{.Permalink}}"> {{ .Params.page_title | default .Title }} </a> </span>
+  
+  
+    <a class="title d-block"  href="{{.Permalink}}"> {{ .Params.page_title | default .Title }} </a>
 
     <span>
     {{- with .Params.authors }}
