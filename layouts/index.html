@@ -4,20 +4,31 @@
 {{ $videos := first 4 (where .Site.RegularPages "Section" "videos") }}
 {{ $used := union $latest $videos }}
 
+
+{{ $used := union $used (where .Site.RegularPages ".File.BaseFileName" "in" (slice  "quayshawn-spencer-race" )) }}
+
+
 {{ $featured := first 6 (where .Site.RegularPages ".Params.feature" true | complement $used) }} 
 {{ $used := union $used $featured }}
 
 {{ $race := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
 {{ $used := union $used $race }}
 
-{{ $ai := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "artificial-intelligence" | complement $used) }}
+{{ $ai := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "artificial-intelligence") | complement $used) }}
 {{ $used := union $used $ai }}    
 
-{{ $art := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "art" | complement $used) }}
+{{ $art := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "art") | complement $used) }}
 {{ $used := union $used $art }}
 
-{{ $gae := first 2 (where .Site.RegularPages ".Params.categories" "intersect" "gae" | complement $used) }}
+
+{{ $gae := first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used) }}
 {{ $used := union $used $gae }}
+
+
+{{ $articles := first 8 ( .Site.RegularPages | complement $used) }}
+
+
+
 
 
 <div style="background-color: #dfdfdf;background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('https://peacefulscience.org/wp-content/uploads/2020/12/hex-green-leaves-scaled.jpeg'); background-size:cover;background-position:center top;">
@@ -49,13 +60,11 @@
 
 
 
-<div style="background-color: #dfdfdf">
+<div style="background-color: black">
 <div class="container" role="main">
-    <div class="row justify-content-center pt-3">
-      <div class="col">
-        <div class="heading heading-green"> <a>Latest</a> </div>
-      </div>
-      <div class="w-100"></div>
+    <div class="row justify-content-center pt-3 dark">
+      {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-white") }}
+
       {{ range $latest }}
         {{ .Render "mediabox2" }}
       {{ end }}
@@ -64,13 +73,11 @@
 </div>
 
 
-<div style="background-color: #dfdfdf">
+<div style="background-color: #020">
 <div class="container" role="main">
-    <div class="row justify-content-center pt-3">
-      <div class="col">
-        <div class="heading heading-green"> <a>Videos</a> </div>
-      </div>
-      <div class="w-100"></div>
+    <div class="row justify-content-center pt-3 dark">
+      {{ partial "heading" (dict "Text" "Videos") }}
+
       {{ range $videos }}
         {{ .Render "mediabox3" }}
       {{ end }}
@@ -79,25 +86,72 @@
 </div>
 
 
-<div style="background-color: white">
-<div class="container pt-3" role="main">
-  <div class="row justify-content-center">
-  
-  
-   <div class="col-lg-6">
-    <div class="row">
-      <div class="col">
-        <div class="heading heading-green"> <a>Featured</a> </div>
-      </div>
-      <div class="w-100"></div>
+<div style="background-color: #dfdfdf">
+<div class="container" role="main">
+    <div class="row justify-content-center">
+    <div class="col-lg-6"  style="background-color: white">
+      <div class="row justify-content-center pt-3">
+      {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black") }}
+
       {{ range $featured }}
         {{ .Render "mediabox4" "col-lg-6"}}
       {{ end }}
+      </div>
     </div>
+    <div class="col-lg-6">
+      <div class="row justify-content-center pt-3">
+      {{ partial "heading" (dict "Text" "Ancestry, Race, and Origins" "Class" "heading-red") }}
+      {{ range $race }}
+        {{ .Render "mediabox4" }}
+      {{ end }}
+      
+      {{ partial "heading" (dict "Text" "Artificial Intelligence" "Class" "heading-blue") }}
+      {{ range $ai }}
+        {{ .Render "mediabox4" }}
+      {{ end }}
+      
+      {{ partial "heading" (dict "Text" "Art, Beauty, and Perception" "Class" "heading-green") }}
+      {{ range $art }}
+        {{ .Render "mediabox4" }}
+      {{ end }}
+      </div>
+    </div>
+    </div>    
+</div>
+</div>
+
+
+<div style="background-color: #333">
+<div class="container pt-3" role="main">
+  <div class="row justify-content-center dark">
+     {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve") }}
+     <div class="col pt-3" >
+      <img class="gae-cover mr-lg-auto mx-auto d-block" src='https://peacefulscience.org/wp-content/uploads/2019/07/gae-cover-swamidass.jpg' width="120" height="180">
+     </div>
+     
+	 <div class="col-lg-10  col-print-8">
+      <div class="row justify-content-center">
+       {{ range $gae }}
+         {{ .Render "mediabox3" "col-lg-6"}}
+       {{ end }}
+      </div>
+     </div>
    </div>
   </div>
 </div>
 </div>
 
+
+<div style="background-color: #020">
+<div class="container" role="main">
+    <div class="row justify-content-center pt-3 dark">
+      {{ partial "heading" (dict "Text" "More Articles") }}
+
+      {{ range $articles }}
+        {{ .Render "mediabox3" }}
+      {{ end }}
+    </div>
+</div>
+</div>
 
 {{ end }}
