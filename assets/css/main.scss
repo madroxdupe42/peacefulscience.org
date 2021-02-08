@@ -26,12 +26,20 @@ blockquote {
   padding-left: 2em;
 }
 
-.navbar,.heading,.title,.author,.button,.label {
+.navbar,.title,.author,.button,.label {
   font-family: AlverataSb;
   color: black;
   a:hover {color: #002200}
-  
 }
+
+
+.dark {
+.navbar,.title,.button,.label {
+  @extend .text-light;
+  a:hover {color: #002200}
+}}
+
+
 
 .aspect-wide-screen {
   height: 0;
@@ -40,24 +48,83 @@ blockquote {
 }
 
 .heading {
+  font-family: AlverataSb;
   font-size:large;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   div,a,span,p {
     @extend .badge;
+    @extend .px-2;
+    @extend .py-0;
     line-height: inherit;
     vertical-align: bottom;
+    margin: -3px;
+    
   }
 }
 
 .heading-green {
-  border-color: #008800;
+  border-color: #007700;
   color: white;
-  div,a,span,p {
-    background-color:  #008800;
+  div,a,span,p,a:hover {
+    background-color:  #007700;
+    color: inherit;
   };
 }
 
+.heading-white {
+  border-color: white;
+  color: black;
+  div,a,span,p,a:hover {
+    background-color:  white;
+    color: inherit;
+  };
+}
+
+.dark  {
+  .heading {
+    @extend .heading-white;
+  }
+  a,span,div,p,a:hover,.tag-link {
+    color: inherit
+    }
+  .text-muted {
+    color: #999 !important;
+  }
+}
+
+.heading-black {
+  border-color: #000;
+  color: white;
+  div,a,span,p,a:hover {
+    background-color:  #000;
+    color: inherit;
+  };
+}
+
+
+.heading-red {
+  border-color: #800;
+  color: white;
+  div,a,span,p,a:hover {
+    background-color:  #800;
+    color: inherit;
+  };
+}
+
+.heading-blue {
+  border-color: #008;
+  color: white;
+  div,a,span,p,a:hover {
+    background-color:  #008;
+    color: inherit;
+  };
+}
+
+.gae-cover:hover {
+   transition-duration: 0.5s;
+   filter: brightness(1.5);
+}
 
 a.external::after {
   content: '\f35d';
@@ -171,12 +238,20 @@ svg:not(:root) {
   overflow: hidden;
 }
 
+[id] {
+scroll-margin-top: 100px;
+}
+
+sup,.doc-endnote,.anchor {}
+ 
 .toc {
  	@extend .make-me-sticky;
+ 	@extend .py-0;
     top: 100px;
-    width: 380px;
+    width: 100%;
     font-family: AlverataSb;
     font-size: smaller;
+
    
   ul {
     @extend .p-0;
@@ -201,10 +276,6 @@ svg:not(:root) {
  }
 }
 
-.anchor {
-top:-100px;
-position:absolute;
-}
 .toc-marker {
 	position: absolute;
 	top: 0;
