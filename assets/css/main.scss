@@ -255,8 +255,12 @@ sup,.doc-endnote,.anchor {}
    
   ul {
     @extend .p-0;
+    
     display: block;
     
+    li li {
+        @extend .pl-3;
+    }
 
 	a  {
     @extend .pl-1;
@@ -268,9 +272,10 @@ sup,.doc-endnote,.anchor {}
 
     }
     
-    
+
     .active > a {
     @extend .text-dark;
+    
   }  
     
  }
