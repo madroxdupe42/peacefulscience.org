@@ -5,6 +5,20 @@ languageCode: "en-us"
 enableGitInfo: true
 
 
+related:
+  includeNewer: true
+  indices:
+  - name: categories
+    weight: 100
+  - name: authors
+    weight: 50
+  - name: series
+    weight: 100
+  - name: section
+    weight: 50
+  threshold: 80
+  toLower: false
+
 
 outputformats:
   Algolia:

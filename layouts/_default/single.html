@@ -72,20 +72,35 @@
     
    <div class="row justify-content-center">
     <div class="col-lg-2 d-lg-block d-none " ></div>
-    <div class="col-lg-8" data-spy="scroll" data-target="#TableOfContents" data-offset="10" style="position: relative;">
+    <div class="col-lg-7"  style="position: relative;">
       {{ .Content }}
     </div>    
-    <div class="col-lg-2 d-lg-block d-none px-0" >
+    <div class="col-lg-3 d-lg-block d-none px-0" >
 		  <nav class="toc navbar pr-0" > 
             {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
             
             <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-				<path stroke="#444" stroke-width="2" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
 			</svg>
 		  </nav>
    </div>  
   </article>
+</div> 
 
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+<div style="background-color: #dfdfdf; min-height:1000">
+<div class="container pt-5" >
+  <div class="row justify-content-center pb-5 my-3">
+      {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
+	  {{ range $related }}
+	     {{ .Render "mediabox2" }}
+	  {{ end }}
+
+  </div>
+</div>
+</div>
+<!--
     <div class="row justify-content-center pb-5 mb-5">
         <div class="col-lg-12 border-top mt-5">
 	{{ if .PrevPage }}
@@ -98,6 +113,7 @@
 
         </div>
     </div>
+    
+-->
 
-</div>
 {{- end }}
