@@ -49,13 +49,14 @@ blockquote {
 
 .heading {
   font-family: AlverataSb;
-  font-size:large;
+  font-size:x-large;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   div,a,span,p {
     @extend .badge;
-    @extend .px-2;
-    @extend .py-0;
+    @extend .p-1;
+    @extend .px-3;
+
     line-height: inherit;
     vertical-align: bottom;
     margin: -3px;
@@ -148,6 +149,9 @@ a.external::after {
 
 .text-smaller {
   font-size: smaller;
+}
+.text-larger {
+  font-size: larger;
 }
 
 
