@@ -1,9 +1,8 @@
 {{ $text := .Text | default "Heading Text" }}
       <div class="col">
         <div class="heading {{ .Class }}"> 
-        <a {{ with .Link }}  href="{{ . }}" {{ end }}>
+        <a  d="{{ $text | urlize }}" {{ with .Link }}  href="{{ . }}" {{ end }}>
         {{ $text }} </a> 
-        <a class="anchor" id="{{ $text | urlize }}"> </a>
         </div>
       </div>
       <div class="w-100"></div>
