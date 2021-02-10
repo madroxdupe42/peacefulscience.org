@@ -5,8 +5,6 @@
 {{ $used := union $latest $videos }}
 
 
-{{ $used := union $used (where .Site.RegularPages ".File.BaseFileName" "in" (slice  "quayshawn-spencer-race" )) }}
-
 
 {{ $featured := first 6 (where .Site.RegularPages ".Params.feature" true | complement $used) }} 
 {{ $used := union $used $featured }}
@@ -60,10 +58,10 @@
 
 
 
-<div style="background-color: black">
+<div style="background-color: #dfdfdf">
 <div class="container" role="main">
-    <div class="row justify-content-center pt-3 dark">
-      {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-white") }}
+    <div class="row justify-content-center pt-3">
+      {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
       {{ range $latest }}
         {{ .Render "mediabox2" }}
@@ -73,10 +71,10 @@
 </div>
 
 
-<div style="background-color: #020">
-<div class="container" role="main">
-    <div class="row justify-content-center pt-3 dark">
-      {{ partial "heading" (dict "Text" "Videos") }}
+<div style="background-color: #eee">
+<div class="container pt-3" role="main">
+    <div class="row justify-content-center">
+      {{ partial "heading" (dict "Text" "Videos" "Class" "heading-black"  "Link" ("/videos/" | absURL)  ) }}
 
       {{ range $videos }}
         {{ .Render "mediabox3" }}
@@ -88,9 +86,9 @@
 
 <div style="background-color: #dfdfdf">
 <div class="container" role="main">
-    <div class="row justify-content-center">
-    <div class="col-lg-6"  style="background-color: white">
-      <div class="row justify-content-center pt-3">
+    <div class="row justify-content-center pt-3">
+    <div class="col-lg-6 py-1 order-lg-3"  style="background-color: #dfdfdf">
+      <div class="row justify-content-center py-3 my-lg-1 shadow mr-lg-1" style="background-color: white">
       {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black") }}
 
       {{ range $featured }}
@@ -99,7 +97,7 @@
       </div>
     </div>
     <div class="col-lg-6">
-      <div class="row justify-content-center pt-3">
+      <div class="row justify-content-center my-3 pl-lg-1">
       {{ partial "heading" (dict "Text" "Ancestry, Race, and Origins" "Class" "heading-red") }}
       {{ range $race }}
         {{ .Render "mediabox4" }}
@@ -121,12 +119,14 @@
 </div>
 
 
-<div style="background-color: #333">
-<div class="container pt-3" role="main">
+<div class="shadow" style="background-color: #333; z-index: 100">
+<div class="container py-4" role="main">
   <div class="row justify-content-center dark">
      {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve") }}
      <div class="col pt-3" >
+      <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
       <img class="gae-cover mr-lg-auto mx-auto d-block" src='https://peacefulscience.org/wp-content/uploads/2019/07/gae-cover-swamidass.jpg' width="120" height="180">
+      </a>
      </div>
      
 	 <div class="col-lg-10  col-print-8">
@@ -142,10 +142,10 @@
 </div>
 
 
-<div style="background-color: #020">
+<div style="background-color: #dfdfdf">
 <div class="container" role="main">
-    <div class="row justify-content-center pt-3 dark">
-      {{ partial "heading" (dict "Text" "More Articles") }}
+    <div class="row justify-content-center pt-3 pb-5 ">
+      {{ partial "heading" (dict "Text" "More Articles"  "Class" "heading-black") }}
 
       {{ range $articles }}
         {{ .Render "mediabox3" }}
