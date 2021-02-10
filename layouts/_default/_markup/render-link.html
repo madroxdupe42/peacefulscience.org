@@ -1,12 +1,4 @@
-<a
-{{ if not (in .Destination "peacefulscience.org") }}
-  class="external" target="_blank" rel=”noopener nofollow” 
-{{ end }} 
-{{ if in .Destination "discourse.peacefulscience.org" }}
-  target="_blank"
-{{ end }}
-href="{{ .Destination }}" 
-{{ with .Title }}
-  title="{{ . }}"
-{{- end -}}
->{{.Text | safeHTML}}</a>
+<a href="{{ .Destination }}" 
+{{- if not (in .Destination "peacefulscience.org") }} class="external" target="_blank" rel="noopener nofollow"{{ end -}} 
+{{ if in .Destination "discourse.peacefulscience.org" }} target="_blank" {{- end -}}
+ {{- with .Title }} title="{{ . }}" {{- end -}}>{{.Text | safeHTML}}</a>
