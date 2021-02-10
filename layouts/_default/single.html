@@ -67,7 +67,7 @@
 
 
 
-<div class="container pt-5" >
+<div class="container py-5" >
   <article>
     
    <div class="row justify-content-center">
@@ -91,7 +91,7 @@
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 <div style="background-color: #dfdfdf; min-height:1000">
 <div class="container pt-5" >
-  <div class="row justify-content-center pb-5 my-3">
+  <div class="row justify-content-center pb-5 my-3 text-larger">
       {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
 	  {{ range $related }}
 	     {{ .Render "mediabox2" }}
@@ -115,5 +115,13 @@
     </div>
     
 -->
+
+<script type="application/json" class="js-hypothesis-config">
+  {
+    "theme": "clean"
+  }
+</script>
+<script src="https://hypothes.is/embed.js" async></script>
+
 
 {{- end }}
