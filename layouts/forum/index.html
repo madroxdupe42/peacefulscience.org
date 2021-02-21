@@ -1,0 +1,71 @@
+
+{{ define "main" }}
+
+{{ $articles := partial "getpages" .Params.Articles }}
+
+<div class="gae-header-bg ">
+<div class="container">
+  <div class="row pt-5 pb-5">
+    <div class="col-lg-6 text-center text-lg-right">
+      <img src='https://peacefulscience.org/wp-content/uploads/2020/12/wood-chair-transparent.png' height="360">
+    </div>
+    <div class="col-lg-6 text-larger pt-5 text-white text-center text-lg-left">
+      <img src='https://peacefulscience.org/wp-content/uploads/2019/07/cropped-PS-logo-stacked-white.png  ' width="400">
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="bg-dark text-white shadow">
+<div class="container">
+  <div class="row pt-5 pb-5 justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h1>Whatever your personal beliefs,<br> we saved a chair for you.</h1>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="shadow-inset">
+<div class="container">
+  <div class="row pt-5 pb-5 justify-content-center">
+    <div class="col-lg-6 text-center">
+    
+    <h2>What are your questions?</h2>
+    
+The forum is rowdy, because science is rowdy. 
+
+<p> <p>But scientists take good faith questions seriously, <br> and we want to engage with you.
+
+    </div>
+    <div class="w-100 p-2"></div>
+       {{ range $articles }}
+         {{ .Render "mediabox2" }}
+       {{ end }}
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<div style="background-image: linear-gradient(0deg,#aaa,#000000)">
+<div class="container pt-3" role="main">
+    <div class="row justify-content-center">
+          <div class="pt-5 col-lg-6 text-center text-white">
+              {{ .Content | markdownify  }}
+              
+              
+              <a href="https://discourse.peacefulscience.org/" target="_blank" class="font-special my-5 btn btn-primary btn-lg">Visit the Forum</a>
+          </div>
+    </div>
+</div>
+</div>
+
+
+{{ end }}
