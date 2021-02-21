@@ -16,8 +16,16 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
   color: black;
   position:relative;
   font-family: AlverataSb;
+  
 };
 
+p {
+padding-left: 1rem;
+}
+
+ol li:not(:last-child) {
+padding-bottom: 0.5rem;
+}
 article img { 
   width: 100%;
 };
@@ -25,6 +33,37 @@ article img {
 blockquote {
   padding-left: 2em;
 }
+
+.font-special {
+ font-family: AlverataSb;
+}
+
+.font-native {
+ font-family: $font-family-sans-serif;
+}
+
+div.mce_inline_error {
+	position: fixed;
+  @extend .font-native;
+  font-size: smaller;
+}
+
+#mc_embed_signup:not(:focus-within) {
+  div.mce_inline_error,#mce-error-response,#mce-success-response  {
+  display: none !important; }
+}
+  
+
+
+#mce-error-response,#mce-success-response {
+  @extend .font-native;
+  @extend .p-5;
+  position: fixed;
+  
+  background-color: white;
+}
+
+
 
 .navbar,.title,.author,.button,.label {
   font-family: AlverataSb;
@@ -142,11 +181,17 @@ a.external::after {
 }
 
 .excerpt {
+  @extend .font-native;
   line-height: 1.1;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
+.text-white {
+  h1,h2,h3,h4,h5,h6 {
+    @extend .text-white;
+  }
+}
 .text-smaller {
   font-size: smaller;
 }
@@ -154,10 +199,30 @@ a.external::after {
   font-size: larger;
 }
 
+.shadow-inset {
+box-shadow:   inset 0 0 1rem #000000;
+}
+
 
 .shake {
-  animation: pulse .5s ease 0s infinite alternate;
+  animation: shaking 10s linear 0s infinite;
+  
+  &:focus-within {
+    animation: none;
+  }
 
+}
+
+.col-article {
+  @extend .px-1;
+  width: 530px;
+  position: relative;
+  
+}
+
+.col-left-side {
+  @extend .px-1;
+ width: 300px;
 }
 
 @keyframes pulse {
@@ -224,7 +289,16 @@ a.external::after {
 }
 
 .article-title {
-  font-size: 50pt;
+  font-size: 40pt;
+  font-family: AlverataSb;
+@extend .py-1;
+
+}
+
+.article-date {
+@extend .py-1;
+  @extend .text-muted;
+font-family: AlverataSb !important;
 }
 
 .footnotes {
@@ -237,6 +311,9 @@ a.external::after {
 background: linear-gradient(160deg,#a5a5a5,#82a582);
 }
 
+.gae-header-bg {
+background:  linear-gradient(-45deg,#262626,#6ea36a);
+}
 
 svg:not(:root) {
   overflow: hidden;
@@ -296,4 +373,53 @@ sup,.doc-endnote,.anchor {}
 	path {
 		transition: all 0.3s ease;
 	}
+}
+
+
+
+
+.article-grid {
+
+    display: grid;   
+    grid-template-columns: 100%;
+    grid-column-gap: 30px;
+
+
+   @include media-breakpoint-up(md) {
+    grid-template-columns: calc(25% + 80px) minmax(calc(75% - 120px), 576px) ;
+   }
+   
+   @include media-breakpoint-up(xl) {
+    grid-template-columns: calc(25% + 80px) minmax(300px, 576px) auto;
+   }
+}
+
+.left-sidebar {
+    @include media-breakpoint-up(md) {
+        grid-row: 1/ span 2;
+    }
+
+}
+
+.title-bar {
+grid-column: 1;
+   @extend .my-5;
+   @extend .p-3;
+      
+    @include media-breakpoint-up(md) {
+        grid-column: 2 /span 2 ;
+    }      
+}
+
+.article-cell {
+@extend .px-3;
+}
+
+.right-sidebar {
+@extend .py-2;
+display: none;
+@include media-breakpoint-up(xl) {
+ display: block;
+}
+
 }
