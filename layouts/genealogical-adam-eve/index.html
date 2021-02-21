@@ -1,0 +1,62 @@
+
+
+
+{{ define "main" }}
+
+
+{{ $gae := partial "getpages" .Params.Articles.Featured }}
+{{ $mistake := partial "getpages" .Params.Articles.Mistakes }}
+{{ $errata := partial "getpages" .Params.Articles.Errata }}
+
+{{ $used := $gae | union $mistake | union $errata }}
+
+{{ $latest := first 10 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used ) }}
+
+
+<div class="gae-header-bg shadow" style="z-index:100;position: relative;">
+<div class="container">
+  <div class="row pt-5 pb-5">
+
+    <div class="col-lg-6 text-center text-lg-right">
+    
+      <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
+      <img class="gae-cover shadow" src='https://peacefulscience.org/wp-content/uploads/2019/07/gae-cover-swamidass.jpg' width="240" height="360">
+      </a>
+          
+    </div>
+    <div class="col-lg-6 text-larger pt-5 text-white">
+      <h3 class="text-white">The best science opens up space to engage larger questions together. </h3>
+  
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div style="background-color: #eee;">
+<div class="container pt-3" role="main">
+    <div class="row justify-content-center">
+      {{ partial "heading" (dict "Text" "Articles" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
+
+      {{ range $gae }}
+        {{ .Render "mediabox1" }}
+      {{ end }}
+    </div>
+</div>
+</div>
+
+
+<div style="background-color: #eee">
+<div class="container pt-3" role="main">
+    <div class="row justify-content-center">
+      {{ partial "heading" (dict "Text" "Latest" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
+
+      {{ range $latest }}
+        {{ .Render "mediabox1" }}
+      {{ end }}
+    </div>
+</div>
+</div>
+
+
+{{ end }}
