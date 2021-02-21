@@ -13,20 +13,42 @@
       
       
         {{ range $menu }}
-            {{ if eq .URL $currentPage.RelPermalink }}
+
+
+            {{ if .Children }}
+               <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Pre }}{{ .Name }}</a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 {{ range .Children }}
+                    
+                    {{ if  eq .URL $currentPage.RelPermalink }}
+                      <a class="dropdown-item active" href="#">  {{ .Pre }}{{ .Name }} <span class="sr-only">(current)</span></a>
+                    {{ else }}
+                      <a class="dropdown-item " href="{{ .URL | absURL }}">  {{ .Pre }}{{ .Name }}</a>
+                    {{ end }}
+                 {{ end }}
+                </div>
+                </div>
+                            
+            {{ else }}
+                {{ if eq .URL $currentPage.RelPermalink}}
                 <li class="nav-item active">  
                     <a class="nav-link" href="#">{{ .Pre }}{{ .Name }} <span class="sr-only">(current)</span></a>
                 </li>
-                
-            {{ else }}
-                <li class='nav-item'> 
-                    <a class="nav-link" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a>
+                {{ else }}
+                <li class="nav-item ">  
+                    <a class="nav-link" href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}</a>
                 </li>
+                {{ end }}
+                
             {{ end }}
+
         {{ end }}
       
     </ul>
 
-      <a href="http://eepurl.com/dINfpn" target="_blank" class="btn btn-outline-light my-4 my-sm-2 shake" >Join Our Mailing List</a>
+{{ partial "mailinglist" . }}
+
+<!-->      <a href="http://eepurl.com/dINfpn" target="_blank" class="btn btn-outline-light my-4 my-sm-2 shake" >Join Our Mailing List</a> -->
   </div>
 </nav>
