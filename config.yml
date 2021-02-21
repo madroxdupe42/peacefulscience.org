@@ -4,6 +4,9 @@ languageCode: "en-us"
 
 enableGitInfo: true
 
+module:
+  imports:
+  - path: hugo-module-tnd-imgix
 
 related:
   includeNewer: true
@@ -20,6 +23,11 @@ related:
   toLower: false
 
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 outputformats:
   Algolia:
     baseName: "algolia"
@@ -28,10 +36,15 @@ outputformats:
     notAlternative: true
     
 params:
+  tnd_imgix:
+    domain: imgix.project.net
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
-    
+  headerType: none
+
+
+
 outputs: 
   home: ["HTML", "RSS", "Algolia"   ]
     
@@ -53,8 +66,6 @@ menu:
     url: /articles/mission-and-values/
     weight: -100
 
-params:
-  headerType: none
 
 taxonomies:
   category: categories
