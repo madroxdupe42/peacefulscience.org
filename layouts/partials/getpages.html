@@ -1,0 +1,8 @@
+
+
+{{ $articles := (slice ) }}
+{{ range . }}
+   {{ $articles = $articles | append (site.GetPage .) }}
+{{ end }}
+
+{{ return $articles }} 

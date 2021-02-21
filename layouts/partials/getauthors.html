@@ -1,0 +1,8 @@
+{{ $authors := (slice ) }}
+
+{{- range . }}
+     {{ $authors = $authors | append (site.GetPage  (printf "/authors/%s" (urlize .)) )}}
+{{- end }}
+
+
+{{ return $authors }}
