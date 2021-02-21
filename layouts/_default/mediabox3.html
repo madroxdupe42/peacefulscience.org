@@ -1,12 +1,25 @@
+{{ $src := true}}
+{{ with .Params.headerImage.Src }}
+
+  {{ if site.IsServer }}
+    {{ $src = . }}
+  {{ else }}
+    {{ $args := dict "src" . "width" 696 "height" 392}}
+    {{ with partialCached "tnd-imgix/GetSRC" $args $args }}
+      {{ $src = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}  
+
 <article class="col-6 col-md-3 d-flex p-3  text-smaller">
 
   <div class="w-100"> 
   
   <a href="{{.Permalink}}"> 
-  <div class="w-100 aspect-wide-screen flex-shrink-0 mb-1 rounded d-print-none" style="background-image: url('{{.Params.headerImage.Src}}?resize=696%2C392&ssl=1')"> </div>
+  <div class="w-100 aspect-wide-screen flex-shrink-0 mb-1 rounded d-print-none" style=" background-position: center; background-image: url('{{$src}}')"> </div>
   </a>
    
-    <a class="title d-block" href="{{.Permalink}}"> {{ .Params.page_title | default .Title  | safeHTML }} </a>
+    <a class="title d-block" href="{{.Permalink}}"> {{ .Params.page_title | default .Title  | markdownify  }} </a>
 
     <span>
     {{- with .Params.authors }}
