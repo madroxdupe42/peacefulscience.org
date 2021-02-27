@@ -1,5 +1,5 @@
 title: "Peaceful Science"
-baseURL: "http://test.peacefulscience.org/"
+baseURL: "https://peacefulscience.netlify.app/"
 languageCode: "en-us"
 
 enableGitInfo: true
