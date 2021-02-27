@@ -1,15 +1,23 @@
-var plugins = {};
+var plugins = [];
+const purgecss = require('@fullhuman/postcss-purgecss')
+
+
+plugins.push(require("autoprefixer"));
 
 if (process.env.HUGO_ENVIRONMENT === 'production') {
-  plugins['@fullhuman/postcss-purgecss'] = {
-    content: [
-      './themes/**/*.html',
-      './layouts/**/*.html'
-    ]
-  }
+  console.warn("Production Build...");
+  plugins.push(purgecss( {
+       content: [
+        './themes/**/*.html',
+        './layouts/**/*.html'
+       ]
+  }))
+}
+else { console.warn("NOT Production Build...");
 }
 
-plugins['autoprefixer'] = {};
+
+
 
 module.exports = {    
   plugins: plugins 
