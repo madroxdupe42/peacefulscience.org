@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "@fullhuman/postcss-purgecss": "latest",
+    "bootstrap": "4.x",
+    "jquery": "latest",
+    "popper.js": "latest"
+  }
+}
