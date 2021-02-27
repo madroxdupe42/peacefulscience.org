@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "autoprefixer": "latest",
-    "postcss": "latest",
+    "postcss-cli": "latest",
     "@fullhuman/postcss-purgecss": "latest",
     "bootstrap": "4.x",
     "jquery": "latest",
