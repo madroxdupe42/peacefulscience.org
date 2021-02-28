@@ -3,6 +3,7 @@ baseURL: "https://peacefulscience.netlify.app/"
 languageCode: "en-us"
 
 enableGitInfo: true
+disableAliases: true
 
 module:
   imports:
@@ -21,20 +22,34 @@ related:
     weight: 50
   threshold: 80
   toLower: false
-
+  
+enableRobotsTXT: true
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
+
+mediaTypes:
+  text/prs.netlify:
+    suffixes: [""]
+    delimiter: ""
+    
 outputformats:
   Algolia:
     baseName: "algolia"
     isPlainText: true
     mediaType: "application/json"
     notAlternative: true
+  redir:
+    mediatype: text/prs.netlify
+    baseName: _redirects
+    isPlainText: true
+    notAlternative: true
     
+outputs:
+  home: ["HTML", "RSS", "redir"]
 params:
   tnd_imgix:
     domain: imgix.project.net
@@ -44,9 +59,6 @@ params:
   headerType: none
 
 
-
-outputs: 
-  home: ["HTML", "RSS", "Algolia"   ]
     
 menu:
   main:
