@@ -5,10 +5,6 @@ languageCode: "en-us"
 enableGitInfo: true
 disableAliases: true
 
-module:
-  imports:
-  - path: hugo-module-tnd-imgix
-
 related:
   includeNewer: true
   indices:

@@ -1,15 +1,11 @@
-{{ $src := true}}
+{{ $src := true }}
 {{ with .Params.headerImage.Src }}
 
-  {{ if site.IsServer }}
-    {{ $src = . }}
-  {{ else }}
-    {{ $args := dict "src" . "width" 696 "height" 392}}
-    {{ with partialCached "tnd-imgix/GetSRC" $args $args }}
-      {{ $src = . }}
-    {{ end }}
-  {{ end }}
+  {{ $args := querify  "nf_resize" "fit" "w" 696 "h" 392}}
+  {{ $src = printf "%s?%s" . $args }}
+  
 {{ end }}  
+
 
 <article class="col-12 d-flex p-3  text-smaller">
 

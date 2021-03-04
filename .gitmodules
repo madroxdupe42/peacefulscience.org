@@ -4,6 +4,3 @@
 [submodule "themes/flexible-seo-hugo"]
 	path = themes/flexible-seo-hugo
 	url = https://github.com/pjbakker/flexible-seo-hugo.git
-[submodule "themes/hugo-module-tnd-imgix"]
-	path = themes/hugo-module-tnd-imgix
-	url = https://github.com/theNewDynamic/hugo-module-tnd-imgix
