@@ -1,6 +1,11 @@
 # Netlify redirects
+
+# From aliases frontmatter
 {{ range $p := site.Pages -}}
   {{- range .Aliases -}}
 {{ . }} {{ $p.RelPermalink }}
 {{ end -}}
 {{- end -}}
+
+# from redirects partial
+{{ partial "redirects" }}
