@@ -8,6 +8,7 @@ if (process.env.HUGO_ENVIRONMENT === 'production') {
   plugins.push(purgecss( {
        content: [
         './public/**/*.html',
+        './layout/**/*.html',
        ]
   }))
 }
