@@ -19,7 +19,9 @@
 {{ $used := union $used $art }}
 
 
-{{ $gae := first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used) }}
+
+
+{{ $gae := partial "getpages" .Params.Articles.Gae }}
 {{ $used := union $used $gae }}
 
 
@@ -29,7 +31,7 @@
 
 
 
-<div style="background-color: #dfdfdf;background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('https://peacefulscience.org/wp-content/uploads/2020/12/hex-green-leaves-scaled.jpeg'); background-size:cover;background-position:center top;">
+<div style="background-color: #dfdfdf;background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('/img/design/hex-green-leaves-scaled.jpeg'); background-size:cover;background-position:center top;">
 <div class="container">
   <div class="row pt-5 pb-5">
     <div class="col p-5 text-center">
@@ -122,7 +124,7 @@
 <div class="shadow gae-header-bg" style="position: relative; z-index: 200">
 <div class="container py-4" role="main">
   <div class="row justify-content-center dark">
-     {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve") }}
+     {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/categories/gae/") }}
      <div class="col pt-3" >
       <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
       <img class="gae-cover mr-lg-auto mx-auto d-block" src='https://peacefulscience.org/wp-content/uploads/2019/07/gae-cover-swamidass.jpg' width="120" height="180">
@@ -145,7 +147,7 @@
 <div style="background-color: #dfdfdf">
 <div class="container" role="main">
     <div class="row justify-content-center pt-3 pb-5 ">
-      {{ partial "heading" (dict "Text" "More Articles"  "Class" "heading-black") }}
+      {{ partial "heading" (dict "Text" "More Articles"  "Class" "heading-black" "Link" "/archive/") }}
 
       {{ range $articles }}
         {{ .Render "mediabox3" }}
