@@ -2,25 +2,43 @@
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 {{- $showGeneratedList := $.Params.showGeneratedList | default $.Site.Params.showGeneratedList | default true }}
 {{- $showItemMeta := $.Params.showItemMeta | default $.Site.Params.showItemMeta | default true }}
-<div class="container" role="main">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-  {{ if eq $showBreadcrumbs true -}}
-    {{ partial "breadcrumbs.html" ( dict "ctx" . "output_type" "list" ) }}
-  {{- end }}
-    </div>
-  </div>
-  <h1> {{ .Title }} </h1>
+
+
+
+
+<div class="gae-header-bg shadow" style="z-index:100;position: relative;">
+<div class="container">
+  <div class="row pt-5 pb-5 justify-content-center text-white">
+
+  {{ $title := .Title }}
   {{- with .Content }}
-  <article>
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
+  <div class="col-7">
+        <h1 class="text-white  display-2"> {{ $title }} </h1> 
+  </div>
+  <div class="col-lg-5">
         {{- . -}}
+  </div>
+  {{ else }}
+  <div class="col-12">
+        <h1 class="text-white  display-2"> {{ $title }} </h1> 
+  </div>
+  {{- end }}
+
+  </div>
+</div>
+</div>
+
+
+
+<div class="container">
+  <div class="row justify-content-center">
+  </div>
+  {{ if eq $showGeneratedList true -}}
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-12 posts-list">
+		{{ template "_internal/pagination.html" . }}
       </div>
     </div>
-  </article>
-  {{- end }}
-  {{ if eq $showGeneratedList true -}}
 
     <div class="row justify-content-center mt-3">
         {{ range .Paginator.Pages }}
@@ -28,7 +46,7 @@
         {{ end }}
     </div>
     <div class="row justify-content-center mt-3">
-      <div class="col-lg-8 posts-list">
+      <div class="col-lg-12 posts-list">
 		{{ template "_internal/pagination.html" . }}
       </div>
     </div>

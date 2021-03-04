@@ -1,4 +1,4 @@
 <a href="{{ .Destination }}" 
-{{- if not (in .Destination "peacefulscience.org") }} class="external" target="_blank" rel="noopener nofollow"{{ end -}} 
-{{ if in .Destination "discourse.peacefulscience.org" }} target="_blank" {{- end -}}
+{{- if not (in .Destination "peacefulscience.org") }} class="external-link" target="_blank" rel="noopener nofollow"{{ end -}} 
+{{ if in .Destination "discourse.peacefulscience.org" }} class="forum-link" target="_blank" {{- end -}}
  {{- with .Title }} title="{{ . }}" {{- end -}}>{{.Text | safeHTML}}</a>

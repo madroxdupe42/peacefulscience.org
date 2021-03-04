@@ -2,12 +2,13 @@
 {{- range .Data.Pages -}}
   {{- if not .Params.private -}}
     {{- $priority := cond (eq true .Params.feature) "1.0" .Sitemap.Priority -}}
+    {{- $priority = cond (eq true .IsPage) "0.8" $priority -}}
     {{- $ageDays := div (sub now.Unix .Lastmod.Unix ) 86400 -}}
     {{- $change := .Sitemap.ChangeFreq | default "weekly" }}
 	  <url>
 	    <loc>{{ .Permalink }}</loc>
 	    <lastmod>{{ safeHTML ( .Date.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
-	    <changefreq>{{ cond (lt $ageDays  14) "daily" $change }}</changefreq>
+	    <changefreq>{{ cond (lt $ageDays  7) "hourly" $change }}</changefreq>
 	    <priority>{{ $priority }}</priority>
 	  </url>
   {{ end }}
