@@ -1,13 +1,14 @@
 [build]
-  command = "hugo -b $DEPLOY_PRIME_URL"
-  publish = "public/"
-  HUGO_VERSION = "0.80.0"
+command = "hugo -b $DEPLOY_PRIME_URL"
+publish = "public/"
+HUGO_VERSION = "0.80.0"
   
 
 [context.production.environment]
-  HUGO_ENV = "production"
-
+HUGO_ENV = "production"
+UGO_VERSION = "0.80.0"
+  
 [context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts"
-
+command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts"
+HUGO_VERSION = "0.80.0"
 
