@@ -1,3 +1,4 @@
+node_modules
 .ipynb_checkpoints
 public
 cache
@@ -5,3 +6,6 @@ cache
 wp
 assets/css/bootstrap*
 migrate.ipynb
+
+# Local Netlify folder
+.netlify
