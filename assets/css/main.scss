@@ -176,7 +176,18 @@ a.external-link::after {
   line-height: 1.1;
 }
 
+.view-count::before {
+  content: ' \f06e';
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;  
+  font-weight:900;
+  line-height: 1.1;
+}
 
+.view-count {
+  font-size:smaller;
+  @extend .text-muted;
+}
 
 a.forum-link::after {
   content: ' \f075';
