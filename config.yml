@@ -26,6 +26,10 @@ markup:
     renderer:
       unsafe: true
 
+cache:
+  getjson:
+    dir: :cacheDir/:project
+    maxAge: 7.5hr
 
 mediaTypes:
   text/prs.netlify:

@@ -2,6 +2,8 @@
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 
 
+{{ $PAGES := partialCached "byviews" . }}
+
 
 
 
@@ -16,21 +18,21 @@
 </div>
 <div class="title-bar">
 
-    <div class="article-date"> {{ .PublishDate.Format "January 2, 2006" }} </div>
-    
+    <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
+       {{ with .Scratch.Get "Views" }}
+    <div class="view-count d-inline float-right mr-5"> {{ . }}</div>
+    {{ end }}
+
     <div class="article-title">{{ .Params.page_title | default .Title | markdownify }}</div>
 
-
     <div class="mb-2">
-
     {{ with .Params.authors  }}
       {{ range (partial "getauthors" .) }}
         <a class="pr-2 author" href="{{ .Permalink }}"> {{ .Title }} </a>
       {{ end }}
     {{ end }}
-
     </div>
-
+        
     <div class="mb-5">
     {{- range .Params.categories }}
       {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
@@ -38,7 +40,8 @@
       {{- end }}
     {{- end }}
     </div>
-    
+
+  
 </div>
 <article class="article-cell pb-5">
       {{ .Content }}
@@ -106,22 +109,7 @@
   </div>
 </div>
 </div>
-<!--
-      {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
-    <div class="row justify-content-center pb-5 mb-5">
-        <div class="col-lg-12 border-top mt-5">
-	{{ if .PrevPage }}
-        <div class="w-50 d-inline-block float-left"> <a class="link-reverse" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }}</a> </div>
-	{{ end }}
 
-        {{ if .NextPage }}
-        <div class="w-50 text-right d-inline-block float-right"> <a class="link-reverse" href="{{ .NextPage.Permalink }}">{{ .NextPage.Title }}</a> </div>
-        {{ end }}
-
-        </div>
-    </div>
-    
--->
 
 <script type="application/json" class="js-hypothesis-config">
   {

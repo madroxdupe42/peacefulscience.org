@@ -1,0 +1,58 @@
+{{ $alltime := getJSON "https://raw.githubusercontent.com/PeacefulScience/analytics/master/mostread.json" }}
+
+{{ $collection := (slice ) }}
+
+{{ range $alltime }}
+  {{ $data := . }}
+  {{ with site.GetPage (index . 0) }}
+    {{ $counts := (int (index $data 1)) }}
+    {{ $item := (dict "Page" . "Counts" $counts) }}
+    {{ .Scratch.Set "Views" $counts  }}
+    {{ $collection = $collection | append (slice $item)  }}
+  {{ end }}
+{{ end }}
+
+{{ $out := (slice )}}
+{{ range sort $collection "Counts" "desc" }}
+  {{ $out = $out | append .Page }}
+{{ end }}
+{{ $byviews := $out }}
+
+{{ $collection := (slice ) }}
+
+{{ range $alltime }}
+  {{ $data := . }}
+  {{ with site.GetPage (index . 0) }}
+    {{ $counts := (int (index $data 1)) }}
+    {{ $item := (dict "Page" . "Counts" $counts) }}
+    {{ .Scratch.Set "Sessions" $counts  }}
+    {{ $collection = $collection | append (slice $item)  }}
+  {{ end }}
+{{ end }}
+
+{{ $out := (slice )}}
+{{ range sort $collection "Counts" "desc" }}
+  {{ $out = $out | append .Page }}
+{{ end }}
+{{ $bysessions := $out }}
+
+{{ $trending := getJSON "https://raw.githubusercontent.com/PeacefulScience/analytics/master/trending.json" }}
+
+{{ $collection = (slice ) }}
+{{ range $trending }}
+  {{ $data := . }}
+  {{ with site.GetPage (index . 0) }}
+    {{ $counts := add (index $data 1)  (mul 2 (index $data 2)) }}
+    {{ $item := (dict "Page" . "Counts" $counts) }}
+    {{ .Scratch.Set "Trending" $counts }}
+    {{ $collection = $collection | append (slice $item)  }}
+  {{ end }}
+{{ end }}
+
+{{ $out := (slice )}}
+{{ range sort $collection "Counts" "desc" }}
+  {{ $out = $out | append .Page }}
+{{ end }}
+{{ $bytrending := $out }}
+
+{{ return (dict "ByTrending" $bytrending "ByViews" $byviews "BySessions" $bysessions) }}
