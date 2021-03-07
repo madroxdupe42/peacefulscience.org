@@ -1,0 +1,3 @@
+---
+title: William Lane Craig
+---
