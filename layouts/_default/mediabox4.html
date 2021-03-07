@@ -2,7 +2,7 @@
 {{ with .Params.headerImage.Src }}
 
   {{ $args := querify  "nf_resize" "smartcrop" "w" 696 "h" 392}}
-  {{ $src = printf "%s?%s" . $args }}
+  {{ $src = printf "%s?%s" . $args | absURL }}
   
 {{ end }}  
 

@@ -2,7 +2,7 @@
 {{ with .Params.headerImage.Src }}
 
   {{ $args := querify  "nf_resize" "smartcrop" "w" 696 "h" 392}}
-  {{ $src = printf "%s?%s" . $args }}
+  {{ $src = printf "%s?%s" . $args | absURL }}
   
 {{ end }}  
 
@@ -11,7 +11,7 @@
   <div>
   
   <a href="{{.Permalink}}">
-  <div class="aspect-wide-screen flex-shrink-0 rounded mb-1 d-print-none" style=" background-position: center; background-image: url('{{$src}}')"> </div>
+  <div class="aspect-wide-screen flex-shrink-0 rounded mb-1 d-print-none w-100" style=" background-position: center; background-image: url('{{$src}}')"> </div>
   </a>
   
     <a class="title d-block" href="{{.Permalink}}"> {{ .Params.page_title | default .Title | markdownify  }}</a> 
