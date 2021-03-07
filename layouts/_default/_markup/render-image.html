@@ -6,7 +6,7 @@
 {{/* If we have a .Destination, we can process everything. */}}
 {{ with .Destination }}
    
-  {{ $args := querify "w" 696}}
+  {{ $args := querify "w" 696 "nf_resize" "fit"}}
   {{ $src = printf "%s?%s" . $args }}
   
   {{/* If we have a .Title we use it */}}
