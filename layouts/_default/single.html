@@ -8,13 +8,13 @@
 
 
 <div class="article-grid">
-<div class="left-sidebar" style="position: relative; height: min(max(80%, 200vh), 100%)">
-      <div class="d-none d-md-block" style="position: absolute; top:0px; width: 100%; height: 100%; background: #232;"></div>
+<div class="left-sidebar" style="position: relative; height: min(250vh, 100%)">
+      <div class="d-none d-md-block" style="position: absolute; top:0px; width: 100%; height: 100%; background: #dfdfdf;"></div>
      
       {{- with .Params.headerImage.Src }}
-          <img src="{{.}}" class="bg-white w-100 position-sticky" style="top:100px"> </img>
+          <img src="{{ . }}?nf_resize=fit&w=600" class="w-100 position-sticky" style="top:100px"> </img>
       {{- end }}
-      <div class="d-none d-md-block" style="position: absolute; top:20%; width: 100%; height: 80%; background-image: linear-gradient(#fff0,white); pointer-events: none"></div>
+      <div class="d-none d-md-block" style="position: absolute; top:40%; width: 100%; height: 60%; background-image: linear-gradient(#fff0,white); pointer-events: none"></div>
 </div>
 <div class="title-bar">
 
@@ -47,20 +47,19 @@
       {{ .Content }}
 </article>
 
-<div class="right-sidebar pb-5 pr-5">
+<div class="right-sidebar pb-5 pr-5" style="position: relative">
 
-		  <nav class="toc navbar pr-0" > 
+	<nav class="toc navbar pr-0" > 
             {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
-            
             <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
 				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
 			</svg>
-		  </nav>
-		  
-		  
-<script src="js/navprogress.js"></script>
-
+	</nav>
+		  		  
+    <script src="js/navprogress.js"></script>
+    <div class="d-none d-md-block w-100" style="position: absolute; top:calc(100% - 1000px); height: min(1000px, 100%); background-image: linear-gradient(#fff0,#fffd,#ffff); pointer-events: none"></div>
 </div>
+
 </div>
 
 
