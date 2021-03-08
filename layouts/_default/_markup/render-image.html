@@ -15,13 +15,13 @@
 
 {{- with .Destination  -}}   
   {{- $args := querify "w" 696 "nf_resize" "fit" -}}
-  {{- $src = printf "%s?%s" . $args  -}}
+  {{- $src = printf "%s?%s" ( . | absURL ) $args  -}}
 {{- end  -}}
 
 
 <div class="bg-white shadow my-5">
 <img 
-  src="{{- $src | absURL -}}"
+  src="{{- $src -}}"
   class="w-100"
 
   {{- with $title  -}}
