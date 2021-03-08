@@ -1,38 +1,36 @@
 
-{{ $src := false }}
-{{ $title := false }}
-{{ $alt := false }}
+{{- $src := .Destination  -}}
+{{- $src = index (split $src "?") 0 -}}
+{{- $title := .Title  -}}
+{{- $alt := .Text  -}}
 
-{{/* If we have a .Destination, we can process everything. */}}
-{{ with .Destination }}
-   
-  {{ $args := querify "w" 696 "nf_resize" "fit"}}
-  {{ $src = printf "%s?%s" . $args }}
-  
-  {{/* If we have a .Title we use it */}}
-  {{ with $.Title }}
-    {{ $title = . }}
-  {{ end }}
-  
-  {{/* If we have a .Text we use it */}}
-  {{ with $.Text }}
-    {{ $alt = . }}
-  {{ end }}
-{{ end }}
+
+{{- if findRE "/img/" $src -}}
+{{- if not (fileExists $src) -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
+{{- else -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
+
+{{- with .Destination  -}}   
+  {{- $args := querify "w" 696 "nf_resize" "fit" -}}
+  {{- $src = printf "%s?%s" . $args  -}}
+{{- end  -}}
 
 
 <div class="bg-white shadow my-5">
 <img 
-  src="{{ $src }}"
+  src="{{- $src | absURL -}}"
   class="w-100"
 
-  {{ with $title }}
-    alt="{{ . }}"
-  {{ end }}
+  {{- with $title  -}}
+    alt="{{- .  -}}"
+  {{- end  -}}
 />
-  {{ with $alt }}
+  {{- with $alt  -}}
   <div class="text-smaller p-4">
-     {{ .  | markdownify }}
+     {{- .  | markdownify  -}}
   </div>
-  {{ end }}
+  {{- end  -}}
 </div>

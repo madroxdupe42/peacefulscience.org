@@ -1,4 +1,49 @@
-<a href="{{ .Destination }}" 
-{{- if not (in .Destination "peacefulscience.org") }} class="external-link" target="_blank" rel="noopener nofollow"{{ end -}} 
-{{ if in .Destination "discourse.peacefulscience.org" }} class="forum-link" target="_blank" {{- end -}}
- {{- with .Title }} title="{{ . }}" {{- end -}}>{{.Text | safeHTML}}</a>
+{{- $dest := .Destination -}}
+{{- $url := urls.Parse ( $dest | absURL ) -}}
+{{- $basehost := (urls.Parse site.Params.baseURL).Host -}}
+{{- $class := default nil -}}
+{{- $rel := default nil -}}
+{{- $target :=  default nil -}}
+
+{{- if in (slice "peacefulscience.org" $basehost) $url.Host -}}
+  {{- $path := replaceRE ".*//peacefulscience.org" "" $dest -}}
+  {{- $path := replaceRE (printf ".*//%s"  $basehost) "" $path -}}
+  {{- $path := replaceRE "/$" "" $path -}}
+  {{- with site.GetPage $path -}}
+    {{- $dest = .Permalink -}}
+    {{/*- warnf "Remapped internal link: %s\t%s\t%s" $.Page.File.Path ($path ) $dest -*/}}
+    
+  {{- else -}}
+    {{- if  (findRE "pdf$" $path) -}}
+       {{- $pdf := replaceRE ".*/" "" $path -}}
+       {{- $pdffile := printf "static/pdf/%s" $pdf  -}}
+       {{- $pdfdest:= printf "/pdf/%s" $pdf | absURL -}}
+       {{- if fileExists $pdffile -}}
+          {{- $dest = $pdfdest -}}  
+       {{- end -}}
+          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.File.Path $pdf $pdfdest -}}      
+    {{- else -}}
+      {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.File.Path $dest -}}
+    {{- end -}}
+  {{- end -}}
+{{ else }}
+  {{- $class = "external-link" -}}
+  {{- $rel = "noopener nofollow" -}}
+  {{- $target = "_blank" -}}
+{{- end -}}
+
+{{- if eq $url.Host "discourse.peacefulscience.org" -}}
+  {{- $class = "forum-link" -}}
+  {{- $rel = default nil -}}
+{{- end -}}
+
+{{- if eq $url.Host "amazon.com" -}}
+   {{- $dest = printf "https://amazon.com/%s?%s" $url.Path "tag=swamidass-20" -}}
+{{- end -}}
+
+<a href="{{ $dest }}"
+{{- with $target }} target='{{ $target }}'{{- end -}}
+{{- with $rel }} rel='{{ $rel }}'{{- end -}}
+{{- with $class }} class='{{ $class }}'{{- end -}}
+{{- with .Title }} title="{{ . }}" {{- end -}}
+>{{ .Text | safeHTML}}</a>
