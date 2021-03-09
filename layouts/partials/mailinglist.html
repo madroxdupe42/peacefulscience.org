@@ -1,12 +1,17 @@
 <!-- Begin Mailchimp Signup Form -->
 
-<div id="mc_embed_signup" class="shake">
+{{ $params := (dict "EmailClass" "text-white" "ButtonClass"  "btn-outline-light" ) }}
+
+{{ $params =  merge $params . }}
+
+
+<div id="mc_embed_signup" class="">
 <form action="https://peacefulscience.us19.list-manage.com/subscribe/post?u=3b4602126e38b8a5951fd6fd1&amp;id=83bbf90a5a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	
-<div class="input-group">	
-	<input type="email" value="" name="EMAIL" class="form-control bg-dark border-0" placeholder="Your email address" id="mce-EMAIL">
+<div class="input-group font-special">	
+	<input type="email" value="" name="EMAIL" class="form-control bg-transparent border-0 {{$params.EmailClass}}" placeholder="Your email address" id="mce-EMAIL">
      <div class="input-group-append">
-       <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-outline-light font-special">
+       <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn {{$params.ButtonClass}}">
      </div>
 </div>
 

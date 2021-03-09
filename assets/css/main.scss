@@ -54,7 +54,10 @@ div.mce_inline_error {
   display: none !important; }
 }
   
-
+.focus-front:focus-within {
+ z-index: 1000;
+}
+  
 
 #mce-error-response,#mce-success-response {
   @extend .font-native;
@@ -329,6 +332,21 @@ font-family: AlverataSb !important;
   
 }
 
+@include media-breakpoint-down(sm) {
+  nav.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;   
+    border-radius: 0;
+    top: 0;
+    z-index: 1000;
+  }   
+  body {
+    margin-top: 50px;
+  }
+  
+}
+
 .article-header-bg {
 background: linear-gradient(160deg,#a5a5a5,#82a582);
 }
@@ -339,8 +357,8 @@ background:  linear-gradient(-45deg,#262626,#6ea36a);
 
 
 .comment-block {
-background:  linear-gradient(60deg,#999,#f5f5f5);
-@extend .border;
+background:  linear-gradient(0deg,#999,white);
+
 }
 
 
