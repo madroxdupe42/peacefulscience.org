@@ -18,13 +18,13 @@
       {{- with .Params.headerImage.Src }}
           <img src="{{ . }}?nf_resize=fit&w=600" class="w-100 position-sticky" style="top:100px"> </img>
       {{- end }}
-      <div class="d-none d-md-block" style="position: absolute; top:20%; width: 100%; height: 80%; background-image: linear-gradient(#dfdfdf00,#dfdfdfff); pointer-events: none"></div>
+      <div class="d-none d-md-block" style="position: absolute; top:20%; width: 100%; height: 81%; background-image: linear-gradient(#dfdfdf00,#dfdfdfff); pointer-events: none"></div>
   </div>
   <div style="position: relative; height: max(calc(100% - 150vh ), 20%)">
       <div class="d-none d-md-block border-secondary position-sticky border focus-front" style="top:70%; width: 100%; background: #white">
       {{ partial "mailinglist" (dict "EmailClass" "text-dark pl-3" "ButtonClass"  "text-muted" )  }}
       </div>
-      <div class="d-none d-md-block" style="z-index: 10; position: absolute; top:0%; width: 100%; height: 100%; background-image: linear-gradient(#fff0,#ffff); pointer-events: none"></div>
+      <div class="d-none d-md-block" style="z-index: 10; position: absolute; top:0%; width: 100%; height: 101%; background-image: linear-gradient(#fff0,#ffff); pointer-events: none"></div>
   </div>
 </div>
 <div class="title-bar">
@@ -54,7 +54,7 @@
 
   
 </div>
-<article class="article-cell pb-5">
+<article class="article-cell pb-5" style="z-index:10">
       {{ .Content }}
 </article>
 

@@ -1,13 +1,30 @@
 
-<div class="row m-5 p-0 border shadow" >
+{{- $src := .Get 0  -}}
+{{- $src = index (split $src "?") 0 -}}
+	
 
-<div class="col-md-6 px-0">
-<img src="{{- .Get 0 -}}">
-</div>
+{{- if findRE "/img/" $src -}}
+{{- if not (fileExists $src) -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
+{{- else -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
 
-<div class="py-3 col-md-6 text-smaller my-auto">
+{{- with $src  -}}   
+  {{- $args := querify "w" 696 "nf_resize" "fit" -}}
+  {{- $src = printf "%s?%s" ( . | absURL ) $args  -}}
+{{- end  -}}
+
+
+
+<aside class="bg-white mb-3 float-lg-right  ml-lg-3 mt-1" style="width: 400px; margin-right:-244px;">
+<img 
+  src="{{- $src -}}"
+  class="w-100 d-block"
+/>
+
+  <div class="text-smaller text-muted py-2">
 {{ .Get 1 | markdownify }}
-{{ .Inner | markdownify }}
-</div>
+</aside>
 
-</div>

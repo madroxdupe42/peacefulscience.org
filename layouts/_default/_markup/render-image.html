@@ -19,18 +19,18 @@
 {{- end  -}}
 
 
-<div class="bg-white shadow my-5">
+<aside class="bg-white mb-3 float-lg-right ml-lg-5 mt-1" style="width: 400px; margin-right:-244px;">
 <img 
   src="{{- $src -}}"
-  class="w-100"
+  class="w-100 d-block"
 
   {{- with $title  -}}
     alt="{{- .  -}}"
   {{- end  -}}
 />
   {{- with $alt  -}}
-  <div class="text-smaller p-4">
+  <div class="text-smaller text-muted py-2">
      {{- .  | markdownify  -}}
   </div>
   {{- end  -}}
-</div>
+</aside>
