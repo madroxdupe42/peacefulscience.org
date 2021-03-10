@@ -7,7 +7,7 @@ categories:
 - design
 - science
 - society
-commenturl: "http://discourse.peacefulscience.org/t/ken-miller-a-textbook-biologist-at-the-dover-trial/12410"
+commenturl: "https://discourse.peacefulscience.org/t/ken-miller-a-textbook-biologist-at-the-dover-trial/12410"
 date: "2020-11-15T04:44:14"
 description: Fifteen years ago in the Dover Trial, one of the star witnesses was Kenneth Miller, a textbook biologist. He has many stories to tell.
 headerimage:
@@ -21,7 +21,7 @@ Turns out that university biologists are not rewarded for writing textbooks. Mil
 
 {{< amazon `0134362659` `The "elephant book" was the first edition of the Miller-Levine Biology textbook. This was the book I used for sophomore biology back in 1993.` >}}
 
-In 1990 when it was published, the Milller-Levine textbook was special, a break from how Biology textbooks were usually written. This may have been the first Biology textbook written by two biology professors with active research programs. The textbook was far thicker and denser with information that all its competitors. One of the salespeople from a rival derisively referred to the book as "the elephant book." Miller's marketing team took that as an opportunity. The put an elephant on the cover, called it the elephant book, telling teachers "an elephant never forgets!"
+In 1990 when it was published, the Milller-Levine textbook was special, a break from how Biology textbooks were usually written. This may have been the first Biology textbook written by two biology professors with active research programs. The textbook was far thicker and denser with information than all its competitors. One of the salespeople from a rival derisively referred to the book as "the elephant book." Miller's marketing team took that as an opportunity. The put an elephant on the cover, called it the elephant book, telling teachers "an elephant never forgets!"
 
 Rather than just presenting settled answers, the textbook also raised open questions. Would Archea bacteria someday be considered a new kingdom of life? These bacteria are as different from most bacteria as these bacteria are from us! Miller's textbook posed the question. Sure enough, that is just what scientists came to understand of them. A whole new kingdom of life.
 

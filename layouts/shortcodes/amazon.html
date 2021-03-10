@@ -3,15 +3,15 @@
 
 
 
-<aside class="mb-3 mt-1 float-lg-right ml-lg-5  " width="336px" style="width: 336; margin-right:-244px;">
+<aside class="amazon-xl-right">
 
-<iframe type="text/html" width="336" height="550" class="d-block  mx-auto"
+<iframe type="text/html" width="336" height="550" class="d-block mx-auto"
 frameborder="0" allowfullscreen style="max-width:100%"
    src="https://read.amazon.com/kp/card?asin={{- .Get 0 -}}&preview=inline&linkCode=kpe&tag=swamidass-20" >
 </iframe>
 
   {{- with .Get 1  -}}
-  <div class="text-smaller d-block text-muted p-2" style="width:336px">
+  <div class="text-smaller d-block text-muted p-2 mx-auto" style="width:336px">
      {{- .  | markdownify  -}}
   </div>
   {{- end  -}}
