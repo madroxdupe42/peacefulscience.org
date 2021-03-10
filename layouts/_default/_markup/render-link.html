@@ -18,10 +18,10 @@
        {{- $pdf := replaceRE ".*/" "" $path -}}
        {{- $pdffile := printf "static/pdf/%s" $pdf  -}}
        {{- $pdfdest:= printf "/pdf/%s" $pdf | absURL -}}
-       {{- if fileExists $pdffile -}}
+       {{- if fileExists $pdffile  -}}
           {{- $dest = $pdfdest -}}  
        {{- end -}}
-          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.File.Path $pdf $pdfdest -}}      
+          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.File.Path $pdf $pdffile -}}      
     {{- else -}}
       {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.File.Path $dest -}}
     {{- end -}}

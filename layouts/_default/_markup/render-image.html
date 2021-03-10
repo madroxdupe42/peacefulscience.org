@@ -6,11 +6,11 @@
 
 
 {{- if findRE "/img/" $src -}}
-{{- if not (fileExists $src) -}}
-{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
-{{- end -}}
+  {{- if not (fileExists (printf "static%s" $src)) -}}
+   {{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+  {{- end -}}
 {{- else -}}
-{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+ {{- warnf "MISSING.IMG:\t%s\t%s" $.Page.File.Path $src -}}
 {{- end -}}
 
 {{- with .Destination  -}}   
@@ -19,7 +19,7 @@
 {{- end  -}}
 
 
-<aside class="bg-white mb-3 float-lg-right ml-lg-5 mt-1" style="width: 400px; margin-right:-244px;">
+<aside class="aside-xl-right">
 <img 
   src="{{- $src -}}"
   class="w-100 d-block"
