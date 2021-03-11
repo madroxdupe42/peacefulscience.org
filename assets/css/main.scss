@@ -332,6 +332,14 @@ box-shadow:   inset 0 0 1rem #000000;
   
 }
 
+.editor-note {
+  background: #dfdfdf;
+  font-size: smaller;
+  @extend .pt-3;
+  @extend .pb-1;
+  @extend .px-3;
+  @extend .mb-3;
+}
 
 @each $breakpoint in map-keys($grid-breakpoints) {
 .aside-#{$breakpoint}-right {
@@ -343,6 +351,8 @@ box-shadow:   inset 0 0 1rem #000000;
   float: right;
   width: 75%;
   margin: $spacer -37% $spacer $spacer * 2;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
  }
 }}
 
@@ -352,16 +362,26 @@ box-shadow:   inset 0 0 1rem #000000;
  display: block;
  margin: $spacer auto $spacer auto;
  float:none;
- border-bottom: 2px;
  width: 336px;
  @include media-breakpoint-up($breakpoint) {
   float: right;
   width: 336px;
   margin: $spacer -37% $spacer $spacer * 2;
+  
  }
 }}
 
-
+.editor-note {
+  background: #dfdfdf;
+  font-size: smaller;
+  p {
+    padding-left: 0rem;
+  }
+  @extend .aside-xl-right;
+  @include media-breakpoint-up(xl) {
+   background: none;
+ }
+}
 
 @include media-breakpoint-down(sm) {
   nav.navbar {
