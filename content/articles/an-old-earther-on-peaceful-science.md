@@ -2,7 +2,7 @@
 aliases:
 - /an-old-earther-on-peaceful-science/
 authors:
-- swamidass
+- mmoore
 categories:
 - dialogue
 - forum
@@ -14,17 +14,21 @@ headerimage:
 title: An Old Earther on Peaceful Science
 ---
 
-*![Mark Moore, Early Genesis Book Cover](https://i0.wp.com/images-na.ssl-images-amazon.com/images/I/51AiBlipeaL.jpg?resize=121%2C171&ssl=1)Mark M. Moore is an Old Earth Creationist (OEC), and has been an active participant on the Peaceful Science forums. He recently became one of our moderators.  Of note, Mark wrote an important book, [Early Genesis](https://www.amazon.com/Early-Genesis-Cosmology-Mark-Moore/dp/0996239014?tag=swamidass-20), on Genesis 1-11, where he independently comes to a reading of Genesis 1 and 2 which describes a population outside the garden.*
+<note class="editor-note">
 
-*For one entertaining exchange, look at [the blurry line between OEC and Theistic Evolution (TE)](https://discourse.peacefulscience.org/t/a-blurry-line-between-te-and-oec/317/32). When we realize that science is [silent] on God's action, the lines begin to blur. God could have inspired important mutations in our history.*
+Mark M. Moore is an Old Earth Creationist (OEC), and has been an active participant on the Peaceful Science forums. He recently became one of our moderators.  Of note, Mark wrote an important book, [Early Genesis](https://www.amazon.com/Early-Genesis-Cosmology-Mark-Moore/dp/0996239014?tag=swamidass-20), on Genesis 1-11, where he independently comes to a reading of Genesis 1 and 2 which describes a population outside the garden.
 
-*So, Mark found a home on the forums. I invited him to explain why he has found value in Peaceful Science. This is, after all, a blog and forum run by a scientist that affirms evolutionary science. Why would an OEC find himself here?*
+For one entertaining exchange, look at [the blurry line between OEC and Theistic Evolution (TE)](https://discourse.peacefulscience.org/t/a-blurry-line-between-te-and-oec/317/32). When we realize that science is [silent] on God's action, the lines begin to blur. God could have inspired important mutations in our history.
 
-------------------------------------------------------------------------
+So, Mark found a home on the forums. I invited him to explain why he has found value in Peaceful Science. This is, after all, a blog and forum run by a scientist that affirms evolutionary science. Why would an OEC find himself here?
 
-I (Mark Moore) have been an Old Earth Creationist for decades, since the 1990s, including when I taught earth and life science in public schools. During and after my time in the classroom I continued to take part in apologetics classes sponsored by an area church in which I vigorously argued against evolution as the sole explanation for the diversity of life on earth. For a time, though I had some doubts about the details of their model, I was a repeat donor to *Reasons to Believe*. I still have a lot of respect for their work in astronomy. Though, I now adhere to a different Scriptural framework than do they (the [Christ-Centered model for early Genesis](https://www.amazon.com/dp/B06XRLDYJB?tag=swamidass-20)), my views fall within the Old Earth Creationist Camp.
+</note>
+
+I have been an Old Earth Creationist for decades, since the 1990s, including when I taught earth and life science in public schools. During and after my time in the classroom I continued to take part in apologetics classes sponsored by an area church in which I vigorously argued against evolution as the sole explanation for the diversity of life on earth. For a time, though I had some doubts about the details of their model, I was a repeat donor to *Reasons to Believe*. I still have a lot of respect for their work in astronomy. Though, I now adhere to a different Scriptural framework than do they (the [Christ-Centered model for early Genesis](https://www.amazon.com/dp/B06XRLDYJB?tag=swamidass-20)), my views fall within the Old Earth Creationist Camp.
 
 So why would a person like me find home on the *Peaceful Science* forum? After all, Dr. Swamidass, who hosts the forum, endorses the view that evolution is the method by which God created everything from bacteria to people. And he not only holds this position, but proactively explains his position. So why would an Old Earth Creationist choose to identify with his forum? Why would I become a moderator here?
+
+{{< amazon `1733277803` >}}
 
 Not for some counterfeit understanding of "peace." I am unwilling to seek peace at the expense of integrity. I doubt that we will ever end all conflict in the origins debate any ways. The peace I hope for is the peace which comes from Christ, the one which "passes all understanding" and is therefore not dependent on tranquil circumstances to become manifest.
 
