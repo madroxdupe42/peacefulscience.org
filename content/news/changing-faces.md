@@ -13,7 +13,7 @@ headerimage:
 title: Changing Faces
 ---
 
-Walter Rogero, a long-time friend of *Peaceful Science*, has announced his resignation as [executive director](https://peacefulscience.org/rogero-executive-director/). Our other members and I are extremely appreciative of Walter's time and effort in our early stages. Walter has expressed his deep appreciation of the opportunity, gratitude for the community, and thankfulness for our friendship. We wish Walter the very best in his next endeavor.
+Walter Rogero, a long-time friend of *Peaceful Science*, has announced his resignation as executive director. Our other members and I are extremely appreciative of Walter's time and effort in our early stages. Walter has expressed his deep appreciation of the opportunity, gratitude for the community, and thankfulness for our friendship. We wish Walter the very best in his next endeavor.
 
 We are also pleased to announce a new face at *Peaceful Science*. Many of you already know her well: Victoria Swamidass. Victoria is a working mom, with two little boys, and she has extensive experience leading large-scale initiatives from the earliest stages. She cares deeply about the peace and dialogue we pursue, and she will be devoting more time to our efforts. Stay tuned for Victoria's bio; in the meantime, she may reach out to some of you for an informational interview. 
 
