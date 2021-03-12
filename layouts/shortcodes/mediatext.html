@@ -1,7 +1,8 @@
 
 {{- $src := .Get 0  -}}
 {{- $src = index (split $src "?") 0 -}}
-	
+
+{{- $class := .Get 2 | default "aside-xl-right" -}}
 
 {{- if findRE "/img/" $src -}}
 {{- if not (fileExists $src) -}}
@@ -18,13 +19,13 @@
 
 
 
-<aside class="bg-white mb-3 float-lg-right  ml-lg-3 mt-1" style="width: 400px; margin-right:-244px;">
+<aside class="{{ $class }}">
 <img 
   src="{{- $src -}}"
   class="w-100 d-block"
 />
 
-  <div class="text-smaller text-muted py-2">
+  <div class="text-smaller text-muted p-2">
 {{ .Get 1 | markdownify }}
 </aside>
 
