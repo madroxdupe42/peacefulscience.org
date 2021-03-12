@@ -1,0 +1,15 @@
+{{- $src := .src | absURL  -}}
+
+{{- if findRE "/img/" $src -}}
+{{- if not (fileExists $src) -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
+{{- else -}}
+{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
+{{- end -}}
+
+
+{{- $args := querify "w" 696 "nf_resize" "fit" -}}
+{{- $src = printf "%s?%s" $src $args  -}}
+
+{{ return $src  }}
