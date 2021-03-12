@@ -14,7 +14,7 @@ headerimage:
 title: The Same Gospel
 ---
 
-***The Gospel's Sameness** is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](https://peacefulscience.org/wp-content/uploads/2017/04/swamidass-confident-fatih.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+***The Gospel's Sameness** is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](https://peacefulscience.org/wp-content/uploads/2017/04/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
 
 ------------------------------------------------------------------------
 
