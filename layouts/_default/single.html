@@ -1,11 +1,8 @@
 {{ define "main" }}
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
-
-
 {{ $PAGES := partialCached "byviews" . }}
-
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
-
+<!-- article-question -->
 
 <div class="article-grid">
 <div class="left-sidebar" style="height: 100%; background-image: linear-gradient(-90deg, #ddd0, #ddd3, #ddd5, #ddd);">
@@ -31,7 +28,7 @@
     <script src="/js/navprogress.js"></script>
 
       </div>
-      <div class="d-none d-md-block hover-hide" style="z-index: 10; position: absolute; top:0%; width: 100%; height: 101%; background-image: linear-gradient(#fff0,#fff0,#ffff); pointer-events: none"></div>
+      <div class="d-none d-md-block" style="z-index: 10; position: absolute; top:0%; width: 100%; height: calc( 100% + 1px); background-image: linear-gradient(#fff0,#fff0,#ffff); pointer-events: none"></div>
   </div>
 </div>
 <div class="title-bar">
