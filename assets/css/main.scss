@@ -76,6 +76,23 @@ div.mce_inline_error {
  z-index: 1000;
 }
   
+  
+  
+.hover-front {
+ transition-duration: 1s;
+ &:hover {
+ transition-duration: 1s;
+ z-index: 1000;
+ }
+}
+
+.hover-hide {
+ transition-duration: 1s;
+ &:hover {
+ transition-duration: 1s;
+ opacity: 0;
+ }
+}
 
 #mce-error-response,#mce-success-response {
   @extend .font-native;
@@ -410,6 +427,26 @@ box-shadow:   inset 0 0 1rem #000000;
 	}
 }
 
+.hideme {
+pointer-events: none;
+    height: 0px;
+    z-index: -100px;
+    color: transparent;
+    background: transparent;
+    user-select: none;
+    @media (print) {display: none}
+}
+
+.article-question {
+  font-weight: 600;
+  @include media-breakpoint-up(xl){
+  margin-right: -20%;
+  }
+  p {padding-left: 0em; }
+  h1,h2,h3,h4,h5,h6,h7,h8 {
+    @extend .hideme; 
+  }
+}
 
 @include media-breakpoint-down(sm) {
   nav.navbar {
@@ -457,8 +494,7 @@ sup,.doc-endnote,.anchor {}
     width: 100%;
     font-family: AlverataSb;
     font-size: smaller;
-
-   
+    
   ul {
     @extend .p-0;
     display: block;
