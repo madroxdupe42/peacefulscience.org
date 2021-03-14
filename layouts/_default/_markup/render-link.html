@@ -1,4 +1,13 @@
 {{- $dest := .Destination -}}
+{{- with index site.Data.urlmap $dest -}}
+  {{- $dest = . -}} 
+{{- end -}}
+
+{{- if and (in $dest  "https://doi.org/") (not .Text )  -}}
+  {{- partial "doi" $dest -}}
+{{ else }}
+
+
 {{- $url := urls.Parse ( $dest | absURL ) -}}
 {{- $basehost := (urls.Parse site.Params.baseURL).Host -}}
 {{- $class := default nil -}}
@@ -48,3 +57,4 @@
 {{- with $class }} class='{{ $class }}'{{- end -}}
 {{- with .Title }} title="{{ . }}" {{- end -}}
 >{{ .Text | safeHTML}}</a>
+{{- end -}}

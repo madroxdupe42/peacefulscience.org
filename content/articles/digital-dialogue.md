@@ -18,7 +18,7 @@ In [his response to *The* *Genealogical Adam* at the Dabar Conference](https://
 
 One of the strange realities of the conversation between theology and science is that **the most substantive dialogue takes place in digital spaces**. Scholarly work often ends up entwined with public engagement. Key steps forward are often made in digital dialogue, immediately micropublished unofficially online. Forum threads, news letters, and blog posts can all become important artifacts in the ongoing conversation.Interesting ideas can hit the conversation immediately, without any filter. Peer review is real time, and part of the dialogue. It is through [public comments on a blog post](https://doi.org/10.5281/zenodo.1328247), for example, that new knowledge about population genetics was uncovered.
 
-[In many ways, this is exciting, as everyone can contribute. The scholarly work that is spawned is democratized, and its formation is transparently out in the open. Digital dialogue may be the best way towards consensus and understanding. There are, nonetheless, important **perils** to digital dialogue we are facing, and this bears some consideration. ]
+[In many ways, this is exciting, as everyone can contribute. The scholarly work that is spawned is democratized, and its formation is transparently out in the open. Digital dialogue may be the best way towards consensus and understanding. There are, nonetheless, important **perils** to digital dialogue we are facing, and this bears some consideration.
 
 ## Mistakes Are High Stakes
 
@@ -50,20 +50,20 @@ The final paper references the forum thread. However, online forums in particula
 
 When ephemeral artifacts have become so important, we need better identifier than URLs. Perhaps stable [digital object identifiers (DOIs)](https://en.wikipedia.org/wiki/Digital_object_identifier) could be helpful here. With that in mind, we recently started using [Zenodo](http://zenodo.org/) to archive [key digital artifacts I am to citing](https://zenodo.org/communities/peaceful-science/?page=1&size=20) in an upcoming book on genealogical ancestry. For example, look at these entries:
 
-1.  The [*Sapientia* article](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) from June 2017, where I first proposed the idea of [*The Genealogical Adam*](https://peacefulscience.org/genealogical-rapprochement/).\
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1328264.svg)](https://doi.org/10.5281/zenodo.1328264)
-2.  The comments on a blog, where several scientists examined commonly stated claims of population genetics, finding that an ancient bottleneck of "humans" might not contradict the evidence (514 pages!).\
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323939.svg)](https://doi.org/10.5281/zenodo.1323939)
-3.  My technical summary of the salient points I learned from these blog comments: [*Heliocentric Certainty Against a Bottleneck of Two? *](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61)\
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1328247.svg)](https://doi.org/10.5281/zenodo.1328247)
-4.  One of the best dialogues we have had with another organization, took place on their forum. Here, we explored last November thethe science and theology of universal ancestry. Several key points were engaged in depths, and I hope for more conversations like this with them.\
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1328255.svg)](https://doi.org/10.5281/zenodo.1328255)
-5.  [A dialogue with Winston Ewert on his new paper](https://discourse.peacefulscience.org/t/winston-ewert-the-dependency-graph-of-life/728) on the *Peaceful Science* Forum.\
-    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1318762.svg)](https://doi.org/10.5281/zenodo.1318762)
+1.  The [*Sapientia* article](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) from June 2017, where I first proposed the idea of [*The Genealogical Adam*](https://peacefulscience.org/genealogical-rapprochement/). [](https://doi.org/10.5281/zenodo.1328264)
+
+2.  The comments on a blog, where several scientists examined commonly stated claims of population genetics, finding that an ancient bottleneck of "humans" might not contradict the evidence (514 pages!). [](https://doi.org/10.5281/zenodo.1323939)
+
+3.  My technical summary of the salient points I learned from these blog comments: *[Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61)* [](https://doi.org/10.5281/zenodo.1328247)
+    
+4.  One of the best dialogues we have had with another organization, took place on their forum. Here, we explored last November thethe science and theology of universal ancestry. Several key points were engaged in depths, and I hope for more conversations like this with them. [](https://doi.org/10.5281/zenodo.1328255)
+
+5.  [A dialogue with Winston Ewert on his new paper](https://discourse.peacefulscience.org/t/winston-ewert-the-dependency-graph-of-life/728) on the *Peaceful Science* Forum. [](https://doi.org/10.5281/zenodo.1318762)
 
 A DOI can be assigned to any forum thread or blog at *Peaceful Science*. They include a static PDF file that serve as the definitive reference. The DOI record, also, can link back to the original URL from where the stable version was uploaded. **To encourage citation, scholars can request registration of a DOI for anything on our blog or forum,** and we will do our best to accommodate you. [The full list of *Peaceful Science* DOIs will always be visible at Zenodo.](https://zenodo.org/communities/peaceful-science/) For highly related work on other sites, such as Jon Garvey's blog post, we can also register DOI's if the author's allow us.
 
-[I hope, also, that key publishers like ]
+I hope, also, that key publishers like *The Creation Project* and *Perspectives on Science and the Christian Faith* would consider assigning DOIs to their articles too. This might be a good way to ensure a more stable and citable record of the science and theology conversation. In time, I hope to release a definitive list of DOIs for the conversation this last year on genetic and genealogical ancestry, for citation by scholars engaging this work.
+
 
 **The value of this currently un-citable conversation might grow as time goes on.** In particular, we are looking forward to [regularly hosting conversations](https://discourse.peacefulscience.org/c/hours) with leading scholars. This coming week, for example, [Greg Cootsona will be discussing his book and the ASA workshop](https://discourse.peacefulscience.org/t/greg-cootsona-the-science-of-adam-workshop/591) on Reworking the Science of Adam. I hope you can join us. Some of these conversations may end up important in unexpected ways.
 
