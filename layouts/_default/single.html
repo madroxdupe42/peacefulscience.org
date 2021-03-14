@@ -4,15 +4,13 @@
 
 {{ $PAGES := partialCached "byviews" . }}
 
-
-
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 
 
 <div class="article-grid">
 <div class="left-sidebar" style="height: 100%; background-image: linear-gradient(-90deg, #ddd0, #ddd3, #ddd5, #ddd);">
 
-  <div style="position: relative; height: min(150vh, 80%);">
+  <div style="position: relative; height: min(100vh, 80%);">
       <div class="d-none d-md-block" style="position: absolute; top:0px; width: 100%; height: 100%;"></div>
      
       {{- with .Params.headerImage.Src }}
@@ -20,8 +18,8 @@
       {{- end }}
    <!--    <div class="d-none d-md-block" style="position: absolute; top:20%; width: 100%; height: 81%; background-image: linear-gradient(#f3f3f300,#f3f3f3ff); pointer-events: none"></div> -->
   </div>
-  <div style="position: relative; height: max(calc(100% - 150vh ), 20%)">
-      <div class="d-none d-md-block  position-sticky focus-front" style="top:10%; width: 100%; background: #white">
+  <div style="position: relative; height: max(calc(100% - 100vh ), 20%)">
+      <div class="d-none d-md-block  position-sticky" style="top:10%; width: 100%; background: #white">
       
 	<nav class="toc navbar pt-3 pr-0" > 
             {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
@@ -33,22 +31,25 @@
     <script src="js/navprogress.js"></script>
 
       </div>
-      <div class="d-none d-md-block" style="z-index: 10; position: absolute; top:0%; width: 100%; height: 101%; background-image: linear-gradient(#fff0,#fff0,#ffff); pointer-events: none"></div>
+      <div class="d-none d-md-block hover-hide" style="z-index: 10; position: absolute; top:0%; width: 100%; height: 101%; background-image: linear-gradient(#fff0,#fff0,#ffff); pointer-events: none"></div>
   </div>
 </div>
 <div class="title-bar">
+    
 
     <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
        {{ with .Scratch.Get "Views" }}
     <div class="view-count d-inline float-right mr-5"> {{ . }}</div>
     {{ end }}
 
-    <h1 class="article-title">{{ .Params.page_title | default .Title | markdownify }}</h1>
+    <h1 class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
+
+    <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
 
     <div class="mb-2">
     {{ with .Params.authors  }}
       {{ range (partial "getauthors" .) }}
-        <a class="pr-2 author" href="{{ .Permalink }}"> {{ .Title }} </a>
+        <a class="pr-1 author" href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end }}
     {{ end }}
     </div>

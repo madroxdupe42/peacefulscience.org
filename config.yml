@@ -28,6 +28,7 @@ markup:
     parser:
       attribute:
         block: true
+        title: true
 
 cache:
   getjson:
