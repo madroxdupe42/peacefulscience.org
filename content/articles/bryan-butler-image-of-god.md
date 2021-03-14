@@ -19,7 +19,7 @@ Bryan Butler is a visual artist and founder of *[Bryan Butler Art](https://www.b
 
 **Bryan, tell us a bit about yourself, and how your career in the Arts began**.
 
-Gladly. I work as an illustrator, graphic designer, and portrait artist through [Bryan Butler Art](https://www.bryanbutlerart.com/). I also work full time as the inhouse graphic designer for [The Moody Church](https://www.moodychurch.org/?utm_source=google&utm_campaign=General_Campaign&kw=the%20moody%20church&mt=b&loc=9032878&n=g&d=c&adp&cid=6557355528&adgid=77526748774&tid=kwd-4505888969) in Chicago. I was born and raised in Chicago where I currently live with my wife and two children.
+Gladly. I work as an illustrator, graphic designer, and portrait artist through [Bryan Butler Art](https://www.bryanbutlerart.com/). I also work full time as the inhouse graphic designer for [The Moody Church](https://www.moodychurch.org/) in Chicago. I was born and raised in Chicago where I currently live with my wife and two children.
 
 I've been interested in the arts since I was a child and was blessed to have parents who were artists in their own right, who cultivated my initial interest and provided learning opportunities so I could hone my craft. I attended The American Academy of Art where I received my BA with a focus in Illustration, and graduated with honors. The recession was in full swing and it took a while to get my professional footing, but the Lord opened a door for an unpaid internship with a large company that quickly turned into part time and then full time employment. The company was [GModelo USA](https://www.gmodelo.mx/), a US branch of Grupo Modelo, which makes Mexican beers like Corona, Victoria, Modelo Especial and others. 
 
@@ -87,7 +87,7 @@ The idea of humans creating and designing through the materials supplied by God 
 
 This type of calling is not common, but the ability to create is universal and part of what it means to be made in God's image.
 
-![](https://lh6.googleusercontent.com/PU9oQOvvoKrG7auO8gs2XIUvZ-pwc7gOT1WVJKxh0yp3KpT4DpnH-5xxUklRw_OAmPsOkFcqNXUmo8_Go_4D5yIGiabyRNK5jYQVMr-Jl1CbzT-fMmaJvuG4os9ds_GOxQUriY9Q)
+![](/img/2020/11/mlk_butler.png)
 
 **At Peaceful Science, we hold the issue of race, human dignity and worth seriously and continue to seek understanding on this important topic. In fact, one of the discussions we’ve had is that of the meaning of race. In an interview with Quayshawn Spencer, we tried to unpack the notion of racial realism, that is to say that “race is real” in a biological or literary sense. These discussions have major implications on what it means to be human and how to navigate across various differences. The CPT article series published alongside your illustrations also touched upon this issue of race. What are your thoughts on these discussions and what do you hope to come out of them? Are there any particular pieces or ideas that stood out for you?**
 
@@ -97,13 +97,13 @@ I think Todd rightly brought up a primary challenge that Evangelicals have when 
 
 Deep thinking, a nuanced discussion, love of enemies, and unity in the Spirit are amongst the many things we seem to have lost sight of in public discourse, and we're the worse for it. 
 
-![](https://i0.wp.com/images.squarespace-cdn.com/content/v1/5a02216564b05fc4bbf1a61d/1598989230413-M4OT5CZBGB7YB01C7ODU/ke17ZwdGBToddI8pDm48kDxhhhwBddJ9fDxYAvV-2zp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ouw-8l5B_J38LMU7OZFvYfl9aEukiZdUWz0NUuu50q7UB1aqLpIyc_jzEDviFCoAA/21x9.5.jpg?w=696&ssl=1)
+![](/img/2020/11/kid-butler-imago.jpg)
 
 **Let's talk about some of the images from both the** [**CPT article series**](https://www.pastortheologians.com/theme/sept2020/more-than-imago-dei) **and your** [**HUMAN**](https://www.bryanbutlerart.com/human-bba) **project. Can you tell us about the motivation behind your illustration of Dr. King and the young black boy?**
 
 Earlier this year [H&M](https://www2.hm.com/en_us/index.html) came under fire for an ad depicting a young black boy wearing a hoodie with the phrase "[Coolest Monkey In The Jungle](https://www.nytimes.com/2018/01/08/business/hm-monkey.html)". Monkey was (and sometimes still is) used to describe black people, implying that we are less than human. This descriptor was used by people, usually of Western European descent, as a way of dehumanizing men and women of African descent especially during the transatlantic slave trade and the [Jim Crow era](https://guides.ll.georgetown.edu/c.php?g=592919&p=4172697) that followed shortly after. In many instances those using this phrase claimed Christ. In so doing they spat in the face of God (James 3:9-12). This more recent incident took place right before [MLK 50](https://mlk50.com/) and the idea struck me. I want to combat the issue of this ad with an art piece that proclaims the [biblical truth](https://www.bryanbutlerart.com/human-product/hmnking) (from Genesis and Revelation), which was foundational to Dr. King's work.  
 
-**![](https://lh3.googleusercontent.com/7HtsVPlSnc7P5VsIE8WllEhn5nzRpwN2hCMSl5yMt5yEpFQU_wPlP8U2NHUm7YGq48QcsglwVQ34pIjARynW1EuxCp-RlOVMyLgAQIRk7MtleRmnAni-PeMYkpYHxtU2mkKcl_96)**
+![](/img/2020/11/othered.png)
 
 **You posted an  infographic  showing  a pregnant black woman earlier in your social media account. Can you tell us about your thought process?**
 
@@ -122,7 +122,7 @@ I'm not claiming to know the causes of all of this, but the statistics are alarm
 
 Aboriginal men and women have a unique look, to me, among the people of the earth. By "unique" I mean that the scale of their features, the dark skin sometimes contrasted with blonde hair, and the fact that their features are largely isolated to Australia and New Zealand. I painted this portrait sketch during a brief period of exploring their features through art.
 
-![](https://lh6.googleusercontent.com/s_adSfgm66XJqvu3NqiSa4aFGHrZlmKUP9S_CZdjhZD0WXHdCLsL3FkgTB3cKMjXboMEfC3d1paQXE0BCd_ZvVLF-ud5cDND9RKNLsbTi_0k42_PAeuZOpxv6XoyR9uB3ah9PVMa)
+![](/img/2020/11/sakaroglu.png)
 
 **Who is the man in this image? And what sort of story does this illustration carry?**
 
@@ -132,7 +132,7 @@ Aboriginal men and women have a unique look, to me, among the people of the eart
 
 In a small way, taking time to read about someone I didn't know, who died, and then sketch and share their image, honors both the person and the image of whom they were created. I've also done this as a surprise for those within my circle who have lost someone. They've told me how much it means and to not underestimate how much it means.
 
-![](https://lh4.googleusercontent.com/oTAlIEYuiNpj7P3fyi7RU3Xprv6WxGqjztELx1UnLpRn7eCFi2iiiX4g649vWWa88Jv50Yo40IBXxfzp2EbmaWfOTZnYEBleiffHCXeJbOaspJXLfxHbuRtYqRolsapLcDgknEB4)
+![]((/img/2020/11/inuit.png)
 
 **Here is an illustration from your earlier work that again features a woman of color. What is compelling about the image of this Inuit woman?**
 
