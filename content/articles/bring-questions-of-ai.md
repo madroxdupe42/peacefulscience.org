@@ -13,7 +13,7 @@ headerimage:
 title: Bring The Questions of Artificial Intelligence
 ---
 
-*The* *Wall Street Journal* published an article by me, "[Evangelicals Take on Artificial Intelligence.](https://www.wsj.com/articles/evangelicals-take-on-artificial-intelligence-11557442994)" This article responds to a theological statement on artificial intelligence (AI). About 70 theologians and pastors articulated [their religious convictions](https://erlc.com/resource-library/statements/artificial-intelligence-an-evangelical-statement-of-principles), but I am much more interested in the questions.
+*The* *Wall Street Journal* published an article by me, "[Evangelicals Take on Artificial Intelligence.](/articles/wsj-ai-evangelicals/)" This article responds to a theological statement on artificial intelligence (AI). About 70 theologians and pastors articulated [their religious convictions](https://erlc.com/resource-library/statements/artificial-intelligence-an-evangelical-statement-of-principles), but I am much more interested in the questions.
 
 AI is increasingly important in society at large, so we welcome new voices. Interest is high, because AI challenges our notions of what it means to be human. The possibility of artificial minds in the future is a mystery. Could something like Commander Data ever emerge? What would be the meaning of an artificial mind?
 
