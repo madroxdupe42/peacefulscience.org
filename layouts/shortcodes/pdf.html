@@ -1,7 +1,7 @@
 {{ $pdf := .Get 0 }}
 {{ $name := $pdf }}
 {{ $mode := .Get 1 | default "IN_LINE" }}
-{{ $id := "adobe-dc-view{{ .Ordinal }}" }}
+{{ $id := printf "adobe-dc-view%s" .Ordinal }}
 
 {{- if not (fileExists (printf "static%s" $pdf )) -}}
   {{- warnf "MISSING.PDF:\t%s\t%s" .Parent.File.Path $pdf -}}
