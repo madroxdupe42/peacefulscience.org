@@ -3,8 +3,8 @@
 {{ $mode := .Get 1 | default "IN_LINE" }}
 {{ $id := "adobe-dc-view{{ .Ordinal }}" }}
 
-{{- if not (fileExists (printf "static%s" $src )) -}}
-  {{- warnf "MISSING.PDF:\t%s\t%s" .Parent.File.Path $src -}}
+{{- if not (fileExists (printf "static%s" $pdf )) -}}
+  {{- warnf "MISSING.PDF:\t%s\t%s" .Parent.File.Path $pdf -}}
 {{- end -}}
 
 <div id="{{ $id }}" class="aside-xl-wide"></div>
