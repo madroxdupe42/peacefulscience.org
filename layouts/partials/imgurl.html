@@ -9,8 +9,4 @@
  {{- warnf "BROKEN.IMG:\t%s\t%s" $loc $src -}}
 {{- end -}}
 
-
-{{- $args := querify "w" 696 "nf_resize" "fit" -}}
-{{- $src = printf "%s?%s" ($src | absURL) $args  -}}
-
 {{ return $src  }}
