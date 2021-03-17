@@ -33,7 +33,7 @@ I worked on various creative projects for the company until they were eventually
 
 <div class="article-question">
 
-## What phrases represent your art? 
+### What phrases represent your art? 
 
 I explored your artwork on your [website](http://www.bryanbutlerart.com/). I noticed that between each of your art series were these four slogans: "Create with Purpose", "Have Fun", "Bring Joy", and "Created with Purpose". In what ways do these phrases represent you and your art?
 
@@ -52,7 +52,7 @@ I emphasize "creating for and serving others" because everything on my site is u
 
 <div class="article-question">
 
-## The role of images 
+### The role of images 
 
 What roles do words and images or visuals play in our daily lives?
 
@@ -81,13 +81,13 @@ I also worked on another project with them for a conference titled "[Kingdom Pol
 
 <div class="article-question">
 
-## Engaging race differently   
+### Engaging race differently   
 
 The theme of the paintings and illustrations you produced for the CPT's ["More Than *Imago Dei*"](https://www.pastortheologians.com/theme/sept2020/more-than-imago-dei) article series seemed to overlap with your own [HUMAN](https://www.bryanbutlerart.com/human-bba) series. The following editorial excerpt is from the President and Co-Founder of CPT, [Todd Wilson](https://www.pastortheologians.com/articles/2020/9/1/more-than-imago-dei):
 
 > We want to engage this issue differently. We're not on the hunt for easy answers or quick solutions. Rather, we're prepared for the intellectual slog that real progress necessarily entails, knowing that what is required is sober-minded, serious, even sacrificial reflection on the issue of race and the challenges (and opportunities) it presents, as well as a readiness to trace the deep implications of these insights into our own lives, congregations, and communities---all for the sake of Christ.
 
-Do you envision [HUMAN](https://www.bryanbutlerart.com/human-bba) to have the same objective as "[More Than Imago Dei](https://www.pastortheologians.com/articles/2020/9/1/more-than-imago-dei)""? Or do you have a personal angle on this issue?
+Do you envision [HUMAN](https://www.bryanbutlerart.com/human-bba) to have the same objective as [More Than Imago Dei](https://www.pastortheologians.com/articles/2020/9/1/more-than-imago-dei)? Or do you have a personal angle on this issue?
 
 </div>
 
@@ -101,7 +101,7 @@ This same God created humans in a manner different from the rest of creation. Ch
 
 <div class="article-question">
 
-## Genesis 1:26-27
+### Genesis 1:26-27
 
 You quoted the same verse (Genesis 1:26-27) on your website, and explained that:
 
@@ -119,7 +119,7 @@ Unfortunately, our history is replete with examples of what we do to each other 
 
 <div class="article-question">
 
-## Imago Dei and creating art
+### Imago Dei and creating art
 
 How do you see the notion of “Imago Dei” being expressed in the process of creating art?
 
@@ -135,7 +135,7 @@ This type of calling is not common, but the ability to create is universal and p
 
 <div class="article-question">
 
-## Race and human dignity 
+### Race and human dignity 
 
 At Peaceful Science, we hold the issue of race, human dignity and worth seriously and continue to seek understanding on this important topic. In fact, one of the discussions we’ve had is that of the meaning of race. In an interview with Quayshawn Spencer, we tried to unpack the notion of racial realism, that is to say that “race is real” in a biological or literary sense. These discussions have major implications on what it means to be human and how to navigate across various differences. The CPT article series published alongside your illustrations also touched upon this issue of race. What are your thoughts on these discussions and what do you hope to come out of them? Are there any particular pieces or ideas that stood out for you?
 
