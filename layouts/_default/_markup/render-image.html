@@ -1,22 +1,10 @@
 
-{{- $src := .Destination  -}}
-{{- $src = index (split $src "?") 0 -}}
+{{- $src := partial "imgurl" (dict "src"  .Destination "loc" .Page.File )  | absURL }}
 {{- $title := .Title  -}}
 {{- $alt := .Text  -}}
 
-
-{{- if findRE "/img/" $src -}}
-  {{- if not (fileExists (printf "static%s" $src)) -}}
-   {{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
-  {{- end -}}
-{{- else -}}
- {{- warnf "MISSING.IMG:\t%s\t%s" $.Page.File.Path $src -}}
-{{- end -}}
-
-{{- with .Destination  -}}   
-  {{- $args := querify "w" 696 "nf_resize" "fit" -}}
-  {{- $src = printf "%s?%s" ( . | absURL ) $args  -}}
-{{- end  -}}
+{{- $args := querify "w" 696 "nf_resize" "fit" -}}
+{{- $src = printf "%s?%s" ( $src | absURL ) $args  -}}
 
 
 <aside class="aside-xl-right">
