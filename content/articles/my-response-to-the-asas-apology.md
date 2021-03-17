@@ -34,6 +34,5 @@ Today, I am renewing my membership with the ASA. They hope to work with *Peacefu
 
 {{< pdf "/pdf/swamidass-response-asa.pdf" >}}
 
-------------------------------------------------------------------------
 
 [^1]: The American Scientific Affiliation, or ASA, was founded in 1941 as a professional society of Christians in the sciences. It is one of the most important academic organizations at the interface of science and the Christian faith.

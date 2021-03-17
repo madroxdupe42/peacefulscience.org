@@ -411,9 +411,8 @@ box-shadow:   inset 0 0 1rem #000000;
 	 p {padding-left: 0px; margin-bottom: 0px};
 	 a {z-index: 10};
 	 @include media-breakpoint-up($breakpoint) {
-		float: right;
 		width: 137%;
-		margin: $spacer -37% $spacer $spacer * 2;
+		margin: $spacer -37% $spacer 0px;
 
 	 }
 	}
@@ -448,6 +447,9 @@ box-shadow:   inset 0 0 1rem #000000;
 	 }
 	}
 }
+
+
+
 
 .hideme {
 pointer-events: none;
