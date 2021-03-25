@@ -383,9 +383,10 @@ box-shadow:   inset 0 0 1rem #000000;
 .footnotes {
   @extend .pt-5;
   @extend .expand-right;
-  font-size: smaller;
-  
+  font-size: smaller; 
 }
+
+
 
 .editor-note {
   background: #f2f2f2;
@@ -497,11 +498,38 @@ svg:not(:root) {
 }
 
 [id] {
-scroll-margin-top: 100px;
+scroll-margin-top: 20px;
 }
 
-sup,.doc-endnote,.anchor {}
- 
+
+.footnote-ref, .footnote-backref  {
+  background: #080;
+  border-radius: 50%;
+  color: white;
+  height: 100%;
+  padding: calc( 1rem / 2) calc( 1rem / 3) calc( 1rem / 2) calc( 1rem / 3);
+  display: inline-block;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.footenote-ref {
+  padding: calc( 1rem / 2) calc( 1rem / 3) calc( 1rem / 2) calc( 1rem / 3);
+}
+
+.footnote-backref {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;  
+  font-weight:800;
+  font-size: smaller;
+  line-height: 1.1;
+  white-space: nowrap;
+  padding: calc( 1.2rem / 3) calc( 1rem / 3) calc( .5rem / 3) calc( 1rem / 3);
+}
+
+
 .toc {
  	@extend .make-me-sticky;
  	@extend .py-0;

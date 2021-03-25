@@ -7,6 +7,8 @@
   {{- warnf "MISSING.PDF:\t%s\t%s" .Parent.File.Path $pdf -}}
 {{- end -}}
 
+
+<div class="mb-5">
 <div id="{{ $id }}" class="aside-xl-wide"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
@@ -18,3 +20,4 @@
 		}, {embedMode: "{{ $mode }}"});
 	});
 </script>
+</div>

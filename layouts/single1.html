@@ -1,0 +1,129 @@
+{{ define "main" }}
+{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
+
+
+<div class="article-header-bg p-5">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12">
+  {{ if eq $showBreadcrumbs true -}}
+    {{ partial "breadcrumbs.html" ( dict "ctx" . "output_type" "list" ) }}
+  {{- end }}
+
+    <h1 class="article-title">{{ .Params.page_title | default .Title }}</h1>
+
+
+    <div class="text-right">
+    <span>
+    {{- range .Params.authors }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+        <a class="pr-2 author" href="{{ .Permalink }}"> {{ .Title }} </a>
+      {{- end }}
+    {{- end }}
+    </span>
+
+    <span class="article-date"> {{ .PublishDate.Format "January 2, 2006" }} <span>
+
+    <div class="mb-5">
+    {{- range .Params.categories }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+        <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
+      {{- end }}
+    {{- end }}
+    </div>
+    </div>
+    </div>
+ </div>
+</div>
+</div>
+
+   {{- with .Params.headerImage.Src }}
+
+
+<section class="shadow-lg" style="background-color:#777;overflow:hidden;position:relative">
+  
+  <div style="background-image: linear-gradient(rgba(100,110,100,.6), rgba(100,110,100,.6)), url('{{.}}') ;  
+       background-attachment: fixed;
+       background-position: center;
+       filter: blur(10px) grayscale(80%);
+       transform: scale(1.1); background-size: cover; width:100%; height: 100%;
+       position: absolute; top:0; left:0" >
+  
+  </div>
+  
+  <div class="container" style="position: relative;">        
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+          <img src="{{.}}" class="bg-white w-100 border" style="min-height:200px"> </img>
+      </div>
+    </div>
+  </div>
+</section>
+
+    {{- end }}
+    
+
+
+
+
+
+<div class="container py-5" >
+  <article>
+    
+   <div class="row justify-content-center">
+    <div class="col-lg-2 d-lg-block d-none " ></div>
+    <div class="col-lg-7"  style="position: relative;">
+
+    
+      {{ .Content }}
+    </div>    
+    <div class="col-lg-3 d-lg-block d-none px-0" >
+		  <nav class="toc navbar pr-0" > 
+            {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
+            
+            <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+			</svg>
+		  </nav>
+   </div>  
+  </article>
+</div> 
+
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+<div style="background-color: #dfdfdf; min-height:1000">
+<div class="container pt-5" >
+  <div class="row justify-content-center pb-5 my-3 text-larger">
+      {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
+	  {{ range $related }}
+	     {{ .Render "mediabox2" }}
+	  {{ end }}
+
+  </div>
+</div>
+</div>
+<!--
+    <div class="row justify-content-center pb-5 mb-5">
+        <div class="col-lg-12 border-top mt-5">
+	{{ if .PrevPage }}
+        <div class="w-50 d-inline-block float-left"> <a class="link-reverse" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }}</a> </div>
+	{{ end }}
+
+        {{ if .NextPage }}
+        <div class="w-50 text-right d-inline-block float-right"> <a class="link-reverse" href="{{ .NextPage.Permalink }}">{{ .NextPage.Title }}</a> </div>
+        {{ end }}
+
+        </div>
+    </div>
+    
+-->
+
+<script type="application/json" class="js-hypothesis-config">
+  {
+    "theme": "clean"
+  }
+</script>
+<script src="https://hypothes.is/embed.js" async></script>
+
+
+{{- end }}
