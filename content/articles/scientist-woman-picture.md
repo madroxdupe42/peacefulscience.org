@@ -7,9 +7,10 @@ categories:
 - art
 - science
 - society
-commenturl: "http://discourse.peacefulscience.org/t/is-the-scientist-a-woman-or-a-man/13140"
-date: "2021-02-02T18:54:40"
-description: Picture a scientist. Is the scientist a woman? Or a man? Most of us pictured a man, but it's changing for the better.
+commenturl: http://discourse.peacefulscience.org/t/is-the-scientist-a-woman-or-a-man/13140
+date: '2021-02-02T18:54:40'
+description: Picture a scientist. Is the scientist a woman? Or a man? Most of us pictured
+  a man, but it's changing for the better.
 headerimage:
   src: /img/2021/02/draw-a-scientist4_1600.jpg
 title: Is the Scientist a Woman? Or a Man?
@@ -29,7 +30,7 @@ In 1983, David Wade Chambers and colleagues devised the [Draw-a-Scientist Test (
 
 After about 5 decades and 78 similar investigations, David Miller and colleagues followed-up on this work by conducting a [meta-analysis](https://srcd.onlinelibrary.wiley.com/doi/full/10.1111/cdev.13039) to see whether there is any progress in the depiction of gender diversity in scientists. They discovered that the tendency for children to draw a male scientist has decreased over time in the United States. Yet in spite of this improvement, the gender proportion was still far from parity. Children still drew more male than female when it comes to scientists. 
 
-![*A picture of a scientist, drawn by a student. Credit: Vasilia Christidou/University of Thessaly, Greece via [Futurity](https://www.futurity.org/draw-a-scientist-gender-1714512/).*](https://i2.wp.com/www.futurity.org/wp/wp-content/uploads/2018/03/draw-a-scientist3_1600.jpg?w=696&ssl=1)
+![*A picture of a scientist, drawn by a student. Credit: Vasilia Christidou/University of Thessaly, Greece via [Futurity](https://www.futurity.org/draw-a-scientist-gender-1714512/).*](/img/2021/02/draw-a-scientist3_1600.jpg)
 
 The high association of scientists to a male figure is not so surprising. After all, that is what the popular culture often portrays (think [Frankenstein](https://en.wikipedia.org/wiki/Victor_Frankenstein), [Jekyll](https://en.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(1887_play)), or [Spock](https://en.wikipedia.org/wiki/Spock)). Yet, such imbalance in gender representation has an [important consequence](https://www.frontiersin.org/articles/10.3389/feduc.2019.00060/full). The masculinity associated with maths and sciences is a reason there are so few women in STEM.
 
@@ -37,7 +38,7 @@ A study involving high school students in Switzerland suggests that students' pe
 
 We are faced with a *chicken-and-egg* situation. Less women in STEM means less female students aspiring a career in STEM, which results in very few female scientists overall.
 
-![[Picture a Scientist](https://www.pictureascientist.com/) documentary featuring scientists Nancy Hopkins (top), Jane Willenbring (middle) and Raychelle Burks (bottom)](https://lh5.googleusercontent.com/3ZTrlGsFONXy4vJflgpJzBQEJ-p8ljQHl8irP8riWc-HkQ19nn8UwbMd8tDB40zknr84XNOnFlgbeQMOHlNO5XsyBA8Jv91ZdE-tk2XoFjVpE8T94n2mYGL_11CmJWJV1NREBpDc)
+![[Picture a Scientist](https://www.pictureascientist.com/) documentary featuring scientists Nancy Hopkins (top), Jane Willenbring (middle) and Raychelle Burks (bottom)](/img/2021/02/3ZTrlGsFONXy4vJflgpJzBQEJ-p8ljQHl8irP8riWc-HkQ19nn8UwbMd8tDB40zknr84XNOnFlgbeQMOHlNO5XsyBA8Jv91ZdE-tk2XoFjVpE8T94n2mYGL_11CmJWJV1NREBpDc.png)
 
 Some of the most startling and heart wrenching images of gender disparity in science, was aptly captured in the recent documentary *'*[*Picture a Scientist*](https://www.pictureascientist.com/)'. The film, which was selected for the 2020 [Tribeca Film Festival](https://tribecafilm.com/), unpacked the pervasive layers of gender discrimination in academia through the personal accounts of three high-profile female faculties (biologist [Nancy Hopkins](https://biology.mit.edu/profile/nancy-hopkins/), chemist [Raychelle Burks](https://www.american.edu/cas/faculty/burks.cfm), and geologist [Jane Willenbring](https://earth.stanford.edu/people/jane-willenbring)). What may be striking but not surprising, is that their professional credibility, status, and achievements did not eliminate the discrimination against them. 
 

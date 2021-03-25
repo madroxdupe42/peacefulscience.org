@@ -6,9 +6,10 @@ authors:
 categories:
 - adam-eve
 - science
-commenturl: "http://discourse.peacefulscience.org/t/the-humility-of-our-scholars/7078"
-date: "2019-08-01T20:52:47"
-description: Darrel Falk, People like me, stuck in a specific genetic paradigm, were wrong. The humility of our scholars opens a better way forward for everyone.
+commenturl: http://discourse.peacefulscience.org/t/the-humility-of-our-scholars/7078
+date: '2019-08-01T20:52:47'
+description: Darrel Falk, People like me, stuck in a specific genetic paradigm, were
+  wrong. The humility of our scholars opens a better way forward for everyone.
 feature: true
 headerimage:
   src: /img/2019/08/mistake-968334_1920.jpg
@@ -27,7 +28,7 @@ Dr. Darrel Falk's endorsement is particularly notable for its humility. The text
 
 Falk understates his significance. He was among the leading voices who put forward the scientific case against a traditional reading of Genesis. Falk wrote an influential article with [Dennis Venema in 2010](https://biologos.org/articles/does-genetics-point-to-a-single-primal-couple). Then in 2011, *Christianity Today* responded, in large part, to Falk's work in making this known. They published a cover article on "[The Search for the Historical Adam](https://www.christianitytoday.com/ct/2011/june/historicaladam.html)." The article quoted Falk, and other scientists, as the explained how the findings of population genetics ruled out Adam and Eve, ancestors of us all.
 
-{{< mediatext `https://i0.wp.com/www-images.christianitytoday.com/images/22832.jpg?w=696&ssl=1` `The June 2011 cover of *Christianity Today*. This issue included an [article that quoted Falk](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the staff.` >}}
+{{< mediatext `static/img/2019/08/22832.jpg?w=696&ssl=1` `The June 2011 cover of *Christianity Today*. This issue included an [article that quoted Falk](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the staff.` >}}
 
 In his endorsement, Falk explains the impact of this upcoming book on his understanding of Adam and Eve.
 

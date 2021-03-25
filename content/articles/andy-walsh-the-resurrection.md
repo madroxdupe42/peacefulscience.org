@@ -11,7 +11,7 @@ commenturl: "http://discourse.peacefulscience.org/t/andy-walsh-an-imaginative-ap
 date: "2020-01-09T09:50:00"
 description: Andy Walsh wonders about Jesus's microbiome and the Resurrection. What was biologically different about Jesus' pre- and post-resurrection body?
 headerimage:
-  src: /img/2020/01/jwp_hs_wal_f-21_f\_web.jpg
+  src: /img/2020/01/jwp_hs_wal_f-21_f_web.jpg
 title: "Andy Walsh: An Imaginative Applied Scientist Considers the Resurrection"
 ---
 

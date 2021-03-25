@@ -5,12 +5,13 @@ authors:
 - swamidass
 categories:
 - science
-commenturl: "http://discourse.peacefulscience.org/t/alysson-muotri-neanderthal-brains-in-a-bottle/13212"
-date: "2021-02-15T06:54:03"
-description: So this is not exactly a Neanderthal brain in a bottle, but it gestures in that direction. What are the genetic changes that made us human?
+commenturl: http://discourse.peacefulscience.org/t/alysson-muotri-neanderthal-brains-in-a-bottle/13212
+date: '2021-02-15T06:54:03'
+description: So this is not exactly a Neanderthal brain in a bottle, but it gestures
+  in that direction. What are the genetic changes that made us human?
 headerimage:
   src: /img/2021/02/maxresdefault-1.jpg
-title: "Alysson Muotri: Neanderthal Brains in a Bottle"
+title: 'Alysson Muotri: Neanderthal Brains in a Bottle'
 ---
 
 So this is not exactly a [Neanderthal](https://en.wikipedia.org/wiki/Neanderthal) brain in a bottle, but it gestures in that direction. Here, we are finding a new way of understanding what makes us human and how we became human.
@@ -23,4 +24,4 @@ But greater questions loom. What does this experiment really tell us about how w
 
 In the end, we are approaching the grand question again, this time from a very new direction. Come wonder about this question with Dr Moutri, Dr. Lents and myself. *What does it mean to be human?*
 
-{{< mediatext `https://i1.wp.com/media.nature.com/lw800/magazine-assets/d41586-021-00388-2/d41586-021-00388-2_18855492.jpg?w=696&ssl=1` `Brain organoids containing an archaic gene variant (bottom) were smaller and more roughly textured than human organoids (top).Credit: C. A. Trujillo *et al./Science*` >}}
+{{< mediatext `static/img/2021/02/d41586-021-00388-2_18855492.jpg?w=696&ssl=1` `Brain organoids containing an archaic gene variant (bottom) were smaller and more roughly textured than human organoids (top).Credit: C. A. Trujillo *et al./Science*` >}}

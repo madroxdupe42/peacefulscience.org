@@ -5,12 +5,13 @@ authors:
 - swamidass
 categories:
 - society
-commenturl: "http://discourse.peacefulscience.org/t/steven-olson-the-apocalypse-factory/11345"
-date: "2020-08-05T17:55:20"
-description: "On August 17, 2020, Steve Olson is discussing his book on the nuclear bomb and the Hanford site: the factory refined plutonium fuel for the bombs."
+commenturl: http://discourse.peacefulscience.org/t/steven-olson-the-apocalypse-factory/11345
+date: '2020-08-05T17:55:20'
+description: 'On August 17, 2020, Steve Olson is discussing his book on the nuclear
+  bomb and the Hanford site: the factory refined plutonium fuel for the bombs.'
 headerimage:
   src: /img/2020/08/apocalypse-factory-olson.png
-title: "Steven Olson: The Apocalypse Factory"
+title: 'Steven Olson: The Apocalypse Factory'
 ---
 
 On August 17, 2020, Steve Olson is discussing his book on the nuclear bomb and the Hanford site: the factory refined plutonium fuel for the bombs. He is an award-winning science writer who just authored *[The Apocalypse Factory: Plutonium and the Making of the Atomic Age](https://www.amazon.com/gp/product/B07ZTSVNL5/)*. He is also the author of *[Mapping Human History: Genes, Race, and Our Common Origins](https://amzn.to/3gr8a0m)*, which was one of five finalists for the 2002 National Book Award for Nonfiction.
@@ -19,7 +20,7 @@ On August 17, 2020, Steve Olson is discussing his book on the nuclear bomb and t
 
 Seventy-five years ago today, on August 6, 1945, the first atomic bomb ever used in war was dropped on Hiroshima. A city was destroyed. Three days later, on August 9th, the second bomb was dropped on Nagasaki. Another city destroyed. A war was ended, but at what cost?
 
-![Two aerial photos of atomic bomb mushroom clouds, over two Japanese cities in 1945. [Credit Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki#/media/File:Atomic_bombing_of_Japan.jpg).](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/2880px-Atomic_bombing_of_Japan.jpg)
+![Two aerial photos of atomic bomb mushroom clouds, over two Japanese cities in 1945. [Credit Wikipedia](https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki#/media/File:Atomic_bombing_of_Japan.jpg).](/img/2020/08/2880px-Atomic_bombing_of_Japan.jpg)
 
 What led us here? What was the aftermath? Seventy-five years later, what have we learned? What remains to be learned?
 
@@ -35,13 +36,13 @@ These are sorts of questions that this anniversary invites. Olson's new book bri
 
 > An apocalypse is a revelation --- literally an uncovering --- about the future that is supposed to provide hope in a time of uncertainty and fear. The plutonium from Hanford, which fueled the first atomic bomb ever exploded, in New Mexico on July 16, 1945, and the bomb dropped on Nagasaki three weeks later, revealed that the world had entered a new era. We still have not come to terms with that change.
 
-![Nuclear reactors line the riverbank at the Hanford Site along the [Columbia River](https://en.wikipedia.org/wiki/Columbia_River) in January 1960. The [N Reactor](https://en.wikipedia.org/wiki/N_Reactor) is in the foreground, with the twin KE and KW Reactors in the immediate background. The historic [B Reactor](https://en.wikipedia.org/wiki/B_Reactor), the world's first [plutonium](https://en.wikipedia.org/wiki/Plutonium) production reactor, is visible in the distance. [Credit Wikipedia](https://en.wikipedia.org/wiki/Hanford_Site#/media/File:Hanford_N_Reactor_adjusted.jpg).](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hanford_N_Reactor_adjusted.jpg/2560px-Hanford_N_Reactor_adjusted.jpg)
+![Nuclear reactors line the riverbank at the Hanford Site along the [Columbia River](https://en.wikipedia.org/wiki/Columbia_River) in January 1960. The [N Reactor](https://en.wikipedia.org/wiki/N_Reactor) is in the foreground, with the twin KE and KW Reactors in the immediate background. The historic [B Reactor](https://en.wikipedia.org/wiki/B_Reactor), the world's first [plutonium](https://en.wikipedia.org/wiki/Plutonium) production reactor, is visible in the distance. [Credit Wikipedia](https://en.wikipedia.org/wiki/Hanford_Site#/media/File:Hanford_N_Reactor_adjusted.jpg).](/img/2020/08/2560px-Hanford_N_Reactor_adjusted.jpg)
 
 In Revelations, it is Armageddon that destroy the world, but the revelation is meant to give hope with view of the future. The revelation includes prophecies of great suffering, but also that we will not be entirely destroyed. There are costs ahead, and pain we cannot avoid, but this need not end with our total destruction.
 
 This brings Olson to the factory in Hanford, where lies a mess of nuclear waste that will require *hundreds of **billions** of dollars* clean and set right. This mess we inherit from our ancestors. Over seventy-five years, three generations have come and gone, none have cleaned the mess. We bequeath this toxic inheritance to future generations. [The Hanford Site](https://en.wikipedia.org/wiki/Hanford_Site) is a *generational* problem.
 
-![[Spent nuclear fuel](https://en.wikipedia.org/wiki/Spent_nuclear_fuel) stored underwater and uncapped in Hanford's K-East Basin. [Credit Wikipedia](https://en.wikipedia.org/wiki/Hanford_Site#/media/File:Spent_nuclear_fuel_hanford.jpg).](https://upload.wikimedia.org/wikipedia/commons/f/f0/Spent_nuclear_fuel_hanford.jpg)
+![[Spent nuclear fuel](https://en.wikipedia.org/wiki/Spent_nuclear_fuel) stored underwater and uncapped in Hanford's K-East Basin. [Credit Wikipedia](https://en.wikipedia.org/wiki/Hanford_Site#/media/File:Spent_nuclear_fuel_hanford.jpg).](/img/2020/08/Spent_nuclear_fuel_hanford.jpg)
 
 The history of the Hanford site teaches what we already know, but from which are quick to look away. *We struggle with generational problems.*
 

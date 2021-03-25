@@ -6,12 +6,13 @@ authors:
 categories:
 - science
 - gae
-commenturl: "http://discourse.peacefulscience.org/t/i-was-wrong-on-monophyletic/9878"
-date: "2020-03-10T16:34:36"
-description: I was wrong. I incorrectly used the terms monophyletic and polyphyletic in my book, The Genealogical Adam and Eve. I am correcting the record here.
+commenturl: http://discourse.peacefulscience.org/t/i-was-wrong-on-monophyletic/9878
+date: '2020-03-10T16:34:36'
+description: I was wrong. I incorrectly used the terms monophyletic and polyphyletic
+  in my book, The Genealogical Adam and Eve. I am correcting the record here.
 headerimage:
   src: /img/2020/03/Clade-grade_II.png
-title: "I Was Wrong on \"Monophyletic\""
+title: I Was Wrong on "Monophyletic"
 ---
 
 I was wrong. I incorrectly used the terms "monophyletic" and "polyphyletic" in my book, *[The Genealogical Adam and Eve](http://peacefulscience.org/genealogical-adam-eve)*. My intended meaning was clear from context, but departed far from the usual meaning of the words. As biologist Richard Buggs notes [in his review of my book](https://natureecoevocommunity.nature.com/users/24561-richard-buggs/posts/61200-adam-and-eve-our-ghostly-ancestors):
@@ -40,7 +41,7 @@ My use of the term *monophyletic* in the book was intended to mean "of the same 
 
 My use of the term *polyphyletic* in the book was intended to mean "of different species or subspecies." This is not what the term actually means. Instead, it means a group of different species that arise from different lineages. For example, the figure shows in red that night-active primates are *polyphyletic*.
 
-![A cladogram of the [primates](https://en.wikipedia.org/wiki/Primate), showing a *monophyletic* taxon: *the simians* (in yellow); a *paraphyletic* taxon: *the prosimians* (in cyan, including the red patch); and a *polyphyletic* group: *the night-active primates, i.e., the* [*lorises*](https://en.wikipedia.org/wiki/Loris) *and the* [*tarsiers*](https://en.wikipedia.org/wiki/Tarsier) (in red). Credit: [Wikipedia](https://en.wikipedia.org/wiki/Monophyly).](https://lh5.googleusercontent.com/OnEkviDYthzzEt5ZiYP9tt4Hq1erQyEzaxbLehETqPtIqOVzw2vnVrZGWrT9XmbDsn03ZU2kYBEuFSddlcyU5LYRttm9xus-vrrfX8gZdjLGbbACRp6gFL9AD3E8CwDA0Z8-Ggqo)
+![A cladogram of the [primates](https://en.wikipedia.org/wiki/Primate), showing a *monophyletic* taxon: *the simians* (in yellow); a *paraphyletic* taxon: *the prosimians* (in cyan, including the red patch); and a *polyphyletic* group: *the night-active primates, i.e., the* [*lorises*](https://en.wikipedia.org/wiki/Loris) *and the* [*tarsiers*](https://en.wikipedia.org/wiki/Tarsier) (in red). Credit: [Wikipedia](https://en.wikipedia.org/wiki/Monophyly).](/img/2020/03/OnEkviDYthzzEt5ZiYP9tt4Hq1erQyEzaxbLehETqPtIqOVzw2vnVrZGWrT9XmbDsn03ZU2kYBEuFSddlcyU5LYRttm9xus-vrrfX8gZdjLGbbACRp6gFL9AD3E8CwDA0Z8-Ggqo.png)
 
 The good news is that my intended meaning is clear in context, even though it is in conflict with the correct definitions of the terms. The common story of racist theories of origins is that humans today are of different biological types. These biological differences arise due to some sort of separation in the past. That message remains clear through the book, even though I incorrectly used the terms *monophyletic* and *polyphyletic*.
 

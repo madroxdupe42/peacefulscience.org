@@ -20,7 +20,7 @@ Fifteen years years after *Kitzmiller v. Dover Area School District* was decided
 
 My own view is that the deeper gulf is one found within all three Abrahamic religions, between those who are willing to accommodate their reading of the sacred texts to scientific (and indeed historical) reality, and those who insist that these texts, literally interpreted, are the infallible word of God. The authors themselves exemplify bridge building between believer and non-believer. Nathan Lents has risked ridicule by discussing the scientific possibility of Joshua Swamidass' religiously motivated speculations, while Joshua Swamidass must have surprised many in his own group by his friendship with an openly gay godless humanist.
 
-{{< amazon "0914513400" `The supplementary text at the center of the case was "[Of Pandas and People](https://www.amazon.co.uk/Pandas-People-Central-Question-Biological/dp/0914513400/)"` >}}
+{{% amazon "0914513400" `The supplementary text at the center of the case was "Of Pandas and People."` %}}
 
 *[Ken Miller, Genie Scott & Barbara Forrest: 15 Years After Dover](https://discourse.peacefulscience.org/t/faizal-ali-thoughts-on-mike-behe-joshua-swamidass-and-dover/12761)*, by Faizal Ali, includes links to interviews of three major participants; Ken Miller, Eugenie Scott, and Barbara Forrest. As many readers will know, Ken Miller, biology professor and major textbook author, has been defending evolution against creationist attacks for 40 years, Eugenie Scott was at the time of the trial director of the (US) National Center for Science Education, which acted as consultant to the plaintiffs and was instrumental in forming the legal strategy, and Barbara Forrest, philosopher, testified at the trial that Intelligent Design should not be considered science because of its reliance on the supernatural.
 
@@ -28,7 +28,9 @@ As this blog piece points out, that last argument (technically: intrinsic method
 
 The Discovery Institute continues to claim that *Kitzmiller* was wrongly decided, and even that "[recent scientific discoveries have confirmed and extended the concept of irreducible complexity](https://www.discovery.org/2019/01/revolutionary-michael-behes-intelligent-design-documentary-is-now-free-online/)." Most recently, to mark the 15<sup>th</sup> anniversary of the trial, the DI featured a [debate on the issues between Michael Behe and Joshua Swamidass](https://www.discovery.org/v/the-kitzmiller-v-dover-trial-and-intelligent-design-fifteen-years-on/). While I have a poor opinion of Behe's ideas, I admire his willingness to discuss them. I would also praise him for not abandoning his post at the trial when things got difficult, unlike several of his Discovery Institute colleagues.
 
-{{< mediatext `/img/2021/01/image.png` `Tammy Kitzmiller, named plaintiff, offers [her recollections at the NSCE.](https://ncse.ngo/remembering-kitzmiller-v-dover)` >}}
+{{% image `/img/2021/01/kitzmiller.png` %}}
+Tammy Kitzmiller, named plaintiff, offers [her recollections at the NSCE.](https://ncse.ngo/remembering-kitzmiller-v-dover)
+{{% /image %}}
 
 A search for "Kitzmiller" on the website of the Thomas More Law Center, which had recommended the book, *Of Pandas and People*, at the center of the case, and provided the school board's legal defense, returned no hits.
 

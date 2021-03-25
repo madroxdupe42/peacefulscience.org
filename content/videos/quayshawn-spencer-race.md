@@ -14,7 +14,7 @@ headerimage:
 title: "Quayshawn Spencer: Is Race Real?"
 ---
 
-Is race real? Or is it an illusion? With the death of George Floyd in the custody of a police officer, we are once again asking questions about race. In our last episode, we invited Adam Rutherford to discuss his book, *[How to Argue with a Racist](https://peacefulscience.org/rutherford-racist/(opens%20in%20a%20new%20tab))*. This episode, we invite Dr. Quayshawn Spencer to a conversation with two biologists, Dr. Nathan Lents and Dr. S. Joshua Swamidass.
+Is race real? Or is it an illusion? With the death of George Floyd in the custody of a police officer, we are once again asking questions about race. In our last episode, we invited Adam Rutherford to discuss his book, *[How to Argue with a Racist](https://peacefulscience.org/rutherford-racist/)*. This episode, we invite Dr. Quayshawn Spencer to a conversation with two biologists, Dr. Nathan Lents and Dr. S. Joshua Swamidass.
 
 [Dr. Spencer is a philosopher of biology at the University fo Pennsylvania](https://philosophy.sas.upenn.edu/people/quayshawn-spencer). In two papers, [he maps out the debate over the last few decades](https://discourse.peacefulscience.org/t/quayshawn-spencer-is-race-real/10831?u=swamidass) on the reality of biological race and "folk" conceptions of race.
 

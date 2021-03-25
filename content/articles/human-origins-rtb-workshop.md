@@ -6,9 +6,10 @@ authors:
 categories:
 - adam-eve
 - gae
-commenturl: "http://discourse.peacefulscience.org/t/human-origins-workshop-with-reasons-to-believe-january-2020/9110"
-date: "2019-12-28T06:28:08"
-description: The dialogue between PS and RTB is live streamed on January 18th, as we consider The Genealogical Adam and Eve alongside their model of human origins.
+commenturl: http://discourse.peacefulscience.org/t/human-origins-workshop-with-reasons-to-believe-january-2020/9110
+date: '2019-12-28T06:28:08'
+description: The dialogue between PS and RTB is live streamed on January 18th, as
+  we consider The Genealogical Adam and Eve alongside their model of human origins.
 feature: true
 headerimage:
   src: /img/2018/05/swamidass_ross-e1525575082139.jpg
@@ -41,7 +42,7 @@ With these possibilities in mind, I am a Christian that affirms evolutionary sci
 
 ## A Workshop on January 18th
 
-![](https://i2.wp.com/d4bge0zxg5qba.cloudfront.net/cms/images/default-source/default/humanorigins_eventbanner243279471f8666f3b463ff00002b9606.jpg?w=696&ssl=1)
+![](/img/2019/12/humanorigins_eventbanner243279471f8666f3b463ff00002b9606.jpg)
 
 There is a missing piece though. What exactly are the theological constraints? In what ways can they be flexible? Add on to this the shake up from my book, *[The Genealogical Adam and Eve](https://ivpress.com/the-genealogical-adam-and-eve)*, and there are lot of questions in the air.
 

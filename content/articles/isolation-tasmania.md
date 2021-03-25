@@ -5,9 +5,10 @@ authors:
 - swamidass
 categories:
 - gae
-commenturl: "http://discourse.peacefulscience.org/t/how-does-the-isolation-of-tasmania-impact-recent-universal-ancestry/8978"
-date: "2019-12-13T22:56:46"
-description: The question of Tasmania pulls us deeper into science, wondering together about what we know and the limits of our knowledge. Let the conversation grow.
+commenturl: http://discourse.peacefulscience.org/t/how-does-the-isolation-of-tasmania-impact-recent-universal-ancestry/8978
+date: '2019-12-13T22:56:46'
+description: The question of Tasmania pulls us deeper into science, wondering together
+  about what we know and the limits of our knowledge. Let the conversation grow.
 headerimage:
   src: /img/2019/12/bass-strait-masters-2018-background.jpg
 title: How does the isolation of Tasmania impact recent universal ancestry?
@@ -34,7 +35,7 @@ Even if there was precisely zero immigrants, Adam and Eve at 6,000 years would s
 
 The figure visualizes how I summarize my findings. My precise scientific argument is nuanced and complex. It is possible the case by which I arrived at this conclusion can be refined. The scientific reviewers of the book agreed that this conclusion is sensible. Of course, it is possible these dates will be refined with further work. Consistent with the conclusion that this is a *disputed* assumption, some scientists contend Tasmania was totally isolated from before 6,000 years ago to AD 1. [After they read the book, I invite scientists to submit any errors they find for review.](https://peacefulscience.org/genealogical-adam-eve/errata/) All substantive errors will be identified and corrected. I hope to correct the typos too.
 
-{{< mediatext `https://upload.wikimedia.org/wikipedia/commons/4/41/Truganini_and_last_4_tasmanian_aborigines.jpg` `A [picture](https://commons.wikimedia.org/wiki/File:Truganini_and_last_4_tasmanian_aborigines.jpg) of the last four Tasmanian Aborigines of solely Aboriginal descent c. 1860s. [Truganini](https://en.wikipedia.org/wiki/Truganini), who is claimed by some to be the last to survive, is seated at far right. Aboriginal populations remain in Tasmania, but they are not of solely Aboriginal descent.` >}}
+{{< mediatext `static/img/2019/12/Truganini_and_last_4_tasmanian_aborigines.jpg` `A [picture](https://commons.wikimedia.org/wiki/File:Truganini_and_last_4_tasmanian_aborigines.jpg) of the last four Tasmanian Aborigines of solely Aboriginal descent c. 1860s. [Truganini](https://en.wikipedia.org/wiki/Truganini), who is claimed by some to be the last to survive, is seated at far right. Aboriginal populations remain in Tasmania, but they are not of solely Aboriginal descent.` >}}
 
 Nearly universal ancestry might be good enough for theology, because the doctrine of monogenesis is not stated with scientific precision. If our theology grants equal human rights and dignity to people outside the Garden, there is no reason to be concern.
 
@@ -46,7 +47,7 @@ So what theology might grant equal human rights and dignity to people outside th
 
 There is also a fascinating [conversation to follow in science](https://www.discovermagazine.com/the-sciences/ten-thousand-years-of-solitude). We should be eager to learn more, exploring what science discovers here. We should welcome questions about the certainty of findings here too. How quickly did the seas rise? What was the weather like thousands of years ago in the [Bass Strait](https://en.wikipedia.org/wiki/Bass_Strait), the gap between Tasmania and Australia? How helpful is the broken bridge of islands to Tasmania? How long [can oral history keep knowledge of long lost lands](https://www.sapiens.org/language/oral-tradition/) alive? What does the genetic data tell us?
 
-{{< mediatext `https://upload.wikimedia.org/wikipedia/commons/0/06/Bass_Strait_islands.png` `[Map of Bass Strait including major island groups.](https://commons.wikimedia.org/wiki/File:Bass_Strait_islands.png) In present day, this body of water separates Tasmania and Australia. Thousands of years ago, a land bridge spanned the divide.` >}}
+{{< mediatext `static/img/2019/12/Bass_Strait_islands.png` `[Map of Bass Strait including major island groups.](https://commons.wikimedia.org/wiki/File:Bass_Strait_islands.png) In present day, this body of water separates Tasmania and Australia. Thousands of years ago, a land bridge spanned the divide.` >}}
 
 The question of Tasmania is part of the grand conversation of origins too. Were they totally isolated for 10,000 years? Rigorously considering this question invites us deeper into science. Here, let us wonder together about what we know, how we know it, and the limits of our knowledge. Maybe ancient DNA will one day unlock the puzzle. Perhaps a philosopher might "untangle the epistemological knot."
 

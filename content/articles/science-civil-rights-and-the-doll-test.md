@@ -7,9 +7,10 @@ categories:
 - ancestry
 - race
 - society
-commenturl: "http://discourse.peacefulscience.org/t/science-civil-rights-and-the-doll-test/13201"
-date: "2021-02-12T16:00:00"
-description: Two black scientists explored the effects of segregation on children. Their Doll Test played a key role in the Civil Rights movement.
+commenturl: http://discourse.peacefulscience.org/t/science-civil-rights-and-the-doll-test/13201
+date: '2021-02-12T16:00:00'
+description: Two black scientists explored the effects of segregation on children.
+  Their Doll Test played a key role in the Civil Rights movement.
 headerimage:
   src: /img/2021/02/doll-test.jpg
 title: Science, Civil Rights, and the Doll Test
@@ -40,7 +41,7 @@ At this question, Clarks reported that some children "broke down and cried". Two
 
 This heartbreaking response is still with us. Children who took the test in 2007 would also break down in tears as they saw themselves in the rejected doll.
 
-{{< mediatext `https://lh6.googleusercontent.com/evVKj-VA1jGgqOVxEWOsV9a03TtEI6LwDPW_-hT-QZyCBmAg_jAK_-lygeA_BpZNRkPEn5OhDCSZoHlu9Bt0uMFTpJTN_M2jtYteYoZy2NCDZSTo2uhsI-KVWJX9-kBsdC-YatTZ` `1947 image by [Gordon Parks](https://www.nytimes.com/2006/03/08/arts/design/gordon-parks-a-master-of-the-camera-dies-at-93.html) showing Kenneth Clark observing a child doing the Doll Test` >}}
+{{< mediatext `static/img/2021/02/evVKj-VA1jGgqOVxEWOsV9a03TtEI6LwDPW_-hT-QZyCBmAg_jAK_-lygeA_BpZNRkPEn5OhDCSZoHlu9Bt0uMFTpJTN_M2jtYteYoZy2NCDZSTo2uhsI-KVWJX9-kBsdC-YatTZ.png` `1947 image by [Gordon Parks](https://www.nytimes.com/2006/03/08/arts/design/gordon-parks-a-master-of-the-camera-dies-at-93.html) showing Kenneth Clark observing a child doing the Doll Test` >}}
 
 The "[Doll Test](http://www2.law.columbia.edu/fagan/courses/law_socialscience/documents/Spring_2006/Class%2018-Racial%20Discrimination/Doll_Study.pdf)" is arguably one of the most socially important scientific experiments because of its role in the Civil Rights movement, making the case against segregation. Taking place around the mid-twentieth century, husband and wife, [Kenneth](https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/kenneth-bancroft-clark#2870700021) and [Mamie Clark](https://encyclopediaofarkansas.net/entries/mamie-katherine-phipps-clark-2938/), asked this set of questions to 253 children. They were mainly interested in understanding the impact of segregation on children's racial preference (see question 1-4), racial awareness (5-7), and self-identification (8). 
 
@@ -48,7 +49,7 @@ About half of these 3-7 year-olds were from segregated schools in southern Arkan
 
 At the time when this study took place, there was an expectation that the Northern part of the country should be a more welcoming place for the black community.  Many African-Americans migrated North to flee the hostility of the South. At that time, the Chicago march that would only take place much later in 1966 has yet to reveal that the virulence of that hatred was far worse than they expected.
 
-{{< mediatext `https://lh3.googleusercontent.com/-V_6nUQtVyRWaM3dkgMrx7kevGIq5JfMQUZMmqOdxji8CFnfdyEOSlGDRbiAtbH1gQ8MKnJmTsVX_TWXTcuUXFQ1D6j0W5F2VMJSZg_7wF4rLzaNvff5sXm2eoaee0Zts_Ujdnor` `Result of the Clarks' 1947 Doll Test study.` >}}
+{{< mediatext `static/img/2021/02/-V_6nUQtVyRWaM3dkgMrx7kevGIq5JfMQUZMmqOdxji8CFnfdyEOSlGDRbiAtbH1gQ8MKnJmTsVX_TWXTcuUXFQ1D6j0W5F2VMJSZg_7wF4rLzaNvff5sXm2eoaee0Zts_Ujdnor.png` `Result of the Clarks' 1947 Doll Test study.` >}}
 
  
 
@@ -86,4 +87,4 @@ One of the uniqueness of the Doll Test is its relatively simple method of reveal
 
 The biggest takeaway of these studies was the fact that the impact of discrimination is pervasive even at an early age. It is not hard to imagine how it would affect all walks of life. Today, around 6 decades after the case was overturned, we still live in a deeply fractured society.
 
-Remembering and understanding this history does not change society. Still, it is the first step towards actions that can change society. This is one reason we talk about race, even when it is difficult. In the legacy of Dr. Martin Luther King, Jr., "the time is always right to do what's right." 
+Remembering and understanding this history does not change society. Still, it is the first step towards actions that can change society. This is one reason we talk about race, even when it is difficult. In the legacy of Dr. Martin Luther King, Jr., "the time is always right to do what's right."
