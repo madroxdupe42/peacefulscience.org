@@ -29,7 +29,7 @@ I read [*Advice fo![437689](/img/2016/08/437689.jpg)r a Young Investigator*](ht
 
 ![41wXZsJ9tML.\_AC_UL320_SR214,320\_](/img/2016/08/41wXZsJ9tML._AC_UL320_SR214320_.jpg)I encountered Michael Polanyi's work in 2001. He was a physician and a chemist, who eventually became most known for his work on the philosophy of science, saying "we know more than we can tell." Polanyi was also a Christian, and explained science's dependence on trust and tacit knowledge. A gentle introduction to his work is available in an audio recording from Mars Hill Audio, [*Tacit Knowledge, Truthful Knowing*](https://marshillaudio.org/catalog/tacit-knowing-truthful-knowing) in 1999.
 
-Currently, there is growing recognition that character is necessary in science. This echoes Bacon's focus on ending idolatry, Ramón y Cajal's mentorship on personal virtues, and Polanyi's articulation of tacit knowledge. A branch of philosophy, "virtue epistemology," is reviving this perspective and finds its scientific expression in Robert T. Pennock and "[The Scientific Virtues Project](mailto:https://www.msu.edu/~svp/)." Science in its culture silently defines many critical virtues and enforces several rituals to encourage their development. For example, Pennock cites "honesty," "curiosity", and "humility to data" as critical to scientific inquiry. Jesus speaks to this too, emphasizing the importance of being a "seeker" on a curious and humble quest for truth. Even when encountering evidence of God in nature, unless we seek, we will not see God. The character of a seeker is required for evidence to be understood. In this recognition of character by Jesus, I find substantial common ground with science.
+Currently, there is growing recognition that character is necessary in science. This echoes Bacon's focus on ending idolatry, Ramón y Cajal's mentorship on personal virtues, and Polanyi's articulation of tacit knowledge. A branch of philosophy, "virtue epistemology," is reviving this perspective and finds its scientific expression in Robert T. Pennock and "[The Scientific Virtues Project](https://www.nature.com/articles/nj7597-139a)." Science in its culture silently defines many critical virtues and enforces several rituals to encourage their development. For example, Pennock cites "honesty," "curiosity", and "humility to data" as critical to scientific inquiry. Jesus speaks to this too, emphasizing the importance of being a "seeker" on a curious and humble quest for truth. Even when encountering evidence of God in nature, unless we seek, we will not see God. The character of a seeker is required for evidence to be understood. In this recognition of character by Jesus, I find substantial common ground with science.
 
 ![The great scientists and father of Intelligent design, Robert Boyle.](/img/2016/08/469030a-i1.0.jpg)
 
@@ -63,7 +63,7 @@ Mars Hill Audio (1999). [*Tacit Knowledge, Truthful Knowing: The Life and Thoug
 
 Pascal, Blaise (1958) \[1660\]. Translated by F. W. Trotter. [*Pensées*](http://www.ccel.org/ccel/pascal/pensees.html). Christian Classics Ethereal Library. Available online here.
 
-Pennock, Robert T. "[The Scientific Virtues Project](mailto:https://www.msu.edu/~svp/)." Website.
+Pennock, Robert T. "[The Scientific Virtues Project](https://www.nature.com/articles/nj7597-139a)." Website.
 
 Ramón y Cajal, Santiago (1999) \[1897\]. [*Advice for a Young Investigator*](http://bbs.sciencenet.cn/upload/blog/file/2010/10/2010101216310315728.pdf). Translated by Neely Swanson and Larry W. Swanson. Cambridge: MIT Press.
 
