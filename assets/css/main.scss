@@ -35,12 +35,10 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
   color: black;
   position:relative;
   font-family: AlverataSb;
-  
+  margin-left: -1rem;
 };
 
-article p {
-padding-left: 1rem;
-}
+
 
 ol li:not(:last-child) {
 padding-bottom: 0.5rem;
@@ -49,9 +47,7 @@ article img {
   width: 100%;
 };
 
-blockquote {
-  padding-left: 2em;
-}
+
 
 .font-special {
  font-family: AlverataSb;
@@ -318,6 +314,10 @@ box-shadow:   inset 0 0 1rem #000000;
 }
 
 
+article p:last-child {
+ margin-bottom: 0px;
+}
+
 .sidebar-item {
 	position: absolute;
 	top: 0;
@@ -374,7 +374,8 @@ box-shadow:   inset 0 0 1rem #000000;
 .article-question {
   font-weight: 600;
   @extend .expand-right;
-  p {padding-left: 0em; }
+  @extend .pb-3;
+  p {margin-left: -1em; }
   h1,h2,h3,h4,h5,h6,h7,h8 {
     @extend .hideme; 
   }
@@ -392,9 +393,7 @@ box-shadow:   inset 0 0 1rem #000000;
   background: #f2f2f2;
   font-size: smaller;
   @extend .expand-right;
-  @extend .pt-3;
-  @extend .pb-1;
-  @extend .px-3;
+  @extend .p-3;
   @extend .mb-3;
 }
 
@@ -409,7 +408,6 @@ box-shadow:   inset 0 0 1rem #000000;
 	 @extend .shadow;
 	 width: 100%;
 	 background: #f3f3f3;
-	 p {padding-left: 0px; margin-bottom: 0px};
 	 a {z-index: 10};
 	 @include media-breakpoint-up($breakpoint) {
 		width: 137%;
@@ -425,7 +423,6 @@ box-shadow:   inset 0 0 1rem #000000;
 	 float:none;
 	 width: 100%;
 	 background: #f3f3f3;
-	 p {padding-left: 0px; margin-bottom: 0px};
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
@@ -498,9 +495,10 @@ svg:not(:root) {
 }
 
 [id] {
-scroll-margin-top: 20px;
+scroll-margin-top: 75px;
 }
 
+blockquote {}
 
 .footnote-ref, .footnote-backref  {
   background: #080;
@@ -537,6 +535,8 @@ scroll-margin-top: 20px;
     width: 100%;
     font-family: AlverataSb;
     font-size: smaller;
+    
+
     
   ul {
     @extend .p-0;
@@ -620,4 +620,11 @@ display: none;
 @include media-breakpoint-up(xl) {
  display: block;
 }
+}
+
+blockquote {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  font-size: smaller;
+border-left: 3px solid #dfdfdf;  
 }

@@ -15,13 +15,22 @@ headerimage:
 title: Retrieving Augustine's Doctrine of Creation
 ---
 
-Gavin Ortlund (PhD, Fuller Theological Seminary) serves as senior pastor of First Baptist Church of Ojai in Ojai, California. He is the author of several books, including [Retrieving Augustine's Doctrine of Creation](https://www.ivpress.com/retrieving-augustine-s-doctrine-of-creation) and [Finding the Right Hills to Die on](https://www.amazon.com/Finding-Right-Hills-Die-Theological/dp/1433567423/). You can follow him on Twitter [here](https://twitter.com/gavinortlund). This article is an excerpt from his new book, [Retrieving Augustine's Doctrine of Creation](https://www.ivpress.com/retrieving-augustine-s-doctrine-of-creation). We also recommend the article [The Contemporary Relevance of Augustine's View of Creation](https://www.asa3.org/ASA/PSCF/1988/PSCF3-88Young.html) by Davis A. Young.
+<div class="editor-note">
+
+Gavin Ortlund (PhD, Fuller Theological Seminary) serves as senior pastor of First Baptist Church of Ojai in Ojai, California. He is the author of several books, including [Retrieving Augustine's Doctrine of Creation](https://www.amazon.com/Retrieving-Augustines-Doctrine-Creation-Controversy/dp/0830853243) and [Finding the Right Hills to Die on](https://www.amazon.com/Finding-Right-Hills-Die-Theological/dp/1433567423/). You can follow him on Twitter [here](https://twitter.com/gavinortlund). This article is an excerpt from his new book, [Retrieving Augustine's Doctrine of Creation](https://www.ivpress.com/retrieving-augustine-s-doctrine-of-creation). We also recommend the article [The Contemporary Relevance of Augustine's View of Creation](https://www.asa3.org/ASA/PSCF/1988/PSCF3-88Young.html) by Davis A. Young.
+
+</div>
 
 How might Augustine's doctrine of creation influence the current creation debate? Here are three possibilities. First, Augustine helps us wonder at sheer createdness. Creation is not a necessity. It reflects the generosity of God. As Augustine prays, "You created, not because you had need, but out of the abundance of your own goodness." [^1]
+
+
+
+{{< amazon `0830853243` >}}
 
 Related to this, creation is, for Augustine, an emotional doctrine. He engages it at a deeply existential level. Specifically, he holds that the human soul was made for God, and thus every facet of human existence is dynamically oriented toward God. At every moment and in all that we do, we are constantly upheld by God, relating to God, and in need of God. He is the constant fact with which all existence has to do. Life and happiness are fully and only from him. As Augustine writes, "Even when all is well with me, what am I but a creature suckled on your milk and feeding on yourself, the food that never perishes?" [^2]
 
 Augustine's vision of creaturely dependence on God extends not only to the human soul but to the entire created universe. The whole world is reverberating with imperfection, longing to share with the angels in divine immutability---like a piece of pottery that has been constructed but has not yet gone through the firing and glazing stages. It awaits its final confirmation in God. Augustine may as well have prayed, "You have made all creation for yourself, and it will find no rest until it rests in you." This is why the *Confessions* ends with Genesis 1, and why Genesis 1:1-2 sets Augustine's heart throbbing. [^3]
+
 
 Augustine's reminder of the miracle of creatureliness makes it more difficult to take this doctrine for granted, or to put all our focus on simply *how* it happened. Creation is not a speculative topic but vitally concerns human happiness. Even secular people involved in the conversation may be intrigued by Augustine's insights into the craving of the human heart.
 

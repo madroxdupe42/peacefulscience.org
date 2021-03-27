@@ -5,9 +5,10 @@ authors:
 - ciara
 categories:
 - policy
-commenturl: "http://discourse.peacefulscience.org/t/authors-guide-and-call-for-submissions/13431"
-date: "2021-03-22T14:47:00"
-description: "We are inviting submissions from scientists and scholars around the grand question: what does it mean to be human?"
+commenturl: http://discourse.peacefulscience.org/t/authors-guide-and-call-for-submissions/13431
+date: '2021-03-22T14:47:00'
+description: 'We are inviting submissions from scientists and scholars around the
+  grand question: what does it mean to be human?'
 headerimage:
   src: /img/2021/03/submissions-ps.png
 title: Author's Guide and Call for Submissions
@@ -27,7 +28,7 @@ We are soliciting factually sound and well-researched content that bridges betwe
 6.  [Written interviews with scholars](https://peacefulscience.org/godawa-midrash/) or other notables.
 7.  Excerpted transcripts from notable audio or video statements.
 
-We encourage pre-submission inquiries. Soon we will have a form here, but for now send us an email with:
+**We encourage pre-submission inquiries.** Soon we will have a form here, but for now send us an email with:
 
 1.  A few sentences describing the idea for your submission.
 2.  Any relevant news hook or dates that will guide the timeline of publication, and inform us to the timeliness of the submission.
@@ -46,9 +47,7 @@ The best submissions will bridge across differences, engage meaningfully with sc
     -   CRISPR, Genetic Engineering and Gene Editing
     -   Transparency, Academic Freedom, and Research Ethics/Integrity.
 
-```{=html}
-<!-- -->
-```
+
 2.  We are also soliciting **submissions that bridge across differences,** whether it be race, human origins, or other sticky places of conflict. Submissions can be a proposal for ways forward, or seek to increase understanding to difficult audiences.
 
 ## Our Audience

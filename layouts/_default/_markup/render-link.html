@@ -47,8 +47,8 @@
   {{- $rel = default nil -}}
 {{- end -}}
 
-{{- if eq $url.Host "amazon.com" -}}
-   {{- $dest = printf "https://amazon.com/%s?%s" $url.Path "tag=swamidass-20" -}}
+{{- if eq $url.Host "www.amazon.com" -}}
+  {{- $dest = printf "https://www.amazon.com/%s?%s" $url.Path "tag=swamidass-20" -}}
 {{- end -}}
 
 <a href="{{ $dest }}"

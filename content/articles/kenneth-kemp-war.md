@@ -15,7 +15,11 @@ headerimage:
 title: The War That Never Was
 ---
 
+<div class="editor-note">
+
 Kenneth W. Kemp (PhD, Notre Dame) is an emeritus professor of philosophy at the University of St. Thomas in St. Paul Minnesota. His previous work has included "[Science, Theology, & Monogenesis](https://www3.nd.edu/~afreddos/papers/kemp-monogenism.pdf)," "[Scientific Method and Appeal to Supernatural Agency](https://www.pdcnet.org/logos/content/logos_2000_0003_0002_0165_0205)," "[The Virtue of Faith in Theology, Natural Science, and Philosophy](https://www.pdcnet.org/faithphil/content/faithphil_1998_0015_0004_0462_0477)," and "[Religion & the Science Classroom](https://www.pdcnet.org/logos/content/logos_2020_0023_0002_0036_0059)." The passages below have been excerpted from his new book, [*The War That Never Was: Evolution & Christian Theology* (Cascade, 2020)](https://www.amazon.com/War-That-Never-Was-Evolution/dp/1532694989/ref=sr_1_1?tag=swamidass-20). He also recently [reviewed *The Genealogical Adam and Eve*](https://discourse.peacefulscience.org/t/kenneth-kemp-adam-and-eve-and-evolution/10611) from a Catholic perspective.
+
+</div>
 
 {{< amazon `1532694989` >}}
 
@@ -39,4 +43,10 @@ Sometimes, to be sure, the source of the problem is the unreflective conservatis
 
 The use of the Warfare Thesis as a lens through which to view the relation between science and theology or religion invites its adherents to see as confirmations of the thesis incidents that are not that at all. It does not bring the history of science (or the nature of theology or religion) into focus. Indeed it often distorts each of these subjects. One can only hope that it will soon cease to be a theme in popular intellectual culture. 
 
+
+<div class="editor-note">
+
+
 Used with permission from Wipf and Stock Publishers: [www.wipfandstock.com](http://www.wipfandstock.com/). The feature image is from [Pixabay](https://pixabay.com/photos/toy-soldier-plastic-action-war-1551383/).
+
+</div>

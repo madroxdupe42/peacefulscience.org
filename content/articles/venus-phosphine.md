@@ -25,7 +25,11 @@ Venus is our nearest and most Earth-like planetary neighbor. In recent decades, 
 
 At first, we thought it was a planet with a giant ocean, or large swamp, perhaps a grand paradise. Decades before space travel, the 1903 Nobel Prize winner, Svante Arrhenius, described Venus in his cosmological book, [*The Destinies of the Stars*](https://www.gutenberg.org/files/58222/58222-h/58222-h.htm#CHAPTER_I) (1918), as a largely habitable planet with temperature that may support "luxuriant vegetation." He proposed that "only low forms of life (may be found there), mostly no doubt belonging to the vegetable kingdom." These [images of Venus are visible in science fiction](https://en.wikipedia.org/wiki/Venus_in_fiction), like C.S. Lewis's [*Perelandra*](https://www.amazon.com/Perelandra-Space-Trilogy-Book-2/dp/074323491X), and Olaf Stapledon *Last and First Men*. They depict Venus as this paradise-like escapade destination from Earth. 
 
-{{< mediatext `static/img/2020/09/220px-CSLewis_Perelandra.jpg` `In [C.S. Lewis's depiction of Venus in the Space Trilogy](https://en.wikipedia.org/wiki/Perelandra), "The planet is covered, so far as Ransom can at first see, by a sweet-water ocean, which is dotted with floating [rafts](https://en.wikipedia.org/wiki/Raft) of vegetation."` >}}
+{{% amazon-caption `074323491X` %}}
+
+In [C.S. Lewis's depiction of Venus in the Space Trilogy](https://en.wikipedia.org/wiki/Perelandra), "The planet is covered, so far as Ransom can at first see, by a sweet-water ocean, which is dotted with floating [rafts](https://en.wikipedia.org/wiki/Raft) of vegetation."
+
+{{% /amazon-caption %}}
 
 The truth ended up far stranger than the fiction. In 1967, the [*Venera 4*](https://en.wikipedia.org/wiki/Venera_4) and [*Mariner 5*](https://en.wikipedia.org/wiki/Mariner_5) probes [finally got a good look](https://www.scientificamerican.com/article/venus-ussr-1967-mission/), showing that Venus was nothing like what we imagined. It was a planet of acid clouds. It may have had an ocean in the past, but now its atmosphere is [permanently full of twisting and swirling clouds](https://astronomy.com/news/2020/04/why-are-venus-clouds-so-weird). If NASA ever tries to send astronauts to Venus, [they might float in blimps above the clouds](https://www.nbcnews.com/mach/science/nasa-has-plan-let-humans-soar-above-clouds-venus-ncna879851). The surface of the planet though, due to the thick atmosphere, is among the hottest and most crushing places in the solar system.
 
@@ -49,10 +53,14 @@ There are indeed many questions here. As Swamidass, puts it in the [Panda's Thum
 
 ## The Meaning of Venus
 
+{{% image `/img/2020/09/oovenus_current_and_ancient.jpg` %}}
+[Image of a habitable Venus in the past.](http://astrobiology.com/2020/09/on-the-possible-evolutionary-history-of-the-water-ocean-on-venus.html)
+{{% /image %}}
+
 Returning our attention to Venus has other lessons for us. "[Venus used to be as fit for life as earth](http://cosmos.nautil.us/short/58/the-romantic-venus-we-never-knew)," with oceans and an environment much like ours. This should remind us,  Dr. Grinspoon has said, to "be good stewards of Earth". He notes, "we will never fully understand our planet, or our own role in its evolution, in a vacuum. We need a point of comparison. Venus provides one. It is a natural laboratory to test our models and hone our understanding of extreme climate change."
 
 Astrophysicist, Dr. Paul M. Sutter sees Venus [as a dire warning for us](https://www.space.com/venus-runaway-greenhouse-effect-earth-next.html): "Venus became a runaway greenhouse with all the water dumped into the atmosphere trapping as much heat as possible, with the surface temperatures continuing to skyrocket," he said, "And here's the worst part about the story of Earth's twisted sister. This is our fate, too." Dr. Carolin Crawford from the University of Cambridge has explained how Earth and Venus share the same origin, yet different outcomes: "we started off with the same initial condition(s) and the paths of the two planets diverged incredibly".  
 
 Phosphine gas on Venus presents us with a mystery then, and it directs our attention back to Venus. We don't have all the answers yet, and it might be the "[glory of kings to seek \[this\] matter out](https://biblehub.com/proverbs/25-2.htm)."
 
-![[Image of a habitable Venus in the past.](http://astrobiology.com/2020/09/on-the-possible-evolutionary-history-of-the-water-ocean-on-venus.html)](/img/2020/09/oovenus_current_and_ancient.jpg)
+
