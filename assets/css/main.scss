@@ -385,6 +385,10 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
 
 }
 
+.btn, label {
+@extend .font-special;
+}
+
 .dropcap{
   @extend .pt-3;
 }
