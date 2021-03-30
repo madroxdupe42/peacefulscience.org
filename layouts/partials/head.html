@@ -43,9 +43,8 @@
 {{ end }}
     
 
-{{- with .Site.Params.favicon }}
-    <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
-{{- end -}}
+
+<link href='/ps-initials.png?h=64&w=64' rel='shortcut icon'/>
 
 <!-- SEO -->
 {{- partial "seo/main.html" . -}}
