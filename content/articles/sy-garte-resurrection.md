@@ -6,12 +6,13 @@ authors:
 categories:
 - confession
 - resurrection
-commenturl: "http://discourse.peacefulscience.org/t/sy-garte-why-i-believe-in-the-resurrection/8547"
-date: "2019-11-19T12:00:25"
-description: Sy Garte saw Jesus in a dream. Can a scientist believe a miracle like the resurrection? Miracles, by definition, are not addressable by science.
+commenturl: http://discourse.peacefulscience.org/t/sy-garte-why-i-believe-in-the-resurrection/8547
+date: '2019-11-19T12:00:25'
+description: Sy Garte saw Jesus in a dream. Can a scientist believe a miracle like
+  the resurrection? Miracles, by definition, are not addressable by science.
 headerimage:
-  src: /img/2019/11/sy-garte.png
-title: "Sy Garte: Why I Believe in the Resurrection"
+  src: /img/2019/11/garte-book.png
+title: 'Sy Garte: Why I Believe in the Resurrection'
 ---
 
 At *Peaceful Science*, we see value in lucid self-disclosures. It is our pleasure to present this confession from Sy Garte, a biologist, who explains how he came to affirm the Resurrection. Dr. Garte's story is expanded in *[The Work of His Hands: A Scientist's Journey from Atheism to Faith](https://www.amazon.com/Works-His-Hands-Scientists-Journey/dp/0825446074)*, released today, and this book is significant for our current moment. As an atheist biology professor, Dr. Garte encountered Jesus in a dream.
