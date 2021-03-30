@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
-{{ $PAGES := partialCached "byviews" . }}
+
+
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
-<!-- article-question -->
 
 <div class="article-grid">
 <div class="left-sidebar" style="height: 100%;">
