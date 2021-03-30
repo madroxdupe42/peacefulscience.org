@@ -1,1 +1,3 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }} </h{{ .Level }}>
+<h{{ .Level }} {{ range $key, $value :=  .Attributes -}}
+  {{- $key -}}="{{- $value -}}" {{ end -}}
+>{{ .Text | $.Page.RenderString (dict "display" "inline") }} </h{{ .Level }}>

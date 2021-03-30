@@ -35,10 +35,21 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
   color: black;
   position:relative;
   font-family: AlverataSb;
-  margin-left: -1rem;
 };
 
+article {
 
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+  margin-left: -0.5rem;
+  
+  @include media-breakpoint-up(xl) {
+    margin-left: -1rem;
+	width: 137%;
+	margin: $spacer -37% $spacer -1rem;
+  }
+};
+}
 
 ol li:not(:last-child) {
 padding-bottom: 0.5rem;
@@ -364,6 +375,29 @@ article p:last-child {
 }
 
 
+article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-letter {
+  @extend .font-special;
+
+  margin: 0;
+  font-size: 4em;
+  line-height: 0.65;
+  padding: 0.1em 0 0 0;
+
+}
+
+.dropcap{
+  @extend .pt-3;
+}
+
+.article-question > p:first-of-type::first-letter {
+  @extend .font-special;
+
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 0.65;
+  padding: 0 0 0 0;
+
+}
 
 .expand-right {
   @include media-breakpoint-up(xl){
@@ -372,10 +406,17 @@ article p:last-child {
 }
 
 .article-question {
-  font-weight: 600;
+  @extend .font-special;
   @extend .expand-right;
   @extend .pb-3;
+  
+  @include media-breakpoint-up(xl) {
+  
   p {margin-left: -1em; }
+  }
+  
+  
+  p {margin-left: -0.5em; }
   h1,h2,h3,h4,h5,h6,h7,h8 {
     @extend .hideme; 
   }
@@ -397,6 +438,13 @@ article p:last-child {
   @extend .mb-3;
 }
 
+figcaption {
+ background: #f6f6f6;
+ @extend .p-2;
+ @extend .text-muted;
+ @extend .text-smaller;
+}
+
 
 @each $breakpoint in map-keys($grid-breakpoints) {
 
@@ -407,7 +455,6 @@ article p:last-child {
 	 float:none;
 	 @extend .shadow;
 	 width: 100%;
-	 background: #f3f3f3;
 	 a {z-index: 10};
 	 @include media-breakpoint-up($breakpoint) {
 		width: 137%;
@@ -422,10 +469,10 @@ article p:last-child {
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 100%;
-	 background: #f3f3f3;
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
+		clear: both;
 		margin: $spacer -37% $spacer $spacer * 2;
 	 }
 	}
@@ -436,7 +483,6 @@ article p:last-child {
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 336px;
-	  background: #f3f3f3;
 	 @include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 336px;
@@ -495,7 +541,7 @@ svg:not(:root) {
 }
 
 [id] {
-scroll-margin-top: 75px;
+scroll-margin-top: 100px;
 }
 
 blockquote {}

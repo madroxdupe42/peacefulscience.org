@@ -215,7 +215,7 @@ For example, all the accrediting institutions we are discussing require universi
 
 Likewise, if a belief statement is changed to be more restrictive, then those hired before the change cannot be held to the new restrictions. It would be unfair to impose a new belief statement retroactively on those who joined the university when an old belief statement was in effect.
 
-Ken Turner, former faculty at Bryan University, [summarizes a common pattern](https://discourse.peacefulscience.org/t/wsj-a-compromise-on-creationism/13309/91?u=swamidass),
+Ken Turner, former faculty at Bryan College, [summarizes a common pattern](https://discourse.peacefulscience.org/t/wsj-a-compromise-on-creationism/13309/91?u=swamidass),
 
 > One problem is that many institutions have a doctrinal statement that says one thing, but the administration (often on a whim without due process) wants to move the goal post of "what's in" and "what's out."...This \[infringes\] on academic freedom because it circumscribes that freedom beyond the official documents of the institution and subjects \[professors and students\] to the private interpretation and interests of a sitting president or board.
 
@@ -243,7 +243,7 @@ In response, Dembski was forced to violate his conscience by recanting his belie
 
 More recently, around 2014, *Answers in Genesis* published the [*Tenets of Creation*](https://answersingenesis.org/colleges/tenets-of-creation/) (TOC), and lobbied administrators at colleges to commit to these tenets.
 
-Bryan University (accredited by SACSCOC), where Dr. Turner was a professor, also signed on. The overreach by the administrators even left YECs like Todd Wood on the outside, because he did not toe the line on scientific YEC. The academic freedom policies and I'm advocating, to fairly apply belief statements, [would have protected these faculty](https://world.wng.org/2014/03/creation_debate_roils_bryan_college).
+Bryan College (accredited by SACSCOC), where Dr. Turner was a professor, also signed on. The overreach by the administrators even left YECs like Todd Wood on the outside, because he did not toe the line on scientific YEC. The academic freedom policies and I'm advocating, to fairly apply belief statements, [would have protected these faculty](https://world.wng.org/2014/03/creation_debate_roils_bryan_college).
 
 Returning to BJU as a case study, it appears that BJU broke these rules. Without noting it transparently at BJU, [Pres. Pettit signed BJU on to the TOC](https://answersingenesis.org/colleges/colleges-and-universities/bob-jones-university/) and also substantially narrowed the range of beliefs they tolerated in 2014. It appears they applied these changes retroactively to faculty, by issuing "[position statements](https://www.bju.edu/about/positions.php)," rather than altering their belief statement. Moreover, [BJU's policy on academic freedom (and its history of changes) is confidential](https://wutbju.tumblr.com/post/152429138345) and [not available to the public on their website](https://wutbju.tumblr.com/post/151707430340/so-pettit-claims-that-he-wants-to-broaden-the-bob). A [leaked memo about SACSCOC's initial review of BJU in 2016](https://wutbju.tumblr.com/post/152569112387/frequently-answered-questions-concerning-the) suggests that accreditors were asking about academic freedom, but SACSCOC did not ensured BJU would make public its academic freedom policy.
 
@@ -374,6 +374,11 @@ In accordance with our [error correction policy](https://peacefulscience.org/cor
 
 <div class="editor-note">
 
-On March 23, this text was correct. Dembski was asked to recant his views on a local flood, not an old earth. Several faculty at SWBTS, including leadership, affirm an old earth. 
+On March 23, 2021, this text was correct. Dembski was asked to recant his views on a local flood, not an old earth. Several faculty at SWBTS, including leadership, affirm an old earth. 
 
-</div> 
+</div>
+
+On March 29, 2021, "Bryan University" was corrected to "Bryan College."
+{.editor-note}
+
+

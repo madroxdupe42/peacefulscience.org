@@ -11,9 +11,9 @@ frameborder="0" allowfullscreen style="max-width:100%"
 </iframe>
 
   {{- with .Get 1  -}}
-  <div class="text-smaller d-block text-muted p-2 mx-auto" style="width:336px">
-     {{- .  | markdownify  -}}
-  </div>
+  <figcaption style="width:336px">
+     {{- . | $.Page.RenderString (dict "display" "inline")   -}}
+  </figcaption>
   {{- end  -}}
 
 </aside>

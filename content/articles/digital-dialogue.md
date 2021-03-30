@@ -18,7 +18,7 @@ In [his response to *The* *Genealogical Adam* at the Dabar Conference](https://
 
 One of the strange realities of the conversation between theology and science is that **the most substantive dialogue takes place in digital spaces**. Scholarly work often ends up entwined with public engagement. Key steps forward are often made in digital dialogue, immediately micropublished unofficially online. Forum threads, news letters, and blog posts can all become important artifacts in the ongoing conversation.Interesting ideas can hit the conversation immediately, without any filter. Peer review is real time, and part of the dialogue. It is through [public comments on a blog post](https://doi.org/10.5281/zenodo.1328247), for example, that new knowledge about population genetics was uncovered.
 
-[In many ways, this is exciting, as everyone can contribute. The scholarly work that is spawned is democratized, and its formation is transparently out in the open. Digital dialogue may be the best way towards consensus and understanding. There are, nonetheless, important **perils** to digital dialogue we are facing, and this bears some consideration.
+In many ways, this is exciting, as everyone can contribute. The scholarly work that is spawned is democratized, and its formation is transparently out in the open. Digital dialogue may be the best way towards consensus and understanding. There are, nonetheless, important **perils** to digital dialogue we are facing, and this bears some consideration.
 
 ## Mistakes Are High Stakes
 

@@ -26,11 +26,13 @@ There is a story to tell about what happened, and how it resolved. For now, the 
 Today, I am renewing my membership with the ASA. They hope to work with *Peaceful Science* in the future, and we certainly look forward to working with them.
 
 ## The ASA's Apology
+{.hideme}
 
 {{< pdf "/pdf/asa-apology-swamidass.pdf" >}}
 
 
 ## My Response
+{.hideme}
 
 {{< pdf "/pdf/swamidass-response-asa.pdf" >}}
 

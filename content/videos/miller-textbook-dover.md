@@ -29,14 +29,9 @@ This textbook also landed him on the Witness stand in the Dover Trial. It was Ke
 
 After discussing the Trial, Miller recounted his debate with Henry Morris, author of the *Genesis Flood*. Back in 1981, over 1,000 people attended. Miller marveled at how much interest this attracted from the public. Even a Nobel Laureate would not draw a crowd like this! He was hooked.
 
+{{< youtube-two `_lfqBlR8qv4` `o0Gg9avFgWc` `Morris vs. Miller (1981): Part 1`  `Morris vs. Miller (1981): Part 2`  >}}
+
 Back then, he had no idea what laid ahead. In 2005, 24 years later, was the year of the Dover Trial.
 
 The audio for this debate is available at the *National Center for Science Education's* channel, where Miller is now Chairman of their board. Enjoy the this great debate. We are almost at its 40th anniversary, and I'm sure the science from both speakers needs a massive update.
 
-{{< youtube `_lfqBlR8qv4` >}}
-
-Henry Morris in the 1981 debate with Kenneth Miller.
-
-{{< youtube `o0Gg9avFgWc` >}}
-
-Kenneth Miller in the 1981 debate with Henry Miller.

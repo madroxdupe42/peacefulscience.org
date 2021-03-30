@@ -7,7 +7,7 @@
 {{- $src = printf "%s?%s" ( $src | absURL ) $args  -}}
 
 
-<aside class="aside-xl-right">
+<figure class="aside-xl-right">
 <img 
   src="{{- $src -}}"
   class="w-100 d-block"
@@ -17,8 +17,8 @@
   {{- end  -}}
 />
   {{- with $alt  -}}
-  <div class="text-smaller text-muted p-2">
-     {{- .  | markdownify  -}}
-  </div>
+  <figcaption class="text-smaller text-muted p-2">
+     {{- . | $.Page.RenderString (dict "display" "inline")  -}}
+  </figcaption>
   {{- end  -}}
-</aside>
+</figure>

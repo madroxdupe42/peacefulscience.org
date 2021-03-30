@@ -15,19 +15,20 @@ headerimage:
 title: A Genealogical Rapprochement on Adam?
 ---
 
+
 About a month after this was published in late 2017, BioLogos responded to this article and [my defense of Keller](https://peacefulscience.org/defense-tim-keller/), [agreeing that the science here is correct](http://biologos.org/blogs/deborah-haarsma-the-presidents-notebook/on-geniality-and-genealogy). It would be seventeen months later that President Haarsma silently [edited her confrontation of Keller](https://discourse.peacefulscience.org/t/biologos-edits-their-response-to-keller/4798) to remove the error. In 2020, BioLogos acknowledged some, but not all, of [the scientific errors](https://biologos.org/articles/truth-seeking-in-science) they made. They also explained why [they continue to disagree, on theological grounds](https://biologos.org/articles/series/book-review-the-genealogical-adam-and-eve/genealogy-genetics-and-the-power-of-words), with the findings explained in this article. (This note was updated in April 2020)
+{.editor-note .aside-xl-right }
 
 Call me a [***confessing scientist***](https://peacefulscience.org/which-is-greater/): a scientist in the Church and a Christian in science, giving a truthful account of what I have seen. My personal position in this debate is beside the point, and not my advocacy here. Instead, as a peaceful scientist, I advocate on behalf of the *empty chair*, those historically excluded from the conversation. For this reason, [I am no longer working with BioLogos](https://peacefulscience.org/which-is-greater/). I no longer call myself an *evolutionary creationist* or a *theistic evolutionist*. As most scientists do, I still affirm evolutionary science, however my goal is to serve with an honest account of what I have seen in science. I seek to place *others* theological concerns and questions over my personal agenda.
+{.dropcap}
+
+
 
 ## A Surprising Claim
 
 I advocate for the *empty chair*. To this end and for this purpose, I made a fairly radical claim at a [public lecture at Urbana Seminary](https://peacefulscience.org/reviewing-adam-and-the-genome/), then at a [scientific seminar at the ASA conference](http://www.asa3.org/ASAradio/ASA2017Swamidass2.mp3), then in [an online symposium for *The Creation Project*.](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) This claim is consistent with the genetic evidence in which it appears (1) our ancestors arise as a population, not a single couple, and that (2) we share ancestry with the great apes.
 
-------------------------------------------------------------------------
-
-*Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors*[^1] *in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.*
-
-------------------------------------------------------------------------
+> Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors[^1] in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.
 
 Though I personally do not endorse any specific account, not even this one, the point is that the scientific evidence does not unsettle this *literal*, *traditional*, and *concordist*[^3] account of Genesis. From a scientific point of view, most of the details in this account are not important; the dates can shift, and so can the theology. As long as there is mixing with those "outside the garden," this account is consistent with all the findings of evolutionary science. There are no hermeneutical or theological claims embedded in this claim. Rather, scientifically speaking, this account fits without contradiction into the evolutionary account of our origins.
 
@@ -48,9 +49,9 @@ We start with the two key findings of genetic science: (1) it appears that our a
 1.  **Genealogical Ancestry is not Genetic Ancestry.** Though scientific discourse focuses on genetic ancestry, genealogical ancestry is germane to the theological claims about Adam. For this reason, it has been an error to answer genealogical questions about Adam with scientific claims about genetic ancestry. Most importantly, we find that, if they existed, Adam and Eve were very likely (under plausible assumptions) ancestors of all of us. Under some theological definitions of "human,"[^4] they would also be the first and only humans when they arise, who are also the ancestors of every human in all history.
 2.  **The Term "Human" is Ambiguous in the Distant Past.** This is true in both theology and science; moreover, "human" is used differently in both theology and science. For this reason, references to "human," "mankind," and "humanity" in theology and science, when applied to the distant past, are hotly debated, unsettled, ambiguous, and ultimately misleading. When in dialogue with theology, ambiguity and theological weight of the term "human" creates avoidable confusion about what science does and does not say.  Most importantly, in light of recent universal ancestry, there is nearly total freedom in mapping between theological "humans," as we understand them today, and the findings of science.
 
-Recognizing ambiguity in "human" raises premature concerns about naming others as "sub-humans." Here, John Walton's model, based on a [*textual analysis*][^5] of Genesis 1 -- 3, is helpful. Without reliance on extra-Scriptural sources, he argues that Genesis 1 and Genesis 2 are sequential. God first makes "mankind" in His Image, and then later identifies, or perhaps specially creates, a single man Adam and a woman Eve, who together become important because of his Fall. Walton calls Adam and Eve the first "true" humans, who are both God Imaged and Fallen. In contrast, those "outside the garden" are God Imaged, but not yet Fallen. They are not sub-human, to be clear, but they are also different than humans as we understand them today; [C.S. Lewis might say they were better than us](http://scientificintegrity.blogspot.com/2010/04/religion-and-rocketry-by-cs-lewis.html). A related [two-creation interpretation of Genesis](https://www.biblicalarchaeology.org/daily/biblical-topics/hebrew-bible/lilith-in-the-bible-and-mythology/), also, is found in The Book of Enoch (from before 200 BC) and elsewhere, so this solution may carry both traditional and textual support. The two-creation model of mankind is just one theological approach; many more are possible.  Nonetheless, I personally refrain from endorsing any specific solution at this time, and  offer this primarily to abet premature concerns.
+Recognizing ambiguity in "human" raises premature concerns about naming others as "sub-humans." Here, John Walton's model, based on a *textual analysis*[^5] of Genesis 1 -- 3, is helpful. Without reliance on extra-Scriptural sources, he argues that Genesis 1 and Genesis 2 are sequential. God first makes "mankind" in His Image, and then later identifies, or perhaps specially creates, a single man Adam and a woman Eve, who together become important because of his Fall. Walton calls Adam and Eve the first "true" humans, who are both God Imaged and Fallen. In contrast, those "outside the garden" are God Imaged, but not yet Fallen. They are not sub-human, to be clear, but they are also different than humans as we understand them today; [C.S. Lewis might say they were better than us](http://scientificintegrity.blogspot.com/2010/04/religion-and-rocketry-by-cs-lewis.html). A related [two-creation interpretation of Genesis](https://www.biblicalarchaeology.org/daily/biblical-topics/hebrew-bible/lilith-in-the-bible-and-mythology/), also, is found in The Book of Enoch (from before 200 BC) and elsewhere, so this solution may carry both traditional and textual support. The two-creation model of mankind is just one theological approach; many more are possible.  Nonetheless, I personally refrain from endorsing any specific solution at this time, and  offer this primarily to abet premature concerns.
 
-[Moreover, because of the necessary entailments of the science, proposals within this framework cannot be construed as ]
+Moreover, because of the necessary entailments of the science, proposals within this framework cannot be construed as *polygenesis,* a false theory of origins sometimes marshalled in support of racism. Instead, this framework continues to affirm monophylogeny, which is the way modern science came to reject polygenesis as a falsified theory. All humans alive today are the same kind, and all would share ancestry with Adam and Eve if they existed. Adam and Eve, if they existed, were not important for bringing advanced biological abilities to those “outside the garden,” but for a unique theological role they played.
 
 ### Eight Theses on Adam and Eve
 
@@ -69,7 +70,7 @@ From this starting point, a careful review of the established science brings us 
 
 Even for those that cannot affirm evolution, this is an important opportunity for claiming common ground. Science does not speak of when God does and does not act, so we should not think that it has ruled out miracles. Those that argue otherwise are on shaky ground.
 
-### Reframing the Adam Debate
+## Reframing the Adam Debate
 
 For a very long time, the received wisdom has understood "traditional" understandings of Adam and Eve to be in direct conflict with evolutionary science. We faced an ***either-or*** choice, between two mutually exclusive options. Now, however, we can see that there is a ***both-and*** option available, which keeps the story almost entirely intact. Although the genetic story seems in total conflict with "traditional" account, the genealogical story is consistent with the genetics and evolutionary story, but looks almost identical to the "traditional" account. Visually dimming those outside Adam's line makes the evolutionary story look exactly like the "traditional" Genesis account, with Adam and Eve as sole-progenitors[^6] of us all.
 
@@ -79,13 +80,10 @@ Those seeking to calm anxieties and reduce conflict will forefront this descript
 
 One exemplary biologist, who does not affirm a historical Adam,  wrote to me his assessment recently. Of note, this is the **former president of BioLogos**, Darrel Falk, and he gets it exactly right:
 
-------------------------------------------------------------------------
-
-> *You...demonstrated that science is silent on the question of Adam and Eve being ancestors of us all. It is even silent on the issue of whether Adam and Eve were created de novo in much the same way as the natural sciences are silent on whether there could have been a resurrection.  I believe your contribution to the discussion has been immeasurable. I am not a concordist, so as a lay person I think all of this is not likely an accurate reading of Scripture--but that's not the point--One can't pin the question of Adam and Eve on science anymore. And I think that's been your primary if not only point the whole way along. *
+> You...demonstrated that science is silent on the question of Adam and Eve being ancestors of us all. It is even silent on the issue of whether Adam and Eve were created de novo in much the same way as the natural sciences are silent on whether there could have been a resurrection.  I believe your contribution to the discussion has been immeasurable. I am not a concordist, so as a lay person I think all of this is not likely an accurate reading of Scripture--but that's not the point--One can't pin the question of Adam and Eve on science anymore. And I think that's been your primary if not only point the whole way along. 
 >
 > Darrel Falk, founding president of BioLogos
 
-------------------------------------------------------------------------
 
 ### An Invitation to Theology
 
@@ -97,7 +95,7 @@ A genealogical Adam brings us back to theology with a whole set of questions, es
 
 I have been working out some answers of my own, but I am no theologian. This year's Dabar conference is focused on a historical Adam, and I am honored to be sharing about a genealogical Adam there. It will take a few years for the theological dust to settle. Hang on, the ride is going to be fun.
 
-## Looking Forward
+### Looking Forward
 
 Going forward, look for more theological work on this in conjunction with theological partners. For interested organizations, groups and scholars, I am available to clarify the science, and support partnerships to move us forward. This will be a dialogue between science and theology. The science is subtle and exciting, and theologians can take a starring role.
 

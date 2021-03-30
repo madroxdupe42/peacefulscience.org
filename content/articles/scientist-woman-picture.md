@@ -30,7 +30,11 @@ In 1983, David Wade Chambers and colleagues devised the [Draw-a-Scientist Test (
 
 After about 5 decades and 78 similar investigations, David Miller and colleagues followed-up on this work by conducting a [meta-analysis](https://srcd.onlinelibrary.wiley.com/doi/full/10.1111/cdev.13039) to see whether there is any progress in the depiction of gender diversity in scientists. They discovered that the tendency for children to draw a male scientist has decreased over time in the United States. Yet in spite of this improvement, the gender proportion was still far from parity. Children still drew more male than female when it comes to scientists. 
 
-![*A picture of a scientist, drawn by a student. Credit: Vasilia Christidou/University of Thessaly, Greece via [Futurity](https://www.futurity.org/draw-a-scientist-gender-1714512/).*](/img/2021/02/draw-a-scientist3_1600.jpg)
+
+{{% image `/img/2021/02/draw-a-scientist3_1600.jpg`  %}}
+A picture of a scientist, drawn by a student. Credit: Vasilia Christidou/University of Thessaly, Greece via [Futurity](https://www.futurity.org/draw-a-scientist-gender-1714512/).
+{{% /image %}}
+
 
 The high association of scientists to a male figure is not so surprising. After all, that is what the popular culture often portrays (think [Frankenstein](https://en.wikipedia.org/wiki/Victor_Frankenstein), [Jekyll](https://en.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(1887_play)), or [Spock](https://en.wikipedia.org/wiki/Spock)). Yet, such imbalance in gender representation has an [important consequence](https://www.frontiersin.org/articles/10.3389/feduc.2019.00060/full). The masculinity associated with maths and sciences is a reason there are so few women in STEM.
 
@@ -62,4 +66,6 @@ While substantial progress has been made, continuation is needed to ensure that 
 
 Let's all hope that someday in the future, we will picture the scientist as a woman.
 
+
 The drawings in this post are from [this article](https://www.futurity.org/draw-a-scientist-gender-1714512/) about drawing scientists.
+{ .editor-note }
