@@ -23,7 +23,6 @@ Call me a [***confessing scientist***](https://peacefulscience.org/which-is-gre
 {.dropcap}
 
 
-
 ## A Surprising Claim
 
 I advocate for the *empty chair*. To this end and for this purpose, I made a fairly radical claim at a [public lecture at Urbana Seminary](https://peacefulscience.org/reviewing-adam-and-the-genome/), then at a [scientific seminar at the ASA conference](http://www.asa3.org/ASAradio/ASA2017Swamidass2.mp3), then in [an online symposium for *The Creation Project*.](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) This claim is consistent with the genetic evidence in which it appears (1) our ancestors arise as a population, not a single couple, and that (2) we share ancestry with the great apes.
@@ -107,7 +106,7 @@ This is not about promoting any narrow theological agenda. This is not an endors
 
 [^2]: Keep in mind that sole-progenitorship does not preclude intermixing with other lines.
 
-[^3]: Here, by "concordist" I do not mean eisegesis, which is always incorrect. Instead, I am using the positive definition, where concordist means embracing* *correspondence between an interpretation and the natural world.
+[^3]: Here, by "concordist" I do not mean eisegesis, which is always incorrect. Instead, I am using the positive definition, where concordist means embracing correspondence between an interpretation and the natural world.
 
 [^4]: For example, if we define theological humans as "Adam, Eve, and their descendants," then by definition they are the sole-couple progenitors of all humans, by definition.
 
