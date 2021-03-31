@@ -8,11 +8,7 @@ if (process.env.HUGO_ENVIRONMENT === 'production') {
   plugins.push(purgecss( {
        content: [
         '**/*.html',
-        '**/*.md',
        ],
-       whitelist: [
-        'blockquote',
-       ]
   }))
 }
 
