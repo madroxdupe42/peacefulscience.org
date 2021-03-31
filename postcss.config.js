@@ -9,6 +9,9 @@ if (process.env.HUGO_ENVIRONMENT === 'production') {
        content: [
         '**/*.html',
         '**/*.md',
+       ],
+       whitelist: [
+        'blockquote',
        ]
   }))
 }
