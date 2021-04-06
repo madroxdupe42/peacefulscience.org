@@ -4,8 +4,13 @@
   "description": "Exploring the grand question: what does it mean to be human?",
   "icons": [
     {
-      "src": "/ps-initials.png?h=64&w=xx64&nf_resize=fit",
+      "src": "/ps-initials.png?h=64&w=64&nf_resize=fit",
       "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/ps-initials.png?h=32&w=32&nf_resize=fit",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
