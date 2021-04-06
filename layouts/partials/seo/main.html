@@ -1,0 +1,8 @@
+{{- range .Params.schemas -}}
+  {{- partial ( printf "seo/%s" . ) $ }}
+{{- end -}}
+{{- if .IsPage }}
+  {{- range .Params.page_schemas -}}
+    {{- partial ( printf "seo/%s" . ) $ }}
+  {{- end -}}
+{{- end -}}

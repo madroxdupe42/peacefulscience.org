@@ -1,6 +1,3 @@
 [submodule "themes/hyde-x"]
 	path = themes/hyde-x
 	url = https://github.com/zyro/hyde-x
-[submodule "themes/flexible-seo-hugo"]
-	path = themes/flexible-seo-hugo
-	url = https://github.com/pjbakker/flexible-seo-hugo.git

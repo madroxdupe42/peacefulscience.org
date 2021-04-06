@@ -95,4 +95,3 @@ sitemap:
 permalinks: 
   article: /:sections/:title/
 
-theme: flexible-seo-hugo

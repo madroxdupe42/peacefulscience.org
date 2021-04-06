@@ -1,0 +1,22 @@
+{{- $url := .url }}
+{{- $caption := .caption }}
+{{- $image := .image }}
+{{- $level := .level }}
+{{- $final := .final }}
+
+{{- $full_data := "" }}
+{{- if eq $final true }}
+  {{- $full_data = printf `
+  <li class="breadcrumb-item active" aria-current="page">
+    <small>%s</small>
+  </li>
+  ` $caption }}
+{{- else }}
+  {{- $full_data = printf `
+  <li class="breadcrumb-item">
+    <a href="%s"><small>%s</small></a>
+  </li>
+  ` $url $caption }}
+{{- end }}
+
+{{ return $full_data }}
