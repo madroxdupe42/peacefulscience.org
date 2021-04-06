@@ -1,0 +1,21 @@
+{
+  "name": "Peaceful Science",
+  "short_name": "PeacefulScience",
+  "description": "Exploring the grand question: what does it mean to be human?",
+  "icons": [
+    {
+      "src": "/ps-initials.png?h=64&w=xx64&nf_resize=fit",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/ps-initials.png?h=512&w=512&nf_resize=fit",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#040"
+}
