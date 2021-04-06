@@ -1,2 +1,3 @@
-/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/*
+/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/*.js.php
   Service-Worker-Allowed: /
+  Content-Type: application/javascript; charset=utf-8
