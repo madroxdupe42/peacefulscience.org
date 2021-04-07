@@ -26,12 +26,12 @@ Join the Peaceful Science community. Subscribe to the mailing list to follow our
 
 <script>
 // Check that service workers are supported
-if ('serviceWorker' in navigator) {
+//if ('serviceWorker' in navigator) {
   // Use the window load event to keep the page load performant
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js');
-  });
-}
+//  window.addEventListener('load', () => {
+ //   navigator.serviceWorker.register('/service-worker.js');
+//  });
+//}
 </script>
 
 {{- partial "footer_custom.html" . }}
