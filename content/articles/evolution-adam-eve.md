@@ -17,8 +17,10 @@ title: Is evolutionary science in conflict with Adam and Eve?
 ---
 
 This white paper was written by Daniel Ang, Jon Garvey, David Kwon, and S. Joshua Swamidass. The featured image is from [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
+{.editor-note}
 
 Is evolutionary science in conflict with Adam and Eve?
+{.dropcap}
 
 Christians throughout history have understood Adam and Eve as the "first man and woman" created in the image of God and placed in the Garden of Eden (Genesis 1:26-28, 2:4-25). But today, people commonly think that Adam and Eve are incompatible with modern evolutionary science.
 
@@ -95,7 +97,8 @@ Barrick, William D. 2013. "A Historical Adam: Young-Earth Creation View." in Fou
 
 Baum, David A., Cécile Ané, Bret Larget, Claudia Solís‐Lemus, Lam Si Tung Ho, Peggy Boone, Chloe P. Drummond, Martin Bontrager, Steven J. Hunter, and William Saucier. 2016. "Statistical Evidence for Common Ancestry: Application to Primates." Evolution 70(6):1354--63. doi: https://doi.org/10.1111/evo.12934.
 
-Beeke, Joel R. 2015. "The Case for Adam." in God, Adam, and You: Biblical Creation Defended and Applied, edited by R. D. Phillips. P & R Publishing.\
+Beeke, Joel R. 2015. "The Case for Adam." in God, Adam, and You: Biblical Creation Defended and Applied, edited by R. D. Phillips. P & R Publishing.
+
 Collins, C. John. 2011. Did Adam and Eve Really Exist?: Who They Were and Why You Should Care. Crossway.
 
 Collins, C. John. 2013. "A Historical Adam: Old-Earth Creation View." in Four Views on the Historical Adam, edited by M. Barrett and A. B. Caneday. Zondervan Academic.
@@ -110,8 +113,9 @@ Giberson, Karl. 2008. Saving Darwin: How to Be a Christian and Believe in Evolut
 
 Grudem, Wayne. 2017. "The Incompatibility of Theistic Evolution with the Biblical Account of Creation and with Important Christian Doctrines." in Theistic Evolution: A Scientific, Philosophical, and Theological Critique, edited by J. P. Moreland, S. C. Meyer, C. Shaw, A. K. Gauger, and W. Grudem. Crossway.
 
-Harlow, Daniel C. 2010. "After Adam: Reading Genesis in an Age of Evolutionary Science." Perspectives on Science and Christian Faith 62(3):17.\
-Kemp, Kenneth W. 2011. "Science, Theology, and Monogenesis." American Catholic Philosophical Quarterly 85(2):217--36. Retrieved November 8, 2020 (https://www.pdcnet.org/pdc/bvdb.nsf/purchase?openform&fp=acpq&id=acpq_2011_0085_0002_0217_0236).
+Harlow, Daniel C. 2010. "After Adam: Reading Genesis in an Age of Evolutionary Science." Perspectives on Science and Christian Faith 62(3):17.
+
+Kemp, Kenneth W. 2011. "Science, Theology, and Monogenesis." American Catholic Philosophical Quarterly 85(2):217--36. Retrieved November 8, 2020.
 
 Kidner, Derek. 2008. Genesis: An Introduction and Commentary. IVP Academic/Intervarsity Press.
 
@@ -134,8 +138,6 @@ Sanford, John, Robert Carter, Wes Brewer, John Baumgardner, Bruce Potter, and Jo
 Swamidass, S. Joshua. 2019. The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry. InterVarsity Press.
 
 Walton, John H. 2015. The Lost World of Adam and Eve: Genesis 2-3 and the Human Origins Debate. InterVarsity Press.
-
-------------------------------------------------------------------------
 
 [^1]:  [Enns (2012](https://www.zotero.org/google-docs/?g8gq3U)). Other notable figures in this camp include Daniel Harlow [(2010)](https://www.zotero.org/google-docs/?8HZ1f9), Denis Lamoureux [(2009; 2013)](https://www.zotero.org/google-docs/?MO2YBI), Karl Giberson [(2008:11-12)](https://www.zotero.org/google-docs/?At5Afc), [Alister McGrath](https://www.youtube.com/watch?v=yL5su0zmpKM), and J. Richard Middleton [(2017)](https://www.zotero.org/google-docs/?tUhst9).
 
