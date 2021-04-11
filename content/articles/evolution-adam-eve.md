@@ -3,6 +3,9 @@ aliases:
 - /evolution-adam-eve/
 authors:
 - dga
+- jgarvey
+- dkwon
+- swamidass
 categories:
 - adam-eve
 - gae
@@ -89,7 +92,9 @@ The four key questions we have covered help to illuminate the many possible unde
 
 Many of these questions do not yet have definite answers. They remain an open invitation for theologians, scientists, and anyone else interested in the conversation. We should know not to expect easy solutions. Nor should we prematurely leap to simplistic narratives of "conflict" or "harmony" between science, Scripture, and theology. In the end we are all approaching a grand question that makes this conversation captivating and important: *what does it mean to be human?*
 
-## References and Footnotes
+## References
+
+<div class="references">
 
 Alexander, Denis. 2014. Creation or Evolution: Do We Have to Choose? Monarch Books.
 
@@ -138,6 +143,8 @@ Sanford, John, Robert Carter, Wes Brewer, John Baumgardner, Bruce Potter, and Jo
 Swamidass, S. Joshua. 2019. The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry. InterVarsity Press.
 
 Walton, John H. 2015. The Lost World of Adam and Eve: Genesis 2-3 and the Human Origins Debate. InterVarsity Press.
+
+</div>
 
 [^1]:  [Enns (2012](https://www.zotero.org/google-docs/?g8gq3U)). Other notable figures in this camp include Daniel Harlow [(2010)](https://www.zotero.org/google-docs/?8HZ1f9), Denis Lamoureux [(2009; 2013)](https://www.zotero.org/google-docs/?MO2YBI), Karl Giberson [(2008:11-12)](https://www.zotero.org/google-docs/?At5Afc), [Alister McGrath](https://www.youtube.com/watch?v=yL5su0zmpKM), and J. Richard Middleton [(2017)](https://www.zotero.org/google-docs/?tUhst9).
 
