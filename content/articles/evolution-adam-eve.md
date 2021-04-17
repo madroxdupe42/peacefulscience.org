@@ -10,17 +10,16 @@ categories:
 - adam-eve
 - gae
 - theology
-commenturl: http://discourse.peacefulscience.org/t/is-evolutionary-science-in-conflict-with-adam-and-eve/13532
-date: '2021-04-11T16:26:22'
-description: It is difficult to classify every way of understanding Adam and Eve alongside
-  evolution. These four questions are a helpful starting point.
+commenturl: "http://discourse.peacefulscience.org/t/is-evolutionary-science-in-conflict-with-adam-and-eve/13532"
+date: "2021-04-11T16:26:22"
+description: It is difficult to classify every way of understanding Adam and Eve alongside evolution. These four questions are a helpful starting point.
 headerimage:
   src: /img/2021/04/ae-evo-ct-scaled.jpg
 title: Is evolutionary science in conflict with Adam and Eve?
 ---
 
-This white paper was written by Daniel Ang, Jon Garvey, David Kwon, and S. Joshua Swamidass. The featured image is from [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
-{.editor-note}
+The featured image is from [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
+{.editor-note .aside-xl-right}
 
 Is evolutionary science in conflict with Adam and Eve?
 {.dropcap}
@@ -92,9 +91,10 @@ The four key questions we have covered help to illuminate the many possible unde
 
 Many of these questions do not yet have definite answers. They remain an open invitation for theologians, scientists, and anyone else interested in the conversation. We should know not to expect easy solutions. Nor should we prematurely leap to simplistic narratives of "conflict" or "harmony" between science, Scripture, and theology. In the end we are all approaching a grand question that makes this conversation captivating and important: *what does it mean to be human?*
 
-## References
 
 <div class="references">
+
+## References
 
 Alexander, Denis. 2014. Creation or Evolution: Do We Have to Choose? Monarch Books.
 
@@ -118,9 +118,9 @@ Giberson, Karl. 2008. Saving Darwin: How to Be a Christian and Believe in Evolut
 
 Grudem, Wayne. 2017. "The Incompatibility of Theistic Evolution with the Biblical Account of Creation and with Important Christian Doctrines." in Theistic Evolution: A Scientific, Philosophical, and Theological Critique, edited by J. P. Moreland, S. C. Meyer, C. Shaw, A. K. Gauger, and W. Grudem. Crossway.
 
-Harlow, Daniel C. 2010. "After Adam: Reading Genesis in an Age of Evolutionary Science." Perspectives on Science and Christian Faith 62(3):17.
+Harlow, Daniel C. 2010. "After Adam: Reading Genesis in an Age of Evolutionary Science." Perspectives on Science and Christian Faith 62(3):17
 
-Kemp, Kenneth W. 2011. "Science, Theology, and Monogenesis." American Catholic Philosophical Quarterly 85(2):217--36. Retrieved November 8, 2020.
+Kemp, Kenneth W. 2011. "Science, Theology, and Monogenesis." American Catholic Philosophical Quarterly 85(2):217--36).
 
 Kidner, Derek. 2008. Genesis: An Introduction and Commentary. IVP Academic/Intervarsity Press.
 
@@ -146,35 +146,35 @@ Walton, John H. 2015. The Lost World of Adam and Eve: Genesis 2-3 and the Human 
 
 </div>
 
-[^1]:  [Enns (2012](https://www.zotero.org/google-docs/?g8gq3U)). Other notable figures in this camp include Daniel Harlow [(2010)](https://www.zotero.org/google-docs/?8HZ1f9), Denis Lamoureux [(2009; 2013)](https://www.zotero.org/google-docs/?MO2YBI), Karl Giberson [(2008:11-12)](https://www.zotero.org/google-docs/?At5Afc), [Alister McGrath](https://www.youtube.com/watch?v=yL5su0zmpKM), and J. Richard Middleton [(2017)](https://www.zotero.org/google-docs/?tUhst9).
+[^1]:  Enns (2012). Other notable figures in this camp include Daniel Harlow (2010), Denis Lamoureux (2009; 2013), Karl Giberson (2008:11-12), Alister McGrath, and J. Richard Middleton (2017).
 
-[^2]:  [Enns (2012](https://www.zotero.org/google-docs/?fXOeE7):53-55).
+[^2]:  Enns (2012:53-55).
 
-[^3]:  Harlow [(2010)](https://www.zotero.org/google-docs/?6aLdHp) argues that other features of the narrative indicate non-historicity, such as irreconcilable differences between the two creation accounts of Gen. 1:1-2:3 and 2:4-25, an anthropomorphic picture of God, resemblance of features of the Garden Eden with the desert tabernacle and Jerusalem temple, and the character of the talking snake.
+[^3]:  Harlow (2010) argues that other features of the narrative indicate non-historicity, such as irreconcilable differences between the two creation accounts of Gen. 1:1-2:3 and 2:4-25, an anthropomorphic picture of God, resemblance of features of the Garden Eden with the desert tabernacle and Jerusalem temple, and the character of the talking snake.
 
-[^4]:  Collins [(2011, chs. 2-3; 2013](https://www.zotero.org/google-docs/?ROcLSD)).
+[^4]:  Collins (2011, chs. 2-3; 2013).
 
-[^5]:  Grudem [(2017)](https://www.zotero.org/google-docs/?fnD07X) criticizes theistic evolutionary models (which may not affirm a historical Fall or reject monogenesis) as jeopardizing the notion of Christ's representation of believers which leads to their forgiveness and redemption. Another common objection is that without a historical Adam, Paul's arguments in Romans 5 and 1 Corinthians 15 would not make sense [(Reeves 2011)](https://www.zotero.org/google-docs/?r3Wr8P).
+[^5]:  Grudem (2017) criticizes theistic evolutionary models (which may not affirm a historical Fall or reject monogenesis) as jeopardizing the notion of Christ's representation of believers which leads to their forgiveness and redemption. Another common objection is that without a historical Adam, Paul's arguments in Romans 5 and 1 Corinthians 15 would not make sense (Reeves 2011).
 
-[^6]:  More technical overviews of the evidence for common ancestry include [Baum et al. (2016)](https://www.zotero.org/google-docs/?SY9UPu).
+[^6]:  More technical overviews of the evidence for common ancestry include Baum et al. (2016).
 
 [^7]:  We use the term *de novo* to mean that Adam and Eve were created instantly and supernaturally "out of the dust" without biological parents, instead of through purely natural processes.
 
-[^8]:  [Sanford and Carter (2018)](https://www.zotero.org/google-docs/?FfbaxT) is an example.
+[^8]:  Sanford and Carter (2018) is an example.
 
 [^9]:  In fact, some young earth creationists such as Todd Wood [admit](https://toddcwood.blogspot.com/2009/09/truth-about-evolution.html) that evolution is an "extremely successful scientific theory."
 
-[^10]:  The key here is understanding the difference between genetic and genealogical ancestry, making a distinction between "humans according to science" and "humans according to Scripture", and allowing the possibility that Adam and Eve's descendants interbred with humans outside the Garden. Genealogical ancestry spreads rapidly in time, such that anyone living a few thousand years ago who left a reasonable number of grandchildren would be the ancestors of everyone living today. See [Swamidass (2019](https://www.zotero.org/google-docs/?qLYmAc), especially chapter 14) or [this blog post](https://peacefulscience.org/three-stories-on-adam/) (Story Three) for a shorter overview. Other scholars who have proposed similar models include Andrew Loke [(2016)](https://www.zotero.org/google-docs/?Omvvt8) and Kenneth Kemp [(2011)](https://www.zotero.org/google-docs/?l8H1Dl).
+[^10]:  The key here is understanding the difference between genetic and genealogical ancestry, making a distinction between "humans according to science" and "humans according to Scripture", and allowing the possibility that Adam and Eve's descendants interbred with humans outside the Garden. Genealogical ancestry spreads rapidly in time, such that anyone living a few thousand years ago who left a reasonable number of grandchildren would be the ancestors of everyone living today. See Swamidass (2019, especially chapter 14) or [this blog post](https://peacefulscience.org/three-stories-on-adam/) (Story Three) for a shorter overview. Other scholars who have proposed similar models include Andrew Loke (2016) and Kenneth Kemp (2011).
 
-[^11]:  See Rana and Ross [(2015)](https://www.zotero.org/google-docs/?xVRhBD) for a more detailed account of this model. Note that there have been multiple versions of the RTB model to take into account new scientific evidence. See [this blog post](http://peacefulscience.org/assess-rtb-model/) and [this discussion thread](https://discourse.peacefulscience.org/t/engaging-the-zoo-of-rtb-models/378) for more details. An even more ancient Adam is suggested by philosopher and theologian William Lane Craig, who [identifies](https://www.reasonablefaith.org/podcasts/defenders-podcast-series-3/s3-doctrine-of-man/doctrine-of-man-part-16) Adam and Eve as two members of the *Homo heidelbergensis*, a species which existed starting about 700,000 years ago. As current genetic evidence [cannot detect](http://peacefulscience.org/reworking-Adam/) bottlenecks in the human population older than about 500,000 years ago, this model is also consistent with the scientific evidence.
+[^11]:  See Rana and Ross (2015) for a more detailed account of this model. Note that there have been multiple versions of the RTB model to take into account new scientific evidence. See [this blog post](http://peacefulscience.org/assess-rtb-model/) and [this discussion thread](https://discourse.peacefulscience.org/t/engaging-the-zoo-of-rtb-models/378) for more details. An even more ancient Adam is suggested by philosopher and theologian William Lane Craig, who [identifies](https://www.reasonablefaith.org/podcasts/defenders-podcast-series-3/s3-doctrine-of-man/doctrine-of-man-part-16) Adam and Eve as two members of the *Homo heidelbergensis*, a species which existed starting about 700,000 years ago. As current genetic evidence [cannot detect](http://peacefulscience.org/reworking-Adam/) bottlenecks in the human population older than about 500,000 years ago, this model is also consistent with the scientific evidence.
 
-[^12]:  See also the upcoming book by Craig [(2021)](https://www.zotero.org/google-docs/?aLlhN0).
+[^12]:  See also the upcoming book by Craig (2021).
 
 [^13]:  Biblical passages often cited in support of this doctrine are [Acts 17:26](https://www.biblegateway.com/passage/?search=Acts%2017%3A26&version=ESV) ("And he made from one man every nation of mankind to live on all the face of the earth") and Romans [5:12-19](https://www.biblegateway.com/passage/?search=Romans+5%3A12-19&version=ESV), where Paul argues that just as sin and death entered the world from one man (Adam), it is redeemed by the actions of one man (Jesus).
 
-[^14]:  Collins [(2011, sections 3e](https://www.zotero.org/google-docs/?UWDvev) and 4b). See also [Beeke (2015)](https://www.zotero.org/google-docs/?37Owkw).
+[^14]:  Collins (2011, sections 3e and 4b). See also Beeke (2015).
 
-[^15]:  For example, see [McKnight and Venema](https://www.zotero.org/google-docs/?LmtPkJ) [(2017)](https://www.zotero.org/google-docs/?LmtPkJ).
+[^15]:  For example, see McKnight and Venema (2017).
 
 [^16]:  To make matters worse, some [argued](https://www.npr.org/2011/08/09/138957812/evangelicals-question-the-existence-of-adam-and-eve) that even an ancient Adam and Eve could not be ancestors of us all. This also turned out to be false, as current scientific methods cannot detect bottlenecks older than about 500,000 years ago (see note 11). The RTB model is also a viable alternative (see the previous section and note 10).
 
@@ -184,20 +184,20 @@ Walton, John H. 2015. The Lost World of Adam and Eve: Genesis 2-3 and the Human 
 
 [^19]:  Paleoanthropologists observe [evidence](https://www.nature.com/scitable/knowledge/library/the-transition-to-modern-behavior-86614339/) of human-like behavior reaching back to at least the Upper Paleolithic period (10,000-40,000 years ago) and [even earlier](https://www.theatlantic.com/science/archive/2018/03/a-deeper-origin-of-complex-human-cultures/555674/).
 
-[^20]:  On the other hand, we encounter no such need if we believe that Adam and Eve were special because of their theological and vocational status, rather than being the first on Earth who possess unique behavioral and cognitive abilities. Another alternative is to posit that after Adam and Eve were created, there was a way for people outside the Garden to become represented by Adam and Eve, as in the models of Derek Kidner [(2008:28-30)](https://www.zotero.org/google-docs/?HHmDiU) and Denis Alexander ([2014:289-294, 300-304](https://www.zotero.org/google-docs/?eb2GjV)).
+[^20]:  On the other hand, we encounter no such need if we believe that Adam and Eve were special because of their theological and vocational status, rather than being the first on Earth who possess unique behavioral and cognitive abilities. Another alternative is to posit that after Adam and Eve were created, there was a way for people outside the Garden to become represented by Adam and Eve, as in the models of Derek Kidner (2008:28-30) and Denis Alexander (2014:289-294, 300-304).
 
-[^21]:  Until recently most scholars who proposed a historical Adam and Eve while affirming evolutionary science tended to assume that they must have been chosen from a pre-existing population of hominids. This is the case for the models by Alexander, Kidner (see note 17), Kemp, and John Walton [(2015](https://www.zotero.org/google-docs/?o1rZvx), Proposition 21).
+[^21]:  Until recently most scholars who proposed a historical Adam and Eve while affirming evolutionary science tended to assume that they must have been chosen from a pre-existing population of hominids. This is the case for the models by Alexander, Kidner (see note 17), Kemp, and John Walton (2015, Proposition 21).
 
-[^22]:  Swamidass [(2019](https://www.zotero.org/google-docs/?RE65cE), chapter 7).
+[^22]:  Swamidass (2019, chapter 7).
 
-[^23]:  Other objections to *de novo* creation are discussed in Swamidass [(2019](https://www.zotero.org/google-docs/?7tVDAO):85-89). See also [these](https://discourse.peacefulscience.org/t/the-second-adam-choosing-vs-refurbishment-vs-de-novo/1163) [forum threads](https://discourse.peacefulscience.org/t/pevaquark-raises-the-deceptive-god-objection/2383) for additional discussion.
+[^23]:  Other objections to *de novo* creation are discussed in Swamidass (2019:85-89). See also [these](https://discourse.peacefulscience.org/t/the-second-adam-choosing-vs-refurbishment-vs-de-novo/1163) [forum threads](https://discourse.peacefulscience.org/t/pevaquark-raises-the-deceptive-god-objection/2383) for additional discussion.
 
-[^24]:  This also seems to be the view of [Wayne Grudem](https://www.crossway.org/articles/12-ideas-you-must-embrace-to-affirm-theistic-evolution/).
+[^24]:  This also seems to be the view of Wayne Grudem.
 
 [^25]:  [This forum thread](https://discourse.peacefulscience.org/t/why-is-the-de-novo-creation-of-adam-and-eve-important/8475/2) may be a useful discussion on other reasons for why *de novo* creation is important.
 
 [^26]:  Some of these questions are tentatively explored in chapters 14-16 of Swamidass' book.
 
-[^27]:  There are several different major understandings of the image of God, such as the structural and vocational/relational understandings [(Collins 2011,](https://www.zotero.org/google-docs/?l4qEeo) [section](https://www.zotero.org/google-docs/?l4qEeo) [4a)](https://www.zotero.org/google-docs/?l4qEeo).
+[^27]:  There are several different major understandings of the image of God, such as the structural and vocational/relational understandings (Collins 2011, section 4a).
 
-[^28]:  [Garvey](https://www.zotero.org/google-docs/?TasVa7) [(2020:147-155)](https://www.zotero.org/google-docs/?TasVa7). While gaps in ancient genealogies are possible, gaps of tens of thousands of years (as what must be the case if Adam lived several hundred thousand years ago) make them practically meaningless.
+[^28]:  Garvey (2020:147-155). While gaps in ancient genealogies are possible, gaps of tens of thousands of years (as what must be the case if Adam lived several hundred thousand years ago) make them practically meaningless.
