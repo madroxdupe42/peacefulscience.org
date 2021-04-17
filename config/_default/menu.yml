@@ -1,0 +1,17 @@
+    
+main:
+  - name: Home
+    url: /
+    weight: -120
+  - name: Articles
+    url: /archive/
+    weight: -115  
+  - name: Book
+    url: /genealogical-adam-eve/
+    weight: -109
+  - name: Forum
+    url: /forum/
+    weight: -108
+  - name: Mission and Values
+    url: /articles/mission-and-values/
+    weight: -100

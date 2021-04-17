@@ -55,32 +55,10 @@ outputformats:
 outputs:
   home: ["HTML", "RSS", "redir"]
 params:
-  tnd_imgix:
-    domain: imgix.project.net
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
   headerType: none
-
-
-    
-menu:
-  main:
-  - name: Home
-    url: /
-    weight: -120
-  - name: Articles
-    url: /archive/
-    weight: -115  
-  - name: Book
-    url: /genealogical-adam-eve/
-    weight: -109
-  - name: Forum
-    url: /forum/
-    weight: -108
-  - name: Mission and Values
-    url: /articles/mission-and-values/
-    weight: -100
 
 
 taxonomies:
