@@ -42,12 +42,15 @@
 
     <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
 
-    <div class="mb-2">
+    <div class="mb-2 pr-1 ">
+    
+    {{ $authors := (slice) }}
     {{ with .Params.authors  }}
       {{ range (partial "getauthors" .) }}
-        <a class="pr-1 author" href="{{ .Permalink }}">{{ .Title }}</a>
+       {{ $authors = $authors | append (printf `<a class="author" href="%s">%s</a>` .Permalink  .Title  ) }}        
       {{ end }}
     {{ end }}
+    {{ delimit $authors ", "  " and "}}
     </div>
         
     <div class="mb-5">

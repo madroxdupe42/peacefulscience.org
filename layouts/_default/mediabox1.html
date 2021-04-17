@@ -15,15 +15,15 @@
   <div>  
     <span class="title d-block"> <a href="{{.Permalink}}"> {{ .Params.page_title | default .Title  | markdownify }}</a> </span>
 
-    <span>
+    <span class="text-smaller pr-2 text-muted">
     {{- with .Params.authors }}
       {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize (index . 0))) }}
-        <a class="pr-2 author text-muted text-smaller" href="{{ .Permalink }}"> {{ .Title }} 
+        <a class="author text-muted" href="{{ .Permalink }}"> {{ .Title }}</a>
       {{- end }}
-        {{- with index . 1 }}et al.{{- end }} </a>
+        {{- with index . 1 }}, et al.{{- end }} 
     {{- end }}
     </span>
-
+    
     <span class="text-muted article-date text-smaller"> {{ .PublishDate.Format "January 2, 2006" }} <span>
 
     <span class="d-block excerpt"> {{ .Params.description }} </span>
