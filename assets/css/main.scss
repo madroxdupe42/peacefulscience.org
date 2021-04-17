@@ -22,16 +22,6 @@ a.doi-badge {
 }
 
 
-.references {
-p {
-  padding-left: 22px ;
-  text-indent: -22px ;
-  font-size: smaller;
-  margin-bottom: 0px;
-}
-
-}
-
 .article-description {
   font-size: larger;
   max-width: 600px;
@@ -440,6 +430,7 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
   @extend .pt-5;
   @extend .expand-right;
   font-size: smaller; 
+    line-height: 1.2;
 }
 
 
@@ -558,12 +549,11 @@ svg:not(:root) {
 scroll-margin-top: 100px;
 }
 
-
-
 .footnote-ref, .footnote-backref  {
   background: #080;
   border-radius: 50%;
   color: white;
+
   height: 100%;
   padding: calc( 1rem / 2) calc( 1rem / 3) calc( 1rem / 2) calc( 1rem / 3);
   display: inline-block;
@@ -687,4 +677,19 @@ blockquote {
   margin-left: 1rem;
   font-size: smaller;
 border-left: 3px solid #dfdfdf;  
+}
+
+
+.references {
+  @extend .expand-right;
+@extend .pt-5;
+font-size: smaller;
+  line-height: 1.2;
+p {
+  padding-left: 22px ;
+  text-indent: -22px ;
+  
+  margin-bottom: 0.5em;
+}
+
 }
