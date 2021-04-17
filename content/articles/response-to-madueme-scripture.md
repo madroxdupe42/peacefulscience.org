@@ -16,8 +16,10 @@ title: "Response to Madueme: Are People Outside the Garden Ruled Out?"
 ---
 
 [Daniel Ang](https://www.danielang.net/) is a physics PhD candidate at Harvard University, where he runs experiments to determine [the size of an electron](https://discourse.peacefulscience.org/t/the-electron-is-still-round/2321?u=swamidass). Daniel also participated in [the Genealogical Adam and Eve workshops](https://peacefulscience.org/publisher-report/) and wrote an article explaining why [he affirms the Resurrection](https://peacefulscience.org/daniel-ang-a-scientist-looks-at-the-resurrection/). This article responds to Hans Madueme's critique of *[The Genealogical Adam and Eve](http://peacefulscience.org/genealogical-adam-eve)*. We also acknowledge and are grateful to the theologians and exegetes that reviewed this article before publication. We are also thankful to [Hans Madueme for reviewing the book](https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/).
+{.editor-note}
 
 Traditionally, Scripture is understood to teach that all humanity descended from Adam and Eve, who were created by God and placed in the Garden of Eden. Does this tradition rule out people outside the Garden of Eden? If they did exist, how would we think of them? This is the central question of human origins in *[The Genealogical Adam and Eve.](https://www.ivpress.com/the-genealogical-adam-and-eve)* 
+{.dropcap}
 
 *The Gospel Coalition* (TGC) is a conservative evangelical organization that figures prominently in the book. Theological concerns about human origins expressed by TGC-associated authors are discussed in several places, such as Tim Keller's [statements](https://www.thegospelcoalition.org/article/sinned-in-a-literal-adam-raised-in-a-literal-christ/) about the importance of a *de novo* Adam and Eve (pp. 8-9, 80).[^1] Swamidass' hypothesis about Adam and Eve is also shaped by the [same theological concerns](https://www.thegospelcoalition.org/blogs/kevin-deyoung/reasons-to-believe-in-a-historical-adam/) articulated by TGC authors.
 
