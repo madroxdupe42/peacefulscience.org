@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "autoprefixer": "latest",
-    "postcss-cli": "latest",
     "bootstrap": "4.x",
     "jquery": "latest",
-    "popper.js": "latest"
+    "popper.js": "latest",
+    "postcss-cli": "latest"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.2",

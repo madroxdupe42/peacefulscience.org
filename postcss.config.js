@@ -4,15 +4,18 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 
 plugins.push(require("autoprefixer"));
 
-if (process.env.HUGO_ENVIRONMENT === 'production') {
-  plugins.push(purgecss( {
+
+plugins.push(purgecss( {
        content: [
-        '**/*.html',
+        'assets/*',
+        'layouts/**/*.html',
        ],
   }))
-}
 
 
+//plugins.push(require("cssnano")({
+//            preset: 'default',
+//        }));
 
 
 module.exports = {    
