@@ -1,0 +1,74 @@
+{{ define "head" }}
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+
+
+{{ end }}
+
+{{ define "main" }}
+
+
+<div class="article-grid">
+
+<div class="left-sidebar" style="height: 100%;">
+  <div style="position: relative">
+   <div class="position-sticky pl-5 py-5" style="top:0%; width: 100%; background: #white">
+      <div id="refinement-list">
+       <!-- RefinementList widget will appear here -->
+      </div>
+   </div>
+  </div>
+</div>
+
+<div class="title-bar">
+<div id="search-box">
+  <!-- SearchBox widget will appear here -->
+</div>
+</div>
+
+<div class="article-cell pb-5 clearfix" style="z-index:10">
+<div id="hits" ></div>
+</div>
+
+
+
+<script>
+const search = instantsearch({
+  appId: '4ODX85RSXK',
+  apiKey: 'dd433740546fc182c8ec1df6a7b16cf9',
+  indexName: 'PeacefulScience',
+  routing: true
+});
+
+  // initialize RefinementList
+  search.addWidget(
+    instantsearch.widgets.refinementList({
+      container: '#refinement-list',
+      attributeName: 'categories'
+    })
+  );
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: 'Search'
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits',
+      templates: {
+        item: {{ safeHTML `
+          <p> <b> {{ title  }} </b></p>
+          <p>{{ description  }} </p>`  }},
+     }
+    })
+  );
+
+  search.start();
+</script>
+
+{{ end }}
