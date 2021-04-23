@@ -2,6 +2,7 @@
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
     {{- partial "head.html" . -}}
+    {{- block "head" . -}}{{- end }}
   </head>
   <body>
 {{ partial "nav.html" . -}}
