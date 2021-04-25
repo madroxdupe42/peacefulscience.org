@@ -13,21 +13,68 @@
 <div class="left-sidebar" style="height: 100%;">
   <div style="position: relative">
    <div class="position-sticky pl-5 py-5" style="top:0%; width: 100%; background: #white">
-      <div id="refinement-list">
+   
+   
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           Categories
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="Categories" data-parent="#accordion">
+      <div class="card-body">
+
+      <div id="category-refinement-list">
        <!-- RefinementList widget will appear here -->
       </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div id="accordion2">
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+           Authors
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseTwo" class="collapse show" aria-labelledby="Authors" data-parent="#accordion2">
+      <div class="card-body">
+
+      <div id="author-refinement-list">
+       <!-- RefinementList widget will appear here -->
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+   
+   
+   
+   
    </div>
   </div>
 </div>
 
 <div class="title-bar">
-<div id="search-box">
-  <!-- SearchBox widget will appear here -->
-</div>
+  <div id="search-box">
+    <!-- SearchBox widget will appear here -->
+  </div>
+  <div id="current-refinements"></div>
 </div>
 
 <div class="article-cell pb-5 clearfix" style="z-index:10">
 <div id="hits" ></div>
+<div id="pagination"></div>
 </div>
 
 
@@ -37,14 +84,27 @@ const search = instantsearch({
   appId: '4ODX85RSXK',
   apiKey: 'dd433740546fc182c8ec1df6a7b16cf9',
   indexName: 'PeacefulScience',
+  limit: 5,
   routing: true
 });
 
   // initialize RefinementList
   search.addWidget(
     instantsearch.widgets.refinementList({
-      container: '#refinement-list',
+      container: '#category-refinement-list',
+      limit: 10,
+      showMore: true,
       attributeName: 'categories'
+    })
+  );
+  
+    // initialize RefinementList
+  search.addWidget(
+    instantsearch.widgets.refinementList({
+      container: '#author-refinement-list',
+      limit: 10,
+      showMore: true,
+      attributeName: 'authors'
     })
   );
 
@@ -55,11 +115,30 @@ const search = instantsearch({
       placeholder: 'Search'
     })
   );
-
+  
+  search.addWidget(
+    instantsearch.widgets.currentRefinedValues({
+      container: "#current-refinements",
+    })
+  );
+  
+  search.addWidget(
+    instantsearch.widgets.pagination({
+      container: '#pagination',
+    })
+  );
+  
+  search.addWidget(
+   instantsearch.widgets.configure({
+    hitsPerPage: 5,
+   })
+  );
+  
   // initialize hits widget
   search.addWidget(
     instantsearch.widgets.hits({
       container: '#hits',
+      limit: 5,
       templates: {
         item: {{ safeHTML `
           <p> <b> {{ title  }} </b></p>
