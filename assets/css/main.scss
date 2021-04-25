@@ -1,7 +1,7 @@
 @font-face {
    font-family: "AlverataSb";
    src: local("AlverataSb"), url("/font/alveratasb-webfont.woff2") format("woff");
-   font-display: swap;
+   font-display: fallback;
 }
 
 $enable-negative-margins: true;
@@ -650,7 +650,53 @@ scroll-margin-top: 100px;
 
 }
 
+
+
+.ais-current-refined-values--item {
+ display: inline-block;
+}
+
+.ais-current-refined-values--link {
+ @extend .tag-link;
+ @extend .mr-2
+}
+.ais-current-refined-values--clear-all {
+ display: none;
+}
+
+#current-refinements {
+  @extend .mt-2;
+}
+.ais-current-refined-values--count {
+  display: none;
+}
+
+.ais-refinement-list--list{
+
+}
+
+.ais-refinement-list--checkbox{
+
+}
+
+.ais-refinement-list--item{
+
+
+ label.ais-refinement-list--label {
+  
+
+  .ais-refinement-list--count {
+  font-size: smaller;
+   @extend .font-native;
+   @extend .text-muted;
+  }
+ }
+}
+
 .ais-hits--item {
+ @extend .border-bottom;
+ @extend .py-2;
+ @extend .my-2;
 }
 #hits {
 }
