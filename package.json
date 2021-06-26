@@ -1,10 +1,12 @@
 {
   "dependencies": {
+    "atomic-algolia": "^0.3.19",
     "autoprefixer": "latest",
     "bootstrap": "4.x",
     "jquery": "latest",
     "popper.js": "latest",
-    "postcss-cli": "latest"
+    "postcss-cli": "latest",
+    "workbox-build": "^6.1.5"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.2",
