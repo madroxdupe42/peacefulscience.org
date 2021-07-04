@@ -54,12 +54,14 @@ outputformats:
     
 outputs:
   home: ["HTML", "RSS", "redir"]
+
 params:
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
   headerType: none
 
+googleAnalytics: G-BHPH29YM44
 
 taxonomies:
   category: categories

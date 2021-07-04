@@ -63,16 +63,20 @@
 
     {{- partial "head_custom.html" . -}}
 
-    <link rel="stylesheet" href="/css/theme.css">
-
-
+<link rel="stylesheet" href="/css/theme.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-
-
 {{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . -}}
+  {{ with .Site.GoogleAnalytics }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
+  gtag('config', '{{ . }}');
+</script>
+  {{ end }}
 {{ end }}
 
