@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /inazu-humility-tolerance-patience/
 authors:
 - swamidass

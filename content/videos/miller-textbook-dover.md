@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /miller-textbook-dover/
 authors:
 - swamidass

@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /steven-olson-the-apocalypse-factory/
 authors:
 - swamidass

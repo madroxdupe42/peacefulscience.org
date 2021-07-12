@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /barbara-forrest-trojan-horse-at-dover/
 authors:
 - swamidass

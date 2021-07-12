@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /reviewing-adam-and-the-genome/
 authors:
 - swamidass

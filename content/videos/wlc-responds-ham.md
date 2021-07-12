@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /wlc-responds-ham/
 authors:
 - swamidass

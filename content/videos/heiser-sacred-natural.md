@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /heiser-sacred-natural/
 authors:
 - swamidass

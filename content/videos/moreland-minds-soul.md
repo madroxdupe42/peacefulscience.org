@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /moreland-minds-soul/
 authors:
 - swamidass

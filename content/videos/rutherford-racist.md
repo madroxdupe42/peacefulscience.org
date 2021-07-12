@@ -1,5 +1,6 @@
 ---
-podcast: truealiases:
+podcast: true
+aliases:
 - /rutherford-racist/
 authors:
 - swamidass
