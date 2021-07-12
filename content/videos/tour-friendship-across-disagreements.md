@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /tour-friendship-across-disagreements/
 authors:
 - swamidass

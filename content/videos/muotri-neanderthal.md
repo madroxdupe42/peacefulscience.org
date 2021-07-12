@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /muotri-neanderthal/
 authors:
 - swamidass

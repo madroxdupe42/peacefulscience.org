@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /scott-dover-science-hat/
 authors:
 - swamidass

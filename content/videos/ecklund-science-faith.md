@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /ecklund-science-faith/
 authors:
 - swamidass

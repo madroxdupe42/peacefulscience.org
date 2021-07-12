@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /baldi-ai-science/
 authors:
 - swamidass

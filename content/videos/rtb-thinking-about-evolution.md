@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /rtb-thinking-about-evolution/
 authors:
 - swamidass

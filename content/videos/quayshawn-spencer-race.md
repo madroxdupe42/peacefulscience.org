@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /quayshawn-spencer-race/
 authors:
 - swamidass

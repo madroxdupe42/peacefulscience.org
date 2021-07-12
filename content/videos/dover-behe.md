@@ -1,5 +1,5 @@
 ---
-aliases:
+podcast: truealiases:
 - /dover-behe/
 authors:
 - swamidass
