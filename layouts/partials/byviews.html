@@ -1,6 +1,11 @@
 {{ $alltime := getJSON "https://raw.githubusercontent.com/PeacefulScience/analytics/master/mostread.json" }}
 {{ $trending := getJSON "https://raw.githubusercontent.com/PeacefulScience/analytics/master/trending.json" }}
 
+{{ range .Site.Pages }}
+  {{ .Scratch.Set "Views" 0 }}
+  {{ .Scratch.Set "Sessions" 0 }}
+  {{ .Scratch.Set "Trending" 0 }}
+{{ end }}
 
 {{ range $alltime }}
   {{ $data := . }}
@@ -21,9 +26,9 @@
 {{ $collection := (slice ) }}
 {{ range .Site.Pages }}
     {{ $item := (dict "Page" .) }}
-    {{ $item = merge $item (dict "Views"  ( .Scratch.Get "Views" | default 0 )) }}
-    {{ $item = merge $item (dict "Sessions"  ( .Scratch.Get "Sessions"  | default 0 )) }}
-    {{ $item = merge $item (dict "Trending"  ( .Scratch.Get "Trending"  | default 0 )) }}
+    {{ $item = merge $item (dict "Views"  ( .Scratch.Get "Views" )) }}
+    {{ $item = merge $item (dict "Sessions"  ( .Scratch.Get "Sessions" )) }}
+    {{ $item = merge $item (dict "Trending"  ( .Scratch.Get "Trending" )) }}
     
     {{ $collection = $collection | append (slice $item)  }}
 {{ end }}
