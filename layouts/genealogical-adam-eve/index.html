@@ -6,9 +6,8 @@
 
 {{ $gae := partial "getpages" .Params.Articles.Featured }}
 {{ $mistake := partial "getpages" .Params.Articles.Mistakes }}
-{{ $errata := partial "getpages" .Params.Articles.Errata }}
 
-{{ $used := $gae | union $mistake | union $errata }}
+{{ $used := $gae | union $mistake }}
 
 {{ $latest := first 10 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used ) }}
 

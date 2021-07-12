@@ -2,8 +2,8 @@
 
 {{ $PAGES := partialCached "byviews" . }}
 
-{{ $latest := first 3 (where .Site.RegularPages "Section" "!=" "videos") }}
-{{ $videos := first 4 (where .Site.RegularPages "Section" "videos") }}
+{{ $latest := first 3 (where .Site.RegularPages ".Params.podcast" "==" nil) }}
+{{ $videos := first 4 (where .Site.RegularPages ".Params.podcast" "!=" nil) }}
 {{ $used := union $latest $videos }}
 
 {{ $featured := first 6 (where ( intersect $PAGES.ByViews  .Site.RegularPages ) ".Params.feature" true | complement $used) }} 
@@ -66,7 +66,7 @@
 <div style="background-color: #eee">
 <div class="container pt-3" role="main">
     <div class="row justify-content-center">
-      {{ partial "heading" (dict "Text" "Videos" "Class" "heading-black"  "Link" ("/videos/" | absURL)  ) }}
+      {{ partial "heading" (dict "Text" "Videos" "Class" "heading-black"  ) }}
 
       {{ range $videos }}
         {{ .Render "mediabox3" }}
