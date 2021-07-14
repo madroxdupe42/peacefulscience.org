@@ -15,8 +15,10 @@ title: A Compromise on Creationism
 ---
 
 This article was [originally published in *The Wall Street Journal*](https://www.wsj.com/articles/a-compromise-on-creationism-11614901537) on March 5, 2021. See [the Q&A on this article](https://peacefulscience.org/qa-wsj-compromise-on-creationism/) to learn more.
+{.editor-note}
 
 Next week the Council for Higher Education Accreditation, or CHEA, which scrutinizes other accrediting organizations, will consider whether it should continue to recognize a young Earth creationist group. This might seem like a classic instance of the tension between religion and science. But the real issue is whether Americans can live alongside each other while disagreeing about the most important issues.
+{.dropcap}
 
 The Transnational Association of Christian Colleges and Schools, known as Tracs, describes itself "as a national institutional accrediting agency for Christian post-secondary institutions, colleges, universities, and seminaries." Founded in the late 1970s, the group today accredits more than 80 schools around the world. That includes Bob Jones University, which grants science degrees that require course credits in creation science.
 
