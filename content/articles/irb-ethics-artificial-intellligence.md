@@ -15,6 +15,7 @@ title: Institutional Review Boards for Artificial Intelligence?
 ---
 
 This article expands on Dr. Swamidass's thoughts in a presentation at [The Good AI](https://www.goodai.com/) earlier this year.
+{.editor-note}
 
 {{< youtube `d2MjOHERq8A` >}}
 

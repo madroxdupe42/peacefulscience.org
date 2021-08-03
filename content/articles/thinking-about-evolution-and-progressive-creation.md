@@ -17,10 +17,12 @@ title: Thinking About Evolution...and Progressive Creation
 ---
 
 We [endorsed *Thinking About Evolution*](https://peacefulscience.org/rtb-thinking-about-evolution/) as an entry point for dialogue between secular scientists and progressive creationists at *Reasons to Believe*. These creationists believe the earth is old, but are skeptical about evolution. John Harshman, a secular biologist, took up our invitation to dialogue with them, and writes this response to their book.
+{.editor-note}
 
 {{< amazon `B08MYF1SL5` >}}
 
 The title of the book is *Thinking about Evolution*, and it is co-written by four progressive creationists at *Reasons to Believe*. These creationists believe that the earth is ancient, aligned with the mainstream consensus, but they dispute biological evolution. The title is apt, since most of the book focuses on explaining their objections to evolutionary theory.
+{.dropcap}
 
 As a phylogeneticist, I was most interested in the contest between two models, progressive creation and common descent. To my disappointment, there's precious little about the progressive creation theory. In fact, I've been unable to find the progressive creation theory stated in the book. It's clear that it involves the fiat creation, at various points in earth history, of new "kinds". But what are those points? What are those kinds? Nowhere is any of that specified. We are left with an undescribed hypothesis whose predictions are unclear and which thus can't be compared to observations. 
 
@@ -41,6 +43,7 @@ The author argues that rapid diversification events are contrary to evolutionary
 ![The Cambrian Explosion was not a short amount of time. It stretched over tens of millions of years.](/img/2021/07/Cambrian.jpg)
 
 There are Precambrian animal fossils, though of course they aren't what "we know today". The period over which extant body plans appeared is unclear for several reasons: "body plan" is notoriously ambiguous; "appeared" conflates actual first existence with appearance in the fossil record. Finally, the Cambrian taxa were not "fully formed", if by that is meant that they display all the characters shown by modern species (i.e., crown groups). For example, Cambrian vertebrates have no internal bones and are very unlike modern vertebrates.
+
 
 And what does this mean for progressive creation? Are we to take these "body plans", possibly intended to be equivalent to phyla, to be kinds, with modern species descended from Cambrian ones? Or are all the species separately created variations on a theme, with God apparently unable to come up with any new themes after the Cambrian? The progressive creation theory remains too undefined to assess scientifically.
 
