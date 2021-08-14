@@ -34,9 +34,11 @@ Greaves did not think life would proliferate in the clouds of Venus, so she anti
 
 She was very surprised when, instead of a flat line, she saw this 1 mm dip, exactly where she predicted to phosphine would show up. Her negative control was not a negative. Now what?
 
-![This is the dip at 1 mm, as reported in [the Nature paper](https://www.nature.com/articles/s41550-020-1174-4).](/img/2021/08/1mm-dip-phosphine.webp)
+{{% image `/img/2021/08/1mm-dip-phosphine.webp` %}}
+This is the dip at 1 mm, as reported in [the Nature paper](https://www.nature.com/articles/s41550-020-1174-4).
+{{% /image %}}
 
-She asked me to join the project, and other experts from MIT. [^2] I was to use a computer model of the [Cytherean](https://en.wikipedia.org/wiki/Cytherean) atmosphere to cross check that this dip at 1 mm really corresponded with phosphine.
+She asked me to join the project, and other experts from MIT.[^2] I was to use a computer model of the [Cytherean](https://en.wikipedia.org/wiki/Cytherean) atmosphere to cross check that this dip at 1 mm really corresponded with phosphine.
 
 We were considering all the other explanations for this dip. Perhaps there was some error in the JCMT which collected the data. Then, more than two years later, the same 1 mm dip was seen with a different telescope, the Atacama Large Millimiter/submillimeter Array (ALMA). The anomaly, whatever it is, was not in our telescope.
 
@@ -78,7 +80,7 @@ Of course, it could be another molecule altogether causing this dip.
 
 ## Where is the dip exactly?
 
-Lincowski et al. (2021) didn't simply propose that sulfur dioxide can explain the 1 mm feature. They demonstrate that the 1 mm dip can be traced to several kilometers *above* the top of the clouds. At the same time and in contrast, Terese Encrenaz (Observatoire Paris-Site de Meudon) looked for phosphine using a different instrument[^5], and found no phosphine at all *at the top* of the clouds themselves. Taking the analysis of Lincowski et al. (2021) in a way that is consistent with Encrenaz et al. (2020) seem to show that the 1 mm signal, if it's phosphine, originates well above the cloud tops of Venus.
+Lincowski et al. (2021) didn't simply propose that sulfur dioxide can explain the 1 mm feature. They demonstrate that the 1 mm dip can be traced to several kilometers *above* the top of the clouds. At the same time and in contrast, Terese Encrenaz (Observatoire Paris-Site de Meudon) looked for phosphine using a different instrument,[^5] and found no phosphine at all *at the top* of the clouds themselves. Taking the analysis of Lincowski et al. (2021) in a way that is consistent with Encrenaz et al. (2020) seem to show that the 1 mm signal, if it's phosphine, originates well above the cloud tops of Venus.
 
 The Greaves et al. (2021) reply point out one alternative. Perhaps, vertical turbulence and winds are much more vigorous above the clouds than previously believed, carrying the phosphine above the clouds very rapidly. But this doesn't seem consistent with other observations.
 
@@ -100,9 +102,9 @@ Why not? Because the signal itself probably is from far above the clouds of Venu
 
 There is still something strange up there. There is a mystery to untangle, and this mystery renewed broad popular interest in Venus.
 
-It has also inspired the planetary science community to return to data from the Pioneer Venus mission, the only US probe to enter into Venus's atmosphere and characterize its composition[^7]. Rakesh Mogul (California State Polytechnic University) lead a project that reanalyzed the data, published in 2021. They found signs of phosphine and evidence of other unexpected chemistry: ammonia, methane, hydrogen sulfide[^8]. In addition, an unknown compound is present in the clouds absorbing ultraviolet light, and its distribution in the clouds is patchy.
+It has also inspired the planetary science community to return to data from the Pioneer Venus mission, the only US probe to enter into Venus's atmosphere and characterize its composition.[^7] Rakesh Mogul (California State Polytechnic University) lead a project that reanalyzed the data, published in 2021. They found signs of phosphine and evidence of other unexpected chemistry: ammonia, methane, hydrogen sulfide.[^8] In addition, an unknown compound is present in the clouds absorbing ultraviolet light, and its distribution in the clouds is patchy.
 
-My own interest in Venus was initially very narrow; focused just on providing context for the phosphine detection. Over the two years that our team worked on the project, my fascination with the planet grew. I quickly realized how little is actually known about our evil twin, the puzzle of its atmosphere[^9], and what might be hiding within its clouds[^10].
+My own interest in Venus was initially very narrow; focused just on providing context for the phosphine detection. Over the two years that our team worked on the project, my fascination with the planet grew. I quickly realized how little is actually known about our evil twin, the puzzle of its atmosphere,[^9] and what might be hiding within its clouds.[^10]
 
 There is certainly some strange and unknown chemistry is going on in the clouds!
 
