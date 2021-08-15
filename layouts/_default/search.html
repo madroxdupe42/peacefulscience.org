@@ -14,8 +14,13 @@
   <div style="position: relative">
    <div class="position-sticky pl-5 py-5" style="top:0%; width: 100%; background: #white">
    
+  <div id="search-box">
+    <!-- SearchBox widget will appear here -->
+  </div>
+  <div id="current-refinements"></div>
+
    
-<div id="accordion">
+<div class="mt-3" id="accordion">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h3 class="mb-0">
@@ -65,14 +70,8 @@
   </div>
 </div>
 
-<div class="title-bar">
-  <div id="search-box">
-    <!-- SearchBox widget will appear here -->
-  </div>
-  <div id="current-refinements"></div>
-</div>
 
-<div class="article-cell pb-5 clearfix" style="z-index:10">
+<div class="title-bar pb-5 clearfix" style="z-index:10">
 <div id="hits" ></div>
 <div id="pagination"></div>
 </div>
@@ -139,13 +138,14 @@ const search = instantsearch({
     instantsearch.widgets.hits({
       container: '#hits',
       limit: 5,
+      routing: true,
       templates: {
-        item: {{ safeHTML `
-          <p> <b> {{ title  }} </b></p>
-          <p>{{ description  }} </p>`  }},
+        item: {{ safeHTML `{{{ render }}}`  }},
      }
     })
   );
+
+
 
   search.start();
 </script>

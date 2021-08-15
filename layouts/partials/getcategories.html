@@ -1,0 +1,8 @@
+{{ $cat := (slice ) }}
+
+{{- range . }}
+     {{ $cat = $cat | append (site.GetPage  (printf "/categories/%s" (urlize .)) )}}
+{{- end }}
+
+
+{{ return $cat }}
