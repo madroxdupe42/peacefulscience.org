@@ -7,8 +7,7 @@ categories:
 - science
 commenturl: http://discourse.peacefulscience.org/t/is-there-really-phosphine-in-the-clouds-of-venus/14107
 date: '2021-08-14T03:08:58'
-description: of the scientists studying phosphine in the clouds of Venus. We are still
-  wondering this is the first signs of life on another planet.
+description: I am one of the scientists studying phosphine in the clouds of Venus. We are still wondering if this is the first signs of life on another planet.
 headerimage:
   src: /img/2020/09/venus-phosphine.png
 title: Is There Phosphine Above the Clouds of Venus?
