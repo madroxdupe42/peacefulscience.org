@@ -33,7 +33,7 @@ Greaves did not think life would proliferate in the clouds of Venus, so she anti
 
 She was very surprised when, instead of a flat line, she saw this 1 mm dip, exactly where she predicted to phosphine would show up. Her negative control was not a negative. Now what?
 
-{{% image `/img/2021/08/1mm-dip-phosphine.webp` %}}
+{{% image `/img/2021/08/1mm-dip-phosphine.jpg` %}}
 This is the dip at 1 mm, as reported in [the Nature paper](https://www.nature.com/articles/s41550-020-1174-4).
 {{% /image %}}
 
