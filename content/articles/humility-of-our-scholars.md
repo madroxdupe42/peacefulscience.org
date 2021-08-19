@@ -52,13 +52,9 @@ In reading Falk's endorsement, I am reminded of this counsel. Patience. Creative
 
 A few days ago, Justin Taylor from *The Gospel Coalition* discovered Falk's endorsement on the publisher's website. He tweeted a simple response to Falk.
 
-"**Wow.**"
 
-::: {.wp-block-embed__wrapper}
-> Wow.<https://t.co/oN3235NV1u> [pic.twitter.com/la8qh1Uo7O](https://t.co/la8qh1Uo7O)
->
-> --- Justin Taylor (\@between2worlds) [July 23, 2019](https://twitter.com/between2worlds/status/1153689884223332357?ref_src=twsrc%5Etfw)
-:::
+{{< tweet 1153689884223332357 >}}
+
 
 Justin is right to exclaim. Yes, this is a major step forward in our understanding. Perhaps even more significantly, Falk displays the humility we too rarely find in our leaders. He is to be commended.
 
