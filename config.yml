@@ -53,7 +53,7 @@ outputformats:
     notAlternative: true
     
 outputs:
-  home: ["HTML", "RSS", "redir"]
+  home: ["algolia", "HTML", "RSS", "redir"]
 
 params:
   algolia:

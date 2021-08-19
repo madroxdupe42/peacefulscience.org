@@ -1,9 +1,60 @@
 {{/* Generates a valid Algolia search index */}}
 {{- $.Scratch.Add "index" slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
+
 {{- range .Site.RegularPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "content" .Plain "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors)}}
+  
+    {{- $render := .Render "mediabox4"  -}}
+    
+    {{- $authors := (slice) -}}
+    {{- with .Params.Authors -}}
+      {{-  range (partial "getauthors"  .) -}}
+        {{- $authors = $authors | append .Title -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $cat := (slice) -}}
+    {{- with .Params.Categories -}}
+      {{-  range (partial "getcategories"  .) -}}
+        {{- $cat = $cat | append .Title -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- $image:= "" -}}
+    {{- with .Params.headerImage.Src }}
+      {{-  $image = partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  -}}
+    {{- end -}}    
+    
+    {{- $.Scratch.Add "index" 
+       (dict "objectID" .File.UniqueID 
+             "content" .Plain 
+             "date" .Date.UTC.Unix 
+             "description" .Description 
+             "dir" .File.Dir
+             "expirydate" .ExpiryDate.UTC.Unix 
+             "fuzzywordcount" .FuzzyWordCount "keywords" 
+             .Keywords "kind" .Kind 
+             "lang" .Lang 
+             "lastmod" .Lastmod.UTC.Unix 
+             "permalink" .Permalink 
+             "publishdate"   ( .PublishDate.Format "January 2, 2006" )
+             "readingtime" .ReadingTime 
+             "relpermalink" .RelPermalink 
+             "summary" .Summary 
+             "title" .Title 
+             "type" .Type 
+             "url" .Permalink 
+             "weight" .Weight 
+             "wordcount" .WordCount 
+             "section" .Section 
+             "authors" $authors
+             "categories" $cat
+             "views" ( .Scratch.Get "Views"  | default 0 )
+             "image" $image
+             "render" $render
+             )
+       }}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
