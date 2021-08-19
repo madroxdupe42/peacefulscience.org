@@ -25,4 +25,4 @@ But greater questions loom. What does this experiment really tell us about how w
 
 In the end, we are approaching the grand question again, this time from a very new direction. Come wonder about this question with Dr Moutri, Dr. Lents and myself. *What does it mean to be human?*
 
-{{< mediatext `static/img/2021/02/d41586-021-00388-2_18855492.jpg?w=696&ssl=1` `Brain organoids containing an archaic gene variant (bottom) were smaller and more roughly textured than human organoids (top).Credit: C. A. Trujillo *et al./Science*` >}}
+{{< mediatext `/img/2021/02/d41586-021-00388-2_18855492.jpg?w=696&ssl=1` `Brain organoids containing an archaic gene variant (bottom) were smaller and more roughly textured than human organoids (top).Credit: C. A. Trujillo *et al./Science*` >}}

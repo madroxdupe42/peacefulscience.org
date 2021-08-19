@@ -1,7 +1,15 @@
 {{- $src := .src   -}}
 {{- $loc := .loc | default .Parent.File.Path }}
 
-{{- if findRE "/img/" $src -}}
+
+{{- if findRE "^static/" $src -}}
+  {{- warnf "PREFIX.IMG:\t%s\t%s" $loc $src -}}
+  {{-  $src = replaceRE "^static/" "/" $src  -}}
+{{- end -}}
+
+{{-  $src = replaceRE "^static/" "/" $src  -}} 
+
+{{- if findRE "^/img/" $src -}}
  {{- if not (fileExists (printf "static%s" $src )) -}}
    {{- warnf "BROKEN.IMG:\t%s\t%s" $loc $src -}}
  {{- end -}}
@@ -10,3 +18,4 @@
 {{- end -}}
 
 {{ return $src  }}
+

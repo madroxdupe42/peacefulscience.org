@@ -4,13 +4,7 @@
 
 {{- $class := .Get 2 | default "aside-xl-right" -}}
 
-{{- if findRE "/img/" $src -}}
-{{- if not (fileExists $src) -}}
-{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
-{{- end -}}
-{{- else -}}
-{{- warnf "BROKEN.IMG:\t%s\t%s" $.Page.File.Path $src -}}
-{{- end -}}
+{{- $src = partial "imgurl"  (dict "src" $src "loc" .Page.File )   -}}
 
 {{- with $src  -}}   
   {{- $args := querify "w" 696 "nf_resize" "fit" -}}
