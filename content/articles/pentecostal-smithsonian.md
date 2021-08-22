@@ -84,6 +84,7 @@ I teach at Evangel University, a Christian University operated by the Assemblies
 Other universities used different curricula. [But all of us established that students in all groups found evolutionary science less objectionable.](https://discourse.peacefulscience.org/t/using-a-reconciliation-module-leads-to-large-gains-in-evolution-acceptance/14078) In moving students this direction, they would find it easier to consider the truth claims of evolutionary theory without feeling it directly conflicted with their religious beliefs.   
 
 I have found much value in serious academic discussions about human origins and the Christian faith. Whether students end up accepting evolution or not, exposing them to models of reconciliation neutralizes much of the conflict they are experiencing and enables them to critically evaluate evidence without so much fear. This is good for the advance of science, and it is good for the soul too.
+{.dropcap}
 
 This is an area I am continuing to work in. I wonder also how the ideas here could also be implemented in secular universities. I envision a time when biology faculty in secular institutions would also learn and implement "peaceful" pedagogical approaches.  
 
