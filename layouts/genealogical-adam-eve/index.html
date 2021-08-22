@@ -4,10 +4,11 @@
 {{ define "main" }}
 
 
-{{ $gae := partial "getpages" .Params.Articles.Featured }}
+{{ $featured := partial "getpages" .Params.Articles.Featured }}
 {{ $mistake := partial "getpages" .Params.Articles.Mistakes }}
+{{ $pushback := partial "getpages" .Params.Articles.Pushback }}
 
-{{ $used := $gae | union $mistake }}
+{{ $used := $featured | union $mistake }}
 
 {{ $latest := first 10 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used ) }}
 
@@ -24,20 +25,36 @@
           
     </div>
     <div class="col-lg-6 text-larger pt-5 text-white">
-      <h2 class="text-white"> The Genealogical Adam & Eve </h2>
+      <h2 class="text-white  pb-2"> The Genealogical Adam & Eve </h2>
       <p> The best science <br> is opening up space <br> to engage larger questions <br> together... 
+      
+      <p>     <a href="/pdf/genealogical-adam-eve-errata-jan2021.pdf" class="mt-5 btn btn-dark">Erratum</a>
+
     </div>
+    
   </div>
 </div>
 </div>
 
-
 <div style="background-color: #eee;">
 <div class="container pt-3" role="main">
     <div class="row justify-content-center">
-      {{ partial "heading" (dict "Text" "Articles" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
+      {{ partial "heading" (dict "Text" "A Pushback on Overreach" "Class" "heading-black"   ) }}
 
-      {{ range $gae }}
+      {{ range $pushback }}
+        {{ .Render "mediabox1" }}
+      {{ end }}
+    </div>
+</div>
+</div>
+
+
+<div style="background-color: white;">
+<div class="container pt-3" role="main">
+    <div class="row justify-content-center">
+      {{ partial "heading" (dict "Text" "A Growing Conversation" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
+
+      {{ range $featured }}
         {{ .Render "mediabox1" }}
       {{ end }}
     </div>
