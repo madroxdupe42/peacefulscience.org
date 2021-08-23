@@ -2,8 +2,8 @@
   {{- $.Scratch.Set "Description" ( .Site.Params.description | default "The main page" ) -}}
   {{- $.Scratch.Set "Title" .Site.Title -}}
 {{- else -}}
-  {{- $.Scratch.Set "Description" ( .Description | default .Params.subtitle | default .Summary | default .Kind ) -}}
-  {{- $.Scratch.Set "Title" ( .Title | default .Site.Title ) -}}
+  {{- $.Scratch.Set "Description" ( (.Description | markdownify |  plainify  ) | default .Params.subtitle | default .Summary | default .Kind ) -}}
+  {{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify |  plainify  ) -}}
 {{- end }}
 
     <meta charset="utf-8" />
@@ -15,7 +15,7 @@
 {{- with ($.Scratch.Get "Title") }}
 <title>{{ print . }}</title>
 <meta name="og:title" content="{{ . }}"/>
-<meta name="title" content="{{ . }}"/>
+<meta name="title" content="{{ .   }}"/>
 {{- end -}}
 {{- with ($.Scratch.Get "Description") }}
 <meta name="description" content="{{ . }}"/>
@@ -37,7 +37,7 @@
 {{ with .Params.authors }}
     {{- range . }}
       {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-<meta name="author" content="{{ .Title }}"/>
+<meta name="author" content="{{ .Title | markdownify |  plainify }}"/>
       {{- end }}
     {{- end }}
 {{ end }}
