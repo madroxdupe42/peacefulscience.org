@@ -43,9 +43,9 @@ Evolution, especially of humans, however, remained a "sticky wicket."
 
 ## The Smithsonian Scientist 
 
-So back to Rick Potts, with his warm and earnest team at The Smithsonian. We toured the exhibit at the Library Center in Springfield, Missouri (the "buckle of the Bible belt"), Rick's team was authentically interested in honest feedback from us clergy and community leaders; whether well-informed or naive. The exhibit even had a panel of un-redacted visitor comments on sticky notes. While most were positive, there were critical ones too. 
+So back to Rick Potts, with his warm and earnest team at The Smithsonian. We toured the exhibit at the Library Center in Springfield, Missouri (the "buckle of the Bible belt"). Rick's team was authentically interested in honest feedback from us clergy and community leaders; whether well-informed or naive. The exhibit even had a panel of un-redacted visitor comments on sticky notes. While most were positive, there were critical ones too. 
 
-The section on human evolution was most controversial. But the team's enthusiasm about recent developments and discoveries related to human evolution was genuine and infectious.
+While many Christians would find this exhibit on human evolution controversial, the team’s enthusiasm about recent developments and discoveries related to human evolution was genuine and infectious.
 
 The scientists were open to dialogue and even enthusiastic to learn more about the sensitivities of conservative Christians. I left exhilarated by the experience. As I shared with my wife how open to dialogue  these Smithsonian researchers were, I remarked "I wish the Church would be as charitable and gracious!"
 
