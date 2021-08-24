@@ -15,3 +15,9 @@ main:
   - name: Mission and Values
     url: /articles/mission-and-values/
     weight: -100
+  - name: Search
+    url: /search/
+    weight: -99
+
+
+
