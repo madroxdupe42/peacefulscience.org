@@ -22,7 +22,9 @@ Please do not be offended. I am not saying that their argument is easily determi
 
 I wonder, however, if this is really the best math problem to use to make my point. Sometimes, perhaps not. This one might illustrate the point more clearly. **Try answering this simple math problem before reading further:**
 
-![Try solving this simple math problem.](/img/2020/03/garden-path-problem.png)
+{{< image "/img/2020/03/garden-path-problem.png" "aside-xl-wide"  >}}
+Try solving this simple math problem.
+{{< /image >}}
 
 What number did you compute? What is the answer? Write it down or otherwise remember it. We will come back to this soon. Simple, right? Turns out that most people get the answer wrong.
 
@@ -61,7 +63,11 @@ The first two lines of the image are not part of the equation. The equation is o
 
 All these features together lead us to misread the problem, taking us down the garden path. Then, in place of the problem we were presented, we answer this problem instead:
 
-![This is how we interpret the math problem when we computed the answer 12, by adding the two plus signs at the end of lines 1 and 2. This is the garden path.](/img/2020/03/garden-path-red-plus.png)
+
+{{< image "/img/2020/03/garden-path-red-plus.png" "aside-xl-wide"  >}}
+his is how we interpret the math problem when we computed the answer 12, by adding the two plus signs at the end of lines 1 and 2. This is the garden path.
+{{< /image >}}
+
 
 Clear away the distracting clutter of the problem. All that is left is "1+1×0+1=?" or "1+1=?," and we all know that 1+1=2. Once we see the garden path for the wrong turn that it is, we just cannot agree that the answer is 12. We might even get frustrated when another scientist insists the answer must be 12. We repeatedly checked that there really are no plus signs at the end of the line! So, it really looks like they are claiming 1+1=3, or in this case, 1+1=12.
 
@@ -95,7 +101,9 @@ Here is the thing. Science is not intuitive. It is technical, mathematical, and 
 
 In the end, our intuitions work differently, more rigorously. Now we have a chance of avoiding the garden path. The most subtle scientific errors might even become obvious. We might even have to relearn that what is readily apparent *to us* is not obvious *to others*.
 
-![Here is the problem again, this time with the garden path dimmed, so it can't distract us.](/img/2020/03/garden-path-hidden.png)
+{{< image "/img/2020/03/garden-path-hidden.png" "aside-xl-wide"  >}}
+Here is the problem again, this time with the garden path dimmed, so it can't distract us.
+{{< /image >}}
 
 So, that is what I mean by "it looks like 1+1=3." Though, with the math problem of this post in mind, perhaps I should start saying "it looks like 1+1=12" instead? Whatever I end up doing on *that* particular question, we should all remember one critical point...
 
