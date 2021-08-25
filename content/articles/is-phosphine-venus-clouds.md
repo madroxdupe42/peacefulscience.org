@@ -21,6 +21,10 @@ We have not yet sorted this all out (see [here](https://www.nytimes.com/2020/09/
 
 In 2017, my colleague Jane Greaves (University of Cardiff) saw something unexpected. She used the James Clerk Maxwell Telescope (JCMT) to look for a dip in the light from Venus at 1 millimeter (mm) wavelength.
 
+{{% image `/img/2021/08/1mm-dip-phosphine.jpg` %}}
+This is the dip at 1 mm, as reported in [the Nature paper](https://www.nature.com/articles/s41550-020-1174-4).
+{{% /image %}}
+
 Light that shines at 1 mm is made up of photons with the energy of about 5/4<sup>th</sup>'s of a milli-electron-volt. Warm bodies like you or me produce these in abundance. These particular photons were produced by the heat of the clouds of Venus. Greaves was looking at 1 mm because a molecule called phosphine (one phosphorus atom bound to three hydrogen atoms, or PH~3~) absorbs light at that wavelength.
 
 She had read several academic papers demonstrating that on Earth, phosphine is produced exclusively by life. This made her wonder if it could be a remotely detectable [biosignature](https://www.merriam-webster.com/dictionary/biosignature), and determined to look for it in the clouds of Venus, our sister planet.
@@ -33,13 +37,15 @@ Greaves did not think life would proliferate in the clouds of Venus, so she anti
 
 She was very surprised when, instead of a flat line, she saw this 1 mm dip, exactly where she predicted to phosphine would show up. Her negative control was not a negative. Now what?
 
-{{% image `/img/2021/08/1mm-dip-phosphine.jpg` %}}
-This is the dip at 1 mm, as reported in [the Nature paper](https://www.nature.com/articles/s41550-020-1174-4).
-{{% /image %}}
-
 She asked me to join the project, and other experts from MIT.[^2] I was to use a computer model of the [Cytherean](https://en.wikipedia.org/wiki/Cytherean) atmosphere to cross check that this dip at 1 mm really corresponded with phosphine.
 
 We were considering all the other explanations for this dip. Perhaps there was some error in the JCMT which collected the data. Then, more than two years later, the same 1 mm dip was seen with a different telescope, the Atacama Large Millimiter/submillimeter Array (ALMA). The anomaly, whatever it is, was not in our telescope.
+
+
+{{% image `https://upload.wikimedia.org/wikipedia/commons/a/a0/JCMT_on_Mauna_Kea.jpg` %}}
+Photograph of the James Clerk Maxwell Telescope on Mauna Kea, Hawaii (centre). To the left is the Caltech Submillimeter Observatory, and to the right is the Smithsonian Submillimeter Array. Credit: [Wikipedia](https://en.wikipedia.org/wiki/James_Clerk_Maxwell_Telescope#/media/File:JCMT_on_Mauna_Kea.jpg).
+{{% /image %}}
+
 
 We decided to write these results up, both the detection and a very long paper considering and ruling out all known non-life sources of phosphine in the clouds of Venus. That sparked a debate that is still ongoing.
 
@@ -111,6 +117,8 @@ The best current models leave many questions unanswered. I've given my take here
 
 I am hopeful that we'll find out whether life's affecting the chemistry of Venus's clouds during my lifetime. It would be satisfying to know the answer either way. I just want to know what's going on in those clouds![^11]
 
+<div class="references">
+
 ## References
 
 Akins, A.B., Lincowski, A.P., Meadows, V.S. and Steffes, P.G., 2021. Complications in the ALMA Detection of Phosphine at Venus. The Astrophysical Journal Letters, 907(2), p.L27.
@@ -143,7 +151,7 @@ Sousa-Silva, C., Seager, S., Ranjan, S., Petkowski, J.J., Zhan, Z., Hu, R. and B
 
 Thompson, M.A., 2021. The statistical reliability of 267-GHz JCMT observations of Venus: no significant evidence for phosphine absorption. Monthly Notices of the Royal Astronomical Society: Letters, 501(1), pp.L18-L22.
 
-------------------------------------------------------------------------
+</div>
 
 [^1]:  To distinguish my perspective from claims in papers where I'm co-author, I identify authors of these papers as 'they' and 'them' instead of 'we' or 'us'. My opinions are my own and are not necessarily shared by any of the other authors of the Greaves et al. papers.
 

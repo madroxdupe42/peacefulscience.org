@@ -91,6 +91,8 @@ This book has some value because it shows current thinking among progressive cre
 
 If progressive creation is to have any hope of being tested against common descent, we need more details about what groups are claimed to be related by common descent, and what groups are not. Progressive creationists also need to disentangle the two questions ---  separate creation vs. common descent and guided vs. natural evolution --- or neither can be reasonably addressed.
 
+<div class="references">
+
 ## References
 
 Archibald J.D. [Timing and biogeography of the eutherian radiation: fossils and molecules compared](http://www.bio.sdsu.edu/faculty/archibald/Archibald03MPE28p350.pdf). Mol. Phylogen. Evol.2003; 28: 350-359.
@@ -110,3 +112,5 @@ Roberts A.M., Rana F., Dykes S., Perez M. [Thinking about evolution: 25 question
 Soltis D.E. et al. [Origin and early evolution of angiosperms](http://www.amborella.net/Publications/Papers/Soltis%20et%20al%202008-Annals%20of%20the%20New%20York%20Academy%20of%20Sciences.pdf). Ann N Y Acad Sci. 2008;1133:3-25
 
 Winkler D.W., Billerman S.M., Lovette I.J. [Bird families of the world: An invitation to the spectacular diversity of birds](https://www.amazon.com/Bird-Families-World-Spectacular-Diversity/dp/8494189204). 2015. Lynx Edicions, Barcelona.
+
+</div>
