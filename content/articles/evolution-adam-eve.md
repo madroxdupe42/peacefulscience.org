@@ -15,11 +15,9 @@ date: "2021-04-11T16:26:22"
 description: It is difficult to classify every way of understanding Adam and Eve alongside evolution. These four questions are a helpful starting point.
 headerimage:
   src: /img/2021/04/ae-evo-ct-scaled.jpg
+  credit: Credit  [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
 title: Is evolutionary science in conflict with Adam and Eve?
 ---
-
-The featured image is from [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
-{.editor-note .aside-xl-right}
 
 Is evolutionary science in conflict with Adam and Eve?
 {.dropcap}
