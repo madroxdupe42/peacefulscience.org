@@ -43,3 +43,4 @@ Christian tradition is important, and it is one reason I left Young Earth Creati
 So this is an exchange to follow. This was the time that Ken Ham and William Lane Craig discussed evolution and Jesus at *Peaceful Science*.
 
 On February 20, 2021 a small typo correction was made, inserting a missing word, "Ken Ham's *answer*."
+{.editor-note}
