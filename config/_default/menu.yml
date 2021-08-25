@@ -12,7 +12,7 @@ main:
   - name: Forum
     url: /forum/
     weight: -108
-  - name: Mission and Values
+  - name: About
     url: /articles/mission-and-values/
     weight: -100
   - name: Search
