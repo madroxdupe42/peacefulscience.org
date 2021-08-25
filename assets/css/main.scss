@@ -1,7 +1,7 @@
 @font-face {
    font-family: "AlverataSb";
-   src: local("AlverataSb"), url("/font/alveratasb-webfont.woff2") format("woff");
-   font-display: fallback;
+   src: local("AlverataSb"), url("/font/alveratasb-webfont.woff2") format("woff2");
+   font-display: swap;
 }
 
 $enable-negative-margins: true;
