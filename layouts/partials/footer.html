@@ -25,3 +25,17 @@ Join the Peaceful Science community. Subscribe to the mailing list to follow our
 
 
 {{- partial "footer_custom.html" . }}
+
+
+{{ if not .Site.IsServer }}
+  {{ with .Site.GoogleAnalytics }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+  {{ end }}
+{{ end }}
