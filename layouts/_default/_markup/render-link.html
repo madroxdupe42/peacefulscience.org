@@ -7,12 +7,12 @@
   {{- partial "doi" $dest -}}
 {{ else }}
 
-
 {{- $url := urls.Parse ( $dest | absURL ) -}}
-{{- $basehost := (urls.Parse site.Params.baseURL).Host -}}
+{{- $basehost := (urls.Parse site.BaseURL).Host -}}
 {{- $class := default nil -}}
 {{- $rel := default nil -}}
 {{- $target :=  default nil -}}
+{{- $data := default nil -}}
 
 {{- if in (slice "peacefulscience.org" $basehost) $url.Host -}}
   {{- $path := replaceRE ".*//peacefulscience.org" "" $dest -}}
@@ -29,6 +29,7 @@
        {{- $pdfdest:= printf "/pdf/%s" $pdf | absURL -}}
        {{- if fileExists $pdffile  -}}
           {{- $dest = $pdfdest -}}  
+          {{- $class = "external-link" -}}
        {{- else -}}
           {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.File.Path $pdf $pdffile -}}      
        {{- end -}}
@@ -42,6 +43,7 @@
   {{- $target = "_blank" -}}
 {{- end -}}
 
+
 {{- if eq $url.Host "discourse.peacefulscience.org" -}}
   {{- $class = "forum-link" -}}
   {{- $rel = default nil -}}
@@ -52,6 +54,7 @@
 {{- end -}}
 
 <a href="{{ $dest }}"
+{{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{ $data }}" {{ end -}}
 {{- with $target }} target='{{ $target }}'{{- end -}}
 {{- with $rel }} rel='{{ $rel }}'{{- end -}}
 {{- with $class }} class='{{ $class }}'{{- end -}}
