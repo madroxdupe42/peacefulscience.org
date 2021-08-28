@@ -16,12 +16,14 @@ title: A Pentecostal at The Smithsonian
 ---
 
 Michael Tenneson is a professor of biology and chair of the Department of Natural and Applied Sciences at Evangel University, where he has taught for more than 30 years. Initially trained as a field behavioral ecologist, he has done field research on birds, frogs, porcupines, lizards, and snails. His current research examines attitudes and beliefs of people related to science and theology.
-{.editor-note}
+{.editor-note .aside-xl-right}
 
 > "What concerns do you have about our '[Exploring Human Origins: What Does it Mean to be Human](https://humanorigins.si.edu/exhibit/exploring-human-origins-what-does-it-mean-be-human)' exhibit?"
 
 This surprisingly direct question was posed to me, a slightly nervous and cautious ordained [Assemblies of God](https://ag.org/) (A/G) minister and biology faculty member at my denomination's national university. It was 2016, and a small group of us were on a private tour. The question came from Rick Potts, pre-eminent paleoanthropologist and curator and creator of this particular Smithsonian Museum traveling exhibit.[^1] 
 {.dropcap}
+
+
 
 I floundered in cognitive disequilibrium. Rick was relaxed, easy-going, and inquisitive. Where was the heated rhetoric and arrogance I anticipated?
 
