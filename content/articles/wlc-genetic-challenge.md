@@ -89,8 +89,8 @@ Dr. Craig holds that Adam and Eve were ancient, but *[The Genealogical Adam and 
 In conclusion, Adam and Eve may therefore be plausibly identified as members of *Homo heidelbergensis* and as the founding pair at the root of all human species. Challenges to this hypothesis from population genetics fail principally because we cannot rule out on the basis of the genetic divergence exhibited by contemporary humans that our most recent common ancestors, situated more than 500 kya, are the sole genetic progenitors of the entire human race, whether past or present.
 
 Published here with permission, this is the transcript of a Defenders class by Dr. William Lane Craig on May 10, 2020.
+{.editor-note}
 
-------------------------------------------------------------------------
 
 [^1]:  This how the term is used by Dennis Venema and others who press argument (1) (Dennis R. Venema and Scot McKnight, *Adam and the Genome: Reading Scripture after Genetic Science* \[Grand Rapids, Mich.: Brazos Press, 2017\], pp. 46-48).
 
@@ -98,7 +98,7 @@ Published here with permission, this is the transcript of a Defenders class by D
 
 [^3]:  Venema and McKnight, *Adam and the Genome*, p. 55.
 
-[^4]:  Joshua Swamidass, "[Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61)" <https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61/4>.
+[^4]:  S. Joshua Swamidass, "[Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61)" <https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61/4>.
 
 [^5]:  Personal communication, June 6, 2018.
 
@@ -114,10 +114,8 @@ Published here with permission, this is the transcript of a Defenders class by D
 
 [^11]:  Ola Hössjer and Ann Gauger, "A Single-Couple Human Origin is Possible," *BIO-Complexity* 1 (2019):1-20. Swamidass, however, thinks that their study has some serious errors.
 
-[^12]:  Joshua Swamidass, "Reworking the science of Adam," <http://peacefulscience.org/reworking-Adam/>.
+[^12]:  Joshua Swamidass, "Reworking the Science of Adam," <http://peacefulscience.org/reworking-adam/>.
 
-[^13]:  Dennis Venema, "Adam --- Once More, with Feeling," (November 24, 2019),
-
-<https://www.patheos.com/blogs/jesuscreed/2019/11/04/adam-once-more-with-feeling/>. *N.B*. that this statement confuses necessary and sufficient conditions. Venema should say "only if it happened." Swamidass informs me that in fact the group did not conclude that such a bottleneck would be detectable if it occurred within the last 500,000 years. To say that a bottleneck prior to 500 kya is not detectable does not imply that a bottleneck less than 500 kya is detectable.
+[^13]:  Dennis Venema, "Adam --- Once More, with Feeling," (November 24, 2019), <https://www.patheos.com/blogs/jesuscreed/2019/11/04/adam-once-more-with-feeling/>. *N.B*. that this statement confuses necessary and sufficient conditions. Venema should say "only if it happened." Swamidass informs me that in fact the group did not conclude that such a bottleneck would be detectable if it occurred within the last 500,000 years. To say that a bottleneck prior to 500 kya is not detectable does not imply that a bottleneck less than 500 kya is detectable.
 
 [^14]:  Venema, "Adam --- Once More, With Feeling."
