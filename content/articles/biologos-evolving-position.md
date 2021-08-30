@@ -17,7 +17,7 @@ commenturl: "https://discourse.peacefulscience.org/t/evolving-conclusions-on-ada
 ---
 
 
-Evolutionary creationists at BioLogos Foundation just changed their position on the science pertaining to Adam and Eve.  The new position is a significant change to previous conclusions, and bring the organization into closer alignment with mainstream science.
+Evolutionary creationists at BioLogos Foundation just changed their position on the science pertaining to Adam and Eve.  The new position is a significant change to previous conclusions, and brings the organization into closer alignment with mainstream science.
 
 This change  makes space for religious beliefs 
 once thought to be in unresolvable conflict with mainstream science. Correcting 
@@ -329,7 +329,7 @@ compatible with evolution.
 ## One Step in the Right Direction
 
 BioLogos's new position is one important step. 
-Tough the story is not yet complete, this is a good movement in the right
+Though the story is not yet complete, this is a good movement in the right
 direction.
 
 In all these edits and deletions,  a relational component is missing. 
