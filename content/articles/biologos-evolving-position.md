@@ -16,8 +16,12 @@ title: Evolving Conclusions on Adam and Eve
 commenturl: "https://discourse.peacefulscience.org/t/evolving-conclusions-on-adam-and-eve/14188"
 ---
 
+Also see Peaceful Science's position statement on Adam and Eve: 
+[*"Is evolutionary science in conflict with Adam and Eve?"*](https://peacefulscience.org/articles/evolution-adam-eve/)
+{.editor-note .aside-xl-right}
 
 Evolutionary creationists at BioLogos Foundation just changed their position on the science pertaining to Adam and Eve.  The new position is a significant change to previous conclusions, and brings the organization into closer alignment with mainstream science.
+{.dropcap}
 
 This change  makes space for religious beliefs 
 once thought to be in unresolvable conflict with mainstream science. Correcting 
@@ -86,7 +90,7 @@ shows that many of the claims in their past position were incorrect.
 
 A decade later, this June 2021, [**BioLogos published a new position on what genetics says about Adam and Eve**](https://biologos.org/articles/what-genetics-say-about-adam-and-eve). This new position statement recommends [their theological position on Adam and Eve](https://biologos.org/common-questions/were-adam-and-eve-historical-figures/), which itself underwent [several revisions](https://discourse.peacefulscience.org/t/_/5847) in the last few years. 
 
-BioLogos also deleted several articles from their website, 
+BioLogos also quietly deleted several articles from their website, 
 and these deletions are equally important to understanding
 the organization's past and current position.
 
@@ -102,9 +106,9 @@ Adam and Eve](/genealogical-adam-eve) was published, in early 2020, BioLogos del
 1. Dennis Venema and Darrel Falk. ["Does Genetics Point to a Single Primal Couple?"](/pdf/deleted-biologos/deleted-biologos-2020-three-lines.pdf). April 5, 2010.
 
 The same day the new position was published, 
-BioLogos deleted a series of 
+BioLogos quietly deleted a series of 
 articles which
-explained the scientific claims they presented to Christianity Today and NPR in 2011.
+explained the scientific claims they presented to *Christianity Today* and NPR in 2011.
 
 
 2. Dennis Venema. ["Adam, Eve, and Human Population Genetics."](/pdf/deleted-biologos/deleted-biologos-2021-genetics.pdf)  November 12, 2014.
