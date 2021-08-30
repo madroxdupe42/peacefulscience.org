@@ -342,7 +342,7 @@ Nonetheless,  BioLogos's new scientific position is a step in the right directio
 
 
 
-[^1]: Poythress objected that effective population size was a long-term *average* 
+[^1]: Poythress objected that effective population sizes were long-term *average* 
 population sizes, not *minimum* population sizes. In this objection, Poythress was 
 correct.
 
