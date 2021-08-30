@@ -107,13 +107,13 @@ articles which
 explained the scientific claims they presented to Christianity Today and NPR in 2011.
 
 
-2. Dennis Venema. ["Adam, Eve, and Human Population Genetics."](/pdf/deleted-biologos/deleted-biologos-2021-genetics.pdf).  November 12, 2014.
+2. Dennis Venema. ["Adam, Eve, and Human Population Genetics."](/pdf/deleted-biologos/deleted-biologos-2021-genetics.pdf)  November 12, 2014.
 
-3. Dennis Venema. ["Vern Poythress, Population Genomics, and Locating the Historical Adam."](/pdf/deleted-biologos/deleted-biologos-2021-poythress.pdf). April 7, 2015.[^1]
+3. Dennis Venema. ["Vern Poythress, Population Genomics, and Locating the Historical Adam."](/pdf/deleted-biologos/deleted-biologos-2021-poythress.pdf) April 7, 2015.[^1]
 
-4. Dennis Venema. ["Genetics and the Historical Adam: A Response to William Lane Craig."](/pdf/deleted-biologos/deleted-biologos-2021-wlc.pdf). July 16, 2015.[^2]
+4. Dennis Venema. ["Genetics and the Historical Adam: A Response to William Lane Craig."](/pdf/deleted-biologos/deleted-biologos-2021-wlc.pdf) July 16, 2015.[^2]
 
-5. Dennis Venema.  ["Adam & Eve, Apologetics, and Christian Witness."](/pdf/deleted-biologos/deleted-biologos-2021-apologetics.pdf). December 14, 2015.[^3]
+5. Dennis Venema.  ["Adam & Eve, Apologetics, and Christian Witness."](/pdf/deleted-biologos/deleted-biologos-2021-apologetics.pdf) December 14, 2015.[^3]
 
 One article was revised substantially and placed back online,
 at a different address and with different conclusions.[^4] [The note claimed the article's conclusion was "unchanged."](https://discourse.peacefulscience.org/t/_/13988)
@@ -242,7 +242,7 @@ Also, the statement that "the de novo creation of Adam and Eve is not compatible
 
 Unstated, but visible in the history of revisions to BioLogos's theological position, 
 **(D') some "traditional" readings of 
-Genesis (as BioLogos once defined them) *can* be compatible with the evidence.**. In
+Genesis (as BioLogos once defined them) *can* be compatible with the evidence.** In
 response to this finding, the organization [substantially narrowed](https://discourse.peacefulscience.org/t/_/5847) what they mean by "traditional," which is now defined as:
 
 > Adam and Eve were created de novo---they were created by God as fully formed humans (Homo sapiens), roughly 6,000 to 10,000 years ago. God made them quickly and completely as fully formed humans with no biological ancestors. In this traditional de novo view, Adam and Eve are "sole progenitors": they were the first two humans, and they alone gave rise to all other humans. 
