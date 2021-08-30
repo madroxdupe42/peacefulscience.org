@@ -13,6 +13,7 @@ feature: true
 headerimage:
   src: /img/2021/08/ct-uturn.png
 title: Evolving Conclusions on Adam and Eve
+commenturl: "https://discourse.peacefulscience.org/t/evolving-conclusions-on-adam-and-eve/14188"
 ---
 
 
@@ -225,7 +226,6 @@ that "effective population size" estimates established
 a *minimum* population size, but "effective population size" is a long-term *average*, not
 a *minimum*. So that evidence is not appealed to in this new position. 
 
-
 Moreover, **(2) even a far more recent Adam and Eve can be ancestors of us all.**
 Though the science behind recent universal ancestry is not discussed or referenced in their position statement. This single disclosure at the end of the article hints at this, now, well established option,
 
@@ -239,7 +239,6 @@ statement still [includes this sentence](https://biologos.org/articles/what-gene
 
 Also, the statement that "the de novo creation of Adam and Eve is not compatible with what scientists have found in God's creation" was deleted from their theological position in
 2018. 
-
 
 Unstated, but visible in the history of revisions to BioLogos's theological position, 
 **(4) some "traditional" readings of 
