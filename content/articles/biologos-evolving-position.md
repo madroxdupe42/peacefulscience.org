@@ -203,7 +203,7 @@ Some are in conflict with the evidence.  Others are entirely consistent with the
 Still, the way how Biologos first defined "traditional" *de novo* interpretations of Genesis, 
 in fact, is consistent with the scientific evidence. 
 In response, [BioLogos progressively narrowed the definition of 
-["traditional"](https://discourse.peacefulscience.org/t/_/5847) in the organization's
+"traditional"](https://discourse.peacefulscience.org/t/_/5847) in the organization's
  theological position statement.
 
 ## What is BioLogos's New Scientific Position?
@@ -256,8 +256,8 @@ In that case, Adam and Eve would, indeed, need to be far more ancient than
 10,000 years ago. But defining "traditional" this way is a theological and historical
 claim that is subject to debate and to which science does not speak.
 
-BioLogos's statements merit further discussion
-and cannot not be taken as the final say. 
+**BioLogos's statements merit further discussion
+and cannot not be taken as the final say.**
 [For example, I am skeptical of the specific line of scientific evidence on 
 which they focus, though I expect that conclusion (A') still holds 
 up due to other evidence.](https://discourse.peacefulscience.org/t/_/14126/8)
