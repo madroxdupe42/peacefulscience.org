@@ -6,7 +6,7 @@ categories:
 - science
 - adam-eve
 date: "2021-08-30T12:00:00"
-description: BioLogos updates their scientific position  Adam and Eve. 
+description: BioLogos updates their scientific position on Adam and Eve. 
    This is an important step forward and a key milestone
    in the conversation.
 feature: true
@@ -127,7 +127,7 @@ revision history of [their theological position](https://discourse.peacefulscien
 
 BioLogos' position, defended primarily by scientist Dennis Venema,
 was that **the genetic evidence demonstrates 
-(1) our ancestral population size was never less than 10,000 individuals 
+(A) our ancestral population size was never less than 10,000 individuals 
 at any point in the last 18 million years,**
 
 > Venema says there is no way we can be traced back to a single couple...And given 
@@ -140,7 +140,7 @@ As restated in one of the [recently deleted articles](/pdf/deleted-biologos/dele
 lineage became human as a population Ð one that has not numbered below 
 about **10,000 individuals** over the last **18 million years** or more.
 
-**Therefore, (2) Adam and Eve are not ancestors of us all,**
+**Therefore, (B) Adam and Eve are not ancestors of us all,**
 
 > Asked how likely it is that we all descended from Adam and Eve, 
 Dennis Venema, a biologist at Trinity Western University, replies: 
@@ -149,13 +149,13 @@ the last 20 years, so not likely at all.'[^3]
 
 This conclusion was [specifically presented to demonstrate that "monogenesis" was false](/pdf/deleted-biologos/deleted-biologos-2021-wlc.pdf). 
 
-Another firm position was that **(3) the genetic evidence is not compatible with
+Another firm position was that **(C) the genetic evidence is not compatible with
  Adam and Eve *de novo* or specially created without parents.** Their position stated,
 
 >  the de novo creation of Adam and Eve is not compatible with what scientists have 
 found in God's creation[^4]
 
-Therefore, **(4) "traditional" interpretations of Genesis conflict with 
+Therefore, **(D) "traditional" interpretations of Genesis conflict with 
 the scientific evidence.** BioLogos defined "traditional" 
  in [this way](https://discourse.peacefulscience.org/t/_t/the-biologos-statement-on-adam-and-eve_/5847/3).
 
@@ -212,7 +212,7 @@ About Adam and Eve,   [their new position](https://biologos.org/articles/what-ge
 emphasizes a single-couple genetic bottlenecks---an esoteric idea that is 
 nearly unstudied in population genetics.
 
-But now, **(1) the genetic evidence only rules out a single-couple genetic bottleneck 
+But now, **(A') the genetic evidence only rules out a single-couple genetic bottleneck 
 going back just 500,000 years.**  So 18 million years is now 500 thousand years, 
 and a minimum population of 10,000 is now a minimum of a single couple.
 Almost all the genetic evidence they presented in the past was demonstrated to be invalid, 
@@ -226,12 +226,12 @@ that "effective population size" estimates established
 a *minimum* population size, but "effective population size" is a long-term *average*, not
 a *minimum*. So that evidence is not appealed to in this new position. 
 
-Moreover, **(2) even a far more recent Adam and Eve can be ancestors of us all.**
+Moreover, **(B') even a far more recent Adam and Eve can be ancestors of us all.**
 Though the science behind recent universal ancestry is not discussed or referenced in their position statement. This single disclosure at the end of the article hints at this, now, well established option,
 
 > Options include...postulating that Adam and Eve were a special, historical pair who were indeed the ancestors of everyone alive today, but who were part of a larger population with whom their descendants could mate. 
 
-Additionally, **(3) there is no evidence against the *de novo* creation of Adam and Eve, without parents.** 
+Additionally, **(C') there is no evidence against the *de novo* creation of Adam and Eve, without parents.** 
 On this point, [other statements by BioLogos have been more clear](https://biologos.org/articles/truth-seeking-in-science). But the new position
 statement still [includes this sentence](https://biologos.org/articles/what-genetics-say-about-adam-and-eve),
 
@@ -241,7 +241,7 @@ Also, the statement that "the de novo creation of Adam and Eve is not compatible
 2018. 
 
 Unstated, but visible in the history of revisions to BioLogos's theological position, 
-**(4) some "traditional" readings of 
+**(D') some "traditional" readings of 
 Genesis (as BioLogos once defined them) *can* be compatible with the evidence.**. In
 response to this finding, the organization [substantially narrowed](https://discourse.peacefulscience.org/t/_/5847) what they mean by "traditional," which is now defined as:
 
@@ -256,7 +256,7 @@ claim that is subject to debate and to which science does not speak.
 BioLogos's statements merit further discussion
 and cannot not be taken as the final say. 
 [For example, I am skeptical of the specific line of scientific evidence on 
-which they focus, though I expect that conclusion (1) still holds 
+which they focus, though I expect that conclusion (A') still holds 
 up due to other evidence.](https://discourse.peacefulscience.org/t/_/14126/8)
 Leaving out the science that supports recent universal ancestry
 is surprising, and it seems to be a material omission.
