@@ -126,8 +126,7 @@ revision history of [their theological position](https://discourse.peacefulscien
 ## What Was BioLogos's Position?
 
 BioLogos' position, defended primarily by scientist Dennis Venema,
-was that **the genetic evidence demonstrates 
-(A) our ancestral population size was never less than 10,000 individuals 
+was that **(A) the genetic evidence demonstrates  our ancestral population size was never less than 10,000 individuals 
 at any point in the last 18 million years,**
 
 > Venema says there is no way we can be traced back to a single couple...And given 
@@ -139,6 +138,10 @@ As restated in one of the [recently deleted articles](/pdf/deleted-biologos/dele
 > several of the converging lines of evidence that support the conclusion that our 
 lineage became human as a population---one that has not numbered below 
 about **10,000 individuals** over the last **18 million years** or more.
+
+Whether our ancestral population size, in reality, dipped below 10,000 at any point
+ is a different question. Here, Biologos claimed to have solid scientific evidence that demonstrated it never dipped that low.
+
 
 **Therefore, (B) Adam and Eve are not ancestors of us all,**
 
