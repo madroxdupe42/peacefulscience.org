@@ -137,7 +137,7 @@ population size below 10,000 people at any time in our evolutionary history.**[^
 As restated in one of the [recently deleted articles](/pdf/deleted-biologos/deleted-biologos-2021-poythress.pdf),
 
 > several of the converging lines of evidence that support the conclusion that our 
-lineage became human as a population Ð one that has not numbered below 
+lineage became human as a population---one that has not numbered below 
 about **10,000 individuals** over the last **18 million years** or more.
 
 **Therefore, (B) Adam and Eve are not ancestors of us all,**
