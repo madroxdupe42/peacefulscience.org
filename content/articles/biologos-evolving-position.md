@@ -205,8 +205,8 @@ In response, [BioLogos progressively narrowed the definition of
 
 ## What is BioLogos's New Scientific Position?
 
-BioLogos still affirms that the evidence that humans share common ancestors with the 
-great apes, as well as evolutionary science. 
+BioLogos still rightly affirms the evidence that humans share common ancestors with the 
+great apes, as well as the rest of evolutionary science. 
 
 About Adam and Eve,   [their new position](https://biologos.org/articles/what-genetics-say-about-adam-and-eve) works from within the same genetic paradigm, a paradigm which 
 emphasizes a single-couple genetic bottlenecks---an esoteric idea that is 
