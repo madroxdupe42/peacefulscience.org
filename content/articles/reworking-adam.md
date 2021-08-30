@@ -1,6 +1,7 @@
 ---
 aliases:
 - /reworking-adam/
+- /reworking-Adam/
 authors:
 - swamidass
 categories:
