@@ -45,12 +45,15 @@ For many, evolution threatens two key religious beliefs about human origins,
 2. Adam and Eve were specially created without parents.
 
 
-{{< amazon `0830852638` `*The Genealogical Adam and Eve* was one of the books that caused this change in BioLogos's position.` >}}
-
 If evolution is true, it seemed that these beliefs must both be false, as is
 [well explained by Thomas McCall](https://biologos.org/series/book-review-the-genealogical-adam-and-eve/articles/will-the-real-adam-please-stand-up-the-surprising-theology-of-universal-ancestry),
 
 > The broader context is the widespread sense that evolution must be the enemy of traditional Christian belief---and thus that Christian belief must be either dramatically and drastically reformed or surrendered entirely to maintain consistency with scientific orthodoxy and respectability. The narrower context is the concern that contemporary science rules out the possibility of a historical, de novo Adam and Eve as the ancestors of all people---with, again, many Christians willing and ready to reject the traditional doctrine and others vehemently insisting that the dilemma gives us good reason to reject evolution.
+
+
+
+{{< amazon `0830852638` `*The Genealogical Adam and Eve* was one of the books that caused this change in BioLogos's position.` >}}
+
 
 It turns out that evolutionary science is compatible with these two beliefs, [even if 
 Adam and Eve were in the recent past.](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf) Whatever we think of Genesis,

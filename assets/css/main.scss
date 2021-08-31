@@ -460,6 +460,7 @@ figcaption {
 	 float:none;
 	 @extend .shadow;
 	 width: 100%;
+	 
 	 @include media-breakpoint-up($breakpoint) {
 		width: 137%;
 		margin: $spacer -37% $spacer 0px;
@@ -470,6 +471,7 @@ figcaption {
 	.aside-#{$breakpoint}-right {
 	 display: block;
 	 @extend .shadow;
+	  z-index: 11;
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 100%;
@@ -505,6 +507,7 @@ figcaption {
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 336px;
+	 z-index: 11;
 	 clear: both;
 	 
 	 @include media-breakpoint-down(lg) {
