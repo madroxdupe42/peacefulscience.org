@@ -113,8 +113,8 @@
     Whatever your personal beliefs, we saved a chair for you. 
     <p>
       <a href="{{ $commenturl | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a>
-      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
-      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
+      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
+      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
     </div>
   </div>
 </div>
