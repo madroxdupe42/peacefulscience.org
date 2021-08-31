@@ -43,10 +43,10 @@ Unfortunately, I still find myself defending historical Adam theologians from ov
 
 The evidence does show that our ancestors arise as a large population, and share ancestry with the great apes. However, nothing in science unsettles the confession that God specially created a single couple, Adam and Eve, from whom we all descend.
 
-------------------------------------------------------------------------
-
-For those who wish to discuss the science or theology further, I would direct you to [Jon Garvey](https://discourse.biologos.org/u/jon_garvey), who have both [written extensively](http://potiphar.jongarvey.co.uk/2017/08/25/hump-articles-on-genealogical-adam-hypothesis/). Regarding Dr King, as we approach the 50th anniversary of his assassination, I encourage us all to read [*MLK and the Image of God*](https://www.amazon.com/Martin-Luther-King-Jr-Image/dp/0199843961) and Dr. King's own statement of his theology of creation: [What Is Man?](http://kingencyclopedia.stanford.edu/primarydocuments/Vol6/11July1954WhatIsMan.pdf)
-
+<div class="editor-note">
 
 This article was updated October, 2019 to clarify the context, improve formatting, and link to the original version of Dr. Haarsma's responses to Keller.
-{.editor-note}
+
+For those who wish to discuss the science or theology further, I would direct you to [Jon Garvey](https://discourse.biologos.org/u/jon_garvey), who has [written extensively](http://potiphar.jongarvey.co.uk/2017/08/25/hump-articles-on-genealogical-adam-hypothesis/). Regarding Dr King, as we approach the 50th anniversary of his assassination, I encourage us all to read [*MLK and the Image of God*](https://www.amazon.com/Martin-Luther-King-Jr-Image/dp/0199843961)B and Dr. King's own statement of his theology of creation: [What Is Man?](http://kingencyclopedia.stanford.edu/primarydocuments/Vol6/11July1954WhatIsMan.pdf)
+
+</div>
