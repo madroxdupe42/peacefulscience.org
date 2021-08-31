@@ -474,13 +474,19 @@ figcaption {
 	 float:none;
 	 width: 100%;
 	 clear: both;
+	 
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
 		margin: $spacer -37% $spacer $spacer * 2;
 	 }
+	 
+	@include media-breakpoint-down(lg) {
+		float: right;
+		width: 50%;
+		margin: $spacer 0% $spacer $spacer;
+	 }
 
- 
 	 @media print {
 	   	float: right;
 	   	width: 50%;
@@ -505,8 +511,6 @@ figcaption {
 		float: right;
 		margin: $spacer auto $spacer $spacer;
 	 }	 
-	 
-
 	 
 	 @include media-breakpoint-down(md) {
 		float: none;
