@@ -8,6 +8,8 @@
   {{ end }}
 {{ end }}
 
+{{ $headerpos :=  .Params.headerImage.Position | default "main" }}
+
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 
 <div class="article-grid">
@@ -16,7 +18,7 @@
   <div style="position: relative; height: min(100vh, 80%);">
       <div class="d-none d-md-block" style="position: absolute; top:0px; width: 100%; height: 100%;"></div>
      
-     
+     {{- if eq "sidebar" $headerpos -}}
       <div  class="w-100 position-sticky" style="top:100px">
       {{- with .Params.headerImage.Src }}
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  }}
@@ -26,6 +28,7 @@
           <div class="text-muted text-smaller w-100 pl-2">{{ . | markdownify }}</div>
       {{- end }}
       </div>
+     {{- end -}}
       
    <!--    <div class="d-none d-md-block" style="position: absolute; top:20%; width: 100%; height: 81%; background-image: linear-gradient(#f3f3f300,#f3f3f3ff); pointer-events: none"></div> -->
   </div>
@@ -55,6 +58,20 @@
     <h1 class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
 
     <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
+    
+     {{- if eq "main" $headerpos -}}   
+        <div class="pb-3">
+        {{- with .Params.headerImage.Src }}
+          {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  }}
+        
+          <img src="{{ $src }}?nf_resize=fit&w=600" class="w-100"> </img>
+     
+        {{- end -}}      
+      {{- with .Params.headerImage.Credit }}
+          <div class="text-muted text-smaller w-100 pl-2">{{ . | markdownify }}</div>
+      {{- end }}
+        </div>
+     {{- end -}}
     
     <div class="mb-2 pr-1 ">
     

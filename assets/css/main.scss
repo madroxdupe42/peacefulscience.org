@@ -460,7 +460,6 @@ figcaption {
 	 float:none;
 	 @extend .shadow;
 	 width: 100%;
-	 a {z-index: 10};
 	 @include media-breakpoint-up($breakpoint) {
 		width: 137%;
 		margin: $spacer -37% $spacer 0px;
@@ -478,7 +477,6 @@ figcaption {
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
-		clear: both;
 		margin: $spacer -37% $spacer $spacer * 2;
 	 }
 	}
@@ -651,6 +649,42 @@ scroll-margin-top: 100px;
 
 }
 
+.title-bar {
+grid-column: 1;
+   @extend .my-5;
+   @extend .p-3;
+
+      
+    @include media-breakpoint-up(md) {
+        grid-column: 2 /span 1 ;
+    }      
+
+	
+	 display: block;
+	 margin: $spacer auto $spacer auto;
+	 float:none;
+	 width: 100%;
+	 @include media-breakpoint-up(xl) {
+		width: 137%;
+		margin: $spacer -37% $spacer 0px;
+	 }
+}
+
+
+
+.article-cell {
+grid-column: 2;
+@extend .px-3;
+}
+
+.right-sidebar {
+@extend .py-2;
+display: none;
+@include media-breakpoint-up(xl) {
+ display: block;
+}
+}
+
 
 
 .ais-current-refined-values--item {
@@ -702,28 +736,6 @@ scroll-margin-top: 100px;
 #hits {
 }
 .ais-hits {
-}
-
-.title-bar {
-grid-column: 1;
-   @extend .my-5;
-   @extend .p-3;
-      
-    @include media-breakpoint-up(md) {
-        grid-column: 2 /span 2 ;
-    }      
-}
-
-.article-cell {
-@extend .px-3;
-}
-
-.right-sidebar {
-@extend .py-2;
-display: none;
-@include media-breakpoint-up(xl) {
- display: block;
-}
 }
 
 blockquote {
