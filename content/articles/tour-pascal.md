@@ -37,6 +37,7 @@ Though 350 years since Pascal penned his dilemma, as a modern-day scientist, **I
 ------------------------------------------------------------------------
 
 To Dr. Tour's thoughts, I (Dr. Swamidass) would add this quote from Pascal (*Pensees*, 547):
+{.dropcap}
 
 > We know God only by Jesus Christ. Without this mediator all communion with God is taken away; through Jesus Christ we know God. **All those who have claimed to know God, and to prove Him without Jesus Christ, have had only weak proofs.** But in proof of Jesus Christ we have the prophecies, which are solid and palpable proofs. And these prophecies, being accomplished and proved true by the event, mark the certainty of these truths, and therefore the divinity of Christ
 
