@@ -474,6 +474,7 @@ figcaption {
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 100%;
+	 clear: both;
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
@@ -488,11 +489,11 @@ figcaption {
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 336px;
+	 clear: both;
 	 @include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 336px;
 		margin: $spacer -37% $spacer $spacer * 2;
-	
 	 }
 	}
 }
