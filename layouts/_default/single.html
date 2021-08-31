@@ -52,7 +52,7 @@
 
     <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
        {{ with .Scratch.Get "Views" }}
-    <div class="view-count d-inline float-right mr-5"> {{ . }}</div>
+    <div class="view-count d-inline float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
     {{ end }}
 
     <h1 class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
