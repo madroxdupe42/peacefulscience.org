@@ -479,25 +479,50 @@ figcaption {
 		width: 75%;
 		margin: $spacer -37% $spacer $spacer * 2;
 	 }
+
+ 
+	 @media print {
+	   	float: right;
+	   	width: 50%;
+		margin: $spacer 0% $spacer $spacer;
+	 }
+
 	}
 
-	.amazon-#{$breakpoint}-right {
+
+}
+
+
+.amazon-xl-right {
 	 display: block;
 	 @extend .shadow;
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 336px;
 	 clear: both;
-	 @include media-breakpoint-up($breakpoint) {
+	 
+	 @include media-breakpoint-down(lg) {
 		float: right;
-		width: 336px;
-		margin: $spacer -37% $spacer $spacer * 2;
+		margin: $spacer auto $spacer $spacer;
+	 }	 
+	 
+
+	 
+	 @include media-breakpoint-down(md) {
+		float: none;
+		margin: $spacer auto $spacer auto;
+	 }	 
+	 
+	 @include media-breakpoint-up(xl) {
+		float: right;
+		margin: $spacer -37%  $spacer $spacer;
 	 }
-	}
+	 
+	 @media print {
+	   	float: right;
+		margin: $spacer 0% $spacer $spacer;
+	 }	 
 }
-
-
-
 
 .hideme {
 pointer-events: none;
@@ -646,34 +671,36 @@ scroll-margin-top: 100px;
     @include media-breakpoint-up(md) {
         grid-row: 1/ span 2;
     }
-
 }
 
 .title-bar {
-grid-column: 1;
    @extend .my-5;
    @extend .p-3;
-
-      
     @include media-breakpoint-up(md) {
-        grid-column: 2 /span 1 ;
-    }      
+         grid-column: 2;
+    }   
+   
+  
+   display: block;
+   margin: $spacer auto $spacer auto;
+   float:none;
+   width: 100%;
+   
+   @include media-breakpoint-up(xl) {
+	 width: 137%;
+     margin: $spacer -37% $spacer 0px;
+   }
 
-	
-	 display: block;
-	 margin: $spacer auto $spacer auto;
-	 float:none;
-	 width: 100%;
-	 @include media-breakpoint-up(xl) {
-		width: 137%;
-		margin: $spacer -37% $spacer 0px;
-	 }
 }
 
 
 
 .article-cell {
-grid-column: 2;
+    @include media-breakpoint-up(md) {
+         grid-column: 2;
+    }   
+   
+  
 @extend .px-3;
 }
 
