@@ -9,15 +9,15 @@ categories:
 - dialogue
 - science
 date: "2017-07-03T21:41:27"
-description: Dr. James Tour is one of the great chemists of our time. Echoing
-Pascal, he writes "I do not know how to prove ID using my most sophisticated of analytical tools."
+description: 'Dr. James Tour is one of the great chemists of our time. Echoing
+Pascal, he writes "I do not know how to prove ID using my most sophisticated of analytical tools."'
 headerimage:
   src: /img/2017/10/IMG_0661_small.jpg
 title: Dr James Tour and the Great Pascal
 ---
 
-*This last year, I (Dr. Swamidass) had the privilege of interacting with Dr. James Tour, one of the great chemists of our time. He is in the Intelligent Design  (ID) "orbit," having signed the [Dissent from Darwinism](https://en.wikipedia.org/wiki/A_Scientific_Dissent_From_Darwinism) many years ago. However, he does not consider himself an ID proponent. For years he had a very eloquent explanation of the scientific and theological reasons he took this position. This last year, however, [his website](http://www.jmtour.com/) was revised and this was removed. During his recent visit to STL, he gave me permission to reproduce a portion of his website, before it was revised, on this blog. I appreciate his thoughts a great deal, and would say I am a Pascalian scientist, just like Dr. Tour.*
-{.editors-note aside-xl-wide}
+This last year, I (Dr. Swamidass) had the privilege of interacting with Dr. James Tour, one of the great chemists of our time. He is in the Intelligent Design  (ID) "orbit," having signed the [Dissent from Darwinism](https://en.wikipedia.org/wiki/A_Scientific_Dissent_From_Darwinism) many years ago. However, he does not consider himself an ID proponent. For years he had a very eloquent explanation of the scientific and theological reasons he took this position. This last year, however, [his website](http://www.jmtour.com/) was revised and this was removed. During his recent visit to STL, he gave me permission to reproduce a portion of his website, before it was revised, on this blog. I appreciate his thoughts a great deal, and would say I am a Pascalian scientist, just like Dr. Tour.
+{.editor-note .aside-xl-wide}
 
 I (Dr. James Tour) have been labeled as an Intelligent Design (ID) proponent. I am not. I do not know how to use science to prove intelligent design although some others might. I am sympathetic to the arguments on the matter and I find some of them intriguing, but the scientific proof is not there, in my opinion. So I prefer to be free of that ID label. [Blaise Pascal](http://en.wikipedia.org/wiki/Blaise_Pascal) (1623-1662), one of the finest scientists, mathematicians and inventors that the world has ever enjoyed, and also among the most well-respected and deepest thinking Christian apologists, wrote in his Pensees 243,![](/img/2017/07/pascal2.jpg)
 {.dropcap}
