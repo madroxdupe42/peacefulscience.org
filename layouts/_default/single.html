@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 {{ $PAGES := partialCached "byviews" . }}
+
 {{ with .Description  }}
   {{ if in . "..." }}
     {{ warnf "DESC.ELLIPSE\t%s" $.File.Path }}
@@ -54,7 +55,7 @@
     <h1 class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
 
     <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
-
+    
     <div class="mb-2 pr-1 ">
     
     {{ $authors := (slice) }}
@@ -111,12 +112,14 @@
     <p> Come to understand and to be understood. <br> 
     Whatever your personal beliefs, we saved a chair for you. 
     <p>
-      <a href="{{ $commenturl | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-lg">Comment</a>
+      <a href="{{ $commenturl | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a>
+      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
+      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
     </div>
   </div>
 </div>
 </div>
-	
+
 
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 <div style="background-color: white; min-height:1000">
