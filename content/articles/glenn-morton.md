@@ -1,6 +1,7 @@
 ---
 aliases:
 - /glenn-morton/
+- /glenn-morton-yec/
 authors:
 - gmorton
 categories:
