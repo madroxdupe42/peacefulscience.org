@@ -1,4 +1,6 @@
 ---
+alias:
+- /articles/biologos-evolving-position/
 authors:
 - swamidass
 categories:
@@ -12,8 +14,8 @@ description: BioLogos updates their scientific position on Adam and Eve.
 feature: true
 headerimage:
   src: /img/2021/08/ct-uturn.png
-title: Evolving Conclusions on Adam and Eve
-commenturl: "https://discourse.peacefulscience.org/t/evolving-conclusions-on-adam-and-eve/14188"
+title: A U-Turn on Adam and Eve
+commenturl: "https://discourse.peacefulscience.org/t/_/14188"
 ---
 
 Also see Peaceful Science's position statement on Adam and Eve: 
@@ -43,7 +45,7 @@ For many, evolution threatens two key religious beliefs about human origins,
 2. Adam and Eve were specially created without parents.
 
 
-{{< amazon `0830852638` >}}
+{{< amazon `0830852638` `*The Genealogical Adam and Eve* was one of the books that caused this change in BioLogos's position.` >}}
 
 If evolution is true, it seemed that these beliefs must both be false, as is
 [well explained by Thomas McCall](https://biologos.org/series/book-review-the-genealogical-adam-and-eve/articles/will-the-real-adam-please-stand-up-the-surprising-theology-of-universal-ancestry),
@@ -54,6 +56,9 @@ It turns out that evolutionary science is compatible with these two beliefs, [ev
 Adam and Eve were in the recent past.](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf) Whatever we think of Genesis,
 
 >  Entirely consistent with the genetic and archeological evidence, it is possible that Adam was created out of dust, and Eve out of his rib, less than ten thousand years ago. Leaving the Garden, their offspring would have blended with those outside it, biologically identical neighbors from the surrounding area. In a few thousand years, they would become genealogical ancestors of everyone.[^gae]
+
+[^gae]: S. Joshua Swamidass. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](https://www.amazon.com/Genealogical-Adam-Eve-Surprising-Universal/dp/0830852638) (IVP, 2019).
+
 
 This is a claim about scientific evidence that is independent 
 of how we *personally* read Genesis;
@@ -68,9 +73,6 @@ opportunity to build trust in religious communities.
 ## What is BioLogos?
 
 
-{{% image `/img/2019/08/22832.jpg` %}}
-The June 2011 of *Christianity Today* issue included an [article that quoted several BioLogos scholars](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the CT editors.
-{{% /image %}}
 
 
 The BioLogos Foundation is an important organization in the conversation between
@@ -98,6 +100,10 @@ the organization's past and current position.
 
 ## Which Articles Were Deleted?
 
+
+{{% image `/img/2019/08/22832.jpg` %}}
+The June 2011 of *Christianity Today* issue included an [article that quoted several BioLogos scholars](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the CT editors.
+{{% /image %}}
 
 Shortly after  [The Genealogical
 Adam and Eve](/genealogical-adam-eve) was published, in early 2020, BioLogos deleted
@@ -272,7 +278,7 @@ Still, these changes are an important step in the right direction.
 
 
 
-{{< amazon `B08ZSN6BY4` >}}
+{{< amazon `B08ZSN6BY4` `This book by William Lane Craig, also, caused the change.` >}}
 
 ## What Caused the Changed?
 
@@ -285,10 +291,7 @@ in an accessible way.
 
 Both these books are the culmination of several years of work,
 
-
 3. William Lane Craig. [What Became of the Genetic Challenge to Adam and Eve?](https://peacefulscience.org/articles/wlc-genetic-challenge/). Peaceful Science, 2020.
-
-
 
 4. S. Joshua Swamidass. [BioLogos Edits Their Response to Keller](https://discourse.peacefulscience.org/t/_/4798). Peaceful Science Forum, 2019.
 
@@ -303,6 +306,8 @@ Perspectives on Science and the Christian Faith, 2018.
 8. S. Joshua Swamidass. [Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/_/61). Peaceful Science Forum, 2017. 
 
 9. S. Joshua Swamidass. [A Genealogical Rapprochement on Adam and Eve](/genealogical-rapprochement/). Peaceful Science, 2017. 
+
+9. Richard Buggs. [Adam and Eve: a tested hypothesis?](https://natureecoevocommunity.nature.com/posts/22075-adam-and-eve-a-tested-hypothesis), 2017.
 
 10. S. Joshua Swamidass. [In Defense of Tim Keller](/articles/defense-tim-keller/). Peaceful Science, 2017. 
 
@@ -345,6 +350,11 @@ is BioLogos' response to these individuals?
 Nonetheless,  BioLogos's new scientific position is a step in the right direction. 
 
 
+August 31, 2021, the title of this article was changed, captions to the books were added,
+and an second article by 
+Richard Buggs was added to the list of articles that caused the change.
+{.editor-note .aside-xl-wide}
+
 
 [^1]: Poythress objected that effective population sizes were long-term *average* 
 population sizes, not *minimum* population sizes. In this objection, Poythress was 
@@ -364,9 +374,8 @@ we now know was overstated and often incorrect. The article ironically hopes for
 
 [^7]: See, for example: Kenneth Kemp. [Science, Theology and Monogenesis,](https://www3.nd.edu/~afreddos/papers/kemp-monogenism.pdf) American Catholic Philosophical Quarterly,  2011. 
  
- 
 
-[^gae]: S. Joshua Swamidass. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](https://www.amazon.com/Genealogical-Adam-Eve-Surprising-Universal/dp/0830852638) (IVP, 2019).
+
 
 
 
