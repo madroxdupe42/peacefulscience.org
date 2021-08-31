@@ -17,7 +17,7 @@ headerimage:
 title: A U-Turn on Adam and Eve
 commenturl: "https://discourse.peacefulscience.org/t/_/14188"
 ---
-https://peacefulscience.org/articles/biologos-evolving-position/
+
 Also see Peaceful Science's position statement on Adam and Eve: 
 [*"Is evolutionary science in conflict with Adam and Eve?"*](https://peacefulscience.org/articles/evolution-adam-eve/)
 {.editor-note .aside-xl-right}
