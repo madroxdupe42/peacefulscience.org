@@ -11,8 +11,6 @@
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
 
-
-
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 
 <div class="article-grid">
@@ -26,7 +24,7 @@
       {{- with .Params.headerImage.Src }}
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) }}
           <img src="{{ $src  | absURL  }}?nf_resize=fit&w=600" class="w-100"  style="height: auto" 
-             {{-  with (imageConfig (printf "static/%s" $src) ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
+             {{-  with (resources.Get $src)  }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
           ></img>
       {{- end }}
       {{- with .Params.headerImage.Credit }}
@@ -70,7 +68,7 @@
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path )  }}
         
           <img src="{{ $src | absURL }}?nf_resize=fit&w=600" class="w-100" style="height: auto" 
-             {{-  with (imageConfig (printf "static/%s" $src) ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
+             {{-  with (resources.Get $src ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
           > </img>
      
         {{- end -}}      
