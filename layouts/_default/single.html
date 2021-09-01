@@ -10,6 +10,9 @@
 
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
+
+
+
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 
 <div class="article-grid">
@@ -21,8 +24,10 @@
      {{- if eq "sidebar" $headerpos -}}
       <div  class="w-100 position-sticky" style="top:100px">
       {{- with .Params.headerImage.Src }}
-          {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  }}
-          <img src="{{ $src }}?nf_resize=fit&w=600" class="w-100"> </img>
+          {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) }}
+          <img src="{{ $src  | absURL  }}?nf_resize=fit&w=600" class="w-100"  style="height: auto" 
+             {{-  with (imageConfig (printf "static/%s" $src) ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
+          ></img>
       {{- end }}
       {{- with .Params.headerImage.Credit }}
           <div class="text-muted text-smaller w-100 pl-2">{{ . | markdownify }}</div>
@@ -62,9 +67,11 @@
      {{- if eq "main" $headerpos -}}   
         <div class="pb-3">
         {{- with .Params.headerImage.Src }}
-          {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  }}
+          {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path )  }}
         
-          <img src="{{ $src }}?nf_resize=fit&w=600" class="w-100"> </img>
+          <img src="{{ $src | absURL }}?nf_resize=fit&w=600" class="w-100" style="height: auto" 
+             {{-  with (imageConfig (printf "static/%s" $src) ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
+          > </img>
      
         {{- end -}}      
       {{- with .Params.headerImage.Credit }}
@@ -73,15 +80,8 @@
         </div>
      {{- end -}}
     
-    <div class="mb-2 pr-1 ">
-    
-    {{ $authors := (slice) }}
-    {{ with .Params.authors  }}
-      {{ range (partial "getauthors" .) }}
-       {{ $authors = $authors | append (printf `<a class="author" href="%s">%s</a>` .Permalink  .Title  ) }}        
-      {{ end }}
-    {{ end }}
-    {{ delimit $authors ", "  " and "}}
+    <div class="mb-2 pr-1 ">  
+      {{ partial "authors" (dict "authors" .Params.authors)  }}
     </div>
         
     <div class="mb-5">

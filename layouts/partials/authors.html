@@ -1,8 +1,26 @@
-    <span>
-    {{- range .Params.authors }}
-      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-        <a class="pr-2" href="{{ .Params.Permalink }}"> {{ .Params.name }} </a>
-      {{- end }}
-    {{- end }}
-    </span>
+{{ $authors := .authors }}
+{{ $etal := .etal | default false }}
+{{ $class := .class | default ""}}
+
+{{ if $etal }}
+      {{- with site.GetPage "taxonomyTerm" (printf "authors/%s"
+            (urlize (index $authors 0))) }}
+        <a class="{{ .Class }}" href="{{ .Permalink }}"> {{ .Title }}</a>
+      {{- else }}
+        {{- with index $authors 1 }}, et al.{{- end }} 
+     {{- end -}}
+     
+{{ else }}
+
+    {{ $html := (slice) }}
+    {{- range $authors }}
+      {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+        {{- $html = $html | append  (printf `<a class="author %s" href="%s">%s</a>`
+            $class .Permalink  .Title  ) -}}        
+       {{- end }}
+     {{- end -}}
+     {{ delimit $html ", "  " and "}}
+
+{{- end -}}
+
 
