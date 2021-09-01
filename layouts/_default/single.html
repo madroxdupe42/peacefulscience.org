@@ -68,7 +68,7 @@
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path )  }}
         
           <img src="{{ $src | absURL }}?nf_resize=fit&w=600" class="w-100" style="height: auto" 
-             {{-  with (resources.Get $src ) }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
+             {{-  with (resources.Get $src ) }} {{ warnf "IMGCONFIG: %s %d"  $src .Width }} width="600" height="{{  div (mul .Height 600) .Width }}" {{ end -}} 
           > </img>
      
         {{- end -}}      
