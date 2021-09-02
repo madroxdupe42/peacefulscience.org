@@ -28,8 +28,7 @@
 <article class="{{ $layout }} {{ $containerclass }}">
 
   <a href="{{.Permalink}}"> 
-  
-  <img src={{ $src }} width="{{ $width }}" height="{{ $height }}" loading="lazy"> </img>
+  <img class="{{- $imageclass -}}" style="{{ $imagestyle |safeCSS }}" src={{ $src }} width="{{ $width }}" height="{{ $height }}" loading="lazy"> </img>
   </a>
 
 
