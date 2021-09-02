@@ -1,5 +1,5 @@
 [build]
-command = "hugo -b $URL"
+command = "hugo mod clean && hugo -b $URL"
 publish = "public/"
 
 [build.environment]
