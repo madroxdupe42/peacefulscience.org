@@ -28,7 +28,7 @@ Dr. Darrel Falk's endorsement is particularly notable for its humility. The text
 
 Falk understates his significance. He was among the leading voices who put forward the scientific case against a traditional reading of Genesis. Falk wrote an influential article with [Dennis Venema in 2010](https://biologos.org/articles/does-genetics-point-to-a-single-primal-couple). Then in 2011, *Christianity Today* responded, in large part, to Falk's work in making this known. They published a cover article on "[The Search for the Historical Adam](https://www.christianitytoday.com/ct/2011/june/historicaladam.html)." The article quoted Falk, and other scientists, as the explained how the findings of population genetics ruled out Adam and Eve, ancestors of us all.
 
-{{< mediatext `static/img/2019/08/22832.jpg?w=696&ssl=1` `The June 2011 cover of *Christianity Today*. This issue included an [article that quoted Falk](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the staff.` >}}
+{{< mediatext `/img/2019/08/22832.jpg?w=696&ssl=1` `The June 2011 cover of *Christianity Today*. This issue included an [article that quoted Falk](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the staff.` >}}
 
 In his endorsement, Falk explains the impact of this upcoming book on his understanding of Adam and Eve.
 

@@ -49,7 +49,7 @@ Three years ago I co-founded a large scale collaborative design project called [
 
 Projects like these *could* be done by an individual or small group, but it would lose the amazing display of diversity that reflects many people who lead very different lives. By working with 60 individuals we get 60 views of the world and 60 different ways for other people to connect with the project in a meaningful way. There's no substitute or shortcut for collaboration, and I think art can be better when we do it together. I'm thrilled to watch the *Peaceful Science* community of artists grow over the next several years. 
 
-{{< mediatext `static/img/2019/09/eWGBV9dJ-BnLc0cLmI4Y6ZQHfi9DYXDn83TysuJ4gMq61CzI3x_ThsZV-RoxqVsTO8ILNNV7eLjoCbQVEkFxAlBZ4mEw-BYvaBULHFWWaIEAs8UQf9-oTsgAEUCK7yhGjgHO8lUT.png` `[Chevreul](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul) proposed this color wheel in 1861. His work on color perception had "[had a great influence on advanced art in Europe, particularly Impressionism, Neo-Impressionism and Orphism](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul)." ` >}}
+{{< mediatext `/img/2019/09/eWGBV9dJ-BnLc0cLmI4Y6ZQHfi9DYXDn83TysuJ4gMq61CzI3x_ThsZV-RoxqVsTO8ILNNV7eLjoCbQVEkFxAlBZ4mEw-BYvaBULHFWWaIEAs8UQf9-oTsgAEUCK7yhGjgHO8lUT.png` `[Chevreul](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul) proposed this color wheel in 1861. His work on color perception had "[had a great influence on advanced art in Europe, particularly Impressionism, Neo-Impressionism and Orphism](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul)." ` >}}
 
 **What specific examples of dialogue between science and art have been compelling to you?**
 
