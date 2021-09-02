@@ -56,7 +56,7 @@
       {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
       {{ range $latest }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "lazy" ) }}
       {{ end }}
     </div>
 </div>
