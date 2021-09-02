@@ -1,0 +1,67 @@
+
+{{- $page := .Page -}}
+
+{{- $src := true -}}
+{{- with $page.Params.headerImage.Src -}}
+  {{- $args := querify  "nf_resize" "fit" "w" 696 "h" 392 -}}
+  {{- $src = printf "%s?%s" (. | absURL) $args  -}}
+{{- end -}}  
+ 
+{{- $hide := split (index . "Hide" | default "") " "  -}}
+
+{{- $layout := index . "Layout" | default "col-6 col-md-3" -}}
+
+{{- $style := index . "Style" | default "horizontal" -}}
+
+{{- $containerclass := "p-3 text-smaller" -}}
+{{- $imageclass := "w-100 aspect-wide-screen mb-1 rounded d-print-none" -}}
+{{- $imagestyle := "" }}
+{{- if eq  $style  "horizontal" -}}
+  {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
+  {{- $imageclass = "aspect-wide-screen flex-shrink-0 mr-3 rounded mb-1 d-print-none" -}}
+  {{- $imagestyle = "width: 160px;" | safeCSS  -}}
+{{- end -}}
+
+
+<article class="{{ $layout }} {{ $containerclass }}">
+
+  <a href="{{.Permalink}}"> 
+  <div class="{{- $imageclass -}}" style="{{ $imagestyle |safeCSS }} background-position: center; background-image: url('{{$src}}')"> </div>
+  </a>
+
+
+{{- if eq $style "horizontal" -}} <div>{{- end -}}  
+    <a class="title d-block" href="{{.Permalink}}"> {{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
+
+{{ if not (in $hide "author") -}}
+    <span class="text-smaller pr-2 text-muted">
+    {{- with $page.Params.authors }}
+      {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize (index . 0))) }}
+        <a class="author text-muted" href="{{ .Permalink }}"> {{ .Title }}</a>
+      {{- end }}
+        {{- with index . 1 }}, et al.{{- end }} 
+    {{- end }}
+    </span>
+{{- end -}}
+
+{{- if not (in $hide "date") -}}
+  {{- with $page.PublishDate -}}
+    <span class="text-muted article-date text-smaller"> {{ .Format "January 2, 2006" }}<span>
+  {{- end -}}
+{{- end -}}
+    <br>
+    
+{{- if not (in $hide "excerpt") -}}
+    <span class="d-block excerpt"> {{ $page.Params.description | markdownify }} </span>
+{{- end -}}
+    
+{{- if not (in $hide "categories") -}}
+    {{- range $page.Params.categories -}}
+      {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) -}}
+        <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
+      {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- if eq $style "horizontal" -}} </div>{{- end -}}  
+
+</article>

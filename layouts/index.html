@@ -56,7 +56,7 @@
       {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
       {{ range $latest }}
-        {{ .Render "mediabox2" }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
       {{ end }}
     </div>
 </div>
@@ -69,7 +69,7 @@
       {{ partial "heading" (dict "Text" "Videos" "Class" "heading-black"  ) }}
 
       {{ range $videos }}
-        {{ .Render "mediabox3" }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
       {{ end }}
     </div>
 </div>
@@ -84,7 +84,7 @@
       {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black") }}
 
       {{ range $featured }}
-        {{ .Render "mediabox4" "col-lg-6"}}
+        {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
       {{ end }}
       </div>
     </div>
@@ -92,17 +92,17 @@
       <div class="row justify-content-center my-3 pl-lg-1">
       {{ partial "heading" (dict "Text" "Ancestry, Race, and Origins" "Class" "heading-red") }}
       {{ range $race }}
-        {{ .Render "mediabox4" }}
+        {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
       {{ end }}
       
       {{ partial "heading" (dict "Text" "Artificial Intelligence" "Class" "heading-blue") }}
       {{ range $ai }}
-        {{ .Render "mediabox4" }}
+        {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
       {{ end }}
       
       {{ partial "heading" (dict "Text" "Art, Beauty, and Perception" "Class" "heading-green") }}
       {{ range $art }}
-        {{ .Render "mediabox4" }}
+        {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
       {{ end }}
       </div>
     </div>
@@ -124,7 +124,8 @@
 	 <div class="col-lg-10  col-print-8">
       <div class="row justify-content-center">
        {{ range $gae }}
-         {{ .Render "mediabox3" "col-lg-6"}}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
+
        {{ end }}
       </div>
      </div>
@@ -140,7 +141,8 @@
       {{ partial "heading" (dict "Text" "More Articles"  "Class" "heading-black" "Link" "/archive/") }}
 
       {{ range $articles }}
-        {{ .Render "mediabox3" }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
+
       {{ end }}
     </div>
 </div>
