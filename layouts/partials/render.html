@@ -5,7 +5,7 @@
 {{- $src := true -}}
 
 {{- with $page.Params.headerImage.Src -}}
-  {{- $args := querify  "nf_resize" "fit" "w" $width "h" $height -}}
+  {{- $args := querify  "nf_resize" "smartcrop" "w" $width "h" $height -}}
   {{- $src = printf "%s?%s" (. | absURL) $args  -}}
 {{- end -}}  
  
@@ -16,24 +16,27 @@
 {{- $style := index . "Style" | default "horizontal" -}}
 
 {{- $containerclass := "p-3 text-smaller" -}}
-{{- $imageclass := "w-100 aspect-wide-screen mb-1 rounded d-print-none" -}}
+{{- $imageclass := "w-100  mb-1 rounded d-print-none" -}}
 {{- $imagestyle := "height: auto;" }}
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
-  {{- $imageclass = "aspect-wide-screen flex-shrink-0 mr-3 rounded mb-1 d-print-none" -}}
+  {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none" -}}
   {{- $imagestyle = "width: 160px; height: auto;" | safeCSS  -}}
 {{- end -}}
 
 
 <article class="{{ $layout }} {{ $containerclass }}">
 
-  <a href="{{.Permalink}}"> 
+  <a href="{{$page.Permalink}}">   
+{{- if  .Site.IsServer -}}
   <img class="{{- $imageclass -}}" style="{{ $imagestyle |safeCSS }}" src={{ $src }} width="{{ $width }}" height="{{ $height }}" loading="lazy"> </img>
+{{- else -}}
+  <div class="aspect-wide-screen {{ $imageclass -}}" style="{{ $imagestyle |safeCSS }} background-position: center; background-image: url('{{$src}}')"> </div>
+{{- end -}}
   </a>
 
-
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  
-    <a class="title d-block" href="{{.Permalink}}"> {{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
+    <a class="title d-block" href="{{$page.Permalink}}"> {{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
 {{ if not (in $hide "author") -}}
     <span class="text-smaller pr-2 text-muted">
