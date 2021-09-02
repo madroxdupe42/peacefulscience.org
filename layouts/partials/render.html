@@ -28,7 +28,7 @@
 <article class="{{ $layout }} {{ $containerclass }}">
 
   <a href="{{$page.Permalink}}">   
-{{- if  .Site.IsServer -}}
+{{- if  site.IsServer -}}
   <img class="{{- $imageclass -}}" style="{{ $imagestyle |safeCSS }}" src={{ $src }} width="{{ $width }}" height="{{ $height }}" loading="lazy"> </img>
 {{- else -}}
   <div class="aspect-wide-screen {{ $imageclass -}}" style="{{ $imagestyle |safeCSS }} background-position: center; background-image: url('{{$src}}')"> </div>
