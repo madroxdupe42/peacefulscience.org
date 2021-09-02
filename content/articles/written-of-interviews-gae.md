@@ -23,7 +23,7 @@ For now, here is a reader's guide to some of the first *written* interviews surr
 
 ## The Dialogue of Science and Theology
 
-A couple weeks before the book released, Sean McDowell published his interview with me. His father's book, *[More than a Carpenter](https://www.amazon.com/dp/B002OFAY6O/tag=swamidass-20)*, was an important step in my own [path to confident faith](http://peacefulscience.org/swamidass-confident-faith.pdf). Sean and I became friends over the last several years. I was particularly honored by his kind endorsement of my book, even though he disagrees with me about evolutionary science. Sean is acknowledge in Appendix 1 of the book for his very generous help to me in explaining the evidence of the Resurrection.
+A couple weeks before the book released, Sean McDowell published his interview with me. His father's book, *[More than a Carpenter](https://www.amazon.com/dp/B002OFAY6O/tag=swamidass-20)*, was an important step in my own [path to confident faith](/pdf/swamidass-confident-faith.pdf). Sean and I became friends over the last several years. I was particularly honored by his kind endorsement of my book, even though he disagrees with me about evolutionary science. Sean is acknowledge in Appendix 1 of the book for his very generous help to me in explaining the evidence of the Resurrection.
 
 There is legitimacy to science, but it is theology that makes sense of everything together. In this interview, I explain the proper relationship between theology and science: dialogue. Like any good conversation, the dialogue benefits from constructive resistance, good faith questions going both directions, and empathetic engagement with those unlike us.
 

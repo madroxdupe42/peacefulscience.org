@@ -12,7 +12,7 @@ headerimage:
 title: Finding A Grounded Faith
 ---
 
-***Finding a Grounded Faith** is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](https://peacefulscience.org/wp-content/uploads/2017/04/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+***Finding a Grounded Faith** is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
 
 ------------------------------------------------------------------------
 

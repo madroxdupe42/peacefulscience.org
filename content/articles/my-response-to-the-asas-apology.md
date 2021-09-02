@@ -15,7 +15,7 @@ headerimage:
 title: My Response to the ASA's Apology
 ---
 
-In these divided times, conflicts can be difficult to resolve. With this in mind, allow me to commend and thank *[The American Scientific Affiliation](https://network.asa3.org/)* (ASA)[^1] for acting with true integrity, as seen in their [open letter of apology](pdf/asa-apology-swamidass.pdf).
+In these divided times, conflicts can be difficult to resolve. With this in mind, allow me to commend and thank *[The American Scientific Affiliation](https://network.asa3.org/)* (ASA)[^1] for acting with true integrity, as seen in their [open letter of apology](/pdf/asa-apology-swamidass.pdf).
 
 It takes real courage for an institution to transparently admit mistakes and seek to correct them. The leadership this letter demonstrates is an example for all of us to follow.
 

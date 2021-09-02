@@ -20,7 +20,7 @@ Eight years ago, in 2012, I was a new assistant professor at a secular universit
 
 [Scientists engage the public for all sorts of reasons](https://www.aaas.org/resources/communication-toolkit/what-public-engagement). [*Peaceful Science* includes atheists motivated by secular values](https://peacefulscience.org/stephen-matheson-humanists-invitation/). There are many good reasons to serve the common good. But when it comes down to taking personal risks, very personal reasons take center stage. Why did ***I*** go public?
 
-Most of my family are creationists, of the *anti*-evolution sort. For years, I avoided conflict by staying silent about my shifting views on evolution. I was raised a young earth creationist. In a [long path through old earth creationism and Intelligent Design](https://peacefulscience.org/swamidass-confident-faith.pdf), I eventually [came to affirm evolutionary science](https://discourse.peacefulscience.org/t/livestream-how-i-changed-my-mind-on-evolution/10326). There were many reasons. [I could not find a conflict between Scripture and evolution](http://peacefulscience.org/genealogical-adam-eve/), and had also seen evidence in our genomes for evolution. It really does look like humans and chimpanzees share common ancestors.
+Most of my family are creationists, of the *anti*-evolution sort. For years, I avoided conflict by staying silent about my shifting views on evolution. I was raised a young earth creationist. In a [long path through old earth creationism and Intelligent Design](/pdf/swamidass-confident-faith.pdf), I eventually [came to affirm evolutionary science](https://discourse.peacefulscience.org/t/livestream-how-i-changed-my-mind-on-evolution/10326). There were many reasons. [I could not find a conflict between Scripture and evolution](http://peacefulscience.org/genealogical-adam-eve/), and had also seen evidence in our genomes for evolution. It really does look like humans and chimpanzees share common ancestors.
 
 Most of my colleagues are not Christians, and I did not have tenure at the time. For years, I avoided conflict by staying silent about my personal beliefs. Everyone's advice was to be silent about my faith before tenure. Scientists, I was told, would not be fair to me if I revealed to them that I was a Christian. But I was one of *those* that really believed that Jesus rose bodily from the dead.
 
@@ -36,7 +36,7 @@ Victoria, oddly enough, was the one person who gave me different advice. After s
 
 I did not think I would immediately lose my job in a dramatic event. More likely, I thought, I could lose the respect of my scientific colleagues, which would make tenure less likely. In the worst case scenario, perhaps there could be a public confrontation. Perhaps in the end I would not get tenure. If publishing this article would contribute any way, I wanted to be at peace with the consequences. I wanted to know that what I was doing was worth the cost.
 
-Victoria and I both concluded, "*Yes, this is worth risking my job*." Why? There was a specific story that kept coming to mind, a conversation with a campus minister just a few months before. Later, [I wrote the story down in an article for *Cultural Encounters*](https://www.peacefulscience.org/is-jesus-greater.pdf). There was a post-doctoral trainee at Washington University in St. Louis. He was a seeker in science, but the origins debate made no sense to him,
+Victoria and I both concluded, "*Yes, this is worth risking my job*." Why? There was a specific story that kept coming to mind, a conversation with a campus minister just a few months before. Later, [I wrote the story down in an article for *Cultural Encounters*](/pdf/swamidass-is-jesus-greater.pdf). There was a post-doctoral trainee at Washington University in St. Louis. He was a seeker in science, but the origins debate made no sense to him,
 
 > On one hand, the campus minister reassured him that the gospel came first. He encouraged the student to focus on Jesus, and to trust Him. Evolution, as well as the age of the earth, was something Christians disagreed about and was not the foundation of our faith. Maybe this would make sense down the line, but it was a mystery now. Jesus was still worth his trust.
 >
@@ -50,7 +50,7 @@ Victoria and I both concluded, "*Yes, this is worth risking my job*." Why? There
 >
 > Our arguing does not encourage trust. Our anti-evolutionism is not kind. It is cruel to insist that seekers reject evolution before they know and trust Jesus. It is wrong to ask them to trust our arguments instead of trusting Jesus.
 >
-> S. Joshua Swamidass, "[Is Jesus Greater than Anti-Evolutionism?](https://www.peacefulscience.org/is-jesus-greater.pdf)" *Cultural Encounters*, 2017.
+> S. Joshua Swamidass, "[Is Jesus Greater than Anti-Evolutionism?](/pdf/swamidass-is-jesus-greater.pdf)" *Cultural Encounters*, 2017.
 
 This student was lost in the Church's mess. The origins quagmire does not encourage trust.
 

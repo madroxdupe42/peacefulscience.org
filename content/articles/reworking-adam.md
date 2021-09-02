@@ -19,7 +19,7 @@ This last year, 2017 till now, we have been reworking the science of Adam. This 
 
 There are two important developments, and one important event, to report:
 
-1.  An article explaining the science of universal (and recent) genealogical ancestry  is **now available [in PSCF](https://www.asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf), and on [our website](https://peacefulscience.org/wp-content/uploads/2018/03/PSCF3-18p19-35Swamidass.pdf)** (free of the pay wall).
+1.  An article explaining the science of universal (and recent) genealogical ancestry  is **now available [in PSCF](https://www.asa3.org/ASA/PSCF/2018/PSCF3-18p19-35Swamidass.pdf ), and on [our website](/pdf/PSCF3-18p19-35Swamidass.pdf)** (free of the pay wall).
 2.  Questions from Dr. Richard Buggs about the genetic evidence have clarified that [a sole-genetical progenitor origin may be possible](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61) if we are willing to place Adam and Eve before 500 kya.
 3.  This summer, at the [upcoming ASA conference](http://network.asa3.org/mpage/ASA2018), on **Friday, July 27 from 2 pm-5 pm**, I am hosting a workshop where we will look at the developments in more detail: ***Reworking the Science of Adam and Eve.*** Please consider joining us.
 
@@ -47,13 +47,11 @@ Of course, none of this work demonstrates that Adam exists. Rather, the evidence
 
 I made a fairly radical claim at a [public lecture at Urbana Seminary](https://peacefulscience.org/reviewing-adam-and-the-genome/), then at a [scientific seminar at the ASA conference](http://www.asa3.org/ASAradio/ASA2017Swamidass2.mp3), then in [an online symposium for *The Creation Project*.](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) This claim is consistent with the genetic evidence in which it appears (1) our ancestors arise as a population, not a single couple, and that (2) we share ancestry with the great apes.
 
-------------------------------------------------------------------------
 
-*Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors*[^1] *in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.*
+> Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors[^1] *in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.
 
-------------------------------------------------------------------------
 
-This has been covered in detail, elsewhere. Now, however, an article justifying this claim has been published in PSCF, and is [available here](https://peacefulscience.org/wp-content/uploads/2018/03/PSCF3-18p19-35Swamidass.pdf). The good news is that scientific debate is largely settled. In the coming months and years, we can anticipate an engaging conversation about the theological questions that are arising.
+This has been covered in detail, elsewhere. Now, however, an article justifying this claim has been published in PSCF, and is [available here](/pdf/PSCF3-18p19-35Swamidass.pdf). The good news is that scientific debate is largely settled. In the coming months and years, we can anticipate an engaging conversation about the theological questions that are arising.
 
 ## A Genetic Sole Progenitor?
 
@@ -77,7 +75,7 @@ The key thing to understand is that we are using the formula: D = 2 \* T \* R. O
 
 This gives us a way of experimentally testing different human origin models using the TMR4A. . This is a new opportunity, because we have recent been able to directly measure mutation rates across the genome (*11*), and it is approximately 1.25e-8 per base pair per generation (with 25 years per generation). These models of origins seem to be in error:
 
-<div>
+
 
 1.  The *Reasons to Believe* model [requires Adam to arise before 100 kya](http://www.reasons.org/explore/blogs/todays-new-reason-to-believe/read/tnrtb/2010/10/01/were-they-real-the-scientific-case-for-adam-and-eve). If TMR4A was at 100 kya, we would expect the mutation rate to be 2.6e-8 per generation, or 5x more than observed.
 2.  The young earth model, with genetic instead of genealogical sole-proprietorship, [needs Adam to arise between 15 kya to 6 kya](https://answersingenesis.org/bible-characters/adam-and-eve/when-was-adam-created/). If TMR4A was at 6 kya, we would expect the mutation rate to be 43e-8 per generation, or 83x more than observed.
@@ -88,13 +86,8 @@ These models of origins, on the other hand, appear to be consistent with the dat
 1.  Common Descent predicts the mutation rate to be 1.65e-8. This is number is computed using the fossil record and the observed differences between humans and the great apes. It is just 1.3x the observed number, the closest of all predictions to the data.
 2.  Ann Gauger's Model which places a sole-genetic progenitor Adam and Eve at 2 mya, with the rise of Homo, appears consistent with the data.
 
-</div>
-
-<div>
 
 So the observed TMR4A result appears to be in conflict with YEC creationism, [*Reasons to Believe*](http://www.reasons.org/) old earth creationism, and also Evolutionary Creationism as put forward by BioLogos. However, it is consistent with both an Ancient Adam and also with Common Descent. Moreover, the data seems to *validate* a prediction of the Common Descent model with surprisingly high accuracy. In the associated forum topic, we will the details of this analysis as questions arise. In particular, astute readers will have several questions about alternative lines of evidence (e.g. PSMC, MSMC, introgression, trans-species variation, etc.).
-
-</div>
 
 ## The Takeaways
 

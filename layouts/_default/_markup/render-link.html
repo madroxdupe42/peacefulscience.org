@@ -24,8 +24,9 @@
     
   {{- else -}}
     {{- if  (findRE "pdf$" $path) -}}
-       {{- $pdf := replaceRE ".*/" "" $path -}}
-       {{- $pdffile := printf "static/pdf/%s" $pdf  -}}
+
+       {{ $pdf := $path }}
+       {{- $pdffile := printf "static%s" $pdf  -}}
        {{- $pdfdest:= printf "/pdf/%s" $pdf | absURL -}}
        {{- if fileExists $pdffile  -}}
           {{- $dest = $pdfdest -}}  
