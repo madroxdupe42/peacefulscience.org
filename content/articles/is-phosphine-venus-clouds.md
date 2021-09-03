@@ -7,7 +7,8 @@ categories:
 - science
 commenturl: http://discourse.peacefulscience.org/t/is-there-really-phosphine-in-the-clouds-of-venus/14107
 date: '2021-08-14T03:08:58'
-description: I am one of the scientists studying phosphine in the clouds of Venus. We are still wondering if this is the first signs of life on another planet.
+description: I am one of the scientists studying phosphine in the clouds of Venus.
+  We are still wondering if this is the first signs of life on another planet.
 headerimage:
   src: /img/2020/09/venus-phosphine.png
 title: Is There Phosphine Above the Clouds of Venus?
@@ -42,7 +43,7 @@ She asked me to join the project, and other experts from MIT.[^2] I was to use a
 We were considering all the other explanations for this dip. Perhaps there was some error in the JCMT which collected the data. Then, more than two years later, the same 1 mm dip was seen with a different telescope, the Atacama Large Millimiter/submillimeter Array (ALMA). The anomaly, whatever it is, was not in our telescope.
 
 
-{{% image `https://upload.wikimedia.org/wikipedia/commons/a/a0/JCMT_on_Mauna_Kea.jpg` %}}
+{{% image `/img/2021/08/JCMT_on_Mauna_Kea.jpg` %}}
 Photograph of the James Clerk Maxwell Telescope on Mauna Kea, Hawaii (centre). To the left is the Caltech Submillimeter Observatory, and to the right is the Smithsonian Submillimeter Array. Credit: [Wikipedia](https://en.wikipedia.org/wiki/James_Clerk_Maxwell_Telescope#/media/File:JCMT_on_Mauna_Kea.jpg).
 {{% /image %}}
 
