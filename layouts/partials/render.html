@@ -28,7 +28,7 @@
 <article class="{{ $layout }} {{ $containerclass }}">
 
   <a href="{{$page.Permalink}}">   
-{{- if  site.IsServer -}}
+{{- if  true -}}
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" src={{ $src }} width="{{ $width }}" height="{{ $height }}"
   {{- if not (in $hide "lazy") -}} loading="lazy" {{- end -}}>
   </img>
