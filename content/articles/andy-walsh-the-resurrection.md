@@ -16,8 +16,10 @@ title: "Andy Walsh: An Imaginative Applied Scientist Considers the Resurrection"
 ---
 
 Andy Walsh is the author of *[Faith Across The Multiverse](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763?tag=swamidass-20)*, a surprising, playful, and deep book about parables in science. We recommend the book, of course, and are pleased to see this confession from an imaginative computational biologist.
+{.editor-note}
 
 I appreciate the nuance of the label ["Confessing Scientist"](https://peacefulscience.org/confessing-scientist/) introduced here at *Peaceful Science*. One can identify simultaneously with a vocation in science and a confession of traditional Christian beliefs without immediately (or ever) committing to a particular model of creation. To my mind, the name also avoids implying that Christians necessarily make different scientific inferences. I only hesitate to apply it to myself because I don't know if I get to call myself a scientist. That might sound self-deprecating, but I hope it will become clear why I think it's worth raising the question.
+{.dropcap}
 
 I have the credentials and training of a scientist: a PhD nominally in Molecular Microbiology and Immunology, although my thesis strayed more towards biostatistics, followed by a postdoctoral fellowship in computational biology. From there, I took a position at a public health software company, where I am currently the Chief Science Officer, a title which deliberately manages to suggest corporate functionary, scientist, and Starfleet academic all at once. What I actually do involves techniques developed via mathematical reasoning and the scientific method. I can talk about my work in scientific terms like machine learning or natural language processing and describe some of it in equations. But mostly I feel more like a technician who applies tools rather than a scientist doing original research.
 
