@@ -53,12 +53,12 @@
 <div class="title-bar">
     
 
-    <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
+    <div class="article-date d-inline d-print-none"> {{ .PublishDate.Format "January 2, 2006" }} </div>
        {{ with .Scratch.Get "Views" }}
     <div class="view-count d-inline float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
     {{ end }}
 
-    <h1 class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
+    <h1 id="title" class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
 
     <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
     
@@ -84,7 +84,7 @@
         
     <div class="mb-5">
     {{- range .Params.categories }}
-      {{- with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+      {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
         <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
       {{- end }}
     {{- end }}
@@ -93,6 +93,20 @@
   
 </div>
 <article class="article-cell pb-5 clearfix" style="z-index:10">
+
+      
+      {{ with  .Params.series }}
+       {{ with site.GetPage "taxonomyTerm" .  }}
+         <div class="series aside-xl-right ">
+         <p> <a class="font-special text-dark" href="{{.Permalink}}">{{ .Title }} </a>
+         <ol class="text-smaller">
+         {{- range  .Data.Pages.ByDate }}
+          <li> {{ if not (eq $ .) }} <a href="{{ .Permalink }}">{{else}} <a href="#title" class="text-dark font-special">{{ end }}{{ .Title }}{{ if not (eq $ .) }} </a> {{else}}</a>{{ end }} </li>
+         {{ end }}
+         </ol></div>
+        {{ end }}
+      {{ end }}
+      
       {{ .Content }}
 </article>
  <!--  
@@ -112,7 +126,7 @@
 {{ else }}
   {{ $commenturl = print `https://discourse.peacefulscience.org/new-topic?` $newcommentquery  }}
 {{ end }}
-<div class="mt-5 py-5 comment-block">
+<div class="mt-5 py-5 comment-block d-print-none">
 <div class="container" >
   <div class="row justify-content-center py-3 my-3 text-larger">
     <div class="col-lg-4 text-center text-lg-right">
@@ -137,7 +151,7 @@
 
 
 {{ $related := .Site.RegularPages.Related . | first 3 }}
-<div style="background-color: white; min-height:1000">
+<div class="d-print-none" style="background-color: white; min-height:1000">
 <div class="container pt-5" >
   <div class="row justify-content-center pb-5 text-larger">
   

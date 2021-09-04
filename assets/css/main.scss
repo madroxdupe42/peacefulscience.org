@@ -456,7 +456,7 @@ figcaption {
 	.aside-#{$breakpoint}-wide {
 	 display: block;
 	 margin: $spacer auto $spacer auto;
-	 float:none;
+	 float: none;
 	 width: 100%;
 	 
 	 @include media-breakpoint-up($breakpoint) {
@@ -469,31 +469,34 @@ figcaption {
 	.aside-#{$breakpoint}-right {
 	 display: block;
 	  z-index: 11;
-	 margin: $spacer auto $spacer auto;
+	 margin: 0% auto $spacer auto;
 	 float:none;
 	 width: 100%;
 	 clear: both;
 	 position: relative;
 	 border-left: 3px solid #dfdfdf;  
+	 @extend .p-2;
+	 	 background: white;
 	 
+	 ol,ul { @extend .pl-4; @extend .pl-2;@extend .m-0 }
 	 img {@extend .pl-2; @extend .pt-2;}
 	 
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
 		width: 75%;
-		margin: $spacer -37% $spacer $spacer * 2;
+		margin: 0% -37% $spacer $spacer * 2;
 	 }
 	 
 	@include media-breakpoint-down(lg) {
 		float: right;
 		width: 50%;
-		margin: $spacer 0% $spacer $spacer;
+		margin: 0% 0% $spacer $spacer;
 	 }
 
 	 @media print {
 	   	float: right;
 	   	width: 50%;
-		margin: $spacer 0% $spacer $spacer;
+		margin:0% 0% $spacer $spacer;
 	 }
 
 	}
@@ -505,7 +508,7 @@ figcaption {
 .amazon-xl-right {
 	 display: block;
 	 border-left: 3px solid #dfdfdf;  
-	 iframe {@extend .pl-2; @extend .pb-2;}
+	 iframe,img {@extend .pl-2; @extend .pb-2;}
 	 
 	 margin: $spacer auto $spacer auto;
 	 float:none;
@@ -513,7 +516,7 @@ figcaption {
 	 width: 336px;
 	 z-index: 11;
 	 clear: both;
-	 
+	 background: white;
 	 @include media-breakpoint-down(lg) {
 		float: right;
 		margin: $spacer auto $spacer $spacer;
@@ -780,7 +783,12 @@ blockquote {
   @extend .ml-4;
   @extend .pl-2;
   font-size: smaller;
-border-left: 3px solid #dfdfdf;  
+border-left: 3px solid #dfdfdf  !important;  
+
+	 @media print {
+border: 0px !important;  
+border-left: 3px solid #dfdfdf  !important;  
+	 }
 }
 
 
