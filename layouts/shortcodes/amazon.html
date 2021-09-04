@@ -4,16 +4,17 @@
 
 
 <aside class="amazon-xl-right">
-
-<iframe type="text/html" width="336" height="550" class="d-block mx-auto"
-frameborder="0" allowfullscreen style="max-width:100%"
-   src="https://read.amazon.com/kp/card?asin={{- .Get 0 -}}&preview=inline&linkCode=kpe&tag=swamidass-20" >
-</iframe>
-
   {{- with .Get 1  -}}
   <figcaption style="width:336px">
      {{- . | $.Page.RenderString (dict "display" "inline")   -}}
   </figcaption>
   {{- end  -}}
+  
+<iframe type="text/html" width="336" height="550" class="d-block mx-auto"
+frameborder="0" allowfullscreen style="max-width:100%"
+   src="https://read.amazon.com/kp/card?asin={{- .Get 0 -}}&preview=inline&linkCode=kpe&tag=swamidass-20" >
+</iframe>
+
+
 
 </aside>

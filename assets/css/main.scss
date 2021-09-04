@@ -436,15 +436,14 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
 
 
 .editor-note {
-  background: #f2f2f2;
   font-size: smaller;
+  background: #f2f2f2;
   @extend .expand-right;
   @extend .p-3;
   @extend .mb-3;
 }
 
 figcaption {
- background: #f6f6f6;
  @extend .p-2;
  @extend .text-muted;
  @extend .text-smaller;
@@ -458,7 +457,6 @@ figcaption {
 	 display: block;
 	 margin: $spacer auto $spacer auto;
 	 float:none;
-	 @extend .shadow;
 	 width: 100%;
 	 
 	 @include media-breakpoint-up($breakpoint) {
@@ -470,12 +468,15 @@ figcaption {
 
 	.aside-#{$breakpoint}-right {
 	 display: block;
-	 @extend .shadow;
 	  z-index: 11;
 	 margin: $spacer auto $spacer auto;
 	 float:none;
 	 width: 100%;
 	 clear: both;
+	 position: relative;
+	 border-left: 3px solid #dfdfdf;  
+	 
+	 img {@extend .pl-2; @extend .pt-2;}
 	 
 	@include media-breakpoint-up($breakpoint) {
 		float: right;
@@ -503,9 +504,12 @@ figcaption {
 
 .amazon-xl-right {
 	 display: block;
-	 @extend .shadow;
+	 border-left: 3px solid #dfdfdf;  
+	 iframe {@extend .pl-2; @extend .pb-2;}
+	 
 	 margin: $spacer auto $spacer auto;
 	 float:none;
+	 position: relative;
 	 width: 336px;
 	 z-index: 11;
 	 clear: both;
@@ -773,8 +777,8 @@ display: none;
 }
 
 blockquote {
-  padding-left: 1rem;
-  margin-left: 1rem;
+  @extend .ml-4;
+  @extend .pl-2;
   font-size: smaller;
 border-left: 3px solid #dfdfdf;  
 }

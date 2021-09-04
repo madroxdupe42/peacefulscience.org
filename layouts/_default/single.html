@@ -118,7 +118,7 @@
     <div class="col-lg-4 text-center text-lg-right">
     
     <a href="{{ $commenturl | safeURL }}" target="_blank">
-          <img src='/img/design/wood-chair-transparent.png?w=240&nf_resize=fit' height="240">
+          <img src='/img/design/wood-chair-transparent.png?w=240&nf_resize=fit' height="240" loading="lazy">
     </a>
 	</div>
     <div class="col-lg-8 py-3 text-center text-lg-left">
@@ -145,7 +145,7 @@
       <h1 class="mb-5"> Related articles...</h1>
       </div >
 	  {{ range $related }}
-	     {{ .Render "mediabox2" }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
 	  {{ end }}
 
   </div>
