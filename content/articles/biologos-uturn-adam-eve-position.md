@@ -89,11 +89,19 @@ On the scientific questions of Adam and Eve, however, BioLogos did not
 accurately represent the genetic evidence. In June 2011, *Christianity Today* 
 published [a cover article on genetics and human origins.](https://www.christianitytoday.com/ct/2011/june/historicaladam.html) [NPR  covered the story too.](https://www.npr.org/2011/08/09/138957812/evangelicals-question-the-existence-of-adam-and-eve)
 
+
+{{% image `/img/2019/08/22832.jpg` %}}
+The June 2011 of *Christianity Today* issue included an [article that quoted several BioLogos scholars](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the CT editors.
+{{% /image %}}
+
+
 BioLogos's position on Adam 
 and Eve was understood to reflect the scientific consensus. But BioLogos' new position 
 shows that many of the claims in their past position were incorrect.
 
 A decade later, this June 2021, [**BioLogos published a new position on what genetics says about Adam and Eve**](https://biologos.org/articles/what-genetics-say-about-adam-and-eve). This new position statement recommends [their theological position on Adam and Eve](https://biologos.org/common-questions/were-adam-and-eve-historical-figures/), which itself underwent [several revisions](https://discourse.peacefulscience.org/t/_/5847) in the last few years. 
+
+
 
 BioLogos also quietly deleted several articles from their website, 
 and these deletions are equally important to understanding
@@ -104,9 +112,7 @@ the organization's past and current position.
 ## Which Articles Were Deleted?
 
 
-{{% image `/img/2019/08/22832.jpg` %}}
-The June 2011 of *Christianity Today* issue included an [article that quoted several BioLogos scholars](https://www.christianitytoday.com/ct/2011/june/historicaladam.html), and an [editorial](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) by the CT editors.
-{{% /image %}}
+
 
 Shortly after  [The Genealogical
 Adam and Eve](/genealogical-adam-eve) was published, in early 2020, BioLogos deleted
