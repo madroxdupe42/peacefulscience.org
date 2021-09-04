@@ -18,8 +18,10 @@ title: Why I Left Young-Earth Creationism
 ---
 
 August 5th, 2020, the geophysicist known for *[Morton's Demon](https://rationalwiki.org/wiki/Morton%27s_demon)*, [Glenn R. Morton, passed away](https://www.legacy.com/obituaries/houstonchronicle/obituary.aspx?n=glenn-morton&pid=196607264). Just a week before he died, Glenn [appeared on the *Peaceful Science* forum](https://discourse.peacefulscience.org/t/glenn-morton-is-the-garden-of-eden-real/10774?u=swamidass), sketching out the ideas behind his posthumously published *[Eden Was Here](https://www.amazon.com/Eden-Was-Here-Evidence-Historicity-ebook/dp/B08F2Z7Z5H?tag=swamidass-20)*. [*Panda's Thumb*](https://pandasthumb.org/archives/2020/08/glenn-morton.html) noted his passing with a biography worth reading. To commemorate his passing at *Peaceful Science*, we are publishing one of his articles. In this article, [one of many](https://www.oldearth.org/bio_glenn_morton.htm), Glenn explains how his experience in petroleum geology caused him to leave young earth creationism to become an old earth creationist.
+{.editor-note}
 
 For years I struggled to understand how the geological data I worked with everyday could fit into a Biblical perspective. Being a physics major in college I had no geology courses. Thus, as a young Christian, when I was presented with the view that Christians must believe in a young-earth and global flood, I went along willingly. I knew there were problems, but thought I would solve them.
+{.dropnote}
 
 When I graduated from college with a physics degree, physicists were unemployable since NASA had just laid a bunch of them off. I did graduate work in philosophy and then decided to leave school to support my growing family. Even after a year, physicists were still unemployable. After six months of looking, I finally found work as a geophysicist working for a seismic company. Within a year, I was processing seismic data for Atlantic Richfield.
 
@@ -57,7 +59,8 @@ That is a very simple question. One man, Steve Robertson, who worked for Shell g
 
 And being through with creationism, I very nearly became through with Christianity. I was on the very verge of becoming an atheist. During that time, I re-read a book I had reviewed prior to its publication. It was Alan Hayward's ["Creation and Evolution."](https://www.amazon.com/Creation-Evolution-Rethinking-Evidence-Science/dp/1597520616/ref=sr_1_1?tag=swamidass-20) Even though I had reviewed it in 1984 prior to its publication in 1985, I hadn't been ready for the views he expressed. He presented a wonderful Days of Proclamation view which pulled me back from the edge of atheism. Although I believe Alan applied it to the earth in an unworkable fashion, his view had the power to unite the data with the Scripture, if it was applied differently. That is what I have done with my views. Without that, I would now be an atheist. There is much in Alan's book I agree with and much I disagree with, but his book was very important to keeping me in the faith. While his book may not have changed the debate totally yet, it did change my life.
 
-*Copyright 2000 by [Glenn R. Morton](https://www.oldearth.org/bio_glenn_morton.htm). This may be freely distributed so long as no changes are made to the text and no charges are made to the reader.*
+Copyright 2000 by [Glenn R. Morton](https://www.oldearth.org/bio_glenn_morton.htm). This may be freely distributed so long as no changes are made to the text and no charges are made to the reader.
+{.editor-note}
 
 [^1]: (See <http://www.seg.org/publications/geoarchive/1996/sep-oct/geo6105r1336.pdf> for an article showing an example of a deeply buried karst. For a better but bigger (3.4 meg) version of that paper see <http://www.netl.doe.gov/publications/proceedings/97/97ng/ng97_pdf/NG4-1.PDF>
 

@@ -2,6 +2,7 @@
 aliases:
 - /tour-pascal/
 authors:
+- jmtour
 - swamidass
 categories:
 - confession

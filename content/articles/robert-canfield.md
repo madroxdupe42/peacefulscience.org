@@ -2,7 +2,7 @@
 aliases:
 - /robert-canfield/
 authors:
-- swamidass
+- rcanfield
 categories:
 - confession
 - resurrection
@@ -11,27 +11,31 @@ date: "2018-07-08T18:45:17"
 description: Read the anthropologist Robert Canfield's confession of the Resurrection here. Canfield affirms evolution, but it is Jesus that reordered his entire world.
 headerimage:
   src: /img/2018/07/afghans.png
-title: Robert Canfield's Confession to Doubters
+title:  Canfield's Confession to Doubters
 ---
 
-*Robert L. Canfield is [one of the wise ones of WUSTL](https://anthropology.artsci.wustl.edu/canfield_robert), a [confessing scientist](https://peacefulscience.org/confessing-scientist/), whose presence is still felt in this place. In 2013, [he retired from a long and successful career](https://anthronews.wustl.edu/articles/fall-2013/robert-canfield-retires) as an anthropologist here. He attends services at [University City Family Church](http://ucityfamilychurch.com/), and his wife Rita and he take a lucky few students out for lunch every week. Dr. Canfield's early field work was in Afghanistan, well before the wars. I recommend reading a brief portrait he wrote of [an Afghan immigrant to the United States](https://web.archive.org/web/20100725144117/http://artsci.wustl.edu/~canfrobt/Mariam.pdf), [two stories from another immigrant](https://web.archive.org/web/20100725144217/http://artsci.wustl.edu/~canfrobt/Farida.pdf), and [family honor in Kabul](https://web.archive.org/web/20100725144023/http://artsci.wustl.edu/~canfrobt/Family%20Honor.pdf). Dr. Canfield is an expert on muslim politics and culture. We do well to remember his stories, even as his career has come to a close.*
+<div class="editor-note">
 
-*I've often talked with Dr. Canfield over the years about human origins. A rested and calm presence, he is full of kindness and knowledge of an area of study with which Christians have had a complicated relationship. He talks about how the mark of "human" is the steady, cross-generational accrual of cultural progress. Of course we see it recently, but he sees it as far back as 2 million years ago, with the rise of the Homo genus. *
+Robert L. Canfield is [one of the wise ones of WUSTL](https://anthropology.artsci.wustl.edu/canfield_robert), a [confessing scientist](https://peacefulscience.org/confessing-scientist/), whose presence is still felt in this place. In 2013, [he retired from a long and successful career](https://anthronews.wustl.edu/articles/fall-2013/robert-canfield-retires) as an anthropologist here. He attends services at [University City Family Church](http://ucityfamilychurch.com/), and his wife Rita and he take a lucky few students out for lunch every week. Dr. Canfield's early field work was in Afghanistan, well before the wars. I recommend reading a brief portrait he wrote of [an Afghan immigrant to the United States](https://web.archive.org/web/20100725144117/http://artsci.wustl.edu/~canfrobt/Mariam.pdf), [two stories from another immigrant](https://web.archive.org/web/20100725144217/http://artsci.wustl.edu/~canfrobt/Farida.pdf), and [family honor in Kabul](https://web.archive.org/web/20100725144023/http://artsci.wustl.edu/~canfrobt/Family%20Honor.pdf). Dr. Canfield is an expert on muslim politics and culture. We do well to remember his stories, even as his career has come to a close.
 
-*In a field often in conflict with Christians, Canfield is a confessing scientist. Canfield affirms evolution, but it is Jesus that reordered his entire world. In 2016, he published a few essays [on his reading of Scripture.](https://www.amazon.com/Walking-Blind-Other-Essays-Biblical/dp/1533390185?tag=swamidass-20) The most important essay is this one, his confession of the Resurrection, written to doubters like himself. With his permission, I've reproduced it here. *
+I've often talked with Dr. Canfield over the years about human origins. A rested and calm presence, he is full of kindness and knowledge of an area of study with which Christians have had a complicated relationship. He talks about how the mark of "human" is the steady, cross-generational accrual of cultural progress. Of course we see it recently, but he sees it as far back as 2 million years ago, with the rise of the Homo genus. 
 
-------------------------------------------------------------------------
+In a field often in conflict with Christians, Canfield is a confessing scientist. Canfield affirms evolution, but it is Jesus that reordered his entire world. In 2016, he published a few essays [on his reading of Scripture.](https://www.amazon.com/Walking-Blind-Other-Essays-Biblical/dp/1533390185?tag=swamidass-20) The most important essay is this one, his confession of the Resurrection, written to doubters like himself. With his permission, I've reproduced it here. 
+
+</div>
 
 ## Why I Believe in the Resurrection
 
-*He appeared to Peter and then to the twelve ... to more than five hundred ... to James, and then to all the apostles ... \[and\] to me.*
-
-I Corinthians 15: 5-8
+> He appeared to Peter and then to the twelve ... to more than five hundred ... to James, and then to all the apostles ... \[and\] to me.
+>
+> I Corinthians 15: 5-8
 
 If you doubt, it is to you I write.[^1] I had serious doubts during part of my college days, but now I am convinced that Jesus of Nazareth rose from the dead. I am convinced that any seeker of truth cannot avoid a strong impression of Christ's resurrection as he ponders the responses of the Pharisees who opposed the resurrection, the disciples who at first disbelieved it, and Saul who persecuted those who believed it.
 
 How did the Pharisees who opposed the resurrection give evidence of it? By what they didn't do.
 
+{{< amazon `1533390185` >}}
+ 
 it is to you I write. I had serious doubts during part of my college days, but now I am convinced that Jesus of Nazareth rose from the dead. I am convinced that any seeker of truth cannot avoid a strong impression of Christ's resurrection as he ponders the responses of the Pharisees who opposed the resurrection, the disciples who at first disbelieved it, and Saul who persecuted those who believed it.
 
 How did the Pharisees who opposed the resurrection give evidence of it? By what they didn't do.

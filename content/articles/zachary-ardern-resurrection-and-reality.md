@@ -2,7 +2,7 @@
 aliases:
 - /zachary-ardern-resurrection-and-reality/
 authors:
-- swamidass
+- zardern
 categories:
 - confession
 - resurrection
@@ -11,12 +11,14 @@ date: "2019-03-07T18:58:43"
 description: An evolutionary biologist confesses that Jesus rose from the dead. The message of the Resurrection was early, persuasive, and transformative.
 headerimage:
   src: /img/2019/02/zach_2018_crop.jpg
-title: "Zachary Ardern: Resurrection and Reality"
+title: "Resurrection and Reality"
 ---
 
-*It is my pleasure to present this confession from Dr.* [*Zachary Ardern*](https://zacharyardern.com/), *a postdoctoral fellow in evolutionary biology. Ardern studies the evolution of bacteria, hoping to understand more about how novel proteins and functions arise. He muses about [evolution and theology](https://capturingchristianity.com/was-the-genesis-of-humanity-through-evolution/) too.*
+It is my pleasure to present this confession from Dr.* [*Zachary Ardern*](https://zacharyardern.com/), *a postdoctoral fellow in evolutionary biology. Ardern studies the evolution of bacteria, hoping to understand more about how novel proteins and functions arise. He muses about [evolution and theology](https://capturingchristianity.com/was-the-genesis-of-humanity-through-evolution/) too.
+{.editor-note}
 
 I am a confessing scientist. I trust in Jesus Christ as Lord and believe in his bodily Resurrection from the dead. I am also a scientist; a postdoc researching evolutionary genomics.
+{.dropcap}
 
 I came to believe because I became personally convinced that the God of the Bible is real and that Jesus is alive. As a teenager, I received a personal call to trust Jesus, combined with testimony to God's reality, and I simply responded to it. Today, more than a decade of study and debate later, I believe primarily because I accept the testimony of the first followers of Jesus. Some background beliefs; however, are important too. I bring to the question of the Resurrection the prior beliefs that it is reasonable to believe that God exists and that Jesus fulfills the Hebrew Scriptures. To complement this overview I link below some of the key sources I've recently found useful.
 
@@ -41,8 +43,6 @@ Firstly, some claim the evidence is weak. For instance, some argue that there ar
 Secondly, many claim an inherent improbability or impossibility for a Resurrection, in principle. I understand this move. But we must consider the claimed evidence for God existing in the first place. If we take the laws of nature to be God's means of providential governance of the universe (for which there is a serious case to be made from the nature of these laws[^10],[^11]), then a theologically significant Resurrection outside the ordinary course of nature is within the realm of possibility. In fact, if Jesus really did uniquely fulfill the Hebrew Scriptures, then his Resurrection makes good sense.
 
 To sum it all up, I find reason to believe that there is an authoritative personal reality undergirding the universe, I believe that Jesus fulfills the Hebrew expectations of this personal reality in surprising and subtle ways, and [I see evidence that he rose from the dead.](http://veritas.org/evidence-easter-scientists-list/) Taking it together with the various strands of my life and experience of the world, I find the Resurrection compelling as a historical event and a foundation for hope. I am also a scientist and find my scientific worldview and practice to cohere well with my faith in the God revealed in Jesus, and so I am a confessing scientist.
-
-------------------------------------------------------------------------
 
 [^1]:  Luke Barnes and Geraint Lewis (2016) ['A Fortunate Universe'](https://www.amazon.com/Fortunate-Universe-Finely-Tuned-Cosmos/dp/1107156610/ref=sr_1_fkmrnull_1?keywords=barnes+and+lewis+a+fortunate+universe&qid=1550512657&s=gateway&sr=8-1-fkmrnull?tag=Swamidass-20). Cambridge University Press.
 

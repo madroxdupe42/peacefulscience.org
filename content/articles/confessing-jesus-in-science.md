@@ -2,20 +2,20 @@
 aliases:
 - /confessing-jesus-in-science/
 authors:
-- swamidass
+- jokamoto
 categories:
 - confession
 - science
 date: "2017-04-30T17:13:31"
-description: "This is an excerpt from an important article by the Lutheran theologian at Concordia seminary. Okamoto, Joel (2015) Making Sense of Confessionalism Today, Concordia Journal: Vol. 41 : No. 1 , Article 5. The article is focused on Lutherans, but his take on the importance of confessing Jesus is Lord is particularly relevant in the \\[...\\]"
+description: When one confesses, one declares a commitment. Confessing is like "stepping forward" or "standing up and being counted."
+
 headerimage:
   src: /img/2017/04/okamoto-945x531-1.jpg
 title: Confessing Jesus in Science
 ---
 
-*This is an excerpt from an important article by the Lutheran theologian at Concordia seminary. Okamoto, Joel (2015) "[Making Sense of Confessionalism Today](http://scholar.csl.edu/cj/vol41/iss1/5)," Concordia Journal: Vol. 41 : No. 1 , Article 5. The article is focused on Lutherans, but his take on the importance of confessing "Jesus is Lord" is particularly relevant in the dialogue between science and theology. Our current debates would change dramatically if this confession became commonplace. [See my own confession here. ](https://peacefulscience.org/category/projects/a-confident-faith-in-science/)*
-
-------------------------------------------------------------------------
+This is an excerpt from an important article by the Lutheran theologian at Concordia seminary. Okamoto, Joel (2015) "[Making Sense of Confessionalism Today](http://scholar.csl.edu/cj/vol41/iss1/5)," Concordia Journal: Vol. 41 : No. 1 , Article 5. The article is focused on Lutherans, but his take on the importance of confessing "Jesus is Lord" is particularly relevant in the dialogue between science and theology. Our current debates would change dramatically if this confession became commonplace. [See my own confession here. ](https://peacefulscience.org/category/projects/a-confident-faith-in-science/)
+{.editor-note}
 
 When one confesses, one declares a commitment. The act of confession is like "stepping forward" or "standing up and being counted." You step forward for a person, and by that act you commit yourself to the person. If he goes down, you go down. You stand up for a person, and by that act you commit yourself to that person. If she goes on, you go on. Similarly, you confess your faith in someone, and by that act you commit yourself to believing in him. If he comes through, you come through.
 

@@ -2,13 +2,13 @@
 aliases:
 - /todd-cade/
 authors:
-- swamidass
+- tcade
 categories:
 - confession
 - resurrection
 commenturl: "http://discourse.peacefulscience.org/t/todd-cade-s-confession-of-hope/68"
 date: "2018-01-04T08:14:21"
-description: "I, William Todd Cade, make a confession. I am a confessing scientist: a scientist in the Church and a Christian in science, serving the common good with a truthful account of what I have seen."
+description: "I am a confessing scientist: a scientist in the Church and a Christian in science, serving the common good with a truthful account of what I have seen."
 headerimage:
   src: /img/2018/01/cade_todd.png
 title: Todd Cade's Confession of Hope
