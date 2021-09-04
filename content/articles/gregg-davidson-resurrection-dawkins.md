@@ -14,11 +14,19 @@ headerimage:
 title: The Resurrection, With a Little Help from Richard Dawkins
 ---
 
+
+
 Gregg Davidson has been a professor of Geology & Geological Engineering since 1996, serving as department chair since 2013. His scientific pursuits generally have something to do with water and chemistry, with frequent excursions into the ecosystems of cypress swamps. Gregg is an active writer and speaker on the subject of science and the Bible, with seminars and workshops completed in more than twenty states, six countries, and four continents. We recommend his two books: *[Friend of Science, Friend of Faith: Listening to God in His Works and Word](https://amzn.to/2yQiOwT)*, and the co-authored *[Grand Canyon, Monument to an Ancient Earth](https://amzn.to/2VgrFzx)*. In his spare time, Gregg loves the art of storytelling, producing faith-friendly novels such as *[The Mulapin Trilogy](https://amzn.to/2Vgj9Au)* science fiction series. These and other works can be found at his author website [here](http://greggdavidson.net).
+{.editor-note}
 
 My arrival into the world was at the tip of a culturally odd lineage. My two grandfathers were preachers who valued science. My father was a biology professor who embraced his Christian faith. I was taught to question everything while also being told that the basic tenets of Christianity were true.
+{.dropcap}
+
+
+{{< amazon `B081764R2V` >}}
 
 Following an educational path similar to my father's, I pursued advanced degrees in geology and hydrology, culminating in a PhD where part of my time was spent in the University of Arizona radiocarbon lab that dated the [Dead Sea Scrolls](https://en.wikipedia.org/wiki/Dead_Sea_Scrolls) and the [Shroud of Turin](https://en.wikipedia.org/wiki/Shroud_of_Turin). I was immersed in the scientific enterprise, conducting research that relied heavily on carbon-14 measurements, *and* plugged into my local church, even filling the pulpit on a few Sundays. Where others saw conflict between these two parts of my life, I saw only coherence. The study of the natural realm gave me a greater appreciation for the artistry of the Creator, and the study of the Bible gave me a richer sense of purpose in my scientific pursuits. I was content with the harmony I had found between the two.
+
 
 Well -- *mostly* content. There was one part of my experience that bothered me. I was raised in a Christian home, and believed the Christian faith to be true. But I knew that if I had grown up in the Middle East, chances are I would have been raised a Muslim, and believed that Islam was true. Or if raised in post-Christian Europe, I might now be convinced that there is no God at all. How could I be sure that my beliefs were not just artifacts of my upbringing? Flukes of geography? 
 
@@ -71,6 +79,6 @@ For those who declare the conditions for belief, who draw the boundaries around 
 
 To those who invite the relational presence of God into their lives, eyes are opened to see. In *this* light, more resplendent than the sun, the truth of the resurrection does not just appear possible to me, but an evidential certainty.
 
-{{< amazon `B081764R2V` >}}
 
-*Note: This article was updated on April 10, 2020 at the author's request to more accurately describe the contents of [The Blind Watchmaker](https://www.amazon.com/Blind-Watchmaker-Evidence-Evolution-Universe-ebook/dp/B014LJE1HI), which is not best described as "a tome dedicated to replacing antiquated religious belief with faith in science." We are [grateful to readers on the forum](https://discourse.peacefulscience.org/t/how-to-read-the-blind-watchmaker/10130) for pointing this oversight out to us.*
+Note: This article was updated on April 10, 2020 at the author's request to more accurately describe the contents of [The Blind Watchmaker](https://www.amazon.com/Blind-Watchmaker-Evidence-Evolution-Universe-ebook/dp/B014LJE1HI), which is not best described as "a tome dedicated to replacing antiquated religious belief with faith in science." We are [grateful to readers on the forum](https://discourse.peacefulscience.org/t/how-to-read-the-blind-watchmaker/10130) for pointing this oversight out to us.
+{.editor-note}
