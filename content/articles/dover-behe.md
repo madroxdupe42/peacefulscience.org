@@ -12,6 +12,7 @@ description: 15 years ago, the biochemist Micheal Behe was a star witness at the
 headerimage:
   src: /img/2020/10/maxresdefault.jpg
 title: "Michael Behe: Kafka at the Dover Trial"
+series: dover-15
 ---
 
 [Pat Flynn](http://chroniclesofstrength.com/) moderated the exchange on the Dover Trial on his podcast. He generously released the video to Peaceful Science, and released [the audio in his podcast](https://podcasts.apple.com/us/podcast/the-pat-flynn-show/id1253261458).

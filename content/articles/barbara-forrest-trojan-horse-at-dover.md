@@ -14,6 +14,7 @@ description: Barbara Forrest argues that Intelligent Design is a Trojan Horse, j
 headerimage:
   src: /img/2021/01/maxresdefault.jpg
 title: "Barbara Forrest: The Trojan Horse at Dover"
+series: dover-15
 ---
 
 Barbara Forest is a philosopher. She was one of the witnesses in the Dover Trial. In the lead up to the trial, she co-authored *Creationism's Trojan Horse: The Wedge of Intelligent Design*. Their thesis was that Intelligent Design (ID) was a trojan horse for injecting creationism back into high school textbooks.

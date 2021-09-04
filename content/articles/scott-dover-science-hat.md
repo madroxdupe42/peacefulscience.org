@@ -12,6 +12,7 @@ description: It is the fifteenth anniversary of the Dover Trial, so let's revisi
 headerimage:
   src: /img/2020/10/sddefault.jpg
 title: "Eugenie Scott: The Dover Trial and the Scientist Hat"
+series: dover-15
 ---
 
 It is the fifteenth anniversary of the Dover Trial, so let's revisit Eugenie Scott's "scientist hat." Fifteen years ago, a public drama unfolded in Dover, Pennsylvania. In 2005, a school board tried to mandate teaching Intelligent Design (ID) in high school science class. This moved provoked a lawsuit. The [Dover Trial](https://en.wikipedia.org/wiki/Kitzmiller_v._Dover_Area_School_District) was billed as the [Scopes Trial](https://en.wikipedia.org/wiki/Scopes_Trial) of this century, taking place 80 years later.

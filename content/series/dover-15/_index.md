@@ -1,3 +1,3 @@
 ---
-title: Fifteenth Anniversary of the Kitzmiller-Dover Trial
+title: 15th Anniversary of the Dover Trial
 ---

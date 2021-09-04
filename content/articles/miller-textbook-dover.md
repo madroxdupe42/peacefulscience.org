@@ -14,6 +14,7 @@ description: Fifteen years ago in the Dover Trial, one of the star witnesses was
 headerimage:
   src: /img/2020/11/maxresdefault.jpg
 title: "Kenneth Miller: A Textbook Biologist at the Dover Trial"
+series: dover-15
 ---
 
 Fifteen years ago in the Dover Trial, one of the star witnesses was Kenneth Miller, a textbook biologist. Turns out that Miller does not like that title at all. He is a research scientist at Brown University in Rhode Island. One of his students graduated and became a scientist too, but then pressured and cajoled Miller into writing a textbook in biology. He never expected to be writing a textbook.

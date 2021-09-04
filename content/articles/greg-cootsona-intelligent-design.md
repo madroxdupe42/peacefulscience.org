@@ -14,21 +14,30 @@ description: Mere Science and the Christian Faith by Greg Cootsona sparked a con
 headerimage:
   src: /img/2020/09/Flagellum_PSF.png
 title: What About Intelligent Design?
+series: dover-15
 ---
+
+<div class="editor-note" >
 
 [Greg Cootsona](https://www.csuchico.edu/corh/people/faculty/gregory-cootsona.shtml) (PhD, Graduate Theological Union) is the author of *[Mere Science and Christian Faith, Bridging the Divide with Emerging Adults](https://www.amazon.com/Mere-Science-Christian-Faith-Bridging/dp/0830838147/ref=sr_1_1?tag=swamidass-20)*, a book that unintentionally sparked a conversation about the place of [Intelligent Design](https://peacefulscience.org/garden-path/) (ID) in the Church and in science. Looking beyond this controversy, I highly recommend this book for its accessible review of a wide range of key topics, along with practical wisdom for pastors, parents and students alike. Director of [Science for the Church](https://scienceforthechurch.org/), Cootsona is both professor and a pastor, informed and deeply invested in the Church.
 
-{{< amazon `0830838147` >}}
 
 This book only addresses ID in one brief chapter, reproduced below, but it stimulated vigorous response [from the Discovery Institute](https://evolutionnews.org/2018/04/intervarsity-press-stumbles-with-sloppy-anti-id-book-by-biologos-advisor-greg-cootsona/) and [World](https://world.wng.org/2018/05/mere_distortion) [Magazine](https://evolutionnews.org/2018/06/mere-manipulation-using-c-s-lewis-to-pitch-evolution-to-christians/), to which [Cootsona replied](http://cootsona.blogspot.com/2018/04/the-state-of-conversation.html) on his blog. The chapter on ID, though short and not the focus of the book, is worth looking at more closely. Some of our readers may disagree with Cootsona on some of his focused points, but he is an informed scholar who cares deeply about the Church. His analysis of Intelligent Design deserves a careful consideration by everyone.
 
-> *I wonder at the hardihood with which such persons undertake to talk about God. In a treatise addressed to infidels they begin with a chapter proving the existence of God from the works of Nature. . . . This only gives their readers grounds for thinking that the proofs of religion are very weak. . . . [It is a remarkable fact that no canonical writer has ever used Nature to prove God.](https://peacefulscience.org/tour-pascal/)*
+</div>
+
+
+
+> I wonder at the hardihood with which such persons undertake to talk about God. In a treatise addressed to infidels they begin with a chapter proving the existence of God from the works of Nature....This only gives their readers grounds for thinking that the proofs of religion are very weak....[It is a remarkable fact that no canonical writer has ever used Nature to prove God.](https://peacefulscience.org/tour-pascal/)
 >
 > -- [Pascal](https://peacefulscience.org/tour-pascal/)
+
 
 At this point, I need to address those in the church who are convinced that mainstream science has gone in the wrong direction. If so, as the argument goes, there's no theological conflict with "real science." It's just that science is based on its own faith, namely materialism or naturalism. For those who have questions about evolution, are there viable competitors? 
 
 Intelligent Design, or ID, presents an alternative to young-earth creationism for those who resist the idea of evolution through natural selection. This movement has some heavy hitters in its ranks, among them Cambridge-trained philosopher of science Stephen Meyer, university biologist [Michael Behe](https://peacefulscience.org/agree-behe/), and, perhaps most surprising, prominent UC Berkeley constitutional law professor [Phillip Johnson](https://discourse.peacefulscience.org/t/philip-johnson-rip-nov-2-2019/8409). So it cannot be immediately written off as a farce proffered by thoughtless creationists. Allow me then to offer an overview of its principal assertions and its history, as well as an evaluation by other scientists. 
+
+{{< amazon `0830838147` ` This excerpt from Greg Cootsona's book "[Mere Science and Christian Faith, Bridging the Divide with Emerging Adults](https://www.amazon.com/Mere-Science-Christian-Faith-Bridging/dp/0830838147/)" is reproduced  with permission from the publisher.` >}}
 
 Three interlocking core convictions summarize ID, but certainly do not exhaust it as an intellectual project: 
 
@@ -58,4 +67,5 @@ All in all, if I had written this book a decade ago, I would have had to spend m
 
 I have worked with questions that are properly in the realm of science. Now it's time to turn to technology and to call out all the good there we can find. (And there's quite a bit.)
 
-*Note: This excerpt from Greg Cootsona's book "[Mere Science and Christian Faith, Bridging the Divide with Emerging Adults](https://www.amazon.com/Mere-Science-Christian-Faith-Bridging/dp/0830838147/ref=sr_1_1?tag=swamidass-20)" is reproduced here with permission from the publisher. Hyperlinks are not in the original version. As is reflected in the most recent printings of the book, the spelling of Meyer's name was corrected, as was the incorrect reference to his "Oxford," rather than "Cambridge," training. A typo was corrected too, replacing "principal" with "principle." We thank Stephen Matheson for identifying these errors.*
+Note: Hyperlinks are not in the original version. As is reflected in the most recent printings of the book, the spelling of Meyer's name was corrected, as was the incorrect reference to his "Oxford," rather than "Cambridge," training. A typo was corrected too, replacing "principal" with "principle." We thank Stephen Matheson for identifying these errors.
+{.editor-note}

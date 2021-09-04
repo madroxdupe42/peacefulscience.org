@@ -12,6 +12,7 @@ description: Fifteen years years after Kitzmiller v. Dover Area School District 
 headerimage:
   src: /img/2021/01/Not_Science_857x757.jpg
 title: More Musings on The Killmitzer-Dover Trial
+series: dover-15
 ---
 
 Fifteen years years after *Kitzmiller v. Dover Area School District* was decided, the case continues to draw interesting comments.
