@@ -25,6 +25,10 @@
 <meta name="og:url" content="{{ .Permalink | absURL }}"/>
 <meta name="og:site_name" content="{{ .Site.Title }}"/>
 
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
 {{ with .Params.headerimage.src }}
 <meta name="og:image" content="{{- . | absURL -}}"/>
 {{ end }}
