@@ -43,7 +43,16 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
+      <description>
+       {{ `<![CDATA[ ` | safeHTML }}
+  {{ with   .Params.headerImage.Src  }}
+    <p>
+      <img class="webfeedsFeaturedVisual" src="{{ . }}"/>
+    </p>
+  {{ end }}
+  {{ .Summary | html  }}
+  ]]> 
+</description>
       
     </item>
     {{ end }}
