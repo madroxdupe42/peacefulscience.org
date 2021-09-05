@@ -65,7 +65,7 @@ All these features together lead us to misread the problem, taking us down the g
 
 
 {{< image "/img/2020/03/garden-path-red-plus.png" "aside-xl-wide"  >}}
-his is how we interpret the math problem when we computed the answer 12, by adding the two plus signs at the end of lines 1 and 2. This is the garden path.
+This is how we interpret the math problem when we computed the answer 12, by adding the two plus signs at the end of lines 1 and 2. This is the garden path.
 {{< /image >}}
 
 
