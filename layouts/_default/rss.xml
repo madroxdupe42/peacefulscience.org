@@ -46,11 +46,11 @@
       <description>
        {{ `<![CDATA[ ` | safeHTML }}
   {{ with   .Params.headerImage.Src  }}
-    <p>
-      <img class="webfeedsFeaturedVisual" src="{{ . }}"/>
-    </p>
+    
+      <img class="webfeedsFeaturedVisual" src="{{ . | absURL }}"/>
+    
   {{ end }}
-  {{ .Summary | html  }}
+  {{ .Description | html  }}
   ]]> 
 </description>
       
