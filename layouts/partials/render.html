@@ -31,8 +31,8 @@
 
   <a href="{{$page.Permalink}}">   
 
-  <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" src='{{ printf "%s?w=%s" ($src | absURL) $width }}' 
-  srcset="{{ partial `srcset` (dict `Url` $src `Width` $width `Height` $height ) | safeHTML }}"
+  <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" src='{{ printf "%s?w=%d" ($src | absURL) $width }}' 
+  srcset="{{ partial `srcset` (dict `Url` $src `Width` $width `Height` $height ) }}"
   {{- if not (in $hide "lazy") -}} loading="lazy" {{- end -}}>
   </img>
 
