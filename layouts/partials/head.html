@@ -8,40 +8,40 @@
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta property="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 <!-- Site Title, Description, Author, and Favicon -->
 {{- with ($.Scratch.Get "Title") }}
 <title>{{ print . }}</title>
-<meta name="og:title" content="{{ . }}"/>
-<meta name="title" content="{{ .   }}"/>
+<meta property="og:title" content="{{ . }}"/>
+<meta property="title" content="{{ .   }}"/>
 {{- end -}}
 {{- with ($.Scratch.Get "Description") }}
-<meta name="description" content="{{ . }}"/>
-<meta name="og:description" content="{{ . }}"/>
+<meta property="description" content="{{ . }}"/>
+<meta property="og:description" content="{{ . }}"/>
 {{- end }}
-<meta name="og:type" content="article"/>
-<meta name="og:url" content="{{ .Permalink | absURL }}"/>
-<meta name="og:site_name" content="{{ .Site.Title }}"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="{{ .Permalink | absURL }}"/>
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 
 {{ with .Params.headerimage.src }}
-<meta name="og:image" content="{{- . | absURL -}}"/>
+<meta property="og:image" content="{{- . | absURL -}}"/>
 {{ end }}
 
 {{ with .Params.DOI }}
-<meta name="doi" content="{{- . -}}"/>
+<meta property="doi" content="{{- . -}}"/>
 {{ end }}
 
 
 {{ with .Params.authors }}
     {{- range . }}
       {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-<meta name="author" content="{{ .Title | markdownify |  plainify }}"/>
+<meta property="author" content="{{ .Title | markdownify |  plainify }}"/>
       {{- end }}
     {{- end }}
 {{ end }}
