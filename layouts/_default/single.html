@@ -97,7 +97,7 @@
       
       {{ with  .Params.series }}
        {{ with site.GetPage "taxonomyTerm" .  }}
-         <div class="series aside-xl-right ">
+         <div class="series aside-xl-right bg-white">
          <p> <a class="font-special text-dark" href="{{.Permalink}}">{{ .Title }} </a>
          <ol class="text-smaller">
          {{- range  .Data.Pages.ByDate }}

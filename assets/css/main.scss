@@ -437,7 +437,7 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
 
 .editor-note {
   font-size: smaller;
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
   @extend .expand-right;
   @extend .p-3;
   @extend .mb-3;
@@ -476,7 +476,6 @@ figcaption {
 	 position: relative;
 	 border-left: 3px solid #dfdfdf;  
 	 @extend .p-2;
-	 	 background: white;
 	 
 	 ol,ul { @extend .pl-4; @extend .pl-2;@extend .m-0 }
 	 img {@extend .pl-2; @extend .pt-2;}
@@ -516,7 +515,7 @@ figcaption {
 	 width: 336px;
 	 z-index: 11;
 	 clear: both;
-	 background: white;
+
 	 @include media-breakpoint-down(lg) {
 		float: right;
 		margin: $spacer auto $spacer $spacer;
