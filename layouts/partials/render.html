@@ -1,12 +1,13 @@
 
 {{- $page := .Page -}}
-{{ $height := 392 }}
-{{ $width := 696 }}
+{{ $height := 90 }}
+{{ $width := 160 }}
 {{- $src := true -}}
 
 {{- with $page.Params.headerImage.Src -}}
   {{- $args := querify  "nf_resize" "smartcrop" "w" $width "h" $height -}}
   {{- $src = printf "%s?%s" (. | absURL) $args  -}}
+  {{- $src = . -}}
 {{- end -}}  
  
 {{- $hide := split (index . "Hide" | default "") " "  -}}
@@ -17,7 +18,8 @@
 
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none" -}}
-{{- $imagestyle := "width: 100%; height: 56.25%; object-fit: cover;" }}
+{{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
+
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none" -}}
@@ -28,13 +30,12 @@
 <article class="{{ $layout }} {{ $containerclass }}">
 
   <a href="{{$page.Permalink}}">   
-{{- if  true -}}
-  <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" src={{ $src }} width="{{ $width }}" height="{{ $height }}"
+
+  <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" src='{{ printf "%s?w=%s" ($src | absURL) $width }}' 
+  srcset="{{ partial `srcset` (dict `Url` $src `Width` $width `Height` $height ) | safeHTML }}"
   {{- if not (in $hide "lazy") -}} loading="lazy" {{- end -}}>
   </img>
-{{- else -}}
-  <div class="aspect-wide-screen {{ $imageclass -}}" style="{{ $imagestyle |safeCSS }} background-position: center; background-image: url('{{$src}}')"> </div>
-{{- end -}}
+
   </a>
 
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  

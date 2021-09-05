@@ -1,0 +1,14 @@
+{{ $url := .Url | absURL }}
+{{ $width := .Width }}
+{{ $height := .Height }}
+{{ $mode := .Mode | default "smartcrop" }}
+{{ $out := slice }}
+
+
+{{ range (slice 1 2 4 8 12) }}
+  {{ $w := mul $width . }}
+  {{ $h := mul $height . }}
+  {{ $out = $out | append ( printf "%s?h=%d&w=%d&nf_resize=%s %dw" $url $h $w $mode $w ) }}
+{{ end }}
+
+{{ return (delimit $out ", " | safeURL )  }}
