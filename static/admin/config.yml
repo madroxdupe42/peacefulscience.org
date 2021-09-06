@@ -1,18 +1,24 @@
 backend:
   name: git-gateway
-  branch: "cms-init"
+  branch: master
 media_folder: static/img
 public_folder: /img
 collections:
+  - name: authors
+    label: "Authors"
+    folder: content/authors/
+    path: 'path: '{{slug}}/_index.md'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Bio', name: 'body', widget: 'markdown' }
+      - { label: "Slug", name: 'slug', widget: 'string' }
+    
   - name: 'article'
     label: 'Article'
     folder: 'content/articles'
-    create: true
-    slug: '{{fields.slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
