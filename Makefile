@@ -1,4 +1,7 @@
+all: imginfo pdfinfo
 
-imgsize:
+imginfo:
 	python code/imgsize.py > data/imgsize.json
 
+pdfinfo:
+	python code/pdfinfo.py > data/pdfinfo.json

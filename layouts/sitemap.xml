@@ -1,5 +1,14 @@
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{{- range .Data.Pages -}}
+{{ range site.Data.pdfinfo  -}}
+	  <url>
+	    <loc>{{ .File | absURL }}</loc> {{ with .Lastmod }} 
+	    <lastmod>{{ safeHTML . }}</lastmod> {{ end }}
+	    <changefreq>monthly</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+{{- end }}
+{{- range  .Data.Pages  -}}
   {{- if not .Params.private -}}
     {{- $priority := cond (eq true .Params.feature) "1.0" .Sitemap.Priority -}}
     {{- $priority = cond (eq true .IsPage) "0.8" $priority -}}
