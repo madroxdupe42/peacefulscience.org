@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: cms-init
+  branch: "cms-init"
 media_folder: static/img
 public_folder: /img
 collections:
