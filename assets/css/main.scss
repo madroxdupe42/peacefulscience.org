@@ -587,31 +587,33 @@ scroll-margin-top: 100px;
 }
 
 .footnote-ref, .footnote-backref  {
-  background: #080;
-  border-radius: 50%;
+
   color: white;
 
-  height: 100%;
-  padding: calc( 1rem / 2) calc( 1rem / 3) calc( 1rem / 2) calc( 1rem / 3);
-  display: inline-block;
+  padding: 2px;
+
   &:hover {
     color: white;
     text-decoration: none;
   }
 }
 
-.footenote-ref {
-  padding: calc( 1rem / 2) calc( 1rem / 3) calc( 1rem / 2) calc( 1rem / 3);
+ .article-cell  sup {
+   background: #080;
+  border-radius: 2px;
+   vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
 }
 
 .footnote-backref {
+  background: #080;
+  border-radius: 3px;
   font-family: "Font Awesome 5 Free";
   font-style: normal;  
   font-weight:800;
   font-size: smaller;
-  line-height: 1.1;
   white-space: nowrap;
-  padding: calc( 1.2rem / 3) calc( 1rem / 3) calc( .5rem / 3) calc( 1rem / 3);
 }
 
 
@@ -711,6 +713,7 @@ scroll-margin-top: 100px;
 .article-cell {
     @include media-breakpoint-up(md) {
          grid-column: 2;
+         hyphens: auto;
     }   
    
   
