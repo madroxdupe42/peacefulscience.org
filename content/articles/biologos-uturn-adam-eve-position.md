@@ -142,6 +142,42 @@ revision history of [their theological position](https://discourse.peacefulscien
 [BioLogos president's 2017 response to Tim Keller](https://discourse.peacefulscience.org/t/_/4798) about the special creation of Adam and Eve.
 
 
+{{< amazon `B08ZSN6BY4` `This book by William Lane Craig, also, caused the change.` >}}
+
+## What Caused the Changed?
+
+Two recent books explain the science underlying these changes 
+in an accessible way.
+
+1. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](https://www.amazon.com/Genealogical-Adam-Eve-Surprising-Universal/dp/0830852638), S. Joshua Swamidass (IVP, 2019).
+
+2. [In Quest of the Historical Adam: A Biblical and Scientific Exploration](https://www.amazon.com/dp/B08ZSN6BY4), William Lane Craig (Eerdmans, 2021)
+
+Both these books are the culmination of several years of work,
+
+3. William Lane Craig. [What Became of the Genetic Challenge to Adam and Eve?](https://peacefulscience.org/articles/wlc-genetic-challenge/). Peaceful Science, 2020.
+
+4. S. Joshua Swamidass. [BioLogos Edits Their Response to Keller](https://discourse.peacefulscience.org/t/_/4798). Peaceful Science Forum, 2019.
+
+5. S. Joshua Swamidass. [Three Stories on Adam and Eve](/three-stories-on-adam/). Peaceful Science, 2018.
+
+6. Richard Buggs. [Adam and Eve: lessons learned](http://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/), 2018.
+
+7. S. Joshua Swamidass. [The Overlooked Science of
+Genealogical Ancestry](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf). 
+Perspectives on Science and the Christian Faith, 2018. 
+
+8. S. Joshua Swamidass. [Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/_/61). Peaceful Science Forum, 2017. 
+
+9. S. Joshua Swamidass. [A Genealogical Rapprochement on Adam and Eve](/genealogical-rapprochement/). Peaceful Science, 2017. 
+
+9. Richard Buggs. [Adam and Eve: a tested hypothesis?](https://natureecoevocommunity.nature.com/posts/22075-adam-and-eve-a-tested-hypothesis), 2017.
+
+10. S. Joshua Swamidass. [In Defense of Tim Keller](/articles/defense-tim-keller/). Peaceful Science, 2017. 
+
+11. S. Joshua Swamidass. [A Genealogical Adam and Eve in Evolution](https://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/). Sapientia, 2017. 
+
+
 ## What Was BioLogos's Position?
 
 BioLogos' position, defended primarily by scientist Dennis Venema,
@@ -287,40 +323,6 @@ Still, these changes are an important step in the right direction.
 
 
 
-{{< amazon `B08ZSN6BY4` `This book by William Lane Craig, also, caused the change.` >}}
-
-## What Caused the Changed?
-
-Two recent books explain the science underlying these changes 
-in an accessible way.
-
-1. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](https://www.amazon.com/Genealogical-Adam-Eve-Surprising-Universal/dp/0830852638), S. Joshua Swamidass (IVP, 2019).
-
-2. [In Quest of the Historical Adam: A Biblical and Scientific Exploration](https://www.amazon.com/dp/B08ZSN6BY4), William Lane Craig (Eerdmans, 2021)
-
-Both these books are the culmination of several years of work,
-
-3. William Lane Craig. [What Became of the Genetic Challenge to Adam and Eve?](https://peacefulscience.org/articles/wlc-genetic-challenge/). Peaceful Science, 2020.
-
-4. S. Joshua Swamidass. [BioLogos Edits Their Response to Keller](https://discourse.peacefulscience.org/t/_/4798). Peaceful Science Forum, 2019.
-
-5. S. Joshua Swamidass. [Three Stories on Adam and Eve](/three-stories-on-adam/). Peaceful Science, 2018.
-
-6. Richard Buggs. [Adam and Eve: lessons learned](http://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/), 2018.
-
-7. S. Joshua Swamidass. [The Overlooked Science of
-Genealogical Ancestry](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf). 
-Perspectives on Science and the Christian Faith, 2018. 
-
-8. S. Joshua Swamidass. [Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/_/61). Peaceful Science Forum, 2017. 
-
-9. S. Joshua Swamidass. [A Genealogical Rapprochement on Adam and Eve](/genealogical-rapprochement/). Peaceful Science, 2017. 
-
-9. Richard Buggs. [Adam and Eve: a tested hypothesis?](https://natureecoevocommunity.nature.com/posts/22075-adam-and-eve-a-tested-hypothesis), 2017.
-
-10. S. Joshua Swamidass. [In Defense of Tim Keller](/articles/defense-tim-keller/). Peaceful Science, 2017. 
-
-11. S. Joshua Swamidass. [A Genealogical Adam and Eve in Evolution](https://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/). Sapientia, 2017. 
 
 ## What is BioLogos's Theological Position?
 
@@ -362,6 +364,9 @@ Nonetheless,  BioLogos's new scientific position is a step in the right directio
 August 31, 2021, the title of this article was changed, captions to the books were added,
 and an second article by 
 Richard Buggs was added to the list of articles that caused the change.
+{.editor-note .aside-xl-wide}
+
+September 5, 2021, the section "what caused the changes" was moved earlier in the document.
 {.editor-note .aside-xl-wide}
 
 
