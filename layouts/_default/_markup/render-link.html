@@ -27,7 +27,7 @@
 
        {{ $pdf := $path }}
        {{- $pdffile := printf "static%s" $pdf  -}}
-       {{- $pdfdest:= printf "/pdf/%s" $pdf | absURL -}}
+       {{- $pdfdest:= printf "%s" $pdf | absURL -}}
        {{- if fileExists $pdffile  -}}
           {{- $dest = $pdfdest -}}  
           {{- $class = "external-link" -}}
@@ -51,7 +51,7 @@
 {{- end -}}
 
 {{- if eq $url.Host "www.amazon.com" -}}
-  {{- $dest = printf "https://www.amazon.com/%s?%s" $url.Path "tag=swamidass-20" -}}
+  {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
 {{- end -}}
 
 <a href="{{ $dest }}"
