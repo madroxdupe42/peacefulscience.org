@@ -1,14 +1,43 @@
+
+/* @import 'https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css'; */
+
 @font-face {
    font-family: "AlverataSb";
    src: local("AlverataSb"), url("/font/alveratasb-webfont.woff2") format("woff2");
    font-display: swap;
 }
 
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.eot");
+  src: url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+       url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.woff2") format("woff2"), 
+       url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.woff") format("woff"), 
+       url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.ttf") format("truetype"), 
+       url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-solid-900.svg#fontawesome") format("svg"); 
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.eot");
+  src: url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), 
+  url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.woff2") format("woff2"), 
+  url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.woff") format("woff"), 
+  url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.ttf") format("truetype"), 
+  url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.svg#fontawesome") format("svg"); 
+}
+
+
 $enable-negative-margins: true;
 $primary: #008800;
 $dark: #000000;
 $enable-rounded: false; 
-
 
 a.doi-badge {
  text-decoration: none;
@@ -807,3 +836,7 @@ p {
 }
 
 }
+
+
+
+
