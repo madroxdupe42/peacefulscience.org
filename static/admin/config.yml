@@ -7,7 +7,7 @@ collections:
   - name: authors
     label: "Authors"
     folder: content/authors/
-    path: 'path: '{{slug}}/_index.md'
+    path: '{{slug}}/_index.md'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Bio', name: 'body', widget: 'markdown' }
