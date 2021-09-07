@@ -92,6 +92,9 @@ This is an area I am continuing to work in. I wonder also how the ideas here cou
 
 Evolution has been a place of conflict for a long time. Together, I think we have an opportunity to find a better way forward.
 
+On September 7, 2021, the header image was changed to a photo of the Smithsonian's 
+traveling exhibit, in place of the exhibit at the American Museum of Natural History.
+{ .editor-note }
 
 
 [^1]: Smithsonian National Museum of Natural History. (2021, June 4). *The Smithsonian Institution's Human Origins Program*. Retrieved August 2, 2021, from <http://humanorigins.si.edu/about/human-origins-program-team/rick-potts>; https://en.wikipedia.org/wiki/Rick_Potts.
