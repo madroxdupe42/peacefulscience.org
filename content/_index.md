@@ -9,4 +9,6 @@ articles:
   - /articles/genealogical-rapprochement
   - /articles/lents-in-usa-today
   - /articles/humility-of-our-scholars
+cascade:
+  rss: false
 ---
