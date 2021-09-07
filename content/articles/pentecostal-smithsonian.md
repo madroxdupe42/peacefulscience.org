@@ -11,8 +11,8 @@ date: '2021-08-22T18:04:06'
 description: A pentecostal scientist explains his common cause with scientists at
   The Smithsonian, implementing a peaceful pedagogical approach.
 headerimage:
-  src: /img/2021/08/hall-of-human-origins-landing_facebookshare_1200.jpeg
-title: A Pentecostal at The Smithsonian
+  src: /img/2021/08/si-exploring-human-origins.jpg
+  credit: "Credit: [The Smithsonian Institution](https://humanorigins.si.edu/exhibit/exploring-human-origins-what-does-it-mean-be-human)"
 ---
 
 Michael Tenneson is a professor of biology and chair of the Department of Natural and Applied Sciences at Evangel University, where he has taught for more than 30 years. Initially trained as a field behavioral ecologist, he has done field research on birds, frogs, porcupines, lizards, and snails. His current research examines attitudes and beliefs of people related to science and theology.
