@@ -35,23 +35,6 @@ cache:
     dir: :cacheDir/:project
     maxAge: 7.5hr
 
-module:
-  mounts:
-  - source: "static/img"
-    target: "assets/img"
-  - source: content
-    target: content
-  - source: static
-    target: static
-  - source: layouts
-    target: layouts
-  - source: data
-    target: data
-  - source: assets
-    target: assets
-  - source: archetypes
-    target: archetypes
-
 mediaTypes:
   text/prs.netlify:
     suffixes: [""]
@@ -86,7 +69,7 @@ taxonomies:
   series: series
   tag: tags
   author: authors
-
+  
 sitemap:
   priority: 0.5
 
