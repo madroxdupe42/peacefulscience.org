@@ -1,27 +1,28 @@
 {{ define "main" }}
 
 {{ $PAGES := partialCached "byviews" . }}
+{{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }} 
 
-{{ $latest := first 3 (where .Site.RegularPages ".Params.podcast" "==" nil) }}
-{{ $videos := first 4 (where .Site.RegularPages ".Params.podcast" "!=" nil) }}
+{{ $latest := first 3 (where $ALL ".Params.podcast" "==" nil) }}
+{{ $videos := first 4 (where $ALL ".Params.podcast" "!=" nil) }}
 {{ $used := union $latest $videos }}
 
-{{ $featured := first 6 (where ( intersect $PAGES.ByViews  .Site.RegularPages ) ".Params.feature" true | complement $used) }} 
+{{ $featured := first 6 (where ( intersect $PAGES.ByViews  $ALL ) ".Params.feature" true | complement $used) }} 
 {{ $used := union $used $featured }}
 
-{{ $race := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
+{{ $race := first 2 (where $ALL ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
 {{ $used := union $used $race }}
 
-{{ $ai := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "artificial-intelligence") | complement $used) }}
+{{ $ai := first 2 (where $ALL ".Params.categories" "intersect" (slice "artificial-intelligence") | complement $used) }}
 {{ $used := union $used $ai }}    
 
-{{ $art := first 2 (where .Site.RegularPages ".Params.categories" "intersect" (slice "art") | complement $used) }}
+{{ $art := first 2 (where $ALL ".Params.categories" "intersect" (slice "art") | complement $used) }}
 {{ $used := union $used $art }}
 
 {{ $gae := partial "getpages" .Params.Articles.Gae }}
 {{ $used := union $used $gae }}
 
-{{ $articles := first 8 (intersect $PAGES.BySessions  (.Site.RegularPages | complement $used) ) }}
+{{ $articles := first 8 (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
 <div style="background-color: #030;  position: relative; ">
 

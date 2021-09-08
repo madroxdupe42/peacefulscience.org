@@ -5,7 +5,7 @@
 {{ $out := slice }}
 
 
-{{ range (slice 1 2 4 8 12) }}
+{{ range (slice 1 2 4 ) }}
   {{ $w := mul $width . }}
   {{ $h := mul $height . }}
   {{ $out = $out | append ( printf "%s?%s %dw" $url (querify "h" $h "w" $w "nf_resize" $mode) $w   ) }}
