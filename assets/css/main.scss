@@ -33,7 +33,13 @@
   url("https://use.fontawesome.com/releases/v5.0.4/webfonts/fa-regular-400.svg#fontawesome") format("svg"); 
 }
 
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
 
+    /* this affects the margin in the printer settings */ 
+    margin: 3cm 3.8cm 3cm 3.8cm;  
+} 
 
 $enable-negative-margins: true;
 $primary: #008800;
@@ -369,9 +375,10 @@ a.external-link::after {
   white-space: nowrap;
 }
 
-.view-count {
+body .view-count {
   font-size:smaller;
   @extend .text-muted;
+
 }
 
 a.forum-link::after {
@@ -545,6 +552,10 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
   @include media-breakpoint-up(xl){
   margin-right: -37%;
   }
+  
+  @media print {
+		margin-right: -37%;
+  }
 }
 
 .article-question {
@@ -600,7 +611,10 @@ figcaption {
 	 @include media-breakpoint-up($breakpoint) {
 		width: 137%;
 		margin: $spacer -37% $spacer 0px;
-
+	 }
+	 @media print {
+		width: 137%;
+		margin: $spacer -37% $spacer 0px;
 	 }
 	}
 
@@ -633,7 +647,7 @@ figcaption {
 	 @media print {
 	   	float: right;
 	   	width: 50%;
-		margin:0% 0% $spacer $spacer;
+		margin: $spacer -37% $spacer 0px;
 	 }
 
 	}
@@ -671,7 +685,7 @@ figcaption {
 	 
 	 @media print {
 	   	float: right;
-		margin: $spacer 0% $spacer $spacer;
+		margin: $spacer -37% $spacer 0px;
 	 }	 
 }
 
@@ -849,13 +863,16 @@ scroll-margin-top: 100px;
 
 
 .article-cell {
+@extend .px-3;
     @include media-breakpoint-up(md) {
          grid-column: 2;
-         hyphens: auto;
-    }   
-   
-  
-@extend .px-3;
+         
+	}   
+    hyphens: auto;
+    
+    @media print {
+       width: 75%
+    }
 }
 
 .right-sidebar {

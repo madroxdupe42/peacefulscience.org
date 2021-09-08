@@ -53,9 +53,9 @@
 <div class="title-bar">
     
 
-    <div class="article-date d-inline d-print-none"> {{ .PublishDate.Format "January 2, 2006" }} </div>
+    <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
        {{ with .Scratch.Get "Views" }}
-    <div class="view-count d-inline float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
+    <div class="view-count d-inline d-print-none float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
     {{ end }}
 
     <h1 id="title" class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
@@ -73,7 +73,7 @@
             
         {{- end -}}      
       {{- with .Params.headerImage.Credit }}
-          <div class="text-muted text-smaller w-100 pl-2">{{ . | markdownify }}</div>
+          <div class="text-muted text-smaller w-100 text-right" >{{ $.RenderString .  }}</div>
       {{- end }}
         </div>
      {{- end -}}
