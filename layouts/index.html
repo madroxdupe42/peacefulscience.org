@@ -23,12 +23,28 @@
 
 {{ $articles := first 8 (intersect $PAGES.BySessions  (.Site.RegularPages | complement $used) ) }}
 
-<div style="background-color: #030;background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0)),url('/img/design/hex-green-leaves-scaled.jpeg'); background-size:cover;background-position:center top;">
+<div style="background-color: #030;  position: relative; ">
+
+
+{{  $src := partial "imgurl" (dict "src"  "/img/design/hex-green-leaves-scaled.jpeg" "loc" $.File.Path )  }}
+
+      <img class="w-100 position-absolute" style="height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $src  | absURL }}"   srcset="{{ partial `srcset` (dict `Url` $src `Width` 240 `Height` 135 ) }}" sizes="100%" sizes="100%"></img>
+
+      <div class="w-100 position-absolute" style="height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0));"></div>
+
+      
 <div class="container">
+
   <div class="row pt-5 pb-5">
     <div class="col p-5 text-center">
-      <img class="d-print-none" width="80%" src="{{ `/img/2019/07/PS-logo-long-white.png` | absURL }}"></img>
-      <img class="d-print-block d-none" width="80%" src="{{ `/img/2019/07/PS-logo-long-black.png` | absURL }}" loading="lazy"></img>
+      
+
+{{  $src = partial "imgurl" (dict "src"  "/img/2019/07/PS-logo-long-white.png" "loc" $.File.Path )  }}      
+    
+      <img style="width: 90%; height: auto"
+    {{-  with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
+      src="{{ $src | absURL }}"></img>
+      
       <h4  class="text-white"> What Does It Mean To Be Human? </h4>
     </div>
   </div>

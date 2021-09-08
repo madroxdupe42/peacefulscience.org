@@ -177,7 +177,6 @@ transform: scale(2.0);
 
 h1, h2, h3, h4, h5, h6, h7, h8 {
   color: black;
-  position:relative;
   font-family: AlverataSb;
 };
 
@@ -488,12 +487,6 @@ article p:last-child {
 }
 
 
-.make-me-sticky {
-  position: -webkit-sticky;
-	position: sticky;
-	top: 120px;
-  padding: 0 15px;
-}
 
 .tag-link {
   @extend .badge;
@@ -557,6 +550,7 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
 		margin-right: -37%;
   }
 }
+
 
 .article-question {
   @extend .font-special;
@@ -701,19 +695,16 @@ pointer-events: none;
 
 
 
-@include media-breakpoint-down(sm) {
+
   nav.navbar {
-    position: fixed;
+    position: sticky;
     right: 0;
     left: 0;   
     border-radius: 0;
     top: 0;
     z-index: 1000;
   }   
-  body {
-    margin-top: 50px;
-  }  
-}
+
 
 .article-header-bg {
 background: linear-gradient(160deg,#a5a5a5,#82a582);
@@ -768,15 +759,18 @@ scroll-margin-top: 100px;
   white-space: nowrap;
 }
 
+.make-me-sticky {
+	position: sticky;
+	top: 220px;
+  padding: 0 15px;
+}
+
 
 .toc {
- 	@extend .make-me-sticky;
  	@extend .py-0;
-    top: 100px;
     width: 100%;
     font-family: AlverataSb;
     font-size: smaller;
-    
 
     
   ul {
