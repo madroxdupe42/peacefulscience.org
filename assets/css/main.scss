@@ -34,6 +34,7 @@
 }
 
 
+
 $enable-negative-margins: true;
 $primary: #008800;
 $dark: #000000;
@@ -47,10 +48,118 @@ a.doi-badge {
  font-size: 11px;
  white-space: nowrap;
  span {font-size: 11px;}
- &:hover{text-decoration: none} 
+ &:focus-visible{text-outline: none} 
 }
 
 
+#search-box .ais-search-box {
+	max-width: 100%;
+	
+	&:after {
+    	content: ""; 
+    	display: block;
+    	width: 50%;
+    	padding-top: 20px;	
+    	border-bottom: 5px solid white; 
+    	transition: .5s; 
+	}
+
+	&:hover:after, &:focus-within:after  {
+    	width: 80%; 
+    	border-bottom: 5px solid white; 
+	}
+
+	input {
+		@extend .pl-5;
+		background: none;
+		border:none;
+		color: white;
+		&:focus {
+ 			outline: none;
+		}
+		&::placeholder  {
+			color: #bbb;
+		}
+	}
+}
+ 
+
+input[type="checkbox"]::checked {
+ background-color: $primary;
+}
+
+input[type=checkbox] {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.3em;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#current-refinements {
+ min-height: 2em;
+ margin-bottom: -2em;
+ @extend .mt-2;
+}
+
+.ais-current-refined-values--item {
+ display: inline-block;
+}
+
+.ais-current-refined-values--link {
+ @extend .tag-link;
+ @extend .mr-2
+}
+
+.ais-current-refined-values--clear-all {
+ display: none;
+}
+
+
+.ais-current-refined-values--count {
+  display: none;
+}
+
+.ais-refinement-list--count {
+  font-size: smaller;
+   @extend .font-native;
+   @extend .text-muted;
+}
+
+.ais-hits--item {
+ @extend .py-2;
+ @extend .my-2;
+}
+
+
+input[type=checkbox]:after {
+  font-weight: bold;
+  text-align: center;
+  content: " ";
+  display: inline-block;
+  color: $primary;
+  width: 1em;
+  height: 1em;
+  visibility: visible;
+  border: 1px solid black;
+  line-height: 1em;
+  border-radius: 5px;
+}
+
+input[type=checkbox]:checked:after {
+  content: "\2718";
+}
+
+
+.ais-search-box path {
+stroke: white;
+fill:white;
+}
+
+.ais-search-box svg {
+transform: scale(2.0);
+
+}
 .article-description {
   font-size: larger;
   max-width: 600px;
@@ -758,57 +867,6 @@ display: none;
 }
 
 
-
-.ais-current-refined-values--item {
- display: inline-block;
-}
-
-.ais-current-refined-values--link {
- @extend .tag-link;
- @extend .mr-2
-}
-.ais-current-refined-values--clear-all {
- display: none;
-}
-
-#current-refinements {
-  @extend .mt-2;
-}
-.ais-current-refined-values--count {
-  display: none;
-}
-
-.ais-refinement-list--list{
-
-}
-
-.ais-refinement-list--checkbox{
-
-}
-
-.ais-refinement-list--item{
-
-
- label.ais-refinement-list--label {
-  
-
-  .ais-refinement-list--count {
-  font-size: smaller;
-   @extend .font-native;
-   @extend .text-muted;
-  }
- }
-}
-
-.ais-hits--item {
- @extend .border-bottom;
- @extend .py-2;
- @extend .my-2;
-}
-#hits {
-}
-.ais-hits {
-}
 
 blockquote {
   @extend .ml-4;

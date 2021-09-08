@@ -8,16 +8,34 @@
 {{ define "main" }}
 
 
+<div class="gae-header-bg shadow" style="z-index:100;position: relative;">
+<div class="container">
+  <div class="row pt-5 pb-5 justify-content-center text-white">
+
+
+  <div class="col-12">
+        <h1 class="text-white  display-4"> 
+  <div id="search-box">
+    <!-- SearchBox widget will appear here -->
+  </div>
+
+  </h1> 
+    <div id="current-refinements"></div>
+
+
+  </div>
+
+  </div>
+</div>
+</div>
+
+
 <div class="article-grid">
 
 <div class="left-sidebar" style="height: 100%;">
   <div style="position: relative">
    <div class="position-sticky pl-5 py-5" style="top:0%; width: 100%; background: #white">
    
-  <div id="search-box">
-    <!-- SearchBox widget will appear here -->
-  </div>
-  <div id="current-refinements"></div>
 
    
 <div class="mt-3" id="accordion">
@@ -111,7 +129,7 @@ const search = instantsearch({
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#search-box',
-      placeholder: 'Search'
+      placeholder: 'Search...'
     })
   );
   
