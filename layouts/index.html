@@ -26,9 +26,16 @@
 <div style="background-color: #030;  position: relative; ">
 
 
-{{  $src := partial "imgurl" (dict "src"  "/img/design/hex-green-leaves-scaled.jpeg" "loc" $.File.Path )  }}
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
 
-      <img class="w-100 position-absolute" style="height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $src  | absURL }}"  sizes="100%"></img>
+{{  $srcwebp := partial "imgurl" (dict "src"  "/img/design/green-hex.webp" "loc" $.File.Path )  }}
+
+<picture>
+<source srcset="{{ partial `srcset` (dict `Url` $srcwebp `Width` 200 `Height` 112.5 ) }}" type="image/webp">
+<source srcset="{{ partial `srcset` (dict `Url` $srcpng `Width` 200 `Height` 112.5 ) }}" type="image/png">
+      <img class="w-100 position-absolute" style="height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | absURL }}"  sizes="100%"></img>
+</picture>
+
 
       <div class="w-100 position-absolute" style="height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0));"></div>
 
@@ -39,7 +46,7 @@
     <div class="col p-5 text-center">
       
 
-{{  $src = partial "imgurl" (dict "src"  "/img/2019/07/PS-logo-long-white.png" "loc" $.File.Path )  }}      
+{{  $src := partial "imgurl" (dict "src"  "/img/2019/07/PS-logo-long-white.png" "loc" $.File.Path )  }}      
     
       <img style="width: 90%; height: auto"
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
