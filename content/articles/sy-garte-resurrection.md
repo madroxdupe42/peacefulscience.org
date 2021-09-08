@@ -11,7 +11,7 @@ date: '2019-11-19T12:00:25'
 description: Sy Garte saw Jesus in a dream. Can a scientist believe a miracle like
   the resurrection? Miracles, by definition, are not addressable by science.
 headerimage:
-  src: /img/2019/11/garte-book.png
+  src: /img/2019/11/garte-book.jpeg
 title: 'Why I Believe in the Resurrection'
 ---
 
