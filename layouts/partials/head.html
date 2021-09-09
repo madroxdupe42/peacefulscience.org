@@ -7,9 +7,9 @@
 {{ end -}}
 
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 
 <!-- Site Title, Description, Author, and Favicon -->
@@ -60,18 +60,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
 
 
-<!-- SEO -->
-{{- partial "seo/main.html" . -}}
 
-{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
-{{ if and ( eq $showBreadcrumbs true ) ( eq .IsHome false ) -}}
-  {{ partial "breadcrumbs.html" ( dict "ctx" . "output_type" "structured" ) }}
-{{- end }}
-
-<!-- Social Media Tags -->
-{{- partial "social/main.html" . -}}
-
-<!-- Links and stylesheets -->
-
-    {{- partial "head_custom.html" . -}}
+{{- partial "head_custom.html" . -}}
 

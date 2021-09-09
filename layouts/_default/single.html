@@ -1,3 +1,49 @@
+
+
+{{ define "head" }}
+
+{{ $ldjson := (dict
+    "@context" "https://schema.org" 
+    "@type" "NewsArticle"
+    "headline" ( .Title | markdownify | plainify )
+	"description"  ( .Description | markdownify | plainify ) 
+    "publisher"  site.Params.ldjson  
+    "mainEntityOfPage"  (dict 
+       "@type" "WebPage"
+       "@id" .Permalink )
+   )
+}}
+
+{{ $x := (slice) }}
+{{ with  .Params.authors}}
+{{ range (partial "getauthors" . ) }}
+  {{ $x = $x | append ( dict
+     "@type" "Person"
+     "name" .Title
+  )}}
+{{ end }}
+{{ $ldjson = merge $ldjson (dict "author" $x) }}
+{{ end }}
+
+{{- with .Params.headerImage.Src }}
+  {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL }}
+  {{ $ldjson = merge $ldjson (dict "image" $src ) }}
+{{- end }}
+
+
+{{ with .Date }}
+{{ $ldjson = merge $ldjson (dict "datePublished" ( .Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
+{{ end }}
+{{ $ldjson = merge $ldjson (dict "dateModified"  ( .Lastmod.Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
+	
+	
+<script type="application/ld+json"> 
+{{ $ldjson | jsonify | safeJS }}
+ </script>
+{{ end }}
+
+
+
 {{ define "main" }}
 {{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 {{ $PAGES := partialCached "byviews" . }}

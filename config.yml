@@ -61,6 +61,11 @@ params:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
   headerType: none
+  ldjson: 
+    "@type": Organization
+    name: Peaceful Science
+    url: https://peacefulscience.org
+    logo: https://peacefulscience.org/img/design/logo-black-square.png
 
 googleAnalytics: G-BHPH29YM44
 
