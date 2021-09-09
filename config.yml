@@ -53,7 +53,7 @@ outputformats:
     notAlternative: true
     
 outputs:
-  home: ["algolia", "HTML", "RSS", "redir"]
+  home: ["HTML", "RSS", "redir"]
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/hugo-website/"
