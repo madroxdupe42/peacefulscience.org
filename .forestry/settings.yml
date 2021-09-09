@@ -10,11 +10,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/archive
-  label: Archive
-  create: all
-  match: "**/*"
-- type: directory
   path: content/articles
   label: Articles
   create: all
@@ -25,30 +20,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/forum
-  label: Forum
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/genealogical-adam-eve
-  label: Genealogical adam eve
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/news
-  label: News
-  create: all
-  match: "**/*"
-- type: directory
   path: content/series
   label: Series
   create: all
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
