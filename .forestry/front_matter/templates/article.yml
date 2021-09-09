@@ -9,7 +9,10 @@ fields:
   name: authors
   label: authors
   config:
-    use_select: false
+    use_select: true
+    source:
+      type: pages
+      section: authors
 - type: field_group
   name: headerimage
   label: headerimage
