@@ -7,7 +7,7 @@ fields:
   label: title
 - type: list
   name: authors
-  label: authors
+  label: Authors
   config:
     use_select: true
     source:
