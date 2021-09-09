@@ -2,12 +2,21 @@
 label: article
 hide_body: false
 fields:
-- type: list
-  name: aliases
-  label: aliases
+- type: text
+  name: title
+  label: title
 - type: list
   name: authors
   label: authors
+  config:
+    use_select: false
+- type: field_group
+  name: headerimage
+  label: headerimage
+  fields:
+  - type: file
+    name: src
+    label: src
 - type: list
   name: categories
   label: categories
@@ -20,13 +29,3 @@ fields:
 - type: textarea
   name: description
   label: description
-- type: field_group
-  name: headerimage
-  label: headerimage
-  fields:
-  - type: file
-    name: src
-    label: src
-- type: text
-  name: title
-  label: title
