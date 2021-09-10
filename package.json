@@ -5,8 +5,10 @@
   "dependencies": {
     "atomic-algolia": "^0.3.19",
     "autoprefixer": "latest",
+    "axios": "^0.21.4",
     "bootstrap": "4.x",
     "jquery": "latest",
+    "netlify-lambda": "^2.0.14",
     "popper.js": "latest",
     "postcss-cli": "latest",
     "workbox-build": "^6.1.5"

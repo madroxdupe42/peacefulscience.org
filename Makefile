@@ -1,4 +1,4 @@
-all: imginfo pdfinfo
+all: imginfo pdfinfo functions
 
 algolia:
 	hugo -e index
@@ -9,3 +9,6 @@ imginfo:
 
 pdfinfo:
 	python code/pdfinfo.py > data/pdfinfo.json
+
+functions: 
+	npx netlify-lambda build functions
