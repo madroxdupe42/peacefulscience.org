@@ -1,53 +1,52 @@
 
 
 {{ define "head" }}
-
-{{- $ldjson := (dict
-    "@context" "https://schema.org" 
-    "@type" "NewsArticle"
-    "headline" ( .Title | markdownify | plainify )
-	"description"  ( .Description | markdownify | plainify ) 
-    "publisher"  site.Params.ldjson  
-    "mainEntityOfPage"  (dict 
+{{- .Scratch.SetInMap "ldjson" "@context" "https://schema.org"  }}
+{{- .Scratch.SetInMap "ldjson" "@type" "NewsArticle"  }}
+{{- .Scratch.SetInMap "ldjson" "headline" ( .Title | markdownify | plainify ) }}
+{{- .Scratch.SetInMap "ldjson" "description"  ( .Description | markdownify | plainify ) }}
+{{- .Scratch.SetInMap "ldjson" "publisher"  site.Params.ldjson  }}
+{{- .Scratch.SetInMap "ldjson"  "mainEntityOfPage"  (dict 
        "@type" "WebPage"
-       "@id" .Permalink )
-   )
-}}
+       "@id" .Permalink ) }}
 
-{{- $x := (slice) }}
+{{- with .Date }}
+  {{- $.Scratch.SetInMap "ldjson"  "datePublished" ( .Format  "Mon, 02 Jan 2006 15:04:05 MST" ) }}
+{{- end }}
+{{- .Scratch.SetInMap "ldjson"  "dateModified" ( .Lastmod.Format  "Mon, 02 Jan 2006 15:04:05 MST" ) }}
+
 {{- with  .Params.authors}}
+{{- $x := (slice) }}
 {{- range (partial "getauthors" . ) }}
   {{- $x = $x | append ( dict
      "@type" "Person"
      "name" .Title
   )}}
 {{- end }}
-{{- $ldjson = merge $ldjson (dict "author" $x) }}
+{{- $.Scratch.SetInMap "ldjson"  "author"  $x }}
 {{- end }}
 
 {{- with .Params.headerImage.Src }}
-  {{-  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL }}
-  {{- $ldjson = merge $ldjson (dict "image" $src ) }}
+  {{-  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL }}  
+  {{- $.Scratch.SetInMap "ldjson"  "image" $src  }}
 {{- end }}
-
-{{- with .Date }}
-{{- $ldjson = merge $ldjson (dict "datePublished" ( .Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
-{{- end }}
-{{- $ldjson = merge $ldjson (dict "dateModified"  ( .Lastmod.Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
 
 {{- with .Params.ldjson }}
-{{- $ldjson = merge $ldjson . }}
+  {{- $.Scratch.Set "ldjson" (merge (.Scratch.Get "ldjson") . )  }}
 {{- end }}
 
+{{- range .Params.ldjson_delete }}
+  {{- $.Scratch.DeleteInMap "ldjson" . }}
+{{- end -}}
+
 <script type="application/ld+json"> 
-{{ $ldjson | jsonify (dict "indent" "  ") | safeJS }}
- </script>
+{{ .Scratch.Get "ldjson" | jsonify (dict "indent" "  ") | safeJS }}
+</script>
 {{ end }}
 
 
 
 {{ define "main" }}
-{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 {{ $PAGES := partialCached "byviews" . }}
 
 {{ with .Description  }}
@@ -57,7 +56,6 @@
 {{ end }}
 
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
-
 
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 

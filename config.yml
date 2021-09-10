@@ -57,6 +57,7 @@ outputs:
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/hugo-website/"
+  sitemap_min_date: "2021-09-10"
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]

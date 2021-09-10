@@ -1,5 +1,24 @@
+{{- $sitemap_min_date := time site.Params.sitemap_min_date -}}
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- range  .Data.Pages  -}}
+  {{- if not .Params.private -}}
+    {{- $priority := cond (eq true .Params.feature) "1.0" .Sitemap.Priority -}}
+    {{- $priority = cond (eq true .IsPage) "0.8" $priority -}}
+    {{- $ageDays := div (sub now.Unix .Lastmod.Unix ) 86400 -}}
+    {{- $change := .Sitemap.ChangeFreq | default "weekly" }}
+	  <url>
+	    <loc>{{ .Permalink }}</loc> 
+	    {{ with .Lastmod -}} 
+	      {{- $date := . -}}
+	      {{- if ( .Before $sitemap_min_date) -}}{{ $date = $sitemap_min_date }}{{ end -}}
+	    <lastmod>{{ $date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod> 
+	    {{- end }}
+	    <changefreq>{{ cond (lt $ageDays  7) "hourly" $change }}</changefreq>
+	    <priority>{{ $priority }}</priority>
+	  </url>
+  {{ end }}
+{{- end -}}
 {{ range site.Data.pdfinfo  -}}
 	  <url>
 	    <loc>{{ .File | absURL }}</loc> {{ with .Lastmod }} 
@@ -8,18 +27,4 @@
 	    <priority>0.5</priority>
 	  </url>
 {{- end }}
-{{- range  .Data.Pages  -}}
-  {{- if not .Params.private -}}
-    {{- $priority := cond (eq true .Params.feature) "1.0" .Sitemap.Priority -}}
-    {{- $priority = cond (eq true .IsPage) "0.8" $priority -}}
-    {{- $ageDays := div (sub now.Unix .Lastmod.Unix ) 86400 -}}
-    {{- $change := .Sitemap.ChangeFreq | default "weekly" }}
-	  <url>
-	    <loc>{{ .Permalink }}</loc> {{ with .Lastmod }} 
-	    <lastmod>{{ safeHTML ( .Format "2006-01-02T15:04:05-07:00" ) }}</lastmod> {{ end }}
-	    <changefreq>{{ cond (lt $ageDays  7) "hourly" $change }}</changefreq>
-	    <priority>{{ $priority }}</priority>
-	  </url>
-  {{ end }}
-{{- end -}}
 </urlset>
