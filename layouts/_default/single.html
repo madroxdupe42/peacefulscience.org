@@ -30,11 +30,15 @@
   {{- $ldjson = merge $ldjson (dict "image" $src ) }}
 {{- end }}
 
-
 {{- with .Date }}
 {{- $ldjson = merge $ldjson (dict "datePublished" ( .Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
 {{- end }}
 {{- $ldjson = merge $ldjson (dict "dateModified"  ( .Lastmod.Format  "Mon, 02 Jan 2006 15:04:05 MST" )) }}
+
+{{- with .Params.ldjson }}
+{{- $ldjson = merge $ldjson . }}
+{{- end }}
+
 <script type="application/ld+json"> 
 {{ $ldjson | jsonify (dict "indent" "  ") | safeJS }}
  </script>
@@ -163,29 +167,24 @@
 -->
 </div>
 
-{{ $commenturl := ""}}
-{{ $newcommentquery := (querify "title" .Title "body" .Permalink ) }}
-{{ with .Params.commenturl }}
-  {{ $commenturl = . }}
-{{ else }}
-  {{ $commenturl = print `https://discourse.peacefulscience.org/new-topic?` $newcommentquery  }}
-{{ end }}
+
 <div class="mt-5 py-5 comment-block d-print-none">
 <div class="container" >
   <div class="row justify-content-center py-3 my-3 text-larger">
     <div class="col-lg-4 text-center text-lg-right">
     
-    <a href="{{ $commenturl | safeURL }}" target="_blank">
-          <img src='/img/design/wood-chair-transparent.png?w=240&nf_resize=fit' height="240" loading="lazy">
-    </a>
+
+    <img src='/img/design/wood-chair-transparent.png?w=240&nf_resize=fit' height="240" loading="lazy">
+
 	</div>
     <div class="col-lg-8 py-3 text-center text-lg-left">
-    <a href="{{ $commenturl | safeURL }}" target="_blank"><h3>Join the conversation...</h3></a>
+    <h3>Join the conversation...</h3>
     
     <p> Come to understand and to be understood. <br> 
     Whatever your personal beliefs, we saved a chair for you. 
     <p>
-      <a href="{{ $commenturl | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a>
+      {{ with .Params.commenturl -}}
+      <a href="{{ . | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a> {{ end }}
       <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
       <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
     </div>
