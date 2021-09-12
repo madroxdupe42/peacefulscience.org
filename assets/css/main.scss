@@ -36,7 +36,7 @@ a.doi-badge {
 }
 
 
-#search-box .ais-search-box {
+#search-box > div  {
 	max-width: 100%;
 	
 	&:after {
@@ -68,7 +68,7 @@ a.doi-badge {
 }
  
 
-input[type="checkbox"]::checked {
+input[type=checkbox]::checked {
  background-color: $primary;
 }
 
