@@ -1,7 +1,5 @@
 {{ define "head" }}
-<script type="application/ld+json"> 
-{{ merge site.Params.ldjson  (dict "@context" "https://schema.org")  | jsonify (dict "indent" "  " ) | safeJS }}
- </script>
+{{ partial "jsonld" . }}
 {{ end }}
 
 {{ define "main" }}
