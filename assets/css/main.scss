@@ -38,7 +38,10 @@ a.doi-badge {
 
 #search-box > div  {
 	max-width: 100%;
-	
+	font-size: 40px;
+	@include media-breakpoint-up(lg) {
+		font-size: 60px;
+	}
 	&:after {
     	content: ""; 
     	display: block;
