@@ -14,13 +14,18 @@
       
         {{ range $menu }}
 
-
-            {{ if .Children }}
-               <li class="nav-item dropdown">
+            {{- if .Children -}}
+               {{- $active := eq .URL $currentPage.RelPermalink }}
+               {{- range .Children }}
+                 {{- if eq .URL $currentPage.RelPermalink }}
+                   {{- $active = true }}
+                 {{- end }}
+               {{- end }}
+               
+               <li class="nav-item dropdown{{ if $active }} active{{ end }}">
                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Pre }}{{ .Name }}</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 {{ range .Children }}
-                    
+                 {{ range sort .Children "Weight" "desc" }}                    
                     {{ if  eq .URL $currentPage.RelPermalink }}
                       <a class="dropdown-item active" href="#">  {{ .Pre }}{{ .Name }} <span class="sr-only">(current)</span></a>
                     {{ else }}
@@ -29,7 +34,7 @@
                  {{ end }}
                 </div>
                 </div>
-                            
+
             {{ else }}
                 {{ if eq .URL $currentPage.RelPermalink}}
                 <li class="nav-item active">  

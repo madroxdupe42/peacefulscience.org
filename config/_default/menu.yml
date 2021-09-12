@@ -12,12 +12,25 @@ main:
   - name: Forum
     url: /forum/
     weight: -108
-  - name: About
-    url: /articles/mission-and-values/
-    weight: -100
   - name: Search
     url: /search/
-    weight: -99
+    weight: -101
+  - name: About
+    identifier: about
+    url: /articles/mission-and-values/
+    weight: -100
+  - name: Mission and Values
+    parent: about
+    weight: 10
+    url: /articles/mission-and-values/
+  - name: Submission Guide
+    parent: about
+    weight: 9
+    url: /articles/authors-guide-and-call-for-submissions/
+  - name: Error Correction Policy
+    weight: 8
+    parent: about
+    url: /articles/correction-policy/
 
 
 
