@@ -1,7 +1,5 @@
 
 {{ with .Params.jsonld }}
-{{ . | jsonify }}
-
 {{ with (partial "jsonld/jsonld" (dict "Page" $ "Input" . ) ) }}
 <script type="application/ld+json"> 
   {{  merge . (dict "@context" "https://schema.org" ) 
