@@ -21,7 +21,8 @@ jsonld:
       - https://www.youtube.com/c/PeacefulscienceOrg/
       - https://twitter.com/peacefulscience/
       - https:/peacefulscience.org      
- 
+headerimage:
+  src: /img/design/logo-black-square.png 
 cascade:
   rss: false
   jsonld:
