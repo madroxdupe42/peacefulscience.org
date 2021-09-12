@@ -1,0 +1,14 @@
+
+{{ $args := default nil }}
+{{ $out := (slice) }}
+
+{{ range .Page.Params.authors }}
+  {{ with site.GetPage (printf "/authors/%s" . ) }}
+    {{ $args = dict "Page" . "Input" .Params.jsonld }}
+    {{ $out = $out | append (partial "jsonld/jsonld" $args ) }}
+  {{ end }}
+{{ end }}
+
+
+{{ return $out }}
+

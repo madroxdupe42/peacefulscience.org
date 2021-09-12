@@ -1,0 +1,9 @@
+{{ $args := default nil }}
+
+{{ with (site.GetPage  (index (split .Input " ") 2) ) }}
+  {{ $args = dict "Page" . "Input" .Params.jsonld }}
+  {{  return  (partial "jsonld/jsonld" $args ) }}
+{{ else }}
+  {{ warnf "JSONLD-COPY: %" (index (split .Input " ") 2) }}
+{{ end }}
+

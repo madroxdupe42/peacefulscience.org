@@ -1,0 +1,51 @@
+
+
+{{ $out := default nil }}
+{{ $partial := default nil }}
+
+
+{{ if lt .Depth  0 }}
+  {{ errorf "Recursion depth exceeded." }}
+{{ else}}
+
+{{ if reflect.IsMap .Input }}
+
+    {{ $out = (dict) }}
+    {{ range $key, $val := .Input }}
+      {{ with partial "jsonld/jsonld" (dict "Page" $.Page "Input" $val ) }} 
+        {{ $out =  merge $out (dict $key . ) }}}
+      {{ end }}
+    {{ end }}
+    
+
+{{ else }}
+
+  {{ if reflect.IsSlice .Input }}
+  
+    {{ $out = (slice) }} 
+    {{ range .Input }}
+      {{ with partial "jsonld/jsonld" (dict "Page" $.Page "Input" . ) }} 
+        {{ $out = ( $out | append . )  }}
+      {{ end }}
+    {{ end }}
+    
+
+     
+  {{ else }}
+
+    {{ if hasPrefix .Input "= " }}
+    
+      {{ $partial = ( printf "jsonld/%s" (index (split .Input " ") 1 )) }}
+      {{ $out = partial $partial (dict "Page" .Page "Input" .Input )  }}
+
+    {{ else }}  
+      
+      {{ $out = .Input }}
+     
+    {{ end }}
+
+  {{ end }}
+{{ end }}
+{{ end }}
+
+{{ return $out }}

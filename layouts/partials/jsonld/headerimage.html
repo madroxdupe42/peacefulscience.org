@@ -1,0 +1,8 @@
+{{ $out := .Page.Params.headerimage.src  | default nil }}
+
+
+{{ with .Page.Params.headerimage.src }}
+  {{ $out = .  | absURL }}
+{{ end }}
+
+{{ return $out }}
