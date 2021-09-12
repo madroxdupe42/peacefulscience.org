@@ -13,5 +13,5 @@ cascade:
     mainEntityOfPage: 
       "@type": WebPage
       "@id": = permalink
-    publisher: = copy /
+    publisher: = copy /jsonld/peacefulscience
 --- 
