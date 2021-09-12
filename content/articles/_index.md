@@ -12,6 +12,6 @@ cascade:
     image: = headerimage
     mainEntityOfPage: 
       "@type": WebPage
-      "@id": _ permalink
+      "@id": = permalink
     publisher: = copy /
 --- 
