@@ -24,4 +24,9 @@ jsonld:
  
 cascade:
   rss: false
+  jsonld:
+    "@type": WebPage
+    name: = title
+    description: = description
+    publisher: = copy /
 ---
