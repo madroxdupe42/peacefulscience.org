@@ -17,7 +17,7 @@
 
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
-<div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
+<div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="partial `imgcdn`  `/img/2019/07/PS-logo-long-black.png`"></img></div>
 
 <div class="article-grid">
 <div class="left-sidebar" style="height: 100%;">
@@ -29,7 +29,7 @@
       <div  class="w-100 position-sticky" style="top:100px">
       {{- with .Params.headerImage.Src }}
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path ) }}
-          <img src="{{ $src  | absURL  }}?nf_resize=fit&w=600" class="w-100"  style="height: auto" 
+          <img src="{{ $src  | partial `imgcdn`  }}" class="w-100"  style="height: auto" 
              {{-  with (index site.Data.imgsize $src)  }} width="600" height="{{  div (mul .height 600) .width }}" {{ end -}} 
           ></img>
       {{- end }}
@@ -73,7 +73,7 @@
         {{- with .Params.headerImage.Src }}
           {{  $src := partial "imgurl" (dict "src"  . "loc" $.File.Path )  }}
 
-          <img src="{{ $src  | absURL  }}?nf_resize=fit&w=600" class="w-100 webfeedsFeaturedVisual"  style="height: auto" 
+          <img src="{{ $src  | partial `imgcdn`   }}" class="webfeedsFeaturedVisual"  style="width: 100%; height: auto" 
              {{-  with (index site.Data.imgsize $src)  }} width="600" height="{{  div (mul .height 600) .width }}" {{ end -}} 
           ></img>     
             
