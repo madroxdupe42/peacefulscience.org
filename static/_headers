@@ -1,3 +1,11 @@
 /wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/*.js.php
   Service-Worker-Allowed: /
   Content-Type: application/javascript; charset=utf-8
+/font/*
+  Cache-Control: public, max-age=604800, immutable
+/img/*
+  Cache-Control: public, max-age=604800
+/*
+  Accept-CH: viewport-width, width, device-memory, dpr, downlink, ect
+  Link: <https://8l2ic7fx.cdn.imgeng.in>; rel=preconnect
+  permissions-policy: ch-viewport-width=("https://8l2ic7fx.cdn.imgeng.in"), ch-width=("https://8l2ic7fx.cdn.imgeng.in"), ch-dpr=("https://8l2ic7fx.cdn.imgeng.in"), ch-device-memory=("https://8l2ic7fx.cdn.imgeng.in"), ch-ect=("https://8l2ic7fx.cdn.imgeng.in"), ch-downlink=("https://8l2ic7fx.cdn.imgeng.in")
