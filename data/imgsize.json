@@ -1003,7 +1003,7 @@
         "height": 3600,
         "width": 2571
     },
-    "/img/2019/11/garte-book.png": {
+    "/img/2019/11/garte-book.jpeg": {
         "height": 1350,
         "width": 2400
     },
@@ -1927,9 +1927,13 @@
         "height": 1116,
         "width": 744
     },
-    "/img/design/hex-green-leaves-scaled.jpeg": {
-        "height": 1452,
-        "width": 2560
+    "/img/design/green-hex.png": {
+        "height": 1350,
+        "width": 2400
+    },
+    "/img/design/logo-black-square.png": {
+        "height": 2520,
+        "width": 2525
     },
     "/img/design/wood-chair-transparent.png": {
         "height": 2000,
