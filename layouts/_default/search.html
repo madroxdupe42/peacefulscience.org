@@ -1,8 +1,9 @@
+
+
 {{ define "head" }}
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
-
-
+{{ partial "jsonld" . }}
 {{ end }}
 
 {{ define "main" }}

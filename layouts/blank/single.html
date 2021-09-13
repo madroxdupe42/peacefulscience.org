@@ -1,6 +1,10 @@
-{{ define "main" }}
-{{- $showBreadcrumbs := $.Params.showBreadcrumbs | default $.Site.Params.showBreadcrumbs | default true }}
 
+{{ define "head" }}
+{{ partial "jsonld" . }} 
+{{ end }}
+
+
+{{ define "main" }}
 
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="https://i2.wp.com/peacefulscience.org/wp-content/uploads/2019/07/PS-logo-long-black.png"></img></div>
 

@@ -31,6 +31,9 @@ main:
     weight: 8
     parent: about
     url: /articles/correction-policy/
-
+  - name: Contact Us
+    weight: 7
+    parent: about
+    url: /contact/
 
 
