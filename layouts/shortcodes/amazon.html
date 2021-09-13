@@ -8,12 +8,6 @@
   {{- end  -}}
   
   
-<iframe type="text/html" width="336" height="550" class="d-block mx-auto d-print-none"
-frameborder="0" allowfullscreen style="max-width:100%"
-   src="https://read.amazon.com/kp/card?asin={{- .Get 0 -}}&preview=inline&linkCode=kpe&tag=swamidass-20" >
-</iframe>
-
-<img src="https://images.amazon.com/images/P/{{- .Get 0 -}}.LZZZZZZZ.jpg"
-class="d-none d-print-block" loading="lazy" style="width: 100% "></img>
+  {{ partial `amazon` (.Get 0 ) }}
 
 </aside>

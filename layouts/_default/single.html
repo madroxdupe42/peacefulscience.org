@@ -131,9 +131,12 @@
   <div class="row justify-content-center py-3 my-3 text-larger">
     <div class="col-lg-4 text-center text-lg-right">
     
-
-    <img src='/img/design/wood-chair-transparent.png?w=240&nf_resize=fit' height="240" loading="lazy">
-
+          {{  $src := `/img/design/wood-chair-transparent.png`  }}
+    <img src='{{ partial `imgcdn` $src }}' height="240" loading="lazy"
+            {{-  with (index site.Data.imgsize $src)  }} width="{{  div (mul .width 240) .height }}"{{ end -}}
+          ></img>   
+          
+          
 	</div>
     <div class="col-lg-8 py-3 text-center text-lg-left">
     <h3>Join the conversation...</h3>
