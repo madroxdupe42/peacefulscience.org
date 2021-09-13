@@ -2,12 +2,9 @@
   Service-Worker-Allowed: /
   Content-Type: application/javascript; charset=utf-8
 /font/*
-  cache-control: public 
-  cache-control: max-age=604800
-  cache-control: immutable
+  cache-control: public, max-age=604800, s-max-age=604800, immutable
 /img/*
-  cache-control: public
-  cache-control: max-age=604800
+  cache-control: public, max-age=604800, s-max-age=604800
 /*
   accept-ch: viewport-width, width, device-memory, dpr, downlink, ect
   link: <https://8l2ic7fx.cdn.imgeng.in>; rel=preconnect
