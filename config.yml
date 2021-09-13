@@ -62,6 +62,7 @@ params:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
   headerType: none
+  imagecdn: https://8l2ic7fx.cdn.imgeng.in
 
 googleAnalytics: G-BHPH29YM44
 

@@ -5,8 +5,6 @@
 {{- $src := true -}}
 
 {{- with $page.Params.headerImage.Src -}}
-  {{- $args := querify  "nf_resize" "smartcrop" "w" $width "h" $height -}}
-  {{- $src = printf "%s?%s" (. | absURL) $args  -}}
   {{- $src = . -}}
 {{- end -}}  
  
@@ -19,11 +17,13 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
+{{- $imageattr := "" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
+  {{- $imageattr = `sizes="160w"` }}  
 {{- end -}}
 
 
@@ -32,8 +32,8 @@
   <a href="{{$page.Permalink}}">   
 
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" 
-  srcset="{{ partial `srcset` (dict `Url` $src `Width` $width `Height` $height ) }}"
-  {{- if not (in $hide "lazy") -}} loading="lazy" {{- end -}}>
+  src="{{ $src | partial `imgcdn` }}"
+  {{- if not (in $hide "lazy") -}} loading="lazy" {{- end }} {{ $imageattr }}>
   </img>
 
   </a>

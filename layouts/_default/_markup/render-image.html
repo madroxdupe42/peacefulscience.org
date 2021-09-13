@@ -3,13 +3,12 @@
 {{- $title := .Title  -}}
 {{- $alt := .Text  -}}
 
-{{- $args := querify "w" 696 "nf_resize" "fit" -}}
-{{- $src = printf "%s?%s" ( $src | absURL ) $args  -}}
+
 
 
 <figure class="aside-xl-right">
 <img 
-  src="{{- $src -}}"
+  src="{{- $src | partial `imgcdn` -}}"
   class="w-100 d-block"
 
   {{- with $title  -}}
