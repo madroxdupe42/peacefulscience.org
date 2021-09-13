@@ -2,7 +2,7 @@
   Service-Worker-Allowed: /
   Content-Type: application/javascript; charset=utf-8
 /font/*
-  cache-control: public, max-age=604800, s-max-age=604800, immutable
+  cache-control: public, max-age=7776000, s-max-age=7776000, immutable
 /img/*
   cache-control: public, max-age=604800, s-max-age=604800
 /*
