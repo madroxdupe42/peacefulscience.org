@@ -13,6 +13,7 @@ date: "2021-02-15T06:32:32"
 description: This was the time that Ken Ham and William Lane Craig discussed evolution and Jesus at Peaceful Science.
 headerimage:
   src: /img/2021/02/maxresdefault.jpg
+  youtube: eu74IfXUsQw
 title: "William Lane Craig: An Exchange with Ken Ham"
 ---
 
