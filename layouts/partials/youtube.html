@@ -1,8 +1,21 @@
+{{ $id := . }}
+{{ $img := printf `https://img.youtube.com/vi/%s/hqdefault.jpg` $id }}
+
+{{ if reflect.IsSlice . }}
+   {{ $id = index . 0 }}
+   {{ $img = index . 1 }}
+{{ end }}
+
+{{ warnf "%s %s %s" (jsonify .) $id $img }}
+
 <div  class="embed-responsive embed-responsive-16by9">
+
 <iframe
   class="embed-responsive embed-responsive-16by9"
-  src="https://www.youtube.com/embed/{{ . }}"
-srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:56px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/{{ . }}?autoplay=1><img src=https://img.youtube.com/vi/{{ . }}/hqdefault.jpg ><span>&#x25BA;</span></a>"
+  src="https://www.youtube.com/embed/{{ $id }}"
+srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:56px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+<a href=https://www.youtube.com/embed/{{ $id }}?autoplay=1><img src={{ $img }} width=16 height=9 style='height: auto' />
+<span>&#x25BA;</span></a>"
   frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
