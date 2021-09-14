@@ -29,18 +29,23 @@
 
 <article class="{{ $layout }} {{ $containerclass }}">
 
+{{ $rendered := false }}
 
 {{ with $page.Params.Headerimage.Youtube }}
+  {{ if eq $style "vertical"  }}
   {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` )  `Youtube` . `Class` $imageclass   `Style` $imagestyle  ) }}
+  {{ $rendered = true }}
+  {{ end }}
+{{ end }}
 
-{{ else}}
+{{ if not $rendered }}
   <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" 
   src="{{ $src | partial `imgcdn` }}"
   {{- if not (in $hide "lazy") -}} loading="lazy" {{- end }} {{ $imageattr }}>
   </img>
   </a>
- {{ end }} 
+{{ end }} 
  
 
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  
