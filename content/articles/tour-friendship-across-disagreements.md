@@ -13,6 +13,7 @@ date: "2020-12-07T20:00:00"
 description: James Tour and I do not agree on everything, but we found virtue in the wasteland, friendship across our disagreements.
 headerimage:
   src: /img/2020/11/tour-introducing-1.png
+  youtube: E72OFxk7C20
 title: "James Tour: A Chemist's Questions on Evolution"
 ---
 

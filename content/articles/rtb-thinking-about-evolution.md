@@ -13,6 +13,7 @@ date: "2021-01-19T07:02:55"
 description: Creationists ask in one chapter of the book, What if Big 'E' Evolution is True? The answer moves the conversation forward.
 headerimage:
   src: /img/2021/01/maxresdefault-4.jpg
+  youtube: TwRznHSMqsU
 title: "Fazale Rana: Thinking About Evolution"
 ---
 

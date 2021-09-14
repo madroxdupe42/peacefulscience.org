@@ -13,6 +13,7 @@ date: "2021-01-06T08:01:20"
 description: Barbara Forrest argues that Intelligent Design is a Trojan Horse, just a rehash of creationism. Is this really true? I'm not so sure.
 headerimage:
   src: /img/2021/01/maxresdefault.jpg
+  youtube: SjRuqfz8V0Q
 title: "Barbara Forrest: The Trojan Horse at Dover"
 series: dover-15
 ---

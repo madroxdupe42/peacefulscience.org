@@ -13,6 +13,7 @@ date: "2021-01-12T18:34:33"
 description: Michael Heiser pursues his exegetical work on its own terms, engaging watchfully with science. How do sacred and natural history combine?
 headerimage:
   src: /img/2021/01/maxresdefault-3.jpg
+  youtube: 3qO2K5MpQvg
 title: "Michael S. Heiser: How Do Sacred and Natural History Entwine?"
 ---
 

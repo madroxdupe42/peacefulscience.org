@@ -11,6 +11,7 @@ date: "2021-01-06T18:55:27"
 description: We disagree. These disagreements matter. Still, we can find a better way than conflict. Let us move towards one another from here.
 headerimage:
   src: /img/2021/01/maxresdefault-2.jpg
+  youtube: 1ciDdH3J1a4
 title: "John Inazu: Humility, Tolerance, Patience"
 ---
 

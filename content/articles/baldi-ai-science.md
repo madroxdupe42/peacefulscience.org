@@ -13,6 +13,7 @@ description: Pierre Baldi has been applying Deep Learning, a type of AI, to stud
   scientific problems, like protein folding. How is AI impacting science?
 headerimage:
   src: /img/2020/12/maxresdefault.jpg
+  youtube: 0Y2kQf54tpM
 title: 'Pierre Baldi: Protein Folding and AI''s Impact on Science'
 ---
 

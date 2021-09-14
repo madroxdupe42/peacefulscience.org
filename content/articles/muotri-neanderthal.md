@@ -12,6 +12,7 @@ description: So this is not exactly a Neanderthal brain in a bottle, but it gest
   in that direction. What are the genetic changes that made us human?
 headerimage:
   src: /img/2021/02/maxresdefault-1.jpg
+  youtube: IfLssywpasw
 title: 'Alysson Muotri: Neanderthal Brains in a Bottle'
 ---
 
