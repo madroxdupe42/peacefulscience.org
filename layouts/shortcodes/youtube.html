@@ -1,7 +1,7 @@
-<figure class="aside-xl-wide">
+<figure class="aside-xl-right">
 {{ partial "youtube" (.Get 0) }}
   {{- with .Get 1  -}}
-  <figcaption class="text-smaller text-center text-muted p-2">
+  <figcaption class="text-smaller text-left text-muted p-2">
      {{- . | $.Page.RenderString (dict "display" "inline")  -}}
   </figcaption>
   {{- end  -}}

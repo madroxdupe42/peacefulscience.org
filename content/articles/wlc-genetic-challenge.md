@@ -25,6 +25,8 @@ In order to understand this challenge, it is important to understand that accord
 
 But why couldn't there have been within this wider population of non-human hominins a first couple who made the transition to humanity and whose descendants became the human race? Some critics have alleged that this scenario is impossible, since it contradicts the data of population genetics. In order to understand this challenge, let's briefly review what we learned in high school biology.
 
+{{< youtube `XhznTACRjSU` `Dr. Craig holds that Adam and Eve were ancient, but *[The Genealogical Adam and Eve](http://peacefulscience.org/genealogical-adam-eve/)* explores a recent Adam and Eve. See the discussion between Dr. Swamidass and Dr. Craig here about this difference. As Richard Buggs puts it, "[Is the most important thing about them the time in which they existed, or something that made them objectively unique?](https://natureecoevocommunity.nature.com/users/24561-richard-buggs/posts/61200-adam-and-eve-our-ghostly-ancestors)"` >}}
+
 Human beings have in each nucleus of each cell of their bodies 23 pairs of chromosomes containing the DNA that determines our genes. A segment of DNA is called a locus (Latin for "place"). The sequence of DNA letters at any locus is called an allele. Since our chromosomes come in pairs, we therefore have one allele at a locus on one chromosome and another allele at a similar locus on the other chromosome. These alleles determine features like eye color, height, skin color, and so on. Now the claim is that when we look at the genetic profile of the human population today, it is impossible that it could have stemmed from an original couple alone; there had to be numerous ancestors from the very beginning in order for the human race to have arrived at its present condition.
 
 ## The Problem
@@ -80,9 +82,9 @@ Venema nonetheless insists that, despite the *possibility* of a founding pair be
 
 It is important to understand that the existence of a historical Adam and Eve need not imply their sole genetic progenitorship, especially over tens of thousands of years. Even if their descendants were for a time reproductively isolated, such isolation could result, not from population reduction, but from social distancing due to a myriad of factors, including geographic isolation, tribalism, language barriers, xenophobia, cognitive capacity differences, racism, just plain revulsion, and so on, as well as any population reduction we might imagine. Perhaps these barriers were sometimes breached, but then we do not have any idea whether there were offspring of such unions that had genetic input into the human line. Of course, once Adam and Eve's descendants replaced Heidelberg Man, we know that there was interbreeding among the extended human family, but we can only conjecture as to what happened prior to that.
 
-{{< youtube `XhznTACRjSU` >}}
 
-Dr. Craig holds that Adam and Eve were ancient, but *[The Genealogical Adam and Eve](http://peacefulscience.org/genealogical-adam-eve/)* explores a recent Adam and Eve. See the discussion between Dr. Swamidass and Dr. Craig here about this difference. As Richard Buggs puts it, "[Is the most important thing about them the time in which they existed, or something that made them objectively unique?](https://natureecoevocommunity.nature.com/users/24561-richard-buggs/posts/61200-adam-and-eve-our-ghostly-ancestors)"
+
+
 
 In conclusion, Adam and Eve may therefore be plausibly identified as members of *Homo heidelbergensis* and as the founding pair at the root of all human species. Challenges to this hypothesis from population genetics fail principally because we cannot rule out on the basis of the genetic divergence exhibited by contemporary humans that our most recent common ancestors, situated more than 500 kya, are the sole genetic progenitors of the entire human race, whether past or present.
 
