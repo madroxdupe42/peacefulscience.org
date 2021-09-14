@@ -13,7 +13,7 @@ feature: true
 headerimage:
   src: /img/2020/05/wcl-ps.jpg
   youtube: SBbb0vj2FmA
-  caption: This article is a footnoted transcript of Dr. Craig's Defenders class on May 10, 2020.
+  credit: This article is a footnoted transcript of Dr. Craig's Defenders class on May 10, 2020.
 title: What Became of the Genetic Challenge to Adam and Eve?
 ---
 
