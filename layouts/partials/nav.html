@@ -8,7 +8,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto mr-auto">
+    <ul class="navbar-nav mx-auto">
     
       
       
@@ -33,7 +33,7 @@
                     {{ end }}
                  {{ end }}
                 </div>
-                </div>
+
 
             {{ else }}
                 {{ if eq .URL $currentPage.RelPermalink}}
@@ -51,6 +51,7 @@
         {{ end }}
       
     </ul>
+
 
 {{ partial "mailinglist" (dict ) }}
 

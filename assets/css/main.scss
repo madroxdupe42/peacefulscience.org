@@ -1,12 +1,24 @@
 
-/* @import 'https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css'; */
-
 $enable-negative-margins: true;
-$primary: #008800;
+$primary: #006600;
 $dark: #000000;
 $enable-rounded: false; 
+$amp-enable-rounded: false; 
+
+
+
+$body-bg-inverse: #fff;
+$body-color-inverse: #000;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+$amp-enable-rounded: false; 
+
+// @import "ampcssframework/scss/amp-source";
+// $grid-breakpoints: $amp-grid-breakpoints;
 
 
 @font-face {
@@ -15,6 +27,19 @@ $enable-rounded: false;
    font-display: swap;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+	color: black;
+	background-color: white;
+	}
+	a {
+		color: $primary;
+		&:hover {
+			
+			color: unset;
+		}
+	}
+}
 
 @page  
 { 
@@ -28,11 +53,11 @@ a.doi-badge {
  text-decoration: none;
  font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
  text-shadow: 0px 1px #01010145;
- text-color: white;
+ color: white;
  font-size: 11px;
  white-space: nowrap;
  span {font-size: 11px;}
- &:focus-visible{text-outline: none} 
+ &:focus-visible{outline: none} 
 }
 
 
@@ -198,7 +223,7 @@ div.mce_inline_error {
 
 #mc_embed_signup:not(:focus-within) {
   div.mce_inline_error,#mce-error-response,#mce-success-response  {
-  display: none !important; }
+  display: none; }
 }
   
 .focus-front:focus-within {
@@ -297,7 +322,7 @@ div.mce_inline_error {
     color: inherit
     }
   .text-muted {
-    color: #999 !important;
+    color: #999 ;
   }
 }
 
@@ -488,7 +513,7 @@ article p:last-child {
 .article-date {
  @extend .py-1;
  @extend .text-muted;
- font-family: AlverataSb !important;
+ font-family: AlverataSb;
 }
 
 
@@ -510,7 +535,7 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
   @extend .pt-3;
 }
 
-.article-question > p:first-of-type::first-letter {
+.article-question > p:first-of-type::first-letter, dropcap:first-of-type::first-letter  {
   @extend .font-special;
 
   margin: 0;
@@ -559,7 +584,7 @@ article > p:not(.editor-note):first-of-type::first-letter, .dropcap::first-lette
 
 .editor-note {
   font-size: smaller;
-  background: #f2f2f2 !important;
+  background: #f2f2f2 ;
   @extend .expand-right;
   @extend .p-3;
   @extend .mb-3;
@@ -676,12 +701,12 @@ pointer-events: none;
 
 
   nav.navbar {
-    position: sticky;
+	position: sticky;
     right: 0;
     left: 0;   
     border-radius: 0;
     top: 0;
-    z-index: 1000;
+    z-index: 10000;
   }   
 
 
@@ -862,11 +887,11 @@ blockquote {
   @extend .ml-4;
   @extend .pl-2;
   font-size: smaller;
-border-left: 3px solid #dfdfdf  !important;  
+border-left: 3px solid #dfdfdf ;  
 
 	 @media print {
 border: 0px !important;  
-border-left: 3px solid #dfdfdf  !important;  
+border-left: 3px solid #dfdfdf ;  
 	 }
 }
 

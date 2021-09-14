@@ -5,10 +5,10 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 plugins.push(require("autoprefixer"));
 
 
-plugins.push(purgecss( { fontFace: false, content: [ 'layouts/**/*.html', ], }))
+plugins.push(purgecss( { fontFace: false, content: [ 'layouts/**/*.html', 'assets/css/main.scss' ], }))
 
 
-//plugins.push(require("cssnano")({ preset: 'default', }));
+plugins.push(require("cssnano")({ preset: 'default', }));
 
 
 module.exports = {    

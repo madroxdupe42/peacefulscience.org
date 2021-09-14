@@ -30,6 +30,8 @@ markup:
         block: true
         title: true
 
+
+
 cache:
   getjson:
     dir: :cacheDir/:project
@@ -63,6 +65,8 @@ params:
     params: ["categories", "tags"]
   headerType: none
   imagecdn: 8l2ic7fx.cdn.imgeng.in
+
+paginate: 12
 
 googleAnalytics: G-BHPH29YM44
 
