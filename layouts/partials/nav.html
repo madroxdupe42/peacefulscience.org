@@ -2,7 +2,7 @@
 {{ $menu := .Site.Menus.main  }}
 
 <nav class="navbar navbar-expand-lg bg-dark  navbar-dark w-100 border-bottom shadow">
-  <a class="navbar-brand" href="/">Peaceful Science</a>
+
   <button class="navbar-toggler shake" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -49,12 +49,27 @@
             {{ end }}
 
         {{ end }}
-      
+
     </ul>
-
-
-{{ partial "mailinglist" (dict ) }}
 
 <!-->      <a href="http://eepurl.com/dINfpn" target="_blank" class="btn btn-outline-light my-4 my-sm-2 shake" >Join Our Mailing List</a> -->
   </div>
 </nav>
+
+<footer class="w-100 bg-dark text-light d-print-none p-2  border-top"  style="position: fixed; bottom: 0; z-index: 10000">
+<div class="container-fluid">
+<div class="row justify-content-center" >
+<div class="col-4">
+  <a class="navbar-brand font-special text-white" href="/">Peaceful Science</a>
+
+</div>
+
+<div class="col-8 ">
+
+{{partial "mailinglist"  (dict ) }}
+</div>
+
+</div>
+</div>
+</footer>
+
