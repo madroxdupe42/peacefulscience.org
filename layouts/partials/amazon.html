@@ -1,9 +1,17 @@
-<iframe type="text/html" width="336" height="550" class="d-block mx-auto d-print-none"
-frameborder="0" allowfullscreen style="max-width:100%"
-   src="https://read.amazon.com/kp/card?asin={{- . -}}&preview=inline&linkCode=kpe&tag=swamidass-20" >
-</iframe>
+{{ $embed := printf `https://read.amazon.com/kp/card?asin=%s&preview=inline&linkCode=kpe&tag=swamidass-20` .  }}
+{{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
 
-<a href="https://www.amazon.com/dp/{{- . -}}/ref=nosim?tag=swamidass-20">
-<img src="https://images.amazon.com/images/P/{{- . -}}.LZZZZZZZ.jpg"
-class="d-none d-print-block" loading="lazy" style="width: 100% "></img>
-</a>
+<iframe type="text/html" width="336" height="550" class="d-block mx-auto" frameborder="0" allowfullscreen style="max-width:336; height: 550"
+srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:56px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+@media print {span{ display: none}}
+</style>
+<a href={{ $embed }}>
+<img src='{{ $img }}' width=336 height=550 style='height: auto' />
+<span>&#128269;</span>
+</a>"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
