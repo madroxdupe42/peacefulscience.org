@@ -29,14 +29,19 @@
 
 <article class="{{ $layout }} {{ $containerclass }}">
 
-  <a href="{{$page.Permalink}}">   
 
+{{ with $page.Params.Headerimage.Youtube }}
+  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` )  `Youtube` . `Class` $imageclass   `Style` $imagestyle  ) }}
+
+{{ else}}
+  <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" 
   src="{{ $src | partial `imgcdn` }}"
   {{- if not (in $hide "lazy") -}} loading="lazy" {{- end }} {{ $imageattr }}>
   </img>
-
   </a>
+ {{ end }} 
+ 
 
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  
     <a class="title d-block" href="{{$page.Permalink}}"> {{ $page.Params.page_title | default $page.Title  | markdownify }} </a>

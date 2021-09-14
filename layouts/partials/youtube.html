@@ -1,12 +1,22 @@
 {{ $id := . }}
 {{ $img := printf `https://img.youtube.com/vi/%s/hqdefault.jpg` $id }}
+{{ $style := default nil }}
+{{ $class := "embed-responsive embed-responsive-16by9" }}
 
 {{ if reflect.IsSlice . }}
    {{ $id = index . 0 }}
    {{ $img = index . 1 }}
 {{ end }}
 
-<div  class="embed-responsive embed-responsive-16by9">
+{{ if reflect.IsMap . }}
+   {{ $id = .Youtube }}
+   {{ $img = .Image | default $img }}
+   {{ $style = .Style | default $style }}
+   {{ $class = .Class | default $class }}
+{{ end }}
+
+
+<div  class="{{ $class | safeCSS }}" {{ with $style }}{{ . | safeCSS }}{{ end }}>
 
 <iframe
   class="embed-responsive embed-responsive-16by9"
