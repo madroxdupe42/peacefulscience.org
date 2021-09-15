@@ -46,13 +46,17 @@
     <div class="col p-5 text-center">
       
 
-{{  $src := partial "imgurl" (dict "src"  "/img/2019/07/PS-logo-long-white.png" "loc" $.File.Path )  }}      
-    
-      <img style="width: 90%; height: auto"
+{{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
+      <img class="d-none d-lg-inline" style="width: 80%; height: auto" alt="Peaceful Science"
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
       src="{{ $src |  partial `imgcdn` }}"></img>
       
-      <h4  class="text-white"> What Does It Mean To Be Human? </h4>
+{{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-stacked-white.png" "loc" $.File.Path )  }}      
+      <img class="d-lg-none" style="width: 80%; height: auto"  alt="Peaceful Science" 
+    {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
+      src="{{ $src |  partial `imgcdn` }}"></img>
+      
+      <h3  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h3>
     </div>
   </div>
 </div>

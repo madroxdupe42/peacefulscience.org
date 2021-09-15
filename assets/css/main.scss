@@ -698,6 +698,19 @@ pointer-events: none;
 }
 
 
+@keyframes grey-white-pulse {
+
+  0% {color: #080;}
+  100% {color: white;}
+}
+
+.grey-white-pulse {
+  animation-name: grey-white-pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 
 
   nav.navbar {
