@@ -835,7 +835,7 @@ scroll-margin-top: 100px;
 
 
    @include media-breakpoint-up(md) {
-    grid-template-columns: calc(25% + 80px) minmax(calc(75% - 120px), 576px) ;
+    grid-template-columns: calc(25% + 80px) calc(75% - 120px) auto ;
    }
    
    @include media-breakpoint-up(xl) {
@@ -844,41 +844,65 @@ scroll-margin-top: 100px;
 }
 
 .left-sidebar {
-    @include media-breakpoint-up(md) {
-        grid-row: 1;
+	display: none;
+	
+	
+    @include media-breakpoint-up(sm) {
+		display: block;
+        grid-row: 2;
+        grid-column: 1;
     }
 }
 
-.title-bar {
-   @extend .my-5;
-   @extend .p-3;
-    @include media-breakpoint-up(md) {
-         grid-column: 2;
-    }   
-   
-  
-   display: block;
+.article-header {
+ z-index:10;
+ @extend .px-3;
+ @extend .pt-3;
+ hyphens: auto;
+ width: 100%;
+grid-column: 1; 
+   grid-row: 1;
    margin: $spacer auto $spacer auto;
-   float:none;
    width: 100%;
-   
-   @include media-breakpoint-up(xl) {
-	 width: 137%;
-     margin: $spacer -37% $spacer 0px;
-   }
 
+   
+   @include media-breakpoint-up(md) {
+	grid-column: 1 / span 2;
+	}
+
+
+
+   
+   @include media-breakpoint-up(lg) {
+	grid-column: 2 / span 1;
+	}
+
+	
+    @include media-breakpoint-up(xl) {
+       margin-right: -37%;
+	   width: 137%;
+	} 
+	
+
+    @media print {
+       width: 75%;
+    }
 }
 
 
 
-.article-cell {
+
+.article-body {
 @extend .px-3;
-@extend .py-5;
+
  hyphens: auto;
+display: block;
+   grid-column: 1;
+grid-row: 2; 
 
     @include media-breakpoint-up(md) {
          grid-column: 2;
-         
+
 	}   
    
     @media print {
@@ -886,15 +910,7 @@ scroll-margin-top: 100px;
     }
 }
 
-.right-sidebar {
-@extend .py-2;
-display: none;
 
-@include media-breakpoint-up(xl) {
- display: block;
-}
-
-}
 
 
 
