@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
 article {
 
 
-h1, h2, h3, h4, h5, h6, h7, h8 {
+h2, h3, h4, h5, h6, h7, h8 {
   margin-left: -0.5rem;
   
   @include media-breakpoint-up(xl) {
@@ -757,12 +757,11 @@ scroll-margin-top: 100px;
   }
 }
 
- .article-cell  sup {
+.footnote-ref {
    background: #080;
   border-radius: 2px;
    vertical-align: baseline;
   position: relative;
-  top: -0.4em;
 }
 
 .footnote-backref {
@@ -846,7 +845,7 @@ scroll-margin-top: 100px;
 
 .left-sidebar {
     @include media-breakpoint-up(md) {
-        grid-row: 1/ span 2;
+        grid-row: 1;
     }
 }
 
@@ -874,23 +873,27 @@ scroll-margin-top: 100px;
 
 .article-cell {
 @extend .px-3;
+@extend .py-5;
+ hyphens: auto;
+
     @include media-breakpoint-up(md) {
          grid-column: 2;
          
 	}   
-    hyphens: auto;
-    
+   
     @media print {
-       width: 75%
+       width: 75%;
     }
 }
 
 .right-sidebar {
 @extend .py-2;
 display: none;
+
 @include media-breakpoint-up(xl) {
  display: block;
 }
+
 }
 
 
