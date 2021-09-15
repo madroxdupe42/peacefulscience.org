@@ -1,7 +1,6 @@
 [build]
 command = "hugo mod clean && hugo -b $URL"
 publish = "public/"
-functions = "lambda"
 
 [build.environment]
 HUGO_VERSION = "0.87.0"
