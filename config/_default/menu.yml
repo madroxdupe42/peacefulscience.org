@@ -1,8 +1,5 @@
     
 main:
-  - name: Home
-    url: /
-    weight: -120
   - name: Articles
     url: /archive/
     weight: -115  
