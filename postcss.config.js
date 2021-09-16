@@ -11,7 +11,7 @@ plugins.push(require("autoprefixer"));
 
 plugins.push(require("cssnano")({ preset: 'default', }));
 
-plugins.push(require("postcss-prettify"));
+// plugins.push(require("postcss-prettify"));
 
 module.exports = {    
   plugins: plugins 
