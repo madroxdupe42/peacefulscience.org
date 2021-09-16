@@ -2,9 +2,6 @@
 
 {{ define "head" }}
 {{ partial "jsonld" . }} 
-{{- with  .Params.headerImage.Src }}
-  <link rel="preload" href="{{ partial `imgcdn` .  }}" as="image">
-{{ end }}
 {{ end }}
 
 
