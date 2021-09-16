@@ -1,6 +1,9 @@
 {{ define "head" }}
 {{ partial "jsonld" . }}
-{{ end }}
+  <link rel="preload" href="{{ partial `imgcdn`  `/img/design/green-hex.png` }}" as="image" media="(max-width: 800px)">
+  <link rel="preload" href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.png` }}" as="image" media="(max-width: 800px)">
+  <link rel="preload" href="/font/alveratasb-webfont.woff2" as="font">
+  {{ end }}
 
 {{ define "main" }}
 
@@ -32,8 +35,6 @@
 
 
 {{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
-{{  $srcwebp := partial "imgurl" (dict "src"  "/img/design/green-hex.webp" "loc" $.File.Path )  }}
-
 
 
  <img class="parallax" style="position: absolute; width: 100%; height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}"  sizes="100%"></img>
