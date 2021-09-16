@@ -1,3 +1,4 @@
+@import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
 
 $enable-negative-margins: true;
 $primary: #006600;
@@ -13,10 +14,7 @@ $body-color-inverse: #000;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
-
-
-$amp-enable-rounded: false; 
-
+// $amp-enable-rounded: false; 
 // @import "ampcssframework/scss/amp-source";
 // $grid-breakpoints: $amp-grid-breakpoints;
 
@@ -24,8 +22,7 @@ $amp-enable-rounded: false;
 @font-face {
    font-family: "AlverataSb";
    src: local("AlverataSb"), url("/font/alveratasb-webfont.woff2") format("woff2");
-   font-display: swap;
-}
+   font-display: swap;}
 
 @media (prefers-color-scheme: dark) {
 	body {

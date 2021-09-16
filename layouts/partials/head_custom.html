@@ -1,11 +1,6 @@
 
-{{ $style := resources.Get "css/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS }}
-  <style>
-{{ $style.Content | safeCSS }}
-  </style>
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS (dict "outputStyle" "compressed")  | resources.PostCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
   
-  
-<link rel="preload" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"></noscript>
 
 

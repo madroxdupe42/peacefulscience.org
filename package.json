@@ -10,6 +10,8 @@
     "jquery": "latest",
     "popper.js": "latest",
     "postcss-cli": "latest",
+    "postcss-import-url": "^7.0.0",
+    "postcss-prettify": "^0.3.4",
     "workbox-build": "^6.1.5"
   },
   "devDependencies": {
