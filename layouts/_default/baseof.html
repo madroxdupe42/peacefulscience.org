@@ -5,7 +5,16 @@
     {{- block "head" . -}}{{- end }}
   </head>
   <body>
+  {{ if not .Site.IsServer }}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDF8R85"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}
+  
+  
 {{ partial "nav.html" . -}}
+
     {{- block "header" . }}{{- partial "header.html" . -}}{{ end }}
     <div id="content">
       {{- block "main" . }}{{- end }}
