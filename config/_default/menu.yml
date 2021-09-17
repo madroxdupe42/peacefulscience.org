@@ -9,9 +9,6 @@ main:
   - name: Forum
     url: /forum/
     weight: -108
-  - name: Search
-    url: /search/
-    weight: -101
   - name: About
     identifier: about
     url: /articles/mission-and-values/

@@ -263,7 +263,7 @@ div.mce_inline_error {
 
 
 .dark {
-.navbar,.title,.button,.label {
+.title,.button,.label {
   @extend .text-light;
   a:hover {color: #002200}
 }}
@@ -711,10 +711,6 @@ pointer-events: none;
 
 
   nav.navbar {
-    right: 0;
-    left: 0;   
-    border-radius: 0;
-    top: 0;
     z-index: 10000;
   }   
 

@@ -1,21 +1,31 @@
 {{ $currentPage := . }}
 {{ $menu := .Site.Menus.main  }}
 
-<nav class="navbar navbar-expand-lg  position-sticky navbar-dark w-100 border-bottom shadow" style="background-image: linear-gradient(-30deg, #000, #020)">
- <a class="navbar-brand font-special text-light" href="/">Peaceful Science</a>
+
+<div style="height: 40px; width: 100%"></div> 
+
+<nav class="navbar navbar-expand-lg  fixed-top navbar-dark w-100 border-bottom shadow" style="background-image: linear-gradient(-30deg, #000f, #020f)">
 
 
-  <button class="navbar-toggler shake" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+ <a class="navbar-brand font-special text-light text-larger" href="/">Peaceful Science</a>
+
+    <button class="navbar-toggler shake text-white btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
   </button>
+
   
   
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
     <ul class="navbar-nav mr-auto">
 
-<li class="nav-item"> <a class="nav-link grey-white-pulse" target="_blank" href="http://eepurl.com/dINfpn"> Subscribe</a> </li>
-    
+
+<li class="nav-item"> <a class="nav-link grey-white-pulse" id="open-popup" target="_blank" href="http://eepurl.com/dINfpn"> Subscribe</a> </li>
+
+
+
+
+      
       
       
         {{ range $menu }}
@@ -55,10 +65,32 @@
             {{ end }}
 
         {{ end }}
-    </ul>
 
-<!-->      <a href="http://eepurl.com/dINfpn" target="_blank" class="btn btn-outline-light my-4 my-sm-2 shake" >Join Our Mailing List</a> -->
+    </ul>
+           
+           
+     <form class="form-inline"  action="/search/" method="get" target="_blank">
+    <button class=""  style="visibility: hidden" type="submit">Search</button>    
+    <input class="form-control  text-light" type="search" name="query" style="color: white; background: none; outline: none; border: none; border-bottom: 2px" placeholder="Search" aria-label="Search">
+      </form>
+  
+
+  <div class=" nav-item text-light d-block text-larger my-1"  style=" word-spacing: 10px;" >
+   
+    <a href="https://www.facebook.com/peacefulscience.org/" target="_blank"  rel=”nofollow” class="text-light"><i class="fab fa-facebook"></i></a>
+
+    <a href="https://www.youtube.com/channel/UCv9gNGOpR7mH4usLW4cpNvg" target="_blank"  rel=”nofollow” class="text-light"><i class="fab fa-youtube"></i></a>
+
+    <a href="https://twitter.com/PeacefulScience" target="_blank"   rel=”nofollow” class="text-light"><i class="fab fa-twitter"></i> </a>
+
   </div>
+  
+  <!-->      <a href="http://eepurl.com/dINfpn" target="_blank" class="btn btn-outline-light my-4 my-sm-2 shake" >Join Our Mailing List</a> -->
+  </div>
+
+  
+
+
  
 </nav>
 
