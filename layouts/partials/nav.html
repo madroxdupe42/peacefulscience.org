@@ -14,33 +14,17 @@
   </button>
 
   
-  
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
     <ul class="navbar-nav mr-auto">
 
 
-<li class="nav-item"> <a class="nav-link grey-white-pulse" id="open-popup" href="#subscribe"> Subscribe</a> </li>
-
-<script type="text/javascript" src="https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-
-<
-<script>
-function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"3b4602126e38b8a5951fd6fd1","lid":"83bbf90a5a"}) })
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-};
-
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
+<li class="nav-item"> <a class="nav-link grey-white-pulse" id="open-popup"  onclick='document.getElementById("subscribe").classList.toggle("active");'> Subscribe</a> </li>
 
 
 
-      
-      
-      
+
         {{ range $menu }}
-
             {{- if .Children -}}
                {{- $active := eq .URL $currentPage.RelPermalink }}
                {{- range .Children }}
