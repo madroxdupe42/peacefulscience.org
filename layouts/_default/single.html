@@ -73,7 +73,7 @@
  <article class="article-body">
       
       {{ with  .Params.series }}
-       {{ with site.GetPage "taxonomyTerm" .  }}
+       {{ with site.GetPage ( printf "/series/%s" . ) }}
          <div class="series aside-xl-right bg-white">
          <p> <a class="font-special text-dark" href="{{.Permalink}}">{{ .Title }} </a>
          <ol class="text-smaller">

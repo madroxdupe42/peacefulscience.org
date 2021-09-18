@@ -1,26 +1,32 @@
 ---
+series: 100-year-tree
 aliases:
 - /100-year-old-tree/
 authors:
 - swamidass
 categories:
-- 100-year-tree
 - evolution
 - theology
 date: "2016-05-13T04:58:56"
-description: I recently published an article that posed a question to theologians, inspired by what I have seen in science. I am still hoping for a response. I am still curious about the theology. To be clear, this is not a forum for scientific debate, but an invitation to creatively and productively engage mainstream science with theology. Responses \[...\]
+description: Let us imagine that God creates a fully grown tree today, and places it in a forest. Is this tree 100 years old, or is it one week old?
 headerimage:
   src: /img/2016/05/old-tree-rings-small.jpg
 title: The 100 Year Old Tree
 ---
 
-*I recently published an [article](http://swami.wustl.edu/evidence-and-evolution) that posed a question to theologians, inspired by what I have seen in science. I am still hoping for a response. I am still curious about the theology. To be clear, this is not a forum for scientific debate, but an invitation to creatively and productively engage mainstream science with theology. Responses to my question can be found [here](https://peacefulscience.org/category/projects/100-year-old-tree/).*
+I recently published an [article](/evidence-and-evolution/) that posed a question to theologians, inspired by what I have seen in science. I am still hoping for a response. I am still curious about the theology. To be clear, this is not a forum for scientific debate, but an invitation to creatively and productively engage mainstream science with theology. Responses to my question can be found [here](/series/100-year-tree/).
 
 ## The Riddle of the 100 Year-Old Tree
 
 Let us imagine that God creates a fully grown tree today, and places it in a forest. A week later, a scientist and a theologian encounter this tree. The theologian believes that God is trustworthy and has clearly communicated to him that this tree was created just a week ago. The scientist bores a hole in the tree, and counts its rings. There are 100 rings, so he concludes that the tree is 100 years old. Who is right? In some senses, both the scientist and the theologian are right. God created a one week old tree (the true age) that looks 100 years old (the scientific age). Moreover, it would be absurd for the theologian to deny the 100 rings that the scientist uncovered, or to dispute the scientific age of the tree. Likewise, the scientist cannot really presume to disprove God.
 
-Instead, the theologian should wonder why God would not leave clear, indisputable evidence that the tree is just a week old. ***My question to the theologians: Why might God choose not to leave evidence that this 100-year old tree is on week old?*** Alternatively, why might God choose to leave evidence that the week-old tree is 100 years old? [^1]
+Instead, the theologian should wonder why God would not leave clear, indisputable evidence that the tree is just a week old. My question to the theologians: 
+
+> Why might God choose not to leave evidence that this 100-year old tree is on week old?
+
+ Alternatively, w
+
+> why might God choose to leave evidence that the week-old tree is 100 years old?[^1]
 
 ## An Analogy to Evolution
 
@@ -36,20 +42,18 @@ Why might God have done this? ***Why hasn't science found God? Why can't scien
 
 ## Call For Responses
 
-*[**Why might God choose not to leave evidence that the 100-year old tree is just a week old?**]*
+**Why might God choose not to leave evidence that the 100-year old tree is just a week old?**
 
 Email your thoughtful response, and I will post it on my blog, for everyone to see.
 
-<div>
-
+<
 **Who may respond?** Any one may respond, but the opinions of trained theologians and philosophers are most interesting to all of us. Non-theologians should take extra care to explain how their understanding resonates with or connects to specific theological schools of thought or denominations.
 
 **What is not allowed?**Obviously ignorant or inflammatory responses will be rejected. Responses focused on the science alone will be rejected. Remember, even if my science is wrong, it is not obvious how it is wrong. Why isn't the evidence more clear? This is not meant to be a forum for scientific debate or public vilification, but a place for thinking about the theological question.
 
 **What format and style?** Send me a Word document with 1000 to 2000 words, targeted at a broad audience. You may use references, but this is not required. Also give me your full name (no pseudonyms), credentials, and academic appointment (if applicable).
 
-</div>
-
+<
 **What is the timeline?** I will accept responses through the end of 2016. I will start posting them once I get the first three quality responses, which I imagine will be about a month from now.
 
 **Any gotchas?** It will be presumed that any submissions to me can be lightly edited (for grammar and typos) and republished in entirety (and with attribution) as I see fit. Anyone unwilling to agree to these terms needs to explicitly ask for an exception at the time of submission, and obtain written confirmation from me.

@@ -8,13 +8,13 @@ categories:
 - forum
 commenturl: "http://discourse.peacefulscience.org/t/an-old-earther-on-peaceful-science/329"
 date: "2018-06-05T01:16:42"
-description: Mark M. Moore is an Old Earth Creationist (OEC), and has been an active participant on the Peaceful Science forums. He recently became one of our moderators.  Of note, Mark wrote an important book, Early Genesis, on Genesis 1-11, where he independently comes to a reading of Genesis 1 and 2 which describes a population \[...\]
+description: Alongside scientists that affirm evolution, how did Mark Moore, an old-earth creationist, find a home on the Peaceful Science forum? 
 headerimage:
   src: /img/2018/06/Mark-Moore.png
 title: An Old Earther on Peaceful Science
 ---
 
-<note class="editor-note">
+<div class="editor-note">
 
 Mark M. Moore is an Old Earth Creationist (OEC), and has been an active participant on the Peaceful Science forums. He recently became one of our moderators.  Of note, Mark wrote an important book, [Early Genesis](https://www.amazon.com/Early-Genesis-Cosmology-Mark-Moore/dp/0996239014?tag=swamidass-20), on Genesis 1-11, where he independently comes to a reading of Genesis 1 and 2 which describes a population outside the garden.
 
@@ -22,7 +22,7 @@ For one entertaining exchange, look at [the blurry line between OEC and Theisti
 
 So, Mark found a home on the forums. I invited him to explain why he has found value in Peaceful Science. This is, after all, a blog and forum run by a scientist that affirms evolutionary science. Why would an OEC find himself here?
 
-</note>
+</div>
 
 I have been an Old Earth Creationist for decades, since the 1990s, including when I taught earth and life science in public schools. During and after my time in the classroom I continued to take part in apologetics classes sponsored by an area church in which I vigorously argued against evolution as the sole explanation for the diversity of life on earth. For a time, though I had some doubts about the details of their model, I was a repeat donor to *Reasons to Believe*. I still have a lot of respect for their work in astronomy. Though, I now adhere to a different Scriptural framework than do they (the [Christ-Centered model for early Genesis](https://www.amazon.com/dp/B06XRLDYJB?tag=swamidass-20)), my views fall within the Old Earth Creationist Camp.
 

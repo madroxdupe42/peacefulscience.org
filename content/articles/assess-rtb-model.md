@@ -1,6 +1,7 @@
 ---
 aliases:
 - /assess-rtb-model/
+series: rtb
 authors:
 - swamidass
 categories:
@@ -9,7 +10,7 @@ categories:
 - science
 commenturl: "http://discourse.peacefulscience.org/t/assessing-the-reasons-to-believe-model/453"
 date: "2018-06-21T21:21:30"
-description: Reasons to Believe (RTB) is among the most important organizations in the origins conversation. It is led by a wise leader, whom I deeply respect, Dr. Hugh Ross. I had the privilege of sharing the stage with him this last January, asking Are Humans Special? Recently, I invited Dr. Fazale Rana from RTB into dialogue about \[...\]
+description: Hugh Ross and *Reasons to Believe* (RTB) represent old earth creationists. Is their model of human origins consistent with the evidence?
 headerimage:
   src: /img/2018/06/ross-swamidass.png
 title: Assessing the Ross-Rana Model
