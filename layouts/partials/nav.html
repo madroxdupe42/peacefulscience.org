@@ -4,7 +4,7 @@
 
 <div style="height: 40px; width: 100%"></div> 
 
-<nav class="navbar navbar-expand-lg  fixed-top navbar-dark w-100 border-bottom shadow" style="background-image: linear-gradient(-30deg, #000f, #020f)">
+<nav id="navbar" class="navbar navbar-expand-lg  fixed-top navbar-dark w-100 border-bottom shadow" style="background-image: linear-gradient(-30deg, #000f, #020f); transition: .3s ease-in;">
 
 
  <a class="navbar-brand font-special text-light text-larger" href="/">Peaceful Science</a>
@@ -92,6 +92,20 @@
 
 
 <script defer> 
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos || currentScrollPos < 80) {
+	    document.getElementById("navbar").style.top = "0";
+  } else {
+	    document.getElementById("navbar").style.top = "-60px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
 let navbarToggler = document.querySelector('.navbar-toggler');
 let navbarDropdown = document.querySelector('#navbarNavDropdown');
 let navbarDropdownExpanded = navbarDropdown.getAttribute('aria-expanded');
