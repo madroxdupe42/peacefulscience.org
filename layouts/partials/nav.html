@@ -9,12 +9,12 @@
 
  <a class="navbar-brand font-special text-light text-larger" href="/">Peaceful Science</a>
 
-    <button class="navbar-toggler shake text-white btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button  class="navbar-toggler shake text-white btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
 
   
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse" style="transition: 0.3 ease-in;" id="navbarNavDropdown">
 
     <ul class="navbar-nav mr-auto">
 
@@ -93,18 +93,6 @@
 
 <script defer> 
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos || currentScrollPos < 80) {
-	    document.getElementById("navbar").style.top = "0";
-  } else {
-	    document.getElementById("navbar").style.top = "-60px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
 
 let navbarToggler = document.querySelector('.navbar-toggler');
 let navbarDropdown = document.querySelector('#navbarNavDropdown');
@@ -124,6 +112,12 @@ navbarToggler.addEventListener('click', function(){
   navbarDropdown.setAttribute("aria-expanded", navbarDropdownExpanded);
 });
 
+function closeNavbar(){
+	  navbarDropdown.classList.remove('show');
+	  navbarDropdownExpanded = "false";
+	  navbarDropdown.setAttribute("aria-expanded", navbarDropdownExpanded);
+}	
+	
 // Dropdown toggle
 
 function getTogglerId(className, event, fn) {
@@ -177,5 +171,26 @@ navbar.addEventListener('focusout', function() {
     }
   };
 });
+
+
+
+var prevScrollpos = window.pageYOffset;
+let navBar = document.getElementById("navbar")
+
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos || currentScrollPos < 80) {
+	  navBar.style.top = "0";
+	  closeMenus();
+  } else {
+	  closeMenus();
+	  navBar.style.top =  (-navBar.offsetHeight).toString() + "px" ;  
+  }
+  prevScrollpos = currentScrollPos;
+ 
+}
+
+
 </script>
 
