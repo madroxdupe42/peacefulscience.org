@@ -58,6 +58,23 @@
 if (window.location.hash.substr(1) == "subscribe") {
 	document.getElementById("subscribe").classList.add("active");
 };
+
+
+window.addEventListener('hashchange', function() {
+
+	let elems = document.getElementsByClassName("targeted");
+	for (let k = 0; k < elems.length; k++) {
+		elems[k].classList.remove('targeted');
+	}
+	
+	if (location.hash.lastIndexOf("#fnref", 0) === 0 ) {
+		let helem = document.getElementById(location.hash.substring(1));
+		helem.parentNode.classList.add('targeted');
+	}
+
+	});
+
+
 </script>
 
 {{- partial "footer_custom.html" . }}

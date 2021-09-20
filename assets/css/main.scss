@@ -612,6 +612,22 @@ figcaption {
 	 }
 	}
 
+
+
+@keyframes highlight {
+    0% {
+        background: #ee0;
+    }
+    100% {
+        background: unset;
+    }
+}
+
+
+.targeted, *:target {
+    animation: highlight 3s;
+}
+
 	.aside-#{$breakpoint}-right {
 	 display: block;
 	  z-index: 11;
