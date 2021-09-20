@@ -1,10 +1,10 @@
 ---
+series: biologos
 aliases:
 - /articles/biologos-evolving-position/
 authors:
 - swamidass
 categories:
-- biologos
 - science
 - adam-eve
 date: "2021-08-30T12:00:00"

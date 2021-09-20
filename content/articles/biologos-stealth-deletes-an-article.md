@@ -1,11 +1,11 @@
 ---
+series: biologos
 aliases:
 - /biologos-stealth-deletes-an-article/
 authors:
 - swamidass
 categories:
 - adam-eve
-- biologos
 - dialogue
 - science
 commenturl: "http://discourse.peacefulscience.org/t/biologos-stealth-deletes-an-article/12999"

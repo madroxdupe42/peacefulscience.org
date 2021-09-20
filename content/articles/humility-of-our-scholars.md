@@ -1,4 +1,5 @@
 ---
+series: biologos
 aliases:
 - /humility-of-our-scholars/
 authors:
