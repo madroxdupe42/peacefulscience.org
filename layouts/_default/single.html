@@ -20,16 +20,18 @@
 
 <div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="partial `imgcdn`  `/img/2019/07/PS-logo-long-black.png`"></img></div>
 
-<div class="article-grid">
+<article class="article-grid">
 
 
 
 
-<div class="article-header" >
+<header class="article-header" >
     
-    <div class="article-date d-inline"> {{ .PublishDate.Format "January 2, 2006" }} </div>
-       {{ with .Scratch.Get "Views" }}
+    {{ with .Date }}
+    <div class="article-date d-inline"> {{ $.PublishDate.Format "January 2, 2006" }} </div>
+       {{ with $.Scratch.Get "Views" }}
     <div class="view-count d-inline d-print-none float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
+    {{ end }}
     {{ end }}
 
     <h1 id="title" class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
@@ -68,24 +70,27 @@
       {{- end }}
     {{- end }}
     </div>
-</div>
+</header>
 
- <article class="article-body">
+ <main class="article-body" position="relative">
       
       {{ with  .Params.series }}
        {{ with site.GetPage ( printf "/series/%s" . ) }}
-         <div class="series aside-xl-right bg-white">
-         <p> <a class="font-special text-dark" href="{{.Permalink}}">{{ .Title }} </a>
+         <aside class="series aside-xl-right bg-white">
+         <p> <a class="font-special text-dark bg-grey" href="{{.Permalink}}">{{ .Title }} </a>
          <ol class="text-smaller">
          {{- range  .Data.Pages.ByDate }}
-          <li> {{ if not (eq $ .) }} <a href="{{ .Permalink }}">{{else}} <a href="#title" class="text-dark font-special">{{ end }}{{ .Title }}{{ if not (eq $ .) }} </a> {{else}}</a>{{ end }} </li>
+          <li> 
+            {{ if not (eq $ .) }} <a class="text-muted font-special" href="{{ .Permalink }}"> {{ .Title }} </a> 
+            {{else}} <span class="text-dark font-special">{{ .Title }}</span> {{ end }}
+          </li>
          {{ end }}
-         </ol></div>
+         </ol></aside>
         {{ end }}
       {{ end }}
       
       {{ .Content }}
-</article>
+</main>
  <!--  
 <div class="right-sidebar pb-5 pr-5" style="position: relative">
    {{ partial "mailinglist" (dict "EmailClass" "text-dark pl-3" "ButtonClass"  "text-muted" )  }} 
@@ -117,10 +122,12 @@
 
 
 
-</div>
+</article>
 
 
-<div class="mt-5 py-5 comment-block d-print-none">
+{{ if not (in  .Params.design.hide "joinconversation" ) }}
+
+<aside class="mt-5 py-5 comment-block d-print-none">
 <div class="container" >
   <div class="row justify-content-center py-3 my-3 text-larger">
     <div class="col-lg-4 text-center text-lg-right">
@@ -145,24 +152,25 @@
     </div>
   </div>
 </div>
-</div>
+</aside>
+{{ end }}
 
 
-{{ $related := .Site.RegularPages.Related . | first 3 }}
-<div class="d-print-none" style="background-color: white; min-height:1000">
+{{ with .Site.RegularPages.Related .  }}
+<aside class="d-print-none" style="background-color: white; min-height:1000">
 <div class="container pt-5" >
   <div class="row justify-content-center pb-5 text-larger">
   
       <div class="pt-3 col-12 text-center">
       <h1 class="mb-5"> Related articles...</h1>
       </div >
-	  {{ range $related }}
+	  {{ range ( . | first 3  ) }}
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
 	  {{ end }}
 
   </div>
 </div>
-</div>
-
+</aside>
+{{ end }}
 
 {{- end }}
