@@ -1,4 +1,5 @@
 ---
+series: biologos
 podcast: true
 aliases:
 - /reviewing-adam-and-the-genome/
