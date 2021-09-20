@@ -1,4 +1,5 @@
 ---
+series: biologos
 aliases:
 - /genealogical-rapprochement/
 authors:
