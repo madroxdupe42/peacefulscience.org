@@ -16,7 +16,7 @@
 
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none" -}}
-{{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: 56.25%; object-fit: cover;" }}
+{{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
 {{- $imageattr := "" }}
 
 {{- if eq  $style  "horizontal" -}}
@@ -30,6 +30,10 @@
 <article class="{{ $layout }} {{ $containerclass }}">
 
 {{ $rendered := false }}
+
+{{ if (in $hide "image") }}
+{{ $rendered := true }}
+{{ else }}
 
 {{ with $page.Params.Headerimage.Youtube }}
   {{ if eq $style "vertical"  }}
@@ -46,6 +50,8 @@
   </img>
   </a>
 {{ end }} 
+
+{{ end }}
  
 
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  
