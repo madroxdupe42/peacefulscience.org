@@ -10,9 +10,8 @@
 {{ $PAGES := partialCached "byviews" . }}
 {{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }} 
 
-{{ $latest := first 3 (where $ALL ".Params.podcast" "==" nil) }}
-{{ $videos := first 4 (where $ALL ".Params.podcast" "!=" nil) }}
-{{ $used := union $latest $videos }}
+{{ $latest := first 9 $ALL }}
+{{ $used := $latest}}
 
 {{ $featured := first 6 (where ( intersect $PAGES.ByViews  $ALL ) ".Params.feature" true | complement $used) }} 
 {{ $used := union $used $featured }}
@@ -72,31 +71,28 @@
     <div class="row justify-content-center pt-3">
       {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
-      {{ range $latest }}
+
+      {{ range first 3 $latest  }}
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "lazy" ) }}
       {{ end }}
-    </div>
+ 
+
+      {{ range after 3 $latest }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "image" ) }}
+      {{ end }}
+</div>
+    
+    
 </div>
 </div>
+
+
 
 
 <div style="background-color: #eee">
-<div class="container pt-3" role="main">
-    <div class="row justify-content-center">
-      {{ partial "heading" (dict "Text" "Videos" "Class" "heading-black"  ) }}
-
-      {{ range $videos }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
-      {{ end }}
-    </div>
-</div>
-</div>
-
-
-<div style="background-color: #dfdfdf">
 <div class="container" role="main">
     <div class="row justify-content-center pt-3">
-    <div class="col-lg-6 py-1 order-lg-3"  style="background-color: #dfdfdf">
+    <div class="col-lg-6 py-1 order-lg-3" >
       <div class="row justify-content-center py-3 my-lg-1 shadow mr-lg-1" style="background-color: white">
       {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black") }}
 
