@@ -2,7 +2,9 @@
 
 {{ define "head" }}
 {{ partial "jsonld" . }} 
-	{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}" /> 
+{{ end }}
 
 
 
