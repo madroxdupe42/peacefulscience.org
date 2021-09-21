@@ -1,6 +1,7 @@
 ---
 jsonld:
   "@type": Organization
+  additionalType: https://en.wikipedia.org/wiki/Science_communication
   name: Peaceful Science
   url: https://peacefulscience.org
   logo:
