@@ -1,0 +1,73 @@
+{{ define "header" }}
+<style>
+body {
+background: black;
+}
+.text a:hover, .text a, .text a:visited {color: white; text-decoration: underline};
+
+input[type="search"] {
+font-size: 8em;
+border-bottom:  3px  initial white; 
+}
+
+.dark .text-muted {
+ color: #bbb !important;
+}
+
+article img {
+background: white;    
+}
+</style>
+{{ end }}
+
+{{ define "main" }}
+<div>
+
+
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
+
+
+ <img class="parallax" style="position: absolute; width: 100%; height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}"  sizes="100%"></img>
+
+
+<div class="container py-5">
+  <div class="row pt-5 pb-5 justify-content-center  text-larger text-white">
+
+<div class="col-lg-6  text-center text ">
+ <h1 style="font-size: 8em">404</h1> 
+{{ .RenderString `Back to the [homepage](/), 
+
+[search the site](/search/), 
+
+
+or take a detour...` }}
+
+</div>
+
+</div>
+
+<div class="col-12">
+
+{{ $featured := where site.RegularPages  ".Params.feature" true | shuffle | first 3  }} 
+<div class="container" role="main">
+    <div class="row justify-content-center pt-3 pb-5 dark">
+
+      {{ range $featured }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-12 col-md-4" "Hide" "categories" ) }}
+
+      {{ end }}
+    </div>
+</div>
+
+</div>
+
+</div>
+
+</div></div>
+
+
+
+
+{{ end }}
+
+
