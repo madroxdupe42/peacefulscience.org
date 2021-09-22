@@ -28,19 +28,19 @@
 {{ $gae := partial "getpages" .Params.Articles.Gae }}
 {{ $used := union $used $gae }}
 
-{{ $articles := first 8 (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
+{{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
-<div style="background-color: #030;  position: relative; overflow: hidden; ">
+<header style="background-color: #030;  position: relative; overflow: hidden; ">
 
 
 {{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
 
 
- <img class="parallax" style="position: absolute; width: 100%; height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}"  sizes="100%"></img>
+ <img class="rellax" data-rellax-speed="3" style="position: absolute; width: 100%; height:calc(100% + 20vh); top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
 
  <div style="position: absolute; width: 100%; height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0),rgba(0,0,0,0));"></div>
       
-<div class="container">
+<div class="rellax" data-rellax-speed="-1" class="container">
 
   <div class="row pt-5 pb-5">
     <div class="col p-5 text-center">
@@ -49,24 +49,22 @@
 {{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
       <img class="d-none d-lg-inline" style="width: 80%; height: auto" alt="Peaceful Science"
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
-      src="{{ $src |  partial `imgcdn` }}"></img>
+      src="{{ $src |  partial `imgcdn` }}">
       
 {{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-stacked-white.png" "loc" $.File.Path )  }}      
       <img class="d-lg-none" style="width: 80%; height: auto"  alt="Peaceful Science" 
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
-      src="{{ $src |  partial `imgcdn` }}"></img>
+      src="{{ $src |  partial `imgcdn` }}">
       
       <h3  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h3>
     </div>
   </div>
 </div>
-</div>
-<div style="background-color:black">
-<div class="container pb-3 d-print-none">
-</div>
-</div>
+</header>
 
-<div style="background-color: #dfdfdf">
+
+
+<section style="background-color: #dfdfdf">
 <div class="container" role="main">
     <div class="row justify-content-center pt-3">
       {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
@@ -81,15 +79,13 @@
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "image" ) }}
       {{ end }}
 </div>
-    
-    
 </div>
-</div>
+</section>
 
 
 
 
-<div style="background-color: #eee">
+<section style="background-color: #eee">
 <div class="container" role="main">
     <div class="row justify-content-center pt-3">
     <div class="col-lg-6 py-1 order-lg-3" >
@@ -121,10 +117,10 @@
     </div>
     </div>    
 </div>
-</div>
+</section>
 
 
-<div class="shadow" style="position: relative; z-index: 200; background: #333">
+<section class="shadow" style="position: relative; z-index: 200; background: #333">
 <div class="container py-4" role="main">
   <div class="row justify-content-center dark">
      {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/categories/gae/") }}
@@ -145,24 +141,34 @@
    </div>
   </div>
 </div>
-</div>
+</section>
 
 
-<div style="background-color: #dfdfdf">
+<section style="background-color: #dfdfdf">
 <div class="container" role="main">
     <div class="row justify-content-center pt-3 pb-5 ">
       {{ partial "heading" (dict "Text" "More Articles"  "Class" "heading-black" "Link" "/archive/") }}
 
-      {{ range $articles }}
+      {{ range  first 8 $articles }}
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
-
       {{ end }}
+
+      {{ range  ( after 8 $articles | first 8 )  }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories image" ) }}
+      {{ end }}
+
+
     </div>
 </div>
-</div>
+</section>
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
+
+<script>
+var rellax = new Rellax('.rellax');
+</script>
 
 
 {{ end }}

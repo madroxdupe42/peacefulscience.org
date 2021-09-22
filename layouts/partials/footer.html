@@ -3,7 +3,7 @@
 
 <div class="modal-container" id="subscribe">
   
-<a onclick='document.getElementById("subscribe").classList.toggle("active");' class="modal-bg"></a>
+<a onclick='CloseSubscribe()' href="#close-subscribe" class="modal-bg"></a>
 <div class="cssmodal">
 
 <div class="bg-dark font-special text-white p-3 border text-center">
@@ -12,7 +12,7 @@
 {{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
       <img class="d-lg-inline" style="width: 80%; height: auto" alt="Peaceful Science"
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
-      src="{{ $src |  partial `imgcdn` }}"></img>
+      src="{{ $src |  partial `imgcdn` }}">
 
 
 </div>
@@ -35,12 +35,9 @@
         </fieldset>
         <p>You can unsubscribe at any time by clicking the link in the footer of our emails.</p>
     </div>
-    <div class="content__gdprLegal  d-none d-lg-inline">
-        <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
-    </div>
 </div>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3b4602126e38b8a5951fd6fd1_83bbf90a5a" tabindex="-1" value=""></div>
+    <div style="position: absolute; display: none" aria-hidden="true"><input type="text" name="b_3b4602126e38b8a5951fd6fd1_83bbf90a5a" tabindex="-1" value=""></div>
     <div class="clear"><input class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
@@ -55,9 +52,12 @@
 </div>
 
 <script>
-if (window.location.hash.substr(1) == "subscribe") {
-	document.getElementById("subscribe").classList.add("active");
-};
+
+function CloseSubscribe(event) {
+	location.hash = "#close-subscribe";
+	window.history.replaceState(null, null, location.href.replace(location.hash,""));
+	window.event.preventDefault();
+}
 
 
 window.addEventListener('hashchange', function() {
@@ -73,8 +73,7 @@ window.addEventListener('hashchange', function() {
 	}
 
 	});
-
-
+	
 </script>
 
 {{- partial "footer_custom.html" . }}

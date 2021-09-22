@@ -17,13 +17,12 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
-{{- $imageattr := "" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none rounded" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
-  {{- $imageattr = `sizes="160w"` }}  
+
 {{- end -}}
 
 
@@ -45,9 +44,9 @@
 {{ if not $rendered }}
   <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" 
-  src="{{ $src | partial `imgcdn` }}"
-  {{- if not (in $hide "lazy") -}} loading="lazy" {{- end }} {{ $imageattr }}>
-  </img>
+  src="{{ $src | partial `imgcdn` }}" alt="{{ .Title | htmlEscape }}"
+  {{- if not (in $hide "lazy") }} loading="lazy" {{- end }}>
+
   </a>
 {{ end }} 
 
@@ -55,7 +54,7 @@
  
 
 {{- if eq $style "horizontal" -}} <div>{{- end -}}  
-    <a class="title d-block" href="{{$page.Permalink}}"> {{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
+    <a class="title d-block" href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
 {{ if not (in $hide "author") -}}
     <span class="text-smaller pr-2 text-muted">
@@ -70,13 +69,13 @@
 
 {{- if not (in $hide "date") -}}
   {{- with $page.PublishDate -}}
-    <span class="text-muted article-date text-smaller"> {{ .Format "January 2, 2006" }}<span>
+    <span class="text-muted article-date text-smaller"> {{ .Format "January 2, 2006" }}</span>
   {{- end -}}
 {{- end -}}
     <br>
     
 {{- if not (in $hide "excerpt") -}}
-    <span class="d-block excerpt"> {{ $page.Params.description | markdownify }} </span>
+    <span class="d-block excerpt text-smaller"> {{ $page.Params.description | markdownify }} </span>
 {{- end -}}
     
 {{- if not (in $hide "categories") -}}
