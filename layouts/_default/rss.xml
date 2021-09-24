@@ -55,7 +55,7 @@
       {{ end }}
 
       {{ range .Params.authors }}
-		<dc:creator>{{ (site.GetPage (printf "/authors/%s" . )).Title }}</dc:creator>
+		<dc:creator>{{ (site.GetPage (printf "/authors/%s" . )).Title  | safeHTML }}</dc:creator>
       {{ end }}
 
       {{ with  .Params.rss_guid }}
