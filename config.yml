@@ -4,7 +4,11 @@ languageCode: "en-us"
 
 enableGitInfo: true
 disableAliases: true
-minify: true
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 related:
   includeNewer: true
