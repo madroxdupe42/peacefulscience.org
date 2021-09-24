@@ -83,7 +83,7 @@
          <ol class="text-smaller">
          {{- range  .Data.Pages.ByDate }}
           <li> 
-            {{ if not (eq $ .) }} <a class="text-muted font-special" href="{{ .Permalink }}"> {{ .Title }} </a> 
+            {{ if not (eq $ .) }} <a class="text-muted font-special" href="{{ .Permalink }}"> {{ .Title  | markdownify  }} </a> 
             {{else}} <span class="text-dark font-special">{{ .Title | markdownify  }}</span> {{ end }}
           </li>
          {{ end }}
@@ -114,9 +114,10 @@
             <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
 				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
 			</svg>
-	</nav>	  		  
-    <script defer src="/js/navprogress.js"></script>
-
+	</nav>	 
+	
+	{{ .Scratch.Add "js" (slice "/js/navprogress.js") }}
+	 
     </div>
     <div class="d-none d-md-block" style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"></div>
   </div>
