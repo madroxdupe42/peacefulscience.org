@@ -1,5 +1,4 @@
 ---
-series: biologos
 aliases:
 - /confessing-scientist/
 authors:
