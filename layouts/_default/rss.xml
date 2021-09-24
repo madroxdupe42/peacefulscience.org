@@ -44,7 +44,7 @@
       
       
     <item>
-     {{ printf " <title><![CDATA[%s]]></title>"  .Title  | safeHTML }}
+     <title>{{ .Title }}</title>
       {{- with .Params.headerImage.Src }}
 		<media:content url="{{ .  | partial "imgcdn" }}" width="400" height="210" medium="image" type="" />
       {{- end }}      
@@ -55,7 +55,7 @@
       {{ end }}
 
       {{ range .Params.authors }}
-		{{ printf "<dc:creator><![CDATA[%s]]></dc:creator>" (site.GetPage (printf "/authors/%s" . )).Title | safeHTML  }}
+		<dc:creator>{{  (site.GetPage (printf "/authors/%s" . )).Title  }}</dc:creator>
       {{ end }}
 
       {{ with  .Params.rss_guid }}
@@ -63,8 +63,9 @@
       {{ else }}
         <guid> {{ .Permalink }}</guid>
       {{ end }}
-      {{ printf "<description><![CDATA[%s]]></description>"  (.Description | markdownify) | safeHTML    }}
-      
+      <description>
+  {{ .Description | html  }}
+     </description>	
     </item>
     {{ end }}
     {{ end }}
