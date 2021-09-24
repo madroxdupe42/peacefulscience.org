@@ -15,7 +15,7 @@
 {{- $style := index . "Style" | default "horizontal" -}}
 
 {{- $containerclass := "p-3 text-smaller" -}}
-{{- $imageclass := "mb-1 rounded d-print-none" -}}
+{{- $imageclass := "mb-1 rounded d-print-none d-block" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
 
 {{- if eq  $style  "horizontal" -}}
@@ -53,7 +53,8 @@
 {{ end }}
  
 
-{{- if eq $style "horizontal" -}} <div>{{- end -}}  
+<header>
+
     <a class="title d-block" href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
 {{ if not (in $hide "author") -}}
@@ -85,6 +86,7 @@
       {{ end -}}
     {{- end -}}
 {{- end -}}
-{{- if eq $style "horizontal" -}} </div>{{- end -}}  
+
+</header>
 
 </article>
