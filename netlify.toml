@@ -15,10 +15,3 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts"
 
-
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-
-  # optional, deploy the lighthouse report to a path under your site
-  [plugins.inputs]
-    output_path = "reports/lighthouse.html"
