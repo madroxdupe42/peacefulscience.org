@@ -1,7 +1,0 @@
-
-{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS }}
-
-<style>
-{{ $style.Content | safeCSS }}
-</style>
-

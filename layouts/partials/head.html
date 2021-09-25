@@ -3,16 +3,16 @@
 {{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify |  plainify  ) -}}
 
 
-
- {{ with .Site.GoogleAnalytics }}
+{{ if not site.IsServer }}
+{{ with .Site.GoogleAnalytics }}
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KDF8R85');
 </script>
-{{ end}}
-
+{{ end  }}
+{{ end }}
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -58,7 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 {{ with .Params.authors }}
     {{- range . }}
-      {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+      {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
 <meta property="author" content="{{ .Title | markdownify |  plainify }}"/>
       {{- end }}
     {{- end }}
@@ -69,8 +69,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
+<link rel="preload" href="/font/alveratasb-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
 
-
-{{- partial "head_custom.html" . -}}
-
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">

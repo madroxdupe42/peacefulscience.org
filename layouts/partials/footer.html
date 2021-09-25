@@ -2,8 +2,6 @@
 
 {{ partial "modal-subscribe" . }} 
 
-
-
 {{ if site.IsServer }}
   {{ range ( .Scratch.Get "js" | uniq ) }}
     <script defer src="{{ (resources.Get . | js.Build (dict "sourcemap" "inline" ) ).Permalink }}"> </script>
