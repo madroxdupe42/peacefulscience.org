@@ -74,3 +74,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+
+<link rel="preconnect" href="{{ site.Params.imagecdn | absURL }}">
