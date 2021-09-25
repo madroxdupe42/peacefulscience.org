@@ -6,11 +6,11 @@
 
 {{ $featured := partial "getpages" .Params.Articles.Featured }}
 {{ $mistake := partial "getpages" .Params.Articles.Mistakes }}
-{{ $pushback := partial "getpages" .Params.Articles.Pushback }}
+{{ $pushback :=   (site.GetPage "/series/biologos/").Pages.ByDate  }}
 
 {{ $used := $featured | union $mistake }}
 
-{{ $latest := first 10 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used ) }}
+{{ $latest := first 12 (where .Site.RegularPages ".Params.categories" "intersect" (slice "gae") | complement $used ) }}
 
 
 <div class="gae-header-bg shadow" style="z-index:100;position: relative;">
@@ -38,38 +38,67 @@
 
 <div style="background-color: #eee;">
 <div class="container pt-3" role="main">
-    <div class="row justify-content-center">
-      {{ partial "heading" (dict "Text" "A Pushback on Overreach" "Class" "heading-black"   ) }}
+    <div class="row ">
+       <div class="col-lg-8"> 
+       <div class=" row">
+      {{ partial "heading" (dict "Text" "A Pushback " "Class" "heading-black"  "Link" "/series/biologos/" ) }}
 
-      {{ range $pushback }}
-        {{ .Render "mediabox1" }}
+      {{ range  $pushback | first 2 }}
+      
+              {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-lg-6" ) }}
+      
       {{ end }}
+      {{ range  $pushback | after 2 }}
+      
+              {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-lg-6" "Hide" "image") }}
+      
+      {{ end }}
+        </div>
+        </div>
+       <div class="col-lg-4"> 
+       <div class=" row">
+      {{ partial "heading" (dict "Text" "Errata and Mistakes" "Class" "heading-black"  "Link"  (absURL "/pdf/genealogical-adam-eve-errata-jan2021.pdf") ) }}
+
+      {{ range $mistake | first 1 }}
+
+              {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-12" ) }}
+      {{ end }}
+      {{ range $mistake | after 1 }}
+
+              {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-12" "Hide" "image") }}
+      {{ end }}
+        </div>
+        </div>
     </div>
 </div>
 </div>
 
 
-<div style="background-color: white;">
+
+
+<div style="background-color: #eee	;">
 <div class="container pt-3" role="main">
-    <div class="row justify-content-center">
+    <div class="row ">
       {{ partial "heading" (dict "Text" "A Growing Conversation" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
 
       {{ range $featured }}
-        {{ .Render "mediabox1" }}
-      {{ end }}
+
+              {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-lg-3" ) }}
+            {{ end }}
     </div>
 </div>
 </div>
 
 
-<div style="background-color: #eee">
+<div style="background-color: white">
 <div class="container pt-3" role="main">
-    <div class="row justify-content-center">
+    <div class="row ">
       {{ partial "heading" (dict "Text" "Latest" "Class" "heading-black"  "Link" ("/categories/gae/" | absURL)  ) }}
 
       {{ range $latest }}
-        {{ .Render "mediabox1" }}
-      {{ end }}
+
+              {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-lg-4" "Hide" "image") }}
+            {{ end }}
     </div>
 </div>
 </div>
