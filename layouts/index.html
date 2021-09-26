@@ -38,20 +38,17 @@
  <img  style="position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; object-position: 10% 50%;user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
 </div>
 
-<header style="  position: relative; overflow: hidden; ">
+<header style="position: relative; overflow: hidden; ">
 
-
-
- <div style="position: absolute; width: 100%; height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0.2));"></div>
+<div style="position: absolute; width: 100%; height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0));"></div>
       
-<div class="rellax" data-rellax-speed="-1" class="container">
-
-  <div class="row pt-5 pb-5">
-    <div class="col p-5 text-center">
+<div class="container">
+  <div class="row py-5">
+    <div class="col my-5 text-center">
       
 
 {{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
-      <img class="d-none d-lg-inline" style="width: 80%; height: auto" alt="Peaceful Science"
+      <img class="d-none d-lg-inline" style="width: 100%; height: auto" alt="Peaceful Science"
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
       src="{{ $src |  partial `imgcdn` }}">
       
@@ -60,7 +57,7 @@
     {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
       src="{{ $src |  partial `imgcdn` }}">
       
-      <h3  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h3>
+      <h1  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h1>
     </div>
   </div>
 </div>
@@ -88,7 +85,7 @@
 
 
 
-<section class="shadow" style="position: relative; z-index: 200; background: none">
+<section class="shadow" style="position: relative; z-index: 200; background: #0002">
 <div class="container py-4" role="main">
   <div class="row justify-content-center dark">
      {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/genealogical-adam-eve/") }}
