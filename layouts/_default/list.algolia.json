@@ -5,7 +5,7 @@
 {{- range .Site.RegularPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
   
-    {{- $render := .Render "mediabox4"  -}}
+    {{ $render :=  partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
     
     {{- $authors := (slice) -}}
     {{- with .Params.Authors -}}
@@ -23,7 +23,7 @@
     
     {{- $image:= "" -}}
     {{- with .Params.headerImage.Src }}
-      {{-  $image = partial "imgurl" (dict "src"  . "loc" $.File.Path ) | absURL  -}}
+      {{-  $image = partial "imgurl" (dict "src"  . "loc" $.File.Path ) | partial "imgcdn"  -}}
     {{- end -}}    
     
     {{- $.Scratch.Add "index" 
