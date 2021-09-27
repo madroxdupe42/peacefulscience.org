@@ -87,12 +87,15 @@ let navBar = document.getElementById("navbar")
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos || currentScrollPos < 80) {
-	  navBar.style.top = "0";
+	  navBar.style.transform = "translateY(0px)";
 	  closeMenus();
   } else {
 	  closeMenus();
-	  navBar.style.top =  (-navBar.offsetHeight).toString() + "px" ;  
+	  navBar.style.transform = "translateY(" + (-navBar.offsetHeight).toString() + "px)" ;  
   }
   prevScrollpos = currentScrollPos; 
+
 }
+
+
 
