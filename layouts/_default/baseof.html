@@ -5,7 +5,7 @@
     {{- block "head" . -}}{{- end }}
   </head>
   <body>
-  {{ if not .Site.IsServer }}
+{{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDF8R85"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -15,10 +15,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 {{ partial "nav.html" . -}}
 
-    {{- block "header" . }}{{- partial "header.html" . -}}{{ end }}
-    <div id="content" >
+<div id="content" style="postion: relative; z-index: 1">
       {{- block "main" . }}{{- end }}
-    </div>
+</div>
     {{- partial "footer.html" . -}}
-  </body>
+</body>
 </html>
