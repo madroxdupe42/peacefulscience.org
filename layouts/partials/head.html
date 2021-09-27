@@ -72,11 +72,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preload" href="/font/alveratasb-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
 
-{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
 
-{{ $style := resources.Get "css/critical.scss" | resources.ToCSS | resources.PostCSS  }}
 <style>
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
+{{ $style.Content | safeCSS }}
+{{ $style := resources.Get "css/critical.scss" | resources.ToCSS | resources.PostCSS  }}
 {{ $style.Content | safeCSS }}
 </style>
 
