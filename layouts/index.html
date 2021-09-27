@@ -31,12 +31,10 @@
 {{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
 
-<div>
+
 {{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
 
- <div  style="position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; user-select: none; background-color: #040"  > </div>
- <img  style="position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; object-position: 10% 50%;user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
-</div>
+ <img  style="background-color: #030; position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; object-position: 10% 50%;user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
 
 <header style="position: relative; overflow: hidden; ">
 
