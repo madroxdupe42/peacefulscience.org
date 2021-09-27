@@ -1,0 +1,50 @@
+
+
+.modal-container.active,
+.modal-container:target {
+  visibility: visible;
+  opacity: 1;
+  animation: revert;
+
+  .cssmodal {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10001;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+
+  .cssmodal {
+    opacity: 0;
+    transform: translateY(-3rem);
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+  }
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
