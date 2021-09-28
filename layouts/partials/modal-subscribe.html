@@ -6,11 +6,11 @@
 
 <div class="bg-dark font-special text-white p-3 border text-center">
  
-
-{{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
-      <img class="d-lg-inline" style="width: 80%; height: auto" alt="Peaceful Science"
-    {{ with (index site.Data.imgsize $src)  }} width="{{ .width }}" height="{{ .height }}" {{ end -}} 
-      src="{{ $src |  partial `imgcdn` }}">
+ 
+ {{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
+      <img  style="width: 80%; height: auto" alt="Peaceful Science"
+   	 width=952 height=148 
+      src="{{ `/img/design/PS-logo-long-white.svg` |  partial `imgcdn` }}">
 
 
 </div>
