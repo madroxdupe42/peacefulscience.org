@@ -1,6 +1,6 @@
 {{ define "head" }}
 {{ partial "jsonld" . }}
-  <link rel="preload" href="{{ partial `imgcdn`  `/img/design/green-hex.png` }}" as="image" media="(max-width: 800px)">
+  <link rel="preload" href="{{ partial `imgcdn`  `/img/design/green-hex.svg` }}" as="image" media="(max-width: 800px)">
   <link rel="preload" href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.png` }}" as="image" media="(max-width: 800px)">
 
   {{ end }}
@@ -32,7 +32,7 @@
 
 
 
-{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
 
  <img  style="background-color: #030; position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; object-position: 10% 50%;user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
 

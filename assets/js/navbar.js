@@ -81,21 +81,38 @@ navbar.addEventListener('focusout', function() {
 
 
 var prevScrollpos = window.pageYOffset;
-let navBar = document.getElementById("navbar")
+let navBar = document.getElementById("navbar");
+var tick = false;
 
 
-window.onscroll = function() {
+function navscrollhider() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos || currentScrollPos < 80) {
+  if (prevScrollpos -40  > currentScrollPos || currentScrollPos < 80) {
 	  navBar.style.transform = "translateY(0px)";
 	  closeMenus();
-  } else {
+  } else if  (prevScrollpos + 40  < currentScrollPos)   {
 	  closeMenus();
 	  navBar.style.transform = "translateY(" + (-navBar.offsetHeight).toString() + "px)" ;  
-  }
+  };
   prevScrollpos = currentScrollPos; 
 
 }
 
+function throttle (callback, limit) {
+  var tick = false;
+  return function () {
+    if (!tick) {
+      callback.call();
+      tick = true;
+      setTimeout(function () {
+        tick = false;
+      }, limit);
+    }
+  }
+}
 
-
+document.addEventListener(
+    'scroll',
+    throttle(navscrollhider, 100), 
+    { passive: true }
+);
