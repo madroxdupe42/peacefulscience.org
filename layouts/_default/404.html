@@ -24,7 +24,7 @@ background: white;
 <div>
 
 
-{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.png" "loc" $.File.Path )  }}
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
 
 
  <img class="parallax" style="position: absolute; width: 100%; height:100%; top:0;object-fit: cover; user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}"  sizes="100%"></img>
