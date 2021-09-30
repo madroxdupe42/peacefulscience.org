@@ -4,9 +4,14 @@
 {{- $showItemMeta := $.Params.showItemMeta | default $.Site.Params.showItemMeta | default true }}
 
 
-
+<div class="bg-white">
 
 <header class="gae-header-bg shadow" style="z-index:100;position: relative; z-index: 2">
+
+
+<div style="height: 40px; width: 100%"></div> 
+
+
 <div class="container">
   <div class="row pt-5 pb-5 justify-content-center text-white">
 
@@ -53,7 +58,7 @@
     {{- end }}
 </div>
 
-
+</div>
 <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
 <script>
 let infScroll = new InfiniteScroll( '#post-list', {

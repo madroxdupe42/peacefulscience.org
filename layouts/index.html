@@ -2,9 +2,6 @@
 {{ partial "jsonld" . }}
   <link rel="preload" href="{{ partial `imgcdn`  `/img/design/green-hex.svg` }}" as="image" media="(max-width: 800px)">
   <link rel="preload" href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.svg` }}" as="image" media="(max-width: 800px)">
-<style>
-body {background: black}
-</style>
   {{ end }}
 {{ define "main" }}
 
@@ -40,6 +37,8 @@ body {background: black}
 
 
 <div style="contain: layout">
+
+<div style="height: 40px; width: 100%"></div> 
 
 <header style="position: relative; overflow: hidden; ">
 <div style="position: absolute; width: 100%; height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0.2),rgba(0,0,0,0));"></div>

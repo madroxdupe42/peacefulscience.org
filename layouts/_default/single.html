@@ -19,8 +19,12 @@
 
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
+<div class="bg-white">
 
-<div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="partial `imgcdn`  `/img/2019/07/PS-logo-long-black.png`"></div>
+
+<div style="height: 40px; width: 100%"></div> 
+
+<div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="partial `imgcdn`  `/img/2019/07/PS-logo-long-black.svg`" alt="Peaceful Science"></div>
 
 <article class="article-grid">
 
@@ -28,6 +32,8 @@
 
 
 <header class="article-header" >
+    
+    
     
     {{ with .Date }}
     <div class="article-date d-inline"> {{ $.PublishDate.Format "January 2, 2006" }} </div>
@@ -105,7 +111,6 @@
 
 
 <div class="left-sidebar" style="height: 100%; position: relative">
-
   <div style="position: relative; height: 10vh	;"></div>
    <div class="d-none d-md-block  hover-front position-sticky" style="top: 50px; width: 100%; background: #white">
       
@@ -120,7 +125,6 @@
 	 
     </div>
     <div class="d-none d-md-block" style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"></div>
-  </div>
 </div>
 
 
@@ -175,5 +179,5 @@
 </div>
 </aside>
 {{ end }}
-
+</div>
 {{- end }}
