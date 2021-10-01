@@ -63,16 +63,14 @@ I found that SBC members, at all levels,  wanted to enter into these difficult c
  Would this be true of all of us.
 
 
-## Accountability for Abuse
+## Accountability on Abuse
 
  
 The SBC is facing a crisis in how they handled reports of sexual abuse. Did they turn a blind eye to reports of abuse over the last several years? The Convention this summer resolved that the leadership of the denomination must be transparently investigated. 
 
 Right now, several organizations are facing questions like this. What I am seeing in the SBC is messy, but it also gives me hope. The Convention resolved to investigate. 
 
-How did the leadership respond? While I was visiting SEBTS, we found out that they refused to transparently investigate. The leadership claimed a “fiduciary responsibility” to protect the denomination.
-
-While I was visiting SEBTS, the aftermath of this decision hit the news. [The denomination’s leadership refused to investigate as the Convention resolved](https://baptistnews.com/article/sbc-executive-committee-declines-for-a-second-time-to-comply-with-will-of-convention-messengers-on-sexual-abuse-investigation/). 
+How did the leadership respond? While I was visiting SEBTS, we found out that [they refused to transparently investigate](https://baptistnews.com/article/sbc-executive-committee-declines-for-a-second-time-to-comply-with-will-of-convention-messengers-on-sexual-abuse-investigation/). The leadership claimed a “fiduciary responsibility” to protect the denomination.
 
 Self-protective evasion by leaders is common. I was observant. How would the SBC community react?
 
