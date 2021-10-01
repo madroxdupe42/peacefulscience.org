@@ -110,5 +110,5 @@ He is not alone. Several SBC scholars engaged with me, all of them showing me th
 ## More to Come
 
 
-So these are things I am learning from the SBC. I admire what I am learning from them. All organizations fail, including the SBC. But something good is growing here.  
+So these are things I am learning from the SBC. I admire them and what I am learning from my time with them. All organizations fail, including the SBC. But something good is growing here.  
 
