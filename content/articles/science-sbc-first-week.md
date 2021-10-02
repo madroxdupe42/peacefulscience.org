@@ -49,7 +49,7 @@ This is an ugly and messy history. It took courage to search out and honestly de
 The denomination is beginning to reckon with this history. Mohler’s report is a milestone, but the process is not over. [Several large black churches have left the denomination](https://www.washingtonpost.com/religion/2020/12/23/black-pastors-break-southern-baptist-critical-race-theory/) as the conflicts over race have grown.
 
 
-It is in _this_ context that Ken asked me to talk to the seminary about the science of race. I am Christian that affirms evolution. Inviting me to a creationist seminary takes courage. But asking me to talk about race in the SBC? This takes even more courage.
+It is in _this_ context that Ken asked me to talk to the seminary about the science of race. I am a Christian that affirms evolution. Inviting me to a creationist seminary takes courage. But asking me to talk about race in the SBC? This takes even more courage.
 
  
 
@@ -110,5 +110,5 @@ He is not alone. Several SBC scholars engaged with me, all of them showing me th
 ## More to Come
 
 
-So these are things I am learning from the SBC. I admire them and value what I am learning from my time with them. All organizations fail, including the SBC. But something good is growing here.  
+So these are things I am learning from the SBC.  All organizations fail, including the SBC. How we respond to these faulures matters. In their response to failures, something good is growing here.  
 
