@@ -14,9 +14,8 @@ headerimage:
 title: Three Stories on Adam
 ---
 
-*At the 2018 ASA meeting last week, I led a workshop on "[Reworking the Science of Adam](https://peacefulscience.org/reworking-adam/)." To a standing room only crowd, I shared about three stories of Adam, and how they bring us to the grand questions of origins. Unfortunately, [rules were changed at the last minute to forbid any recordings](https://discourse.peacefulscience.org/t/maybe-livestreaming-asa-workshop/849/9?u=swamidass) of the workshop. The primary goal of this event was to record and disseminate the contributions of the [distinguished panelists](https://discourse.peacefulscience.org/t/announcing-the-asa-reworking-the-science-of-adam-panelists/597). To keep the conversation going, I am summarizing the main points the workshop here. For more information, [join the conversation with Greg Cootsona about the workshop on August 8-10th.](https://discourse.peacefulscience.org/t/greg-cootsona-the-science-of-adam-workshop/591/3) *
-
-------------------------------------------------------------------------
+At the 2018 ASA meeting last week, I led a workshop on "[Reworking the Science of Adam](https://peacefulscience.org/reworking-adam/)." To a standing room only crowd, I shared about three stories of Adam, and how they bring us to the grand questions of origins. Unfortunately, [rules were changed at the last minute to forbid any recordings](https://discourse.peacefulscience.org/t/maybe-livestreaming-asa-workshop/849/9?u=swamidass) of the workshop. The primary goal of this event was to record and disseminate the contributions of the [distinguished panelists](https://discourse.peacefulscience.org/t/announcing-the-asa-reworking-the-science-of-adam-panelists/597). To keep the conversation going, I am summarizing the main points the workshop here. For more information, [join the conversation with Greg Cootsona about the workshop on August 8-10th.](https://discourse.peacefulscience.org/t/greg-cootsona-the-science-of-adam-workshop/591/3) 
+{.editor-note}
 
 It all begins with a deceptively simple question:
 
@@ -32,13 +31,17 @@ The third story is the most surprising, and it is about  **sole-*genealogical*
 
 All these stories raise distinct theological questions. I'll enumerate them later. For now, I want to lay out the key scientific advances.
 
-![](/img/2018/07/Slide03.png)
+{{< image `/img/2018/07/Slide03.png` `aside-xl-wide`  >}}
+{{< /image >}}
 
 ### Story One: Sole-Genetic Progenitorship
 
 This story unfolded in the comments of a blog, in conversation between Richard Buggs, Dennis Venema, and three other scientists. In early 2017, Dennis Venema and Scot McKnight published *Adam and the Genome*. New knowledge was uncovered and we owe it all to Richard Buggs.
 
-![](/img/2018/07/Richard_Buggs.jpg)
+{{< image `/img/2018/07/Richard_Buggs.jpg` `aside-xl-wide`  >}}
+{{< /image >}}
+
+
 
 #### Owing Richard Buggs
 
@@ -52,11 +55,12 @@ Months later, Venema responded on a blog. A claim was made that the evidence aga
 
 What happened next was remarkable. Five scientists entered into prolonged dialogue about population genetics: Dennis Venema, Richard Buggs, of course, but also Ann Gauger (Discovery Institute), Stephen Schaffner (Broad Institute), and myself (WUSTL). In about 1.2 thousand posts, we hashed out what the evidence really showed. Our findings were surprising.
 
-First, **some of the arguments against a bottleneck were [***fa**llacious*]**. This includes all the arguments in a key 2010 article, and most the arguments that are commonly put forward.
+First,  some of the arguments against a bottleneck were ***fallacious***. This includes all the arguments in a key 2010 article, and most the arguments that are commonly put forward.
 
-1.  **The argument from "Allelic Multiplicity."** This was published several times since 2010, online and in print, but never peer-reviewed. *"In fact, to generate the number of alleles we see in the present day from a starting point of just two individuals, one would have to postulate mutation rates far in excess of what we observe for any animal." *This is a [***fallacious***]{style="color: #ff0000;"}[[ argument that does not appear in the scientific literature.\
-    ]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}
-2.  **The argument from "Population Size Estimates."** This includes every publish estimate of population size (Ne), including LD, PSMC, MSMC, Alu, and any other method that estimates Ne. *"To date, every genetic analysis estimating ancestral population sizes has agreed that we descend from a population of thousands, not a single ancestral couple." *It had been missed that a brief bottleneck is consistent with a high Ne, which denotes the [*average*]{style="text-decoration: underline;"}[ (not the ]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}[*minimum*]{style="text-decoration: underline;"}[) population size over a long time period. This is a ]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}[***fallacious***]{style="color: #ff0000;"}[ argument against a bottleneck.]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}
+1.  **The argument from "Allelic Multiplicity."** This was published several times since 2010, online and in print, but never peer-reviewed. *"In fact, to generate the number of alleles we see in the present day from a starting point of just two individuals, one would have to postulate mutation rates far in excess of what we observe for any animal."* This is a <span style="color: red">***fallacious***</span> argument that does not appear in the scientific literature.
+    
+    
+2.  **The argument from "Population Size Estimates."** This includes every publish estimate of population size (Ne), including LD, PSMC, MSMC, Alu, and any other method that estimates Ne. *"To date, every genetic analysis estimating ancestral population sizes has agreed that we descend from a population of thousands, not a single ancestral couple."* It had been missed that a brief bottleneck is consistent with a high Ne, which denotes the *average* not the *minimum* population size over a long time period. This is a <span style="color: red">***fallacious***</span> argument against a bottleneck.
 
 Several lines of evidence were considered after this, including trans-species variation of HLA and allele frequency spectrum (AFS). **None of the population genetics arguments from Dennis Venema's book held up.** Only one line of evidence ultimately stood up to scrutiny, the evidence for interbreeding between Neanderthals and *Homo sapiens*. This evidence, however, is not merely population genetics, does not account for the genetic diversity of modern humans, and certainly does not stretch back 18 million years. Is this really the end of it all? That population genetics does not tell us about a bottleneck of two?
 
@@ -64,7 +68,11 @@ We needed a better way to look at the data. Richard Buggs brought the question. 
 
 This is a new finding, we only uncovered because Buggs asked the question at personal risk. We all owe him greatly.
 
-![](/img/2018/07/Slide05.png)
+{{< image `/img/2018/07/Slide05.png` `aside-xl-wide`  >}}
+{{< /image >}}
+
+
+
 
 ### 
 
@@ -72,7 +80,9 @@ This is a new finding, we only uncovered because Buggs asked the question at per
 
 It seemed that this was strong evidence against the *Reasons to Believe* model of human origins, which asserts that Homo sapiens arise with Adam and Eve as their sole progenitors. Dialogue with A.J. Roberts, however, clarified that [their model was updated to include interbreeding](https://discourse.peacefulscience.org/t/engaging-the-zoo-of-rtb-models/378) with Neanderthals. That means it is no longer a sole-genetic progenitor model. The good news is that this might be compatible with the evidence. This conversation will continue this Fall, [in dialogue with *Reasons to Believe*](https://peacefulscience.org/assess-rtb-model/). We hope to settle this question. Perhaps a *Genetic*-Interbreeding Progenitor model of Homo sapiens might be consistent with the evidence. This story is just beginning. I'm looking forward to see how it plays out.
 
-![](/img/2018/05/swamidass_ross_crop.jpg)
+
+{{< image `/img/2018/05/swamidass_ross_crop.jpg` `aside-xl-wide`  >}}
+{{< /image >}}
 
 ### Sole-Genealogical Progenitorship
 
@@ -82,6 +92,9 @@ This story begins [back in April 2017](https://peacefulscience.org/reviewing-ada
 2.  Theology has legitimate autonomy to define "human" however it likes.
 
 From here, we find out, it is possible that Adam and Eve were ***de novo (or not)*** created recently (6,000 years ago or more). Leaving the Garden, they could have become ***ancestors of us all***, as their offspring ***interbred*** with those outside the Garden. This allows for ***several different*** hermeneutical, scientific, and theological integrations, including ***traditional*** **de novo** ***Adam*** (sole-progenitorship and monogenesis, unity of all mankind).
+
+
+
 
 In this scenario, Adam and Eve could be *de novo* created as recent as just 6,000 years ago. One important model, put forward in the recent Dabar Conference, is to use three converging definitions of "human:"
 
@@ -93,7 +106,11 @@ These three definitions come to refer to the same group of people if original si
 
 If that is all confusing, do not be discouraged. [Population genetics is deeply non-intuitive](https://peacefulscience.org/genealogical-science/). This iconic figure might help make sense of it:
 
-![**Genealogical ancestry is not genetic ancestry.** Illustrating the story in the text, we show a cartooned pedigree, a genealogy, from past (top) to present (bottom). Squares and circles denote men and women, respectively, with lines indicating parentage. Red and blue individuals are those in the genetic lineages to a single ancestor, Mito-Eve and Y-Adam, respectively. In contrast, every individual with a black border is a common genealogical ancestor of all those in recorded history (grey box). The Scriptural Adam and Eve (the black box and square) are created from the dust and a rib less than 10,000 years ago, have no parents, are in the Garden of Eden (black box), and are genealogical ancestors of everyone in history. This story is entirely consistent with the genetic data.](/img/2017/04/GenealogicalAdam.png)
+
+{{< image `/img/2017/04/GenealogicalAdam.png` `aside-xl-wide`  >}}
+Genealogical ancestry is not genetic ancestry. Illustrating the story in the text, we show a cartooned pedigree, a genealogy, from past (top) to present (bottom). Squares and circles denote men and women, respectively, with lines indicating parentage. Red and blue individuals are those in the genetic lineages to a single ancestor, Mito-Eve and Y-Adam, respectively. In contrast, every individual with a black border is a common genealogical ancestor of all those in recorded history (grey box). The Scriptural Adam and Eve (the black box and square) are created from the dust and a rib less than 10,000 years ago, have no parents, are in the Garden of Eden (black box), and are genealogical ancestors of everyone in history. This story is entirely consistent with the genetic data.
+{{< /image >}}
+
 
 ### Does Anyone Care?
 
@@ -101,15 +118,23 @@ This is a question that arises in the Church, and people care.
 
 **The Gospel Coalition** and **Tim Keller** published a video on the essential doctrines of creation, which included the *de novo* creation of Adam. They were [incorrectly told that this doctrine puts them in conflict with science](https://peacefulscience.org/defense-tim-keller/). The Genealogical Adam, however, shows how their doctrine could be compatible with science. They care about this work.
 
-![](/img/2017/10/keller-991x560-2.jpg)
+
+{{< image `/img/2017/10/keller-991x560-2.jpg` `aside-xl-wide`  >}}
+{{< /image >}}
+
+
+
 
 Last month I presented this work to the Dabar Conference, a gathering of over 70 conservative scholars to study creation theology. This is what one historian, **Clinton Ohlers**, [explained about this work:](https://discourse.peacefulscience.org/t/ken-keathley-notes-from-dabar-and-a-baptists-hope/568/40?u=swamidass)
 
-What struck me as extremely important in Dr. Swamidass' analysis both last summer and again at Dabar this year was primarily two things...that seem to recur in the history of science and Christianity. The first is that a scientific discovery and its seeming implications are treated as settled science and demands are made for a radical departure from recognizable Christian theology. The second is the appearance of **a more sober corrective that** recognizes the legitimacy of the discovery, but clarifies the real implications and in so doing **provides breathing room for real theological reflection, development, and genuine intellectual progress**. This second pattern is what I see Dr. Swamidass' analysis contributing, what made it so significant then, and why it generated such energy and engagement at the Dabar conference.
+> What struck me as extremely important in Dr. Swamidass' analysis both last summer and again at Dabar this year was primarily two things...that seem to recur in the history of science and Christianity. The first is that a scientific discovery and its seeming implications are treated as settled science and demands are made for a radical departure from recognizable Christian theology. The second is the appearance of **a more sober corrective that** recognizes the legitimacy of the discovery, but clarifies the real implications and in so doing **provides breathing room for real theological reflection, development, and genuine intellectual progress**. This second pattern is what I see Dr. Swamidass' analysis contributing, what made it so significant then, and why it generated such energy and engagement at the Dabar conference.
 
 The scholars at Dabar and *The Creation Project* care. My discussion group at Dabar included **William Lane Craig**, **Jack Collins** (PCA), **Richard Averbeck** (TEDS), **Ken Keathley** (SEBTS), and **Robert Shultzs** (TEDS). They all care. William Lane Craig, seeing new scientific clarity arise, [entered into a two year project to study the historical Adam](https://discourse.peacefulscience.org/t/william-lane-craig-on-dabar-conference/658/1). His involvement here is exciting, providing a rare model of wise leadership wrestling in public about important questions that face the work. He cares. [Ken Keathley encourages deeper study on a Genealogical Adam too.](https://discourse.peacefulscience.org/t/ken-keathley-notes-from-dabar-and-a-baptists-hope/568) He also cares.
 
-![](/img/2018/08/dabar-group.jpeg)
+
+
+{{< image `/img/2018/08/dabar-group.jpeg` `aside-xl-wide`  >}}
+{{< /image >}}
 
 ### We All Should Care...
 
@@ -125,7 +150,11 @@ To receive our inheritance is to grieve the depths of how far we have fallen fro
 
 **What is community?** I also wonder about a reordering of the current origins debate. Instead of advocating answers, what if we could lay down arms and approach the grand questions together? What if we could find community by walking out into the no-man's land of conflict, to risk friendship with those from the other side? I see new order. It might begin to emerge...
 
-![](/img/2018/07/Slide27-1.png)
+
+
+{{< image `/img/2018/07/Slide27-1.png` `aside-xl-wide`  >}}
+{{< /image >}}
+
 
 ## The Conversation Continues...
 
