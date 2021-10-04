@@ -34,7 +34,7 @@ All these stories raise distinct theological questions. I'll enumerate them late
 {{< image `/img/2018/07/Slide03.png` `aside-xl-wide`  >}}
 {{< /image >}}
 
-# Story One: Sole-Genetic Progenitorship
+## Story One: Sole-Genetic Progenitorship
 
 This story unfolded in the comments of a blog, in conversation between Richard Buggs, Dennis Venema, and three other scientists. In early 2017, Dennis Venema and Scot McKnight published *Adam and the Genome*. New knowledge was uncovered and we owe it all to Richard Buggs.
 
@@ -43,7 +43,7 @@ This story unfolded in the comments of a blog, in conversation between Richard 
 
 
 
-## Owing Richard Buggs
+### Owing Richard Buggs
 
 Buggs is an untenured professor at a secular institution in England, with a wife and young child. He read *Adam and the Genome*, a recent book by Dennis Venema. This book claims that "humans" never went through bottleneck of a single couple, where some might look to find Adam and Eve. Buggs, however, was skeptical of the case offered for these claims. He approached Venema privately first, with an email, asking to clarify the science. No response. Then he sent a message by an intermediary. No response. Finally, he posted a public blog challenging the claims. This challenge was ignored for months.
 
@@ -51,7 +51,7 @@ I was in email communication with him at the time. The public challenge was a di
 
 Months later, Venema responded on a blog. A claim was made that the evidence against a bottleneck when back as far as 18 million years.
 
-## In the Comments of a Blog
+### In the Comments of a Blog
 
 What happened next was remarkable. Five scientists entered into prolonged dialogue about population genetics: Dennis Venema, Richard Buggs, of course, but also Ann Gauger (Discovery Institute), Stephen Schaffner (Broad Institute), and myself (WUSTL). In about 1.2 thousand posts, we hashed out what the evidence really showed. Our findings were surprising.
 
@@ -84,7 +84,7 @@ It seemed that this was strong evidence against the *Reasons to Believe* model o
 
 ## Story Three: Sole-Genealogical Progenitorship
 
-This story begins [back in April 2017](https://peacefulscience.org/reviewing-adam-and-the-genome/), when I first brought forward *[The Genealogical Adam.](https://peacefulscience.org/genealogical-rapprochement/)*Here, we start with two facts that were overlooked.
+This story begins [back in April 2017](https://peacefulscience.org/reviewing-adam-and-the-genome/), when I first brought forward [*The Genealogical Adam.*](https://peacefulscience.org/genealogical-rapprochement/) Here, we start with two facts that were overlooked.
 
 1.  Genealogical Ancestry is not Genetic Ancestry.
 2.  Theology has legitimate autonomy to define "human" however it likes.
