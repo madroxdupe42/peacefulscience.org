@@ -1,9 +1,14 @@
+
+
 {{ define "head" }}
 {{ partial "jsonld" . }}
-  <link rel="preload" href="{{ partial `imgcdn`  `/img/design/green-hex.svg` }}" as="image" media="(max-width: 800px)">
   <link rel="preload" href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.svg` }}" as="image" media="(max-width: 800px)">
   {{ end }}
+  
+  
+  
 {{ define "main" }}
+
 
 {{ $PAGES := partialCached "byviews" . }}
 {{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }} 
@@ -28,11 +33,13 @@
 
 {{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
-
-
 {{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
 
- <img  style="background-color: #030; position: fixed; z-index: -1; top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover; object-position: 10% 50%;user-select: none;" src="{{ $srcpng  | partial `imgcdn` }}" >
+
+ <img  class="panimate" style="background-color: #030; position: fixed; z-index: -1; 
+ top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
+ object-position: 10% 50%;user-select: none;" 
+ src="{{ $srcpng  | partial `imgcdn` }}" >
 
 
 
@@ -47,14 +54,13 @@
     <div class="col my-5 text-center">
       
 
-{{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-long-white.png" "loc" $.File.Path )  }}      
       <img class="d-none d-lg-inline" style="width: 100%; height: auto" alt="Peaceful Science"
    	 width=952 height=148 
       src="{{ `/img/design/PS-logo-long-white.svg` |  partial `imgcdn` }}">
-      
-{{  $src := partial "imgurl" (dict "src"  "/img/design/PS-logo-stacked-white.png" "loc" $.File.Path )  }}      
+        
+        
       <img class="d-lg-none" style="width: 80%; height: auto"  alt="Peaceful Science" 
-   		 width=185 height=150 
+   		 width=285 height=150 
       src="{{ `/img/design/PS-logo-stacked-white.svg`  |  partial `imgcdn` }}">
       
       <h1  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h1>
@@ -73,7 +79,6 @@
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "lazy" ) }}
       {{ end }}
  
-
       {{ range after 3 $latest }}
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "image" ) }}
       {{ end }}
@@ -89,7 +94,7 @@
      {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/genealogical-adam-eve/") }}
      <div class="col pt-3" >
       <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
-      <img class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}' width="120" height="180">
+      <img class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}' loading="lazy" alt="The Genealogical Adam and Eve" width="120" height="180">
       </a>
      </div>
      
