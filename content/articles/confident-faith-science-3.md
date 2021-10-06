@@ -1,4 +1,5 @@
 ---
+series: confident-faith
 aliases:
 - /confident-faith-science-3/
 authors:
@@ -14,9 +15,8 @@ headerimage:
 title: The Same Gospel
 ---
 
-***The Gospel's Sameness** is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
-
-------------------------------------------------------------------------
+This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+{.editor-note}
 
 We live in a scientific world, one that looks to science as the only reliable path to public truth. In this world, where do people of faith look for confidence? In this moment, many look to scientific arguments for God, and scientific arguments against evolution. We hope these arguments will guard our faith and convince the skeptic. But is this confidence proper? Is it really secure?
 

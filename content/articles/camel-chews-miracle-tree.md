@@ -1,4 +1,5 @@
 ---
+series: 100-year-tree
 aliases:
 - /camel-chews-miracle-tree/
 authors:
@@ -8,23 +9,28 @@ categories:
 - evolution
 - theology
 date: "2016-07-08T09:21:24"
-description: Jon Garvey is an independent researcher in biblical creation doctrine at The Hump of the Camel. The editor of God's Good Earth, he is motivated by Evangelical, Reformed and Classical Theist perspectives. The complete version of his response can be found on his blog. In Dr Swamidass' fable of the 100 year old tree, truth is not \[...\]
+description: "Why might God make a 100 year-old tree a week ago? The theologian Jon Garvey
+responds with a discourse on purposes."
 headerimage:
   src: /img/2016/07/ATBCamel4-small.jpg
 title: Camel Chews Miracle Tree
 ---
 
-*Jon Garvey is an independent researcher in biblical creation doctrine at* [*The Hump of the Camel*](http://www.potiphar.jongarvey.co.uk/)*. The editor of [God's Good Earth](http://potiphar.jongarvey.co.uk/gods-good-earth-pdf-book/), he is motivated by Evangelical, Reformed and Classical Theist perspectives. The [complete version](http://potiphar.jongarvey.co.uk/2016/07/08/where-the-mystery-really-lies-a-classical-and-reformed-viewpoint/#more-4174) of his response can be found on his blog.*
-
-------------------------------------------------------------------------
+Jon Garvey is an independent researcher in biblical creation doctrine at* [*The Hump of the Camel*](http://www.potiphar.jongarvey.co.uk/)*. The editor of [God's Good Earth](http://potiphar.jongarvey.co.uk/gods-good-earth-pdf-book/), he is motivated by Evangelical, Reformed and Classical Theist perspectives. The [complete version](http://potiphar.jongarvey.co.uk/2016/07/08/where-the-mystery-really-lies-a-classical-and-reformed-viewpoint/#more-4174) of his response can be found on his blog.
+{.editor-note}
 
 In [Dr Swamidass' fable of the 100 year old tree](https://peacefulscience.org/100-year-old-tree/), truth is not in dispute -- God *actually* created what I will call "Miraculous Tree." That makes the scientist flat wrong about its age, though perhaps justified in his error, *given the conceptual limitations of science.* Let's explore that before talking about God's motives.
 
-One conceptual limitation of science is that it excludes consideration of "God's motives," which occupy the excluded category of "[final causation](https://en.wikipedia.org/wiki/Four_causes#Final_explanation)", the end(s) for which an event occurs.[^1]* *Final causation muddied mediaeval science because it meant speculating on God's intentions, so it was excluded as intractable, or (in naturalistic materialism) non-existent.[^2] Most importantly, "science does not do final causes" -- keep that firmly in mind.[^3]
+One conceptual limitation of science is that it excludes consideration of "God's motives," which occupy the excluded category of "[final causation](https://en.wikipedia.org/wiki/Four_causes#Final_explanation)", the end(s) for which an event occurs.[^1] Final causation muddied mediaeval science because it meant speculating on God's intentions, so it was excluded as intractable, or (in naturalistic materialism) non-existent.[^2] Most importantly, "science does not do final causes" -- keep that firmly in mind.[^3]
 
 Generally, however, science restricts itself to [*efficient causes*](https://en.wikipedia.org/wiki/Four_causes#Efficient_explanation) (cause and effect) and [*material causes*](https://en.wikipedia.org/wiki/Four_causes#Material_explanation) (what things are made of), making deductions and predictions from the patterns it finds. Thus trees are made of wood, have rings, etc. Our scientist sees that Miracle Tree consists of usual materials, and has what he might loosely call the "form" of a normal tree, so deduces a chain of efficient causes going back a century. This is exactly how science works.
 
-![Aristotle (384--322 BC) was a Greek philosopher of foundation importance to western thought. "[Four causes](https://en.wikipedia.org/wiki/Four_causes)" refers to an influential principle in Aristotelian thought whereby explanations of change or movement are classified into four fundamental types of answer to the question "why?" (caption quoted from Wikipedia). This is the framework Garvey uses to explain the purpose and limits of science.](/img/2016/07/aristotle.jpg)
+
+{{%  image `/img/2016/07/aristotle.jpg` %}}
+
+Aristotle (384--322 BC) was a Greek philosopher of foundation importance to western thought. [Four causes](https://en.wikipedia.org/wiki/Four_causes) refers to an influential principle in Aristotelian thought whereby explanations of change or movement are classified into four fundamental types of answer to the question "why?" (caption quoted from Wikipedia). This is the framework Garvey uses to explain the purpose and limits of science.
+
+{{% /image  %}}
 
 But he has forgotten that a tree's "form" includes its *whole* nature, not just its present configuration -- it springs from seed, acquires rings annually, etc. So although Miracle Tree *appears* like a tree, its true form is entirely different (appearing from nowhere last week). His science has been outdated by a new phenomenon, the tree-without-a-history. In some other world, *all* trees might be like Miracle Tree: spontaneous generation would be the "natural" cause, and growing for 100 years the anomaly.
 

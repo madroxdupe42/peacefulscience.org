@@ -1,4 +1,5 @@
 ---
+series: confident-faith
 aliases:
 - /confident-faith-science-1/
 authors:
@@ -6,15 +7,15 @@ authors:
 categories:
 - confession
 date: "2017-04-16T07:00:44"
-description: "Other Ground is Sinking Sand is a part of a series of excerpts of my story originally published in Finding Confident Faith in Science. Didaskalia 27 (2017): 165-88. We live in a scientific world, one that looks to science as the only reliable path to public truth. In this world, where do people of faith look for \\[...\\]"
+description: For now, an unstable faith was my fate. I was a child, after all, surrounded by Christians building confidence from science in our scientific world.
 headerimage:
   src: /img/2017/04/joshua-2016-1-945x531.png
 title: Other Ground is Sinking Sand
 ---
 
-*Other Ground is Sinking Sand is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+{.editor-note}
 
-------------------------------------------------------------------------
 
 We live in a scientific world, one that looks to science as the only reliable path to public truth. In this world, where do people of faith look for confidence? In this moment, many look to scientific arguments for God, and scientific arguments against evolution. We hope these arguments will guard our faith and convince the skeptic. But is this confidence proper? Is it really secure? In the centuries preceding modern science, and to this day, Christians found confident faith another way, outside of science , in the life, death, and resurrection of Jesus. There is an opportunity, even in science, to take find confidence in this same way. We find that nothing in science diminishes Jesus; nothing here threatens Him. Here, we can find a proper confidence.[^1]
 

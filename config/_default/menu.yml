@@ -1,7 +1,7 @@
     
 main:
   - name: Articles
-    url: /archive/
+    url: /articles/
     weight: -115  
   - name: Book
     url: /genealogical-adam-eve/

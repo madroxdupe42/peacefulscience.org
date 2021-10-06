@@ -4,15 +4,13 @@ aliases:
 authors:
 - swamidass
 date: "2016-11-08T05:08:07"
-description: Over the next two years, we aim to find common ground in the origin debates. The Inquiry Into Common Ground is directed by Dr. S. Joshua Swamidass, housed at Washington University, and administered by Saint Louis campus ministries (Intervarsity and Cru). Even though we do not agree with or endorse all positions, we believe dialogue is important, and common ground exists. We are pleased \[...\]
+description: Even though we do not agree with or endorse all positions, we believe dialogue is important, and common ground exists.
 headerimage:
   src: /img/2016/11/icg-2016-question-945x531-1.png
 title: "Common Ground: Year 1"
 ---
 
-*Over the next two years, we aim to find common ground in the origin debates. The Inquiry Into Common Ground is directed by [Dr. S. Joshua Swamidass](http://swami.wustl.edu/), housed at [Washington University](http://www.wustl.edu), and administered by Saint Louis campus ministries ([Intervarsity](https://intervarsity.org/) and [Cru](https://www.cru.org/)). Even though we do not agree with or endorse all positions, we believe dialogue is important, and common ground exists.*
-
-------------------------------------------------------------------------
+Over the next two years, we aim to find common ground in the origin debates. The Inquiry Into Common Ground is directed by [Dr. S. Joshua Swamidass](http://swami.wustl.edu/), housed at [Washington University](http://www.wustl.edu), and administered by Saint Louis campus ministries ([Intervarsity](https://intervarsity.org/) and [Cru](https://www.cru.org/)). Even though we do not agree with or endorse all positions, we believe dialogue is important, and common ground exists.
 
 We are pleased to announce that dates and speakers for the first two events. Prof. James Tour (ID and PC) and Dr. John Sanford (YEC) will be guest participants. They will be in dialogue with Prof. S. Joshua Swamidass in two upcoming events. ***Both are open to the public, and will be videotaped.***
 
@@ -28,13 +26,15 @@ The first Common Ground event will be held at Washington University in Saint Lou
 
 Prof. Swamidass is the director of the Inquiry to Common Ground and a computational biologist at WUSTL. He is on the speakers bureau for [BioLogos](http://biologos.org) (started by NIH Director Francis Collins), an organization working to explain evolution to religious audiences. Prof. Swamidass is a theistic evolutionist.
 
+
+{{< amazon "0981631606" >}}
+
 ## John Sanford: UMSL on March 9, 2017
 
 The second Common Ground event will be held at University of Missouri, Saint Louis (UMSL) in March with Dr. Sanford and Prof. Swamidass.
 
 [Dr. Sanford](https://en.wikipedia.org/wiki/John_C._Sanford) is a Young Earth Creationist and was a professor at Cornell and an accomplished plant geneticist. More recently, he has published in peer review work on human genetic evolution (see [here](https://tbiomed.biomedcentral.com/articles/10.1186/s12976-015-0016-z)) and is also known for developing [Mendel's Accountant](http://mendelsaccount.sourceforge.net/) (a system for simulating evolution). He is also the author of the book *[Genetic Entropy](https://www.amazon.com/Genetic-Entropy-Mystery-Genome-Sanford/dp/1599190028) *and a Christian.
 
-{{< amazon "0981631606" >}}
 
 Prof. Swamidass is a theistic evolutionist, and will represent this position at this event too.
 
