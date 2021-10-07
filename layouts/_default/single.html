@@ -74,7 +74,7 @@
           {{- with .youtube }}
              {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
           {{- else -}}
-            <img src="{{ $src  | partial `imgcdn`   }}" class="webfeedsFeaturedVisual"  style="width: 100%; height: auto" 
+            <img src="{{ $src  | partial `imgcdn`   }}?imgeng=/w_auto,1200/" class="webfeedsFeaturedVisual"  style="width: 100%; height: auto" 
                {{-  with (index site.Data.imgsize $src)  }} width="600" height="{{  div (mul .height 600) .width }}" {{ end -}} 
             >     
           {{- end -}}

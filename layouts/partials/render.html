@@ -17,12 +17,13 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none d-block" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
+{{- $imgeng:= "?imgeng=/w_640/h_360/m_cropbox" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none rounded" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
-
+  {{- $imgeng:= "?imgeng=/w_320/h_180/" }}
 {{- end -}}
 
 
@@ -44,13 +45,15 @@
 {{ if not $rendered }}
   <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" style="{{ $imagestyle | safeCSS }}" 
-  src="{{ $src | partial `imgcdn` }}" alt="{{ .Title | htmlEscape }}"
+  src="{{ $src | partial `imgcdn` }}{{ $imgeng }}" alt="{{ .Title | htmlEscape }}"
   {{- if not (in $hide "lazy") }} loading="lazy" {{- end }}>
 
   </a>
 {{ end }} 
 
 {{ end }}
+
+
  
 
 <header>
