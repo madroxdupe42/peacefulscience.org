@@ -48,10 +48,10 @@
 <div style="height: 40px; width: 100%"></div> 
 
 <header style="position: relative; overflow: hidden; ">
-<div style="position: absolute; width: 100%; height:100%; top:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg,rgba(0,0,0,.8), rgba(0,0,0,.5),rgba(0,0,0,0.2),rgba(0,0,0,0));"></div>
+<div style="position: absolute; width: 100%; height:20%; bottom:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg,rgba(0,0,0,.8), rgba(0,0,0,.5),rgba(0,0,0,0.2),rgba(0,0,0,0));"></div>
 <div class="container">
-  <div class="row py-5">
-    <div class="col my-5 text-center">
+  <div class="row pt-5 mt-5">
+    <div class="col  text-center">
       
 
       <img class="d-none d-lg-inline" style="width: 100%; height: auto" alt="Peaceful Science"
@@ -62,51 +62,84 @@
       <img class="d-lg-none" style="width: 80%; height: auto"  alt="Peaceful Science" 
    		 width=285 height=150 
       src="{{ `/img/design/PS-logo-stacked-white.svg`  |  partial `imgcdn` }}">
-      
-      <h1  class="text-white d-none d-lg-block"> What Does It Mean To Be Human? </h1>
     </div>
   </div>
 </div>
-</header>
-
-<section style="background-color: #dfdfdf">
-<div class="container" >
-    <div class="row justify-content-center pt-3">
-      {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
 
-      {{ range first 3 $latest  }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "lazy" ) }}
-      {{ end }}
- 
-      {{ range after 3 $latest }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "image" ) }}
-      {{ end }}
+
+
+<div class="shadow container-fluid text-white text-larger text-center  pt-3 mt-5" >
+<div class="row align-items-center">
+<div class="col-md-4 p-5" style="background: #121c">
+ <p> <a class="btn btn-outline-light d-inline-block mt-3" target="_blank" href="{{ absURL `/articles/mission-and-values/` }}"> Mission</a>
+<p> Seeking dialogue and understanding across disagreements that matter.
+</div>
+<div class="col-md-4 p-5" style="background: #010c">
+<p> <a class="btn btn-outline-light d-inline-block mt-3" href="#subscribe"> Subscribe</a>
+<p> Engaging content from scientists, theologians, and other scholars. 
+
+</div>
+<div class="col-md-4 p-5" style="background: #121c">
+ <p> <a class="btn btn-outline-light d-inline-block mt-3" target="_blank"  href="{{ absURL `https://www.patreon.com/peacefulscience` }}"> Support </a>
+<p> A civic practice of science, founded by a scientist  at Washington University in St. Louis.
 </div>
 </div>
-</section>
+</div>
 
 
+<div class="container ">
+  <div class="row pt-5 mt-3">
+    <div class="col text-center text-white text-larger">  
+   
+      <h1  class="text-white "> What Does It Mean To Be Human? </h1>
+    </div>
+  </div>
+</div>
 
-<section style="background: #0002">
-<div class="container py-4" >
+
+<section style="background: #0000">
+<div class="container py-5" >
   <div class="row justify-content-center dark">
      {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/genealogical-adam-eve/") }}
      <div class="col pt-3" >
       <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
-      <img class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}' loading="lazy" alt="The Genealogical Adam and Eve" width="120" height="180">
+      <img class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}' alt="The Genealogical Adam and Eve" width="120" height="180">
       </a>
      </div>
      
 	 <div class="col-lg-10  col-print-8">
       <div class="row justify-content-center">
        {{ range $gae }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories" ) }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories lazy date author"  ) }}
 
        {{ end }}
       </div>
      </div>
    </div>
+</div>
+</section>
+
+
+</header>
+
+
+
+
+<section id="articles" style="background-color: #dfdfdf">
+<div class="container" >
+    <div class="row justify-content-center pt-3">
+      {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
+
+
+      {{ range first 3 $latest  }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
+      {{ end }}
+ 
+      {{ range after 3 $latest }}
+        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "image" ) }}
+      {{ end }}
+</div>
 </div>
 </section>
 

@@ -683,17 +683,17 @@ figcaption {
 
   @keyframes highlight {
     0% {
-      background: #ee0;
+      background: #0a0;
     }
     100% {
-      background: unset;
+      background: reset;
     }
   }
 
 
 
-  .targeted,
-  *:target {
+article .targeted,
+article  *:target {
     animation: highlight 3s;
   }
 
