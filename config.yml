@@ -5,6 +5,11 @@ languageCode: "en-us"
 enableGitInfo: true
 disableAliases: true
 
+server:
+  headers:
+    - for: /font/*.woff2
+      values:
+        Access-Control-Allow-Origin: "*"
 
 minify:
   disableXML: true
