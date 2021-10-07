@@ -486,15 +486,16 @@ a.forum-link::after {
 
 @keyframes panimate {
   0% { transform: scale(1) } 
-  100% { transform: scale(1.1)}
+  100% { transform: scale(1.2)}
 }
 
 .panimate {
   animation-name: panimate;
-  animation-duration: 20s;	
-  animation-iteration-count: 1;
+  animation-duration: 30s;	
+  animation-iteration-count: infinite;
   animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-fill-mode: forward;
 }
 
 @keyframes pulse {
