@@ -2,8 +2,7 @@
 
 {{ define "head" }}
 {{ partial "jsonld" . }} 
-
-<link rel="canonical" href="{{ .Permalink }}" /> 
+<link rel="canonical" href="{{ with .Params.cannonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" /> 
 {{ end }}
 
 
@@ -16,6 +15,13 @@
     {{ warnf "DESC.ELLIPSE\t%s" $.File.Path }}
   {{ end }}
 {{ end }}
+
+{{ with .Content  }}
+  {{ if in . "::" }}
+    {{ warnf "CONTENT.COLONS\t%s" $.File.Path }}
+  {{ end }}
+{{ end }}
+
 
 {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
@@ -36,8 +42,21 @@
     
     
     {{ with .Date }}
-    <div class="article-date d-inline"> {{ $.PublishDate.Format "January 2, 2006" }} </div>
+    
+       <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}" rel=”nofollow” target="_blank">
+    <div class="article-date d-inline"> {{ .Format "January 2, 2006" }} </div>
        {{ with $.Scratch.Get "Views" }}
+       
+    {{ with $.Lastmod }}
+       {{ $day := div (sub  .Unix $.Date.Unix  ) 86400 }}
+       
+       {{ if and (gt $day 0)  (gt .Unix  (time "2021-09-01").Unix ) }}
+       <div class="text-smaller mr-3 d-inline" style="color: #bbb">&nbsp;&nbsp;&nbsp;(modified {{.Format "January 2, 2006"   }})</div>
+       
+       {{ end }}
+    {{ end  }}
+    </a>
+       
     <div class="view-count d-inline d-print-none float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
     {{ end }}
     {{ end }}
@@ -110,11 +129,11 @@
 
 
 
-<div class="left-sidebar" style="height: 100%; position: relative">
-  <div style="position: relative; height: 10vh	;"></div>
-   <div class="d-none d-md-block  hover-front position-sticky" style="top: 50px; width: 100%; background: #white">
+<div class="left-sidebar" style="height: 100%; position: relative; isolation: isolate; z-index: 4;">
+
+   <div class="d-none d-md-block  hover-front position-sticky" style="top: 60px; width: 100%; background: white">
       
-	<nav class="toc navbar  pt-5 pr-0" > 
+	<nav class="toc navbar pr-0 pt-5" style="overflow-y: auto;  max-height: calc(100vh - 55px) " > 
             {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
             <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
 				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
@@ -134,7 +153,7 @@
 
 {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
-<aside class="mt-5 py-5 comment-block d-print-none">
+<aside class="mt-5 py-5 comment-block d-print-none bg-white" style="z-index:4">
 <div class="container" >
   <div class="row justify-content-center py-3 my-3 text-larger">
     <div class="col-lg-4 text-center text-lg-right">
