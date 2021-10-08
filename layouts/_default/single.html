@@ -51,7 +51,7 @@
        {{ $day := div (sub  .Unix $.Date.Unix  ) 86400 }}
        
        {{ if and (gt $day 0)  (gt .Unix  (time "2021-09-01").Unix ) }}
-       <div class="text-smaller mr-3 d-inline" style="color: #bbb">&nbsp;&nbsp;&nbsp;(modified {{.Format "January 2, 2006"   }})</div>
+       <div class="text-smaller mr-3 d-inline" style="color: #bbb">&nbsp;&nbsp;&nbsp;(updated {{.Format "January 2, 2006"   }})</div>
        
        {{ end }}
     {{ end  }}
@@ -65,8 +65,14 @@
 
     <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
     
+        
+    <div class="mb-2 pr-1 ">  
+      {{ partial "authors" (dict "authors" .Params.authors)  }}
+    </div>
+        
+    
      {{- if eq "main" $headerpos -}}   
-        <div class="pb-3">
+        <div class="pb-2">
         {{- with .Params.headerImage }}
           
           {{- $src := partial "imgurl" (dict "src"  .src "loc" $.File.Path )  -}}
@@ -85,11 +91,7 @@
       {{- end }}
         </div>
      {{- end -}}
-    
-    <div class="mb-2 pr-1 ">  
-      {{ partial "authors" (dict "authors" .Params.authors)  }}
-    </div>
-        
+
     <div class="mb-5">
     {{- range .Params.categories }}
       {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}

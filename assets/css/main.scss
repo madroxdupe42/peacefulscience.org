@@ -1147,4 +1147,9 @@ blockquote {
   padding-bottom: 0px;
 }
 
- 
+footer {
+  /* place on the bottom */
+  width: 100%;
+  padding: 50px;
+  z-index: 1;
+}

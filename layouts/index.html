@@ -5,6 +5,18 @@
   <link rel="preload" href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.svg` }}" as="image" media="(max-width: 800px)">
   {{ end }}
   
+{{ define "background" }}
+  
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
+
+
+  
+ <img  class="panimate" style="background-color: #030; position: fixed; z-index: -1; 
+ top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
+ object-position: 10% 50%;user-select: none;" 
+ src="{{ $srcpng  | partial `imgcdn` }}" >
+  
+{{ end }}
   
   
 {{ define "main" }}
@@ -33,24 +45,13 @@
 
 {{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
-{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
-
-
- <img  class="panimate" style="background-color: #030; position: fixed; z-index: -1; 
- top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
- object-position: 10% 50%;user-select: none;" 
- src="{{ $srcpng  | partial `imgcdn` }}" >
-
-
-
 <div style="contain: layout">
 
 <div style="height: 40px; width: 100%"></div> 
 
 <header style="position: relative; overflow: hidden; ">
-<div style="position: absolute; width: 100%; height:20%; bottom:0; user-select: none; pointer-events: none; background-image:linear-gradient(0deg,rgba(0,0,0,.8), rgba(0,0,0,.5),rgba(0,0,0,0.2),rgba(0,0,0,0));"></div>
 <div class="container">
-  <div class="row pt-5 mt-5">
+  <div class="row py-5 mt-5">
     <div class="col  text-center">
       
 
@@ -69,27 +70,27 @@
 
 
 
-<div class="shadow container-fluid text-white text-larger text-center  pt-3 mt-5" >
-<div class="row align-items-center">
-<div class="col-md-4 p-5" style="background: #121c">
- <p> <a class="btn btn-outline-light d-inline-block mt-3" target="_blank" href="{{ absURL `/articles/mission-and-values/` }}"> Mission</a>
+<div class="shadow container-fluid text-white text-larger text-center  mt-5" >
+<div class="row">
+<div class="col-md-4 p-5" style="background: #121b">
+ <p> <a class="btn btn-outline-light d-inline-block mt-3" target="_blank" href="{{ absURL `/articles/mission-and-values/` }}"> Learn</a>
 <p> Seeking dialogue and understanding across disagreements that matter.
 </div>
-<div class="col-md-4 p-5" style="background: #010c">
+<div class="col-md-4 p-5" style="background: #010b">
 <p> <a class="btn btn-outline-light d-inline-block mt-3" href="#subscribe"> Subscribe</a>
 <p> Engaging content from scientists, theologians, and other scholars. 
 
 </div>
-<div class="col-md-4 p-5" style="background: #121c">
+<div class="col-md-4 p-5" style="background: #121b">
  <p> <a class="btn btn-outline-light d-inline-block mt-3" target="_blank"  href="{{ absURL `https://www.patreon.com/peacefulscience` }}"> Support </a>
 <p> A civic practice of science, founded by a scientist  at Washington University in St. Louis.
 </div>
 </div>
 </div>
 
-
-<div class="container ">
-  <div class="row pt-5 mt-3">
+<div style="background: #111d">
+<div class="container">
+  <div class="row pt-5">
     <div class="col text-center text-white text-larger">  
    
       <h1  class="text-white "> What Does It Mean To Be Human? </h1>
@@ -98,17 +99,17 @@
 </div>
 
 
-<section style="background: #0000">
-<div class="container py-5" >
-  <div class="row justify-content-center dark">
-     {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/genealogical-adam-eve/") }}
+<section>
+<div class="container pt-3 pb-5" style="opacity: .8" >
+  <div class="row justify-content-center ">
+     {{ partial "heading" (dict "Text" "The Genealogical Adam and Eve" "Link" "/genealogical-adam-eve/" "Class" "heading-green") }}
      <div class="col pt-3" >
-      <a href='{{ "/genealogical-adam-eve/" | absURL }}'>
-      <img class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}?imgeng=/w_auto,240/' alt="The Genealogical Adam and Eve" width="120" height="180">
+      <a   href='{{ "/genealogical-adam-eve/" | absURL }}'>
+      <img style="opacity: 1" class="gae-cover mr-lg-auto mx-auto d-block" src='{{ partial "imgcdn" `/img/design/gae-cover-swamidass.jpg` }}?imgeng=/w_auto,240/' alt="The Genealogical Adam and Eve" width="120" height="180">
       </a>
      </div>
      
-	 <div class="col-lg-10  col-print-8">
+	 <div class="col-lg-10  col-print-8 dark" style="filter: grayscale(80%);">
       <div class="row justify-content-center">
        {{ range $gae }}
         {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-3" "Hide" "excerpt categories lazy date author"  ) }}
@@ -118,13 +119,11 @@
      </div>
    </div>
 </div>
+</div>
 </section>
 
 
 </header>
-
-
-
 
 <section id="articles" style="background-color: #dfdfdf">
 <div class="container" >
