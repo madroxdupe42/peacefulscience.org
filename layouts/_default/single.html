@@ -12,13 +12,13 @@
 
 {{ with .Description  }}
   {{ if in . "..." }}
-    {{ warnf "DESC.ELLIPSE\t%s" $.File.Path }}
+    {{ warnf "DESC.ELLIPSE\t%s" $.Path }}
   {{ end }}
 {{ end }}
 
 {{ with .Content  }}
   {{ if in . "::" }}
-    {{ warnf "CONTENT.COLONS\t%s" $.File.Path }}
+    {{ warnf "CONTENT.COLONS\t%s" $.Path }}
   {{ end }}
 {{ end }}
 
@@ -39,15 +39,15 @@
 
 <header class="article-header" >
     
-    
-    
     {{ with .Date }}
     
-       <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}" rel=”nofollow” target="_blank">
+       <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}" rel=”nofollow” target="_blank">
     <div class="article-date d-inline"> {{ .Format "January 2, 2006" }} </div>
        {{ with $.Scratch.Get "Views" }}
        
-    {{ with $.Lastmod }}
+       
+     {{ $lastmod := partial "lastmod" $ }}
+    {{ with $lastmod }}
        {{ $day := div (sub  .Unix $.Date.Unix  ) 86400 }}
        
        {{ if and (gt $day 0)  (gt .Unix  (time "2021-09-01").Unix ) }}
@@ -75,7 +75,7 @@
         <div class="pb-2">
         {{- with .Params.headerImage }}
           
-          {{- $src := partial "imgurl" (dict "src"  .src "loc" $.File.Path )  -}}
+          {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path )  -}}
 
           {{- with .youtube }}
              {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
@@ -120,6 +120,7 @@
       
       {{ .Content }}
 </main>
+
  <!--  
 <div class="right-sidebar pb-5 pr-5" style="position: relative">
    {{ partial "mailinglist" (dict "EmailClass" "text-dark pl-3" "ButtonClass"  "text-muted" )  }} 
@@ -175,8 +176,8 @@
     <p>
       {{ with .Params.commenturl -}}
       <a href="{{ . | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a> {{ end }}
-      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
-      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
+      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .Path | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
+      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .Path  | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
     </div>
   </div>
 </div>

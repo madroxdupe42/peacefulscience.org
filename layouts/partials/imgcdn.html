@@ -1,7 +1,7 @@
 {{ $out :=  printf "https://%s/%s"  site.Params.imagecdn . }}
 
 {{ if site.IsServer }}
-   {{ $odut := . | absURL }}
+   {{ $out = . | absURL }}
 {{ end }}
 
 {{ return $out }} 

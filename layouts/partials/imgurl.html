@@ -1,5 +1,5 @@
 {{- $src := .src   -}}
-{{- $loc := .loc | default .Parent.File.Path }}
+{{- $loc := .loc | default .Parent.Path }}
 
 
 {{- if findRE "^static/" $src -}}

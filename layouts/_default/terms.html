@@ -1,37 +1,54 @@
 {{ define "main" }}
 
 {{ $data := .Data }}
-<div class="container" role="main">
-  <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-    <article class="post-preview">
-      <div id="accordion" role="tablist" aria-multiselectable="true">
-        {{ range $key, $value := .Data.Terms.ByCount }}
-          {{ $name := ($.Site.GetPage "taxonomyTerm" (printf "%s/%s" ($.Data.Plural) (urlize $value.Name))).Title | default ($value.Name | humanize )  }}
-          
-          <div class="card">
-            <button class="btn collapsed" role="button" data-toggle="collapse" data-target="#collapse{{ $value.Name }}" data-parent="#accordion" aria-expanded="false" aria-controls="collapse{{ $value.Name }}">
-              <div class="card-header" role="tab" id="header{{ $value.Name }}">
-                <h4 class="card-title">
-                  {{ $name }}   
-                  <span class="badge badge-secondary float-right">{{ $value.Count }}</span>
-                </h4>
-              </div>
-            </button>
-            <div id="collapse{{ $value.Name }}" class="card-collapse collapse" role="tabpanel" aria-labelledby="heading{{ $value.Name }}">
-              <div class="card-body">
-                <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="list-group-item list-group-item-action view-all">
-                View all</a>
-                <div class="list-group">
-                  {{ range $item := $value.WeightedPages }}
-                    <a href="{{$item.Permalink}}" class="list-group-item list-group-item-action">{{ $item.Title }}</a>
-                  {{ end }}
-                </div>
-              </div>
-            </div>
-          </div>
-        {{ end }}
-      </div>
-    </article>
+<div style="background: white">
+
+<header class="gae-header-bg shadow" style="z-index:100;position: relative; z-index: 2">
+
+
+<div style="height: 40px; width: 100%"></div> 
+
+
+<div class="container">
+  <div class="row pt-5 pb-5 justify-content-center text-white">
+
+  {{ $title := .Title }}
+  {{- with .Content }}
+  <div class="col-7">
+        <h1 class="text-white  display-2"> {{ $title }} </h1> 
   </div>
+  <div class="col-lg-5">
+        {{- . -}}
+  </div>
+  {{ else }}
+  <div class="col-12">
+        <h1 class="text-white  display-2"> {{ $title }} </h1> 
+  </div>
+  {{- end }}
+
+  </div>
+</div>
+</header>
+
+
+<div class="container py-5" role="main" >
+  <div class="row">
+        {{ range $key, $value := .Data.Terms.ByCount }}
+          {{ $page := ($.Site.GetPage "taxonomyTerm" (printf "%s/%s" ($.Data.Plural) (urlize $value.Name)))  }}
+          {{ $name := $page.Title | default ($value.Name | humanize) }}
+          
+          <div class="col-lg-6 py-1">
+
+                <a href="{{ $page.Permalink }}"><h4>
+                  {{ $name }}   
+                  <span class="badge badge-secondary">{{ $value.Count }}</span></h4>
+                </a>
+           </div>
+
+        {{ end }}
+  </div>
+</div>
+
+
 </div>
 {{ end }}

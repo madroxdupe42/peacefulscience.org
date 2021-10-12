@@ -6,9 +6,9 @@
   {{ end }}
   
 {{ define "background" }}
-  
-{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.File.Path )  }}
 
+
+{{  $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.Path )  }}
 
   
  <img  class="panimate" style="background-color: #030; position: fixed; z-index: -1; 
