@@ -1,17 +1,7 @@
-{{ $embed := printf `https://read.amazon.com/kp/card?asin=%s&preview=inline&linkCode=kpe&tag=swamidass-20` .  }}
+{{ $embed := printf `https://kindleweb.s3.amazonaws.com/app/1.0.11.053.093655/KindleReaderApp.html?asin=%s&tag=swamidass-20` . }}
+
 {{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
 
-<iframe type="text/html" width="336" height="550" class="d-block mx-auto" frameborder="0" allowfullscreen style="max-width:336; height: 550"
-srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
-img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-span{height:1.5em;text-align:center;font:56px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-@media print {span{ display: none}}
-</style>
-<a href={{ $embed }}>
-<img src='{{ $img }}' width=336 height=550 style='height: auto' />
-<span>&#128269;</span>
-</a>"
-  frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+
+<a href="https://www.amazon.com/dp/{{ . }}/?tag=swamidass-20"> </a><img src='{{ $img }}' width=336 height=550 style='height: auto' /></a>
+
