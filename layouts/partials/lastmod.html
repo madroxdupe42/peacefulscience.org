@@ -1,0 +1,17 @@
+{{ $out := .Lastmod }}
+{{ $date := .Date }}
+{{ $path := .Path }}
+
+{{ with index site.Data.lastmod $path }}
+  {{ $ignore := time .ignore }}
+  
+  {{ if ( lt .Lastmod.Unix $ignore.Unix ) }}
+    {{ with .lastmod }} 
+       {{ $out = time . }}
+    {{ else }}
+       {{ $out = $date }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $out }}
