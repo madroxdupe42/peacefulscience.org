@@ -10,58 +10,36 @@ commenturl: "http://discourse.peacefulscience.org/t/more-than-just-apes/8605"
 date: "2016-05-24T03:19:36"
 description: Scientifically speaking, humans appear to be genetically-modified apes. But are we just apes? Or are we more? Follow the conversation with Dr. Ajit Varki.
 headerimage:
+  youtube: -_YKH3tAIqw
   src: /img/2016/05/nim-chimpsky-small.jpg
 title: More Than Just Apes
 ---
 
-*This article is directed at scientists and religious leaders that want to non-combatively, creatively and productively engage with mainstream science. Curious and honest questions are welcome. Those that want to debate the science will be handled elsewhere.*
 
 Scientifically speaking, humans appear to be genetically-modified apes, with genomes that are more than 98% similar to chimpanzees in coding regions, and about 95% similar overall.[^1] We are 10 times closer to apes than mice are to rats. As I have previously explained, this is [evidence for the common descent of man](http://swami.wustl.edu/evidence-and-evolution). Even if common descent is ultimately false (as some religious leaders might [reasonably believe](http://swami.wustl.edu/call-response-tree)), somehow this evidence exists. Now, starting from this striking genetic similarity, some argue that humans are just animals, unexceptional in every way.
 
-This brings us to our question: we are formed from the dust of the earth, but are we *just *dust? ***Humans are intelligent, genetically-modified apes, but are we [just] apes?***
+This brings us to our question: we are formed from the dust of the earth, but are we *just* dust? Humans are intelligent, genetically-modified apes, but are we *just* apes?
 
 Commonly, scientists say "we are just intelligent animals." [A charming article in the New York Times](http://www.nytimes.com/2016/04/10/opinion/sunday/what-i-learned-from-tickling-apes.html) by the scientist [Frans de Waal](https://en.wikipedia.org/wiki/Frans_de_Waal) is emblematic. His article starts with stories about  tickling apes, declaring: "Humans: Not So Special." Dr. de Waal correctly argues humans and are much more similar to animals than we usually think, and then explains:
 
-::: {.su-quote .su-quote-style-default}
-::: {.su-quote-inner .su-u-clearfix .su-u-trim}
-Science nowadays often starts \[by\] assuming continuity between humans and animals, while shifting the burden of proof to those who insist on differences.
-:::
-:::
+> Science nowadays often starts by assuming continuity between humans and animals, while shifting the burden of proof to those who insist on differences.
 
 Scientists focus on the continuity between humans and animals. Right now, surprising similarities between humans and animals are expected. This expectation motivates scientists to treat apes like humans, bringing us both [Koko](https://en.wikipedia.org/wiki/Koko_(gorilla)) the sign language gorilla and [the abusive](http://www.npr.org/2011/07/20/138467156/project-nim-a-chimps-very-human-very-sad-life) and [tragic episode](https://www.youtube.com/watch?v=NRLfC09bFYk) of [Nim Chimpsky](https://en.wikipedia.org/wiki/Nim_Chimpsky).[^2] Those that insist on differences, however, need to fervently make their case, and might even be suspected of religious delusion.
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile}
 ![](/img/2016/05/nim-chimpsky-small.jpg)
 
-::: {.wp-block-media-text__content}
 Nim Chimpsky is a chimpanzee that was raised by researchers like a human child, in the hope that a proper upbringing might encourage more human traits to emerge. The experiment failed horribly with tragic and scaring results for everyone involved, including Nim. The documentary [Project Nim](https://www.youtube.com/watch?v=NRLfC09bFYk) tells this sad story.
-:::
-:::
 
 Is this really what science tells us? That humans are *just* intelligent apes, unexceptional in most important ways? Many scientists answer, "yes, we are just apes."
 
 Even non-religious people reject evolution because of this answer. Any theory that argues "humans are just animals" seems dehumanizing, and might even be dangerous. On face value, this feels wrong. This, however, is the instinct and the message of many in the current scientific world.
 
-***So what is the truth?*** Of course, scientifically speaking, we are genetically modified apes, 98% to 95% similar to them***.*** Remarkably, a mere 2% to 5% difference in our genomes, [biologically-speaking](http://www.pandasthumb.org/archives/2007/07/haldanes-nondil.html), is more than enough to explain the "[human condition](http://genome.cshlp.org/content/15/12/1746.full)."[^3]******However, it is fallacious to argue from genetic similarity, that we are not exceptional. In fact, this leap misrepresents our current understanding of evolution. According to [neutral theory](https://en.wikipedia.org/wiki/Neutral_theory_of_molecular_evolution), genome similarity measures the time since we separated from apes (which was quite recently), rather than meaningfully  measuring functional differences or distance.[^4]
+***So what is the truth?*** Of course, scientifically speaking, we are genetically modified apes, 98% to 95% similar to them. Remarkably, a mere 2% to 5% difference in our genomes, [biologically-speaking](http://www.pandasthumb.org/archives/2007/07/haldanes-nondil.html), is more than enough to explain the "[human condition](http://genome.cshlp.org/content/15/12/1746.full)."[^3] However, it is fallacious to argue from genetic similarity, that we are not exceptional. In fact, this leap misrepresents our current understanding of evolution. According to [neutral theory](https://en.wikipedia.org/wiki/Neutral_theory_of_molecular_evolution), genome similarity measures the time since we separated from apes (which was quite recently), rather than meaningfully  measuring functional differences or distance.[^4]
 
 Therefore, we should consider the obvious. Even if we are similar to apes, as [Dr. Ajit Varki](http://cmm.ucsd.edu/varki/)  puts it, "***humans are very [very] unusual***." We humans, it seems, are more than *just* apes.
 
 This last April, I had the privilege of presenting with Varki at UC San Diego in front of a crowd of hundreds of some of the smartest students on earth. A brilliant scientist, Varki is a leading thinker on human evolution. He runs [CARTA](https://carta.anthropogeny.org/), an interdisciplinary center for studying human evolution at UC San Diego, and wrote [*Denial*](http://www.amazon.com/gp/product/1455511919/), a book explaining his understanding of the "singularity" in the rise of the human race.
 
-::: {.wp-block-embed__wrapper}
-::: {.iframe}
-::: {#player}
-:::
-
-::: {.player-unavailable}
-## An error occurred.
-
-::: {.submessage}
-[Try watching this video on www.youtube.com](https://www.youtube.com/watch?v=-_YKH3tAIqw), or enable JavaScript if it is disabled in your browser.
-:::
-:::
-:::
-:::
 
 [The full conversation](https://www.youtube.com/watch?v=-_YKH3tAIqw) is really worth watching. We discuss our religious upbringings, our journeys into science, my approach to seeking peace in the Creation War with common ground and also human exceptionalism. It's this last topic that I wanted outline here, to explain Varki's scientific understanding of exceptionalism in our human origins. He wants to know  who we humans are and from where we came. As [Varki](https://en.wikipedia.org/wiki/Ajit_Varki#Education_and_biography)  puts it, "humans are very very unusual." He gives several examples, but I will explain just three.
 

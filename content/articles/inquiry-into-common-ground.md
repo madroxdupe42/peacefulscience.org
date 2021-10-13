@@ -4,7 +4,7 @@ aliases:
 authors:
 - swamidass
 date: "2016-08-07T05:04:34"
-description: We are pleased to announce the award of a \$25,000 grant for two years. With this grant, we aim to define common ground in the origin debates. This grant was awarded by the STEAM project, which has funding from the John Templeton Foundation. This grant is directed by Dr. S. Joshua Swamidass, housed at Washington University, and be administered by Saint Louis campus ministries (Intervarsity and \[...\]
+description: There is common ground, but it is hidden. The current framing of the debate, as a war between creation and evolution, hides our common ground from view. 
 headerimage:
   src: /img/2016/08/icq-logo-1-945x531-1.png
 title: Inquiry Into Common Ground

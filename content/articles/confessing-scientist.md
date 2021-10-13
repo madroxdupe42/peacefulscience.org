@@ -9,7 +9,7 @@ categories:
 - society
 commenturl: "http://discourse.peacefulscience.org/t/the-confessing-scientist/15"
 date: "2017-11-05T22:01:44"
-description: For many years, I often wondered how an encounter with Jesus could change the Creation War. As my contemplation deepened, I wrote and lectured often on how Jesus is fundamentally reordering my view of world. This reordering grew my discomfort with the term theistic evolutionist. I continue to affirm evolutionary science, as most scientists do, \[...\]
+description: Call me a confessing scientist, a scientist in the Church and a Christian in science, serving the common good with a truthful account of what I have seen.
 headerimage:
   src: /img/2017/11/swamidass_collins.jpg
 title: The Confessing Scientist

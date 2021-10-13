@@ -7,7 +7,7 @@ categories:
 - forum
 commenturl: "http://discourse.peacefulscience.org/t/forum-launching/145"
 date: "2018-05-06T03:25:24"
-description: Peaceful Science does not fit into any of the existing camps in origins. We want to find common ground for everyone who wants to find a Christ-centered and non-confrontational relationship with mainstream science. We hope to serve the Church with an accurate account of science, a high view of Scripture, and a genuine bid for peace. \[...\]
+description: We hope to serve the Church with an accurate account of science, a high view of Scripture, and a genuine bid for peace.
 headerimage:
   src: /img/2018/05/swamidass_ross_crop.jpg
 title: Launching Our Forum

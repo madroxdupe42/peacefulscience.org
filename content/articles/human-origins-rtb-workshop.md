@@ -36,9 +36,7 @@ With these possibilities in mind, I am a Christian that affirms evolutionary sci
 
 **Conclusion**: Many of the evidential claims against RTB's human origins model were not valid. Dr. Joshua Swamidass, a scientist from PS, who personally affirms evolutionary science, sees a way forward for the RTB approach.
 
-::: {.wp-block-embed__wrapper}
 {{< vimeo `379301717` >}}
-:::
 
 ## A Workshop on January 18th
 
@@ -62,18 +60,12 @@ I'm reminded of Dr. Ross' endorsement of my book,
 
 I look forward to continuing the conversation and seeing where this all leads. Let's find that better way together.
 
-::: {.wp-block-embed__wrapper}
 {{< vimeo `389598253` >}}
-:::
 
-::: {.wp-block-embed__wrapper}
+
 {{< vimeo `389598791` >}}
-:::
 
-::: {.wp-block-embed__wrapper}
 {{< vimeo `389599375` >}}
-:::
 
-::: {.wp-block-embed__wrapper}
 {{< vimeo `389599419` >}}
-:::
+
