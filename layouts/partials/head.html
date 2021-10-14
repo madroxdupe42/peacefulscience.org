@@ -1,6 +1,6 @@
 {{- $.Scratch.Set "Description" ( (.Description | markdownify |  plainify  ) | default .Params.subtitle | default .Summary | default .Kind ) -}}
 
-{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify |  plainify  ) -}}
+{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify  | htmlUnescape  ) -}}
 
 
 {{ if not site.IsServer }}
@@ -28,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{- with ($.Scratch.Get "Title") }}
 <title>{{ print . }}</title>
 <meta property="og:title" content="{{ . }}"/>
-<meta name="title" content="{{ . }}"/>
+<meta name="title" content="{{ .  }}"/>
 <meta name="twitter:title" content="{{ . }}">
 
 {{- end -}}
