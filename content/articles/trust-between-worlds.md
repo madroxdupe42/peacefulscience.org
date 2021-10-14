@@ -46,13 +46,9 @@ I want to share a story about a workshop in St. Louis I attended at the beginnin
 
 At the workshops, one of the most peculiar participants was Nathan Lents. Dr. Lents was a biology professor in New York, and he was an atheist. I wasn't really sure why he was at the workshop. Perhaps he would give feedback on the genetics in the book and that was it. Much of the book is theological and focused Genesis. Once we go to this part of the book, I figured Dr. Lents would quickly slip away, most likely muttering "those poor delusional fools."
 
-::: {.wp-block-media-text .alignwide .has-media-on-the-right .is-stacked-on-mobile}
-![](/img/2019/09/mantha-lents-bradley-crop.jpg)
-
-::: {.wp-block-media-text__content}
+{{% image `/img/2019/09/mantha-lents-bradley-crop.jpg`  %}}
 Jordan Mantha, with Walter Bradley and Nathan Lents, at the Genealogical Adam and Eve workshop.
-:::
-:::
+{{% /image %}}
 
 I was wrong. Dr. Lents not only stayed the full two days, but he engaged with the whole book. I saw Nathan interact meaningfully with people from Intelligent Design and Old Earth Creationism, as well as Bible scholars and theologians. After the workshop was done for the day, the group headed off for dinner, where of course more conversation ensued. I was impressed with Nathan's willingness to come into what could easily be seen as "hostile territory," a group of Christians. He didn't shy away from us, but graciously engaged us as friends and colleagues.
 

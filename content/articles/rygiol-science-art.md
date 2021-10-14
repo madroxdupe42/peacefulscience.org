@@ -3,6 +3,7 @@ aliases:
 - /rygiol-science-art/
 authors:
 - david-rygiol
+- swamidass
 categories:
 - art
 - news
@@ -49,7 +50,10 @@ Three years ago I co-founded a large scale collaborative design project called [
 
 Projects like these *could* be done by an individual or small group, but it would lose the amazing display of diversity that reflects many people who lead very different lives. By working with 60 individuals we get 60 views of the world and 60 different ways for other people to connect with the project in a meaningful way. There's no substitute or shortcut for collaboration, and I think art can be better when we do it together. I'm thrilled to watch the *Peaceful Science* community of artists grow over the next several years. 
 
-{{< mediatext `/img/2019/09/eWGBV9dJ-BnLc0cLmI4Y6ZQHfi9DYXDn83TysuJ4gMq61CzI3x_ThsZV-RoxqVsTO8ILNNV7eLjoCbQVEkFxAlBZ4mEw-BYvaBULHFWWaIEAs8UQf9-oTsgAEUCK7yhGjgHO8lUT.png` `[Chevreul](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul) proposed this color wheel in 1861. His work on color perception had "[had a great influence on advanced art in Europe, particularly Impressionism, Neo-Impressionism and Orphism](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul)." ` >}}
+
+{{% image `/img/2019/09/eWGBV9dJ-BnLc0cLmI4Y6ZQHfi9DYXDn83TysuJ4gMq61CzI3x_ThsZV-RoxqVsTO8ILNNV7eLjoCbQVEkFxAlBZ4mEw-BYvaBULHFWWaIEAs8UQf9-oTsgAEUCK7yhGjgHO8lUT.png` %}}
+[Chevreul](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul) proposed this color wheel in 1861. His work on color perception had "[had a great influence on advanced art in Europe, particularly Impressionism, Neo-Impressionism and Orphism](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul)."
+{{% /image %}}
 
 **What specific examples of dialogue between science and art have been compelling to you?**
 
@@ -59,13 +63,14 @@ One of my favorites examples is the work of painter [Georges Seurat](https://en.
 
 In 1886 Seurathe painted [Alfalfa, St. Denis](https://www.wikiart.org/en/georges-seurat/alfalfa-st-denis-1886), a [pointillism](https://drawpaintacademy.com/pointillism-art-movement/) landscape that makes use of [Chevreul](https://en.wikipedia.org/wiki/Michel_Eug%C3%A8ne_Chevreul)'s observations of how we perceive color. His work is inspired by perceptual science, and it brought a large public audience into contact with the reality that science uncovered. 
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile}
-![](/img/2019/09/alfalfa-st-denis-1886.jpeg)
 
-::: {.wp-block-media-text__content}
+
+
+{{% image `/img/2019/09/alfalfa-st-denis-1886.jpeg` %}}
 [Alfalfa, St. Denis](https://www.wikiart.org/en/georges-seurat/alfalfa-st-denis-1886), a [pointillism](https://drawpaintacademy.com/pointillism-art-movement/) landscape.
-:::
-:::
+{{% /image %}}
+
+
 
 ***Peaceful Science* [aims to bring scientists, artists and designers](https://peacefulscience.org/launching/) into collaboration with each other.** **To what should we look forward?**
 
@@ -73,4 +78,4 @@ We will be exploring the interplay between art and science the next several year
 
 Imagine someone standing outside the scientific community; there's a very high wall of knowledge, history and vocabulary that isolates them from accessing the ideas behind the wall. Occasionally,  an uncommonly communicative and relatable scientist might open doors, and help those of us outside see and understand. I want to paint the entire face of the wall, so everyone standing outside can learn and explore the ideas held within, even if they are standing at a distance.
 
-We are forming a team and community. Expect to hear more in the coming months about projects and collaborations. If you are an artist or designer, come along with us. This is going to be fun. \
+We are forming a team and community. Expect to hear more in the coming months about projects and collaborations. If you are an artist or designer, come along with us. This is going to be fun. 

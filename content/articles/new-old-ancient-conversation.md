@@ -27,33 +27,33 @@ Most readers of Genesis the last few thousand years understood Adam and Eve as a
 
 Everyone agreed, in the end, that [evolutionary science was in conflict with the traditional *de novo* account of Adam and Eve](https://discourse.peacefulscience.org/t/the-biologos-statement-on-adam-and-eve/5847). In recent decades, population genetics seemed to establish this conflict as an undeniable fact. As *The Genealogical Adam and Eve* demonstrates, however, this certainty of conflict was mistaken. We now know that there is a better way forward.
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
-![](/img/2019/08/JoshMcDowell.jpeg)
+{{% image `/img/2019/08/JoshMcDowell.jpeg` %}}
+[Sean McDowell interviewed Dr Swamidass](https://seanmcdowell.org/blog/are-evolution-and-a-historical-adam-possible-a-provocative-model) about his book and the relationship between faith and science, and the book. McDowell writes, 
 
-::: {.wp-block-media-text__content carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
-[Sean McDowell interviewed Dr Swamidass](https://seanmcdowell.org/blog/are-evolution-and-a-historical-adam-possible-a-provocative-model) about his book and the relationship between faith and science, and the book. McDowell writes, *"May this book get the wide readership it deserves."*
-:::
-:::
+> May this book get the wide readership it deserves.
+{{% /image %}}
 
 ## A New Conversation is Growing
 
 I wrote this book to foster a new conversation, a better conversation than the conflicts of the past. Origins is a quagmire, a wasteland, but we might find virtue here.
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
-![](/img/2019/12/75247353_10157262131651998_7390313083350024192_o.jpg)
 
-::: {.wp-block-media-text__content carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
+
+
+{{% image `/img/2019/12/75247353_10157262131651998_7390313083350024192_o.jpg` %}}
 The [first and last chapters](https://peacefulscience.org/download/excerpt-genealogical-adam-eve/) of the book frame the question of Adam and Eve around six virtues. In pursuit of these virtues, we might find a better way through the quagmire of origins. With this image in mind, I chose this inscription for the book.
-:::
-:::
+{{% /image %}}
+
 
 Early copies already shipped, and people are posting copies of the book as it arrives. Our stealth book launch in New York with Nathan Lents was a hit (video coming soon!). The publisher is already out of stock, we sold out of the first printing run, and the book is not even released yet. The [launch team discount](https://discourse.peacefulscience.org/t/discount-code-for-the-gae/7049) (30% and free shipping) is valid till December 31st. Hopefully you will get the book without too much of a delay.
 
-We are bracing for the book's release. Much more is on the horizon. We are still forming our plan to inform you of track the media engagement and reviews. To help with this, we may be adding to our team. For now, **stay in the loop by joining the book's new [facebook group](https://www.facebook.com/groups/genealogical.adam.eve/) and like its [facebook page](https://www.facebook.com/genealogical.adam.eve/).** We will try and keep you informed there.
+We are bracing for the book's release. Much more is on the horizon. We are still forming our plan to inform you of track the media engagement and reviews. To help with this, we may be adding to our team. For now, **stay in the loop by joining the book's new [facebook group](https://www.facebook.com/groups/peacefulscience) and like its [facebook page](https://www.facebook.com/genealogical.adam.eve/).** We will try and keep you informed there.
 
-![](/img/2019/12/gae-post1.jpg)
 
 While you wait for your copy, there are some **free downloads** to explore and share with others. IVP generously allowed us to make the [first and last chapters](https://peacefulscience.org/download/excerpt-genealogical-adam-eve/) of the book available for free. You can [download the endorsements](https://peacefulscience.org/download/endorsements-genealogical-adam-eve/) too, including a late addition from Jack Collins. The [online appendices](https://www.ivpress.com/Media/Default/Downloads/Excerpts-and-Samples/5263-Appendixes.pdf) are also available, with comments from Andrew Torrance, Jack Collins, William Lane Craig, and John Hilber. There will be more to share in the coming months.
+
+
+![](/img/2019/12/gae-post1.jpg)
 
 ## Reshuffling The Deck
 
@@ -65,16 +65,15 @@ I am looking forward to seeing how the established players adapt, or do not adap
 
 The apologetics community has been admirably open-minded. I am impressed. Do not miss this [interview by Sean McDowell](https://discourse.peacefulscience.org/t/mcdowell-and-swamidass-the-proper-relationship-between-science-and-theology/8614). This last week, Evan Minton (a Christian that affirms evolutionary science) from Cerebral Faith [interviewed me](https://anchor.fm/evan-minton/episodes/Episode-49-The-Genealogical-Adam-and-Eve---Interview-With-S--Joshua-Swamidass-e93slk/a-a12b2lq) and gave the book a [glowing review](https://cerebralfaith.net/book-review-the-genealogical-adam-and-eve/). The scholar Joe Miller from [More Than Cake, also, interviewed me](https://www.facebook.com/575900232788893/videos/488455205093329/). Soon, [Bob Dutko (young earth creationist) is interviewing me](https://discourse.peacefulscience.org/t/bob-dutko-interviewing-swamidass-on-the-gae/8597) about the book on his radio show (**listen [here](https://wmuz.com/) on Dec. 2nd, 2019 at 12:30pm to 1:30pm CST**).
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
-![](/img/2018/05/swamidass_ross.jpg)
 
-::: {.wp-block-media-text__content carousel-extra="{\"blog_id\":1,\"permalink\":\"https:\\/\\/peacefulscience.org\\/new-old-ancient-conversation\\/\"}"}
-***Reasons to Believe*** is hosting a live-streamed workshop on *The Genealogical Adam and Eve* in January 2020." include William Lane Craig, Fazale Rana, Andrew Loke, and more. Details to follow.
-:::
-:::
+{{% image `/img/2018/05/swamidass_ross.jpg` %}}
+***Reasons to Believe*** is [hosting a live-streamed workshop](/articles/human-origins-rtb-workshop/) on *The Genealogical Adam and Eve* in January 2020. include William Lane Craig, Fazale Rana, Andrew Loke, and more. Details to follow.
+{{% /image %}}
 
 ## The Ancient Conversation
 
 Origins is a quagmire, an ugly argument. I hope this book, *The Genealogical Adam and Eve*, starts a new conversation where we can find a better way together. A conversation is growing among theologians, exegetes, and thoughtful people in the Church. They are filling in and changing details, making sense of it all together.
 
 This conversation is new, but it is connected to an ancient conversation. In this exchange, we are approaching the grand question together, wondering about who we are and where we came from. All great art and literature bring us here, to this grand question: *what does it mean to be human?*
+
+

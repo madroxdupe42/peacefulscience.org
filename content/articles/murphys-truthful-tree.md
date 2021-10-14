@@ -1,22 +1,22 @@
 ---
+series: 100-year-tree
 aliases:
 - /murphys-truthful-tree/
 authors:
 - gmurphy
 categories:
-- 100-year-tree
 - evolution
 - theology
 date: "2016-10-23T05:27:15"
-description: "I am very pleased to include this answer from Dr. George Murphy, Ph.D. in Physics and theologian. Answering the riddle of the 100-year old tree, he notes God is not deceitful, but He is subtle: in both nature and the cross. He is a Templeton Prize winner, and one of my theological influences. In particular his work explaining the \\[...\\]"
+description: Einstein said, "The Lord is subtle but he is not malicious." God created a universe that will reveal the truth about itself to those who study it carefully and honestly.  
+
 headerimage:
   src: /img/2016/10/gmurphy.png
 title: Murphy's Subtle but Truthful Tree
 ---
 
-*I am very pleased to include this answer from Dr. George Murphy, Ph.D. in Physics and theologian. Answering the riddle of the 100-year old tree, he notes God is not deceitful, but He is subtle: in both nature and the cross. He is a Templeton Prize winner, and one of my theological influences. In particular his work explaining [the difficulty with the Two Books analogy](http://www.asa3.org/ASA/PSCF/2006/PSCF3-06Murphy.pdf) and the [theology of the cross](http://biologos.org/blogs/archive/surveying-george-murphy%E2%80%99s-theology-of-the-cross) is particularly insightful. He offers a "theology of nature" in place of "natural theology," and this has become my aim too.*
-
-------------------------------------------------------------------------
+I am very pleased to include this answer from Dr. George Murphy, Ph.D. in Physics and theologian. Answering the riddle of the 100-year old tree, he notes God is not deceitful, but He is subtle: in both nature and the cross. He is a Templeton Prize winner, and one of my theological influences. In particular his work explaining [the difficulty with the Two Books analogy](http://www.asa3.org/ASA/PSCF/2006/PSCF3-06Murphy.pdf) and the [theology of the cross](http://biologos.org/blogs/archive/surveying-george-murphy%E2%80%99s-theology-of-the-cross) is particularly insightful. He offers a "theology of nature" in place of "natural theology," and this has become my aim too.
+{.editor-note}
 
 In [the parable of the 100-year old](https://peacefulscience.org/100-year-old-tree/) tree we must consider the views of the scientist and the theologian.  The scientific argument for an age of 100 years is straightforward.
 
@@ -30,7 +30,7 @@ But why would God create a tree with a deceptive appearance of age?  The theolo
 
 So I will go beyond the parable and talk about the real world.  The God I speak of is the Holy Trinity, who is most fully revealed in the life, death and resurrection of Jesus Christ.  And the tree that we will consider is the cross of Christ, from the standpoint of which we view the universe.
 
-To say that God is most fully revealed in Jesus means that in the Christ event we see what kind of God the true God is and God's typical *modus* *operandi*.  As Gordon Fee says in commenting on Philippians (2:5-11), "In'pouring himself out' and 'humbling himself to death on the cross' Christ Jesus has revealed the character of God himself."[^2]
+To say that God is most fully revealed in Jesus means that in the Christ event we see what kind of God the true God is and God's typical *modus operandi*.  As Gordon Fee says in commenting on Philippians (2:5-11), "In'pouring himself out' and 'humbling himself to death on the cross' Christ Jesus has revealed the character of God himself."[^2]
 
 The "kenosis" or "emptying" of Philippians 2:7 means that in the Incarnation, the Son of God did not simply dress up like a human but limited himself to the condition of a male Jew brought up in the culture of first century Palestine.\
 This divine self-limitation is important for understanding not only the saving work of Christ but the way God acts in the world.[^3]

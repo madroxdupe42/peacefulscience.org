@@ -14,7 +14,13 @@ headerimage:
 title: Nathan Lents in USA Today
 ---
 
+
+
 There is much good news from last week to share. Nathan Lents, a secular biologist, [published in](https://usatoday.com/story/opinion/2019/10/04/upcoming-book-leaves-scientific-possibility-existence-adam-eve-column/3826195002/) *[USA Today](https://usatoday.com/story/opinion/2019/10/04/upcoming-book-leaves-scientific-possibility-existence-adam-eve-column/3826195002/)* [his reasons](https://usatoday.com/story/opinion/2019/10/04/upcoming-book-leaves-scientific-possibility-existence-adam-eve-column/3826195002/) for endorsing *[The Genealogical Adam and Eve](http://peacefulscience.org/genealogical-adam-eve)*. This created somewhat of a social media storm around the book. It ended up the number one Op-Ed of the newspaper that week.
+{.dropcap}
+
+{{< twitter `1180111902669725698` >}}
+
 
 Stephen Matheson is an atheist biologist and a friend, even though he vigorously opposes Christianity. He decided to endorse the book. Speaking to Nathan, [he explains](https://discourse.peacefulscience.org/t/a-humanists-endorsement/8017) why,
 
@@ -28,8 +34,3 @@ It is not just atheists discussing the book, but new faces to this particular co
 
 The conversation is growing. We are looking forward to the [release of the book on December 10, 2019](http://peacefulscience.org/genealogical-adam-eve).
 
-::: {.wp-block-embed__wrapper}
-> I love the tone and substance of [\@nathanlents](https://twitter.com/nathanlents?ref_src=twsrc%5Etfw)\'s review of my [\@WUSTL](https://twitter.com/WUSTL?ref_src=twsrc%5Etfw) and [\@Carver_STL](https://twitter.com/Carver_STL?ref_src=twsrc%5Etfw) colleague [\@swamidass](https://twitter.com/swamidass?ref_src=twsrc%5Etfw)\'s forthcoming [\@ivpress](https://twitter.com/ivpress?ref_src=twsrc%5Etfw) book, The Genealogical Adam and Eve. <https://t.co/FuDGBg2gc7>
->
-> --- John Inazu (\@JohnInazu) [October 4, 2019](https://twitter.com/JohnInazu/status/1180111902669725698?ref_src=twsrc%5Etfw)
-:::

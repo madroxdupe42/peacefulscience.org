@@ -33,13 +33,12 @@ Second, this book identifies and corrects errors made by [other scientists](http
 
 Third, [in response to this book, some scientists have already admitted error in their work.](https://peacefulscience.org/humility-of-our-scholars/) This serves the common good, sets the record straight, and is evidence of integrity. As a matter of human reciprocity, in respect for their example, I am obligated to do the same.
 
-::: {.wp-block-media-text .alignwide .is-stacked-on-mobile}
-![](/img/2019/08/mistake-968334_1920.jpg)
 
-::: {.wp-block-media-text__content}
-Darrel Falk admirably writes in his endorsement, "*[In this book, Joshua Swamidass effectively demonstrates that people like me, stuck in a specific genetic paradigm, were wrong](https://peacefulscience.org/humility-of-our-scholars/)*."
-:::
-:::
+{{% image `/img/2019/08/mistake-968334_1920.jpg` %}}
+Darrel Falk admirably writes in his endorsement, 
+
+> [In this book, Joshua Swamidass effectively demonstrates that people like me, stuck in a specific genetic paradigm, were wrong](https://peacefulscience.org/humility-of-our-scholars/)."
+{{% /image %}}
 
 In the end, being right is not good enough; we also have to be trusted. To be trusted, we need to be trustworthy. Perhaps we will find no errors that substantially change the conclusions of my book. I want to prepare, nonetheless, for large mistakes. I want to be willing to acknowledge my errors and do the hard work of correcting them. How we manage errors is one way to practice trustworthiness.
 

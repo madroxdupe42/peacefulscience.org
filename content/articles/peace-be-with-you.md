@@ -7,7 +7,7 @@ categories:
 - resurrection
 commenturl: "http://discourse.peacefulscience.org/t/peace-be-with-you/100"
 date: "2018-04-01T21:18:46"
-description: Almost two thousand years ago, God made Himself known to all people. In this event, a good God reorders the entire world. He announced Himself to us by raising this man in 1st century Palestine, Jesus, from the dead. He died, was buried, but rose from the dead three days later, leaving an empty tomb and \[...\]
+description: Arguments for and against evolution silences our confession of Jesus in the public square. "May peace be upon us too."
 headerimage:
   src: /img/2018/03/emptytomb.jpg
 title: Peace Be With You

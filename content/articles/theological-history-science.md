@@ -7,15 +7,14 @@ categories:
 - history
 - science
 date: "2016-09-02T01:47:16"
-description: We are pleased to announce the award of another \$25,000 grant for two years. With this grant, we aim to explore the theological history of science. This grant was also awarded by the STEAM project, which has funding from the John Templeton Foundation. This grant is directed by Joel Okamoto, housed at Concordia Seminary, and it will be moderated by Dr. Erik \[...\]
+description: We will invite four leading science historians to give a lecture about the role of Christian scientists, theologians and theology in the scientific revolution.
 headerimage:
   src: /img/2016/09/geocentric.png
 title: A Theological History of Science
 ---
 
-*We are pleased to announce the award of another \$25,000 grant for two years. With this grant, we aim to explore the theological history of science. This grant was also awarded by [the STEAM project](http://thesteamproject.org/), which has funding from the [John Templeton Foundation](https://www.templeton.org/). This grant is directed by Joel Okamoto, housed at [Concordia Seminary](http://www.csl.edu), and it will be moderated by Dr. [Erik Herrmann](http://www.csl.edu/faculty/historical/herrmann/) and Dr. [S. Joshua Swamidass](http://swami.wustl.edu/).*
+We are pleased to announce the award of another \$25,000 grant for two years. With this grant, we aim to explore the theological history of science. This grant was also awarded by [the STEAM project](http://thesteamproject.org/), which has funding from the [John Templeton Foundation](https://www.templeton.org/). This grant is directed by Joel Okamoto, housed at [Concordia Seminary](http://www.csl.edu), and it will be moderated by Dr. [Erik Herrmann](http://www.csl.edu/faculty/historical/herrmann/) and Dr. [S. Joshua Swamidass](http://swami.wustl.edu/).
 
-------------------------------------------------------------------------
 
 Each year, we will invite four leading science historians to give a lecture about the role of Christian scientists, theologians and theology in the scientific revolution.
 
@@ -23,14 +22,14 @@ This is a remarkable history with several interesting tales. For example, the sc
 
 [Dr. Herrmann](http://www.csl.edu/faculty/historical/herrmann/), a historian, and Dr. Swamidass, a scientist, will moderate these events. Framing the lectures and discussion will be the question, "What have been the productive interactions between theology and science?" and "What could a constructive Christian voice in science be?"All lectures will be at 3:30pm at Concordia Seminary, President's Room ([\#17 on map](https://www.csl.edu/wp-content/uploads/2010/05/concordiasemmap.pdf)). Currently, the first two speakers are confirmed. The remaining speakers are all tentative.
 
-### Year One: Leaving Geocentrism
+## Year One: Leaving Geocentrism
 
 1.  Late 16th Century: (Copernicus, Tycho Brahe, Caspar Peucer): Ken Howell (confirmed, September 28, 2016, 3:30pm ,Concordia Seminary, President's Room)
-2.  Mid-16th Century: (Copernicus, Melancthon, Rheticus, Osiander): Daniel Danielson (**[CANCELLED]{style="color: #ff0000;"}**, November 9, 2016)* Unfortunately, Dr. Danielson had to cancel for health reasons. *
+2.  Mid-16th Century: (Copernicus, Melancthon, Rheticus, Osiander): Daniel Danielson (**CANCELLED**, November 9, 2016) *Unfortunately, Dr. Danielson had to cancel for health reasons.*
 3.  Kepler: Owen Gingerich or Robert Westman
 4.  Galileo: Owen Gingerich or William Shea.
 
-### Year Two: Modern Controversies
+## Year Two: Modern Controversies
 
 1.  Galileo and the Garden of Eden: Edward "Ted" Davis
 2.  Common Sense Realism and American Christianity: Mark Noll or George Marsden
@@ -47,4 +46,3 @@ All events will be videotaped, as will be an interview with the speaker too. Fo
 
 This effort is sponsored by the John Templeton Foundation, the Fuller Seminary STEAM Project, and Concordia Seminary.
 
-## Printfuller-logosteam_logo_1200  concordia

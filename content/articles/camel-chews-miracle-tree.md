@@ -5,7 +5,6 @@ aliases:
 authors:
 - jgarvey
 categories:
-- 100-year-tree
 - evolution
 - theology
 date: "2016-07-08T09:21:24"
