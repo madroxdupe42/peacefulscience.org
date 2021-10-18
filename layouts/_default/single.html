@@ -94,11 +94,17 @@
      {{- end -}}
 
     <div class="mb-5">
+        {{ with .Params.doi }}
+
+    {{ partial "doi" . }}
+    {{ end }}
     {{- range .Params.categories }}
       {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
         <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
       {{- end }}
     {{- end }}
+    
+
     </div>
 </header>
 

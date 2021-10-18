@@ -16,6 +16,7 @@ headerimage:
   src: /img/2021/08/ct-uturn.png
 title: A U-Turn on Adam and Eve
 commenturl: "https://discourse.peacefulscience.org/t/_/14188"
+doi: 10.5281/zenodo.5575976
 ---
 
 Also see Peaceful Science's position statement on Adam and Eve: 
