@@ -24,13 +24,13 @@ Instead, the theologian should wonder why God would not leave clear, indisputabl
 
 > Why might God choose not to leave evidence that this 100-year old tree is on week old?
 
- Alternatively, w
+ Alternatively, 
 
 > why might God choose to leave evidence that the week-old tree is 100 years old?[^1]
 
 ## An Analogy to Evolution
 
-In context, the parable is rooted in the strong evidence for common ancestry of humans and chimpanzees.  Many Christians disagree and believe that humans were specially created. Maybe they are right. Let us, for a moment, leave the scientific debate aside, to look at the much more interesting theological question.***Presuming that humans were specially created, why did God create us to look more similar to chimpanzees than rats are to mice? Why do we look like we share a common ancestor with them?***Some may avoid this scientific framing altogether and focus on the story of the tree. Evolution is a hot button, and the 100-year old tree is a more approachable way to enter the conversation.
+In context, the parable is rooted in the strong evidence for common ancestry of humans and chimpanzees.  Many Christians disagree and believe that humans were specially created. Maybe they are right. Let us, for a moment, leave the scientific debate aside, to look at the much more interesting theological question. ***Presuming that humans were specially created, why did God create us to look more similar to chimpanzees than rats are to mice? Why do we look like we share a common ancestor with them?*** Some may avoid this scientific framing altogether and focus on the story of the tree. Evolution is a hot button, and the 100-year old tree is a more approachable way to enter the conversation.
 
 ## The Scientist's Question
 
@@ -49,11 +49,11 @@ Email your thoughtful response, and I will post it on my blog, for everyone to
 <
 **Who may respond?** Any one may respond, but the opinions of trained theologians and philosophers are most interesting to all of us. Non-theologians should take extra care to explain how their understanding resonates with or connects to specific theological schools of thought or denominations.
 
-**What is not allowed?**Obviously ignorant or inflammatory responses will be rejected. Responses focused on the science alone will be rejected. Remember, even if my science is wrong, it is not obvious how it is wrong. Why isn't the evidence more clear? This is not meant to be a forum for scientific debate or public vilification, but a place for thinking about the theological question.
+**What is not allowed?** Obviously ignorant or inflammatory responses will be rejected. Responses focused on the science alone will be rejected. Remember, even if my science is wrong, it is not obvious how it is wrong. Why isn't the evidence more clear? This is not meant to be a forum for scientific debate or public vilification, but a place for thinking about the theological question.
 
 **What format and style?** Send me a Word document with 1000 to 2000 words, targeted at a broad audience. You may use references, but this is not required. Also give me your full name (no pseudonyms), credentials, and academic appointment (if applicable).
 
-<
+
 **What is the timeline?** I will accept responses through the end of 2016. I will start posting them once I get the first three quality responses, which I imagine will be about a month from now.
 
 **Any gotchas?** It will be presumed that any submissions to me can be lightly edited (for grammar and typos) and republished in entirety (and with attribution) as I see fit. Anyone unwilling to agree to these terms needs to explicitly ask for an exception at the time of submission, and obtain written confirmation from me.

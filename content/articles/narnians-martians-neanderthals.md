@@ -12,8 +12,14 @@ date: "2019-01-24T03:21:02"
 description: Just like us, C. S. Lewis encountered challenges from science. Rather than falling into unending arguments, he found a better way.
 headerimage:
   src: /img/2019/01/LionAfremov.jpeg
+  credit: "[LION](https://afremov.com/lion-palette-knife-oil-painting-on-canvas-by-leonid-afremov-size-30-x24-75cm-x-60cm-11321642-offer.html) by Leonid Afremov"
 title: On Narnians, Martians and Neanderthals
 ---
+
+
+This article was original published in *[Cultural Encounters](http://www.culturalencountersjournal.com/)* magazine (under a different title), in a themed issue on theology and story.[^4] 
+{.editor-note}
+
 
 I first visited Boston as a graduate student. I was studying to become a scientist, a computational biologist. This is one of the great Meccas of the scientific world, through which almost every scientist passes at one time or another. The subways feature ads from local churches. They often included this quote from C.S. Lewis,
 
@@ -59,7 +65,7 @@ In our scientific world, we face another challenge. Evidence of evolution is bec
 
 For over a century, most agreed that evolutionary science demonstrates that traditional theology of Adam is false. As surprising as this might sound, we were wrong. A scientific error was made in our understanding of how evolutionary science presses on our theology of Adam.
 
-It turns out that, entirely consistent with the genetic and archeological evidence,[^2] it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago, living in a divinely created garden where God might dwell with them. Leaving the Garden, their offspring blended with their neighbors in the surrounding towns. In this way, they became genealogical ancestors of all of us. Evolution, therefore, presses in a very limited way on our understanding of Adam and Eve*,* only suggesting, alongside Scripture*,* there were people outside the Garden.[^3]
+It turns out that, entirely consistent with the genetic and archeological evidence,[^2] it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago, living in a divinely created garden where God might dwell with them. Leaving the Garden, their offspring blended with their neighbors in the surrounding towns. In this way, they became genealogical ancestors of all of us. Evolution, therefore, presses in a very limited way on our understanding of Adam and Eve, only suggesting, alongside Scripture, there were people outside the Garden.[^3]
 
 Science, even when it is correct, is limited. It cannot give us a complete account of the world. It cannot even tell us of Adam was *de novo* created or not. Evolutionary science, it seems, is *silent* about Adam. So, who was Adam?
 
@@ -77,11 +83,7 @@ Faced with the challenges of science, instead of debating, maybe we could follow
 
 Rather than insisting, "no, that is not true," he playfully wondered, "if it were true, how might we see this in light of Jesus?" Our generation needs fearless creativity like this. Come let us worship with curiosity, imagining new stories of Adam that give a clear vision of Jesus to our scientific world.
 
-------------------------------------------------------------------------
 
-This article was original published in *[Cultural Encounters](http://www.culturalencountersjournal.com/)* magazine (under a different title), in a themed issue on theology and story.[^4] The featured image is [LION](https://afremov.com/lion-palette-knife-oil-painting-on-canvas-by-leonid-afremov-size-30-x24-75cm-x-60cm-11321642-offer.html) by Leonid Afremov.
-
-------------------------------------------------------------------------
 
 [^1]:  Lewis, C. S. "[Religion and Rocketry](http://scientificintegrity.blogspot.com/2010/04/religion-and-rocketry-by-cs-lewis.html)*"* in *The World's Last Night, *(1960).
 
@@ -89,4 +91,4 @@ This article was original published in *[Cultural Encounters](http://www.cultura
 
 [^3]:  Swamidass, S. J. [A Genealogical Adam and Eve in Evolution](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/), *Sapientia*, (2017)
 
-[^4] Swamidass, S. J. A Narrative Theology of *Martians*, *Narnians*, and *Neanderthals.* *Cultural Encounters* **14(1)**, (2017).
+[^4]: Swamidass, S. J. A Narrative Theology of *Martians*, *Narnians*, and *Neanderthals.* *Cultural Encounters* **14(1)**, (2017).
