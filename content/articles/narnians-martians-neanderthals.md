@@ -25,7 +25,7 @@ I first visited Boston as a graduate student. I was studying to become a scienti
 
 > I believe in Christianity as I believe that the sun has risen: not only because I see it, but because by it I see everything else.
 
-In 1954, Lewis wrote this as the final sentence of an essay titled *[Is Theology Poetry?](http://www.samizdat.qc.ca/arts/lit/Theology=Poetry_CSL.pdf)* [](http://www.samizdat.qc.ca/arts/lit/Theology=Poetry_CSL.pdf) The scientific world sees science as the only source objective truth; theology is reduced to poetry.  C. S. Lewis took a different view.
+In 1954, Lewis wrote this as the final sentence of an essay titled *[Is Theology Poetry?](http://www.samizdat.qc.ca/arts/lit/Theology=Poetry_CSL.pdf)*  The scientific world sees science as the only source of objective truth; theology is reduced to poetry.  C. S. Lewis took a different view.
 
 > The waking world is judged more real because it can thus contain the dreaming world; the dreaming world is judged less real because it cannot contain the waking one. For the same reason I am certain that in passing from the scientific points of view to the theological, I have passed from dream to waking.
 
@@ -37,15 +37,22 @@ What if we discovered intelligent life on other planets?
 
 At the moment, science has found no hints of intelligent aliens. For now, it seems we are alone in the galaxy, and maybe the universe. We are, nonetheless, rapidly discovering and studying more and more planets orbiting other stars. What if we find signs of life on one of these planets? What if we found television transmissions from an alien planet, or one day they sent a space ship our way?
 
-One way to respond to these questions is with defensiveness. On the one hand, we might be concerned how this would impact our understanding of Jesus. In *[Religion and Rocketry](http://scientificintegrity.blogspot.com/2010/04/religion-and-rocketry-by-cs-lewis.html),* C.S. Lewis explains,
+{{< amazon `0156027712` `In the essay *Religion and Rocketry*, C.S. Lewis imagines a theology of intelligent aliens.` >}} 
+
+One way to respond to these questions is with defensiveness. On the one hand, we might be concerned how this would impact our understanding of Jesus. In *[Religion and Rocketry](https://www.amazon.com/dp/0156027712/),* C.S. Lewis explains,
 
 > The supposed threat is clearly directed against the doctrine of the Incarnation, the belief that God of God "for us men and for our salvation came down from heaven and was . . . made man." Why for us men more than for others? If we find ourselves to be but one among a million races, scattered through a million spheres, how can we, without absurd arrogance, believe ourselves to have been uniquely favored?[^1] 
 
+
 On the other hand, why not wonder in the mystery? The threat here, for Lewis, is merely "supposed." In truth, the question of life on other planets is an invitation to theological imagination. How might we make sense of this in light of theology? With confident playfulness, he turns around the possibilities for the fun of it. Far from threatened, he relishes the imagination game to which the question calls him.
 
-We do not know precise theological answers to these things. Instead we find mystery. In the mystery, we find wonder and it invites our imagination. Instead of clinging to a fragile theology unsettled by intelligent aliens, *[The Space Trilogy](https://www.amazon.com/Space-Trilogy-C-S-Lewis/dp/068483118X/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=swamidass-20&linkId=3c1c641555dcbc43acb871cf1d501a29&language=en_US)* "imagined out loud" a vision of Jesus in a universe with life on other planets. Where some find an unsettling challenge to faith, C.S. Lewis found inspiration for his art.
+
+We do not know precise theological answers to these things. Instead we find mystery. In the mystery, we find wonder and it invites our imagination. Instead of clinging to a fragile theology unsettled by intelligent aliens, *[The Space Trilogy](https://www.amazon.com/Space-Trilogy-C-S-Lewis/dp/068483118X/)* "imagined out loud" a vision of Jesus in a universe with life on other planets. Where some find an unsettling challenge to faith, C.S. Lewis found inspiration for his art.
 
 ## The Multiverse and Fine Tuning
+
+
+{{< amazon `068483118X` >}}
 
 One of the most surprising things about the universe, it seems, is something called "fine tuning." It seems that our universe seems fine-tuned for intelligent life. We have only one universe, it seems, so how did it become tuned? This, in a nutshell, is the Fine-Tuning Argument for God.
 
@@ -53,7 +60,8 @@ Scientists peered into mathematical formulas, studied radiation from space, and 
 
 The apologist, the defender of the faith, is troubled. An argument for God is weakened.
 
-Lewis, once again, takes a different way forward. He responds with theological fiction. *[The Chronicles of Narnia](https://www.amazon.com/Chronicles-Narnia-Boxed-Set/dp/0064471195/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1548296259&sr=1-2&keywords=the+chronicals+of+narnia+set&linkCode=ll1&tag=swamidass-20&linkId=16632b66da38669ce758985c006d01a7&language=en_US)* presents another view of the multiverse. Lewis imagines a wardrobe that, we find out, is a portal to another universe. The children enter in and find a world full of talking animals. Why were these children of Adam brought to another universe? "I am in your world," said Aslan. "But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia." 
+
+Lewis, once again, takes a different way forward. He responds with theological fiction. *[The Chronicles of Narnia](https://www.amazon.com/Chronicles-Narnia-Boxed-Set/dp/0064471195/)* presents another view of the multiverse. Lewis imagines a wardrobe that, we find out, is a portal to another universe. The children enter in and find a world full of talking animals. Why were these children of Adam brought to another universe? "I am in your world," said Aslan. "But there I have another name. You must learn to know me by that name. This was the very reason why you were brought to Narnia." 
 
 Instead of grasping at fine-tuning arguments, Lewis embraced the multiverse with a vision of Jesus. Where apologetics was unsettled, Lewis spun a children's tale.
 
@@ -64,6 +72,8 @@ Instead of grasping at fine-tuning arguments, Lewis embraced the multiverse wit
 In our scientific world, we face another challenge. Evidence of evolution is becoming clearer in the genomic age. It really appears that we share ancestor with other animals. This, it seems, is how God created us. For many Christians, this is a challenge as threatening as intelligent aliens or the multiverse. *Who then was Adam?* 
 
 For over a century, most agreed that evolutionary science demonstrates that traditional theology of Adam is false. As surprising as this might sound, we were wrong. A scientific error was made in our understanding of how evolutionary science presses on our theology of Adam.
+
+{{< amazon `0830852638` >}}
 
 It turns out that, entirely consistent with the genetic and archeological evidence,[^2] it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago, living in a divinely created garden where God might dwell with them. Leaving the Garden, their offspring blended with their neighbors in the surrounding towns. In this way, they became genealogical ancestors of all of us. Evolution, therefore, presses in a very limited way on our understanding of Adam and Eve, only suggesting, alongside Scripture, there were people outside the Garden.[^3]
 
@@ -85,10 +95,10 @@ Rather than insisting, "no, that is not true," he playfully wondered, "if it wer
 
 
 
-[^1]:  Lewis, C. S. "[Religion and Rocketry](http://scientificintegrity.blogspot.com/2010/04/religion-and-rocketry-by-cs-lewis.html)*"* in *The World's Last Night, *(1960).
+[^1]:  Lewis, C. S. "[Religion and Rocketry](https://archive.org/stream/worldslastnighta012859mbp/worldslastnighta012859mbp_djvu.txt)" in *[The World's Last Night](https://www.amazon.com/Worlds-Last-Night-Other-Essays/dp/0156027712),* (1960).
 
-[^2]:  Swamidass, S. J. [The Overlooked Science of Genealogical Ancestry](https://www.asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf). *Perspectives on Science and Christian Faith* **70,** (2018).
+[^2]:  Swamidass, S. J. [The Overlooked Science of Genealogical Ancestry](https://www.asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf). *Perspectives on Science and Christian Faith* 70, (2018).
 
 [^3]:  Swamidass, S. J. [A Genealogical Adam and Eve in Evolution](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/), *Sapientia*, (2017)
 
-[^4]: Swamidass, S. J. A Narrative Theology of *Martians*, *Narnians*, and *Neanderthals.* *Cultural Encounters* **14(1)**, (2017).
+[^4]: Swamidass, S. J. A Narrative Theology of Martians, Narnians, and Neanderthals. *Cultural Encounters* 14(1), (2017).
