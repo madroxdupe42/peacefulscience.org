@@ -37,7 +37,7 @@ What if we discovered intelligent life on other planets?
 
 At the moment, science has found no hints of intelligent aliens. For now, it seems we are alone in the galaxy, and maybe the universe. We are, nonetheless, rapidly discovering and studying more and more planets orbiting other stars. What if we find signs of life on one of these planets? What if we found television transmissions from an alien planet, or one day they sent a space ship our way?
 
-{{< amazon `0156027712` `In the essay *Religion and Rocketry*, C.S. Lewis imagines a theology of intelligent aliens.` >}} 
+{{< amazon `B00GR0CK1Y` >}}
 
 One way to respond to these questions is with defensiveness. On the one hand, we might be concerned how this would impact our understanding of Jesus. In *[Religion and Rocketry](https://www.amazon.com/dp/0156027712/),* C.S. Lewis explains,
 
@@ -47,12 +47,11 @@ One way to respond to these questions is with defensiveness. On the one hand, we
 On the other hand, why not wonder in the mystery? The threat here, for Lewis, is merely "supposed." In truth, the question of life on other planets is an invitation to theological imagination. How might we make sense of this in light of theology? With confident playfulness, he turns around the possibilities for the fun of it. Far from threatened, he relishes the imagination game to which the question calls him.
 
 
-We do not know precise theological answers to these things. Instead we find mystery. In the mystery, we find wonder and it invites our imagination. Instead of clinging to a fragile theology unsettled by intelligent aliens, *[The Space Trilogy](https://www.amazon.com/Space-Trilogy-C-S-Lewis/dp/068483118X/)* "imagined out loud" a vision of Jesus in a universe with life on other planets. Where some find an unsettling challenge to faith, C.S. Lewis found inspiration for his art.
+We do not know precise theological answers to these things. Instead we find mystery. In the mystery, we find wonder and it invites our imagination. Instead of clinging to a fragile theology unsettled by intelligent aliens, *[The Space Trilogy](https://www.amazon.com/Space-Trilogy-Omnib-Classics-Perelandra-ebook/dp/B00GR0CK1Y/)* "imagined out loud" a vision of Jesus in a universe with life on other planets. Where some find an unsettling challenge to faith, C.S. Lewis found inspiration for his art.
 
 ## The Multiverse and Fine Tuning
 
-
-{{< amazon `068483118X` >}}
+{{< amazon `0064471195` >}}
 
 One of the most surprising things about the universe, it seems, is something called "fine tuning." It seems that our universe seems fine-tuned for intelligent life. We have only one universe, it seems, so how did it become tuned? This, in a nutshell, is the Fine-Tuning Argument for God.
 
