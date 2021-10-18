@@ -181,13 +181,13 @@ h8 {
 article {
 
 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  h7,
-  h8 {
+  &> h2,
+  &> h3,
+  &> h4,
+  &> h5,
+  &> h6,
+  &> h7,
+  &> h8 {
     margin-left: -0.5rem;
 
     @include media-breakpoint-up(xl) {
@@ -607,7 +607,7 @@ dropcap:first-of-type::first-letter {
   }
 
   @media print {
-    margin-right: -37%;
+    margin-right: -20%;
   }
 }
 
@@ -674,8 +674,8 @@ figcaption {
       margin: $spacer -37% $spacer 0px;
     }
     @media print {
-      width: 137%;
-      margin: $spacer -37% $spacer 0px;
+      width: 120%;
+      margin: $spacer -20% $spacer 0px;
     }
   }
 
@@ -735,7 +735,7 @@ article  *:target {
     @media print {
       float: right;
       width: 50%;
-      margin: $spacer -37% $spacer 0px;
+      margin: $spacer -20% $spacer 0px;
     }
   }
 }
@@ -919,6 +919,9 @@ svg:not(:root) {
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 30px;
+  @media print {
+    display: block;
+  }
 
 
   @include media-breakpoint-up(md) {
@@ -945,20 +948,14 @@ svg:not(:root) {
   z-index: 10;
   @extend .px-3;
   @extend .pt-3;
-  hyphens: auto;
   width: 100%;
   grid-column: 1;
   grid-row: 1;
-  margin: $spacer auto $spacer auto;
-  width: 100%;
-
+  margin: $spacer auto $spacer 0px;
 
   @include media-breakpoint-up(md) {
     grid-column: 1 / span 2;
   }
-
-
-
 
   @include media-breakpoint-up(lg) {
     grid-column: 2 / span 1;
@@ -981,20 +978,33 @@ svg:not(:root) {
 
 .article-body {
   @extend .px-3;
-
-  hyphens: auto;
   display: block;
   grid-column: 1;
   grid-row: 2;
+ 
+  p, aside, figure {
+	page-break-inside: avoid;
+  }
 
+  h2, h1, h3, h4 {
+	page-break-inside: avoid;
+  }
 
   @include media-breakpoint-up(md) {
     grid-column: 2;
   }
 
   @media print {
-    width: 75%;
+    width: 60%;
+	a[href^=http]:after {
+		content: '<' attr(href) '>';
+	    margin-right: $spacer;
+	    white-space: pre-wrap; 
+	   overflow-wrap: break-all;
+	}
   }
+
+
 }
 
 
