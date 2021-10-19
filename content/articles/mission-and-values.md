@@ -58,7 +58,7 @@ We make space for others, build trust, and foster trust by **taking questions se
 
 ## Space for Differences
 
-Science reshapes our understanding of the world, but it is also limited in its scope and its certainty. Science certainly challenges our beliefs, but a civic practice of science makes **space for differences***,* aspiring to humility, tolerance, and patience.
+Science reshapes our understanding of the world, but it is also limited in its scope and its certainty. Science certainly challenges our beliefs, but a civic practice of science makes **space for differences**, aspiring to humility, tolerance, and patience.
 
 6.  By ***humility***, we mean that we cannot convince everyone to agree with us, even if we are right and they are wrong. We are cautious to explain the limits and uncertainty of scientific claims.  
 

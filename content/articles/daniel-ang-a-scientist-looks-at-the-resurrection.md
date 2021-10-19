@@ -17,7 +17,7 @@ title: "A Scientist Looks at the Resurrection"
 
 <div class="editor-note">
 
-It is my pleasure to present this confession from Daniel Ang, a doctoral student in physics at Harvard. Daniel has been a part of Peaceful Science since we met this last summer. I was pleased to see him at Urbana Mission conference in December again. Then, he attended the [second workshop on The Genealogical Adam](https://discourse.peacefulscience.org/t/gauger-meetings-on-adam-and-eve-stretching-the-boundaries/4359), along with A. J. Roberts, Ann Gauger, and William Lane Craig. Recently, his work determining the* [*shape of an electron*](https://discourse.peacefulscience.org/t/the-electron-is-still-round/2321) *was in the news, after it was* [*published in Nature*](https://www.nature.com/articles/s41586-018-0599-8)*. Spoiler alert: the electron is very very very...very round.*
+It is my pleasure to present this confession from Daniel Ang, a doctoral student in physics at Harvard. Daniel has been a part of Peaceful Science since we met this last summer. I was pleased to see him at Urbana Mission conference in December again. Then, he attended the [second workshop on The Genealogical Adam](https://discourse.peacefulscience.org/t/gauger-meetings-on-adam-and-eve-stretching-the-boundaries/4359), along with A. J. Roberts, Ann Gauger, and William Lane Craig. Recently, his work determining the [shape of an electron](https://discourse.peacefulscience.org/t/the-electron-is-still-round/2321) was in the news, after it was [published in Nature](https://www.nature.com/articles/s41586-018-0599-8). Spoiler alert: the electron is very very very...very round.
 
 </div>
 

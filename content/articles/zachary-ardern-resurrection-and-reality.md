@@ -14,7 +14,7 @@ headerimage:
 title: "Resurrection and Reality"
 ---
 
-It is my pleasure to present this confession from Dr.* [*Zachary Ardern*](https://zacharyardern.com/), *a postdoctoral fellow in evolutionary biology. Ardern studies the evolution of bacteria, hoping to understand more about how novel proteins and functions arise. He muses about [evolution and theology](https://capturingchristianity.com/was-the-genesis-of-humanity-through-evolution/) too.
+It is my pleasure to present this confession from Dr. [*Zachary Ardern*](https://zacharyardern.com/), a postdoctoral fellow in evolutionary biology. Ardern studies the evolution of bacteria, hoping to understand more about how novel proteins and functions arise. He muses about [evolution and theology](https://capturingchristianity.com/was-the-genesis-of-humanity-through-evolution/) too.
 {.editor-note}
 
 I am a confessing scientist. I trust in Jesus Christ as Lord and believe in his bodily Resurrection from the dead. I am also a scientist; a postdoc researching evolutionary genomics.

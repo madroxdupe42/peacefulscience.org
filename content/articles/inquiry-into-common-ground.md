@@ -10,9 +10,9 @@ headerimage:
 title: Inquiry Into Common Ground
 ---
 
-![steam_logo_1200](/img/2016/08/steam_logo_1200.png)*We are pleased to announce the award of a \$25,000 grant for two years. With this grant, we aim to define common ground in the origin debates. This grant was awarded by [the STEAM project](http://thesteamproject.org), which has funding from the [John Templeton Foundation](https://www.templeton.org). This grant is directed by [Dr. S. Joshua Swamidass](http://swami.wustl.edu/), housed at *[Washington University](http://www.wustl.edu), and be administered by Saint Louis campus ministries ([Intervarsity](https://intervarsity.org/) and [Cru](https://www.cru.org/)).**
+![](/img/2016/08/steam_logo_1200.png)
 
-------------------------------------------------------------------------
+We are pleased to announce the award of a \$25,000 grant for two years. With this grant, we aim to define common ground in the origin debates. This grant was awarded by [the STEAM project](http://thesteamproject.org), which has funding from the [John Templeton Foundation](https://www.templeton.org). This grant is directed by [Dr. S. Joshua Swamidass](http://swami.wustl.edu/), housed at [Washington University in St. Louis](https://www.wustl.edu), and administered by Saint Louis campus ministries ([Intervarsity](https://intervarsity.org/) and [Cru](https://www.cru.org/)).
 
 Even though 50% of college students are in science related fields,[^1] most religious communities are silent on science.
 
@@ -22,7 +22,7 @@ Over the next two years, this project seeks to solve this problem by identifying
 
 ## Is There Common Ground?
 
-There is common ground, but it is hidden. The current framing of the debate, as a war between creation and evolution, hides our common ground from view. *The fact that the common ground is so hidden is exactly the reason that this project is so significant. *Identifying our common ground will enable ecumenical ministries to productively engage mainstream science. Common ground is a path to peace.
+There is common ground, but it is hidden. The current framing of the debate, as a war between creation and evolution, hides our common ground from view. *The fact that the common ground is so hidden is exactly the reason that this project is so significant.* Identifying our common ground will enable ecumenical ministries to productively engage mainstream science. Common ground is a path to peace.
 
 ## Three Program Efforts
 
@@ -30,7 +30,9 @@ There is common ground, but it is hidden. The current framing of the debate, as 
 
 **Workshops for Campus Ministers.** The dialogues are coupled with workshops for campus ministers to consolidate these experiences into a compelling voice in science, and focused plans to engage science in their ministries. If you are in the Saint Louis area and would like to participate, please let us know.
 
-**Online Resources.** All curriculum, dialogues and interviews will be video-taped and released on *[Peaceful Science](https://peacefulscience.org/)*. We hope this could serve as a basis for science-engaged a religious communities across the country. [*[Subscribe here to follow the conversation, and see how we find common ground.]*](https://peacefulscience.org/subscribe/)
+**Online Resources.** All curriculum, dialogues and interviews will be video-taped and released on *[Peaceful Science](https://peacefulscience.org/)*. We hope this could serve as a basis for science-engaged a religious communities across the country.
+
+[Subscribe here to follow the conversation, and see how we find common ground.](https://peacefulscience.org/subscribe/)
 
 ## Call For Dialogue Participants
 
@@ -47,21 +49,12 @@ And views that dissent from parts of mainstream science:
 2.  **Progressive Creation** (PC). A large number believe that God specially created distinct species (not using evolution) throughout the history of a very old earth. One well-known example of this is *[Reasons to Believe](http://www.reasons.org/);*
 3.  **Young Earth Creation** (YEC). About 44% of the US population believe that God created the entire universe and every kind of animal less than 10,000 years ago. This is a common starting point for many students, and also some of the most visible Christian voices in science.
 
-[*If you can recommend specific speakers (ID, PC, and YEC) with interest in our project, please nominate them.*] Email their name, contact info, a brief bio, and explanation of why they would be a good fit (email my last name at gmail).
+*If you can recommend specific speakers (ID, PC, and YEC) with interest in our project, please nominate them.* Email their name, contact info, a brief bio, and explanation of why they would be a good fit (email my last name at gmail).
 
 ## Disclaimer and Sponsors
 
-This project is a program of Washington Unive[rsity in Saint Louis and funded by the John Templeton foundation through Fuller Seminary.We aim to invite people to discuss topics about which there is great controversy. Especially in areas of controversy, where disagreements are sharpest, we believe dialogue is necessary.]
+This project is a program of Washington University in Saint Louis and funded by the John Templeton foundation through Fuller Seminary.We aim to invite people to discuss topics about which there is great controversy. Especially in areas of controversy, where disagreements are sharpest, we believe dialogue is necessary.
 
-## Printfuller-logowustl-logo
-
-------------------------------------------------------------------------
-
-## Cru-10-24-11-MASTER-TMInterVarsity_logo logo
-
-------------------------------------------------------------------------
-
-## RC_LOGO_medium2  biologos-logo
 
 [^1]: This statistic is from *[You Lost Me](https://www.amazon.com/You-Lost-Me-Christians-Rethinking/dp/0801013143),* by  David Kinnaman and Aly Hawkins.
 

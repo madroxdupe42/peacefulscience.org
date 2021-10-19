@@ -13,15 +13,16 @@ headerimage:
 title: The Overlooked Science of Genealogical Ancestry
 ---
 
-Theological questions are raised by evolution, but genealogical science has been overlooked. In the age of genomes, new information is reshaping our understanding, but the critical theological questions arise from genealogies, not genetics. Instead of rethinking Adam, perhaps we should rethink the debate?
 
-------------------------------------------------------------------------
-
-This article is the scientific addendum to an article published in *[Sapientia](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/). *A detailed white paper is available on request.
+This article is the scientific addendum to an article published in *[Sapientia](https://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/).* It was adapted into [a peer reviewed article, published in 2018](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf).
+{.editor-note  .aside-xl-right}
 
 **An erratum to the *Sapientia* article:** In discussing the illustrative scenario, the text it says 6,000 years and the figure says 10,000. If "recorded history" is the key time point, then the date should be 10,000 in both places. If "when Paul wrote Romans" is the key point, then it could be either 6,000 or 10,000 years.
+{.editor-note .aside-xl-right}
 
-------------------------------------------------------------------------
+Theological questions are raised by evolution, but genealogical science has been overlooked. In the age of genomes, new information is reshaping our understanding, but the critical theological questions arise from genealogies, not genetics. Instead of rethinking Adam, perhaps we should rethink the debate?
+{.dropcap}
+
 
 Genetic data is being collected at an increasing rate. From this data, the population size of our ancestors at different times can be estimated. It appears that populations sizes never dipped down to a single couple in the last 200,000 years, the point at which *homo sapiens* arise (<https://dx.doi.org/10.1101/gr.6023607>). No mathematical model, other than evolution, has been demonstrated consistent with this data. A single mathematical theory that explains the data, and it seems to contradict our understanding of Scripture.
 
@@ -39,13 +40,13 @@ As we will see, evolution gives no reason to doubt, as Jack Collins puts it, tha
 
 ## Is Adam Important?
 
-To this thesis, a common response by many theologians is to argue that Adam is not really necessary any way, and our faith is not threatened if Paul is wrong about Adam.  I am sympathetic to this objection, but this misses my point entirely. My purpose here is not to argue what is affirmed by Scripture. **Rather, I aim to correctly delimit what is known by science.**Make the theological case against Adam if you are so inclined, but do not blame evolution. The science here has nothing to do with him.
+To this thesis, a common response by many theologians is to argue that Adam is not really necessary any way, and our faith is not threatened if Paul is wrong about Adam.  I am sympathetic to this objection, but this misses my point entirely. My purpose here is not to argue what is affirmed by Scripture. **Rather, I aim to correctly delimit what is known by science.** Make the theological case against Adam if you are so inclined, but do not blame evolution. The science here has nothing to do with him.
 
 In what do I agree? The Christian faith is grounded in the Resurrection of Jesus, not Adam. In full view of many different versions of Adam, the early Church defined itself around the historicity of Jesus, not of Adam. Our confession of Jesus, and He is the cornerstone. We start from Jesus, not even knowing of Adam (Act 17), because our entry point is the Empty Tomb. A better view of Romans 5:12, where Paul speaks of Adam, is that Paul is using Adam as an explanatory contrast to a expound a Jesus clearly understood by other means. It is not as if we need to know Adam to know Jesus, as some seem to think.
 
 Why can we disagree with Paul? Clearly, he believed the sun moved around the earth, like every other learned person at the time believed. The key reason we are okay with disagreeing with him here is that he never *teaches* this in Scripture. Even if he were to have drawn a theological analogy to geocentrism (Paul did not, but the Psalmist does) *in order to make* a theological point, he still would not be *teaching* geocentrism. Rather he would be explaining a true theological point from his limited starting point. We would take the theological point as authoritative, while disagreeing with him about geocentrism. Paul's understanding of Adam could fall in the same theological class as geocentrism. My point, however, is that Adam does not fall in the same scientific class as geocentrism, because science does **not** unsettle a genealogical Adam.
 
-An immediate objection to this concerns the Resurrection. Paul also reasons from the Resurrection to theological points, so what guards against using this logic to deny the Resurrection? This question is concerning only if we forget the central teachings of the New Testament, repeated in several places. Paul teaches this physical event is the core of the Christian faith, independent of the theology he reasons from it (I Corinthians 15:1-14). One must conclude from these passages (and others like it) that Paul and the entire early church are teaching that Jesus bodily rose from the dead; this event, in fact, is the Gospel. This affirmation is the cornerstone of their faith, *independent of the theological implications that follow from it. *While Paul does not teach geocentrism and we can debate if he taught Adam, he clearly taught the Resurrection.
+An immediate objection to this concerns the Resurrection. Paul also reasons from the Resurrection to theological points, so what guards against using this logic to deny the Resurrection? This question is concerning only if we forget the central teachings of the New Testament, repeated in several places. Paul teaches this physical event is the core of the Christian faith, independent of the theology he reasons from it (I Corinthians 15:1-14). One must conclude from these passages (and others like it) that Paul and the entire early church are teaching that Jesus bodily rose from the dead; this event, in fact, is the Gospel. This affirmation is the cornerstone of their faith, *independent of the theological implications that follow from it.* While Paul does not teach geocentrism and we can debate if he taught Adam, he clearly taught the Resurrection.
 
 Once again, this detour to theology misses the point. My purpose here is not to argue the theology one way or another for Adam. **Instead, I aim to precisely delimit what *evolution* does and does not say concerning theology.**
 
@@ -55,7 +56,7 @@ Regardless of the theological case for or against a historical Adam, science its
 
 *Genetic* ancestry is not *genealogical* ancestry. Incorrectly equating genetic and genealogical ancestry confuses entirely the theological implications of evolution.
 
-First, *genetic* and *genealogical* ancestry are different concepts that follow different rules. They just work differently. *Genealogical* ancestry, therefore, does not track with (1) most recent common ancestors (MRCA), (2) mitochondrial Eve, (3) Y-Chromosome Adam, and (4) our genetic ancestors. To reiterate, these commonly referenced ancestries are different types of *genetic* ancestry are wholly different than *genealogical* ancestry (<https://dx.doi.org/10.1016/j.jtbi.2009.08.006> and <http://doi.org/10.1016/j.tpb.2015.02.002>).
+First, *genetic* and *genealogical* ancestry are different concepts that follow different rules. They just work differently. *Genealogical* ancestry, therefore, does not track with (1) most recent common ancestors (MRCA), (2) mitochondrial Eve, (3) Y-Chromosome Adam, and (4) our genetic ancestors. To reiterate, these commonly referenced ancestries are different types of *genetic* ancestry are wholly different than *genealogical* ancestry ([](https://doi.org/10.1016/j.jtbi.2009.08.006) and [](https://doi.org/10.1016/j.tpb.2015.02.002)).
 
 Second, Scripture might make *genealogical* claims, but it certainly does not make any direct *genetic* claims. We only discovered genetics recently, thousands of years after Scripture was written.  It is not surprising, therefore, that the science of genetic ancestry presses in only a limited way on theology, by suggesting (along with Scripture) that there were people outside the Garden. To understand if Paul's understanding of a genealogical Adam is correct, we must look to *genealogical* ancestry, not *genetic* ancestry.
 

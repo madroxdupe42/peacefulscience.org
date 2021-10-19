@@ -33,7 +33,7 @@ Everyone is welcome to consider, with us, the Grand Questions:
 
 Some recent highlights from the Forum give a sense of the large range of topics we are covering. Much more to come.
 
-1.  A summary of [three Veritas Forums I did the week my dad died](https://discourse.peacefulscience.org/t/veritas-forums-the-week-dad-died-january-2018/77), this last January, and also a [Forum from Delaware](https://discourse.peacefulscience.org/t/is-there-truth-beyond-science-october-2017-veritas-forum/137) earlier in the year. [One of these forums was with **Hugh Ross**](https://discourse.peacefulscience.org/t/veritas-forums-the-week-dad-died-january-2018/77/5?u=swamidass), the founder of *Reasons to Believe, *and one of the Forum participants (**Guy Coe**) drove down from another state to join in the fun for three days.
+1.  A summary of [three Veritas Forums I did the week my dad died](https://discourse.peacefulscience.org/t/veritas-forums-the-week-dad-died-january-2018/77), this last January, and also a [Forum from Delaware](https://discourse.peacefulscience.org/t/is-there-truth-beyond-science-october-2017-veritas-forum/137) earlier in the year. [One of these forums was with **Hugh Ross**](https://discourse.peacefulscience.org/t/veritas-forums-the-week-dad-died-january-2018/77/5?u=swamidass), the founder of *Reasons to Believe,* and one of the Forum participants (**Guy Coe**) drove down from another state to join in the fun for three days.
 2.  A proposal for how a [Genealogical Adam could make sense with Catholic doctrine](https://discourse.peacefulscience.org/t/a-catholic-approach-to-the-genealogical-adam/116/80?u=swamidass), in conversation with **Ann Gauger** (from the DI), **Vincent Torley** (The Skeptical Zone), and **Antoine Suarez**.
 3.  An analysis that shows [Adam and Eve could be our sole-*genetic* progenitors](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61/18) if they lived before 700 thousand years ago, the key highlights of the dialogue between **Richard Buggs**, **Denis Venema** (of BioLogos), and myself. This analysis was also recently [covered by others](https://discourse.peacefulscience.org/t/env-covers-dialogue-on-adam/140/39).
 4.  Some thoughts about why [confession of the Resurrection](https://discourse.peacefulscience.org/t/asking-about-the-resurrection/94/) in the public square is a foundational value for me, and why it is important to ask leaders whether they believe Jesus rose from the dead.
@@ -48,7 +48,7 @@ On the Forums, we are finding out, with even more clarity, that traditional theo
 
 As Vincent Torley [puts it](https://discourse.peacefulscience.org/t/a-catholic-approach-to-the-genealogical-adam/116/80?u=swamidass):
 
-> Your suggestion certainly merits very serious consideration, Josh. I have to say I find it infinitely preferable to Kemp's proposal. I've been reading and re-reading your responses, and I think, upon reflection, that **you've answered the *philosophical *and *theological *objections to your proposal for a recent genealogical Adam.**
+> Your suggestion certainly merits very serious consideration, Josh. I have to say I find it infinitely preferable to Kemp's proposal. I've been reading and re-reading your responses, and I think, upon reflection, that **you've answered the *philosophical* and *theological* objections to your proposal for a recent genealogical Adam.**
 
 A leading Evolutionary Creationist [writes to me:](https://discourse.peacefulscience.org/t/which-scenarios-of-adam-will-be-helpful/109/7)
 

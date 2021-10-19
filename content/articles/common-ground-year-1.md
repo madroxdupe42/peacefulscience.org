@@ -33,7 +33,7 @@ Prof. Swamidass is the director of the Inquiry to Common Ground and a computatio
 
 The second Common Ground event will be held at University of Missouri, Saint Louis (UMSL) in March with Dr. Sanford and Prof. Swamidass.
 
-[Dr. Sanford](https://en.wikipedia.org/wiki/John_C._Sanford) is a Young Earth Creationist and was a professor at Cornell and an accomplished plant geneticist. More recently, he has published in peer review work on human genetic evolution (see [here](https://tbiomed.biomedcentral.com/articles/10.1186/s12976-015-0016-z)) and is also known for developing [Mendel's Accountant](http://mendelsaccount.sourceforge.net/) (a system for simulating evolution). He is also the author of the book *[Genetic Entropy](https://www.amazon.com/Genetic-Entropy-Mystery-Genome-Sanford/dp/1599190028) *and a Christian.
+[Dr. Sanford](https://en.wikipedia.org/wiki/John_C._Sanford) is a Young Earth Creationist and was a professor at Cornell and an accomplished plant geneticist. More recently, he has published in peer review work on human genetic evolution (see [here](https://tbiomed.biomedcentral.com/articles/10.1186/s12976-015-0016-z)) and is also known for developing [Mendel's Accountant](http://mendelsaccount.sourceforge.net/) (a system for simulating evolution). He is also the author of the book *[Genetic Entropy](https://www.amazon.com/Genetic-Entropy-Mystery-Genome-Sanford/dp/1599190028)* and a Christian.
 
 
 Prof. Swamidass is a theistic evolutionist, and will represent this position at this event too.

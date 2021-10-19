@@ -16,6 +16,7 @@ title: Is COVID-19 Created or Designed?
 ---
 
 COVID-19 is growing. I was stuck at home in quarantine, which was thankfully lifted. A Veritas Forum in which I was supposed to speak next week was cancelled. Universities across the country are cancelling classes. Professors are scrambling to put the courses online.
+{.dropcap}
 
 I am lost in greater questions. *Where do viruses come from?* Did God create viruses? Or did God design them? Is there a difference between creating and designing them?
 
@@ -37,13 +38,13 @@ Theologically, we seem to affirm *some* distance between God's direct intention 
 
 A couple weeks ago, [I presented my understanding of evolution alongside Michael Behe](https://youtu.be/6Pi5UoZkn4g), a leading ID proponent. [We agree on quite a bit.](http://peacefulscience.org/agree-behe/) For example, we both agree that there is [strong evidence that humans share common ancestors with the great apes](https://peacefulscience.org/evidence-and-evolution/): chimpanzees, bonobos, gorillas, and orangutans. We also agree that God created all things.
 
-Still, I disagree with Dr. Behe about his arguments for design. As I've explained in the past, [his arguments for design look like 1-1=3 to me](https://peacefulscience.org/garden-path/). Rather than litigate this disagreement, however, I hoped to understand him better.
+Still, I disagree with Dr. Behe about his arguments for design. As I've explained in the past, [his arguments for design look like 1+1=3 to me](https://peacefulscience.org/garden-path/). Rather than litigate this disagreement, however, I hoped to understand him better.
 
 {{< youtube `6Pi5UoZkn4g` >}}
 
 I learned something new. One of the most striking parts of Mike's presentation was a beautiful animation of a virus injecting DNA into a cell. He presented this as an example of design, appealing to the audience's intuition. After all, it really did appear designed.
 
-I asked him a question, "do you really think God designed viruses?
+I asked him a question, "do you really think God designed viruses?"
 
 Mike answered, explaining that God *did* design the viruses, but cautioning that biology and God's action was non-intuitive. I think Mike is right on this, even though it runs against our intuitions. Theology and science are both non-intuitive this way.
 
@@ -69,4 +70,5 @@ I am not sure though how to settle these questions from science alone. It seems 
 
 In the end, if God *created* all things, then in this sense He *designed* us all. Considering the theology of viruses, we should still be clear; creation is not design and design is not creation. 
 
-Edited March 12, 2020 to clarify distinction between the virus SARS-CoV-2 and the disease COVID-19 that it causes. Thanks to Zachary Ardern for catching this mistake.
+Edited March 12, 2020 to clarify the distinction between the virus SARS-CoV-2 and the disease COVID-19 that it causes. Thanks to Zachary Ardern for catching this mistake.
+{.editor-note}

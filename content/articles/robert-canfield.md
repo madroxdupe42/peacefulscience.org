@@ -92,6 +92,5 @@ When he met the Risen Lord, the self-confessed chief of sinners was transformed 
 
 By the Pharisees' calculated opposition to Jesus, by the disciples' unbelief, and by the persecutions of Saul, the resurrection of Jesus Christ is set in bold relief as a fact of history.
 
-[^]: 
 
 [^1]: Reprinted from HIS Magazine April, 1960. See also <http://www.harvardhouse.com/prophetictech/new/er.htm>

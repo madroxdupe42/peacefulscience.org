@@ -18,7 +18,8 @@ Mainstream science seeks "our best explanation of the world, *without considerin
 
 Currently, science does not search for all sorts of Truth. Rather, science is limited effort to explain the world on its own terms, without invoking God, His action, or intelligent design. There is a "line in the sand" in science, where consideration of God is explicitly disallowed by MN. Far from denying God's existence, this way of doing science is [strongly motivated by theism](https://pdfs.semanticscholar.org/b87f/6aa76e8021aa34e6db1045cb71074f05015f.pdf).
 
-For those that doubt that MN is the current rule in science, and that it is applied to exclude ID, the William Dembski edited volume *The Nature of Nature *asks the right question on its back cover...
+{{< amazon B00JUC6PL2 >}}
+For those that doubt that MN is the current rule in science, and that it is applied to exclude ID, the William Dembski edited volume *The Nature of Nature* asks the right question on its back cover...
 
 > The culture war over theism versus atheism, traditional values versus secular progressivism, and transcendent versus material reality has focused on science as the prize. **Who gets to define science?**
 

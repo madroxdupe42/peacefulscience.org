@@ -15,7 +15,7 @@ headerimage:
 title: Camel Chews Miracle Tree
 ---
 
-Jon Garvey is an independent researcher in biblical creation doctrine at* [*The Hump of the Camel*](http://www.potiphar.jongarvey.co.uk/)*. The editor of [God's Good Earth](http://potiphar.jongarvey.co.uk/gods-good-earth-pdf-book/), he is motivated by Evangelical, Reformed and Classical Theist perspectives. The [complete version](http://potiphar.jongarvey.co.uk/2016/07/08/where-the-mystery-really-lies-a-classical-and-reformed-viewpoint/#more-4174) of his response can be found on his blog.
+Jon Garvey is an independent researcher in biblical creation doctrine at *[The Hump of the Camel](http://www.potiphar.jongarvey.co.uk/)*. The editor of [God's Good Earth](http://potiphar.jongarvey.co.uk/gods-good-earth-pdf-book/), he is motivated by Evangelical, Reformed and Classical Theist perspectives. The [complete version](http://potiphar.jongarvey.co.uk/2016/07/08/where-the-mystery-really-lies-a-classical-and-reformed-viewpoint/#more-4174) of his response can be found on his blog.
 {.editor-note}
 
 In [Dr Swamidass' fable of the 100 year old tree](https://peacefulscience.org/100-year-old-tree/), truth is not in dispute -- God *actually* created what I will call "Miraculous Tree." That makes the scientist flat wrong about its age, though perhaps justified in his error, *given the conceptual limitations of science.* Let's explore that before talking about God's motives.

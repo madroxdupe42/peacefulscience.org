@@ -13,7 +13,7 @@ headerimage:
 title: Other Ground is Sinking Sand
 ---
 
-This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.
 {.editor-note}
 
 

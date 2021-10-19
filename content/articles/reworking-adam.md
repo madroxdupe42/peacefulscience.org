@@ -35,7 +35,7 @@ These developments draw attention to the ambiguity of the term "human" in origin
 2.  About 70 to 50 kya, with the rise of *behaviorally-modern humans*.
 3.  About 100 to 300 kya, with the rise of *anatomically-modern humans*, also known as *Homo sapiens*.
 4.  About 500 to 700 kya, with the common ancestor of Neanderthals, *Homo sapiens*, Denisovans, and likely some other hominins.
-5.  About 2 mya, with the rise of the first in the *Homo*[ genus.]{style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;"}
+5.  About 2 mya, with the rise of the first in the *Homo* genus.
 
 In all these contexts, Adam and Eve could be [genealogical universal ancestors](https://peacefulscience.org/genealogical-rapprochement/). They would be a single couple, whose offspring interbreed with a larger population, perhaps *de novo* created, that become genealogical ancestors of everyone. If genealogical descent from them conveys an important theological status, such as original sin, they would be the *sole genealogical progenitors* of the "mankind" of Scripture, even though they interbreed with those outside the Garden.
 
@@ -48,7 +48,7 @@ Of course, none of this work demonstrates that Adam exists. Rather, the evidence
 I made a fairly radical claim at a [public lecture at Urbana Seminary](https://peacefulscience.org/reviewing-adam-and-the-genome/), then at a [scientific seminar at the ASA conference](http://www.asa3.org/ASAradio/ASA2017Swamidass2.mp3), then in [an online symposium for *The Creation Project*.](http://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) This claim is consistent with the genetic evidence in which it appears (1) our ancestors arise as a population, not a single couple, and that (2) we share ancestry with the great apes.
 
 
-> Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors[^1] *in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.
+> Entirely consistent with the genetic evidence, it is possible Adam was created out of dust, and Eve out of his rib, less than 10,000 years ago in a divinely created garden where God might dwell with them, the first beings with opportunity to be in a relationship with Him. Perhaps their fall brought accountability for sin to all their descendants. Leaving the Garden, their offspring blended with their neighbors[^1] in the surrounding towns. In this way, they became genealogical ancestors of all those in recorded history. Adam and Eve, here, are the single-couple progenitors[^2] of all mankind. Even if this scenario is false or unnecessary, nothing in evolutionary science unsettles this story. So, evolution presses in a very limited way on our understanding of Adam and Eve, only suggesting (alongside Scripture) that their lineage was not pure.
 
 
 This has been covered in detail, elsewhere. Now, however, an article justifying this claim has been published in PSCF, and is [available here](/pdf/PSCF3-18p19-35Swamidass.pdf). The good news is that scientific debate is largely settled. In the coming months and years, we can anticipate an engaging conversation about the theological questions that are arising.
@@ -71,7 +71,7 @@ This figure shows the estimate of the median TMR4A at 500 thousand years ago, ba
 
 ## Testing Model's of Human Origin
 
-The key thing to understand is that we are using the formula: D = 2 \* T \* R. Or that the number of differences (D) between two genetic samples is equal to two times the time at which their ancestry separates (T) and the rate at which mutations are taking place (R). This formula is the fundamental finding of neutral theory, and applies most strongly in neutral regions of the genome. Moreover, we can directly measure mutation rates now, for the first time in history.
+The key thing to understand is that we are using the formula: D = 2 x T x R. Or that the number of differences (D) between two genetic samples is equal to two times the time at which their ancestry separates (T) and the rate at which mutations are taking place (R). This formula is the fundamental finding of neutral theory, and applies most strongly in neutral regions of the genome. Moreover, we can directly measure mutation rates now, for the first time in history.
 
 This gives us a way of experimentally testing different human origin models using the TMR4A. . This is a new opportunity, because we have recent been able to directly measure mutation rates across the genome (*11*), and it is approximately 1.25e-8 per base pair per generation (with 25 years per generation). These models of origins seem to be in error:
 
@@ -96,7 +96,7 @@ So the observed TMR4A result appears to be in conflict with YEC creationism, [*R
 3.  A sole-genetic progenitor Adam and Eve is possible before about 500 kya, perhaps with the rise of the Homo genus, or the common ancestors of *Homo sapiens* and Neanderthals.
 4.  The TMR4A is a new way to look at the genetic data, creating space for some understandings of Adam, but also foreclosing others.
 
-I also want to thank the Templeton Foundation and Greg Cootsona of the STEAM program. Their generous support, through the **Inquiry to Common Ground,**has made much of this work possible.
+I also want to thank the Templeton Foundation and Greg Cootsona of the STEAM program. Their generous support, through the **Inquiry to Common Ground,** has made much of this work possible.
 
 [^1]: Their neighbors would have been created by an evolutionary process.
 

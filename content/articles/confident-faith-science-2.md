@@ -13,7 +13,7 @@ headerimage:
 title: Finding A Grounded Faith
 ---
 
-This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.*
+This is a part of a series of excerpts of my story originally published in "[Finding Confident Faith in Science](/pdf/swamidass-confident-faith.pdf)." [Didaskalia](http://www.providenceseminary.ca/seminary/publications/didaskalia/) 27 (2017): 165-88.
 {.editor-note}
 
 It is senseless to follow Jesus because of family, culture, comfort, or even science. No, we are to follow Jesus because he rose from the dead, revealing to all mankind that God exists, is good, and wants to be known.
