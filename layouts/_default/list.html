@@ -6,38 +6,28 @@
 
 <div class="bg-white" >
 
-<header class="gae-header-bg shadow" style="z-index:100;position: relative; z-index: 2">
-
-
 <div style="height: 40px; width: 100%"></div> 
 
+<header>
 
+  
 <div class="container">
-  <div class="row pt-5 pb-5 justify-content-center text-white">
-
-  {{ $title := .Title }}
-  {{- with .Content }}
-  <div class="col-7">
-        <h1 class="text-white  display-2"> {{ $title }} </h1> 
-  </div>
-  <div class="col-lg-5">
-        {{- . -}}
-  </div>
-  {{ else }}
-  <div class="col-12">
-        <h1 class="text-white  display-2"> {{ $title }} </h1> 
-  </div>
-  {{- end }}
-
-  </div>
-</div>
-</header>
+  <div id="post-list"  class="row pt-5 pb-5 ">
 
 
 
-<div class="container">
-  <div class="row justify-content-center">
-  </div>
+
+<header class="col-12 pb-5" >
+   
+        <h1 class="py-3"> {{ .Title }} </h1> 
+       
+       
+       <div style="max-width: 600px">
+          {{- .Content -}}
+          </div>
+          
+  </header>
+
   {{ if eq $showGeneratedList true -}}
     <div class="row justify-content-center mt-3 d-none">
       <div class="col-lg-12">
@@ -45,11 +35,10 @@
       </div>
     </div>
 
-    <div  id="post-list" class="row justify-content-start mt-3">
         {{ range .Paginator.Pages }}
-           {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" "Hide" "lazy" ) }}
+           {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-4" "Hide" "lazy" ) }}
         {{ end }}
-    </div>
+
     <div   class="row justify-content-center mt-3 d-none">
       <div class="col-lg-12">
 		{{ template "_internal/pagination.html" . }}
@@ -57,6 +46,13 @@
     </div>
     {{- end }}
 </div>
+  
+  </div>
+
+
+  </div>
+</div>
+
 
 </div>
 <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
