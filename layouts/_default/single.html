@@ -133,6 +133,11 @@
       {{ end }}
       
       {{ .Content }}
+      
+      {{ with .Params.fullurl }}
+      
+      <a class="btn btn-primary external-link" target="_blank" href="{{ . }}"> Read Full Article </a>
+      {{ end }}
 </main>
 
  <!--  
