@@ -161,7 +161,6 @@ input[type=checkbox]:checked:after {
   transform: scale(2.0);
 }
 .article-description {
-  font-size: larger;
   @extend .text-muted;
 }
 
