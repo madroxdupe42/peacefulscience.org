@@ -177,16 +177,18 @@ h8 {
   font-family: AlverataSb;
 };
 
-article {
+.article-body {
 
 
-  &> h2,
-  &> h3,
-  &> h4,
-  &> h5,
-  &> h6,
-  &> h7,
-  &> h8 {
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6,
+  & h7,
+  & h8 {
+	
+	
     margin-left: -0.5rem;
 
     @include media-breakpoint-up(xl) {
@@ -194,6 +196,13 @@ article {
       width: 137%;
       margin: $spacer -37% $spacer -1rem;
     }
+
+    @media print {
+      margin-left: -1rem;
+      width: 137%;
+      margin: $spacer -37% $spacer -1rem;
+    }
+
   };
 }
 
@@ -832,10 +841,11 @@ svg:not(:root) {
   scroll-margin-top: 100px;
 }
 
-.footnote-ref,
-.footnote-backref {
+sup a.footnote-ref,
+li a.footnote-backref {
 
   color: white;
+  text-decoration: none;
 
   padding: 2px;
 
@@ -843,23 +853,42 @@ svg:not(:root) {
     color: white;
     text-decoration: none;
   }
+
+  @media print {
+    color: black;
+    padding: inherit;
+    &:hover {
+      color: black;
+    }
+  }
+  
+ 
 }
 
 .footnote-ref {
-  background: #080;
-  border-radius: 2px;
-  vertical-align: baseline;
-  position: relative;
+  background: #080;	
+  @media print {
+    background: none;
+    padding: inherit;
+  }
+
+  border-radius: 0.5em;
+  
 }
 
 .footnote-backref {
   background: #080;
-  border-radius: 3px;
+  border-radius: 50%;
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 800;
   font-size: smaller;
   white-space: nowrap;
+
+
+  @media print {
+    display: none;
+  }
 }
 
 .make-me-sticky {
@@ -981,6 +1010,7 @@ svg:not(:root) {
   grid-column: 1;
   grid-row: 2;
  
+  & a {text-decoration: underline;}
   p, aside, figure {
 	page-break-inside: avoid;
   }
@@ -995,12 +1025,13 @@ svg:not(:root) {
 
   @media print {
     width: 60%;
-	a[href^=http]:after {
-		content: '<' attr(href) '>';
-	    margin-right: $spacer;
-	    white-space: pre-wrap; 
-	   overflow-wrap: break-all;
-	}
+
+//	a[href^=http]:after {
+//		content: '<' attr(href) '>';
+//	    margin-right: $spacer;
+//	    white-space: pre-wrap; 
+//	   overflow-wrap: break-all;
+//	}
   }
 
 
