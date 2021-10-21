@@ -573,12 +573,14 @@ article p:last-child {
   @extend .py-1;
 }
 
-.article-date {
-  @extend .py-1;
-  @extend .text-muted;
-  font-family: AlverataSb;
+a.doi-badge {
+ text-decoration: none;
+ font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
+ text-shadow: 0px 1px #01010145;
+ text-color: white;
+ font-size: 11px;
+ white-space: nowrap;
 }
-
 
 article > p:not(.editor-note):first-of-type::first-letter,
 .dropcap::first-letter {

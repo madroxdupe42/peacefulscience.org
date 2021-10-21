@@ -53,8 +53,9 @@
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
+            class="font-special py-1 text-decoration-none text-muted d-inline"
           >
-            <div class="article-date d-inline position-relative ">
+       
               {{ .Format "January 2, 2006" }}
               
               {{ $lastmod := partial "lastmod" $ }}
@@ -64,7 +65,7 @@
                <span  style="color: #090"> &#8226;</span>      
               {{ end }}
 
-            </div>
+
           </a>
           
 
@@ -88,8 +89,8 @@
           {{- .Description | markdownify -}}
         </div>
 
-        <div class="mb-2 pr-1 ">
-          {{ partial "authors" (dict "authors" .Params.authors) }}
+        <div class="mb-2 pr-1">
+          {{ partial "authors" (dict "authors" .Params.authors "class" "text-decoration-none") }}
         </div>
 
         {{- if eq "main" $headerpos -}}
@@ -123,12 +124,16 @@
 
         <div class="mb-5">
           {{ with .Params.doi }}
-
-            {{ partial "doi" . }}
+            {{ $doi := . }}
+            {{ with $.Params.pdf }}
+               {{ partial "doiurl" (slice $doi . ) }}
+            {{ else }}          
+              {{ partial "doi" $doi }}
+            {{ end }}
           {{ end }}
           {{- range .Params.categories }}
             {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-              <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
+              <a class="tag-link d-print-none" href="{{ .Permalink }}"> {{ .Title }} </a>
             {{- end }}
           {{- end }}
 
