@@ -183,22 +183,12 @@
         {{ end }}
       </main>
 
-      <!--  
-<div class="right-sidebar pb-5 pr-5" style="position: relative">
-   {{ partial "mailinglist" (dict "EmailClass" "text-dark pl-3" "ButtonClass"  "text-muted" ) }}
-       
-
-
-    <div class="d-none d-md-block w-100" style="position: absolute; top:calc(100% - 1000px); height: min(1000px, 100%); background-image: linear-gradient(#fff0,#fffd,#ffff); pointer-events: none"></div>
-</div>
--->
-
       <div
         class="left-sidebar"
         style="height: 100%; position: relative; isolation: isolate; z-index: 4;"
       >
         <div
-          class="d-none d-md-block  hover-front position-sticky"
+          class="d-none d-md-block hover-front position-sticky"
           style="top: 60px; width: 100%; background: white"
         >
           <nav
@@ -265,6 +255,7 @@
                 {{ with .Params.commenturl -}}
                   <a
                     href="{{ . | safeURL }}"
+                    rel="ugc"
                     target="_blank"
                     class="font-special my-3 btn btn-primary btn-md"
                     >Discuss on Forum</a

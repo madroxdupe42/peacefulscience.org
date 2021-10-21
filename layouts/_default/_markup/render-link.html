@@ -47,11 +47,11 @@
 
 {{- if eq $url.Host "discourse.peacefulscience.org" -}}
   {{- $class = "forum-link" -}}
-  {{- $rel = default nil -}}
 {{- end -}}
 
 {{- if eq $url.Host "www.amazon.com" -}}
   {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
+  {{- $rel = "sponsored" -}}  
 {{- end -}}
 
 <a href="{{ $dest }}"
