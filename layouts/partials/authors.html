@@ -15,8 +15,13 @@
     {{ $html := (slice) }}
     {{- range $authors }}
       {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-        {{- $html = $html | append  (printf `<a class="author %s" href="%s">%s</a>`
-            $class .Permalink  .Title  ) -}}        
+        
+        {{ $myhtml := printf `<a class="author %s" href="%s">%s</a>` $class .Permalink  .Title }}
+        {{ with .Params.orcid }}
+          {{ $myhtml =  printf `%s<a href="https://orcid.org/%s"><i class="pl-1 fab fa-orcid" style="color: black;"></i></a>` $myhtml  . }}
+        {{ end }}
+        
+        {{- $html = $html | append $myhtml -}}        
        {{- end }}
      {{- end -}}
      {{ delimit $html ", "  " and "}}

@@ -62,7 +62,7 @@
               {{ $day := div (sub  $lastmod.Unix $.Date.Unix  ) 86400 }}
 
               {{ if (gt  2 $day) }}
-               <span  style="color: #090"> &#8226;</span>      
+               <i class="fa fa-history pl-3" style="color: #ccc" ></i>
               {{ end }}
 
 
