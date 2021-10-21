@@ -54,24 +54,23 @@
             rel="”nofollow”"
             target="_blank"
           >
-            <div class="article-date d-inline">
+            <div class="article-date d-inline position-relative ">
               {{ .Format "January 2, 2006" }}
+              
+              {{ $lastmod := partial "lastmod" $ }}
+              {{ $day := div (sub  $lastmod.Unix $.Date.Unix  ) 86400 }}
+
+              {{ if (gt  2 $day) }}
+               <span  style="color: #090"> &#8226;</span>      
+              {{ end }}
+
             </div>
           </a>
+          
+
+          
+          
           {{ with $.Scratch.Get "Views" }}
-
-            {{ $lastmod := partial "lastmod" $ }}
-            {{ with $lastmod }}
-              {{ $day := div (sub  .Unix $.Date.Unix  ) 86400 }}
-
-              {{ if and (gt $day 0)  (gt .Unix  (time "2021-09-01").Unix ) }}
-                <div class="text-smaller mr-3 d-inline" style="color: #bbb">
-                  &nbsp;&nbsp;&nbsp;(updated {{ .Format "January 2, 2006" }})
-                </div>
-              {{ end }}
-            {{ end }}
-
-
             <div
               class="view-count d-inline d-print-none float-right text-right"
             >
