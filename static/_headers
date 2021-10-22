@@ -1,8 +1,9 @@
 /wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/*.js.php
   Service-Worker-Allowed: /
-  Content-Type: application/javascript; charset=utf-8
+  content-type: application/javascript; charset=utf-8
 /font/*
   cache-control: public, max-age=7776000, s-max-age=7776000, immutable
+  access-control-allow-origin: *
 /js/*
   cache-control: public, max-age=7776000, s-max-age=7776000
 /img/*
