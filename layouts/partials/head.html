@@ -2,24 +2,10 @@
 
 {{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify  | htmlUnescape  ) -}}
 
-
-{{ if not site.IsServer }}
-{{ with .Site.GoogleAnalytics }}
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KDF8R85');
-</script>
-{{ end  }}
-{{ end }}
-
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 
-
-<link rel="dns-prefetch" href="https://{{ site.Params.imagecdn }}" >
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,6 +58,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{ end }}
     
 
+
+<link rel="preconnect" href="https://{{ site.Params.imagecdn }}">
+
 <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
@@ -88,5 +77,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 
-
-<link rel="preconnect" href="{{ site.Params.imagecdn | absURL }}">
+{{ if not site.IsServer }}
+{{ with .Site.GoogleAnalytics }}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDF8R85');
+</script>
+{{ end  }}
+{{ end }}
