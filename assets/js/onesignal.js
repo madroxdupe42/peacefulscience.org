@@ -1,4 +1,9 @@
 if (document.documentElement.clientWidth  >= 900) {
+	
+  var myscript = document.createElement('script');
+  myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+  document.head.appendChild(myscript);
+	
   window.OneSignal = window.OneSignal || [];
 
   OneSignal.push(function () {
