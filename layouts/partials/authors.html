@@ -1,4 +1,8 @@
-{{ $authors := .authors }}
+{{ $page := .page }}
+{{ $interviewer := .page.Params.interview |  default (slice ) }}
+{{ $source := .page.Params.sources | default (slice ) }}
+{{ warnf "%s" $interviewer }} 
+{{ $authors := .authors | default $page.Params.authors | default (slice ) | complement  $interviewer | complement  $source }}
 {{ $etal := .etal | default false }}
 {{ $class := .class | default ""}}
 
@@ -12,6 +16,14 @@
      
 {{ else }}
 
+
+     {{ range $interviewer }}
+      
+       {{ $author := site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+        <a href="{{ $author.Permalink }}" class="author {{ $class }}">{{ $author.Title }}</a>
+        <span class="text-muted">interviews </span>
+     {{ end }}
+     
     {{ $html := (slice) }}
     {{- range $authors }}
       {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
@@ -25,6 +37,14 @@
        {{- end }}
      {{- end -}}
      {{ delimit $html ", "  " and "}}
+    
+     {{ with $page.Params.sources }}
+        <span class="text-muted">on</span>
+       {{ range $page.Params.sources }}
+         <a href="{{ $page.Params.fullurl }}" target="_blank" class="author external-link {{ $class }}">{{ . }}</a>
+       {{ end }}
+     {{ end }}
+
 
 {{- end -}}
 
