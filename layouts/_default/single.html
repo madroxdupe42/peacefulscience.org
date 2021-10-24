@@ -47,7 +47,7 @@
           />
         </div>
 
-        {{ with .Date }}
+        {{ with .PublishDate }}
 
           <a
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
@@ -90,7 +90,7 @@
         </div>
 
         <div class="mb-2 pr-1">
-          {{ partial "authors" (dict "authors" .Params.authors "class" "text-decoration-none") }}
+          {{ partial "authors" (dict "page" . "class" "text-decoration-none") }}
         </div>
 
         {{- if eq "main" $headerpos -}}
@@ -178,7 +178,7 @@
         {{ with .Params.fullurl }}
 
           <a
-            class="btn btn-primary external-link"
+            class="my-5 btn btn-primary external-link text-decoration-none"
             target="_blank"
             href="{{ . }}"
           >
