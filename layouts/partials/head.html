@@ -32,10 +32,11 @@
 <meta name="twitter:site" content="@peacefulscience">
 <meta name="twitter:creator" content="@swamidass">
 
-{{ with .Params.headerimage.src -}}
-<meta property="og:image" content="{{- . | absURL -}}"/>
+
+{{ with .Params.headerimage.src | default site.Params.logo -}}
+<meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{-  . | absURL -}}">
+<meta name="twitter:image" content="{{-  . | partial `imgcdn` -}}">
 {{- end }}
 
 

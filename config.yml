@@ -39,9 +39,7 @@ markup:
       attribute:
         block: true
         title: true
-
-
-
+        
 cache:
   getjson:
     dir: :cacheDir/:project
@@ -75,6 +73,7 @@ params:
     params: ["categories", "tags"]
   headerType: none
   imagecdn: 8l2ic7fx.cdn.imgeng.in
+  logo: /img/design/logo-black-square.png
 
 paginate: 12
 
