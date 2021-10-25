@@ -46,7 +46,7 @@ The forum is rowdy, because science is rowdy.
     </div>
     <div class="w-100 p-2"></div>
        {{ range $articles }}
-         {{ .Render "mediabox2" }}
+            {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
        {{ end }}
   </div>
 </div>
