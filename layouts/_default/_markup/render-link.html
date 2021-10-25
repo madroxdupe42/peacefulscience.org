@@ -32,10 +32,10 @@
           {{- $dest = $pdfdest -}}  
           {{- $class = "external-link" -}}
        {{- else -}}
-          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.File.Path $pdf $pdffile -}}      
+          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.Path $pdf $pdffile -}}      
        {{- end -}}
     {{- else -}}
-      {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.File.Path $dest -}}
+      {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.Path $dest -}}
     {{- end -}}
   {{- end -}}
 {{ else }}
@@ -53,6 +53,10 @@
   {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
   {{- $rel = "sponsored" -}}  
 {{- end -}}
+
+{{ if not .Text }}
+  {{ warnf "EMPTY.LINK:\t%s" $.Page.Path }}
+{{ end }}
 
 <a href="{{ $dest }}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{ $data }}" {{ end -}}
