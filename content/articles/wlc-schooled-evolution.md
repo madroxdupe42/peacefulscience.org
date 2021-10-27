@@ -8,9 +8,9 @@ categories:
 - evolution
 - theology
 headerimage:
-  src: https://i.ytimg.com/vi/D6q8e0Td2pg/maxresdefault.jpg
+  src: /img/2021/10/sonna-wlc-schooled.jpg
   youtube: D6q8e0Td2pg
-  credit:  Suan recounts this story on *Pints with Aquinas.*
+  credit: Here, Suan recounts this story on *Pints with Aquinas.*
 ---
 
 William Lane Craig is a philosopher, and a well-known apologist. But is not anti-evolution. For years, Craig has argued that Christians can make space for the best science, including evolutionary science. 
