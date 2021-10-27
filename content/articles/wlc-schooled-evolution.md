@@ -57,7 +57,9 @@ He explained that,
 
  > At the core of the Christian web of beliefs lie such doctrines as the existence of God, the incarnation and resurrection of Jesus, the sinfulness of man, and so on. The reason you could not give up instead some minor belief like the scientific character or reliability of Genesis, but chucked Christian theism altogether, lies in your mistaken conviction that ‘the main core’ of the Christian worldview is ‘the fall of man,’ where the fall of man is apparently understood to imply, not only the doctrine of original sin, but also the origin of human disease and death as a result of human sinfulness. This is a horribly distorted view of Christianity.
 
-I had never realized how rich and diverse the Christian tradition was on the question of death and natural evil. My own understanding of Christianity was terribly narrow, as Dr. Craig noted that “the idea that human physical death and disease is the result of sin or the fall, though championed by Young Earth Creationists, cannot be found in the biblical text and is widely rejected by many committed Christians (including me).” 
+I had never realized how rich and diverse the Christian tradition was on the question of death and natural evil. My own understanding of Christianity was terribly narrow, as Dr. Craig noted that 
+
+> ...the idea that human physical death and disease is the result of sin or the fall, though championed by Young Earth Creationists, cannot be found in the biblical text and is widely rejected by many committed Christians (including me).
 
 Dr. Craig then offered one possible explanation for why God created a world with death already in it, and it was this paragraph alone that single-handedly made me rethink everything: 
 
