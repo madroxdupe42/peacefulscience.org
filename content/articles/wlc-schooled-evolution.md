@@ -11,6 +11,7 @@ headerimage:
   src: /img/2021/10/sonna-wlc-schooled.jpg
   youtube: D6q8e0Td2pg
   credit: Here, Suan recounts this story on *Pints with Aquinas.*
+commenturl: https://discourse.peacefulscience.org/t/william-lane-craig-schooled-me-on-evolution/14455
 ---
 
 William Lane Craig is a philosopher, and a well-known apologist. But is not anti-evolution. For years, Craig has argued that Christians can make space for the best science, including evolutionary science. 
@@ -30,6 +31,7 @@ It didn’t help, however, when some Christians and science popularizers preach 
 These never-ending questions led me to be agnostic for a time in high school. Two loved ones had died from horrible diseases; one of them totally forgot who I was and the memories we shared. I then read more about the great extinction events in the history of life, the unstoppable march of death. I visited hospitals with my father when he would minister to the sick and dying. All of these experiences made me seriously question the goodness of God. 
 
 Although I was drawn to Christianity, I just could not reconcile the history of natural evil with God. And the idea that we once had it right in some Edenic paradise was painfully disappointing. There was some odd comfort, however, in believing that death and disease are simply the norm. 
+{.dropcap}
 
 Dr. William Lane Craig, one of the world’s leading philosophers, was the first person I consulted after losing my faith. I submitted my doubts to the [“Question of the Week”](https://www.reasonablefaith.org/writings/question-answer/submit-question) section of his website “Reasonable Faith.”
 
@@ -71,5 +73,6 @@ And, because of him, I was no longer settling for science popularizers. Instead,
 I eventually told Dr. Craig that my agnosticism had ended. I still had major doubts and sometimes toyed with deism. But, it was really the beauty of the Christian story, and the life of Jesus that made me realize that I am more than just a material object in an indifferent universe. I also came to realize that the leap to nihilistic atheism from evolution was not only unwarranted but simply one among many other interpretations. 
 
 Today, I am still a Christian. I am grateful to people like Dr. Craig and my parents who encouraged me to research my beliefs and skepticism, to be fair-minded, and open to the data of creation and scripture. They taught me to not be swayed by rhetoric but pay close attention to the facts, to discern interpretation from reality. 
+{.dropcap}
 
 I ultimately learned that Christians do not have to strawman science, and scientists do not have to strawman religion. It hurts the cause of both sides to diminish the other, because both systems of thought can be highly sophisticated and contribute to a more complete understanding of reality. It has brought me joy to encounter Christians like Dr. Craig, whose scholarship encourages rather than stifles scientific thought. The “dogma” that atheists have a unique claim to science not only harms science but discourages the contributions of religious people whose reverence for God is precisely what inspires their study of the universe. 
