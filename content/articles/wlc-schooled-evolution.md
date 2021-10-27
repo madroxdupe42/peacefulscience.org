@@ -14,7 +14,7 @@ headerimage:
 commenturl: https://discourse.peacefulscience.org/t/william-lane-craig-schooled-me-on-evolution/14455
 ---
 
-William Lane Craig is a philosopher, and a well-known apologist. But is not anti-evolution. For years, Craig has argued that Christians can make space for the best science, including evolutionary science. 
+William Lane Craig is a philosopher, and a well-known apologist. But he is not anti-evolution. For years, Craig has argued that Christians can make space for the best science, including evolutionary science. 
 {.editor-note}
 
 I wanted to be a scientist ever since I was in second grade. My father and I would watch documentaries about human origins, cavemen, and dinosaurs. I eventually gained an interest in meteorology, UFOs, and extraterrestrial life. By the time I reached my sophomore year of high school, I wanted to become an evolutionary biologist, studying either speciation or the evolution of tetrapods from aquatic life. 
