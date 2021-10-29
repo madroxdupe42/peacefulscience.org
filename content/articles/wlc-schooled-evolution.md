@@ -8,7 +8,7 @@ categories:
 - evolution
 - theology
 headerimage:
-  src: /img/2021/10/sonna-wlc-schooled.jpg
+  src: /img/2021/10/suan-sonna.jpg
   youtube: D6q8e0Td2pg
   credit: Here, Suan recounts this story on *Pints with Aquinas.*
 commenturl: https://discourse.peacefulscience.org/t/william-lane-craig-schooled-me-on-evolution/14455
