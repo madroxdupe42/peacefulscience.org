@@ -11,12 +11,12 @@ main:
     weight: -108
   - name: About
     identifier: about
-    url: /articles/mission-and-values/
+    url: /about/
     weight: -100
   - name: Mission and Values
     parent: about
     weight: 10
-    url: /articles/mission-and-values/
+    url: /about/mission-and-values/
   - name: Submission Guide
     parent: about
     weight: 9
