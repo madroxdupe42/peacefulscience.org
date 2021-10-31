@@ -1,17 +1,13 @@
 ---
 aliases:
 - /authors-guide-and-call-for-submissions/
-authors:
-- ciara
-categories:
-- policy
+-  /articles/authors-guide-and-call-for-submissions/
 commenturl: http://discourse.peacefulscience.org/t/authors-guide-and-call-for-submissions/13431
-date: '2021-03-22T14:47:00'
 description: 'We are inviting submissions from scientists and scholars around the
   grand question: what does it mean to be human?'
 headerimage:
   src: /img/2021/03/submissions-ps.png
-title: Author's Guide and Call for Submissions
+title: Author's Guide
 ---
 
 Peaceful Science (PS) is [building trust between scientists and the public](https://peacefulscience.org/mission-and-values/). One way we build trust is by encouraging dialogue across differences, and exploring how science interacts with the grand question: *What does it mean to be human?*

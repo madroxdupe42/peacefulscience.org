@@ -1,5 +1,6 @@
 ---
 title: Editorial Policy
+description: This editorial policy is established to facilitate Peaceful Science's role as a site of reference.
 ---
 
 *Peaceful Science* hosts a website in support of our mission. This website is not a formal academic journal. Still, articles published by us have had a significant impact on academic discourse. This editorial policy is established to facilitate our role as a site of reference.

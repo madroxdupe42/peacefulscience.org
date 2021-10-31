@@ -20,7 +20,7 @@ main:
   - name: Submission Guide
     parent: about
     weight: 9
-    url: /articles/authors-guide-and-call-for-submissions/
+    url: /about/authors-guide/
   - name: Editorial Policy
     weight: 8
     parent: about
