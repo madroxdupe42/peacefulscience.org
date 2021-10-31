@@ -1,30 +1,25 @@
 ---
 aliases:
 - /mission-and-values/
-authors:
-- swamidass
-categories:
-- news
+- /articles/mission-and-values/
 commenturl: "http://discourse.peacefulscience.org/t/our-mission-and-values/10208"
 date: "2020-04-18T21:00:28"
-description: We fill a unique role in the conversation. Our values will be made more concrete as we align our organization, community, blog, and forum to this mission.
+description: Peaceful Science fills a unique role in the conversation. Our values will be made more concrete as we align our organization, community, blog, and forum to this mission.
 feature: true
-headerimage:
-  src: /img/2019/07/PS-logo-stacked-black.png
-title: Our Mission and Values
+title:  Mission and Values
 ---
 
-Over the last year, Peaceful Science's mission and values became clear. Private discussion among our advisory council, friends, and consultants clarified that we can rise into a unique role in the societal conversation. We are oriented around science, intending to support trustworthy scientists as they engage the public.
-
-In the coming year, our values will be more concrete understood as we align our organization, community, blog, and forum to this mission.
+We are oriented around science, intending to support trustworthy scientists as they engage the public. We are rising into unique role in the societal conversation. 
 
 ## Our Mission
 
-*Peaceful Science*'s mission is to advance a civic practice of science...\
-\
-...by seeking dialogue in discord and understanding across disagreements, \
-...by fostering interdisciplinary scholarship engaged with science and the public, and\
-...by encouraging conversation around the grand question: *what does it mean to be human?*
+*Peaceful Science*'s mission is to advance a civic practice of science...
+
+  ...by seeking dialogue in discord and understanding across disagreements, 
+
+  ...by fostering interdisciplinary scholarship engaged with science and the public, and
+
+  ...by encouraging conversation around the grand question: *what does it mean to be human?*
 
 ## Trust, Questions, and Virtues
 
@@ -66,9 +61,11 @@ Science reshapes our understanding of the world, but it is also limited in its s
 
 8.  By ***patience***, we mean endurance with one another across our disagreements, where we seek to understand others, and help them understand us.
 
-## References and Resources
 
-Explore these values in these resources:
+<div class="references">
+
+## References 
+
 
 ***[Scientists in Civic Life](https://discourse.peacefulscience.org/t/aaas-scientists-in-civic-life-facilitating-dialogue-based-communication/2443)*** by AAAS. The AAAS is the worlds largest association of scientists. They articulate evidence-based guidelines for engaging the public with science, advocating a trust-building model over a "knowledge-deficit" model of engagement. The data clearly indicates that it is not enough to be right, we also have to be trusted.
 
@@ -76,6 +73,8 @@ Explore these values in these resources:
 
 ***[Shaping Science with Rhetoric](https://amzn.to/2VSAkZl)*** by Leah Ceccarelli. Dr. Ceccarelli is a professor of rhetoric, specializing n the rhetoric of science. This book articulates pragmatic principles in building rhetorical bridges between disciplines to foster collaboration and understanding.
 
-***[The Genealogical Adam and Eve](https://amzn.to/2XLDiRN)*** by S. Joshua Swamidass. Dr. Swamidass is a scientist and physician, and founder of Peaceful Science. Chapter 1, 2 and 18 of this explain our eight values and virtues in more detail. Chapters 1 and 18 are free to download [here](https://peacefulscience.org/download/excerpt-genealogical-adam-eve/).
+***[The Genealogical Adam and Eve](https://amzn.to/2XLDiRN)*** by S. Joshua Swamidass. Dr. Swamidass is a scientist and physician, and founder of Peaceful Science. Chapter 1, 2 and 18 of this explain our eight values and virtues in more detail. Chapters 1 and 18 are free to download for our patrons [here](https://peacefulscience.org/download/excerpt-genealogical-adam-eve/).
 
 *[**USA Today Oped**](https://www.usatoday.com/story/opinion/2019/10/04/upcoming-book-leaves-scientific-possibility-existence-adam-eve-column/3826195002/)* by Nathan Lents. Dr. Lents is an atheist scientist, and he explains in this article why he endorsed *The Genealogical Adam and Eve*, in service of the common good. The values he articulates here are our values too, guided by the trust-building model of public engagement we advocate.
+
+</div>
