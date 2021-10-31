@@ -8,7 +8,7 @@ categories:
 - evolution
 - theology
 headerimage:
-  src: /img/2021/10/suan-sonna.jpg
+  src: /img/2021/10/wlc.jpeg
   youtube: D6q8e0Td2pg
   credit: Here, Suan recounts this story on *Pints with Aquinas.*
 commenturl: https://discourse.peacefulscience.org/t/william-lane-craig-schooled-me-on-evolution/14455
@@ -22,7 +22,12 @@ I wanted to be a scientist ever since I was in second grade. My father and I wou
 
 Meanwhile, I was also a devout Christian. My father was both a Baptist minister and a former professor of geomorphology. My parents encouraged critical thinking, and taught me that Christanity did not stifle science. Even though many of my childhood friends believed that Christianity and science were in conflict, I wanted to show them (and still do) that the conflict is only superficial. 
 
+
 Still, I was drawn towards anti-evolutionism from time to time throughout my childhood. It would sometimes come in the form of a Sunday school teacher telling me that we didn’t evolve from monkeys. Other times, I would hear a well-spoken evangelist warn of the moral consequences of evolutionary theory. These criticisms eventually became more sophisticated: “the scientific community has hastily inferred macroevolution from microevolution” and “bacteria remain bacteria, and dogs remain dogs.” All of these doubts made me question the scientific consensus, but I found an answer each time and fine-tuned my grasp of the science. 
+
+{{% image `/img/2021/10/suan-sonna.jpg` %}}
+Suan Sonna, a student at the time, asked William Lane Craig about evolution and the Christian faith. *Must a Darwinian be a non-Christian?* [Craig responded](https://www.reasonablefaith.org/question-answer/P70/must-a-darwinian-be-a-non-christian)
+{{% /image %}}
 
 Even from a young age, the Genesis creation account struck me as poetic. The fact that the sun and moon were created on the fourth day seemed decisive against literalism (Gen. 1:14-19). Although I never doubted a historical Adam and Eve, I remained perplexed about their relationship to the rest of humanity given the science of human origins and the unexplained appearance of Cain’s wife in scripture (Gen. 4:17). 
 
