@@ -1,7 +1,6 @@
 {{ $page := .page }}
 {{ $interviewer := .page.Params.interview |  default (slice ) }}
 {{ $source := .page.Params.sources | default (slice ) }}
-{{ warnf "%s" $interviewer }} 
 {{ $authors := .authors | default $page.Params.authors | default (slice ) | complement  $interviewer | complement  $source }}
 {{ $etal := .etal | default false }}
 {{ $class := .class | default ""}}
