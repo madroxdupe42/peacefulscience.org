@@ -4,6 +4,7 @@
 /font/*
   cache-control: public, max-age=7776000, s-max-age=7776000, immutable
   access-control-allow-origin: *
+/download/errata-genealogical-adam-eve/  /pdf/genealogical-adam-eve-errata-jan2021.pdf
 /js/*
   cache-control: public, max-age=7776000, s-max-age=7776000
 /img/*
