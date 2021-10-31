@@ -1,7 +1,9 @@
 ---
 title: Contact
 type: blank
-description: Contact Peaceful Science.
+aliases:
+- /contact/
+background: green-hex
 jsonld:
     "@type": WebPage
     name: = title
@@ -9,10 +11,16 @@ jsonld:
     publisher: = copy /jsonld/peacefulscience 
 ---
 
+<div style="height: 150px; width: 100%"></div>
+
+
+<div class="p-3" style="background: white">
+
+
 <form name="contact" method="POST" data-netlify="true">
-  
+    <h1>Contact Us</h1>
   <div class="form-group">
-  <label for="message ">Contact information</label>
+
   <div class="form-row mb-2">
     <div class="col">
       <input type="text" name="first-name" class="form-control" placeholder="First name">
@@ -20,18 +28,22 @@ jsonld:
     <div class="col">
       <input type="text" name="last-name" class="form-control" placeholder="Last name">
     </div>
-  </div>
-  
+    <div class="col">
     <input type="email" name="email" class="form-control" id="email" placeholder="Email">
-
-  </div>
-  
+    </div>
+    <div class="col">
     <div class="form-check mb-4">
   <input class="form-check-input" type="checkbox" value="" id="mailinglist-check">
     <label class="form-check-label font-native" for="mailinglist-check">
     Add email to the Peaceful Science mailing list.
   </label>
     </div>
+    </div>
+  </div>
+  
+
+  </div>
+  
   <div class="form-group  mt-4">
     <label for="message">Message</label>
     <textarea name="message" class="form-control" id="message" placeholder="Write message here..." rows="10" ></textarea>
@@ -39,8 +51,10 @@ jsonld:
   
   
 
-  <div class="form-group">
+  <div class="pt-3 form-group">
   <button type="submit" class="btn btn-primary font-special">Submit</button>
   </div>
   </div>
 </form>
+
+</div>

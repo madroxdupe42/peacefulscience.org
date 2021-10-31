@@ -18,6 +18,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {{- block "background" . }}{{- end }}
 
+{{ if eq .Params.background "green-hex" }}
+  {{ $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.Path ) }}
+  <img
+    class="panimate"
+    style="background-color: #030; position: fixed; z-index: -1; 
+ top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
+ object-position: 10% 50%;user-select: none;"
+    src="{{ $srcpng  | partial `imgcdn` }}"
+  />
+{{ end }}
+
+
 <div id="content" style="position: relative; z-index: 2; isolation: isolate">
       {{- block "main" . }}{{- end }}
 </div>
