@@ -3,7 +3,7 @@ aliases:
 - /mission-and-values/
 - /articles/mission-and-values/
 commenturl: "http://discourse.peacefulscience.org/t/our-mission-and-values/10208"
-description: Peaceful Science fills a unique role in the conversation. Our values will be made more concrete as we align our organization, community, blog, and forum to this mission.
+description: Peaceful Science fills a unique role in the conversation, intending to support trustworthy scientists as they engage the public. 
 feature: true
 title:  Mission and Values
 ---
