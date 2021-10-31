@@ -21,10 +21,10 @@ main:
     parent: about
     weight: 9
     url: /articles/authors-guide-and-call-for-submissions/
-  - name: Error Correction Policy
+  - name: Editorial Policy
     weight: 8
     parent: about
-    url: /articles/correction-policy/
+    url: /about/editorial/
   - name: Contact Us
     weight: 7
     parent: about
