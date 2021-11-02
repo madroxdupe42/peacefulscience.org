@@ -43,7 +43,7 @@ markup:
 cache:
   getjson:
     dir: :cacheDir/:project
-    maxAge: 7.5hr
+    maxAge: 1m
 
 mediaTypes:
   text/prs.netlify:
