@@ -29,7 +29,7 @@
   {{ $latest := first 9 $ALL }}
   {{ $used := $latest }}
 
-  {{ $featured := first 6 (where ( intersect $PAGES.ByViews  $ALL ) ".Params.feature" true | complement $used) }}
+  {{ $featured := first 6 (where ( intersect $PAGES.ByViews  $ALL ) ".Params.categories" "intersect" (slice "featured")  | complement $used) }}
   {{ $used := union $used $featured }}
 
   {{ $race := first 2 (where $ALL ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
@@ -84,7 +84,7 @@
               <a
                 class="btn btn-outline-light d-inline-block mt-3"
                 target="_blank"
-                href="{{ absURL `/articles/mission-and-values/` }}"
+                href="{{ absURL `/about/mission-and-values/` }}"
               >
                 Learn</a
               >
@@ -192,7 +192,7 @@
               class="row justify-content-center py-3 my-lg-1 shadow mr-lg-1"
               style="background-color: white"
             >
-              {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black") }}
+              {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black" "Link" "/categories/featured/" ) }}
 
               {{ range $featured }}
                 {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}

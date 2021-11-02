@@ -4,13 +4,14 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - confession
 - evolution
 - society
 commenturl: "http://discourse.peacefulscience.org/t/why-i-went-public-on-evolution/12612"
 date: "2020-11-29T21:01:00"
 description: I went public in 2012 on evolution. When it comes to personal risks, very personal reasons take center stage. Why did I go public?
-feature: true
+
 headerimage:
   src: /img/2020/11/victoria-josh-2013.jpg
 title: Why I Went Public on Evolution

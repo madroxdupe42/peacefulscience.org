@@ -4,11 +4,12 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - science
 commenturl: "http://discourse.peacefulscience.org/t/the-garden-path-to-1-1-3/9793"
 date: "2020-03-06T05:29:58"
 description: When I disagree with another scientist, I sometimes respond, In my professional opinion, this just looks 1+1=3 to me. Maybe they took the garden path?
-feature: true
+
 headerimage:
   src: /img/2020/03/garden-path-problem.png
 title: The Garden Path To 1+1=3

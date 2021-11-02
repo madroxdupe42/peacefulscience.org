@@ -48,7 +48,7 @@ or take a detour...` }}
 
 <div class="col-12">
 
-{{ $featured := where site.RegularPages  ".Params.feature" true | shuffle | first 3  }} 
+{{ $featured := where site.RegularPages ".Params.categories" "intersect" (slice "featured") | shuffle | first 3  }} 
 <div class="container" role="main">
     <div class="row justify-content-center pt-3 pb-5 dark">
 

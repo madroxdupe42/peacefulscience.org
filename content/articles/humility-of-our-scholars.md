@@ -5,13 +5,14 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - adam-eve
 - science
 commenturl: http://discourse.peacefulscience.org/t/the-humility-of-our-scholars/7078
 date: '2019-08-01T20:52:47'
 description: Darrel Falk, People like me, stuck in a specific genetic paradigm, were
   wrong. The humility of our scholars opens a better way forward for everyone.
-feature: true
+
 headerimage:
   src: /img/2019/08/mistake-968334_1920.jpg
 title: The Humility of Our Scholars

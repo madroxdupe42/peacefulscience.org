@@ -1,15 +1,17 @@
 ---
 aliases:
 - /wlc-genetic-challenge/
+series: biologos
 authors:
 - wlc
 categories:
+- featured
 - adam-eve
 - science
 commenturl: "http://discourse.peacefulscience.org/t/what-became-of-the-genetic-challenge-to-adam-and-eve/10692"
 date: "2020-05-12T19:01:11"
 description: Does genetics challenge a single-couple origin to humanity? William Lane Craig explains how we found that this challenge was an illusion.
-feature: true
+
 headerimage:
   src: /img/2020/05/wcl-ps.jpg
   youtube: SBbb0vj2FmA

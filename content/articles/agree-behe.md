@@ -4,12 +4,13 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - design
 - dialogue
 commenturl: "http://discourse.peacefulscience.org/t/i-agree-with-behe/4475"
 date: "2019-02-12T18:05:24"
 description: I want to affirm again my common ground with Behe. Dialogue is only possible if we keep our common ground in view, and we have much of common ground.
-feature: true
+
 headerimage:
   src: /img/2019/02/Behe2.jpg
 title: I Agree With Behe

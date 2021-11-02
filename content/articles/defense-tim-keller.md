@@ -5,6 +5,7 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - adam-eve
 - dialogue
 - society
@@ -12,7 +13,7 @@ categories:
 commenturl: "http://discourse.peacefulscience.org/t/in-defense-of-tim-keller/8403"
 date: "2017-10-01T22:51:34"
 description: Instead of narrowly arguing for our own theology, let us all advocate for truthful accounts of science and the full diversity of the Church. Peace.
-feature: true
+
 headerimage:
   src: /img/2017/10/keller-991x560-2.jpg
 title: In Defense of Tim Keller

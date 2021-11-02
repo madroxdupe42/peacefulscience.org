@@ -5,13 +5,14 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - science
 - adam-eve
 date: "2021-08-30T12:00:00"
 description: BioLogos updates their scientific position on Adam and Eve. 
    This is an important step forward and a key milestone
    in the conversation.
-feature: true
+
 headerimage:
   src: /img/2021/08/ct-uturn.png
 title: A U-Turn on Adam and Eve
