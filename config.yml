@@ -66,7 +66,7 @@ outputs:
   home: ["HTML", "RSS", "redir"]
 
 params:
-  baseGitHub: "https://github.com/PeacefulScience/hugo-website/"
+  baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"
   sitemap_min_date: "2021-09-10"
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
