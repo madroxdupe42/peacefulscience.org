@@ -5,6 +5,7 @@ publish = "public/"
 [build.environment]
 HUGO_VERSION = "0.89.0"
 HUGO_ENV = "development"
+NODE_VERSION = 16
 
 [context.production.environment]
 HUGO_ENV = "production"
