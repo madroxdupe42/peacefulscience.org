@@ -81,7 +81,9 @@
 {{- if not (in $hide "categories") -}}
     {{- range $page.Params.categories -}}
       {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-        <a class="tag-link" href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- if not (.Params.hidden | default false ) -}} 
+          <a class="tag-link" href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end -}}
       {{ end -}}
     {{- end -}}
 {{- end -}}

@@ -1,3 +1,4 @@
 ---
 title: Featured
+hidden: true
 ---

@@ -133,7 +133,9 @@
           {{ end }}
           {{- range .Params.categories }}
             {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-              <a class="tag-link d-print-none" href="{{ .Permalink }}"> {{ .Title }} </a>
+              {{- if not (.Params.hidden | default false ) -}} 
+                <a class="tag-link d-print-none" href="{{ .Permalink }}"> {{ .Title }} </a>
+              {{ end }}
             {{- end }}
           {{- end }}
 
