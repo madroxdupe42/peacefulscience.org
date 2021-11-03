@@ -70,8 +70,6 @@
 <style>
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
 {{ $style.Content | safeCSS }}
-{{ $style := resources.Get "css/critical.scss" | resources.ToCSS | resources.PostCSS  }}
-{{ $style.Content | safeCSS }}
 </style>
 
 
