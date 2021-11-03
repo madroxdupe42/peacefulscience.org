@@ -11,7 +11,7 @@ Whether a typo or a more substantial error of fact, we invite readers to help us
 
 There is a direct and preferred way to suggest specific corrections. At the bottom of most pages is a “Suggest Changes” button. This button leads to a website where the content of the article can be directly edited after logging in with a free account. After making changes to the document, briefly note why these changes were made in the revision note, and select the option to create a “pull request.” We review and accept pull requests on a regular basis.
 
-In some cases, before proposing specific corrections, it may be better to [create an “issue”](https://github.com/PeacefulScience/hugo-website/issues) where a potential problem can be discussed.
+In some cases, before proposing specific corrections, it may be better to [create an “issue”](https://github.com/PeacefulScience/peacefulscience.org/issues) where a potential problem can be discussed.
 
 ## Disclosing Inaccurate Content
 
@@ -55,7 +55,7 @@ A retraction notice is attached to the original article and specifies the reason
 
 ### Revision Archive
 
-Since the summer of 2021, a record of revisions is kept and all changes are publicly visible, as are all past versions of articles. This record can be reached by clicking the article's date, clicking the “Revision History” button, or by navigating the "content" directory of [the website’s repository](https://github.com/PeacefulScience/hugo-website).
+Since the summer of 2021, a record of revisions is kept and all changes are publicly visible, as are all past versions of articles. This record can be reached by clicking the article's date, clicking the “Revision History” button, or by navigating the "content" directory of [the website’s repository](https://github.com/PeacefulScience/peacefulscience.org).
 
 ## Web Address Stability
 
