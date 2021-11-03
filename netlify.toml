@@ -3,7 +3,7 @@ command = "hugo mod clean && hugo -b $URL"
 publish = "public/"
 
 [build.environment]
-HUGO_VERSION = "0.88.1"
+HUGO_VERSION = "0.89.0"
 HUGO_ENV = "development"
 
 [context.production.environment]
