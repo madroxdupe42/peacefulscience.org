@@ -82,13 +82,20 @@ Speaking to larger concerns, [they could agree with Nathan Lents and I](https:/
 
 Many of us are returning to the grand questions of human origins. In time, hopefully evolutionary creationists will join the conversation too. We have common ground, but also disagreements. Even where we disagree, their voice is important, and it is missed.
 
-------------------------------------------------------------------------
+
 
 The day of publication, the title of this article was changed to remove the word "Stealth," and the feature image was changed. The original feature image image was a picture of Deborah Haarsma. The article was also further updated for clarity and conciseness.
+{.editor-note}
 
-On January 15, 2021, based on helpful reader feedback, we substantially rewrote the last half of the article, to remove some sensitive information and make more clear our request to BioLogos. We are not aware of any factual errors in the original article. This was not a scientific article, but transparency is important, so we will provide the original version of article to any reader that requests it. If requested by BioLogos, moreover, we will put the full article back online too.\
-\
-Our newsletter, also, states, "Discussing this topic may not be comfortable, but Peaceful Science seeks common ground alongside clarity regarding our positions. At times, we have challenged content from other groups, such as the ID movement. This critique of BioLogos is in the same vein, and we hope our request and BioLogos' response moves the conversation forward."
+<div class="editor-note">
+
+On January 15, 2021, based on helpful reader feedback, we substantially rewrote the last half of the article, to remove some sensitive information and make more clear our request to BioLogos. We are not aware of any factual errors in the original article. This was not a scientific article, but transparency is important, so we will provide the original version of article to any reader that requests it. If requested by BioLogos, moreover, we will put the full article back online too.
+
+Our newsletter, also, states, 
+
+> Discussing this topic may not be comfortable, but Peaceful Science seeks common ground alongside clarity regarding our positions. At times, we have challenged content from other groups, such as the ID movement. This critique of BioLogos is in the same vein, and we hope our request and BioLogos' response moves the conversation forward.
+
+</div>
 
 [^1]:  BioLogos is an organization founded by Francis Collins, current director of the NIH. They advocate "evolutionary creation," a particular theology of human origins.
 
