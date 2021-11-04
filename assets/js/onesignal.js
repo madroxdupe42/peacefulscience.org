@@ -50,7 +50,7 @@ if (document.documentElement.clientWidth  >= 900) {
     oneSignal_options["notifyButton"]["colors"]["dialog.button.foreground"] =
       "white";
     OneSignal.init(window._oneSignalInitOptions);
-  //  OneSignal.showSlidedownPrompt();
+    OneSignal.showNativePrompt();
   });
 
   function documentInitOneSignal() {
