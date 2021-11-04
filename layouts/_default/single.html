@@ -11,6 +11,7 @@
 {{ end }}
 
 {{ define "main" }}
+
   {{ $PAGES := partialCached "byviews" . }}
 
   {{ with .Description }}
@@ -37,7 +38,7 @@
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
 
-    <article class="article-grid">
+    <article class="article-grid pb-5">
       <header class="article-header">
         <div class="d-print-block d-none mb-5" id="pageHeader">
           <img
@@ -142,7 +143,7 @@
         </div>
       </header>
 
-      <main class="article-body" position="relative">
+      <main class="article-body pb-5" position="relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
             <aside class="series aside-xl-right bg-white">
