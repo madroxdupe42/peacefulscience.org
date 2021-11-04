@@ -1,4 +1,4 @@
-if (document.documentElement.clientWidth  >= 900) {
+if (document.documentElement.clientWidth  >= 10) {
 	
   var myscript = document.createElement('script');
   myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
