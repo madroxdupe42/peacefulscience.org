@@ -1,4 +1,4 @@
-if (document.documentElement.clientWidth  >= 10) {
+// if (document.documentElement.clientWidth  >= 900) {
 	
   var myscript = document.createElement('script');
   myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
@@ -50,7 +50,7 @@ if (document.documentElement.clientWidth  >= 10) {
     oneSignal_options["notifyButton"]["colors"]["dialog.button.foreground"] =
       "white";
     OneSignal.init(window._oneSignalInitOptions);
-    OneSignal.showNativePrompt();
+    OneSignal.showSlidedownPrompt();
   });
 
   function documentInitOneSignal() {
@@ -76,4 +76,4 @@ if (document.documentElement.clientWidth  >= 10) {
       documentInitOneSignal();
     });
   }
-}
+// }
