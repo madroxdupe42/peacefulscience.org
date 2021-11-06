@@ -11,12 +11,13 @@ categories:
 commenturl: "http://discourse.peacefulscience.org/t/what-became-of-the-genetic-challenge-to-adam-and-eve/10692"
 date: "2020-05-12T19:01:11"
 description: Does genetics challenge a single-couple origin to humanity? William Lane Craig explains how we found that this challenge was an illusion.
-
 headerimage:
   src: /img/2020/05/wcl-ps.jpg
   youtube: SBbb0vj2FmA
-  credit: This article is a footnoted transcript of Dr. Craig's Defenders class on May 10, 2020.
+  credit: This article is a footnoted transcript of Dr. Craig's Defenders class earlier this month.
 title: What Became of the Genetic Challenge to Adam and Eve?
+doi: 10.5281/zenodo.5651091
+pdf: /pdf/articles/wlc-genetic-challenge.pdf
 ---
 
 Does population genetics challenge a single-couple origin to humanity? In early 2017, Dr. Richard Buggs raised scientific concerns about Dennis Venema's book, *[Adam and the Genome](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61)*. His concerns were distinct and addition to [concerns that Dr. Swamidass raised that year too](https://peacefulscience.org/genealogical-rapprochement/). In late 2017, Dr. Venema responded at BioLogos, and a conversation grew. [Together, several scientists did indeed find several fundamental mistakes](http://peacefulscience.org/three-stories-on-adam/) with Dr. Venema's argument against a single couple origin of humanity. Eventually, in 2020, [even BioLogos began backing away from Venema's scientific claims](https://discourse.peacefulscience.org/t/deleted-does-genetics-point-to-a-single-primal-couple/9283). In this article, Craig summarizes for a lay audience the science behind this shift. For technical readers, [the forum thread for this article](https://discourse.peacefulscience.org/t/what-became-of-the-genetic-challenge-to-adam-and-eve/10692) expounds and clarifies his summary with greater precision.
