@@ -1,6 +1,6 @@
 {{- $.Scratch.Set "Description" ( (.Description | markdownify |  plainify  ) | default .Params.subtitle | default .Summary | default .Kind ) -}}
 
-{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify  | htmlUnescape  ) -}}
+{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify | plainify | htmlUnescape  ) -}}
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -18,12 +18,14 @@
 <meta property="og:title" content="{{ . }}"/>
 <meta name="title" content="{{ .  }}"/>
 <meta name="twitter:title" content="{{ . }}">
-
+ <meta name="citation_title"  content="{{ . }}">
 {{- end -}}
+
 {{- with ($.Scratch.Get "Description") }}
 <meta name="description" content="{{ . }}"/>
 <meta property="og:description" content="{{ . }}"/>
 <meta name="twitter:description" content="{{ . }}"/>
+<meta name="dc.description" content="{{ . }}"/>
 {{- end }}
 
 <meta property="og:type" content={{- if eq .Kind "home" -}}"website"{{ else }}"article"{{ end }}/>
@@ -32,6 +34,22 @@
 <meta name="twitter:site" content="@peacefulscience">
 <meta name="twitter:creator" content="@swamidass">
 
+<meta name="dc.source" content="Peaceful Science"/>
+<meta name="prism.publicationName" content="Peaceful Science"/>
+<meta name="citation_journal_title" content="Peaceful Science"/>
+
+<meta name="citation_article_type" content="Article"/>
+
+        
+{{ with .Params.pdf }}
+    <meta name="citation_pdf_url" content="{{ . }}"/>
+{{ end }}    
+    
+{{ with .Date }}
+    <meta name="dc.date" content="{{ .Format "2006-01-02" }}"/>
+    <meta name="prism.publicationDate" content="{{ .Format "2006-01-02" }}"/>
+    <meta name="citation_online_date" content="{{ .Format "2006/01/02" }}"/>
+{{ end }}
 
 {{ with .Params.headerimage.src | default site.Params.logo -}}
 <meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
@@ -72,6 +90,14 @@
 {{ $style.Content | safeCSS }}
 </style>
 
+  <link
+    rel="canonical"
+    href="{{ with .Params.cannonical }}
+      {{ . }}
+    {{ else }}
+      {{ .Permalink }}
+    {{ end }}"
+  />
 
 {{ if not site.IsServer }}
 {{ with .Site.GoogleAnalytics }}

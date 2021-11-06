@@ -3,10 +3,10 @@ title: Articles
 cascade:
   rss: true
   jsonld:
-    "@type": AnalysisNewsArticle
+    "@type": Article
     headline: = title   
     description: = description
-    author: = authors     
+    author: = authors
     datePublished: = date
     dateModified: = lastmod
     image: = headerimage
@@ -14,4 +14,5 @@ cascade:
       "@type": WebPage
       "@id": = permalink
     publisher: = copy /jsonld/peacefulscience
+    sameas: = sameas
 --- 

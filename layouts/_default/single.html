@@ -1,13 +1,5 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}
-  <link
-    rel="canonical"
-    href="{{ with .Params.cannonical }}
-      {{ . }}
-    {{ else }}
-      {{ .Permalink }}
-    {{ end }}"
-  />
 {{ end }}
 
 {{ define "main" }}
