@@ -15,6 +15,8 @@ categories:
 - evolution
 - theology
 - science
+doi: 10.5281/zenodo.5655440
+pdf: /pdf/articles/may-scientists-care-adam-eve.pdf
 ---
 
 This letter responds to a [review]( https://www.science.org/doi/10.1126/science.abl8547) of _In Quest of the Historical Adam_  published in *Science*. 
