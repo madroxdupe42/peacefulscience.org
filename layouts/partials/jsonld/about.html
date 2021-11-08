@@ -1,0 +1,10 @@
+
+{{ $args := default nil }}
+{{ $out := (slice) }}
+
+{{ range .Page.Params.about }}
+  {{ $out = $out | append (. | absURL) }}
+{{ end }}
+
+{{ return $out }}
+

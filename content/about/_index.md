@@ -10,8 +10,10 @@ cascade:
     datePublished: = date
     dateModified: = lastmod
     image: = headerimage
+    publisher: = copy /jsonld/peacefulscience
+    sameas: = sameas
+    about: = about
     mainEntityOfPage: 
       "@type": WebPage
       "@id": = permalink
-    publisher: = copy /jsonld/peacefulscience
 ---

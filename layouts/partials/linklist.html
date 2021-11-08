@@ -1,0 +1,15 @@
+{{ if (in (.Scratch.Get "hide") "linklist" ) }}
+{{ else }}
+
+{{ with .Scratch.Get "Links" }}
+  <section class="references d-none d-print-block">
+    <h2>{{ if in  $.Content `id="references"` }}Links{{ else }}References{{ end }}</h2>
+
+    <ol type="a">
+    {{ range . }}
+      <li> <a href="{{ . }}" rel="nofollow" target="_blank">{{ . }}</a>
+    {{end}}
+    </ol>
+  </section>
+{{end}}
+{{ end}} 

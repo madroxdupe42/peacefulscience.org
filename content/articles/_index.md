@@ -6,13 +6,14 @@ cascade:
     "@type": Article
     headline: = title   
     description: = description
-    author: = authors
+    author: = authors     
     datePublished: = date
     dateModified: = lastmod
     image: = headerimage
+    publisher: = copy /jsonld/peacefulscience
+    sameas: = sameas
+    about: = about
     mainEntityOfPage: 
       "@type": WebPage
       "@id": = permalink
-    publisher: = copy /jsonld/peacefulscience
-    sameas: = sameas
---- 
+---

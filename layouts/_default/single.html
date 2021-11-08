@@ -28,16 +28,12 @@
 
 
   <div class="bg-white">
-    <div style="height: 40px; width: 100%"></div>
+    <div class="d-print-none" style="height: 40px; width: 100%"></div>
 
     <article class="article-grid py-5">
       <header class="article-header">
-        <div class="d-print-block d-none mb-5" id="pageHeader">
-          <img
-            width="40%"
-            src="{{ partial `imgcdn`  `/img/design/PS-logo-long-black.svg` }}"
-            alt="Peaceful Science"
-          />
+        <div class="d-print-block float-right d-none mb-5 font-special" id="pageHeader">
+          Peaceful Science
         </div>
 
         {{ with .PublishDate }}
@@ -78,7 +74,7 @@
           {{ .Params.page_title | default .Title | markdownify }}
         </h1>
 
-        <div class="article-description mb-3">
+        <div class="d-print-none  article-description mb-3">
           {{- .Description | markdownify -}}
         </div>
 
@@ -135,7 +131,7 @@
         </div>
       </header>
 
-      <main class="article-body pb-5" position="relative">
+      <main class="article-body pb-5" style="position:relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
             <aside class="series aside-xl-right bg-white">
@@ -168,7 +164,14 @@
           {{ end }}
         {{ end }}
 
-        {{ .Content }}
+        {{ $content := .Content }}
+        {{ range .Scratch.Get "postproc" }}
+          {{ $content = partial . $content }} 
+        {{ end }}
+        {{ $content }}
+        
+        
+        {{ partial "linklist" . }}
 
         {{ with .Params.fullurl }}
 

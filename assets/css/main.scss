@@ -176,6 +176,7 @@ h7,
 h8 {
   color: black;
   font-family: AlverataSb;
+  page-break-after: avoid;
 };
 
 .article-body {
@@ -1005,12 +1006,18 @@ li a.footnote-backref {
   grid-row: 2;
  
   & a {text-decoration: underline;}
+
   p, aside, figure {
+	display: block;
+	position: relative;
 	page-break-inside: avoid;
   }
 
   h2, h1, h3, h4 {
+	display: block;
+	position: relative;
 	page-break-inside: avoid;
+	page-break-after: avoid;
   }
 
   @include media-breakpoint-up(md) {
