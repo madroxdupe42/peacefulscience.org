@@ -122,3 +122,5 @@ Published here with permission, this is the transcript of a Defenders class by D
 [^13]:  Dennis Venema, "Adam --- Once More, with Feeling," (November 24, 2019), <https://www.patheos.com/blogs/jesuscreed/2019/11/04/adam-once-more-with-feeling/>. *N.B*. that this statement confuses necessary and sufficient conditions. Venema should say "only if it happened." Swamidass informs me that in fact the group did not conclude that such a bottleneck would be detectable if it occurred within the last 500,000 years. To say that a bottleneck prior to 500 kya is not detectable does not imply that a bottleneck less than 500 kya is detectable.
 
 [^14]:  Venema, "Adam --- Once More, With Feeling."
+
+{{< footnotes2refs >}}
