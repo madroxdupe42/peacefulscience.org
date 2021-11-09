@@ -11,23 +11,23 @@ main:
     weight: -108
   - name: About
     identifier: about
-    url: /articles/mission-and-values/
+    url: /about/
     weight: -100
   - name: Mission and Values
     parent: about
     weight: 10
-    url: /articles/mission-and-values/
+    url: /about/mission-and-values/
   - name: Submission Guide
     parent: about
     weight: 9
-    url: /articles/authors-guide-and-call-for-submissions/
-  - name: Error Correction Policy
+    url: /about/authors-guide/
+  - name: Editorial Policy
     weight: 8
     parent: about
-    url: /articles/correction-policy/
+    url: /about/editorial/
   - name: Contact Us
     weight: 7
     parent: about
-    url: /contact/
+    url: /about/contact/
 
 

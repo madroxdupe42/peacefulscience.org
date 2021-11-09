@@ -39,13 +39,11 @@ markup:
       attribute:
         block: true
         title: true
-
-
-
+        
 cache:
   getjson:
     dir: :cacheDir/:project
-    maxAge: 7.5hr
+    maxAge: 1m
 
 mediaTypes:
   text/prs.netlify:
@@ -68,13 +66,14 @@ outputs:
   home: ["HTML", "RSS", "redir"]
 
 params:
-  baseGitHub: "https://github.com/PeacefulScience/hugo-website/"
+  baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"
   sitemap_min_date: "2021-09-10"
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
   headerType: none
   imagecdn: 8l2ic7fx.cdn.imgeng.in
+  logo: /img/design/logo-black-square.png
 
 paginate: 12
 

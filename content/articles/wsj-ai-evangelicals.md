@@ -4,11 +4,12 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - artificial-intelligence
 commenturl: "http://discourse.peacefulscience.org/t/evangelicals-take-on-artificial-intelligence/7898"
 date: "2019-09-21T18:53:50"
 description: Can a computer house a mind? How would we construct a computational mind? How would they know if they succeeded? These questions welcome all of us.
-feature: true
+
 headerimage:
   src: /img/2019/09/wsj-ai-swamidass.png
 title: Evangelicals Take on Artificial Intelligence

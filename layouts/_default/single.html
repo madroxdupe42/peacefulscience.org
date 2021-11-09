@@ -1,219 +1,306 @@
-
-
 {{ define "head" }}
-{{ partial "jsonld" . }} 
-<link rel="canonical" href="{{ with .Params.cannonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" /> 
+  {{ partial "jsonld" . }}
 {{ end }}
-
-
 
 {{ define "main" }}
-{{ $PAGES := partialCached "byviews" . }}
 
-{{ with .Description  }}
-  {{ if in . "..." }}
-    {{ warnf "DESC.ELLIPSE\t%s" $.Path }}
-  {{ end }}
-{{ end }}
+  {{ $PAGES := partialCached "byviews" . }}
 
-{{ with .Content  }}
-  {{ if in . "::" }}
-    {{ warnf "CONTENT.COLONS\tcontent/%s" $.Path }}
-  {{ end }}
-{{ end }}
-
-
-{{ with .Content  }}
-  {{ if or ( in . "^") ( in (replace .  "style>*" "style>ASTERIX" ) "*") }}
-   {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.Path }} 
-  {{ end }}
-{{ end }}
-
-
-{{ $headerpos :=  .Params.headerImage.Position | default "main" }}
-
-<div class="bg-white">
-
-
-<div style="height: 40px; width: 100%"></div> 
-
-
-<article class="article-grid">
-
-
-
-
-<header class="article-header" >
-
-<div class="d-print-block d-none mb-5" id="pageHeader"><img  width="40%" src="{{ partial `imgcdn`  `/img/design/PS-logo-long-black.svg` }}" alt="Peaceful Science"></div>
-    
-    {{ with .Date }}
-    
-       <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}" rel=”nofollow” target="_blank">
-    <div class="article-date d-inline"> {{ .Format "January 2, 2006" }} </div>
-       {{ with $.Scratch.Get "Views" }}
-       
-       
-     {{ $lastmod := partial "lastmod" $ }}
-    {{ with $lastmod }}
-       {{ $day := div (sub  .Unix $.Date.Unix  ) 86400 }}
-       
-       {{ if and (gt $day 0)  (gt .Unix  (time "2021-09-01").Unix ) }}
-       <div class="text-smaller mr-3 d-inline" style="color: #bbb">&nbsp;&nbsp;&nbsp;(updated {{.Format "January 2, 2006"   }})</div>
-       
-       {{ end }}
-    {{ end  }}
-    </a>
-       
-    <div class="view-count d-inline d-print-none float-right text-right"> {{ lang.FormatNumber 0 . }}</div>
+  {{ with .Description }}
+    {{ if in . "..." }}
+      {{ warnf "DESC.ELLIPSE\t%s" $.Path }}
     {{ end }}
+  {{ end }}
+
+  {{ with .Content }}
+    {{ if in . "::" }}
+      {{ warnf "CONTENT.COLONS\tcontent/%s" $.Path }}
     {{ end }}
+  {{ end }}
 
-    <h1 id="title" class="article-title mt-2">{{ .Params.page_title | default .Title | markdownify }}</h1>
+  {{ with .Content }}
+    {{ if or ( in . "^") ( in (replace .  "style>*" "style>ASTERIX" ) "*") }}
+      {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.Path }}
+    {{ end }}
+  {{ end }}
 
-    <div class="article-description mb-3">{{- .Description | markdownify -}} </div>
-    
-        
-    <div class="mb-2 pr-1 ">  
-      {{ partial "authors" (dict "authors" .Params.authors)  }}
-    </div>
-        
-    
-     {{- if eq "main" $headerpos -}}   
-        <div class="pb-2">
-        {{- with .Params.headerImage }}
-          
-          {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path )  -}}
+  {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
-          {{- with .youtube }}
-             {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
-          {{- else -}}
-            <img src="{{ $src  | partial `imgcdn`   }}?imgeng=/w_auto,1200/" class="webfeedsFeaturedVisual"  style="width: 100%; height: auto" 
-               {{-  with (index site.Data.imgsize $src)  }} width="600" height="{{  div (mul .height 600) .width }}" {{ end -}} 
-            >     
-          {{- end -}}
 
-        {{- end -}}      
-      {{- with .Params.headerImage.Credit }}
-          <div class="text-muted text-smaller w-100 text-right" >{{ $.RenderString .  }}</div>
-      {{- end }}
+  <div class="bg-white">
+    <div class="d-print-none" style="height: 40px; width: 100%"></div>
+
+    <article class="article-grid py-5">
+      <header class="article-header">
+        <div class="d-print-block float-right d-none mb-5 font-special" id="pageHeader">
+          Peaceful Science
         </div>
-     {{- end -}}
 
-    <div class="mb-5">
-        {{ with .Params.doi }}
+        {{ with .PublishDate }}
 
-    {{ partial "doi" . }}
-    {{ end }}
-    {{- range .Params.categories }}
-      {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
-        <a class="tag-link" href="{{ .Permalink }}"> {{ .Title }} </a>
-      {{- end }}
-    {{- end }}
-    
+          <a
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            rel="”nofollow”"
+            target="_blank"
+            class="font-special py-1 text-decoration-none text-muted d-inline"
+          >
+       
+              {{ .Format "January 2, 2006" }}
+              
+              {{ $lastmod := partial "lastmod" $ }}
+              {{ $day := div (sub  $lastmod.Unix $.Date.Unix  ) 86400 }}
 
-    </div>
-</header>
+              {{ if (gt  2 $day) }}
+               <i class="fa fa-history pl-3" style="color: #ccc" ></i>
+              {{ end }}
 
- <main class="article-body" position="relative">
-      
-      {{ with  .Params.series }}
-       {{ with site.GetPage ( printf "/series/%s" . ) }}
-         <aside class="series aside-xl-right bg-white">
-         <p> <a class="font-special text-dark bg-grey" href="{{.Permalink}}">{{ .Title | markdownify }} </a>
-         <ol class="text-smaller">
-         {{- range  .Data.Pages.ByDate }}
-          <li> 
-            {{ if not (eq $ .) }} <a class="text-muted font-special" href="{{ .Permalink }}"> {{ .Title  | markdownify  }} </a> 
-            {{else}} <span class="text-dark font-special">{{ .Title | markdownify  }}</span> {{ end }}
-          </li>
-         {{ end }}
-         </ol></aside>
+
+          </a>
+          
+
+          
+          
+          {{ with $.Scratch.Get "Views" }}
+            <div
+              class="view-count d-inline d-print-none float-right text-right"
+            >
+              {{ lang.FormatNumber 0 . }}
+            </div>
+          {{ end }}
         {{ end }}
-      {{ end }}
-      
-      {{ .Content }}
-</main>
-
- <!--  
-<div class="right-sidebar pb-5 pr-5" style="position: relative">
-   {{ partial "mailinglist" (dict "EmailClass" "text-dark pl-3" "ButtonClass"  "text-muted" )  }} 
 
 
-    <div class="d-none d-md-block w-100" style="position: absolute; top:calc(100% - 1000px); height: min(1000px, 100%); background-image: linear-gradient(#fff0,#fffd,#ffff); pointer-events: none"></div>
-</div>
--->
+        <h1 id="title" class="article-title mt-2">
+          {{ .Params.page_title | default .Title | markdownify }}
+        </h1>
+
+        <div class="d-print-none  article-description mb-3">
+          {{- .Description | markdownify -}}
+        </div>
+
+        <div class="mb-2 pr-1">
+          {{ partial "authors" (dict "page" . "class" "text-decoration-none") }}
+        </div>
+
+        {{- if eq "main" $headerpos -}}
+          <div class="pb-2">
+            {{- with .Params.headerImage }}
+
+              {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
+
+              {{- with .youtube }}
+                {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
+              {{- else -}}
+                <img
+                  src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,1200/"
+                  class="webfeedsFeaturedVisual"
+                  style="width: 100%; height: auto"
+                  {{- with (index site.Data.imgsize $src) }}
+                    width="600" height="{{ div (mul .height 600) .width }}"
+                  {{ end -}}
+                />
+              {{- end -}}
+
+            {{- end -}}
+            {{- with .Params.headerImage.Credit }}
+              <div class="text-muted text-smaller w-100 text-right">
+                {{ $.RenderString . }}
+              </div>
+            {{- end }}
+          </div>
+        {{- end -}}
 
 
+        <div class="mb-5">
+          {{ with .Params.doi }}
+            {{ $doi := . }}
+            {{ with $.Params.pdf }}
+               {{ partial "doiurl" (slice $doi . ) }}
+            {{ else }}          
+              {{ partial "doi" $doi }}
+            {{ end }}
+          {{ end }}
+          {{- range .Params.categories }}
+            {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+              {{- if not (.Params.hidden | default false ) -}} 
+                <a class="tag-link d-print-none" href="{{ .Permalink }}"> {{ .Title }} </a>
+              {{ end }}
+            {{- end }}
+          {{- end }}
 
-<div class="left-sidebar" style="height: 100%; position: relative; isolation: isolate; z-index: 4;">
+        </div>
+      </header>
 
-   <div class="d-none d-md-block  hover-front position-sticky" style="top: 60px; width: 100%; background: white">
-      
-	<nav class="toc navbar pr-0 pt-5" style="overflow-y: auto;  max-height: calc(100vh - 55px) " > 
+      <main class="article-body pb-5" style="position:relative">
+        {{ with  .Params.series }}
+          {{ with site.GetPage ( printf "/series/%s" . ) }}
+            <aside class="series aside-xl-right bg-white">
+              <p>
+                <a
+                  class="font-special text-dark bg-grey"
+                  href="{{ .Permalink }}"
+                  >{{ .Title | markdownify }}
+                </a>
+              </p>
+              <ol class="text-smaller">
+                {{- range  .Data.Pages.ByDate }}
+                  <li>
+                    {{ if not (eq $ .) }}
+                      <a
+                        class="text-muted font-special"
+                        href="{{ .Permalink }}"
+                      >
+                        {{ .Title  | markdownify }}
+                      </a>
+                    {{ else }}
+                      <span class="text-dark font-special"
+                        >{{ .Title | markdownify }}</span
+                      >
+                    {{ end }}
+                  </li>
+                {{ end }}
+              </ol>
+            </aside>
+          {{ end }}
+        {{ end }}
+
+        {{ $content := .Content }}
+        {{ range .Scratch.Get "postproc" }}
+          {{ $content = partial . (dict "Content" $content "Page" $) }} 
+        {{ end }}
+        {{ $content }}
+        
+        
+        {{ partial "linklist" . }}
+
+        {{ with .Params.fullurl }}
+
+          <a
+            class="my-5 btn btn-primary external-link text-decoration-none"
+            target="_blank"
+            href="{{ . }}"
+          >
+            Read Full Article
+          </a>
+        {{ end }}
+      </main>
+
+      <div
+        class="left-sidebar"
+        style="height: 100%; position: relative; isolation: isolate; z-index: 4;"
+      >
+        <div
+          class="d-none d-md-block hover-front position-sticky"
+          style="top: 60px; width: 100%; background: white"
+        >
+          <nav
+            class="toc navbar pr-0 pt-5"
+            style="overflow-y: auto;  max-height: calc(100vh - 55px) "
+          >
             {{ .Page.TableOfContents | replaceRE "<li>" "<li class='nav-item'>"  | replaceRE "<ul>" "<ul class='nav'>"  | replaceRE  "<nav .*?>"  ""  | replaceRE  "</nav>"  ""| replaceRE "<a " "<a class='nav-link' "   | safeHTML }}
-            <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-				<path stroke="#080" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
-			</svg>
-	</nav>	 
-	
-	{{ .Scratch.Add "js" (slice "/js/navprogress.js") }}
-	 
-    </div>
-    <div class="d-none d-md-block" style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"></div>
-</div>
+            <svg
+              class="toc-marker"
+              width="200"
+              height="200"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke="#080"
+                stroke-width="3"
+                fill="transparent"
+                stroke-dasharray="0, 0, 0, 1000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                transform="translate(-0.5, -0.5)"
+              />
+            </svg>
+          </nav>
 
+          {{ .Scratch.Add "js" (slice "/js/navprogress.js") }}
 
+        </div>
+        <div
+          class="d-none d-md-block"
+          style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"
+        ></div>
+      </div>
+    </article>
 
-</article>
+    {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
+      <aside
+        class="mt-5 py-5 comment-block d-print-none bg-white"
+        style="z-index:4"
+      >
+        <div class="container">
+          <div class="row justify-content-center py-3 my-3 text-larger">
+            <div class="col-lg-4 text-center text-lg-right">
+              {{ $src := `/img/design/wood-chair-transparent.png` }}
+              <img
+                src="{{ partial `imgcdn` $src }}"
+                height="240"
+                loading="lazy"
+                {{- with (index site.Data.imgsize $src) }}
+                  width="{{ div (mul .width 240) .height }}"
+                {{ end -}}
+              />
+            </div>
+            <div class="col-lg-8 py-3 text-center text-lg-left">
+              <h3>Join the conversation...</h3>
 
-{{ if not (in  .Params.design.hide "joinconversation" ) }}
+              <p>
+                Come to understand and to be understood. <br />
+                Whatever your personal beliefs, we saved a chair for you.
+              </p>
 
-<aside class="mt-5 py-5 comment-block d-print-none bg-white" style="z-index:4">
-<div class="container" >
-  <div class="row justify-content-center py-3 my-3 text-larger">
-    <div class="col-lg-4 text-center text-lg-right">
-    
-          {{  $src := `/img/design/wood-chair-transparent.png`  }}
-    <img src='{{ partial `imgcdn` $src }}' height="240" loading="lazy"
-            {{-  with (index site.Data.imgsize $src)  }} width="{{  div (mul .width 240) .height }}"{{ end -}}
-          >   
-          
-          
-	</div>
-    <div class="col-lg-8 py-3 text-center text-lg-left">
-    <h3>Join the conversation...</h3>
-    
-    <p> Come to understand and to be understood. <br> 
-    Whatever your personal beliefs, we saved a chair for you. 
-    <p>
-      {{ with .Params.commenturl -}}
-      <a href="{{ . | safeURL }}" target="_blank" class="font-special my-3 btn btn-primary btn-md">Discuss on Forum</a> {{ end }}
-      <a href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .Path | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Suggest Changes</a>
-      <a href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .Path  | safeURL }}" rel=”nofollow” target="_blank" class="font-special my-3 btn btn-primary btn-md">Revision History</a>
-    </div>
+              <p>
+                {{ with .Params.commenturl -}}
+                  <a
+                    href="{{ . | safeURL }}"
+                    rel="ugc"
+                    target="_blank"
+                    class="font-special my-3 btn btn-primary btn-md"
+                    >Discuss on Forum</a
+                  >
+                {{ end }}
+                <a
+                  href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .Path | safeURL }}"
+                  rel="”nofollow”"
+                  target="_blank"
+                  class="font-special my-3 btn btn-primary btn-md"
+                  >Suggest Changes</a
+                >
+                <a
+                  href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .Path  | safeURL }}"
+                  rel="”nofollow”"
+                  target="_blank"
+                  class="font-special my-3 btn btn-primary btn-md"
+                  >Revision History</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    {{ end }}
+
+    {{ with .Site.RegularPages.Related . }}
+      <aside
+        class="d-print-none"
+        style="background-color: white; min-height:1000"
+      >
+        <div class="container pt-5">
+          <div class="row justify-content-center pb-5 text-larger">
+            <div class="pt-3 col-12 text-center">
+              <h1 class="mb-5">Related articles...</h1>
+            </div>
+            {{ range ( . | first 3  ) }}
+              {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
+            {{ end }}
+
+          </div>
+        </div>
+      </aside>
+    {{ end }}
   </div>
-</div>
-</aside>
-{{ end }}
-
-
-{{ with .Site.RegularPages.Related .  }}
-<aside class="d-print-none" style="background-color: white; min-height:1000">
-<div class="container pt-5" >
-  <div class="row justify-content-center pb-5 text-larger">
-  
-      <div class="pt-3 col-12 text-center">
-      <h1 class="mb-5"> Related articles...</h1>
-      </div >
-	  {{ range ( . | first 3  ) }}
-        {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
-	  {{ end }}
-
-  </div>
-</div>
-</aside>
-{{ end }}
-</div>
 {{- end }}

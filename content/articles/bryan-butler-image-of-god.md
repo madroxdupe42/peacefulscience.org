@@ -16,7 +16,7 @@ title: "Bryan Butler: More Than The Image of God"
 ---
 
 Bryan Butler is a visual artist and founder of *[Bryan Butler Art](https://www.bryanbutlerart.com/)*, based in Chicago, Illinois. Bryan specializes in illustration, fine arts, and graphic design. He was previously an in-house graphic designer at GModelo USA, LLC and currently serves as an in-house designer for The Moody Church in Chicago. He recently collaborated with *The Center for Pastor Theologians* (CPT) on a series of articles titled '*[More Than Imago Dei: Theological Explorations on Race](https://www.pastortheologians.com/theme/sept2020/more-than-imago-dei)*.'
-
+{.editor-note}
 
 <div class="article-question">
 
@@ -35,7 +35,7 @@ I worked on various creative projects for the company until they were eventually
 
 ### What phrases represent your art? 
 
-I explored your artwork on your [website](http://www.bryanbutlerart.com/). I noticed that between each of your art series were these four slogans: "Create with Purpose", "Have Fun", "Bring Joy", and "Created with Purpose". In what ways do these phrases represent you and your art?
+I explored your artwork on your [website](http://www.bryanbutlerart.com/). I noticed that between each of your art series were these three slogans: "Create with Purpose", "Have Fun", and "Bring Joy". In what ways do these phrases represent you and your art?
 
 </div>
 

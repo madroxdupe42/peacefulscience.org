@@ -4,12 +4,13 @@ aliases:
 authors:
 - dga
 categories:
+- featured
 - confession
 - resurrection
 commenturl: "http://discourse.peacefulscience.org/t/daniel-ang-a-scientist-looks-at-the-resurrection/4554"
 date: "2019-02-15T15:00:26"
 description: A physicist confesses that the electron is round and that Jesus rose from the dead. My own faith is informed by the evidence, but it is much more.
-feature: true
+
 headerimage:
   src: /img/2019/02/ang.jpg
 title: "A Scientist Looks at the Resurrection"
@@ -21,7 +22,7 @@ It is my pleasure to present this confession from Daniel Ang, a doctoral student
 
 </div>
 
-As a scientist, my daily work consists of encountering God through the empirical investigation of his creation. I [work](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [on](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [an](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) [experiment](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) in which lasers are used to detect tiny shifts in the energy structure of a specially chosen molecule, from which we can measure the shape of an electron orbiting the molecule. Whether the electron is perfectly round or not [may](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [hold](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [the](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) [secret](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) to understanding how all the matter in the universe is put together.
+As a scientist, my daily work consists of encountering God through the empirical investigation of his creation. I [work on an experiment](https://www.danielang.net/2018/10/17/introducing-the-acme-edm-experiment-2/) in which lasers are used to detect tiny shifts in the energy structure of a specially chosen molecule, from which we can measure the shape of an electron orbiting the molecule. Whether the electron is perfectly round or not [may hold the secret](http://sitn.hms.harvard.edu/flash/2018/frustrating-search-new-physics/) to understanding how all the matter in the universe is put together.
 
 Because of how small any imperfection in the electron's shape is predicted to be, we must perform our measurement extremely carefully. We comb our experimental apparatus for even the tiniest imperfections, as even the smallest flaw might fool us into thinking the electron to be round when it is not, or vice versa. No stone is left unturned and no hypothesis is left unquestioned as we seek to understand every single way in which the experiment can go wrong. Such is the standard operating procedure in this quirky, ambitious, neurotic sub-field of physics called precision measurement.
 

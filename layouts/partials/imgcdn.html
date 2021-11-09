@@ -1,7 +1,10 @@
 {{ $out :=  printf "https://%s/%s"  site.Params.imagecdn . }}
+{{ $file := printf "static/%s"  . }}
 
 {{ if site.IsServer }}
-   {{ $out = . | absURL }}
+  {{ if fileExists $file }}
+    {{ $out = . | absURL }}
+  {{ end }}
 {{ end }}
 
 {{ return $out }} 

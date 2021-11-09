@@ -1,0 +1,31 @@
+{{ $out := (slice) }}
+
+{{ with .Page.Params.orcid }}
+  {{ $out = $out | append (printf "https://orcid.org/%s" .) }} 
+{{ end }}
+
+{{ with .Page.Params.twitter }}
+  {{ $out = $out | append (printf "https://twitter.com/%s" .) }} 
+{{ end }}
+
+{{ with .Page.Params.gscholar }}
+  {{ $out = $out | append (printf "https://scholar.google.com/citations?user=%s&hl=en" .) }} 
+{{ end }}
+
+{{ with .Page.Params.doi }}
+  {{ $out = $out | append (printf "https://doi.org/%s" .) }} 
+{{ end }}
+
+{{ with .Page.Params.pdf }}
+  {{ $out = $out | append ( . | absURL )  }} 
+{{ end }}
+
+{{ with .Page.Params.cannonical }}
+  {{ $out = $out | append .  }} 
+{{ end }}
+
+{{ range .Page.Params.sameas }}
+  {{ $out = $out | append . }} 
+{{ end }}
+
+{{ return $out }}

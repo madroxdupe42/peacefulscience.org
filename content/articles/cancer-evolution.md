@@ -4,12 +4,13 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - evolution
 - science
 commenturl: "http://discourse.peacefulscience.org/t/cancer-and-evolution/298"
 date: "2018-05-31T19:11:13"
 description: Evolutionary theory makes sense of cancer, giving us critical insight into how it works. Going the other direction, cancer makes sense of evolution too.
-feature: true
+
 headerimage:
   src: /img/2018/05/cancer-cell.png
 title: Cancer and Evolution

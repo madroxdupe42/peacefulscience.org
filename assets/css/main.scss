@@ -1,4 +1,4 @@
-@import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
+@import "https://use.fontawesome.com/releases/v5.11.0/css/all.css";
 
 $enable-negative-margins: true;
 $primary: #006600;
@@ -47,6 +47,7 @@ a.doi-badge {
   span { font-size: 11px; }
   &:focus-visible { outline: none; }
 }
+
 
 
 #search-box > div {
@@ -161,7 +162,6 @@ input[type=checkbox]:checked:after {
   transform: scale(2.0);
 }
 .article-description {
-  font-size: larger;
   @extend .text-muted;
 }
 
@@ -176,18 +176,21 @@ h7,
 h8 {
   color: black;
   font-family: AlverataSb;
+  page-break-after: avoid;
 };
 
-article {
+.article-body {
 
 
-  &> h2,
-  &> h3,
-  &> h4,
-  &> h5,
-  &> h6,
-  &> h7,
-  &> h8 {
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6,
+  & h7,
+  & h8 {
+	
+	
     margin-left: -0.5rem;
 
     @include media-breakpoint-up(xl) {
@@ -195,6 +198,13 @@ article {
       width: 137%;
       margin: $spacer -37% $spacer -1rem;
     }
+
+    @media print {
+      margin-left: -1rem;
+      width: 137%;
+      margin: $spacer -37% $spacer -1rem;
+    }
+
   };
 }
 
@@ -565,13 +575,6 @@ article p:last-child {
   @extend .py-1;
 }
 
-.article-date {
-  @extend .py-1;
-  @extend .text-muted;
-  font-family: AlverataSb;
-}
-
-
 article > p:not(.editor-note):first-of-type::first-letter,
 .dropcap::first-letter {
   @extend .font-special;
@@ -833,10 +836,11 @@ svg:not(:root) {
   scroll-margin-top: 100px;
 }
 
-.footnote-ref,
-.footnote-backref {
+sup a.footnote-ref,
+li a.footnote-backref {
 
   color: white;
+  text-decoration: none;
 
   padding: 2px;
 
@@ -844,23 +848,42 @@ svg:not(:root) {
     color: white;
     text-decoration: none;
   }
+
+  @media print {
+    color: black;
+    padding: inherit;
+    &:hover {
+      color: black;
+    }
+  }
+  
+ 
 }
 
 .footnote-ref {
-  background: #080;
-  border-radius: 2px;
-  vertical-align: baseline;
-  position: relative;
+  background: #080;	
+  @media print {
+    background: none;
+    padding: inherit;
+  }
+
+  border-radius: 0.5em;
+  
 }
 
 .footnote-backref {
   background: #080;
-  border-radius: 3px;
+  border-radius: 50%;
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 800;
   font-size: smaller;
   white-space: nowrap;
+
+
+  @media print {
+    display: none;
+  }
 }
 
 .make-me-sticky {
@@ -982,12 +1005,19 @@ svg:not(:root) {
   grid-column: 1;
   grid-row: 2;
  
+  & a {text-decoration: underline;}
+
   p, aside, figure {
+	display: block;
+	position: relative;
 	page-break-inside: avoid;
   }
 
   h2, h1, h3, h4 {
+	display: block;
+	position: relative;
 	page-break-inside: avoid;
+	page-break-after: avoid;
   }
 
   @include media-breakpoint-up(md) {
@@ -996,17 +1026,17 @@ svg:not(:root) {
 
   @media print {
     width: 60%;
-	a[href^=http]:after {
-		content: '<' attr(href) '>';
-	    margin-right: $spacer;
-	    white-space: pre-wrap; 
-	   overflow-wrap: break-all;
-	}
+
+//	a[href^=http]:after {
+//		content: '<' attr(href) '>';
+//	    margin-right: $spacer;
+//	    white-space: pre-wrap; 
+//	   overflow-wrap: break-all;
+//	}
   }
 
 
 }
-
 
 
 
@@ -1163,3 +1193,62 @@ footer {
   padding: 50px;
   z-index: 1;
 }
+
+
+
+@media print {
+	body {background:  white !important;}
+	[id=doi] {display: none}
+}
+
+
+
+.modal-container.active,
+.modal-container:target {
+  visibility: visible;
+  opacity: 1;
+  animation: revert;
+
+  .cssmodal {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-container {
+	z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10001;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+
+  .cssmodal {
+    opacity: 0;
+    transform: translateY(-3rem);
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+  }
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {background: black}

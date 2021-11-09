@@ -1,18 +1,6 @@
 {{- $.Scratch.Set "Description" ( (.Description | markdownify |  plainify  ) | default .Params.subtitle | default .Summary | default .Kind ) -}}
 
-{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify  | htmlUnescape  ) -}}
-
-
-{{ if not site.IsServer }}
-{{ with .Site.GoogleAnalytics }}
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KDF8R85');
-</script>
-{{ end  }}
-{{ end }}
+{{- $.Scratch.Set "Title" ( .Title | default .Site.Title | markdownify | plainify | htmlUnescape  ) -}}
 
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -30,12 +18,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:title" content="{{ . }}"/>
 <meta name="title" content="{{ .  }}"/>
 <meta name="twitter:title" content="{{ . }}">
-
+ <meta name="citation_title"  content="{{ . }}">
 {{- end -}}
+
 {{- with ($.Scratch.Get "Description") }}
 <meta name="description" content="{{ . }}"/>
 <meta property="og:description" content="{{ . }}"/>
 <meta name="twitter:description" content="{{ . }}"/>
+<meta name="dc.description" content="{{ . }}"/>
 {{- end }}
 
 <meta property="og:type" content={{- if eq .Kind "home" -}}"website"{{ else }}"article"{{ end }}/>
@@ -44,10 +34,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:site" content="@peacefulscience">
 <meta name="twitter:creator" content="@swamidass">
 
-{{ with .Params.headerimage.src -}}
-<meta property="og:image" content="{{- . | absURL -}}"/>
+<meta name="dc.source" content="Peaceful Science"/>
+<meta name="prism.publicationName" content="Peaceful Science"/>
+<meta name="citation_journal_title" content="Peaceful Science"/>
+
+<meta name="citation_article_type" content="Article"/>
+
+        
+{{ with .Params.pdf }}
+    <meta name="citation_pdf_url" content="{{ . }}"/>
+{{ end }}    
+    
+{{ with .Date }}
+    <meta name="dc.date" content="{{ .Format "2006-01-02" }}"/>
+    <meta name="prism.publicationDate" content="{{ .Format "2006-01-02" }}"/>
+    <meta name="citation_online_date" content="{{ .Format "2006/01/02" }}"/>
+{{ end }}
+
+{{ with .Params.headerimage.src | default site.Params.logo -}}
+<meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{-  . | absURL -}}">
+<meta name="twitter:image" content="{{-  . | partial `imgcdn` -}}">
 {{- end }}
 
 
@@ -70,21 +77,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {{ end }}
     
 
+
+<link rel="preconnect" href="https://{{ site.Params.imagecdn }}">
+
 <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
-<link rel="preload" href="/font/alveratasb-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-
-
 
 <style>
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
 {{ $style.Content | safeCSS }}
-{{ $style := resources.Get "css/critical.scss" | resources.ToCSS | resources.PostCSS  }}
-{{ $style.Content | safeCSS }}
 </style>
 
+  <link
+    rel="canonical"
+    href="{{ with .Params.cannonical }}
+      {{ . }}
+    {{ else }}
+      {{ .Permalink }}
+    {{ end }}"
+  />
 
-
-<link rel="preconnect" href="{{ site.Params.imagecdn | absURL }}">
+{{ if not site.IsServer }}
+{{ with .Site.GoogleAnalytics }}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDF8R85');
+</script>
+{{ end  }}
+{{ end }}

@@ -1,18 +1,5 @@
 {{- $doi := replaceRE "https://doi.org/" "" . -}}
+{{- $doi = replaceRE "http://doi.org/" "" $doi -}}
 {{- $url := printf "https://doi.org/%s" $doi -}}
 
-
-<style>
-a.doi-badge {
- text-decoration: none;
- font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
- text-shadow: 0px 1px #01010145;
- text-color: white;
- font-size: 11px;
- white-space: nowrap;
-}
-</style>
-<a href="{{ $url }}" class="doi-badge d-line" target="_blank"><span class="d-inline ">
-<span class="rounded-left text-white" style="background: #000a; padding: 4.5px 0px 4.5px 4.5px ; height: 20px">DOI </span>
-<span class="rounded-right text-white" style="background: #272; padding: 4.5px; height: 20px">{{- $doi -}}</span>
-</a>
+{{ partial "doiurl" (slice $doi $url) }}

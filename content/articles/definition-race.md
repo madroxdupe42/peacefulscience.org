@@ -4,12 +4,13 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - ancestry
 - race
 commenturl: "http://discourse.peacefulscience.org/t/the-biological-meaning-of-race/10960"
 date: "2020-06-18T15:56:36"
 description: We've understood differences to be rooted in our essential nature, but maybe they are not. So, maybe some of the ways the world is can be changed.
-feature: true
+
 headerimage:
   src: /img/2020/06/dictionary_definition.jpg
 title: The Biological Meaning of Race

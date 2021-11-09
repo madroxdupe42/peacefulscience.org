@@ -4,6 +4,7 @@ aliases:
 authors:
 - david-rygiol
 categories:
+- featured
 - ancestry
 - art
 - race
@@ -11,7 +12,7 @@ categories:
 commenturl: "http://discourse.peacefulscience.org/t/art-ancestry-humans-rendered-apart/10976"
 date: "2020-06-21T17:41:36"
 description: Whatever our skin color, country of origin, ethnicity, or culture, we are all one family, one blood, one race, the human race. What has rendered us apart?
-feature: true
+
 headerimage:
   src: /img/2020/06/PS-Art-DR-Human-01-scaled.jpg
 title: "Art & Ancestry: Humans Rendered Apart"

@@ -28,7 +28,13 @@ cascade:
   rss: false
   jsonld:
     "@type": WebPage
-    name: = title
+    "@id": permalink
     description: = description
-    publisher: = copy /jsonld/peacefulscience 
+    author: = authors     
+    datePublished: = date
+    dateModified: = lastmod
+    image: = headerimage
+    publisher: = copy /jsonld/peacefulscience
+    sameas: = sameas
+    about: = about
 ---

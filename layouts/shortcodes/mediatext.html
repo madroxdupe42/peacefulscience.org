@@ -6,20 +6,20 @@
 
 {{- $src = partial "imgurl"  (dict "src" $src "loc" .Page.File )   -}}
 
-{{- with $src  -}}   
-  {{- $args := querify "w" 696 "nf_resize" "fit" -}}
-  {{- $src = printf "%s?%s" ( . | absURL ) $args  -}}
-{{- end  -}}
 
+<figure class="{{ $class }}">
 
-
-<aside class="{{ $class }}">
-<img 
-  src="{{- $src -}}"
-  class="w-100 d-block"
+<img
+  src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,800/"
+  style="width: 100%; height: auto"
+  loading="lazy"
+  {{- with (index site.Data.imgsize $src) }}
+    width="600" height="{{ div (mul .height 600) .width }}"
+  {{ end -}}
 />
 
-  <div class="text-smaller text-muted p-2">
-{{ .Get 1 | markdownify }}
-</aside>
+<figcaption class="text-smaller text-muted p-2">
+{{ .Get 1 | .Page.Render }}
+</figcaption>
+</figure>
 

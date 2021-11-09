@@ -1,0 +1,38 @@
+---
+title: Contact Us
+design:
+  hide:
+  - joinconversation
+aliases:
+- /contact/
+jsonld:
+    "@type": WebPage
+---
+
+
+<form name="contact" method="POST" data-netlify="true">
+
+  <div class="form-group mb-3">
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" class="form-control" placeholder="first name">
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="last-name" class="form-control" placeholder="last name">
+  </div>
+  <div class="form-group mb-3">
+    <label for="email">Email:</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="email">
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="message">Message:</label>
+    <textarea name="message" class="form-control" id="message" placeholder="write message here..." rows="10" style="height:auto" ></textarea>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary font-special">Submit</button>
+  </div>
+
+</form>

@@ -123,7 +123,7 @@ How do we decide in the meantime? Let's keep working at this with our eyes focus
 
 [^iv]: I don't want to fill this short paper with too many endnotes, and so I'm simply stating what Position Two concludes, but I can assure the reader that this is the majority consensus of the discussions I've had with scientists who are Christians (and of course research) over the past two decades.
 
-[^v]: Lewis, *[Problem of Pain](https://amzn.to/2Hpht20)* [](https://amzn.to/2Hpht20) (New York: MacMillan, 1962), 77.
+[^v]: Lewis, *[Problem of Pain](https://amzn.to/2Hpht20)*  (New York: MacMillan, 1962), 77.
 
 [^vi]: By the way, the preferred term is now "hominin," not "hominid." *Hominid* is the group consisting of all modern and extinct great apes, that is, modern humans, chimpanzees, gorillas and orangutans plus all their immediate ancestors. *Hominin* represent the group consisting of modern humans, extinct human species and all our immediate ancestors, including members of *Homo*, *Australopithecus*, *Paranthropus* and *Ardipithecus.* See http://australianmuseum.net.au/hominid-and-hominin-whats-the-difference.
 

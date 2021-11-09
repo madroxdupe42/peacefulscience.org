@@ -12,4 +12,5 @@ jsonld:
       - https://www.youtube.com/c/PeacefulscienceOrg/
       - https://twitter.com/peacefulscience/
       - https:/peacefulscience.org 
+  publishingPrinciples: https://peacefulscience.org/about/editorial/
 ---

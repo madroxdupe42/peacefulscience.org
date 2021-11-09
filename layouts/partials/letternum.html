@@ -1,0 +1,13 @@
+{{ $out := "" }}
+
+{{ $alpha := "abcdefghijklmnopqrstuvwxyz" }}
+
+{{ $out = substr  $alpha ( mod (sub .  1 ) 26 ) 1  }}
+
+{{ if (div . 26 )  }}
+  {{ $p := sub  . 1 | div 26 }}
+  {{ $p = substr  $alpha $p 1 }}
+  {{ $out = printf "%s%s" $p $out }}
+{{ end }}
+
+{{ return $out }}

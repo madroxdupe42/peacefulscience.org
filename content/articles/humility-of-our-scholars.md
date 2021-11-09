@@ -5,13 +5,14 @@ aliases:
 authors:
 - swamidass
 categories:
+- featured
 - adam-eve
 - science
 commenturl: http://discourse.peacefulscience.org/t/the-humility-of-our-scholars/7078
 date: '2019-08-01T20:52:47'
 description: Darrel Falk, People like me, stuck in a specific genetic paradigm, were
   wrong. The humility of our scholars opens a better way forward for everyone.
-feature: true
+
 headerimage:
   src: /img/2019/08/mistake-968334_1920.jpg
 title: The Humility of Our Scholars
@@ -54,7 +55,7 @@ In reading Falk's endorsement, I am reminded of this counsel. Patience. Creative
 A few days ago, Justin Taylor from *The Gospel Coalition* discovered Falk's endorsement on the publisher's website. He tweeted a simple response to Falk.
 
 
-{{< tweet 1153689884223332357 >}}
+{{< tweet user=between2worlds id=1153689884223332357 >}}
 
 
 Justin is right to exclaim. Yes, this is a major step forward in our understanding. Perhaps even more significantly, Falk displays the humility we too rarely find in our leaders. He is to be commended.
