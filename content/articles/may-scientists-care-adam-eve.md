@@ -55,4 +55,3 @@ We live in a fractured society. This book builds a bridge across one fracture. W
 [^6]: Swamidass, S. Joshua. 2021. “[A U-Turn on Adam and Eve](/articles/biologos-uturn-adam-eve-position/).” _Peaceful Science_. 
 
 {{< footnotes2refs >}}
-{{< nolinklist >}}
