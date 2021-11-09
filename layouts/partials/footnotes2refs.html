@@ -1,4 +1,6 @@
-{{ $out := . }}
+{{ .Page.Scratch.Add "rendered" (slice "references") }}
+
+{{ $out := .Content }}
 
 {{ $out =  replace  $out "<hr>" `<h2>References</h2>` }}
 

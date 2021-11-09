@@ -1,8 +1,5 @@
 {{- $dest := .Destination -}}
-{{- $scratch := $.Page.Scratch }}
-
-
-
+{{- $scratch := $.Page.Scratch -}}
 
 {{- with index site.Data.urlmap $dest -}}
   {{- $dest = . -}} 
@@ -10,7 +7,7 @@
 
 {{- if and (in $dest  "https://doi.org/") (not .Text )  -}}
   {{- partial "doi" $dest -}}
-{{ else }}
+{{- else -}}
 
 {{- $url := urls.Parse ( $dest | absURL ) -}}
 {{- $basehost := (urls.Parse site.BaseURL).Host -}}
@@ -30,7 +27,7 @@
   {{- else -}}
     {{- if  (findRE "pdf$" $path) -}}
 
-       {{ $pdf := $path }}
+       {{- $pdf := $path -}}
        {{- $pdffile := printf "static%s" $pdf  -}}
        {{- $pdfdest:= printf "%s" $pdf | absURL -}}
        {{- if fileExists $pdffile  -}}
@@ -40,10 +37,12 @@
           {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.Path $pdf $pdffile -}}      
        {{- end -}}
     {{- else -}}
-      {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.Path $dest -}}
+      {{- if not (in $dest "#") -}}
+        {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.Path $dest -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
-{{ else }}
+{{- else -}}
   {{- $class = "external-link" -}}
   {{- $rel = "noopener nofollow" -}}
   {{- $target = "_blank" -}}
@@ -59,20 +58,24 @@
   {{- $rel = "sponsored" -}}  
 {{- end -}}
 
-{{ if not .Text }}
-  {{ warnf "EMPTY.LINK:\t%s" $.Page.Path }}
-{{ end }}
+{{- if not .Text -}}
+  {{- warnf "EMPTY.LINK:\t%s" $.Page.Path -}}
+{{- end -}}
 
-{{ $scratch.Add "Links" (slice $dest) }}
-{{ $num :=   ( $scratch.Get "Links" | len ) }}
+{{- if (in $dest  "/amzn.to/")  -}}
+  {{- warnf "AMZN.LINK:\t%s\t%s" $dest $.Page.Path -}}
+{{- end -}}
 
-<a href="{{ $dest }}"
-{{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{ $data }}" {{ end -}}
-{{- with $target }} target='{{ $target }}'{{- end -}}
-{{- with $rel }} rel='{{ $rel }}'{{- end -}}
-{{- with $class }} class='{{ $class }}'{{- end -}}
-{{- with .Title }} title="{{ . }}" {{- end -}}
->{{ .Text | safeHTML}}<sup class="link-ref d-none d-print-inline">{{ $num | partial "letternum"  }}</sup></a>
+{{- $scratch.Add "Links" (slice $dest) -}}
+{{- $num :=   ( $scratch.Get "Links" | len ) -}}
+
+<a href="{{- $dest -}}"
+{{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
+{{- with $target }} target='{{- $target -}}'{{- end -}}
+{{- with $rel }} rel='{{- $rel -}}'{{- end -}}
+{{- with $class }} class='{{- $class -}}'{{- end -}}
+{{- with .Title }} title="{{- . -}}" {{- end -}}
+>{{- .Text | safeHTML }}<sup class="link-ref d-none d-print-inline">{{- $num | partial "letternum"  -}}</sup></a>
 {{- end -}}
 
 

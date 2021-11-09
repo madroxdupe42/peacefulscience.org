@@ -1,9 +1,19 @@
+{{ $title := "References" }}
+
+{{ if in ($.Scratch.Get "rendered") "references" }}
+ {{ $title = "Links" }}
+{{ end }}
+
+{{ if in  $.Content `id="references"` }}
+ {{ $title = "Links" }}
+{{ end }}
+
 {{ if (in (.Scratch.Get "hide") "linklist" ) }}
 {{ else }}
 
 {{ with .Scratch.Get "Links" }}
   <section class="references d-none d-print-block">
-    <h2>{{ if in  $.Content `id="references"` }}Links{{ else }}References{{ end }}</h2>
+    <h2>{{ $title }}</h2>
 
     <ol type="a">
     {{ range . }}

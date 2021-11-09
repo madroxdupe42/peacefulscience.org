@@ -166,7 +166,7 @@
 
         {{ $content := .Content }}
         {{ range .Scratch.Get "postproc" }}
-          {{ $content = partial . $content }} 
+          {{ $content = partial . (dict "Content" $content "Page" $) }} 
         {{ end }}
         {{ $content }}
         
