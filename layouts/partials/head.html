@@ -74,7 +74,7 @@
 
 {{ with .Params.authors }}
     {{- range . }}
-      {{- with site.GetPage "taxonomyTerm" "authors" (urlize .) }}
+      {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
         <meta property="author" content="{{ .Title | markdownify |  plainify }}"/>
         <meta name="citation_author" content="{{ .Title | markdownify |  plainify }}"/>
       {{- end }}
