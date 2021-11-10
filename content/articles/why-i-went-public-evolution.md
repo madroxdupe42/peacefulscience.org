@@ -15,13 +15,14 @@ description: I went public in 2012 on evolution. When it comes to personal risks
 headerimage:
   src: /img/2020/11/victoria-josh-2013.jpg
 title: Why I Went Public on Evolution
+series: public-evolution
 ---
 
-Eight years ago, in 2012, I was a new assistant professor at a secular university. In my early thirties, after nine years of graduate school, I had very few independent papers to my name. I did not have any NIH grants yet. In this inopportune moment, I decided to become public about my personal religious beliefs, and my views on origins, publishing [an oped in the *Wall Street Journal*](https://peacefulscience.org/going-public-wsj/). *Why did I go public?*
+Eight years ago, in 2012, I was a new assistant professor at a secular university. In my early thirties, after nine years of graduate school, I had very few independent papers to my name. I did not have any NIH grants yet. In this inopportune moment, I decided to become public about my personal religious beliefs, and my views on origins, publishing [an oped in the *Wall Street Journal*](/articles/rubio-age-earth/). *Why did I go public?*
 
 [Scientists engage the public for all sorts of reasons](https://www.aaas.org/resources/communication-toolkit/what-public-engagement). [*Peaceful Science* includes atheists motivated by secular values](https://peacefulscience.org/stephen-matheson-humanists-invitation/). There are many good reasons to serve the common good. But when it comes down to taking personal risks, very personal reasons take center stage. Why did ***I*** go public?
 
-Most of my family are creationists, of the *anti*-evolution sort. For years, I avoided conflict by staying silent about my shifting views on evolution. I was raised a young earth creationist. In a [long path through old earth creationism and Intelligent Design](/pdf/swamidass-confident-faith.pdf), I eventually [came to affirm evolutionary science](https://discourse.peacefulscience.org/t/livestream-how-i-changed-my-mind-on-evolution/10326). There were many reasons. [I could not find a conflict between Scripture and evolution](http://peacefulscience.org/genealogical-adam-eve/), and had also seen evidence in our genomes for evolution. It really does look like humans and chimpanzees share common ancestors.
+Most of my family are creationists, of the *anti*-evolution sort. For years, I avoided conflict by staying silent about my shifting views on evolution. I was raised a young earth creationist. In a [long path through old earth creationism and Intelligent Design](/pdf/swamidass-confident-faith.pdf), I eventually [came to affirm evolutionary science](https://discourse.peacefulscience.org/t/livestream-how-i-changed-my-mind-on-evolution/10326). There were many reasons. [I could not find a conflict between Scripture and evolution](/genealogical-adam-eve/), and had also seen evidence in our genomes for evolution. It really does look like humans and chimpanzees share common ancestors.
 
 Most of my colleagues are not Christians, and I did not have tenure at the time. For years, I avoided conflict by staying silent about my personal beliefs. Everyone's advice was to be silent about my faith before tenure. Scientists, I was told, would not be fair to me if I revealed to them that I was a Christian. But I was one of *those* that really believed that Jesus rose bodily from the dead.
 
@@ -65,23 +66,23 @@ Everyone was concerned about me, the untenured professor, but I was growing in c
 
 ![](/img/2020/11/Screen-Shot-2020-11-29-at-2.13.19-PM-1.png)
 
-Of course, this decision initially just meant sending the article to a newspaper for consideration. I sent it to the *Wall Street Journal*. To just about everyone's surprise, it was quickly accepted for publication. That is not the usual outcome of submitting an article. Just a few weeks later, it hit print. So I did not have much time for second thoughts to grow. The public response and aftermath I explain [elsewhere](http://peacefulscience.org/confessing-scientist/), but here I want to explain what happened in my family and in my department.
+Of course, this decision initially just meant sending the article to a newspaper for consideration. I sent it to the *Wall Street Journal*. To just about everyone's surprise, it was quickly accepted for publication. That is not the usual outcome of submitting an article. Just a few weeks later, it hit print. So I did not have much time for second thoughts to grow. The public response and aftermath I explain [elsewhere](/confessing-scientist/), but here I want to explain what happened in my family and in my department.
 
 My father was proud, but nervous about the repercussions. My mother was concerned about my faith. She opened a conversation to discuss, and eventually we came to understand each other. Other family members reacted in more negative ways. At a Thanksgiving meal a few years later, I was denounced as an "evangelist for evolution" by a close family member. There was a cost I paid.
 
 My scientific colleagues were different.
 
-[As soon as the article was published](https://peacefulscience.org/going-public-wsj/), I had a meeting with the chair of my department. It is better to ask for forgiveness than permission in moments like this. Skip Virgin is a National Academy member, a brilliant and successful immunologist. He is not a Christian. I explained to him the article, and that I thought it was important to engage the public on evolution. Of course, I still had to do my scientific work, but he assured me this would not hurt my prospects at tenure, it might even help.
+[As soon as the article was published](/articles/rubio-age-earth/), I had a meeting with the chair of my department. It is better to ask for forgiveness than permission in moments like this. Skip Virgin is a National Academy member, a brilliant and successful immunologist. He is not a Christian. I explained to him the article, and that I thought it was important to engage the public on evolution. Of course, I still had to do my scientific work, but he assured me this would not hurt my prospects at tenure, it might even help.
 
 Most of my scientific colleagues were were curious, even supportive. Though most scientists are agnostics or atheists, I found they were not anti-religious. Even the anti-religious scientists were committed to treating me fairly. In the end, my secular colleagues were fair to me. I was awarded tenure on schedule in 2018.
 
-There are many more stories to tell, but they are for another day. My motivations here, in becoming a [confessing scientist](http://peacefulscience.org/confessing-scientist/), is well summarized by the value of honesty:
+There are many more stories to tell, but they are for another day. My motivations here, in becoming a [confessing scientist](/confessing-scientist/), is well summarized by the value of honesty:
 
 > By ***honesty***, we mean forthrightness about what the scientific evidence is and is not telling us, including scientific findings themselves, along with their limits; we mean truthfulness about how science challenges us, and truthfulness about how it makes space for others.
 >
-> *Peaceful Science*, [Mission and Values](https://peacefulscience.org/mission-and-values/)
+> *Peaceful Science*, [Mission and Values](/mission-and-values/)
 
-I understand this value professionally with regards to my scientific work. Even if I'm wrong on one point or another, I am committed to being forthright about what I have seen, even when it is unsettling. I am committed to be [forthright in correcting the mistakes I make too](https://peacefulscience.org/wrong-on-monophyletic/).
+I understand this value professionally with regards to my scientific work. Even if I'm wrong on one point or another, I am committed to being forthright about what I have seen, even when it is unsettling. I am committed to be [forthright in correcting the mistakes I make too](/wrong-on-monophyletic/).
 
 This is why, alongside most scientists, I confess that I have seen evidence for evolution; we really do seem to share common ancestors with the great apes.
 
@@ -89,6 +90,6 @@ I also understand this value of honesty in personal terms. For me, forthrightnes
 
 Speaking just for myself, I also confess that I follow Jesus. Whether evolution is true or false, I see [evidence that God raised this man from the dead](http://www.veritas.org/evidence-easter-scientists-list/). It is through *this* act in history that God makes clear to me that He exists, is good, and wants to be know.
 
-There are still risks in this dual confession. Most will dispute one point or the other. Serving the common good is worth this risk. This risk is worth serving the common good. [I found this confession is self-reinforcing, simultaneously unsettling to and building trust with most factions of the Creation War, including those in both the religious and scientific communities](http://peacefulscience.org/confessing-scientist/). 
+There are still risks in this dual confession. Most will dispute one point or the other. Serving the common good is worth this risk. This risk is worth serving the common good. [I found this confession is self-reinforcing, simultaneously unsettling to and building trust with most factions of the Creation War, including those in both the religious and scientific communities](/confessing-scientist/). 
 
 Strange things came from playful banter. Almost exactly eight years ago, a year after the oped was published in *The Journal*, Victoria and I were married. In going public, we were aspiring together to honesty in service of the common good. Without regret all these years alter, this is why I went public in 2012.
