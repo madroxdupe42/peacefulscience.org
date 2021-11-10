@@ -183,6 +183,12 @@
             Read Full Article
           </a>
         {{ end }}
+        
+        {{ range .Params.endnote }}
+          <div class="mt-5 editor-note">
+            {{ . | markdownify }}
+		  </div>
+        {{ end }}
       </main>
 
       <div
