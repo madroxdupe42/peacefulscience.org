@@ -87,7 +87,7 @@ So how does a historical Adam and Eve fit in this? Doesn't that demonstrate that
 
 Human DNA sequences seem to point to a single founding community of about 10,000 humans,[^1] which seems like it is conflict with the idea of a historical Adam and Eve. This is important, because somehow we need to trace a connection between the fall of some original Adam and Eve to all of us.
 
-[^1]: This statment, and others in this answer, are not accurate statements of where the science stands. See (*Three Stories on Adam and Eve**)[/articles/three-stories-on-adam] and [*Is evolutionary science in conflict with Adam and Eve?*](/articles/evolution-adam-eve/).
+[^1]: This statment, and others in this answer, are not accurate statements of where the science stands. See [*Three Stories on Adam and Eve*](/articles/three-stories-on-adam) and [*Is evolutionary science in conflict with Adam and Eve?*](/articles/evolution-adam-eve/).
 
 {{< amazon `0830852638` `Later, I published this book to more fully answer the question.` >}}
 
@@ -125,7 +125,7 @@ Others have different takes on this. I would point readers to John Walton's [rec
 
 ## Can we still trust Scripture?
 
-From the WSJ comments,  "If the Holy Spirit cannot be trusted when He tells of creation, how can He be trusted when He tells of salvation? If the Holy Spirit cannot be trusted in Genesis 1, how can He be trusted in John 3:16?"?
+From the WSJ comments,  "If the Holy Spirit cannot be trusted when He tells of creation, how can He be trusted when He tells of salvation? If the Holy Spirit cannot be trusted in Genesis 1, how can He be trusted in John 3:16?"
 
 </div> 
 
