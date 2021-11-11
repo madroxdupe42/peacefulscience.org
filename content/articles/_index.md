@@ -13,6 +13,7 @@ cascade:
     publisher: = copy /jsonld/peacefulscience
     sameas: = sameas
     about: = about
+    isAccessibleForFree: true
     mainEntityOfPage: 
       "@type": WebPage
       "@id": = permalink
