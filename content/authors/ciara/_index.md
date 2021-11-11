@@ -1,4 +1,4 @@
 ---
 title: Ciara Reyes-Ton
 ---
-Ciara Reyes-Ton is an editor and writer for Peaceful Science.
+Ciara Reyes-Ton is a biologist, science writer and editor who is passionate about science communication, teaching and outreach to diverse audiences, whether that be to the general public, religious communities or the students she teaches. She has a Ph.D. in Cell & Molecular Biology from the University of Michigan, and a B.S. in Biology from Valparaiso University. She has served as Managing Editor for the American Scientific Affiliation’s God & Nature Magazine, and is currently a writer and editor for Peaceful Science blog.  Most of her writing explores the intersection of science and faith, which is a reflection of her deep commitment to further science and faith dialogue and share the harmony she’s found with others. Outside of teaching and writing, she enjoys singing and coffee.
