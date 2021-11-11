@@ -1,5 +1,8 @@
 ---
 cascade:
+  design:
+    style: horizontal
+    layout: "col-12"
   jsonld:
     "@type": CreativeWorkSeries
     headline: = title

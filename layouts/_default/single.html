@@ -26,13 +26,12 @@
 
   {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
 
-
   <div class="bg-white">
     <div class="d-print-none" style="height: 40px; width: 100%"></div>
 
     <article class="article-grid py-5">
-      <header class="article-header">
-        <div class="d-print-block float-right d-none mb-5 font-special" id="pageHeader">
+      <header class="article-header"  id="pageHeader">
+        <div class="d-print-block float-right d-none mb-5 font-special" property="publisher">
           Peaceful Science
         </div>
 
@@ -51,7 +50,7 @@
               {{ $day := div (sub  $lastmod.Unix $.Date.Unix  ) 86400 }}
 
               {{ if (gt  2 $day) }}
-               <i class="fa fa-history pl-3" style="color: #ccc" ></i>
+               <i class="fa fa-history pl-3 d-print-none" style="color: #ccc" ></i>
               {{ end }}
 
 
@@ -71,15 +70,15 @@
 
 
         <h1 id="title" property="title" class="article-title mt-2">
-          {{ .Params.page_title | default .Title | markdownify }}
+          {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
 
-        <div class="d-print-none  article-description mb-3">
+        <div property="description" class="d-print-none  article-description mb-3">
           {{- .Description | markdownify -}}
         </div>
 
         <div class="mb-2 pr-1">
-          {{ partial "authors" (dict "page" . "class" "text-decoration-none") }}
+          {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
         </div>
 
         {{- if eq "main" $headerpos -}}
@@ -91,7 +90,7 @@
               {{- with .youtube }}
                 {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
               {{- else -}}
-                <img
+                <img 
                   src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,1200/"
                   class="webfeedsFeaturedVisual"
                   style="width: 100%; height: auto"
@@ -119,6 +118,10 @@
             {{ else }}          
               {{ partial "doi" $doi }}
             {{ end }}
+          {{ else }}
+            {{ with $.Params.pdf }}
+            
+            {{ end }}
           {{ end }}
           {{- range .Params.categories }}
             {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
@@ -130,36 +133,27 @@
 
         </div>
       </header>
-
-      <main class="article-body pb-5" style="position:relative">
+      <div class="article-body pb-5">
+      <main style="position:relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
-            <aside class="series aside-xl-right bg-white">
-              <p>
-                <a
-                  class="font-special text-dark bg-grey"
-                  href="{{ .Permalink }}"
-                  >{{ .Title | markdownify }}
-                </a>
-              </p>
-              <ol class="text-smaller">
-                {{- range  .Data.Pages.ByDate }}
-                  <li>
-                    {{ if not (eq $ .) }}
-                      <a
-                        class="text-muted font-special"
-                        href="{{ .Permalink }}"
-                      >
-                        {{ .Title  | markdownify }}
-                      </a>
-                    {{ else }}
-                      <span class="text-dark font-special"
-                        >{{ .Title | markdownify }}</span
-                      >
-                    {{ end }}
-                  </li>
-                {{ end }}
-              </ol>
+            <aside class="d-print-none series aside-xl-right bg-white text-smaller">
+              {{ $page := default nil }}
+              
+                {{- range  .Data.Pages.ByDate.Reverse }}
+                  {{ if and (eq $ .) $page }}
+                    <p> Next in series: 
+                    <a class="font-special d-block" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
+                  {{ end }}
+                  {{ if eq $ $page }}
+                    <p> Previous in series:
+                    <a  class="font-special d-block" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+                  {{ end }}
+                  {{ $page = . }}
+                {{ end }}  
+                <p> The full series: <a  class="font-special d-block" href="#article-series">{{ .Title | markdownify }}</a>
+                
+
             </aside>
           {{ end }}
         {{ end }}
@@ -189,7 +183,32 @@
             {{ . | markdownify }}
 		  </div>
         {{ end }}
-      </main>
+        </main>        
+        
+        {{ with  .Params.series }}
+          {{ with site.GetPage ( printf "/series/%s" . ) }}              <p>
+
+            <aside id="article-series" class="expand-right  mt-5  pt-5  bg-white">
+            
+            
+              <div class="row">
+              {{ partial "heading" (dict "Text" (.Title | markdownify) "Link" .Permalink  "Class" "heading-black text-decorations-none") }}
+              {{ with .Content | default .Description }}
+                <div class="col-12">
+                  {{ . }}
+                </div>
+              
+              {{ end }}
+                {{- range  .Data.Pages.ByDate }}
+                  {{ partial "render" (dict "Page" . "Layout" "col-12" "Hide" "categories") }}
+                {{ end }}
+              </div>
+            </aside>
+          {{ end }}
+        {{ end }}
+      
+
+      </div>
 
       <div
         class="left-sidebar"
@@ -295,12 +314,21 @@
         class="d-print-none"
         style="background-color: white; min-height:1000"
       >
+      
+        {{ $pages := . }}
+        {{ with  $.Params.series }}
+          {{ with site.GetPage ( printf "/series/%s" . ) }} 
+            {{ $pages = $pages | complement .Data.Pages  }}
+            {{ $pages = union $pages .Data.Pages }}
+          {{ end }}
+        {{ end }}
+         
         <div class="container pt-5">
           <div class="row justify-content-center pb-5 text-larger">
             <div class="pt-3 col-12 text-center">
               <h1 class="mb-5">Related articles...</h1>
             </div>
-            {{ range ( . | first 3  ) }}
+            {{ range ( $pages | first 3  ) }}
               {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
             {{ end }}
 

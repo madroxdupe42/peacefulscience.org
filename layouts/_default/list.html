@@ -3,6 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
+{{ $style := .Params.design.style | default "vertical" }}
 
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
@@ -19,12 +21,11 @@
 
         <div class="col-12 justify-content-center mt-3 d-none">
           {{ template "_internal/pagination.html" . }}
-        </div>
+        </div>        
 
-        {{ range .Paginator.Pages }}
-          {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-4" "Hide" "lazy" ) }}
-        {{ end }}
-
+        {{- range .Paginator.Pages -}}
+          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+        {{ end -}}
 
         <div class="col-12 justify-content-center mt-3 d-none">
           {{ template "_internal/pagination.html" . }}
