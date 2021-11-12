@@ -1,6 +1,10 @@
 {{- $dest := .Destination -}}
 {{- $scratch := $.Page.Scratch -}}
 
+{{- $dest = replace $dest `?tag=swamidass-20` `` -}}
+{{- $dest = replace $dest `tag=swamidass-20` `` -}}
+{{- $dest = replaceRE `ref=.*` `` $dest  -}}
+
 {{- with index site.Data.urlmap $dest -}}
   {{- $dest = . -}} 
 {{- end -}}
@@ -49,14 +53,12 @@
 {{- end -}}
 
 
+
 {{- if eq $url.Host "discourse.peacefulscience.org" -}}
   {{- $class = "forum-link" -}}
 {{- end -}}
 
-{{- if eq $url.Host "www.amazon.com" -}}
-  {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
-  {{- $rel = "sponsored" -}}  
-{{- end -}}
+
 
 {{- if not .Text -}}
   {{- warnf "EMPTY.LINK:\t%s" $.Page.Path -}}
@@ -68,6 +70,32 @@
 
 {{- $scratch.Add "Links" (slice $dest) -}}
 {{- $num :=   ( $scratch.Get "Links" | len ) -}}
+
+
+{{- if eq $url.Host "www.amazon.com" -}}
+  {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
+  {{- $rel = "sponsored" -}}  
+  {{- $asin :=  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/dp/(.*?)\?.*`  "${1}" $dest  -}}
+  {{ end }}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/gp/product/(.*?)/.*`  "${1}" $dest  -}}
+  {{ end }}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/gp/product/(.*?)\?.*`  "${1}" $dest  -}}
+  {{ end }}
+  
+  {{ if eq $asin $dest }}
+    {{- warnf "PARSE.ASIN\t%s\t%s" $dest -}}
+  {{ else }}
+    {{- $dest = printf "https://www.amazon.com/dp/%s/?tag=swamidass-20" $asin -}}
+  {{ end }}
+{{- end -}}
+
+{{- with getenv "HUGO_LINKS" -}}
+  {{- warnf "LINK\t%s\t%s" $.Page.Permalink $dest -}}
+{{- end -}}
 
 <a href="{{- $dest -}}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
