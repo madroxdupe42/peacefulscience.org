@@ -1,9 +1,11 @@
 {{ $args := default nil }}
+{{ $jsonld := default nil }}
 
-{{ with (site.GetPage  (index (split .Input " ") 2) ) }}
+{{ with (site.GetPage  (index .Input  0 )) }}
   {{ $args = dict "Page" . "Input" .Params.jsonld }}
-  {{  return  (partial "jsonld/jsonld" $args ) }}
+  {{ $jsonld = (partial "jsonld/jsonld" $args ) }}
 {{ else }}
-  {{ warnf "JSONLD-COPY: %" (index (split .Input " ") 2) }}
+  {{ warnf "JSONLD-COPY: %s" (index .Input 0 ) }}
 {{ end }}
 
+{{ return $jsonld }}

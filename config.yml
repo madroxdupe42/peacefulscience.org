@@ -22,8 +22,6 @@ related:
     weight: 100
   - name: authors
     weight: 50
-  - name: series
-    weight: 100
   - name: section
     weight: 50
   threshold: 80

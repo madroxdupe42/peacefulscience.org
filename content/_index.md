@@ -12,9 +12,10 @@ articles:
   
 jsonld:
   "@type": WebSite
+  "@id": https://peacefulscience.org/
   image: = headerimage
   name: Peaceful Science
-  url: https://peacefulscience.org
+  url: https://peacefulscience.org/
   publisher: = copy /jsonld/peacefulscience 
   potentialAction:
     "@type": SearchAction
@@ -34,6 +35,7 @@ cascade:
     datePublished: = date
     dateModified: = lastmod
     image: = headerimage
+    isPartOf: = series
     publisher: = copy /jsonld/peacefulscience
     sameas: = sameas
     about: = about
