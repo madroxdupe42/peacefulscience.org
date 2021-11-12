@@ -2,9 +2,12 @@
   {{ partial "jsonld" . }}
 {{ end }}
 
+
+
 {{ define "main" }}
 {{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
 {{ $style := .Params.design.style | default "vertical" }}
+{{ $paginator := .Paginate (partial "listpages" .) }}
 
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
@@ -23,7 +26,7 @@
           {{ template "_internal/pagination.html" . }}
         </div>        
 
-        {{- range .Paginator.Pages -}}
+        {{- range $paginator.Pages  -}}
           {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
         {{ end -}}
 

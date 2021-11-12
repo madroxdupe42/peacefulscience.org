@@ -1,6 +1,6 @@
 {{ $out := (slice ) }}
 
-{{ range  .Page.Data.Pages.ByDate }}
+{{ range  (partial "listpages" .Page) }}
     {{ $out = $out | append ( partial "jsonld/id" (dict "Page" . "Input" (slice .Path)) "Resolved" (slice .) )}}
 {{ end }}
 

@@ -140,14 +140,14 @@
             <aside class="d-print-none series aside-xl-right bg-white text-smaller">
               {{ $page := default nil }}
               
-                {{- range  .Data.Pages.ByDate.Reverse }}
-                  {{ if and (eq $ .) $page }}
-                    <p> Next in series: 
-                    <a class="font-special d-block" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
-                  {{ end }}
+                {{- range (partial "listpages" . ) }}
                   {{ if eq $ $page }}
-                    <p> Previous in series:
+                    <p> Next in series:
                     <a  class="font-special d-block" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+                  {{ end }}
+                  {{ if and (eq $ .) $page }}
+                    <p> Previous in series: 
+                    <a class="font-special d-block" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
                   {{ end }}
                   {{ $page = . }}
                 {{ end }}  
@@ -188,7 +188,7 @@
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}              <p>
 
-            <aside id="article-series" class="expand-right  mt-5  pt-5  bg-white">
+            <aside id="article-series" class="expand-right d-print-none mt-5  pt-5  bg-white">
             
             
               <div class="row">
@@ -199,24 +199,29 @@
                 </div>
               
               {{ end }}
-                {{- range  .Data.Pages.ByDate }}
+                {{- range  (partial "listpages" . )  }}
                   {{ partial "render" (dict "Page" . "Layout" "col-12" "Hide" "categories") }}
                 {{ end }}
               </div>
             </aside>
+            
           {{ end }}
         {{ end }}
-      
+        <aside class="mt-5 d-none d-print-block text-center expand-right editor-note">
+            
+            This article is available at <br><a href="{{ .Permalink }}">{{ .Permalink }}</a>
+            
+        </aside>
 
       </div>
 
       <div
-        class="left-sidebar"
+        class="left-sidebar d-print-none"
         style="height: 100%; position: relative; isolation: isolate; z-index: 4;"
       >
         <div
-          class="d-none d-md-block hover-front position-sticky"
-          style="top: 60px; width: 100%; background: white"
+          class="hover-front position-sticky"
+          style="top: 60px; width: 100%;"
         >
           <nav
             class="toc navbar pr-0 pt-5"
@@ -323,7 +328,7 @@
           {{ end }}
         {{ end }}
          
-        <div class="container pt-5">
+        <div class="container pt-5 ">
           <div class="row justify-content-center pb-5 text-larger">
             <div class="pt-3 col-12 text-center">
               <h1 class="mb-5">Related articles...</h1>
