@@ -151,7 +151,7 @@
                   {{ end }}
                   {{ $page = . }}
                 {{ end }}  
-                <p> The full series: <a  class="font-special d-block" href="#article-series">{{ .Title | markdownify }}</a>
+                <p> The full series: <a  class="font-special d-block" href="#article-series-this">{{ .Title | markdownify }}</a>
                 
 
             </aside>
@@ -200,7 +200,11 @@
               
               {{ end }}
                 {{- range  (partial "listpages" . )  }}
-                  {{ partial "render" (dict "Page" . "Layout" "col-12" "Hide" "categories") }}
+                  {{ $args := (dict "Page" . "Layout" "col-12" "Hide" "categories") }}
+                  {{ if eq $ . }}
+                    {{ $args = merge  $args (dict "Id" "article-series-this" "CStyle" "background: #efefef ")   }}
+                  {{ end }} 
+                  {{ partial "render" $args }}
                 {{ end }}
               </div>
             </aside>
