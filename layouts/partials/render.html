@@ -6,9 +6,13 @@
 
 {{- $hide := split (index . "Hide" | default "") " "  -}}
 
-{{- $layout := index . "Layout" | default "col-6 col-md-3" -}}
+{{- $layout := .Layout | default "col-6 col-md-3" -}}
 
-{{- $style := index . "Style" | default "horizontal" -}}
+{{- $style := .Style | default "horizontal" -}}
+
+{{- $id := .Id | default nil }}
+
+{{- $cstyle := .CStyle | default nil }}
 
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1 rounded d-print-none d-block" -}}
@@ -23,7 +27,7 @@
 {{- end -}}
 
 
-<article class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
+<article {{with $cstyle }}style="{{ . | safeCSS }}"{{ end }} {{with $id }}id="{{ . }}"{{ end }} class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
 
 {{ $rendered := false }}
 
