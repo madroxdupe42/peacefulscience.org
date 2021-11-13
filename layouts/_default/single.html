@@ -114,7 +114,7 @@
           {{ with .Params.doi }}
             {{ $doi := . }}
             {{ with $.Params.pdf }}
-               {{ partial "doiurl" (slice $doi . ) }}
+               {{ partial "doiurl" (slice $doi ( . | absURL ) ) }}
             {{ else }}          
               {{ partial "doi" $doi }}
             {{ end }}
@@ -213,7 +213,7 @@
         {{ end }}
         <aside class="mt-5 d-none d-print-block text-center expand-right editor-note">
             
-            This article is available at <br><a href="{{ .Permalink }}">{{ .Permalink }}</a>
+            This article is available at: <br><a href="{{ .Permalink }}">{{ .Permalink }}</a>
             
         </aside>
 
@@ -346,4 +346,20 @@
       </aside>
     {{ end }}
   </div>
+  
+<div id="footer" class="d-none" >
+<div style="border-top: 1px solid; font-size: 10px; text-align: center;">
+<div>           
+         <img
+              style="width: auto; height: 1.2em; float: left; "
+              alt="Peaceful Science"
+              src="{{ `/img/design/PS-logo-long-black.svg`  |  partial `imgcdn` }}"
+            /></div>
+
+<span class="pageNumber" ></span>
+
+<div style="float: right; font-size: smaller;">{{with .Params.doi }}doi:{{ . }}{{ else }}.Permalink{{ end }}</div>
+
+</div>
+</div>
 {{- end }}
