@@ -59,9 +59,15 @@ outputformats:
     baseName: _redirects
     isPlainText: true
     notAlternative: true
-    
+  precompute:
+    basename: precomptute.txt
+    notAlternative: true
+    weight: 1
+  HTML:
+    weight: 2 
+   
 outputs:
-  home: ["HTML", "RSS", "redir"]
+  home: ["precompute", "HTML", "RSS", "redir"]
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"
