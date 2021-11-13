@@ -7,15 +7,16 @@ cascade:
     layout: "col-12"
   jsonld:
     "@type": CreativeWorkSeries
-    "@id": = permalink main
+    "@id": = permalink
     headline: = title
     description: = description
     about: = about
     hasPart: = pages
     publisher: 
-      "@id": https://peacefulscience.org/#org
+      "@id": = id /jsonld/peacefulscience
     sameas: = sameas    
     mainEntityOfPage: 
       "@type": WebPage
-      "@id": = permalink
+      "@id": = permalink webpage
+      url: = permalink
 ---

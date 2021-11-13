@@ -12,7 +12,7 @@ articles:
   
 jsonld:
   "@type": WebSite
-  "@id": https://peacefulscience.org/
+  "@id": = permalink webpage
   image: = headerimage
   name: Peaceful Science
   url: https://peacefulscience.org/
@@ -29,7 +29,7 @@ cascade:
   rss: false
   jsonld:
     "@type": WebPage
-    "@id": permalink
+    "@id": = permalink webpage
     description: = description
     author: = authors     
     datePublished: = date

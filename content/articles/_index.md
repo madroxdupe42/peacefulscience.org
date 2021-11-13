@@ -4,7 +4,7 @@ cascade:
   rss: true
   jsonld:
     "@type": Article
-    "@id": = permalink main
+    "@id": = permalink 
     headline: = title   
     name: = title
     description: = description
@@ -19,6 +19,6 @@ cascade:
     isAccessibleForFree: true
     mainEntityOfPage: 
       "@type": WebPage
-      "@id": = permalink
+      "@id": = permalink webpage
       url: = permalink
 ---
