@@ -2,7 +2,8 @@
 {{ $jsonld := default nil }}
 
 {{ with (site.GetPage  (index .Input  0 )) }}
-  {{ $args = dict "Page" . "Input" .Params.jsonld }}
+  {{ $jsonld = partial "jsonld-template" . }}
+  {{ $args = dict "Page" . "Input" $jsonld }}
   {{ $jsonld = (partial "jsonld/jsonld" $args ) }}
 {{ else }}
   {{ warnf "JSONLD-COPY: %s" (index .Input 0 ) }}

@@ -11,7 +11,8 @@
 {{ end }}
 
 {{ with $resolved }}
-  {{ with  index .Params.jsonld "@id"  }}
+    {{ $jsonldtemp := partial "jsonld-template" . }}
+  {{ with  index $jsonldtemp "@id"  }}
      {{ $args = dict "Page" $page "Input" (dict "@id" .) }}
      {{ $jsonld = (partial "jsonld/jsonld" $args ) }}
   {{ else }}
