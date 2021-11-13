@@ -1,6 +1,4 @@
 {{- $dest := .Destination -}}
-{{- $scratch := $.Page.Scratch -}}
-
 {{- $dest = replace $dest `?tag=swamidass-20` `` -}}
 {{- $dest = replace $dest `tag=swamidass-20` `` -}}
 {{- $dest = replaceRE `ref=.*` `` $dest  -}}
@@ -25,7 +23,7 @@
   {{- $path := replaceRE (printf ".*//%s"  $basehost) "" $path -}}
   {{- $path := replaceRE "/$" "" $path -}}
   {{- with site.GetPage $path -}}
-    {{- $dest = .Permalink -}}
+    {{- $dest = .RelPermalink -}}
     {{/*- warnf "Remapped internal link: %s\t%s\t%s" $.Page.File.Path ($path ) $dest -*/}}
     
   {{- else -}}
@@ -68,12 +66,13 @@
   {{- warnf "AMZN.LINK:\t%s\t%s" $dest $.Page.Path -}}
 {{- end -}}
 
-{{- $scratch.Add "Links" (slice $dest) -}}
-{{- $num :=   ( $scratch.Get "Links" | len ) -}}
 
+{{ $tag := "" }}
 
-{{- if eq $url.Host "www.amazon.com" -}}
-  {{- $dest = printf "https://www.amazon.com%s?%s" $url.Path "tag=swamidass-20" -}}
+{{- if in $url.Host "amazon.com" -}}
+  {{- $tag = "?tag=swamidass-20" -}}
+  {{- $dest = printf "https://amazon.com%s/" $url.Path -}}
+ 
   {{- $rel = "sponsored" -}}  
   {{- $asin :=  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
   {{- if eq $asin $dest }}
@@ -89,15 +88,20 @@
   {{ if eq $asin $dest }}
     {{- warnf "PARSE.ASIN\t%s\t%s" $dest -}}
   {{ else }}
-    {{- $dest = printf "https://www.amazon.com/dp/%s/?tag=swamidass-20" $asin -}}
+    {{- $dest = printf "https://amazon.com/dp/%s/" $asin -}}
+    {{ $tag = "?tag=swamidass-20" }}
   {{ end }}
 {{- end -}}
 
+{{- $scratch := $.Page.Scratch -}}
+{{- $scratch.Add "Links" (slice $dest) -}}
+{{- $num :=   ( $scratch.Get "Links" | len ) -}}
+
 {{- with getenv "HUGO_LINKS" -}}
-  {{- warnf "LINK\t%s\t%s" $.Page.Permalink $dest -}}
+  {{- warnf "LINK\t%s\t%s"  $.Page.RelPermalink $dest -}}
 {{- end -}}
 
-<a href="{{- $dest -}}"
+<a href="{{- $dest | absURL -}}{{ $tag }}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
 {{- with $target }} target='{{- $target -}}'{{- end -}}
 {{- with $rel }} rel='{{- $rel -}}'{{- end -}}
@@ -105,5 +109,3 @@
 {{- with .Title }} title="{{- . -}}" {{- end -}}
 >{{- .Text | safeHTML }}<sup class="link-ref d-none d-print-inline">{{- $num | partial "letternum"  -}}</sup></a>
 {{- end -}}
-
-
