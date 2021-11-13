@@ -3,7 +3,6 @@
 {{ end }}
 
 {{ define "main" }}
-
   {{ $PAGES := partialCached "byviews" . }}
 
   {{ with .Description }}
@@ -25,25 +24,23 @@
   {{ end }}
 
   {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
-
+ 
   <div class="bg-white">
-    <div class="d-print-none" style="height: 40px; width: 100%"></div>
+    <div class="d-print-none" style="height: 80px; width: 100%"></div>
 
-    <article class="article-grid py-5">
+    <article class="article-grid pb-5">
       <header class="article-header"  id="pageHeader">
-        <div class="d-print-block float-right d-none mb-5 font-special" property="publisher">
+        <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
           Peaceful Science
         </div>
 
         {{ with .PublishDate }}
-
           <a
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="font-special py-1 text-decoration-none text-muted d-inline"
           >
-       
               {{ .Format "January 2, 2006" }}
               
               {{ $lastmod := partial "lastmod" $ }}
@@ -52,13 +49,8 @@
               {{ if (gt  2 $day) }}
                <i class="fa fa-history pl-3 d-print-none" style="color: #ccc" ></i>
               {{ end }}
-
-
           </a>
-          
 
-          
-          
           {{ with $.Scratch.Get "Views" }}
             <div
               class="view-count d-inline d-print-none float-right text-right"
@@ -67,7 +59,6 @@
             </div>
           {{ end }}
         {{ end }}
-
 
         <h1 id="title" property="title" class="article-title mt-2">
           {{- .Params.page_title | default .Title | markdownify -}}
