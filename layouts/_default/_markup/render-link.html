@@ -50,13 +50,9 @@
   {{- $target = "_blank" -}}
 {{- end -}}
 
-
-
 {{- if eq $url.Host "discourse.peacefulscience.org" -}}
   {{- $class = "forum-link" -}}
 {{- end -}}
-
-
 
 {{- if not .Text -}}
   {{- warnf "EMPTY.LINK:\t%s" $.Page.Path -}}
@@ -66,15 +62,17 @@
   {{- warnf "AMZN.LINK:\t%s\t%s" $dest $.Page.Path -}}
 {{- end -}}
 
+{{- $scratch := $.Page.Scratch -}}
+
 
 {{ $tag := "" }}
-
+{{ $asin := default nil }}
 {{- if in $url.Host "amazon.com" -}}
   {{- $tag = "?tag=swamidass-20" -}}
   {{- $dest = printf "https://amazon.com%s/" $url.Path -}}
  
   {{- $rel = "sponsored" -}}  
-  {{- $asin :=  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
+  {{- $asin =  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
   {{- if eq $asin $dest }}
     {{- $asin = replaceRE  `.*/dp/(.*?)\?.*`  "${1}" $dest  -}}
   {{ end }}
@@ -91,11 +89,12 @@
     {{- $dest = printf "https://amazon.com/dp/%s/" $asin -}}
     {{ $tag = "?tag=swamidass-20" }}
   {{ end }}
+  {{- $scratch.Add "Amazon" (slice $asin) -}}
 {{- end -}}
 
-{{- $scratch := $.Page.Scratch -}}
 {{- $scratch.Add "Links" (slice $dest) -}}
 {{- $num :=   ( $scratch.Get "Links" | len ) -}}
+
 
 {{- with getenv "HUGO_LINKS" -}}
   {{- warnf "LINK\t%s\t%s"  $.Page.RelPermalink $dest -}}
