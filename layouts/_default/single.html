@@ -3,7 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $PAGES := partialCached "byviews" . }}
+  {{ $vlookup := index (partialCached "byviews" .).Lookup }}
+  {{ $views := index $vlookup .RelPermalink "Views" }}
+  
 
   {{ with .Description }}
     {{ if in . "..." }}
@@ -51,7 +53,7 @@
               {{ end }}
           </a>
 
-          {{ with $.Scratch.Get "Views" }}
+          {{ with $views }}
             <div
               class="view-count d-inline d-print-none float-right text-right"
             >

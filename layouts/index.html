@@ -29,9 +29,9 @@
   {{ $latest := first 9 $ALL }}
   {{ $used := $latest }}
 
-  {{ $featured := first 6 (where ( intersect $PAGES.ByViews  $ALL ) ".Params.categories" "intersect" (slice "featured")  | complement $used) }}
-  {{ $used := union $used $featured }}
-
+  {{ $featured := first 6 (where $PAGES.ByViews ".Params.categories" "intersect" (slice "featured")  | complement $used) }}
+  {{ $used := union $featured $used }}
+  
   {{ $race := first 2 (where $ALL ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
   {{ $used := union $used $race }}
 
