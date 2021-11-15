@@ -1,6 +1,28 @@
 {{ $out := .Data.Pages.ByDate }}
 {{ $reversed := .Params.reverse  | default true }}
 
+{{ $pages := (slice ) }}
+{{ with .Params.amazon }}
+  {{ $asin := . }}
+  {{ range site.RegularPages }}
+      {{ if gt (len (intersect (.Scratch.Get "Amazon") $asin)) 0 }}
+      {{ $pages = $pages | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with .Params.internalref }}
+  {{ $link := . }}
+  {{ range site.RegularPages }}
+      {{ if gt (len (intersect (.Scratch.Get "Links") $link)) 0 }}
+      {{ $pages = $pages | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $out = union $out $pages }}
+
+{{ $out = union $out (uniq $pages) }}
+
 {{ if $reversed }}
   {{ $out = $out.Reverse }}
 {{ end }}
