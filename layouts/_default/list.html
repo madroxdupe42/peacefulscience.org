@@ -15,8 +15,22 @@
     <div class="container">
       <div id="post-list" class="row pt-5 pb-5 ">
         <header class="col-12 pb-5">
-          <h1 class="py-3">{{ .Title }}</h1>
-
+          <h1 class="mt-3">{{ .Title }}</h1>
+          {{ with .Description }}{{ . | markdownify }}{{ end }}
+          <div class="mb-3 ">
+            {{ with .Params.orcid}} 
+               <a href="https://orcid.org/{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="ml-3 mr-3 text-dark fab fa-orcid"></i> </a>
+            {{ end}}
+            {{ with .Params.gscholar}} 
+               <a href="https://scholar.google.com/citations?user={{ . }}&hl=en" target=_blank rel=nofollow class="text-decoration-none">
+                 <i class="mr-3  text-dark fab  fa-google"></i>
+                </a>
+            {{ end}}
+            {{ with .Params.twitter}} 
+               <a href="https://twitter.com/{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="text-dark fab fa-twitter"></i> </a>
+            {{ end}}
+           </div>
+          
           <div style="max-width: 600px">
             {{- .Content -}}
           </div>

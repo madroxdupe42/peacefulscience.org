@@ -996,7 +996,13 @@ li a.footnote-backref {
 }
 
 
-
+.fa-gscholar {
+  content: url('/img/design/google-scholar.svg');
+  height: 1em;
+  line-height: 1;
+  width: auto;
+  top: .125em;
+  position: relative;}
 
 .article-body {
   @extend .px-3;
