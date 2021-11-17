@@ -29,7 +29,7 @@
  
   <div class="bg-white">
     <div class="d-print-none" style="height: 80px; width: 100%"></div>
-
+    <main>
     <article class="article-grid pb-5">
       <header class="article-header"  id="pageHeader">
         <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
@@ -127,7 +127,7 @@
         </div>
       </header>
       <div class="article-body pb-5">
-      <main style="position:relative">
+      <div style="position:relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
             <aside class="d-print-none series aside-xl-right bg-white text-smaller">
@@ -176,7 +176,7 @@
             {{ . | markdownify }}
 		  </div>
         {{ end }}
-        </main>        
+        </div>        
         
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}              <p>
@@ -252,10 +252,11 @@
         ></div>
       </div>
     </article>
+    </main>
 
     {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
-      <aside
+      <section
         class="mt-5 py-5 comment-block d-print-none bg-white"
         style="z-index:4"
       >
@@ -308,11 +309,11 @@
             </div>
           </div>
         </div>
-      </aside>
+      </section>
     {{ end }}
 
     {{ with .Site.RegularPages.Related . }}
-      <aside
+      <section
         class="d-print-none"
         style="background-color: white; min-height:1000"
       >
@@ -336,11 +337,11 @@
 
           </div>
         </div>
-      </aside>
+      </section>
     {{ end }}
   </div>
   
-<div id="footer" class="d-none" >
+<section id="footer" class="d-none" >
 <div style="border-top: 1px solid; font-size: 10px; text-align: center;">
 <div>           
          <img
@@ -354,5 +355,6 @@
 <div style="float: right; font-size: smaller;">{{with .Params.doi }}doi:{{ . }}{{ else }}.Permalink{{ end }}</div>
 
 </div>
-</div>
+</section>
+
 {{- end }}
