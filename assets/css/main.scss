@@ -1010,6 +1010,7 @@ li a.footnote-backref {
   grid-row: 2;
  
   main a {text-decoration: underline;}
+  main sup a {text-decoration: none;}
 
   p, aside, figure {
 	display: block;
