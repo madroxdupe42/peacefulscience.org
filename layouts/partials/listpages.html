@@ -1,5 +1,12 @@
-{{ $out := .Data.Pages.ByDate }}
+{{ $out := .Data.Pages }}
 {{ $reversed := .Params.reverse  | default true }}
+
+{{ $page := (slice ) }}
+{{ range .Params.pages }}
+   {{ with site.GetPage . }}
+     {{ $page = $page | append  . }}
+   {{ end }}
+{{ end }}
 
 {{ $pages := (slice ) }}
 {{ with .Params.amazon }}
@@ -21,19 +28,16 @@
 {{ end }}
 {{ $out = union $out $pages }}
 
-{{ $out = union $out (uniq $pages) }}
+{{ $out = uniq (sort $out "Date")  }}
 
 {{ if $reversed }}
   {{ $out = $out.Reverse }}
 {{ end }}
 
-{{ $page := (slice ) }}
-{{ range .Params.pages }}
-   {{ with site.GetPage . }}
-     {{ $page = $page | append (slice .) }}
-   {{ end }}
-{{ end }}
-
 {{ $out = union $page $out }}
+
+{{ with $out }}
+{{ $out = partial "sanitize_pages" $out }}
+{{ end}}
 
 {{ return $out }}
