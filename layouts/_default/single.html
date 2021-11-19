@@ -123,11 +123,8 @@
           {{ with .Params.doi }}
           <span class="text-smaller  font-bold">
             {{ $doi := . }}
-            {{ with $.Params.pdf }}
-               <a id="doi" target=_blank href="{{ . | absURL }}">https://doi.org/{{ $doi }}</a>
-            {{ else }}          
-               <a id="doi"  target=_blank  href="https://doi.org/{{ $doi }}">https://doi.org/{{ $doi }}</a>
-            {{ end }}
+            <a id="doi"  target=_blank  href="https://doi.org/{{ $doi }}">https://doi.org/{{ . }}</a>
+          </span>
           {{ end }}
         </div>
         
