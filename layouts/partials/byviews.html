@@ -36,10 +36,10 @@
 
 {{ $collection := $scratch.Values }}
 
-{{ $byviews := apply (sort $collection "Views" "desc") "index" "." "Page" }}
+{{ $byviews := partial "sanitize_pages" ( apply (sort $collection "Views" "desc") "index" "." "Page" ) }}
 
-{{ $bysessions := apply (sort $collection "Sessions" "desc") "index" "." "Page" }}
+{{ $bysessions := partial "sanitize_pages" ( apply (sort $collection "Sessions" "desc") "index" "." "Page" ) }}
 
-{{ $bytrending := apply (sort $collection "Trending" "desc") "index" "." "Page" }}
+{{ $bytrending := partial "sanitize_pages" ( apply (sort $collection "Trending" "desc") "index" "." "Page" ) }}
 
 {{ return (dict "ByTrending" $bytrending "ByViews" $byviews "BySessions" $bysessions "Lookup" $collection) }}
