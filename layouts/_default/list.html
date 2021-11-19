@@ -7,16 +7,47 @@
 {{ define "main" }}
 {{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
 {{ $style := .Params.design.style | default "vertical" }}
-{{ $paginator := .Paginate (partial "listpages" .) }}
+
+{{ $page := partial "listpages" . }}
+{{ $paginator := .Paginate $page }}
+
+{{ warnf "%v" $page }}
 
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
 
     <div class="container">
       <div id="post-list" class="row pt-5 pb-5 ">
-        <header class="col-12 pb-5">
-          <h1 class="mt-3">{{ .Title }}</h1>
+
+        <header class="row col-12 pb-5 ">
+
+        <div class="col-12">
+
+          <h1 class="mt-2">{{ .Title }}</h1>
           {{ with .Description }}{{ . | markdownify }}{{ end }}
+
+          <div class="my-2 pr-1">
+          {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
+        </div>
+
+         {{ with .Params.amazon }}
+          <section class="float-md-right text-center p-3">
+            {{ partial `amazon` (index . 0)  }}
+            
+            <div> 
+
+            <a class="btn btn-dark mt-3" href="https://amazon.com/dp/{{ index . 0 }}/?tag=swamidass-20" target=_blank rel=sponsored>Purchase <span class="fa-stack">
+ <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="fab fa-amazon fa-stack-1x text-dark "></i>
+            </span></a>
+            {{with $.Params.erratum }}
+             <a href="{{ . | absURL }}" class="mt-3 btn btn-dark">Erratum</a>
+            {{ end }}
+            </div>
+            
+          </section>
+        {{ end }}
+        
           <div class="mb-3 ">
             {{ with .Params.orcid}} 
                <a href="https://orcid.org/{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="ml-3 mr-3 text-dark fab fa-orcid"></i> </a>
@@ -30,23 +61,34 @@
                <a href="https://twitter.com/{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="text-dark fab fa-twitter"></i> </a>
             {{ end}}
            </div>
-          
+           
           <div style="max-width: 600px">
             {{- .Content -}}
           </div>
+          
+                     
+          </div>
+
         </header>
+        
+        
+        {{ if eq $paginator.PageNumber 1 }}
+          
+        {{ end }}
+          
+        {{ if  $paginator.Pages }}
+        {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
 
         <div class="col-12 justify-content-center mt-3 d-none">
           {{ template "_internal/pagination.html" . }}
         </div>        
 
+        {{ end }}
+
         {{- range $paginator.Pages  -}}
           {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
         {{ end -}}
 
-        <div class="col-12 justify-content-center mt-3 d-none">
-          {{ template "_internal/pagination.html" . }}
-        </div>
       </div>
     </div>
   </div>
