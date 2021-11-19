@@ -1,6 +1,6 @@
 ---
 title: Mere Science and Christian Faith
-description: 25 Questions Christians Want Answered
+description: Bridging the Divide With Emerging Adults
 authors:
 - cootsona
 amazon:
