@@ -88,7 +88,6 @@ taxonomies:
   series: series
   tag: tags
   author: authors
-  books: book
  
 sitemap:
   priority: 0.5

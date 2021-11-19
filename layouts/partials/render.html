@@ -2,6 +2,11 @@
 {{- $page := .Page -}}
 {{ $height := 90 }}
 {{ $width := 160 }}
+{{ $amazonimg := default nil }}
+{{ with $page.Params.amazon }}
+ {{ $amazonimg = partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg`  (index . 0) )  }}
+{{ end }}
+
 {{- $src :=  $page.Params.headerImage.Src | default site.Params.logo -}}
 
 {{- $hide := split (index . "Hide" | default "") " "  -}}
@@ -15,16 +20,24 @@
 {{- $cstyle := .CStyle | default nil }}
 
 {{- $containerclass := "p-3 text-smaller" -}}
-{{- $imageclass := "mb-1 rounded d-print-none d-block" -}}
+{{- $imageclass := "mb-1  d-print-none d-block" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
 {{- $imgeng:= "?imgeng=/w_640/h_360/m_cropbox" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
-  {{- $imageclass = "flex-shrink-0 mr-3 rounded mb-1 d-print-none rounded" -}}
+  {{- $imageclass = "flex-shrink-0 mr-3  mb-1 d-print-none rounded" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
   {{- $imgeng = "?imgeng=/w_320/h_180/" }}
 {{- end -}}
+
+{{ if eq site.Params.logo $src }}
+  {{ with $amazonimg }}
+    {{ $src = $amazonimg }}
+    {{- $imagestyle = "max-height: 200px; max-width: 120px; padding-right: 15px" }}
+    {{- $imgeng = "" }}
+  {{ end }}
+{{ end }}
 
 
 <article {{with $cstyle }}style="{{ . | safeCSS }}"{{ end }} {{with $id }}id="{{ . }}"{{ end }} class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
