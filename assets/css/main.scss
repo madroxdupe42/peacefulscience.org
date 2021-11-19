@@ -935,6 +935,10 @@ li a.footnote-backref {
 
 
 
+  @include media-breakpoint-up(md) {
+    .float-md-right {float: right}
+  }
+
 .article-grid {
 
   display: grid;
@@ -1009,8 +1013,8 @@ li a.footnote-backref {
   grid-column: 1;
   grid-row: 2;
  
-  main a {text-decoration: underline;}
-  main sup a {text-decoration: none;}
+ a {text-decoration: underline;}
+ sup a {text-decoration: none;}
 
   p, aside, figure {
 	display: block;
@@ -1030,20 +1034,17 @@ li a.footnote-backref {
   }
 
   @media print {
-    width: 60%;
+    width: 100%;
 
-//	a[href^=http]:after {
-//		content: '<' attr(href) '>';
-//	    margin-right: $spacer;
-//	    white-space: pre-wrap; 
-//	   overflow-wrap: break-all;
-//	}
+	a:after {
+		content: "";
+	}
   }
-
-
 }
 
-
+html {
+	font-size: 16px
+}
 
 
 blockquote {
