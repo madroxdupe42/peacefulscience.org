@@ -30,8 +30,8 @@
   <div class="bg-white">
     <div class="d-print-none" style="height: 80px; width: 100%"></div>
     <main>
-    <article class="article-grid pb-5">
-      <header class="article-header"  id="pageHeader">
+    <article class="article-grid pb-5 ">
+      <header class="article-header mb-5"  id="pageHeader">
         <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
           Peaceful Science
         </div>
@@ -65,14 +65,15 @@
         <h1 id="title" property="title" class="article-title mt-2">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
-
-        <div property="description" class="d-print-none  article-description mb-3">
+        
+        <div property="description" class="d-print-none  article-description mb-2">
           {{- .Description | markdownify -}}
         </div>
-
+        
         <div class="mb-2 pr-1">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
-        </div>
+
+         </div>
 
         {{- if eq "main" $headerpos -}}
           <div class="pb-2">
@@ -103,19 +104,7 @@
         {{- end -}}
 
 
-        <div class="mb-5">
-          {{ with .Params.doi }}
-            {{ $doi := . }}
-            {{ with $.Params.pdf }}
-               {{ partial "doiurl" (slice $doi ( . | absURL ) ) }}
-            {{ else }}          
-              {{ partial "doi" $doi }}
-            {{ end }}
-          {{ else }}
-            {{ with $.Params.pdf }}
-            
-            {{ end }}
-          {{ end }}
+        <div class="float-right">
           {{- range .Params.categories }}
             {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
               {{- if not (.Params.hidden | default false ) -}} 
@@ -123,8 +112,25 @@
               {{ end }}
             {{- end }}
           {{- end }}
-
+          
+        </span>
         </div>
+        
+         <div>
+          {{ with .Params.pdf }}
+            <a href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded">PDF</a>
+          {{ end }}
+          {{ with .Params.doi }}
+          <span class="ml-2 text-smaller  font-bold">
+            {{ $doi := . }}
+            {{ with $.Params.pdf }}
+               <a id="doi" target=_blank href="{{ . | absURL }}">https://doi.org/{{ $doi }}</a>
+            {{ else }}          
+               <a id="doi"  target=_blank  href="https://doi.org/{{ $doi }}">https://doi.org/{{ $doi }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+        
       </header>
       <div class="article-body pb-5">
       <div style="position:relative">
