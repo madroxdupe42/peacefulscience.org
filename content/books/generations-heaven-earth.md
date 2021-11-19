@@ -1,6 +1,8 @@
 ---
 title: The Generations of Heaven and Earth
 description: Adam, the Ancient World, and Biblical Theology
+authors:
+- jgarvey
 amazon:
 - 1532681658
 - 1532681666
