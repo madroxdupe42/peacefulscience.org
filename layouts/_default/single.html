@@ -118,10 +118,10 @@
         
          <div>
           {{ with .Params.pdf }}
-            <a href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded">PDF</a>
+            <a href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded mr-2">PDF</a>
           {{ end }}
           {{ with .Params.doi }}
-          <span class="ml-2 text-smaller  font-bold">
+          <span class="text-smaller  font-bold">
             {{ $doi := . }}
             {{ with $.Params.pdf }}
                <a id="doi" target=_blank href="{{ . | absURL }}">https://doi.org/{{ $doi }}</a>
