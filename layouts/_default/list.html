@@ -8,8 +8,9 @@
 {{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
 {{ $style := .Params.design.style | default "vertical" }}
 
-{{ $page := partial "listpages" . }}
-{{ $paginator := .Paginate $page }}
+{{ $pages := partial "listpages" . }}
+
+{{ $paginator := .Paginate $pages }}
 
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>

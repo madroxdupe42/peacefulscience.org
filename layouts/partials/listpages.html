@@ -30,6 +30,21 @@
 
 {{ $out = uniq (sort $out "Date")  }}
 
+{{ if eq .Params.design.sort "most-pages" }}
+	{{ $sorter := (slice) }}
+	{{ range $out}} 
+	  {{ $p := partial "listpages" . }}
+	  {{ $sorter = $sorter | append (dict "Page" . "Sort" (len $p) ) }}  
+	{{ end }}
+	
+	{{ with $sorter }}
+	  {{ $out =  apply (sort $sorter "Sort" "desc") "index" "." "Page" }}
+	{{ end }} 
+	
+	{{ $out = partial "sanitize_pages" $out }}
+{{ end }}
+
+
 {{ if $reversed }}
   {{ $out = $out.Reverse }}
 {{ end }}
