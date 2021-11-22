@@ -130,7 +130,7 @@
         
       </header>
       <div class="article-body pb-5">
-      <div style="position:relative">
+      <div class="article-text" style="position:relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
             <aside class="d-print-none series aside-xl-right bg-white text-smaller">
@@ -207,6 +207,7 @@
             
           {{ end }}
         {{ end }}
+        
         <aside class="mt-5 d-none d-print-block text-center expand-right editor-note">
             
             This article is available at: <br><a href="{{ .Permalink }}">{{ .Permalink }}</a>
