@@ -133,21 +133,21 @@
       <div class="article-text" style="position:relative">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
-            <aside class="d-print-none series aside-xl-right bg-white text-smaller">
+            <aside class="d-print-none series aside-xl-right bg-white text-smaller text-right">
               {{ $page := default nil }}
               
                 {{- range (partial "listpages" . ) }}
                   {{ if eq $ $page }}
-                    <p> Next in series:
+                    <p> <span class="font-weight-bold"> Next in series: </span>
                     <a  class="font-special d-block" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
                   {{ end }}
                   {{ if and (eq $ .) $page }}
-                    <p> Previous in series: 
+                    <p> <span class="font-weight-bold"> Previous  in series:</span>
                     <a class="font-special d-block" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
                   {{ end }}
                   {{ $page = . }}
                 {{ end }}  
-                <p> The full series: <a  class="font-special d-block" href="#article-series-this">{{ .Title | markdownify }}</a>
+                <p> <span class="font-weight-bold">Full series:</span> <a  class="font-special d-block" href="#article-series-this">{{ .Title | markdownify }}</a>
                 
 
             </aside>
