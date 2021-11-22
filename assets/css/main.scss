@@ -707,7 +707,7 @@ article  *:target {
     width: 100%;
     clear: both;
     position: relative;
-    border-left: 3px solid #dfdfdf;
+//    border-left: 3px solid #dfdfdf;
     @extend .p-2;
 
     ol,
@@ -744,7 +744,6 @@ article  *:target {
 
 .amazon-xl-right {
   display: block;
-  border-left: 3px solid #dfdfdf;
   iframe,
   img {
     @extend .pl-2;
@@ -754,7 +753,7 @@ article  *:target {
   margin: $spacer auto $spacer auto;
   float: none;
   position: relative;
-  width: 336px;
+  width: 200px;
   z-index: 11;
   clear: both;
 
@@ -1013,8 +1012,8 @@ li a.footnote-backref {
   grid-column: 1;
   grid-row: 2;
  
- a {text-decoration: underline;}
- sup a {text-decoration: none;}
+.article-text a {text-decoration: underline;}
+.article-text sup a {text-decoration: none;}
 
   p, aside, figure {
 	display: block;
