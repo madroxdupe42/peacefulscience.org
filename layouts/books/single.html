@@ -1,27 +1,79 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}  
+  
+  
+<style>
+.collapsible.collapsed {
+  height: 200px;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.collapsible.collapsed .collapse-overlay {
+  display: block;
+  width: 100%;
+  height: 200px;
+  top: 0px;
+  position: absolute;
+  background-image: linear-gradient(#fff0, #fffd, #ffff);
+  pointer-events: none;
+}
+
+.collapse-background {
+position: absoltue;
+height: 100%
+width: 100%
+
+}
+
+.collapsible .collapse-overlay {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.collapsible.collapsed .collapse-hide, .collapsible .collapse-show {
+  display: block;
+}
+
+.collapsible .collapse-hide, .collapsible.collapsed .collapse-show {
+  display: none;
+}
+
+</style>
+
+
 {{ end }}
 
 
 {{ define "main" }}
+
 {{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
 {{ $style := .Params.design.style | default "vertical" }}
-
 {{ $page := partial "listpages" . }}
 
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
 
-    <div class="container">
-      <div id="post-list" class="row pt-5 pb-5 ">
+    <div class="container  pt-5 pb-5 ">
+      <div class="row">
 
         <header class="row col-12 pb-5 ">
 
         <div class="col-12">
 
-         {{ with .Params.amazon }}
+         {{ with  index   .Params.amazon 0  }}
           <section class="float-md-right text-center p-3">
-            {{ partial `amazon` (index . 0)  }}
+
+
+{{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
+
+
+<a rel="sponsored" href="https://amazon.com/dp/{{  .  }}/?tag=swamidass-20" target="_blank">
+  <img src='{{ $img }}?imgeng=/w_auto,400/' 
+       style="width: 100%; height: auto" 
+       width=336 height=550 />
+</a>
             
             <div> 
 
@@ -54,16 +106,43 @@
 
         </header>
         
-        
+
           
         {{ if  $page }}
-        {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
+	        {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
+	    {{ end }}
+	
+	
+	    {{- if gt (len $page) 4 }}
+	        {{ range first 2 $page }} 
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}       
+	        {{ end }}
+	
+	        </div>
+	        
+	        <div id="post-collapse" class="row collapsible collapsed"> 
+	        {{- range after 2 $page -}}
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+	        {{ end -}}	        
 
+	        <div  class="collapse-overlay col-12">
+	        
+	           <div class=collapse-hide>
+	           <a class="btn btn-primary mx-auto position-absolute shadow" style="top: 60%; left: 50%; transform: translateX(-50%);  pointer-events: auto;" role="button" 
+	           onclick="document.getElementById('post-collapse').classList.toggle('collapsed')">Show More</a>
+	           </div>
+	           <div class=collapse-show>
+	           <a class="btn btn-primary mx-auto position-absolute shadow" style="bottom: 50%; left: 50%; transform: translateX(-50%);  pointer-events: auto;" role="button" 
+	           onclick="document.getElementById('post-collapse').classList.toggle('collapsed')">Show Less</a>
+	           </div>
+	        </div>
+	       </div>
+        
+        {{ else }}
+	        {{- range $page -}}
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+	        {{ end -}}        
         {{ end }}
-
-        {{- range $page  -}}
-          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
-        {{ end -}}
 
       </div>
     </div>
