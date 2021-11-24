@@ -16,7 +16,7 @@ headerimage:
 
 {{< footnotes2refs >}}
 
-This chapter from [*Thinking About Evolution*](/books/thinking-about-evolution/), a book published one year ago. The authors are progressive creationists at *Reasons to Believe,* who agree the Earth is old, but are skeptical of macroevolution. Still, they explain in this chapter what they would do if evolution were true. 
+This chapter is from [*Thinking About Evolution*](/books/thinking-about-evolution/), a book published one year ago. The authors are progressive creationists at *Reasons to Believe,* who agree the Earth is old, but are skeptical of macroevolution. Still, they explain in this chapter what they would do if evolution were true. 
 {.editor-note}
 
 {{% amazon `B08MYF1SL5` %}}
@@ -45,11 +45,10 @@ As Noll points out, Warfield did not assert his two views (of God’s activity t
 
 Included in these conversations are discussions about how an evolutionary paradigm of biological origins and biblical Christianity might be reconciled. At the time this book is published there will have been five meetings, one every summer since 2016, where biblical scholars, pastors, theologians, and scientists have come together to wrestle with the best ways to assess or accomplish this. These conferences are part of a larger effort known as the Creation Project at the Carl F. H. Henry Center for Theological Understanding.[^3] Dr. Rana and I have been privileged to participate each year. Much work with scholars in dialogue goes on between the conferences as well. Initiatives such as the Creation Project are and will be critical for the Christian community as theological challenges, such as those raised in chapter 5, are continually engaged.
 
-One significant work, facilitated by these and additional dialogues, is the emergence of a genealogical model of human origins[^4] that aligns with either a sequential or independent rendering of the creation accounts in Genesis 1–2 and that is in line with the range of faithful biblical exegesis. This model, championed by computational biologist and physician S. Joshua Swamidass, comports well with the genealogical emphasis in Genesis and throughout the
 
 {{< amazon `0830852638` >}}
 
-Scriptures, as well as the de novo creation of Adam and Eve. It is arguably a nontraditional interpretation, but it lays a foundation for faithful interpretations that, rightly handled, pose no threat to the central tenets of biblical Christianity. In fact, it provides a way for biblical interpretations of a historical Adam and Eve—understood as universal, genealogical ancestors for all humanity living at the time of Christ and today—to be reconciled with mainstream evolutionary science.
+One significant work, facilitated by these and additional dialogues, is the emergence of a genealogical model of human origins[^4] that aligns with either a sequential or independent rendering of the creation accounts in Genesis 1–2 and that is in line with the range of faithful biblical exegesis. This model, championed by computational biologist and physician S. Joshua Swamidass, comports well with the genealogical emphasis in Genesis and throughout the Scriptures, as well as the de novo creation of Adam and Eve. It is arguably a nontraditional interpretation, but it lays a foundation for faithful interpretations that, rightly handled, pose no threat to the central tenets of biblical Christianity. In fact, it provides a way for biblical interpretations of a historical Adam and Eve—understood as universal, genealogical ancestors for all humanity living at the time of Christ and today—to be reconciled with mainstream evolutionary science.
 
 If at some point in the future, the scientific evidence shows that evolutionary mechanisms are the mechanisms of God’s creation, then interpretive models such as the one above will fill a needed space in biblical Christian thought. Meanwhile, for those who believe that evolutionary mechanisms have already attained sufficient evidentiary support, the fruits of this model and the laboring together as Christian scholars is already vitally important.
 
