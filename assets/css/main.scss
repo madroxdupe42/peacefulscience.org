@@ -710,9 +710,9 @@ article  *:target {
 //    border-left: 3px solid #dfdfdf;
     @extend .p-2;
 
+
     ol,
     ul {
-      @extend .pl-4;
       @extend .pl-2;
       @extend .m-0;
     }
@@ -732,6 +732,12 @@ article  *:target {
       width: 50%;
       margin: 0% 0% $spacer $spacer;
     }
+
+  @include media-breakpoint-down(sm) {
+    float: none;
+   width: 100%;
+    margin: $spacer auto $spacer auto;
+  }
 
     @media print {
       float: right;
@@ -762,10 +768,7 @@ article  *:target {
     margin: $spacer auto $spacer $spacer;
   }
 
-  @include media-breakpoint-down(md) {
-    float: none;
-    margin: $spacer auto $spacer auto;
-  }
+
 
   @include media-breakpoint-up(xl) {
     float: right;
