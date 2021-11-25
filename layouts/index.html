@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row py-5 mt-5">
           <div class="col  text-center">
-            <img
+       <!--    <img
               class="d-none d-lg-inline"
               style="width: 100%; height: auto"
               alt="Peaceful Science"
@@ -61,9 +61,7 @@
               height="148"
               src="{{ `/img/design/PS-logo-long-white.svg` |  partial `imgcdn` }}
               "
-            />
-
-            <img
+            />             <img
               class="d-lg-none"
               style="width: 80%; height: auto"
               alt="Peaceful Science"
@@ -71,8 +69,21 @@
               height="150"
               src="{{ `/img/design/PS-logo-stacked-white.svg`  |  partial `imgcdn` }}"
             />
-          </div>
-                      <div class="col-12 text-center text-white text-larger">
+            
+            -->  
+            
+            
+            <div  class="d-none d-lg-inline">
+             {{ readFile `static/img/design/PS-logo-long-white.svg` | replaceRE `<.*?\?>` ""  | safeHTML }}
+            </div>
+
+            <div  class="d-lg-none mx-auto"
+              style="width: 90%; height: auto" >
+             {{ readFile `static/img/design/PS-logo-stacked-white.svg` | replaceRE `<.*?\?>` ""  | safeHTML }}
+            </div>
+
+          </div> 
+            <div class="d-none d-md-block col-12 text-center text-white text-larger mt-3">
               <h1 class="text-white ">What Does It Mean To Be Human?</h1>
             </div>
   
