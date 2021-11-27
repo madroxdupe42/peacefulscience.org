@@ -39,20 +39,21 @@ Translation is not science fiction. Making it instantaneous and perfectly accura
 {{% /image %}}
 
 
-Unlike most science fiction, [the film *Arrival**](https://en.wikipedia.org/wiki/Arrival_(film)) digs deep into matters of translation. Aliens arrive on Earth for the first time and linguist Louise Banks leads a team to establish communication with them. Learning individual vocabulary words and idioms is challenging enough without a dictionary, but Louise recognizes the possibility of even deeper problems. The aliens’ experience may be so different from ours that they think about different concepts. Do they have a notion of war? Do they distinguish between tools and weapons? These are the immediate concerns of world leaders wondering if these aliens come in peace, but Louise eventually discovers that the conceptual gulf runs deeper still.
+Unlike most science fiction, [the film *Arrival*](https://en.wikipedia.org/wiki/Arrival_(film)) digs deep into matters of translation. Aliens arrive on Earth for the first time and linguist Louise Banks leads a team to establish communication with them. Learning individual vocabulary words and idioms is challenging enough without a dictionary, but Louise recognizes the possibility of even deeper problems. The aliens’ experience may be so different from ours that they think about different concepts. Do they have a notion of war? Do they distinguish between tools and weapons? These are the immediate concerns of world leaders wondering if these aliens come in peace, but Louise eventually discovers that the conceptual gulf runs deeper still.
 {.dropcap}
+
 Even human languages don’t overlap fully in terms of the concepts they can represent. If we give it any reflection at all, we probably think of our languages as complete. Sure, maybe we need to invent new words when we invent new technologies, like the telephone or Facebook. But for regular ideas, surely we must have the words to say what needs to be said. Only, how would we talk about the things our language lacks the vocabulary to describe?
 
 
 The Germans have a very useful word: [*Weltschmerz*](https://en.wikipedia.org/wiki/Weltschmerz). Translating the parts of this compound noun into English yields "world pain" but a more faithful translation might be the feeling one experiences upon recognizing the divergence between reality and an ideal vision of the world. English lacks an equivalent word; the closest match might be Charlie Brown’s exasperated "Good grief!" But even that is more of a groan, signifying Charlie Brown is experiencing Weltschmerz without actually naming it. All languages differ in which concepts they can readily express with a single word or common idiom; even fundamental features like the number and kind of verb tenses can vary. What is easy or hard to express in a given language influences how speakers of that language talk and possibly think.
 
 Another example that might be more familiar to Bible readers is love. We can say a lot about love in English; poems, songs, and tales of love abound. Love is such a fundamental part of the human experience that we might think it would be a foundational part of any human language. In fact, the ancient Greeks had several words to differentiate experiences we lump together as love. These include the familial bond between siblings, parents, and relatives; the brotherly affection shared by comrades-in-arms; and the romantic or physical connection that we generally mean when we say one is "in love."
-{.dropcap}
+
 
  {{< amazon `1683070763` >}}   
 
 Most of the time English speakers don’t consciously experience a deficiency or limitation in their language regarding love. We blithely say "I love you, my dear" and "I love you, dad" and "I love you, man" and "I love you, delicious chimichanga" and generally everyone knows what we mean. But sometimes we don’t say "I love you" when maybe we should. Perhaps we sense our feelings for our spouse are not the same as our feelings for our children but we lack the language tools to express that nuance succinctly.
-
+{.dropcap}
 
 
 In Arrival, Louise Banks addresses this conceptual gap between her language and the aliens’ by combining written language with demonstrations. She and her team act out the words and sentences as they speak and write them. In this way, they build shared experiences with the aliens so that their communication has something to reference. Without that experience, the two parties might wind up using the same words but internally connecting them to very different concepts. As an example, she brings up the Sanskrit word गविष्टि, which some linguists translate as "an argument" while she prefers "a desire for more cows."
