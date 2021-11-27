@@ -40,7 +40,7 @@
           </section>
         {{ end }}
         
-          <h1 class="mt-2">{{ .Title }}</h1>
+          <h1 class="mt-2">{{ .Title  | markdownify }}</h1>
           {{ with .Description }}{{ . | markdownify }}{{ end }}
 
           <div class="mt-2 mb-5 pr-1">
