@@ -12,6 +12,10 @@ description: "Dr. Andy Walsh's new book is a treat. *Faith Across the Multiverse
 headerimage:
   src: /img/2018/06/Andy-4632-1.png
 title: The Axiom of Belief
+partof:
+- /books/faith-across-multiverse/
+series: faith-across-multiverse
+commenturl: https://discourse.peacefulscience.org/t/chapter-0-the-power-of-babelfish/1713
 ---
 
 
