@@ -1,24 +1,15 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}
-  <link
-    rel="preload"
-    href="{{ partial `imgcdn`  `/img/design/PS-logo-stacked-white.svg` }}"
-    as="image"
-    media="(max-width: 800px)"
-  />
 {{ end }}
 
 {{ define "background" }}
-
-  {{ $srcpng := partial "imgurl" (dict "src"  "/img/design/green-hex.svg" "loc" $.Path ) }}
-
 
   <img
     class="panimate"
     style="background-color: #030; position: fixed; z-index: -1; 
  top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
  object-position: 10% 50%;user-select: none;"
-    src="{{ $srcpng  | partial `imgcdn` }}"
+    src='data:image/svg+xml;utf8,{{ readFile `static/img/design/green-hex.svg` | replaceRE `<.*?\?>` ""  | safeHTMLAttr }}'
   />
 {{ end }}
 
@@ -37,11 +28,9 @@
 
   {{ $ai := first 2 (where $ALL ".Params.categories" "intersect" (slice "artificial-intelligence") | complement $used) }}
   {{ $used := union $used $ai }}
+  
   {{ $art := first 2 (where $ALL ".Params.categories" "intersect" (slice "art") | complement $used) }}
   {{ $used := union $used $art }}
-
-  {{ $gae := partial "getpages" .Params.Articles.Gae }}
-  {{ $used := union $used $gae }}
 
   {{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
 
