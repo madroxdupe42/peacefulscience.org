@@ -4,8 +4,7 @@
 
 {{ $resolve := partial "resolve-url" (dict "Destination" (printf "https://amazon.com/dp/%s/"  .) )}}
  
-<a href="{{- $resolve.Destination -}}{{- $resolve.Tag }}"
+<a href="{{- $resolve.Destination -}}{{- $resolve.Tag }}" target='_blank'
    {{- with $resolve.Rel }} rel='{{- . -}}' {{ end -}}
-   target='_blank'
 ><img src='{{ $img }}?imgeng=/w_auto,400/' style="width: 100%; height: auto" width=336 height=550 loading="lazy"/></a>
 
