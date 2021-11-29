@@ -2,7 +2,7 @@
 command = "hugo -b $URL"
 publish = "public/"
 
-[build.production]
+[context.production]
 command = "make production"
 
 [build.environment]
