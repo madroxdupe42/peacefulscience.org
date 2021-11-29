@@ -1,118 +1,64 @@
-{{- $dest := .Destination -}}
-{{- $dest = replace $dest `?tag=swamidass-20` `` -}}
-{{- $dest = replace $dest `tag=swamidass-20` `` -}}
-{{- $dest = replaceRE `ref=.*` `` $dest  -}}
 
-{{- with index site.Data.urlmap $dest -}}
-  {{- $dest = . -}} 
-{{- end -}}
+{{ $resolve := partial "resolve-url" . }}
+{{- $dest := $resolve.Destination -}}
 
 {{- if and (in $dest  "https://doi.org/") (not .Text )  -}}
   {{- partial "doi" $dest -}}
 {{- else -}}
 
-{{- $url := urls.Parse ( $dest | absURL ) -}}
-{{- $basehost := (urls.Parse site.BaseURL).Host -}}
 {{- $class := default nil -}}
-{{- $rel := default nil -}}
 {{- $target :=  default nil -}}
 {{- $data := default nil -}}
+{{- $tag := $resolve.Tag -}}
+{{- $rel := $resolve.Rel -}}
+{{- $tooltip := $resolve.Tooltip -}}
 
-{{- if in (slice "peacefulscience.org" $basehost) $url.Host -}}
-  {{- $path := replaceRE ".*//peacefulscience.org" "" $dest -}}
-  {{- $path := replaceRE (printf ".*//%s"  $basehost) "" $path -}}
-  {{- $path := replaceRE "/$" "" $path -}}
-  {{- with site.GetPage $path -}}
-    {{- $dest = .RelPermalink -}}
-    {{/*- warnf "Remapped internal link: %s\t%s\t%s" $.Page.File.Path ($path ) $dest -*/}}
-    
-  {{- else -}}
-    {{- if  (findRE "pdf$" $path) -}}
+{{- if eq $resolve.Type "internal" }}
+  {{- $class = "" -}}
+{{- end }}
 
-       {{- $pdf := $path -}}
-       {{- $pdffile := printf "static%s" $pdf  -}}
-       {{- $pdfdest:= printf "%s" $pdf | absURL -}}
-       {{- if fileExists $pdffile  -}}
-          {{- $dest = $pdfdest -}}  
-          {{- $class = "external-link" -}}
-       {{- else -}}
-          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $.Page.Path $pdf $pdffile -}}      
-       {{- end -}}
-    {{- else -}}
-      {{- if not (eq (substr $dest 0 1) "#") -}}
-        {{- warnf "BROKEN.LINK:\t%s\t%s" $.Page.Path $dest -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- else -}}
+{{- if eq $resolve.Type "external" }}
   {{- $class = "external-link" -}}
   {{- $rel = "noopener nofollow" -}}
   {{- $target = "_blank" -}}
-{{- end -}}
+{{- end }}
 
-{{- if eq $url.Host "discourse.peacefulscience.org" -}}
+{{- if eq $resolve.Type "pdf" }}
+  {{- $class = "external-link" -}}
+  {{- $rel = "noopener nofollow" -}}
+  {{- $target = "_blank" -}}
+{{- end }}
+
+{{- if eq $resolve.Type "forum" }}
   {{- $class = "forum-link" -}}
-{{- end -}}
+  {{- $target = "_blank" -}}
+{{- end }}
 
 {{- if not .Text -}}
   {{- warnf "EMPTY.LINK:\t%s" $.Page.Path -}}
 {{- end -}}
 
-{{- if (in $dest  "/amzn.to/")  -}}
-  {{- warnf "AMZN.LINK:\t%s\t%s" $dest $.Page.Path -}}
-{{- end -}}
-
 {{- $scratch := $.Page.Scratch -}}
 
-{{- if eq (substr .Destination 0 1) "#" -}}
-  {{ warnf "%v" .Destination }}
-  {{- $dest = .Destination }}
-  {{- $target = default nil -}}
-  {{- $class := default nil -}}
-  {{- $rel := default nil -}}
-{{- else -}}
-  {{- $dest = $dest | absURL -}}
-{{- end -}}
-
-{{- $tag := "" }}
-{{- $asin := default nil }}
-{{- if in $url.Host "amazon.com" -}}
-  {{- $tag = "?tag=swamidass-20" -}}
-  {{- $dest = printf "https://amazon.com%s/" $url.Path -}}
-  {{- $rel = "sponsored" -}}  
-  {{- $asin =  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
-  {{- if eq $asin $dest }}
-    {{- $asin = replaceRE  `.*/dp/(.*?)\?.*`  "${1}" $dest  -}}
-  {{- end }}
-  {{- if eq $asin $dest }}
-    {{- $asin = replaceRE  `.*/gp/product/(.*?)/.*`  "${1}" $dest  -}}
-  {{- end }}
-  {{- if eq $asin $dest }}
-    {{- $asin = replaceRE  `.*/gp/product/(.*?)\?.*`  "${1}" $dest  -}}
-  {{- end }}
-  
-  {{- if eq $asin $dest }}
-    {{- warnf "PARSE.ASIN\t%s\t%s" $dest -}}
-  {{- else }}
-    {{- $dest = printf "https://amazon.com/dp/%s/" $asin -}}
-    {{- $tag = "?tag=swamidass-20" }}
-  {{- end }}
-  {{- $scratch.Add "Amazon" (slice $asin) -}}
+{{- with  $resolve.Amazon }}
+  {{- $scratch.Add "Amazon" (slice .) -}}
 {{- end -}}
 
 {{- $scratch.Add "Links" (slice $dest) -}}
 {{- $num :=   ( $scratch.Get "Links" | len ) -}}
 
-
 {{- with getenv "HUGO_LINKS" -}}
   {{- warnf "LINK\t%s\t%s"  $.Page.RelPermalink $dest -}}
 {{- end -}}
 
-<a href="{{- $dest -}}{{- $tag }}"
+<span
+{{- with $tooltip }} data-tooltip-title="{{ . | plainify  }}" data-tooltip-position="top" class="tooltip"{{- end -}}
+><a href="{{- $dest -}}{{- $tag }}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
 {{- with $target }} target='{{- $target -}}'{{- end -}}
 {{- with $rel }} rel='{{- $rel -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}}
+{{- with $class }} class='{{- $class -}}'{{- end -}} 
 {{- with .Title }} title="{{- . -}}" {{- end -}}
->{{- .Text | safeHTML }}<sup class="link-ref d-none d-print-inline">{{- $num | partial "letternum"  -}}</sup></a>
+>{{- .Text | safeHTML }}<sup class="link-ref d-none d-print-inline">{{- $num | partial "letternum"  -}}</sup></a></span>
 {{- end -}}

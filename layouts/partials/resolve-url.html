@@ -1,0 +1,103 @@
+{{ $dest := .Destination }}
+{{ $location := $.Page.Path }}
+
+{{ $out := (dict ) }}
+
+{{- $dest = replaceRE `\?.*` ``  $dest  -}}
+{{- $dest = replaceRE  `tag=.*` `` $dest -}}
+
+{{- with index site.Data.urlmap $dest -}}
+  {{- $dest = . -}} 
+{{- end -}}
+
+{{- $url := urls.Parse ( $dest | absURL ) -}}
+{{- $basehost := (urls.Parse site.BaseURL).Host -}}
+{{- $type := "internal" -}}
+{{- $tag := "" }}
+{{- $asin := default nil }}
+{{- $rel := default nil }}
+{{- $tooltip := default nil }}
+
+{{- if in (slice "peacefulscience.org" $basehost) $url.Host -}}
+  {{- $path := replaceRE ".*//peacefulscience.org" "" $dest -}}
+  {{- $path := replaceRE (printf ".*//%s"  $basehost) "" $path -}}
+  {{- $path := replaceRE "/$" "" $path -}}
+  {{- with site.GetPage $path -}}
+    {{- $dest = .Permalink -}}
+    {{- $tooltip = .Title | markdownify -}}
+  {{- else -}}
+    {{- if  (findRE "pdf$" $path) -}}
+
+       {{- $pdf := $path -}}
+       {{- $pdffile := printf "static%s" $pdf  -}}
+       {{- $pdfdest:= printf "%s" $pdf | absURL -}}
+       {{- if fileExists $pdffile  -}}
+          {{- $dest = $pdfdest -}}  
+          {{- $type = "pdf" -}}
+       {{- else -}}
+          {{- warnf "BROKEN.PDF:\t%s\t%s\t%s" $location $pdf $pdffile -}}      
+       {{- end -}}   
+    {{- else -}}
+      {{- if not (eq (substr $dest 0 1) "#") -}}
+        {{- warnf "BROKEN.LINK:\t%s\t%s" $location $dest -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $type = "external" -}}
+{{- end -}}
+
+{{- if eq $url.Host "discourse.peacefulscience.org" -}}
+  {{- $type = "forum" -}}
+{{- end -}}
+
+{{- if (in $dest  "/amzn.to/")  -}}
+  {{- warnf "AMZN.LINK:\t%s\t%s" $dest $location -}}
+{{- end -}}
+
+{{- if eq (substr .Destination 0 1) "#" -}}
+  {{- $dest = $dest | absURL -}}
+  {{- $type = "hash" }}
+{{- end -}}
+
+{{- if in $url.Host "amazon.com" -}}
+  {{- $tag = "?tag=swamidass-20" -}}
+  {{- $dest = printf "https://amazon.com%s/" $url.Path -}}
+  {{- $rel = "sponsored" -}}  
+  {{- $asin =  replaceRE  `.*/dp/(.*?)/.*`  "${1}" $dest  -}}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/dp/(.*?)\?.*`  "${1}" $dest  -}}
+  {{- end }}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/gp/product/(.*?)/.*`  "${1}" $dest  -}}
+  {{- end }}
+  {{- if eq $asin $dest }}
+    {{- $asin = replaceRE  `.*/gp/product/(.*?)\?.*`  "${1}" $dest  -}}
+  {{- end }}
+  
+  {{- if eq $asin $dest }}
+    {{- warnf "PARSE.ASIN\t%s\t%s" $dest -}}
+    {{- $asin = default nil }}
+  {{- else }}
+    {{- $dest = printf "https://amazon.com/dp/%s/" $asin -}}
+    {{- $tag = "?tag=swamidass-20" }}
+    {{- $type = "external" }}
+  {{- end }}
+{{- end -}}
+
+{{- with $asin }}
+  {{- range where site.Pages ".Params.amazon" "intersect" (slice $asin) }}
+    {{- $dest = .Permalink }}
+    {{- $tag = "" }}  
+    {{- $rel = default nil }}
+    {{- $type = "internal" }}
+    {{- $tooltip = .Title |markdownify }}
+  {{ else }}
+    {{- warnf "MISSING.ASIN.PAGE:\t%s\t%s" $asin $dest -}}
+  {{- end }}
+{{- end }}
+
+{{- $out = (dict "Destination" $dest "Tag" $tag "Type" $type "Amazon" $asin  "Rel" $rel "Tooltip" $tooltip ) }}
+
+{{- return $out }}
+
