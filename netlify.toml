@@ -1,5 +1,5 @@
 [build]
-command = "hugo mod clean && hugo -b $URL"
+command = "hugo -b $URL"
 publish = "public/"
 
 [build.environment]
@@ -8,12 +8,13 @@ HUGO_ENV = "development"
 
 [context.production.environment]
 HUGO_ENV = "production"
+command = "make production"
 
 [context.branch-deploy]
-command = "hugo -b $DEPLOY_PRIME_URL"
+command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts -F"
 
 [context.deploy-preview]
-command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts"
+command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts -F"
 
 [dev]
 command =  "hugo -w --buildDrafts -F "
