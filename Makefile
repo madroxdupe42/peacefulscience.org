@@ -13,6 +13,6 @@ pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
 production:
-	hugo -b $URL
+	hugo -b ${URL}
 	-npm run algolia
 	
