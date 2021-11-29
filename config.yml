@@ -1,5 +1,4 @@
 title: "Peaceful Science"
-baseURL: "https://peacefulscience.org/"
 languageCode: "en-us"
 
 enableGitInfo: true
@@ -60,14 +59,18 @@ outputformats:
     isPlainText: true
     notAlternative: true
   precompute:
-    basename: precomptute.txt
+    basename: precompute.txt
     notAlternative: true
     weight: 1
   HTML:
     weight: 2 
+  crossref:
+    basename: "crossref"
+    mediaType: "application/xml"
+    notAlternative: true
    
 outputs:
-  home: ["precompute", "HTML", "RSS", "redir"]
+  home: ["precompute", "algolia", "HTML", "crossref", "RSS", "redir"]
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"
@@ -75,7 +78,6 @@ params:
   algolia:
     vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
     params: ["categories", "tags"]
-  headerType: none
   imagecdn: 8l2ic7fx.cdn.imgeng.in
   logo: /img/design/logo-black-square.png
 
