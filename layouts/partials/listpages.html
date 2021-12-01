@@ -28,7 +28,7 @@
 {{ end }}
 {{ $out = union $out $pages }}
 
-{{ $out = uniq (sort $out "Date")  }}
+{{ $out = uniq (sort $out "PublishDate")  }}
 
 {{ if eq .Params.design.sort "most-pages" }}
 	{{ $sorter := (slice) }}
