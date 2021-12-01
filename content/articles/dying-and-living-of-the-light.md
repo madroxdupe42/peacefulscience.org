@@ -12,7 +12,7 @@ partof:
 series: faith-across-multiverse
 headerimage:
   youtube: gJivcAAbE0A
-  src: /img/2021/12/babel-fish.png
+  src: /img/2022/01/galaxy.jpg
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
@@ -20,10 +20,18 @@ Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across
 Having discussed [entropy](https://en.wikipedia.org/wiki/Entropy) and [information](https://en.wikipedia.org/wiki/Information_theory) and their relationship to sunlight, we are now ready to consider how that informs our understanding of Jesus. To start, we go all the way back to the beginning, when the world was described as "without shape" ([Genesis 1:2](https://netbible.org/bible/Genesis+1)), which sounds an awful lot like an unstructured, high entropy state. Creation introduces asymmetry so that transformations become meaningful, the universe becomes dynamic, and life becomes possible. We don't know precisely what the very first moment of the universe looked like or how it came to be that way. The earliest state of the universe we can describe had intermediate entropy and proceeded to higher overall entropy states, which nevertheless show signs of macroscale organization.
 {.dropcap}
 
+{{% image `/img/2022/01/cmb.jpg` %}}
+The cosmic microwave background radiation [tells us the story](https://sos.noaa.gov/catalog/datasets/cosmic-microwave-background-wmap-first-year/) of the early universe in every direction.
+{{% /image %}}
+
 The key to understanding this observation is not conflating all forms of organization and actual thermodynamic entropy. The famous [cosmic microwave background radiation](https://en.wikipedia.org/wiki/Cosmic_microwave_background) actually indicates that kinetic energy was distributed symmetrically with little structure, which is not the lowest possible entropy state. With respect to mass and gravity, however, this even distribution is low in entropy because matter will tend to go from such an arrangement toward more clumps and clusters. Raising entropy with respect to gravity creates opportunities for kinetic energy to be gathered and put to further use. In other words, creation stems from a balance of the attractive force of gravity and the tendency of kinetic energy to spread everything further apart.
 
 From there, let's look at some of my favorite bits in the Bible, the first chapter of the Gospel of John. It also provides an account of the beginning of the universe, albeit in more abstract terms. "The Word was with God in the beginning. All things were created by him, and apart from him not one thing was created that has been created. In him was life, and the life was the light of mankind" ([John 1:2–4](https://netbible.org/bible/John+1)). How intriguing that the world is described as being created by the Word, or alternatively by information. As we noted earlier, processing information is a way to go from a disordered state to an ordered one, and here we see the source of that information identified as the Word of God. And then we see the connection to light and life, just as the light from the sun brings the order needed to preserve life here on Earth.
 {.dropcap}
+
+{{% image `/img/2022/01/space_sunrise.jpg` %}}
+The reason sunlight provides usable energy for sustaining life is that the sun is a [small hot spot](https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/) against an expansive cold background.
+{{% /image %}}
 
 I want to reiterate that I am not asserting that these Bible passages offer a detailed account of the exact process by which the world came to be as it is now or was then. In particular, I would expect there to be particulars of the mechanism of universe-formation that can't be directly mapped to verses or phrases from the Bible. Detailed scientific accounts, in terms we would recognize today, would have been incomprehensible to the original audience, so I wouldn't really expect to find them in the Bible. The purpose of both the Genesis and John passages is primarily to indicate that God's agency was involved; figuring out the exact details of the mechanisms he used are left as an exercise to the reader. I would expect to see general themes that can be expressed in different ways to different people at different times. Here the theme is what we need and how God provides it, and I find it striking that we can talk about that in terms of Λόγος (logos), the Greek concept rendered as "Word" in most English translations, and that we can talk about it in terms of order, information, and entropy.
 

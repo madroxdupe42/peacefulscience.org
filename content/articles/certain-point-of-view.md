@@ -12,13 +12,17 @@ partof:
 series: faith-across-multiverse
 headerimage:
   youtube: 3E9TWmE3dfI
-  src: /img/2021/12/babel-fish.png
+  src: /img/2021/12/lightspeed.jpg
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
 
 The military training of these children [in [*Ender's Game*](https://www.amazon.com/Enders-Game-Ender-Quintet-1/dp/1250773024/)] even goes so far as to remove them from Earth and train them on orbital platforms in space. A central feature of this training is the Battle Room, a zero-gravity arena where squads play capture the flag against each other to hone whatever tactical edges they can find. Ender's potential as a Battle Room warrior is initially overlooked because he is insubordinate and unimposing. But c'mon, his name's in the title of the book, so he's bound to have some unappreciated skill that will carry the day.
 {.dropcap}
+
+{{% image `/img/2021/12/endersgame.jpg` %}}
+The [battle room sequences](https://www.fxguide.com/fxfeatured/enders-game-how-dd-made-zero-g/) of the *Ender's Game* movie really captured the freedom and need for reorientation of the low gravity environment.
+{{% /image %}}
 
 Ender's most famous contribution to the Battle Room is an organizing principle: "The enemy's gate is down." Ender realized that even lateral thinking was too Earth-bound. It suggests a sideways approach to your goal within a coordinate system defined first by the up/down axis of gravity, then the forward/backward axis of movement relative to your goal. But in space, there is no strong gravitational asymmetry to orient along, so why not use your goal to define your primary axis?
 
@@ -30,6 +34,10 @@ A similar paradigm shift occurred in physics as a result of studying light. For 
 {.dropcap}
 
 Studying light, however, wound up challenging this conclusion. It's not that the calculations were being done incorrectly, but rather that the models and equations were built on assumptions (or axioms) that did not correspond to the reality of our world. First, it was observed that [light has a finite speed](https://en.wikipedia.org/wiki/Speed_of_light#Measurement). This was not immediately apparent; light travels so fast that over human scales, it might as well be instantaneous. It was only when we started studying the world on the scale of the solar system and the galaxy that we could start to observe the consequences of light traveling at finite speed. The [electromagnetic equations](https://en.wikipedia.org/wiki/Electromagnetic_wave_equation) that describe light as a wave confirm this conclusion, since a wave that is everywhere all at once is no wave at all.
+
+{{% image `/img/2021/12/lightcone.png` %}}
+The finite speed of light leads to the idea of a light cone, the region of future (or past) spacetime that can be affected by (or affect) events at a specific moment and place. (Image by Stib, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons)
+{{% /image %}}
 
 By itself, a finite speed for light is not revolutionary. However, what we also observe is that the speed of light is measured the same by everyone, regardless of how fast they are moving. The [experiments to study the æther](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) that mediates light waves that we discussed last chapter were among these observations. In addition to failing to find evidence of æther, these experiments also failed to find any evidence that the speed of light depended on relative motion the way other speeds do. This was perhaps the most famous and most significant example of the value of negative results, of knowing with precision what we don't believe about the universe. If we don't believe that the speed of light depends on relative motion, then something else about our model of physics must be wrong as well.
 

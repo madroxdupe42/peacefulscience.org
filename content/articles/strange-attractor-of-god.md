@@ -12,7 +12,7 @@ partof:
 series: faith-across-multiverse
 headerimage:
   youtube: q3kNHomvU0k
-  src: /img/2021/12/babel-fish.png
+  src: /img/2021/12/lorenz-attractor.png
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
@@ -21,6 +21,10 @@ What would this [strange attractor](https://en.wikipedia.org/wiki/Attractor#Stra
 {.dropcap}
 
 Alas, basketball hoops in reality are far less forgiving and thus we marvel at the few who can guide a ball through them consistently. The same strict requirements attend many physical activities; all the conditions must be just right to get a positive outcome. Our intuition for the more abstract trajectory of our lives is often similarly constrained. We have to go to the right college, so we can get the right job. We have to marry the one partner who completes us. Life becomes a series of make-or-break choices.
+
+{{% image `/img/2021/12/basketmoon.jpg` %}}
+Basketalls and [celestial bodies](https://pixabay.com/illustrations/moon-moonlight-night-full-moon-4919501/) like the moon both follow predictable parabolic trajectories, but other dynamics are more chaotic.
+{{% /image %}}
 
 So what would a strange attractor look like as part of the trajectory of our lives? And if we desire God to be involved in that trajectory, what would a strange attractor look like as part of his will? When we thought everything behaved like [parabolas](https://en.wikipedia.org/wiki/Parabola), then it seemed as if either God had a plan and everything was following it, in which case there was little room for free will and little need for grace and mercy, or we as humans have free will, in which case we can sin and be in need of grace and mercy, but then God's plan seems to need so many contingencies and adjustments that it becomes hard to see it as a plan at all. Obviously lots of people have come up with different ways to reconcile these various ideas, but the one that makes the most sense to me is to think of God's plan as being something like a strange attractor.
 

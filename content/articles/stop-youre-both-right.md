@@ -12,7 +12,7 @@ partof:
 series: faith-across-multiverse
 headerimage:
   youtube: TRNI9TtBM5E
-  src: /img/2021/12/babel-fish.png
+  src: /img/2021/12/circular-wave.jpg
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
@@ -20,12 +20,20 @@ Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across
 It's been roughly a century since the most recent of all these experiments was first conducted, and in all that time the most widely accepted explanation is that the nature of light encompasses both [wave properties and particle properties](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality). We can't deny the interference patterns that light creates with itself, and we can't get around the discrete or quantum behavior of light. Instead, the best way to resolve what appears to be a contradiction is to instead embrace it, and realize that our metaphors of tiny balls and water waves were both inadequate or incomplete when it comes to describing light.
 {.dropcap}
 
+{{% image `/img/2021/12/Double_slit_interference.png` %}}
+A single beam of light passing through [two parallel slits](https://en.wikipedia.org/wiki/Double-slit_experiment) generates this interference pattern, characteristic of waves. (Image by Aleksandr Berdnikov, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons)
+{{% /image %}}
+
 On the particle side, we have realized that there are other ways to get discrete behavior. Discrete entities on the subatomic level have a reality, just a different one than discrete entities on our human scale experience. On the wave side, we have found a model that can allow a wave to exist without a medium after all. It turns out that certain properties of light, and indeed of all subatomic entities, have a probability distribution, which is defined by a wave; these waves interfere with each other and change the probability of where a photon will show up in our [slit experiment](https://en.wikipedia.org/wiki/Double-slit_experiment), for example. Ultimately, we've found a feature of reality that requires us to invent a new concept and create (or really coopt) a name for it.
 
 Superhero fiction takes a similar approach to resolving its questions of dual identity. Rather than relieving the tension among the facets of their lives, many heroes redefine their roles around an integrated concept of themselves. Some come to that place early on. The [Fantastic Four](https://marvel.fandom.com/wiki/Fantastic_Four_(Earth-616)) lived publicly as superhero celebrities basically from their origin story onwards; when the world doesn't need saving, they are using their powers, their minds, and their resources to make material improvements in the world as innovators and entrepreneurs. [Jessica Drew](https://marvel.fandom.com/wiki/Jessica_Drew_(Earth-616)), a hero known as Spider-Woman, tried giving up superheroing to have a baby, only to realize her child provided extra motivation to save the world. It helps these heroes found careers that complement their costumed exploits, or perhaps chose them as part of creating a coherent self. Similarly, [Barry Allen](https://dc.fandom.com/wiki/Flash_(Barry_Allen)) upholds law and order as the Flash and as a forensic scientist for the police department and [Carol Danvers](https://marvel.fandom.com/wiki/Carol_Danvers_(Earth-616)) bridges existing military command structures and superhero teams as an Air Force colonel and Captain Marvel.
 {.dropcap}
 
 Two of my favorite superhero stories take an even deeper look at the process of self-integration with rich, multi-faceted characters. [David Haller](https://marvel.fandom.com/wiki/David_Haller_(Earth-616)) is the son of [X-Men](https://marvel.fandom.com/wiki/X-Men_(Earth-616)) founder [Professor X](https://marvel.fandom.com/wiki/Charles_Xavier_(Earth-616)), and he came into his own in the pages of [*X-Men Legacy*](https://www.amazon.com/dp/B07JX5MWCP) by Simon Spurrier, Tan Eng Huat, Craig Yeung, et al. David is written as having dissociative identity disorder; each identity has its own superpower. As the story begins, David has them imprisoned in his mind and hauls them out of their cells when he needs to exploit a given ability. Over the course of a world-saving adventure, he realizes the value of employing grace to allow the various parts of himself to integrate organically. Whether that is a viable model for dealing with a genuine mental health concern, I cannot say, but I found it a moving portrait of how to deal constructively with the multitudes we all contain.
+
+{{% image `/img/2021/12/ms_marvel.jpg` %}}
+The adventures of Kamala Khan, aka Ms Marvel, make for great comics and will be [coming to a streaming device](https://marvel.fandom.com/wiki/Kamala_Khan_(Earth-616)) near you in 2022.
+{{% /image %}}
 
 The other character is Multiple Man [Jamie Madrox](https://marvel.fandom.com/wiki/James_Madrox_(Earth-616)), the private investigator [from [*X-Factor*](https://www.amazon.com/dp/B09GXXYQJ4)] with the surplus of perspectives whom we already met in chapter 3. To get through the cases and crises, he has to learn to accept that he is somehow the sum of all of his disparate parts. Both David and Jamie go through a process of redefinition. They began with the categories they inherited from their families and from their peers in the superhero community. Reaching the limits of those categories was challenging at first, suggesting a problem with themselves. Over time, each discovers that the real problem is with the categories.
 
