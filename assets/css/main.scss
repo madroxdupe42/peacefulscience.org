@@ -936,6 +936,8 @@ max-width: calc(#{$text-overhang-width} * 2);
     object-fit: contain;
     }
   
+
+
 @include media-breakpoint-up(md) {
 
 	float: right;
@@ -948,10 +950,27 @@ max-width: calc(#{$text-overhang-width} * 2);
   }
 
 
+@media print {
+
+	float: right;
+    width: calc(max(250px, 100% - #{$spacer} - #{$text-max-width}));
+    margin-right: calc(max(0px, 100% - #{$text-max-width} - 400px - #{$spacer}));
+    max-width: 400px;
+   img {
+	    object-position: left;
+}
+  }
+
   }
 
 
 
+sup[id] + span[role="comma"] {
+}
+
+sup[id] + span[role="comma"	] + sup[id]::before {
+	content: ","
+}
 
 .amazon-xl-right {
   display: block;
@@ -995,6 +1014,7 @@ max-width: calc(#{$text-overhang-width} * 2);
     width: calc(100% - #{$spacer} - #{$text-max-width});
     margin-right: calc(max(0px, 100% - #{$text-max-width} - 550px - #{$spacer}));
     max-width: 550px;
+    min-width: 250px;
 
 }
 
