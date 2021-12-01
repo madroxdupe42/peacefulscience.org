@@ -85,6 +85,15 @@ a.doi-badge {
 }
 
 
+  @keyframes highlight {
+    0% {
+      background: #0a0;
+    }
+    100% {
+      background: reset;
+    }
+  }
+
 input[type=checkbox]::checked {
   background-color: $primary;
 }
@@ -178,7 +187,7 @@ h8 {
   page-break-after: avoid;
 };
 
-.article-body {
+.article-text {
 
 
   & h2,
@@ -602,15 +611,6 @@ label {
   padding: 0 0 0 0;
 }
 
-.expand-right {
-  @include media-breakpoint-up(xl) {
-    margin-right: -37%;
-  }
-
-  @media print {
-    margin-right: -20%;
-  }
-}
 
 
 .article-question {
@@ -660,138 +660,11 @@ figcaption {
   @extend .text-smaller;
 }
 
-
-@each $breakpoint in map-keys($grid-breakpoints) {
-
-
-  .aside-#{$breakpoint}-wide {
-    display: block;
-    margin: $spacer auto $spacer auto;
-    float: none;
-    width: 100%;
-
-    @include media-breakpoint-up($breakpoint) {
-      width: 137%;
-      margin: $spacer -37% $spacer 0px;
-    }
-    @media print {
-      width: 120%;
-      margin: $spacer -20% $spacer 0px;
-    }
-  }
-
-
-
-  @keyframes highlight {
-    0% {
-      background: #0a0;
-    }
-    100% {
-      background: reset;
-    }
-  }
-
-
-
 article .targeted,
 article  *:target {
     animation: highlight 3s;
   }
 
-
-  .aside-#{$breakpoint}-right {
-    display: block;
-    z-index: 11;
-    margin: 0% auto $spacer auto;
-    float: none;
-    width: 100%;
-    clear: both;
-    position: relative;
-//    border-left: 3px solid #dfdfdf;
-    @extend .p-2;
-
-
-    ol,
-    ul {
-      @extend .pl-2;
-      @extend .m-0;
-    }
-    img {
-      @extend .pl-2;
-      @extend .pt-2;
-    }
-
-    @include media-breakpoint-up($breakpoint) {
-      float: right;
-      width: 75%;
-      margin: 0% -37% $spacer $spacer * 2;
-    }
-
-    @include media-breakpoint-down(lg) {
-      float: right;
-      width: 50%;
-      margin: 0% 0% $spacer $spacer;
-    }
-
-  @include media-breakpoint-down(sm) {
-    float: none;
-   width: 100%;
-    margin: $spacer auto $spacer auto;
-  }
-
-    @media print {
-      float: right;
-      width: 50%;
-      margin: $spacer -20% $spacer 0px;
-    }
-  }
-}
-
-
-.amazon-xl-right {
-  display: block;
-  iframe,
-  img {
-    @extend .pl-2;
-    @extend .pb-2;
-  }
-
-  margin: $spacer auto $spacer auto;
-  float: none;
-  position: relative;
-  width: 200px;
-  z-index: 11;
-  clear: both;
-
-  @include media-breakpoint-down(lg) {
-    float: right;
-    margin: $spacer auto $spacer $spacer;
-  }
-
-
-
-  @include media-breakpoint-up(xl) {
-    float: right;
-    margin: $spacer -37%  $spacer $spacer;
-  }
-
-  @media print {
-    float: right;
-    margin: $spacer -37% $spacer 0px;
-  }
-}
-
-.hideme {
-  pointer-events: none;
-  height: 0px;
-  z-index: -100px;
-  color: transparent;
-  background: transparent;
-  user-select: none;
-  @media (print) {
-    display: none;
-  }
-}
 
 
 @keyframes grey-white-pulse {
@@ -838,14 +711,10 @@ svg:not(:root) {
 
 sup a.footnote-ref,
 li a.footnote-backref {
-
-  color: white;
+  font-weight: bold;
   text-decoration: none;
 
-  padding: 2px;
-
   &:hover {
-    color: white;
     text-decoration: none;
   }
 
@@ -861,7 +730,7 @@ li a.footnote-backref {
 }
 
 .footnote-ref {
-  background: #080;	
+  background: none;	
   @media print {
     background: none;
     padding: inherit;
@@ -941,23 +810,194 @@ li a.footnote-backref {
     .float-md-right {float: right}
   }
 
+
+
+.hideme {
+  pointer-events: none;
+  height: 0px;
+  z-index: -100px;
+  color: transparent;
+  background: transparent;
+  user-select: none;
+  @media (print) {
+    display: none;
+  }
+}
+
+
+$text-max-width: 550px;
+$text-overhang-width:  800px;
+
 .article-grid {
 
   display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 30px;
+  grid-template-columns: 0% 100%;
+  grid-column-gap: 0px;
   @media print {
     display: block;
   }
 
-
   @include media-breakpoint-up(md) {
-    grid-template-columns: calc(25% + 80px) calc(75% - 120px) auto;
+grid-column-gap: 30px;
+grid-template-columns: calc(25% + 20px) auto;
+}
+
+}
+
+
+.expand-right {
+
+  width: calc(min(#{$text-overhang-width},  100% ));
+
+}
+
+
+.article-body {
+  @extend .px-3;
+  display: block;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.article-text {	
+  max-width: calc(#{$text-overhang-width} * 2);
+  width: 100%;
+max-width: calc(#{$text-overhang-width} * 2);
+  sup a {text-decoration: none;}
+  a {text-decoration: underline;}
+
+  & > p, & > ol, & > ul, & > div {
+	width: calc( min(#{$text-max-width}, 100%));
   }
 
-  @include media-breakpoint-up(xl) {
-    grid-template-columns: calc(25% + 80px) minmax(300px, 576px) auto;
+   & > blockquote {
+	width: calc( min(#{$text-max-width}, 100%) - #{$spacer} * 1.5);
+	}
+
+  p, aside, figure {
+	page-break-inside: avoid;
   }
+
+  h2, h1, h3, h4 {
+	display: block;
+	position: relative;
+	page-break-inside: avoid;
+	page-break-after: avoid;
+	
+	@extend .expand-right;
+  }
+
+.references {
+  @extend .expand-right;
+  @extend .pt-5;
+  font-size: smaller;
+  line-height: 1.2;
+  p {
+    padding-left: 22px;
+    text-indent: -22px;
+
+    margin-bottom: 0.5em;
+  }
+
+
+}
+
+
+  .aside-xl-wide {
+   @extend .expand-right;	
+
+
+  }
+
+
+  .aside-xl-right {
+    display: block;
+    width: 100%;    
+    margin: $spacer 0% $spacer auto;
+
+
+    z-index: 11;
+    clear: both;
+    position: relative;
+    @extend .p-2;
+
+
+
+    ol,
+    ul {
+      @extend .pl-2;
+      @extend .m-0;
+    }
+
+    img {
+      @extend .pl-2;
+      @extend .pt-2;
+    object-position: center;
+    object-fit: contain;
+    }
+  
+@include media-breakpoint-up(md) {
+
+	float: right;
+    width: calc(max(250px, 100% - #{$spacer} - #{$text-max-width}));
+    margin-right: calc(max(0px, 100% - #{$text-max-width} - 400px - #{$spacer}));
+    max-width: 400px;
+   img {
+	    object-position: left;
+}
+  }
+
+
+  }
+
+
+
+
+.amazon-xl-right {
+  display: block;
+  iframe,
+  img {
+    @extend .pl-2;
+    @extend .pb-2;
+
+  }
+
+  margin: $spacer auto $spacer auto;
+
+    width: 200px;
+    margin-right: calc(max(0px, 100% - #{$text-max-width} - 200px - #{$spacer}));
+
+  float: right;
+
+  z-index: 11;
+  clear: both;
+
+
+}
+
+
+.sidenote {
+	@extend .text-smaller;
+    @extend .text-muted;
+    @extend .pl-2;
+
+	 margin: 0px 0px 8px 0px;
+	clear: both;
+	
+	ol {
+		@extend .text-smaller;
+		margin: 0px 0px 0px 0px;
+		padding-left: $spacer;
+	}
+	display: block;
+	float: right;
+    
+    width: calc(100% - #{$spacer} - #{$text-max-width});
+    margin-right: calc(max(0px, 100% - #{$text-max-width} - 550px - #{$spacer}));
+    max-width: 550px;
+
+}
+
 }
 
 .left-sidebar {
@@ -975,29 +1015,12 @@ li a.footnote-backref {
   z-index: 10;
   @extend .px-3;
   @extend .pt-3;
-  width: 100%;
-  grid-column: 1;
+  @extend .expand-right;
+  grid-column: 2;
   grid-row: 1;
   margin: $spacer auto $spacer 0px;
 
-  @include media-breakpoint-up(md) {
-    grid-column: 1 / span 2;
-  }
-
-  @include media-breakpoint-up(lg) {
-    grid-column: 2 / span 1;
-  }
-
-
-  @include media-breakpoint-up(xl) {
-    margin-right: -37%;
-    width: 137%;
-  }
-
-
-  @media print {
-    width: 75%;
-  }
+  
 }
 
 
@@ -1008,41 +1031,6 @@ li a.footnote-backref {
   width: auto;
   top: .125em;
   position: relative;}
-
-.article-body {
-  @extend .px-3;
-  display: block;
-  grid-column: 1;
-  grid-row: 2;
- 
-.article-text a {text-decoration: underline;}
-.article-text sup a {text-decoration: none;}
-
-  p, aside, figure {
-	display: block;
-	position: relative;
-	page-break-inside: avoid;
-  }
-
-  h2, h1, h3, h4 {
-	display: block;
-	position: relative;
-	page-break-inside: avoid;
-	page-break-after: avoid;
-  }
-
-  @include media-breakpoint-up(md) {
-    grid-column: 2;
-  }
-
-  @media print {
-    width: 100%;
-
-	a:after {
-		content: "";
-	}
-  }
-}
 
 html {
 	font-size: 16px
@@ -1061,19 +1049,6 @@ blockquote {
   }
 }
 
-
-.references {
-  @extend .expand-right;
-  @extend .pt-5;
-  font-size: smaller;
-  line-height: 1.2;
-  p {
-    padding-left: 22px;
-    text-indent: -22px;
-
-    margin-bottom: 0.5em;
-  }
-}
 
 
 
@@ -1360,3 +1335,4 @@ body {background: black}
   .tooltip:hover::before, .tooltip:hover::after {
     opacity: 1;
     z-index: 100; }
+
