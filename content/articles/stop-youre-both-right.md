@@ -11,7 +11,6 @@ partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
 headerimage:
-  youtube: TRNI9TtBM5E
   src: /img/2021/12/circular-wave.jpg
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
@@ -31,9 +30,7 @@ Superhero fiction takes a similar approach to resolving its questions of dual id
 
 Two of my favorite superhero stories take an even deeper look at the process of self-integration with rich, multi-faceted characters. [David Haller](https://marvel.fandom.com/wiki/David_Haller_(Earth-616)) is the son of [X-Men](https://marvel.fandom.com/wiki/X-Men_(Earth-616)) founder [Professor X](https://marvel.fandom.com/wiki/Charles_Xavier_(Earth-616)), and he came into his own in the pages of [*X-Men Legacy*](https://www.amazon.com/dp/B07JX5MWCP) by Simon Spurrier, Tan Eng Huat, Craig Yeung, et al. David is written as having dissociative identity disorder; each identity has its own superpower. As the story begins, David has them imprisoned in his mind and hauls them out of their cells when he needs to exploit a given ability. Over the course of a world-saving adventure, he realizes the value of employing grace to allow the various parts of himself to integrate organically. Whether that is a viable model for dealing with a genuine mental health concern, I cannot say, but I found it a moving portrait of how to deal constructively with the multitudes we all contain.
 
-{{% image `/img/2021/12/ms_marvel.jpg` %}}
-The adventures of Kamala Khan, aka Ms Marvel, make for great comics and will be [coming to a streaming device](https://marvel.fandom.com/wiki/Kamala_Khan_(Earth-616)) near you in 2022.
-{{% /image %}}
+{{% youtube `TRNI9TtBM5E`  `The adventures of Kamala Khan, aka Ms Marvel, make for great comics and will be [coming to a streaming device](https://marvel.fandom.com/wiki/Kamala_Khan_(Earth-616)) near you in 2022.` %}}
 
 The other character is Multiple Man [Jamie Madrox](https://marvel.fandom.com/wiki/James_Madrox_(Earth-616)), the private investigator [from [*X-Factor*](https://www.amazon.com/dp/B09GXXYQJ4)] with the surplus of perspectives whom we already met in chapter 3. To get through the cases and crises, he has to learn to accept that he is somehow the sum of all of his disparate parts. Both David and Jamie go through a process of redefinition. They began with the categories they inherited from their families and from their peers in the superhero community. Reaching the limits of those categories was challenging at first, suggesting a problem with themselves. Over time, each discovers that the real problem is with the categories.
 
