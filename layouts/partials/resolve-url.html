@@ -93,7 +93,7 @@
     {{- $type = "internal" }}
     {{- $tooltip = .Title |markdownify }}
   {{ else }}
-    {{- warnf "MISSING.ASIN.PAGE:\t%s\t%s" $asin $dest -}}
+   {{/*- warnf "MISSING.ASIN.PAGE:\t%s\t%s" $asin $dest */}}
   {{- end }}
 {{- end }}
 
