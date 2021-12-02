@@ -44,21 +44,41 @@
   {{- $scratch.Add "Amazon" (slice .) -}}
 {{- end -}}
 
-{{- $scratch.Add "Links" (slice $dest) -}}
-{{- $num :=   ( $scratch.Get "Links" | len ) -}}
+
+{{ $links := slice }}
+{{ with $scratch.Get "Links" }}
+   {{ $links = . }}
+{{ end }}
+
+{{ $num := default nil }}
+{{ if not (eq $resolve.Type "hash") }}
+  {{ $num = -1 }}
+  {{ $n := 1 }}
+  {{ range $links }}
+    {{ if eq . $dest }}
+       {{ $num = $n }}
+    {{ end }}
+    {{ $n = add $n 1 }}
+  {{ end }}
+  
+  {{ if lt $num 0 }}
+     {{ $num = $n }}
+     {{ $links = $links | append $dest }}
+  {{ end }}
+ 
+  {{- $scratch.Set "Links" $links -}}
+{{ end }}
 
 {{- with getenv "HUGO_LINKS" -}}
   {{- warnf "LINK\t%s\t%s"  $.Page.RelPermalink $dest -}}
 {{- end -}}
 
-<span
-{{- with $tooltip }} data-tooltip-title="{{ . | plainify  }}" data-tooltip-position="top" class="tooltip"{{- end -}}
-><a href="{{- $dest -}}{{- $tag }}"
+<a href="{{- $dest -}}{{- $tag }}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
 {{- with $target }} target='{{- $target -}}'{{- end -}}
 {{- with $rel }} rel='{{- $rel -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}} 
 {{- with .Title }} title="{{- . -}}" {{- end -}}
->{{- .Text | safeHTML }}<sup class="link-ref d-none d-print-inline">{{- $num | partial "letternum"  -}}</sup></a></span>
+>{{- .Text | safeHTML }}{{ with $num }}<sup class="link-ref d-none d-print-inline">[{{- . | partial "letternum"  -}}]</sup>{{end}}</a>
 {{- end -}}
