@@ -1,5 +1,16 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}
+  <style>
+  
+@page {
+   margin-bottom: 60px;		
+
+  @bottom {
+    content: flow(footer);  
+  }
+}
+  
+  </style>
 {{ end }}
 
 {{ define "main" }}
@@ -30,13 +41,13 @@
   <div class="bg-white">
     <div class="d-print-none" style="height: 80px; width: 100%"></div>
     <main>
-    <article class="article-grid pb-5 ">
-      <header class="article-header mb-5"  id="pageHeader">
+    <article class="article-grid" >
+      <header class="article-header mb-5 "  id="pageHeader">
         <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
           Peaceful Science
         </div>
 
-        {{ with .PublishDate }}
+        {{ with .Date }}
           <a
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
             rel="”nofollow”"
@@ -129,11 +140,12 @@
         </div>
         
       </header>
-      <div class="article-body pb-5">
-      <div class="article-text" style="position:relative">
+      
+      <div class="article-body  pb-print-0">
+      <div class="article-text pb-print-0 " style="position:relative;">
         {{ with  .Params.series }}
           {{ with site.GetPage ( printf "/series/%s" . ) }}
-            <aside class="d-print-none series aside-xl-right bg-white text-smaller text-right">
+            <aside class="d-print-none series aside-xl-right bg-white text-smaller mb-5 text-center">
               {{ $page := default nil }}
               
                 {{- range (partial "listpages" . ) }}
@@ -155,9 +167,11 @@
         {{ end }}
 
         {{ $content := .Content }}
-        {{ range .Scratch.Get "postproc" }}
-          {{ $content = partial . (dict "Content" $content "Page" $) }} 
+        {{ if in $content  "footnotes2refs"  }}
+          {{ $content = partial "footnotes2refs" (dict "Content" $content "Page" $) }} 
+          {{ warnf "%s\t%s" $.RelPermalink . }} 
         {{ end }}
+        
         {{ $content }}
         
         
@@ -189,7 +203,7 @@
             
               <div class="row">
               {{ partial "heading" (dict "Text" (.Title | markdownify) "Link" .Permalink  "Class" "heading-black text-decorations-none") }}
-              {{ with .Content | default .Description }}
+              {{ with .Description }}
                 <div class="col-12">
                   {{ . }}
                 </div>
@@ -258,6 +272,7 @@
     </article>
     </main>
 
+    <div class="my-5 d-print-none"> </div>
     {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
       <section
@@ -345,20 +360,58 @@
     {{ end }}
   </div>
   
-<section id="footer" class="d-none" >
-<div style="border-top: 1px solid; font-size: 10px; text-align: center;">
-<div>           
-         <img
-              style="width: auto; height: 1.2em; float: left; "
-              alt="Peaceful Science"
-              src="{{ `/img/design/PS-logo-long-black.svg`  |  partial `imgcdn` }}"
-            /></div>
+ <div style="overflow: hidden; height: 0px">
+    <div  style="flow: static(footer, start); ">
+    <div class="container bg-white" style="border-top: 1px solid black;">
+    <div class=row>
+      <div class=col-4><span class="font-special">Peaceful Science</span></div>  
+      <div class="col-4 text-center"> <span style="content: counter(page)"></span></div>
+      <div class="col-4 text-right">{{ with .Params.DOI }}<a href="https://doi.org/{{ . }}">https://doi.org/{{ . }}{{ end }}</a></div>
+    </div>
+    </div>
+    </div>
+ </div>
+ 
+ 
+<script remove>
 
-<span class="pageNumber" ></span>
+var toplevel = document.querySelectorAll(".article-text > *");
 
-<div style="float: right; font-size: smaller;">{{with .Params.doi }}doi:{{ . }}{{ else }}.Permalink{{ end }}</div>
+var footnotes = document.querySelector(".footnotes");
 
-</div>
-</section>
 
+
+if ( footnotes.querySelector("h2") === null ) {
+
+footnotes.classList.add("d-none");
+
+for (var tl of toplevel) {
+  var refs = tl.querySelectorAll(".footnote-ref");
+  
+
+  var ol = document.createElement("ol");
+  for (var ref of refs) {
+	var hash = ref.href.split("#")[1];
+	var div = document.createElement("aside");
+	var n = hash.split(":")[1];
+	var fn = document.getElementById(hash);
+
+    if (fn) {
+		var cfn = fn; 
+		if (ol.getAttribute("start") == null) {ol.setAttribute("start", n);  }
+		ol.appendChild(cfn);
+		div.classList.add("sidenote");
+		div.appendChild(ol)
+		cfn.querySelector(".footnote-backref").classList.add("d-none");
+	tl.parentElement.insertBefore( div, tl );  }
+  }
+} 
+}else {
+	
+	console.log("Found references id in footnote section");
+};
+</script>
+
+
+ 
 {{- end }}

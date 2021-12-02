@@ -14,7 +14,6 @@ $body-color-inverse: #000;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-
 // $amp-enable-rounded: false; 
 // @import "ampcssframework/scss/amp-source";
 // $grid-breakpoints: $amp-grid-breakpoints;
@@ -35,9 +34,6 @@ h3 { prince-bookmark-level: 3 }
 h4 { prince-bookmark-level: 4 }
 h5 { prince-bookmark-level: 5 }
 h6 { prince-bookmark-level: 6 }
-
-@page {
-}
 
 a.doi-badge {
   text-decoration: none;
@@ -97,7 +93,7 @@ a.doi-badge {
     }
   }
 
-input[type=checkbox]::checked {
+input[type=checkbox]:checked {
   background-color: $primary;
 }
 
@@ -203,18 +199,6 @@ h8 {
 	
 	
     margin-left: -0.5rem;
-
-    @include media-breakpoint-up(xl) {
-      margin-left: -1rem;
-      width: 137%;
-      margin: $spacer -37% $spacer -1rem;
-    }
-
-    @media print {
-      margin-left: -1rem;
-      width: 137%;
-      margin: $spacer -37% $spacer -1rem;
-    }
 
   };
 }
@@ -873,7 +857,12 @@ width: 100%;
 	width: 100%;
 	max-width: $text-max-width;
   }
-
+ 
+   & > ol, & > ul, & > blockquote {
+	width: 100%;
+	max-width: calc(#{$text-max-width} - 24px) ;
+  }
+  
    & > blockquote {
 	width: calc( min(#{$text-max-width}, 100%) - #{$spacer} * 1.5);
 	}
@@ -987,8 +976,10 @@ sup[id] + span[role="comma"	] + sup[id]::before {
 
   margin: $spacer auto $spacer auto;
 
-    width: 200px;
-    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 200px - #{$spacer})));
+    width: calc(100% - #{$spacer} - #{$text-max-width});
+    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 550px - #{$spacer})));
+    max-width: 550px;
+    min-width: 250px;
 
   float: right;
 
@@ -996,6 +987,15 @@ sup[id] + span[role="comma"	] + sup[id]::before {
   clear: both;
 
 
+    img {
+      @extend .pl-2;
+      @extend .pb-2;
+max-width: 300px;
+max-height: 300px;
+    object-position: left;
+    object-fit: contain;
+    }
+  
 }
 
 

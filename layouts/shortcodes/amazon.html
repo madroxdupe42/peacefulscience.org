@@ -2,7 +2,7 @@
 
 <aside class="amazon-xl-right">
   {{- with .Get 1  -}}
-  <figcaption>
+  <figcaption class="text-smaller">
      {{- . | $.Page.RenderString (dict "display" "inline")   -}}
   </figcaption>
   {{- end  -}}
