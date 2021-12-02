@@ -1,8 +1,8 @@
 ---
 title: William Lane Craig
 twitter: drwilliamlcraig
+wiki: https://en.wikipedia.org/wiki/William_Lane_Craig
 sameas:
-- https://en.wikipedia.org/wiki/William_Lane_Craig
 - https://hbu.edu/contact/william-lane-craig/
 - https://www.reasonablefaith.org/william-lane-craig
 ---
