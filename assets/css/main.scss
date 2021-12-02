@@ -30,10 +30,13 @@ $body-color-inverse: #000;
 	color-scheme: light;
 }
 
+h2 { prince-bookmark-level: 2 }
+h3 { prince-bookmark-level: 3 }
+h4 { prince-bookmark-level: 4 }
+h5 { prince-bookmark-level: 5 }
+h6 { prince-bookmark-level: 6 }
+
 @page {
-  size: A4;   /* auto is the initial value */ 
-
-
 }
 
 a.doi-badge {
@@ -833,6 +836,7 @@ $text-overhang-width:  800px;
   display: grid;
   grid-template-columns: 0% 100%;
   grid-column-gap: 0px;
+width: 100%;
   @media print {
     display: block;
   }
@@ -846,9 +850,8 @@ grid-template-columns: calc(25% + 20px) auto;
 
 
 .expand-right {
-
-  width: calc(min(#{$text-overhang-width},  100% ));
-
+  width: 100%;
+  max-width: $text-overhang-width;
 }
 
 
@@ -857,17 +860,18 @@ grid-template-columns: calc(25% + 20px) auto;
   display: block;
   grid-column: 2;
   grid-row: 2;
+width: 100%;
 }
 
 .article-text {	
-  max-width: calc(#{$text-overhang-width} * 2);
   width: 100%;
-max-width: calc(#{$text-overhang-width} * 2);
+
   sup a {text-decoration: none;}
   a {text-decoration: underline;}
 
-  & > p, & > ol, & > ul, & > div {
-	width: calc( min(#{$text-max-width}, 100%));
+  & > p, & > ol, & > ul, & > div, & > blockquote {
+	width: 100%;
+	max-width: $text-max-width;
   }
 
    & > blockquote {
@@ -942,7 +946,7 @@ max-width: calc(#{$text-overhang-width} * 2);
 
 	float: right;
     width: calc(max(250px, 100% - #{$spacer} - #{$text-max-width}));
-    margin-right: calc(max(0px, 100% - #{$text-max-width} - 400px - #{$spacer}));
+    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 400px - #{$spacer})));
     max-width: 400px;
    img {
 	    object-position: left;
@@ -954,7 +958,7 @@ max-width: calc(#{$text-overhang-width} * 2);
 
 	float: right;
     width: calc(max(250px, 100% - #{$spacer} - #{$text-max-width}));
-    margin-right: calc(max(0px, 100% - #{$text-max-width} - 400px - #{$spacer}));
+    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 400px - #{$spacer})));
     max-width: 400px;
    img {
 	    object-position: left;
@@ -984,7 +988,7 @@ sup[id] + span[role="comma"	] + sup[id]::before {
   margin: $spacer auto $spacer auto;
 
     width: 200px;
-    margin-right: calc(max(0px, 100% - #{$text-max-width} - 200px - #{$spacer}));
+    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 200px - #{$spacer})));
 
   float: right;
 
@@ -1012,7 +1016,7 @@ sup[id] + span[role="comma"	] + sup[id]::before {
 	float: right;
     
     width: calc(100% - #{$spacer} - #{$text-max-width});
-    margin-right: calc(max(0px, 100% - #{$text-max-width} - 550px - #{$spacer}));
+    margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 550px - #{$spacer})));
     max-width: 550px;
     min-width: 250px;
 
@@ -1260,10 +1264,12 @@ body {background: black}
 
 .tooltip {
   all:unset;
+  
   position: relative;
   cursor: pointer;
   z-index: 1050; }
   .tooltip::after {
+	display:none;
     background-color: #000;
     border-radius: 0.25rem;
     color: #fff;
