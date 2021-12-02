@@ -9,7 +9,8 @@ cascade:
     name: = title
     description: = description
     author: = authors     
-    datePublished: = date
+    datePublished: = publishdate
+    dateCreated: = date
     dateModified: = lastmod
     image: = headerimage
     publisher: = copy /jsonld/peacefulscience
