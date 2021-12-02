@@ -43,10 +43,12 @@
           <h1 class="mt-2">{{ .Title  | markdownify }}</h1>
           {{ with .Description }}{{ . | markdownify }}{{ end }}
 
-          <div class="mt-2 mb-5 pr-1">
+
+        {{ with .Params.authors }}
+        <div class="mt-2 mb-5 pr-1">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
         </div>
-
+        {{ end }}
         
           <div class="mb-3 ">
             {{ with .Params.orcid}} 
@@ -58,7 +60,10 @@
                 </a>
             {{ end}}
             {{ with .Params.twitter}} 
-               <a href="https://twitter.com/{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="text-dark fab fa-twitter"></i> </a>
+               <a href="https://twitter.com/{{ . }}" target=_blank rel=nofollow class="mr-3 text-decoration-none"><i class="text-dark fab fa-twitter"></i> </a>
+            {{ end}}
+            {{ with .Params.wiki}} 
+               <a href="{{ . }}" target=_blank rel=nofollow class="text-decoration-none"><i class="text-dark fab fa-wikipedia-w"></i> </a>
             {{ end}}
            </div>
            
