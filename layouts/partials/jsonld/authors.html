@@ -3,7 +3,7 @@
 {{ $out := (slice) }}
 
 {{ range .Page.Params.authors }}
-  {{ with site.GetPage (printf "/authors/%s" . ) }}
+  {{ with site.GetPage (printf "/authors/%s" ( . |urlize) ) }}
     {{ $args = dict "Page" . "Input" .Params.jsonld }}
     {{ $out = $out | append (partial "jsonld/jsonld" $args ) }}
   {{ end }}
