@@ -898,8 +898,7 @@ width: 100%;
 
   .aside-xl-wide {
    @extend .expand-right;	
-
-
+   img {width: 100; max-width: unset}
   }
 
 
@@ -979,7 +978,7 @@ sup[id] + span[role="comma"	] + sup[id]::before {
     width: calc(100% - #{$spacer} - #{$text-max-width});
     margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 550px - #{$spacer})));
     max-width: 550px;
-    min-width: 250px;
+    min-width: 200px;
 
   float: right;
 
@@ -1018,7 +1017,7 @@ max-height: 300px;
     width: calc(100% - #{$spacer} - #{$text-max-width});
     margin-right: calc(max(0px, calc(100% - #{$text-max-width} - 550px - #{$spacer})));
     max-width: 550px;
-    min-width: 250px;
+    min-width: 200px;
 
 }
 
