@@ -373,15 +373,15 @@
  </div>
  
  
-<script remove>
+<script render remove>
 
 var toplevel = document.querySelectorAll(".article-text > *");
 
 var footnotes = document.querySelector(".footnotes");
 
 
-
-if ( footnotes.querySelector("h2") === null ) {
+if (! footnotes === null ) {
+if (footnotes.querySelector("h2") === null ) {
 
 footnotes.classList.add("d-none");
 
@@ -407,9 +407,8 @@ for (var tl of toplevel) {
   }
 } 
 }else {
-	
-	console.log("Found references id in footnote section");
-};
+  console.log("Found references, so footnotes not to side notes")	
+};};
 </script>
 
 

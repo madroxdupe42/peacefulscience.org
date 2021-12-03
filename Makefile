@@ -1,6 +1,4 @@
-
-
-all: algolia imginfo pdfinfo 
+all: imginfo pdfinfo production
 
 algolia: 
 	hugo -e index
@@ -12,7 +10,9 @@ imginfo: static/img
 pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
+
 production:
-	hugo -b ${URL}
-	-npm run algolia
+	hugo -b https://peacefulscience.org/
+	npx code/render.js
+	npm run algolia
 	
