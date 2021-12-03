@@ -1,11 +1,8 @@
-
 const { parseHTML } = require("linkedom");
 const vm = require('vm');
 const fs = require('fs').promises;
 const fg = require('fast-glob');
 const classes = new Set();
-
-
 
 function parsedom(html) {
     const dom = parseHTML(html);
@@ -16,7 +13,6 @@ function parsedom(html) {
     });
     return dom;
 }
-
 
 async function render(html) {
  const dom = parsedom(html)
@@ -29,12 +25,11 @@ async function render(html) {
    try {vm.runInContext(elem.innerHTML, dom.context);}
    catch (e) {console.error(e.stack)};
 
- for (const elem of document.querySelectorAll("[remove]")) 
+ for (const elem of document.querySelectorAll("[remove]")) { 
    elem.remove();
-     
- return dom.toString();
+     }
+ return dom.document.toString();
 }
-
 
 async function renderall(glob) {
   const tasks = [];
@@ -43,12 +38,11 @@ async function renderall(glob) {
     tasks.push(
       fs.readFile(path)
         .then(render)
-        .then(html => fs.writeFile.bind(html, path))
+        .then(html => { return fs.writeFile(path, html) })
         .catch(console.error)
     )
   return Promise.all(tasks);
 };
-  
   
 renderall('public/**/*.html')
 .then(r => fs.writeFile("layouts/classes.html", [...classes].join(' ')))
