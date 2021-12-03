@@ -13,6 +13,6 @@ pdfinfo: static/pdf
 
 production:
 	hugo -b https://peacefulscience.org/
-	npx code/render.js
+	node code/render.js
 	npm run algolia
 	
