@@ -4,7 +4,6 @@ aliases:
 - /articles/mission-and-values/
 commenturl: "http://discourse.peacefulscience.org/t/our-mission-and-values/10208"
 description: Peaceful Science fills a unique role in the conversation, intending to support trustworthy scientists as they engage the public. 
-
 title:  Mission and Values
 ---
 
@@ -68,7 +67,7 @@ Science reshapes our understanding of the world, but it is also limited in its s
 
 ***[Scientists in Civic Life](https://discourse.peacefulscience.org/t/aaas-scientists-in-civic-life-facilitating-dialogue-based-communication/2443)*** by AAAS. The AAAS is the worlds largest association of scientists. They articulate evidence-based guidelines for engaging the public with science, advocating a trust-building model over a "knowledge-deficit" model of engagement. The data clearly indicates that it is not enough to be right, we also have to be trusted.
 
-***[Confident Pluralism](https://discourse.peacefulscience.org/t/confident-pluralism-values-for-peaceful-science/5436?u=swamidass)*** by John Inazu. Dr. Inazu is a profess of law and Director of [The Carver Project](https://www.carverstl.org/), specializing on the first amendment. This book discusses a response to a fracture society rooted in humility, tolerance, and patience, values we adopt in this document.
+***[Confident Pluralism](/books/confident-pluralism/)*** by John Inazu. Dr. Inazu is a profess of law and Director of [The Carver Project](https://www.carverstl.org/), specializing on the first amendment. This book discusses a response to a fracture society rooted in humility, tolerance, and patience, values we adopt in this document.
 
 ***[Shaping Science with Rhetoric](https://amzn.to/2VSAkZl)*** by Leah Ceccarelli. Dr. Ceccarelli is a professor of rhetoric, specializing n the rhetoric of science. This book articulates pragmatic principles in building rhetorical bridges between disciplines to foster collaboration and understanding.
 
