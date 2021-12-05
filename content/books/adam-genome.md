@@ -1,5 +1,6 @@
 ---
 title: Adam and the Genome
+description:: Reading Scripture after Genetic Science
 authors:
 - Dennis Venema
 amazon:
