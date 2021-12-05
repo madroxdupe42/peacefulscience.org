@@ -38,7 +38,7 @@ async function renderall(glob) {
     tasks.push(
       fs.readFile(path)
         .then(render)
-        .then(html => { return fs.writeFile(path, html) })
+        .then(fs.writeFile.bind(null, path))
         .catch(console.error)
     )
   return Promise.all(tasks);
