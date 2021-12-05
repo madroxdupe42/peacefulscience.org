@@ -15,7 +15,7 @@ headerimage:
 title: Reworking the Science of Adam
 ---
 
-This last year, 2017 till now, we have been reworking the science of Adam. This brings us several new ways to think about Adam and Eve in human origins. This is significant in the conversation between science and the Christian faith, as ***two*** fairly large scientific errors have been corrected.  In all these cases, it is in critique of [*Adam and the Genome*](https://peacefulscience.org/reviewing-adam-and-the-genome/) that these corrections have come into the spotlight.
+This last year, 2017 till now, we have been reworking the science of Adam. This brings us several new ways to think about Adam and Eve in human origins. This is significant in the conversation between science and the Christian faith, as ***two*** fairly large scientific errors have been corrected.  In all these cases, it is in critique of [*Adam and the Genome*](/books/adam-genome/) that these corrections have come into the spotlight.
 
 There are two important developments, and one important event, to report:
 
