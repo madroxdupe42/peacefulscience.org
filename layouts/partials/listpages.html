@@ -18,14 +18,18 @@
   {{ end }}
 {{ end }}
 
-{{ with .Params.internalref }}
-  {{ $link := . }}
+
+  {{ $link := (slice .Permalink) }}
+  {{ with .Params.internalref }}
+    {{ $link = $link | append . }}
+  {{ end }}
   {{ range site.RegularPages }}
       {{ if gt (len (intersect (.Scratch.Get "Links") $link)) 0 }}
       {{ $pages = $pages | append . }}
     {{ end }}
   {{ end }}
-{{ end }}
+
+
 {{ $out = union $out $pages }}
 
 {{ $out = uniq (sort $out "PublishDate")  }}
