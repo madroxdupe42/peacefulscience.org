@@ -17,7 +17,7 @@
 
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1  d-print-none d-block mx-auto" -}}
-{{- $imagestyle := "width: 100%; height: auto; aspect-ratio: 6 / 9;  max-width: 300px; max-height: 300px; object-fit: contain;" }}
+{{- $imagestyle := "width: auto; height: auto; aspect-ratio: 6 / 9;  max-width: min(300px, 100%); max-height: 300px;" }}
 {{- $imgeng:= "?imgeng=/h_auto,360/" }}
 
 {{- if eq  $style  "horizontal" -}}
