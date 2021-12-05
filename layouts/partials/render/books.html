@@ -54,8 +54,8 @@
 	
 	{{ if not $rendered }}
 	  <a href="{{$page.Permalink}}">   
-	  <img class="{{- $imageclass -}}" property="image" style="{{ $imagestyle | safeCSS }}" 
-	  src="{{ $src  | partial `imgcdn` }}{{ $imgeng }}" alt="{{ .Title | htmlEscape }}"
+	  <img class="{{- $imageclass -}} shadow" property="image" style="{{ $imagestyle | safeCSS }}" 
+	  src="{{ $src  | partial `imgcdn` }}{{ $imgeng }}" alt="{{ .Title | htmlEscape }}" 
 	  {{- if not (in $hide "lazy") }} loading="lazy" {{- end }}>
 	  </a>
 	{{ end }} 
