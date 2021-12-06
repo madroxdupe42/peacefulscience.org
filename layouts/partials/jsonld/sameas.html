@@ -16,6 +16,15 @@
   {{ $out = $out | append . }} 
 {{ end }}
 
+{{ with .Page.Params.amazon }}
+  {{ range . }}
+    {{ $out = $out | append (printf "https://amazon.com/dp/%s/" .) }} 
+  {{ end }}
+{{ end }}
+
+{{ with .Page.Params.isbn }}
+  {{ $out = $out | append (printf "http://www.worldcat.org/isbn/%s" .) }} 
+{{ end }}
 
 {{ with .Page.Params.doi }}
   {{ $out = $out | append (printf "https://doi.org/%s" .) }} 

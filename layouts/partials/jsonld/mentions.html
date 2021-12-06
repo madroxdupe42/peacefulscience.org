@@ -1,0 +1,15 @@
+{{ $out := default nil }}
+{{ $base :=  printf `%s` site.BaseURL }}
+
+{{ with .Page.Scratch.Get "Links" }}
+   {{ $out = slice }}
+   {{ range . }}
+     {{ if hasPrefix . $base  }}
+        {{ $out = $out | append ( dict "@id" . ) }}
+     {{ else }}
+        {{ $out = $out | append ( dict "url" .  "@id" .) }}
+     {{ end }}
+   {{ end }}
+{{ end }}
+
+{{ return $out }}

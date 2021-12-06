@@ -13,6 +13,7 @@ cascade:
     dateCreated: = date
     dateModified: = lastmod
     image: = headerimage
+    mentions: = mentions
     publisher: = copy /jsonld/peacefulscience
     sameas: = sameas
     about: = about
