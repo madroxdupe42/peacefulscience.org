@@ -77,6 +77,10 @@ More recently these findings have been confirmed by Ola Hössjer and Ann Gauger,
 
 first couple dating to about 2 mya and (2) a model featuring a heterozygous first couple who lived about 500 kya ago. Thus, they conclude, given common assumptions shared by evolutionary geneticists, a single-couple origin is possible, despite claims to the contrary.
 
+{{% amazon-caption `080287911X` %}}
+This article was refined and included Craig's book, *In Quest of the Historical Adam**.
+{{% /amazon-caption %}}
+
 So while a recent bottleneck is ruled out by the genetic divergence exhibited by today's human population, a bottleneck before 500 kya is possible, in which case the founding pair would be the common ancestors of *Homo sapiens*, Denisovans, and Neanderthals. "The dust has yet to settle on the scientific details," says Swamidass, "But it looks likely at this point that a bottleneck anytime before 700 kya is undetectable in genetic data."[^12] Such a date well within the range of our proposed classification of Adam as Heidelberg Man.
 
 After extended discussion with Buggs, Swamidass, and others, Venema came to acknowledge in 2019 the failure of his arguments against a single couple origin. "Based on some new simulations and some other published studies that we drew on, our group came to an agreement -- that if an event like this had happened, we would be able to detect it if it happened more recently than 500,000 years ago. That was surprising to me, to be sure -- I thought beforehand that an event like that would show up even further back in time."[^13]
