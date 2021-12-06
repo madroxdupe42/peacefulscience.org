@@ -3,7 +3,6 @@
 
 {{ $out := (dict ) }}
 
-{{- $dest = replaceRE `\?.*` ``  $dest  -}}
 {{- $dest = replaceRE  `tag=.*` `` $dest -}}
 
 {{- with index site.Data.urlmap $dest -}}
