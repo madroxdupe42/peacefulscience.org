@@ -204,7 +204,7 @@
               <div class="row">
               {{ partial "heading" (dict "Text" (.Title | markdownify) "Link" .Permalink  "Class" "heading-black text-decorations-none") }}
               {{ with .Description }}
-                <div class="col-12">
+                <div class="col-12 py-3">
                   {{ . }}
                 </div>
               
@@ -404,6 +404,12 @@ for (var tl of toplevel) {
 	tl.parentElement.insertBefore( div, tl );  }
   }
 }};
+var ss = document.querySelectorAll("sup[id] + sup[id]");
+
+for (var s of ss) 
+  if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
+    s.parentElement.insertBefore(document.createElement("span"), s);
+  
 </script>
 
 
