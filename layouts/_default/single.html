@@ -169,7 +169,6 @@
         {{ $content := .Content }}
         {{ if in $content  "footnotes2refs"  }}
           {{ $content = partial "footnotes2refs" (dict "Content" $content "Page" $) }} 
-          {{ warnf "%s\t%s" $.RelPermalink . }} 
         {{ end }}
         
         {{ $content }}
