@@ -34,7 +34,7 @@ async function docraptor(url) {
 }
 
 async function prince(url) {
-  tfile = os.tmpdir()+"output.pdf";
+  tfile = os.tmpdir()+"/output.pdf";
   let p = Prince();
   p.config.binary = "./prince";
   
