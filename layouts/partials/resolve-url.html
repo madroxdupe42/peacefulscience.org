@@ -3,12 +3,17 @@
 
 {{ $out := (dict ) }}
 
-{{- $dest = replaceRE `\?.*` ``  $dest  -}}
 {{- $dest = replaceRE  `tag=.*` `` $dest -}}
+{{- $dest = replaceRE  `\/$` `` $dest -}}
 
 {{- with index site.Data.urlmap $dest -}}
   {{- $dest = . -}} 
 {{- end -}}
+
+{{- with index site.Data.urlmap ( printf "%s/" $dest ) -}}
+  {{- $dest = . -}} 
+{{- end -}}
+
 
 {{- $url := urls.Parse ( $dest | absURL ) -}}
 {{- $basehost := (urls.Parse site.BaseURL).Host -}}
@@ -49,6 +54,8 @@
 
 {{- if eq $url.Host "discourse.peacefulscience.org" -}}
   {{- $type = "forum" -}}
+  {{- $dest = replaceRE `\?.*` `` $dest }}  
+  {{- $dest = replaceRE `discourse.peacefulscience.org/t/.*?/` `discourse.peacefulscience.org/t/_/` $dest }}  
 {{- end -}}
 
 {{- if (in $dest  "/amzn.to/")  -}}
@@ -93,11 +100,12 @@
     {{- $type = "internal" }}
     {{- $tooltip = .Title |markdownify }}
   {{ else }}
-    {{- warnf "MISSING.ASIN.PAGE:\t%s\t%s" $asin $dest -}}
+   {{/*- warnf "MISSING.ASIN.PAGE:\t%s\t%s" $asin $dest */}}
   {{- end }}
 {{- end }}
 
 {{- $out = (dict "Destination" $dest "Tag" $tag "Type" $type "Amazon" $asin  "Rel" $rel "Tooltip" $tooltip ) }}
+
 
 {{- return $out }}
 

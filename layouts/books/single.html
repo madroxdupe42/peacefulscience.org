@@ -62,22 +62,21 @@ width: 100%
 
         <div class="col-12">
 
-         {{ with  index   .Params.amazon 0  }}
+         {{ with  index  .Params.amazon 0  }}
           <section class="float-md-right text-center p-3">
-
-
 {{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
 
 
 <a rel="sponsored" href="https://amazon.com/dp/{{  .  }}/?tag=swamidass-20" target="_blank">
   <img src='{{ $img }}?imgeng=/w_auto,400/' 
        style="width: 100%; height: auto" 
-       width=336 height=550 />
+       width=336 height=550 
+       class="shadow"/>
 </a>
             
             <div> 
 
-            <a class="btn btn-dark mt-3" href="https://amazon.com/dp/{{ index . 0 }}/?tag=swamidass-20" target=_blank rel=sponsored>Purchase <span class="fa-stack">
+            <a class="btn btn-dark mt-3" href="https://amazon.com/dp/{{ . }}/?tag=swamidass-20" target=_blank rel=sponsored>Purchase <span class="fa-stack">
  <i class="fas fa-circle fa-stack-2x"></i>
   <i class="fab fa-amazon fa-stack-1x text-dark "></i>
             </span></a>

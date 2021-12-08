@@ -3,16 +3,13 @@
 
 {{- $class := .Get 1 | default "aside-xl-right" -}}
 
-<figure class="{{ $class }}">
-
-<img 
+<figure class="{{ $class }}"><img 
     src='{{ partial `imgcdn` $src }}?imgeng=/w_auto,800/'
     loading="lazy" 
-    style="width: 100%; height: auto"
+    style="width: 100%; height: auto; max-height: 400px; "
     {{-  with (index site.Data.imgsize $src)  }} height="{{ .height  }}" width="{{ .width  }}"{{ end -}}
 >
-
-<figcaption class="text-smaller text-muted p-2">
+<figcaption class="text-smaller text-muted" style="padding-top: 0">
    {{ .Inner }}
 </figcaption>
 </figure>

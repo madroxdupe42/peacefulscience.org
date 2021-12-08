@@ -6,7 +6,7 @@ publish = "public/"
 command = "make production"
 
 [build.environment]
-HUGO_VERSION = "0.89.0"
+HUGO_VERSION = "0.89.4"
 HUGO_ENV = "development"
 
 [context.production.environment]

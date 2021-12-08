@@ -20,7 +20,7 @@ A year ago, yesterday, BioLogos[^1] quietly deleted an article, from 2010, publi
 
 The claims made in the 2010 article, however, went far beyond the evidence. The authors claimed conflict between science and traditional readings of Scripture where there was none.
 
-Still, this article would come to have an outsized influence. Dennis Venema was one of the scientists who authored this article. In *Adam and the Genome* (2017), Venema recounts how the claims in this article were presented to a larger audience.
+Still, this article would come to have an outsized influence. Dennis Venema was one of the scientists who authored this article. In [*Adam and the Genome*](/books/adam-genome/) (2017), Venema recounts how the claims in this article were presented to a larger audience.
 
 > Asked how likely it is that we all descended from Adam and Eve, Dennis Venema, a biologist at Trinity Western University, replies: "That would be against all the genomic evidence that we've assembled over the last 20 years, so not likely at all."
 >

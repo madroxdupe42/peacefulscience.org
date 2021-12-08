@@ -7,6 +7,7 @@ design:
   sort: most-pages
 cascade:
   rss: false
+  notnews: true
   design:
     style: horizontal
     layout: "col-12 col-lg-6"
@@ -17,10 +18,10 @@ cascade:
     name: = title
     description: = description
     author: = authors
-    datePublished: = date
     image: = headerimage
     sameas: = sameas
     about: = about
+    isbn: = isbn
     isAccessibleForFree: true
     mainEntityOfPage: 
       "@type": WebPage

@@ -54,6 +54,12 @@
 {{ end }}
 
 
+{{ with .Params.notnews }}
+  {{ if . }}
+   <meta name="Googlebot-News" content="noindex, nofollow">
+  {{ end }}
+{{ end }}
+
 {{ $amazonimg := default nil }}
 {{ with .Params.amazon }}
  {{ $amazonimg = partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg`  (index . 0) )  }}
@@ -93,9 +99,24 @@
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
 
-<style>
+
+{{/*
+{{ $style := resources.Get "css/tw.css"  | resources.PostCSS  }}
+<style source="{{ $style.Permalink }}">
+  {{ $style.Content | safeCSS }}
+</style>
+{{ end}}
+*/}}
+
+
+{{ $style := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.PostCSS  }}
+<style source="{{ $style.Permalink }}">
+  {{ $style.Content | safeCSS }}
+</style>
+
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
-{{ $style.Content | safeCSS }}
+<style source="{{ $style.Permalink }}">
+  {{ $style.Content | safeCSS }}
 </style>
 
 

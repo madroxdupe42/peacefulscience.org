@@ -36,7 +36,7 @@ All these stories raise distinct theological questions. I'll enumerate them late
 
 ## Story One: Sole-Genetic Progenitorship
 
-This story unfolded in the comments of a blog, in conversation between Richard Buggs, Dennis Venema, and three other scientists. In early 2017, Dennis Venema and Scot McKnight published *Adam and the Genome*. New knowledge was uncovered and we owe it all to Richard Buggs.
+This story unfolded in the comments of a blog, in conversation between Richard Buggs, Dennis Venema, and three other scientists. In early 2017, Dennis Venema and Scot McKnight published [*Adam and the Genome*](/books/adam-genome/). New knowledge was uncovered and we owe it all to Richard Buggs.
 
 {{< image `/img/2018/07/Richard_Buggs.jpg` `aside-xl-wide`  >}}
 {{< /image >}}

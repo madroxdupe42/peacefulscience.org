@@ -112,7 +112,7 @@ Craig, William Lane. 2021. In Quest of the Historical Adam: A Biblical and Scien
 
 Enns, Peter. 2012. The Evolution of Adam: What the Bible Does and Doesn't Say about Human Origins. Baker Books.
 
-Garvey, Jon. 2020. The Generations of Heaven and Earth: Adam, the Ancient World, and Biblical Theology. Wipf and Stock Publishers.
+Garvey, Jon. 2020. [The Generations of Heaven and Earth: Adam, the Ancient World, and Biblical Theology](/books/generations-heaven-earth/). Wipf and Stock Publishers.
 
 Giberson, Karl. 2008. Saving Darwin: How to Be a Christian and Believe in Evolution. Harper Collins.
 
@@ -130,7 +130,7 @@ Lamoureux, Denis O. 2013. "No Historical Adam: Evolutionary Creation View." in F
 
 Loke, Andrew Ter Ern. 2016. "Reconciling Evolution and Biblical Literalism: A Proposed Research Program." Theology and Science 14(2):160--74. doi: 10.1080/14746700.2016.1156328.
 
-McKnight, Scot, and Dennis R. Venema. 2017. Adam and the Genome: Reading Scripture after Genetic Science. Brazos Press.
+McKnight, Scot, and Dennis R. Venema. 2017. [Adam and the Genome: Reading Scripture after Genetic Science](/books/adam-genome/). Brazos Press.
 
 Middleton, J. Richard. 2017. "Humans as Imago Dei and the Evolution of Homo Sapiens -- Articles." BioLogos. Retrieved November 14, 2020 (https://biologos.org/articles/humans-as-imago-dei-and-the-evolution-of-homo-sapiens/).
 
@@ -140,7 +140,7 @@ Reeves, Michael. 2011. "Adam and Eve." in Should Christians Embrace Evolution?: 
 
 Sanford, John, Robert Carter, Wes Brewer, John Baumgardner, Bruce Potter, and Jon Potter. 2018. "Adam and Eve, Designed Diversity, and Allele Frequencies." The Proceedings of the International Conference on Creationism 8(1):200--216. doi: 10.15385/jpicc.2018.8.1.20.
 
-Swamidass, S. Joshua. 2019. The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry. InterVarsity Press.
+Swamidass, S. Joshua. 2019. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](/books/genealogical-adam-eve). InterVarsity Press.
 
 Walton, John H. 2015. The Lost World of Adam and Eve: Genesis 2-3 and the Human Origins Debate. InterVarsity Press.
 

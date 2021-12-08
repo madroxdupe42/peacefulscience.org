@@ -12,4 +12,8 @@
   {{ $jsonld = merge $jsonld  . }}
 {{ end }}
 
+{{ with index .Params "jsonld-extend" }}
+  {{ $jsonld = merge $jsonld  . }}
+{{ end }}
+
 {{ return $jsonld }}
