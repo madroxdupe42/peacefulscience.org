@@ -19,8 +19,7 @@ crossref:
 	echo curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
 
 princehack:
-	wget https://www.princexml.com/download/prince-14.2-aws-lambda.zip
-	unzip prince-14.2-aws-lambda.zip
+	mkdir prince && cd prince && wget -q https://www.princexml.com/download/prince-14.2-aws-lambda.zip && unzip prince-14.2-aws-lambda.zip
 
 production: princehack
 	npm run tailwind

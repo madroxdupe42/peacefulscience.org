@@ -36,7 +36,7 @@ async function docraptor(url) {
 async function prince(url) {
   tfile = os.tmpdir()+"output.pdf";
   let p = Prince();
-  p.config.binary = "prince-engine/bin/prince";
+  p.config.binary = "prince/prince-engine/bin/prince";
   
   return await p
     .inputs(url)
