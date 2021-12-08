@@ -20,7 +20,7 @@ crossref:
 
 princehack:
 	wget https://www.princexml.com/download/prince-14.2-aws-lambda.zip
-        unzip prince-14.2-aws-lambda.zip
+	unzip prince-14.2-aws-lambda.zip
 
 production: princehack
 	npm run tailwind
