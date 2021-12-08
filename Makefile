@@ -24,7 +24,7 @@ princehack: prince-14.2-aws-lambda.zip
 prince-14.2-aws-lambda.zip:
 	wget -q https://www.princexml.com/download/prince-14.2-aws-lambda.zip
 
-ifeq ($(PRINCE),"./prince")
+ifeq ($(PRINCE),./prince)
 production: princehack
 else
 production:
