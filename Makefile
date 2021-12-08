@@ -18,14 +18,19 @@ pdfinfo: static/pdf
 crossref:
 	echo curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
 
-princehack:
+princehack: prince-14.2-aws-lambda.zip
+	unzip -q -o prince-14.2-aws-lambda.zip
+
+prince-14.2-aws-lambda.zip:
 	wget -q https://www.princexml.com/download/prince-14.2-aws-lambda.zip
-	unzip prince-14.2-aws-lambda.zip
 
 production: princehack
 	npm run tailwind
 	hugo -b https://peacefulscience.org/ --minify	
 	node code/render.js
+
+princeclean:
+	rm -rf `zipinfo -1  prince-14.2-aws-lambda.zip`
 
 hugo-watch:
 	hugo -w 
