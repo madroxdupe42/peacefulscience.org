@@ -24,7 +24,11 @@ princehack: prince-14.2-aws-lambda.zip
 prince-14.2-aws-lambda.zip:
 	wget -q https://www.princexml.com/download/prince-14.2-aws-lambda.zip
 
+ifeq ($(PRINCE),"./prince")
 production: princehack
+else
+production:
+endif
 	npm run tailwind
 	hugo -b https://peacefulscience.org/ --minify	
 	node code/render.js
