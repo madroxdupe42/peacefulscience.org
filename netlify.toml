@@ -1,3 +1,7 @@
+[functions]
+directory = "functions"
+node_bundler = "esbuild"
+
 [build]
 command = "hugo -b $URL"
 publish = "public/"
@@ -8,6 +12,7 @@ command = "make production"
 [build.environment]
 HUGO_VERSION = "0.89.4"
 HUGO_ENV = "development"
+AWS_LAMBDA_JS_RUNTIME = "nodejs12.x"
 
 [context.production.environment]
 HUGO_ENV = "production"
@@ -19,6 +24,6 @@ command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts -F"
 command = "hugo -b $DEPLOY_PRIME_URL --buildDrafts -F"
 
 [dev]
-command =  "hugo -w --buildDrafts -F "
+command =  "make -j 10 dev"
 framework = "#static"
 publish = "./public/"
