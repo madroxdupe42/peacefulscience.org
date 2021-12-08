@@ -95,8 +95,7 @@
               {{ $headerclass := "" }}
               {{- with .youtube }}
                 {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
-              {{- else -}}
-                {{ $headerclass = "d-none d-print-block" }}
+                 {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
                 <img 
                   src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,1200/"
