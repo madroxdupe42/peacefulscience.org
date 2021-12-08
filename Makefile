@@ -1,3 +1,8 @@
+ifneq (,$(wildcard ./.env))
+    include .env
+    export
+endif
+
 all: imginfo pdfinfo production
 
 algolia: 
@@ -10,9 +15,26 @@ imginfo: static/img
 pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
+crossref:
+	echo curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
 
-production:
-	hugo -b https://peacefulscience.org/
+princehack:
+	cd node_modules/prince && sed -i '' 's/Extract/extract/g' prince-npm.js && sed -i '' 's/prince\/lib/lib/g' prince-api.js && node ./prince-npm.js install
+
+production: princehack
+	npm run tailwind
+	hugo -b https://peacefulscience.org/ --minify	
 	node code/render.js
-	npm run algolia
-	
+
+hugo-watch:
+	hugo -w 
+
+tailwind-watch:
+	npm run tailwind
+	fswatch  -0 -o -r layouts sources/tailwind.css | xargs -0 -n1 -I{} npm run tailwind
+
+dev:
+	echo built
+	sleep 100000
+
+dev1: hugo-watch tailwind-watch 

@@ -1,7 +1,7 @@
 [functions]
 directory = "functions"
 node_bundler = "esbuild"
-included_files = ["node_modules/prince/**"]
+included_files = ["node_modules/prince/prince/lib/prince/**"]
 
 [build]
 command = "hugo -b $URL"
