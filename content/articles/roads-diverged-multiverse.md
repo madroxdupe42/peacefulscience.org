@@ -11,8 +11,8 @@ partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
 headerimage:
-  youtube: FGP4KIkr2ls
   src: /img/2021/12/parallel-world.jpg
+  credit: Image by [geralt-9301](https://pixabay.com/users/geralt-9301/)
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
