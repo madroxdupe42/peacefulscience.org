@@ -3,8 +3,9 @@ const util = require("util");
 
 exports.handler =  async function(event, context) {
 
+
   return await gotScraping
-    .get(`https://amazon.com/dp/{{ event.queryStringParameters.asin }}`)
+    .get(`{{ event.queryStringParameters.url }}`)
     .then(function ({body}) {    
      return {    
       statusCode: 200,
