@@ -71,7 +71,7 @@ outputformats:
   print:
     mediaType: "text/html"
     notAlternative: true
-    path: .prince
+    path: _prince
     isPlainText: false
     isHTML: true
     permalinkable: false

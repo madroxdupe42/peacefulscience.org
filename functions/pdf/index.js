@@ -75,7 +75,7 @@ exports.handler =  async function(event, context) {
     let route = event.path.toLowerCase().split("/");
     let path = route.slice(route.indexOf("pdf")+1, -1);
         
-    let url = urljoin(baseurl, ".prince", path.join("/"));
+    let url = urljoin(baseurl, "_prince", path.join("/"));
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
