@@ -5,7 +5,7 @@ exports.handler =  async function(event, context) {
 
 
   return await gotScraping
-    .get(`{{ event.queryStringParameters.url }}`)
+    .get(event.queryStringParameters.url)
     .then(function ({body}) {    
      return {    
       statusCode: 200,
