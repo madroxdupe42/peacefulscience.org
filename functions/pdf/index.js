@@ -6,7 +6,7 @@ var os = require('os');
 var fs = require('fs');
 const Prince = require('prince');
 
-const baseurl = "https://peacefulscience.org";
+const baseurl = "https://peacefulscience.org/.prince";
 
 async function docraptor(url) {
     const docraptor = "https://" + process.env.DOCRAPTOR + "@docraptor.com/docs";
@@ -59,7 +59,7 @@ async function prince(url, name) {
         "x-frame-options": 'SAMEORIGIN',
         "x-permitted-cross-domain-policies": 'none',
         "Content-Disposition": `filename="${name}"`,
-        "Cache-Control": "max-age: 259200, stale-while-revalidate=604800" // 3 days, 7 days
+        "Cache-Control": "max-age: 0, stale-while-revalidate=604800" // 0 days, 7 days
       }
     }         
         
