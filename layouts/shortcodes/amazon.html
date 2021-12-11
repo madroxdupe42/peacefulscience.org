@@ -1,6 +1,6 @@
 {{ $.Page.Scratch.Add "Amazon" (slice (.Get 0) ) }}
 
-<aside class="amazon-xl-right">
+<aside class="amazon-xl-right mb-3">
   {{- with .Get 1  -}}
   <figcaption class="text-smaller">
      {{- . | $.Page.RenderString (dict "display" "inline")   -}}

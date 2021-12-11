@@ -73,6 +73,10 @@
   {{- warnf "LINK\t%s\t%s"  $.Page.RelPermalink $dest -}}
 {{- end -}}
 
+{{ if  (eq $dest "") }}
+  {{ warnf "EMPTYDEST:\t%s\t%s" .Page.RelPermalink .Destination }}
+{{ end }} 
+
 <a href="{{- $dest -}}{{- $tag }}"
 {{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
 {{- with $target }} target='{{- $target -}}'{{- end -}}
@@ -80,5 +84,5 @@
 {{- with $class }} class='{{- $class -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}} 
 {{- with .Title }} title="{{- . -}}" {{- end -}}
->{{- .Text | safeHTML }}{{ with $num }}<sup class="link-ref d-none d-print-inline">[{{- . | partial "letternum"  -}}]</sup>{{end}}</a>
+>{{- .Text | safeHTML }}{{ with $num }}<sup class="link-ref d-none">[{{- . | partial "letternum"  -}}]</sup>{{end}}</a>
 {{- end -}}

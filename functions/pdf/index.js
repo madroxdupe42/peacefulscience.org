@@ -33,11 +33,14 @@ async function docraptor(url) {
     }    
 }
 
-async function prince(url) {
-  tfile = os.tmpdir()+"/output.pdf";
+async function prince(url, name) {
+  let tfile = os.tmpdir()+"/output.pdf";
   let p = Prince();
+  
   if (process.env.PRINCE) {
     p.config.binary = process.env.PRINCE;
+  } else {
+    p.config.binary = "/usr/local/bin/prince"
   }
   
   return await p
@@ -55,6 +58,8 @@ async function prince(url) {
       headers: {
         "x-frame-options": 'SAMEORIGIN',
         "x-permitted-cross-domain-policies": 'none',
+        "Content-Disposition": `filename="${name}"`,
+        "Cache-Control": "max-age: 259200, stale-while-revalidate=604800" // 3 days, 7 days
       }
     }         
         
@@ -63,14 +68,18 @@ async function prince(url) {
         statusCode: 500,
         body: util.inspect(error)
       }
-    })
-  
+    }) 
 }
 
 exports.handler =  async function(event, context) {
-
-    let url = urljoin(baseurl, event.path.split("/").slice(2).join("/"));
-
-    return prince(url);
+    let route = event.path.toLowerCase().split("/");
+    let path = route.slice(route.indexOf("pdf")+1, -1);
+        
+    let url = urljoin(baseurl, path.join("/"));
+    let title = path.slice(-1)[0];
+    let section = path.slice(-2)[0];
+    let name = `PS${section}-${title}.pdf`
+    
+    return prince(url, name);
 
 }

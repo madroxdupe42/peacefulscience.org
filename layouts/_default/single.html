@@ -1,16 +1,5 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}
-  <style>
-  
-@page {
-   margin-bottom: 60px;		
-
-  @bottom {
-    content: flow(footer);  
-  }
-}
-  
-  </style>
 {{ end }}
 
 {{ define "main" }}
@@ -38,14 +27,11 @@
 
   {{ $headerpos :=  .Params.headerImage.Position | default "main" }}
  
-  <div class="bg-white">
+  <div class="">
     <div class="d-print-none" style="height: 80px; width: 100%"></div>
     <main>
     <article class="article-grid" >
       <header class="article-header mb-5 "  id="pageHeader">
-        <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
-          Peaceful Science
-        </div>
 
         {{ with .Date }}
           <a
@@ -279,7 +265,7 @@
     {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
       <section
-        class="mt-5 py-5 comment-block d-print-none bg-white"
+        class="mt-5 py-5 bg-gradient-to-t  from-gray-300 d-print-none"
         style="z-index:4"
       >
         <div class="container">
@@ -363,19 +349,6 @@
     {{ end }}
   </div>
   
- <div style="overflow: hidden; height: 0px">
-    <div  style="flow: static(footer, start); ">
-    <div class="container bg-white" style="border-top: 1px solid black;">
-    <div class=row>
-      <div class=col-4><span class="font-special">Peaceful Science</span></div>  
-      <div class="col-4 text-center"> <span style="content: counter(page)"></span></div>
-      <div class="col-4 text-right">{{ with .Params.DOI }}<a href="https://doi.org/{{ . }}">https://doi.org/{{ . }}{{ end }}</a></div>
-    </div>
-    </div>
-    </div>
- </div>
- 
- 
 <script render remove>
 var toplevel = document.querySelectorAll(".article-text > *");
 
