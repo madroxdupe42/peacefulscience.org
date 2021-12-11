@@ -6,7 +6,7 @@ var os = require('os');
 var fs = require('fs');
 const Prince = require('prince');
 
-const baseurl = "https://peacefulscience.org/.prince";
+const baseurl = "https://peacefulscience.org/";
 
 async function docraptor(url) {
     const docraptor = "https://" + process.env.DOCRAPTOR + "@docraptor.com/docs";
@@ -75,7 +75,7 @@ exports.handler =  async function(event, context) {
     let route = event.path.toLowerCase().split("/");
     let path = route.slice(route.indexOf("pdf")+1, -1);
         
-    let url = urljoin(baseurl, path.join("/"));
+    let url = urljoin(baseurl, ".prince", path.join("/"));
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
