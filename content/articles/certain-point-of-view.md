@@ -11,8 +11,8 @@ partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
 headerimage:
-  youtube: 3E9TWmE3dfI
   src: /img/2021/12/lightspeed.jpg
+  credit: Image by [Quangpraha](https://pixabay.com/photos/da-lat-vietnam-street-car-mountain-4136346/)
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
@@ -20,11 +20,9 @@ Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across
 The military training of these children [in [*Ender's Game*](https://www.amazon.com/Enders-Game-Ender-Quintet-1/dp/1250773024/)] even goes so far as to remove them from Earth and train them on orbital platforms in space. A central feature of this training is the Battle Room, a zero-gravity arena where squads play capture the flag against each other to hone whatever tactical edges they can find. Ender's potential as a Battle Room warrior is initially overlooked because he is insubordinate and unimposing. But c'mon, his name's in the title of the book, so he's bound to have some unappreciated skill that will carry the day.
 {.dropcap}
 
-{{% image `/img/2021/12/endersgame.jpg` %}}
-The [battle room sequences](https://www.fxguide.com/fxfeatured/enders-game-how-dd-made-zero-g/) of the *Ender's Game* movie really captured the freedom and need for reorientation of the low gravity environment.
-{{% /image %}}
-
 Ender's most famous contribution to the Battle Room is an organizing principle: "The enemy's gate is down." Ender realized that even lateral thinking was too Earth-bound. It suggests a sideways approach to your goal within a coordinate system defined first by the up/down axis of gravity, then the forward/backward axis of movement relative to your goal. But in space, there is no strong gravitational asymmetry to orient along, so why not use your goal to define your primary axis?
+
+{{% youtube `3E9TWmE3dfI`  `The [battle room sequences](https://www.fxguide.com/fxfeatured/enders-game-how-dd-made-zero-g/) of the *Ender's Game* movie really captured the freedom and need for reorientation of the low gravity environment.` %}}
 
 This reorientation of the Battle Room helped his squad in several ways. Advancing toward their goal suddenly seems as natural as falling down. They now have a common reference system in an environment that did not readily offer one. The soldiers were freed from thinking about their movement in earthbound terms that created artificial restrictions irrelevant to space combat. By comparison, think about how the large ships in [Star Wars](https://starwars.fandom.com/wiki/Imperial_I-class_Star_Destroyer) or [Star Trek](https://memory-alpha.fandom.com/wiki/USS_Enterprise_(NCC-1701)) often engage each other the way naval vessels would, as if there is still a plane in space that everything must move along like the one defined by the surface of the oceans.
 
