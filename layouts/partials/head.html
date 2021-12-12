@@ -43,7 +43,7 @@
 <meta name="prism.publicationName" content="Peaceful Science"/>
 <meta name="citation_journal_title" content="Peaceful Science"/>
 
-{{ with .Params.pdf }}
+{{ with partial "getpdf.html" . }}
     <meta name="citation_pdf_url" content="{{ . }}"/>
 {{ end }}    
     

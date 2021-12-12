@@ -58,7 +58,7 @@ async function prince(url, name, canurl) {
       headers: {
         "x-frame-options": 'SAMEORIGIN',
         "x-permitted-cross-domain-policies": 'none',
-        "Content-Disposition": `filename="${name}"`,
+        "Content-Disposition": `attachment, filename="${name}"`,
         "Cache-Control": "max-age=86400, stale-while-revalidate=86400" ,// 0 days, 7 days
         "Link": `<${canurl}>; rel="canonical"`
       }
