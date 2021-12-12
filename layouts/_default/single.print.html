@@ -1,0 +1,506 @@
+{{ define "head" }}
+ 
+{{ $style := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.PostCSS  }}
+<style source="{{ $style.Permalink }}">
+  {{ $style.Content | safeCSS }}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM Plex Sans" rel="stylesheet">
+<style>  
+{{ warnf "PRINT" }}
+
+@page {
+prince-shrink-to-fit: none;
+  @bottom {
+    content: flow(footer);  
+  }
+  
+  margin-left: 0px;
+  margin-right: 0px;
+  page: letter;
+
+    @footnotes {
+        border-top: solid black thin;
+        padding-top: 0pt;
+        margin-top: 1rem; 
+        margin-left: -1rem; 
+        padding-left: 2rem;
+        list-style-position: inside
+    }
+    
+}
+
+@page:first {
+  
+  margin-top: 0; 
+  
+
+}
+
+
+h1 { prince-bookmark-level: 1 }
+h2 { prince-bookmark-level: 2 }
+h3 { prince-bookmark-level: 3 }
+h4 { prince-bookmark-level: 4 }
+h5 { prince-bookmark-level: 5 }
+h6 { prince-bookmark-level: 6 }
+  
+body {
+  font-family:
+         'IBM Plex Sans', 'Open Sans'
+       
+}
+
+@font-face {
+  font-family: "AlverataSb";
+  src:  url("/font/alveratasb-webfont.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+.displayfootnote::footnote-marker {
+    padding-right: 10pt
+}
+
+.font-special  {
+  font-family: AlverataSb;
+}
+
+h1, h2, h3, h4, h5, h6 ,h7 {
+  font-family: AlverataSb;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  width: var(--text-width-expand);
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+li {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+li p {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 ,h7 {
+  margin-left: -1rem;
+  
+}
+
+ol, ul {
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
+
+li {
+  width: calc(100% - 2em);
+  widows: 2;
+  orphans:2 ;
+}
+
+html {
+  font-size: 12px;
+  line-height: 1.375;
+  --text-width: 100%;
+  --margin-width: 100%;
+  --text-width-expand: 100%;
+}
+
+.article-text img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+figure {
+ padding: 0;
+}
+figure img {
+width: auto !important;
+  max-height: 300px !important;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  min-width: unset;
+  min-height: unset;
+  object-fit: contain;
+}
+
+.main .amazon-xl-right img {
+  max-height: 300px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+   padding: none;
+}
+
+
+h1 {font-size: 2rem}
+h2 {font-size: 1.3rem}
+h3 {font-size: 1.1rem}
+
+.main {
+  font-size: 11px;
+}
+
+.article-text > * {
+  width: var(--text-width);
+}
+
+.article-text > .expand-right {
+  width: var(--text-width-expand);
+}
+
+.main header img {
+  width: var(--text-width-expand) !important;
+  max-width: unset;
+  height: auto;
+  max-height: 400px;
+}
+
+.article-text
+{  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+aside, figure {
+   page-break-inside: avoid;
+}
+.aside-xl-right, .amazon-xl-right {
+  float: column-top;
+  margin: 0;
+  padding: 0;
+  margin-top: 0rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  margin-bottom: 1rem;
+  border-bottom: solid black thin;
+  clear: both;
+  font-size: 9px;
+  
+}
+
+ .aside-xl-wide {
+  margin: 0;
+  padding: 0;
+  margin-top: 0rem;
+  padding-bottom: 0.5rem;
+   border-bottom: solid black thin;
+   border-top: solid black thin;
+     font-size: 9px;
+ }
+
+
+.footnote {
+float: footnote;
+  font-size: 9px;
+  margin-top: 0.5em;
+}
+
+.d-print-none, .d-none, .footnote-backref {
+ display: none;
+}
+
+.d-print-block {
+ display: block;
+}
+
+.editor-note {
+  background: #dfdfdf;
+  padding: 1rem;
+  max-width: calc(100% - 3rem);
+  margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    float: column-bottom;
+   border-bottom: none;
+}
+
+
+.link-list-link {
+text-decoration:none;
+
+}
+
+.authors i.fab {
+  margin-left: 0.25rem;
+}
+
+figcaption{
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
+ }
+
+blockquote {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+sup {
+  font-size: 0.6em;
+}
+
+sup a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+}
+.link-ref {
+  display: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.main  header {
+ width: 100% !important;
+ 
+}
+
+.inline {
+  display: inline;
+}
+
+.article-text .references, .article-text .footnotes {
+  font-size: 10px;
+  width: 100% !important;
+}
+
+p:not(.editor-note) + .dropcap {
+ padding-top: 2em;
+
+}
+
+p {
+  widows: 2;
+  orphans: 2;
+}
+
+.article-text > p:not(.editor-note):first-of-type::first-letter,
+.dropcap::first-letter {
+  font-family: AlverataSb;
+
+  margin: 0;
+  font-size: 3em;
+  padding: 0 0 0 0;
+  line-height: 12px;
+  
+}
+
+
+.article-text > p:not(.editor-note):first-of-type,
+.dropcap {
+text-indent: -1rem;
+}
+
+ .references p {
+    padding-left: 22px;
+    text-indent: -22px;
+    margin-top: 2rem;
+    margin-bottom: 0.5em;
+  }
+
+.references, .footnotes {
+  column-span: all;
+  line-height: 1.2;
+    margin-top: 2rem;
+    
+       column-count: 2;
+   column-gap: 3rem;
+}
+
+.footnotes > h2 , .references> h2 {
+  column-span: all;
+
+}
+
+.references > p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.article-text {
+   column-count: 2;
+   column-gap: 3rem;
+}
+
+.margins {
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+}
+
+</style>
+ 
+
+
+{{ end }}
+
+{{ define "main" }}
+
+         {{ $url := .Permalink }}
+         {{ with .Params.DOI }}
+          {{ $url = printf "https://doi.org/%s" . }}
+         {{ end }}
+      
+
+<div style="position: relative; padding-top: 2em; padding-bottom: 2em; margin-bottom: 2em; color: white">
+<img src="https://peacefulscience.org/img/design/green-hex.svg" style="z-index: -2; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover">
+
+<div style="z-index: -1; background-image: linear-gradient(to right, black, black, #0000, #000a, #0000); position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover"></div>
+
+<div class="margins" style="display: flex;  align-items: center;">
+<div style="font-size: 16px;">
+<span class="font-special" style="padding-right: 0.5rem; border-right: solid white 1px">
+ Peaceful Science</span><span 
+ class="" style="padding-left: 0.5rem; flex-grow: 1; font-weight: 300; ">{{.Section | title }}
+</span>
+</div>
+<div style="flex-grow: 3">
+</div>
+<div style="font-size: 8px; text-align: right;">
+
+{{ $lastmod := .Lastmod }}
+{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
+  {{ $lastmod = .Date }}
+{{ end }}
+{{ .Date.Format "Jan 2, 2006" }} <br>
+{{ .PublishDate.Format "Jan 2, 2006" }}  <br>
+{{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }}
+</div>
+
+<div style="font-size: 8px; text-align: left;  padding-left: 0.5rem;">
+published   <br>
+online  <br>
+last modified <br>
+accessed
+</div>
+<div style="flex-grow: 1"></div>
+</div>
+
+</div>
+<div class="main ">
+
+
+
+
+
+<header class="margins">
+
+        <h1 id="title" property="title" class="article-title mt-2">
+          {{- .Params.page_title | default .Title | markdownify -}} 
+        </h1>
+        
+        <div class="authors" style="margin-bottom: 1em">
+          {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
+         </div>
+         
+          <div class="doi">
+            <a id="doi"  target=_blank  href="{{ $url }}">{{ $url }}</a>
+          </div>
+       
+</header>
+<div class="article-text margins" style="margin-top: 0.5in">
+        {{ $content := .Content }}
+        {{ if in $content  "footnotes2refs"  }}
+          {{ $content = partial "footnotes2refs" (dict "Content" $content "Page" $) }} 
+        {{ end }}
+        
+        {{ $content }}
+        
+        
+        {{ partial "linklist" . }}
+        
+
+        
+        
+</div>
+
+
+
+    <div  style="flow: static(footer, start)">
+    <div class="margins" style="border-top: 1px solid black;display: flex">
+
+      <div class="" style="font-size:10px; flex-grow: 1"> <span style="content: counter(page)"></span></div>
+      <div style="text-align: right;flex-grow: 1">
+
+         {{ with $url }} <a  class="no-underline" style="font-size:9px" href="{{ . }}">{{ . }}</a> |{{ end }}
+        <span class="font-special">Peaceful Science</span>
+      
+      </div>
+    </div>
+    </div>
+
+ 
+
+ 
+<script render remove>
+var toplevel = document.querySelectorAll(".article-text > *");
+
+var footnotes = document.querySelector(".footnotes");
+
+
+if (footnotes !== null && footnotes.querySelector("h2") === null ) {
+
+footnotes.classList.add("d-none");
+
+  var refs = document.querySelectorAll(".footnote-ref");
+  var div = document.createElement("aside");
+  div.classList.add("sidenote");
+
+  
+  
+  for (var ref of refs) {
+	  
+	
+	var hash = ref.href.split("#")[1];
+
+	var n = hash.split(":")[1];
+	var fn = document.getElementById(hash);
+
+    if (fn) {
+      var R = document.createElement('span');
+      R.classList.add("footnote");
+      R.innerHTML = fn.closest("li").querySelector("p").innerHTML;
+      var refp = ref.closest("sup");
+      refp.parentElement.replaceChild(R, refp);
+    } 
+}};
+
+
+
+
+var fc = document.querySelectorAll("figcaption");
+
+if (fc !== null) {
+  for (var f of fc)
+   f.parentElement.appendChild(f);
+};
+
+var ss = document.querySelectorAll("sup[id] + sup[id]");
+
+for (var s of ss) 
+  if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
+    s.parentElement.insertBefore(document.createElement("span"), s);
+  
+</script>
+
+
+{{ end }}

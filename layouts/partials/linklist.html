@@ -12,12 +12,12 @@
 {{ else }}
 
 {{ with .Scratch.Get "Links" }}
-  <section class="references d-none d-print-block">
+  <section class="references d-none d-print-block link-list">
     <h2>{{ $title }}</h2>
 
-    <ol type="a">
+    <ol style="list-style: none">
     {{ range . }}
-      <li> <a href="{{ . }}" rel="nofollow" target="_blank">{{ . }}</a>
+      <li style="text-indent: -2em;"> <a class="link-list-link"   href="{{ . }}" rel="nofollow" target="_blank">{{ . }}</a>
     {{end}}
     </ol>
   </section>

@@ -106,13 +106,12 @@
   {{ $style.Content | safeCSS }}
 </style>
 {{ end}}
-*/}}
-
 
 {{ $style := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">
   {{ $style.Content | safeCSS }}
 </style>
+*/}}
 
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">

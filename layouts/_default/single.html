@@ -1,16 +1,5 @@
 {{ define "head" }}
   {{ partial "jsonld" . }}
-  <style>
-  
-@page {
-   margin-bottom: 60px;		
-
-  @bottom {
-    content: flow(footer);  
-  }
-}
-  
-  </style>
 {{ end }}
 
 {{ define "main" }}
@@ -43,9 +32,6 @@
     <main>
     <article class="article-grid" >
       <header class="article-header mb-5 "  id="pageHeader">
-        <div class="d-print-block d-none mb-5 font-special" style="font-size: 2em" property="publisher">
-          Peaceful Science
-        </div>
 
         {{ with .Date }}
           <a
@@ -92,18 +78,22 @@
 
               {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
 
+              {{ $headerclass := "" }}
               {{- with .youtube }}
+                 <div class="d-print-none">
                 {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
-              {{- else -}}
+                </div>
+                 {{ $headerclass = "d-none d-print-block" }}
+              {{- end -}}              
                 <img 
                   src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,1200/"
-                  class="webfeedsFeaturedVisual"
+                  class="webfeedsFeaturedVisual {{ $headerclass }}"
                   style="width: 100%; height: auto"
                   {{- with (index site.Data.imgsize $src) }}
                     width="600" height="{{ div (mul .height 600) .width }}"
                   {{ end -}}
                 />
-              {{- end -}}
+
 
             {{- end -}}
             {{- with .Params.headerImage.Credit }}
@@ -129,7 +119,7 @@
         
          <div>
           {{ with .Params.pdf }}
-            <a href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded mr-2">PDF</a>
+            <a class="d-print-none" href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded mr-2">PDF</a>
           {{ end }}
           {{ with .Params.doi }}
           <span class="text-smaller  font-bold">
@@ -275,7 +265,7 @@
     {{ if not (in  .Params.design.hide "joinconversation" ) }}
 
       <section
-        class="mt-5 py-5 comment-block d-print-none bg-white"
+        class="mt-5 py-5 bg-gradient-to-t  from-gray-300 d-print-none"
         style="z-index:4"
       >
         <div class="container">
@@ -359,19 +349,6 @@
     {{ end }}
   </div>
   
- <div style="overflow: hidden; height: 0px">
-    <div  style="flow: static(footer, start); ">
-    <div class="container bg-white" style="border-top: 1px solid black;">
-    <div class=row>
-      <div class=col-4><span class="font-special">Peaceful Science</span></div>  
-      <div class="col-4 text-center"> <span style="content: counter(page)"></span></div>
-      <div class="col-4 text-right">{{ with .Params.DOI }}<a href="https://doi.org/{{ . }}">https://doi.org/{{ . }}{{ end }}</a></div>
-    </div>
-    </div>
-    </div>
- </div>
- 
- 
 <script render remove>
 var toplevel = document.querySelectorAll(".article-text > *");
 
