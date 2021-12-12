@@ -14,13 +14,14 @@
      {{- with site.GetPage "page" $path }}
   <posted_content>
        <contributors>
+         {{- $first := true }}
          {{- range .Params.authors }}
            {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .))  }}
              {{- $name := split .Title " "}}
-           <person_name contributor_role="author">
+           <person_name contributor_role="author"  sequence="{{ if $first }}first{{else}}additional{{ $first = false }}{{ end }}" >
              <given_name>{{ delimit (first (sub (len $name) 1) $name) " " }}</given_name>
              <surname>{{ index (last 1 $name) 0 }}</surname>
-             {{ with .Params.orcid }}<ORCID>{{ . }}</ORCID>{{ end }}
+             {{ with .Params.orcid }}<ORCID>https://orcid.org/{{ . }}</ORCID>{{ end }}
            </person_name>
            {{- end }}
          {{- end }}
@@ -29,8 +30,8 @@
          <title>{{ .Title }}</title>
        </titles>
        <posted_date media_type="online">
+         <month>{{ .Date.Format "1" }}</month>
          <day>{{ .Date.Format "02" }}</day>
-         <month>{{ .Date.Format "01" }}</month>
          <year>{{ .Date.Format "2006" }}</year>
        </posted_date>
        <doi_data>
