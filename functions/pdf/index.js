@@ -33,7 +33,7 @@ async function docraptor(url) {
     }    
 }
 
-async function prince(url, name) {
+async function prince(url, name, canurl) {
   let tfile = os.tmpdir()+"/output.pdf";
   let p = Prince();
   
@@ -59,7 +59,8 @@ async function prince(url, name) {
         "x-frame-options": 'SAMEORIGIN',
         "x-permitted-cross-domain-policies": 'none',
         "Content-Disposition": `filename="${name}"`,
-        "Cache-Control": "max-age: 0, stale-while-revalidate=604800" // 0 days, 7 days
+        "Cache-Control": "max-age=86400, stale-while-revalidate=86400" ,// 0 days, 7 days
+        "Link": `<${canurl}>; rel="canonical"`
       }
     }         
         
@@ -76,10 +77,11 @@ exports.handler =  async function(event, context) {
     let path = route.slice(route.indexOf("pdf")+1, -1);
         
     let url = urljoin(baseurl, "_prince", path.join("/"));
+    let canurl = urljoin(baseurl, path.join("/"));
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
     
-    return prince(url, name);
+    return prince(url, name, canurl);
 
 }
