@@ -1,12 +1,25 @@
 {{ $args := default nil }}
 {{ $jsonld := default nil }}
+{{ $locator :=  (index .Input  0 ) }}
 
-{{ with (site.GetPage  (index .Input  0 )) }}
+{{ with (site.GetPage  $locator ) }}
   {{ $jsonld = partial "jsonld-template" . }}
   {{ $args = dict "Page" . "Input" $jsonld }}
   {{ $jsonld = (partial "jsonld/jsonld" $args ) }}
 {{ else }}
-  {{ warnf "JSONLD-COPY: %s" (index .Input 0 ) }}
+  {{ with (site.GetPage "jsonld" ) }}
+  
+    {{ $loc := strings.TrimSuffix "/" $locator }}
+    {{ $loc = strings.TrimPrefix "/jsonld/" $loc }}
+    {{ $loc = printf "%s.md" $loc }}
+    {{ with index (.Resources.Match $loc) 0 }}
+       {{ $jsonld = partial "jsonld-template" . -}}
+       {{ $args = dict "Page" . "Input" $jsonld }}
+       {{ $jsonld = (partial "jsonld/jsonld" $args ) }}
+    {{ else}}
+      {{ warnf "JSONLD-COPY: %s" $locator }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 {{ return $jsonld }}
