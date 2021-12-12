@@ -9,11 +9,38 @@
     <registrant>Peaceful Science</registrant>
   </head>
   <body>
-  {{- range site.Pages }}
-    {{- $doi := .Params.DOI | default "" }}
-    {{- if hasPrefix  $doi "10." }}
-      
-    {{- end }}
+  {{- range $path, $doi := site.Data.doi  }}
+     {{- $path = replaceRE `/$` `` $path   }}
+     {{- with site.GetPage "page" $path }}
+  <posted_content>
+       <contributors>
+         {{- range .Params.authors }}
+           {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .))  }}
+             {{- $name := split .Title " "}}
+           <person_name contributor_role="author">
+             <given_name>{{ delimit (first (sub (len $name) 1) $name) " " }}</given_name>
+             <surname>{{ index (last 1 $name) 0 }}</surname>
+             {{ with .Params.orcid }}<ORCID>{{ . }}</ORCID>{{ end }}
+           </person_name>
+           {{- end }}
+         {{- end }}
+       </contributors>
+       <titles>
+         <title>{{ .Title }}</title>
+       </titles>
+       <posted_date media_type="online">
+         <day>{{ .Date.Format "02" }}</day>
+         <month>{{ .Date.Format "01" }}</month>
+         <year>{{ .Date.Format "2006" }}</year>
+       </posted_date>
+       <doi_data>
+         <doi>{{ $doi }}</doi>
+         <resource>{{ printf "https://peacefulscience.org%s" $path }}</resource>
+       </doi_data>
+  </posted_content>
+     {{- else }}
+       {{- warnf "CROSSREF.PAGE:\t%s" $path }}
+     {{- end }}
   {{- end }}
   </body>
 </doi_batch>
