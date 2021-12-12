@@ -355,7 +355,7 @@ text-indent: -1rem;
 {{ define "main" }}
 
          {{ $url := .Permalink }}
-         {{ with .Params.DOI }}
+         {{ with partial "getdoi" .  }}
           {{ $url = printf "https://doi.org/%s" . }}
          {{ end }}
       

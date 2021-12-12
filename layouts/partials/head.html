@@ -72,7 +72,7 @@
 {{- end }}
 
 
-{{ with .Params.DOI }}
+{{ with partial "getdoi" . }}
   {{- $doi := replaceRE "https://doi.org/" "" . -}}
   {{- $doi := replaceRE "http://doi.org/" "" $doi -}}
   {{- $url := printf "https://doi.org/%s" $doi -}}
@@ -106,12 +106,13 @@
   {{ $style.Content | safeCSS }}
 </style>
 {{ end}}
+*/}}
 
 {{ $style := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">
   {{ $style.Content | safeCSS }}
 </style>
-*/}}
+
 
 {{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">

@@ -3,6 +3,8 @@ ifneq (,$(wildcard ./.env))
     export
 endif
 
+.PHONY: crossref
+
 all: imginfo pdfinfo production
 
 algolia: 
@@ -16,7 +18,8 @@ pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
 crossref:
-	echo curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
+	xmllint  --schema  crossref/schemas/crossref5.3.1.xsd  public/crossref.xml   --noout
+	curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
 
 princehack: prince-14.2-aws-lambda.zip
 	unzip -q -o prince-14.2-aws-lambda.zip
