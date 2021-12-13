@@ -119,7 +119,7 @@
         
          <div>
           {{ with partial "getpdf" . }}
-            <a href='{{ . | absURL }}' target=_blank class="d-print-none text-smaller badge badge-secondary rounded mr-2" download>PDF</a>
+            <a href='{{ . | absURL }}' target=_blank class="d-print-none text-smaller badge badge-secondary rounded mr-2">PDF</a>
           {{ end }}
           {{ with partial "getdoi" . }}
           <span class="text-smaller  font-bold">
