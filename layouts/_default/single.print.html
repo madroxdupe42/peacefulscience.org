@@ -410,7 +410,7 @@ accessed
 <div class="margins header">
   {{ with .Params.headerimage }}
      <div style="float: right; margin-left: 1rem; margin-bottom: 16px">
-    <img src="{{ .src }}" style=" max-width: 250px; max-height: 250px; height: auto; width: auto;">
+    <img src="{{ .src | partial "imgcdn" }}" style="max-width: 250px; max-height: 250px; height: auto; width: auto;">
     {{ with .Credit }}
     <div style="display: block; font-size: 8px; text-align: right">
       {{ $page.RenderString . }}
