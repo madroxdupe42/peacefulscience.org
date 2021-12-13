@@ -18,7 +18,6 @@ headerimage:
   credit: Credit  [The Christianity Today article on The Genealogical Adam and Eve](https://www.christianitytoday.com/ct/2020/january-web-only/genealogical-adam-eve-evolution-joshua-swamidass.html).
 title: Is evolutionary science in conflict with Adam and Eve?
 doi: 10.5281/zenodo.5590470
-pdf: /pdf/articles/evolution-adam-eve.pdf
 ---
 
 Is evolutionary science in conflict with Adam and Eve?

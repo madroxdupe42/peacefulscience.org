@@ -16,7 +16,6 @@ categories:
 - theology
 - science
 doi: 10.5281/zenodo.5655440
-pdf: /pdf/articles/may-scientists-care-adam-eve.pdf
 commenturl: https://discourse.peacefulscience.org/t/_/14474
 ---
 
