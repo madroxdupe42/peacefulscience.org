@@ -77,7 +77,7 @@ More recently these findings have been confirmed by Ola Hössjer and Ann Gauger,
 first couple dating to about 2 mya and (2) a model featuring a heterozygous first couple who lived about 500 kya ago. Thus, they conclude, given common assumptions shared by evolutionary geneticists, a single-couple origin is possible, despite claims to the contrary.
 
 {{% amazon-caption `080287911X` %}}
-This article was refined and included within Craig's book, *In Quest of the Historical Adam**.
+This article was refined and included within Craig's book, *In Quest of the Historical Adam*.
 {{% /amazon-caption %}}
 
 So while a recent bottleneck is ruled out by the genetic divergence exhibited by today's human population, a bottleneck before 500 kya is possible, in which case the founding pair would be the common ancestors of *Homo sapiens*, Denisovans, and Neanderthals. "The dust has yet to settle on the scientific details," says Swamidass, "But it looks likely at this point that a bottleneck anytime before 700 kya is undetectable in genetic data."[^12] Such a date well within the range of our proposed classification of Adam as Heidelberg Man.
@@ -98,9 +98,9 @@ Published here with permission, this is the transcript of a Defenders class by D
 {.editor-note}
 
 
-[^1]:  This how the term is used by Dennis Venema and others who press argument (1) (Dennis R. Venema and Scot McKnight, *Adam and the Genome: Reading Scripture after Genetic Science* \[Grand Rapids, Mich.: Brazos Press, 2017\], pp. 46-48).
+[^1]:  This how the term is used by Dennis Venema and others who press argument (1) (Dennis R. Venema and Scot McKnight, *Adam and the Genome: Reading Scripture after Genetic Science*, Grand Rapids, Mich.: Brazos Press, 2017, pp. 46-48).
 
-[^2]:  David Wilcox, "Finding Adam: The Genetics of Human Origins," in *Perspectives on an Evolving Creation*, ed. Keith B. Miller (Grand Rapids, Mich.: William B. Eerdmans, 2003), p. 252.
+[2]:  David Wilcox, "Finding Adam: The Genetics of Human Origins," in *Perspectives on an Evolving Creation*, ed. Keith B. Miller (Grand Rapids, Mich.: William B. Eerdmans, 2003), p. 252.
 
 [^3]:  Venema and McKnight, *Adam and the Genome*, p. 55.
 
