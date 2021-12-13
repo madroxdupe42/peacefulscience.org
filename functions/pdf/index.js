@@ -74,40 +74,39 @@ exports.handler =  async function(event, context) {
     let name = `PS${section}-${title}.pdf`
     var etag = null;
     
-    console.log(url);
-    console.log(canurl);
-    console.log(section);
     
     if (! ["articles", "about", "prints"].includes(section) ) 
       return {statusCode: 404}
+ 
+    let headers = event.headers;
     
-    var headers = {};
-    if ("if-none-match" in event.headers) {
-      etag = event.headers["if-none-match"];
-      headers["If-None-Match"] = etag;
-    }
-      
-    return axios.get(url, headers=headers)
+    return axios.head(url, headers=headers)
       .then(res => {    
-        if (res.status === 304 || res.headers['etag'] ===  headers["If-None-Match"] ) 
+
+        if (headers["if-none-match"]?.includes?.(res.headers['etag']) ) 
           return {
             statusCode: 304,
-            body: "OK",
-            headers: {"Etag": etag}
+            headers: {
+              "etag": res.headers['etag'],
+              "cache-control":  res.headers['cache-control'],
+              "age":  res.headers['age'],
+              "x-nf-request-id": res.headers['x-nf-request-id'],
+            }
           }
-        etag = res.headers["etag"];
+
         
         return prince(url)
           .catch( error => {return {statusCode: 500, body: util.inspect(error)}})
           .then(response => {
             if (response.statusCode === 200)
               response["headers"] = {
-                "x-frame-options": 'SAMEORIGIN',
-                "x-permitted-cross-domain-policies": 'none',
                 "Content-Disposition": `filename="${name}"`,
-                "Cache-Control": "public, max-age=0, must-revalidate",
+                "Cache-Control": res.headers['cache-control'],
+                "content-type": "application/pdf",
                 "Link": `<${canurl}>; rel="canonical"`,
-                "Etag": etag
+                "Etag": res.headers["etag"],
+                "age":  res.headers['age'],
+                "x-nf-request-id": res.headers['x-nf-request-id']
                }
             return response;
            })
