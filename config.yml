@@ -62,12 +62,12 @@ outputformats:
     basename: precompute.txt
     notAlternative: true
     weight: 1
+    permalinkable: False
   HTML:
     weight: 2 
   crossref:
-    basename: "crossref"
     mediaType: "application/xml"
-    notAlternative: true
+    noUgly: true
   print:
     mediaType: "text/html"
     notAlternative: true
@@ -77,7 +77,7 @@ outputformats:
     permalinkable: false
    
 outputs:
-  home: ["precompute", "algolia", "HTML", "crossref", "RSS", "redir"]
+  home: ["HTML", "precompute", "algolia", "RSS", "redir"]
   page: ["HTML", "print"]
 
 params:
