@@ -95,7 +95,7 @@ exports.handler =  async function(event, context) {
             body: "OK",
             headers: {"Etag": etag}
           }
-        etag = res.headers["etag"]
+        etag = res.headers["etag"];
         
         return prince(url)
           .catch( error => {return {statusCode: 500, body: util.inspect(error)}})
@@ -104,7 +104,7 @@ exports.handler =  async function(event, context) {
               response["headers"] = {
                 "x-frame-options": 'SAMEORIGIN',
                 "x-permitted-cross-domain-policies": 'none',
-                "Content-Disposition": `attachment, filename="${name}"`,
+                "Content-Disposition": `filename="${name}"`,
                 "Cache-Control": "public, max-age=0, must-revalidate",
                 "Link": `<${canurl}>; rel="canonical"`,
                 "Etag": etag
