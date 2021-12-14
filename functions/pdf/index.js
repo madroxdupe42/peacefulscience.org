@@ -74,16 +74,17 @@ exports.handler =  async function(event, context) {
     let name = `PS${section}-${title}.pdf`
     var etag = null;
     
-    
-    if (! ["articles", "about", "prints"].includes(section) ) 
+    if (! ["articles", "about", "prints"].includes(section) )  {
       return {statusCode: 404}
+    }
  
+    
     let headers = event.headers;
     
     return axios.head(url, headers=headers)
       .then(res => {    
 
-        if (headers["if-none-match"]?.includes?.(res.headers['etag']) ) 
+        if (headers["if-none-match"]?.includes?.(res.headers['etag']) )  {
           return {
             statusCode: 304,
             headers: {
@@ -93,6 +94,7 @@ exports.handler =  async function(event, context) {
               "x-nf-request-id": res.headers['x-nf-request-id'],
             }
           }
+        }
 
         
         return prince(url)
@@ -111,7 +113,8 @@ exports.handler =  async function(event, context) {
             return response;
            })
       })
-      .catch (error => {return {statusCode: error.response.status }})      
+      .catch (error => {return {statusCode: error.response.status }})
+      .then(r => {console.info( `${ r.statusCode }:\t${ url }\t${JSON.stringify(event.queryStringParameters)}`); return r;} )   
 }
      
     
