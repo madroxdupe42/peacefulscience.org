@@ -114,7 +114,7 @@ exports.handler =  async function(event, context) {
            })
       })
       .catch (error => {return {statusCode: error.response.status }})
-      .then(r => {console.info( `${ r.statusCode }:\t${ url }\t${JSON.stringify(event.queryStringParameters)}`); return r;} )   
+      .then(r => {console.info( `${ r.statusCode }:\t${ url }\t${JSON.stringify(event.headers)}`); return r;} )   
 }
      
     
