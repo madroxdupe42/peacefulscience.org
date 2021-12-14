@@ -1,0 +1,4 @@
+<doi_data>
+  <doi>{{ partial "getdoi" . }}</doi>
+  <resource>{{ printf "https://peacefulscience.org%s" .RelPermalink }}</resource>
+</doi_data>

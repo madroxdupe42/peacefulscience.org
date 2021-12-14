@@ -65,9 +65,16 @@ outputformats:
     permalinkable: False
   HTML:
     weight: 2 
-  crossref:
+  xrefposted:
     mediaType: "application/xml"
-    noUgly: true
+    basename: posted
+    path: .xref
+    notAlternative: true
+  xrefconf:
+    mediaType: "application/xml"
+    basename: conf
+    path: .xref
+    notAlternative: true
   print:
     mediaType: "text/html"
     notAlternative: true
@@ -77,7 +84,7 @@ outputformats:
     permalinkable: false
    
 outputs:
-  home: ["HTML", "precompute", "algolia", "RSS", "redir"]
+  home: ["HTML", "precompute", "algolia", "RSS", "redir", "xrefconf", "xrefposted"]
   page: ["HTML", "print"]
 
 params:

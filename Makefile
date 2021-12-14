@@ -18,8 +18,8 @@ pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
 crossref:
-	xmllint  --schema  crossref/schemas/crossref5.3.1.xsd  public/crossref.xml   --noout
-	curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit
+	xmllint  --schema  crossref/schemas/crossref5.3.1.xsd  public/.xref/*.xml --nowarning --noout
+	curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit > temp.html
 
 princehack: prince-14.2-aws-lambda.zip
 	unzip -q -o prince-14.2-aws-lambda.zip

@@ -1,0 +1,29 @@
+{{ $PART := partial "xref/partition" . }}
+
+<doi_batch version="5.3.1" xmlns="http://www.crossref.org/schema/5.3.1">
+  <head>
+    <doi_batch_id>POSTED {{now | time.Format "2006-01-02 15:04:05" }}</doi_batch_id>
+    <timestamp>{{ now.Unix }}</timestamp>
+    <depositor>
+      <depositor_name>Peaceful Science</depositor_name>
+      <email_address>info@peacefulscience.org</email_address>
+    </depositor>
+    <registrant>Peaceful Science</registrant>
+  </head>
+  <body>
+
+  {{- range $PART.PostPages }}
+  <posted_content>
+    {{ partial "xref/contributors.xml" . }}
+    {{ partial "xref/title.xml" . }}
+    <posted_date media_type="online">
+      {{ partial "xref/date.xml" .Date }}
+    </posted_date>
+    {{ partial "xref/doidata.xml" . }}  
+  </posted_content>
+  {{- end }}
+  
+  </body>
+</doi_batch>
+
+
