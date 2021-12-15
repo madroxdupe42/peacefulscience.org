@@ -27,7 +27,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {{ end }}
 
-<turbo-frame id=main_outlet data-turbo-action="advance">
+<disabled-turbo-frame id=main_outlet data-turbo-action="advance">
   
 {{ partial "nav.html" . -}}
 
@@ -40,7 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {{- partial "footer.html" . -}}
     
 
-</turbo-frame>
+</disabled-turbo-frame>
 
 
 
@@ -49,6 +49,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {{ partial "onesignal" . }} 
 {{ end }}
 
-
+{{ partial "modal-subscribe" . }} 
 </body>
 </html>
