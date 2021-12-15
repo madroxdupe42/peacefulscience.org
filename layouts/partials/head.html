@@ -93,7 +93,11 @@
 {{ end }}
 
 <link rel="preconnect" href="https://{{ site.Params.imagecdn }}">
-
+<link crossorigin
+  rel="preload" 
+  href="https://peacefulscience.org/font/alveratasb-webfont.woff2"
+  as="font">
+  
 <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
@@ -117,10 +121,10 @@
 </style>
 
 
-{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
-<style source="{{ $style.Permalink }}">
-  {{ $style.Content | safeCSS }}
-</style>
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS | resources.Fingerprint }}
+<link data-turbo-track="reload"
+  href="{{$style.Permalink}}"
+  rel="stylesheet">
 
 
 

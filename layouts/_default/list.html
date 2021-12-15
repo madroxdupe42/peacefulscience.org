@@ -82,16 +82,18 @@
  <turbo-frame class="row col-12" id="__pagination{{ $paginator.PageNumber }}" target="_top">
 {{ end }}
 
-
         {{- range $paginator.Pages  -}}
           {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
         {{ end -}}
 
 {{ if $paginator.HasNext }}
   <turbo-frame class="row col-12" id="__pagination{{ $paginator.Next.PageNumber }}" src="{{ $paginator.Next.URL }}" loading=lazy data-turbo-action="advance" target="_top">
-  <div class= "col-12 p-3">
-  <a class="btn btn-black text-larger" href="{{ $paginator.Next.URL}}">Next</a>
-  </div>
+  
+  <noscript>
+    <div class= "col-12 p-3 text-center">
+  <a class="btn btn-dark text-larger" href="{{ $paginator.Next.URL}}">Next</a>
+  </div></noscript>
+  
   </turbo-frame>
 {{ end }}
 
