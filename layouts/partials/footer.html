@@ -48,8 +48,6 @@ Peaceful Science recieves commissions for purchases made through links on this w
 
 
 
-{{ partial "modal-subscribe" . }} 
-
 {{ if site.IsServer }}
   {{ range ( .Scratch.Get "js" | uniq ) }}
     <script defer src="{{ (resources.Get . | js.Build (dict "sourcemap" "inline" ) ).Permalink }}"> </script>
