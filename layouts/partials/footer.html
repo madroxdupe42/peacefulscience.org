@@ -4,7 +4,6 @@
 
 <footer class="d-print-none py-5 text-white" >
 
-
 <div class="row  my-5 justify-content-center ">
 
 <div class="col-6 text-center">
@@ -57,7 +56,6 @@ Peaceful Science recieves commissions for purchases made through links on this w
   {{ end }}
 
 {{ else }}
-  {{ partial "onesignal" . }}
  
   {{ range ( .Scratch.Get "js" | uniq ) }}
     <script defer src="{{ (resources.Get . | js.Build (dict "minify" true ) | fingerprint ).Permalink }}"> </script>
