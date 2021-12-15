@@ -126,3 +126,11 @@ window.onload = function() {
 	}
 
 };
+
+
+document.addEventListener("turbo:load", function() {
+	ga('set', 'cd1', 'turbo');
+  ga('send', 'pageview', window.location.pathname);
+})
+
+
