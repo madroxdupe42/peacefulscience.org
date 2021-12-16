@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "@hotwired/turbo": "^7.1.0",
+    "algoliasearch": "^4.11.0",
     "axios": "^0.24.0",
     "bent": "^7.3.12",
     "got-scraping": "^3.2.6",
+    "instantsearch.js": "^4.35.0",
     "postcss-cli": "^9.0.2",
     "postcss-filter-mq": "^1.0.1",
     "postcss-import": "^14.0.2",

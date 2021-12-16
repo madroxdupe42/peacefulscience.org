@@ -1,25 +1,21 @@
-window.onload = function() {
 
-	var toc = document.querySelector( '.toc' );
-	var tocPath = document.querySelector( '.toc-marker path' );
 	var tocItems;
-
-	// Factor of screen size that the element must cross
-	// before it's considered visible
-	var TOP_MARGIN = 0.00,
-		BOTTOM_MARGIN = 0.05;
+    var tocLookup;
 
 	var pathLength;
 
 	var lastPathStart,
 		lastPathEnd;
 
-	window.addEventListener( 'resize', drawPath, false );
-	window.addEventListener( 'scroll', sync, false );
 
-	drawPath();
-
-	function drawPath() {
+	function NavProgressInit() {
+		console.info("NavProgressInit");
+		
+	    var toc = document.querySelector( '.toc' );
+	    var tocPath = document.querySelector( '.toc-marker path' ); 
+        
+        if (toc === null) return;
+        if (tocPath === null) return;
 
 		tocItems = [].slice.call( toc.querySelectorAll( 'li' ) );
 
@@ -75,12 +71,15 @@ window.onload = function() {
 		} );
 
 		pathLength = tocPath.getTotalLength();
-
-		sync();
+        
+  
 
 	}
 
-	function sync() {
+	function NavProgressSync(entries) {
+		console.info("NavProgressSync");
+		
+	    var tocPath = document.querySelector( '.toc-marker path' ); 
 
 		var windowHeight = window.innerHeight;
 
@@ -88,28 +87,32 @@ window.onload = function() {
 			pathEnd = 0;
 
 		var visibleItems = 0;
+			
+        TocLookup = new Map;
+        for (i of tocItems) TocLookup.set(i.target, i);
+		
+		
+		entries.forEach( function( item ) {
+			if( item.isIntersecting )
+				TocLookup.get(item.target).listItem.classList.add( 'active' );
+			else 
+				TocLookup.get(item.target).listItem.classList.remove( 'active' );
+		} );
 
-		tocItems.forEach( function( item ) {
+        var Visible = new Set(document.querySelectorAll(".toc .active"));
+	    
+        var visibleItems = tocItems.filter(x => Visible.has(x.listItem))
 
-			var targetBounds = item.target.getBoundingClientRect();
-
-			if( targetBounds.bottom > windowHeight * TOP_MARGIN && targetBounds.top < windowHeight * ( 1 - BOTTOM_MARGIN ) ) {
+		
+        for (item of visibleItems) {
 				pathStart = Math.min( item.pathStart, pathStart );
 				pathEnd = Math.max( item.pathEnd, pathEnd );
-
-				visibleItems += 1;
-
-				item.listItem.classList.add( 'active' );
-			}
-			else {
-				item.listItem.classList.remove( 'active' );
-			}
-
-		} );
+        }
 
 		// Specify the visible path or hide the path altogether
 		// if there are no visible items
-		if( visibleItems > 0 && pathStart < pathEnd ) {
+		if( visibleItems.length > 0 && pathStart < pathEnd ) {
+			
 			if( pathStart !== lastPathStart || pathEnd !== lastPathEnd ) {
 				tocPath.setAttribute( 'stroke-dashoffset', '1' );
 				tocPath.setAttribute( 'stroke-dasharray', '1, '+ pathStart +', '+ ( pathEnd - pathStart ) +', ' + pathLength );
@@ -125,12 +128,24 @@ window.onload = function() {
 
 	}
 
-};
+
+window.addEventListener( 'resize', NavProgressInit, {passive: true, capture: false} );
 
 
-document.addEventListener("turbo:load", function() {
-	ga('set', 'cd1', 'turbo');
-  ga('send', 'pageview', window.location.pathname);
-})
+function NavProgressBind () {
+	
+  let options = {
+    root: document,
+    threshold: 1.0
+  }
 
+  let observer = new IntersectionObserver(NavProgressSync, options);
+
+  for (t of tocItems) 
+	observer.observe(t.target);
+}
+
+
+NavProgressInit();
+NavProgressBind();
 

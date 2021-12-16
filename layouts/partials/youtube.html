@@ -2,6 +2,7 @@
 {{ $img := printf `https://img.youtube.com/vi/%s/hqdefault.jpg` $id }}
 {{ $style := default nil }}
 {{ $class := "" }}
+{{ $link := default nil }}
 
 {{ if reflect.IsSlice . }}
    {{ $id = index . 0 }}
@@ -13,18 +14,38 @@
    {{ $img = .Image | default $img }}
    {{ $style = .Style | default $style }}
    {{ $class = .Class | default $class }}
+   {{ $link = .Link | default nil }}
+   
 {{ end }}
 
 
-<div class="embed-responsive embed-responsive-16by9" >
-<iframe class="{{ $class | safeCSS }}" {{ with $style }}{{ . | safeCSS }}{{ end }}
-  class="embed-responsive embed-responsive-16by9"
-  src="https://www.youtube.com/embed/{{ $id }}"
-srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:56px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
-<a href=https://www.youtube.com/embed/{{ $id }}?autoplay=1><img src={{ $img }} width=16 height=9 style='height: auto' />
-<span>&#x25BA;</span></a>"
-  frameborder="0"
+<div class="border d-print-none mb-1" style="position: relative">
+<a {{with $link}}href="{{ . }}" title="Show Article"{{ else}}onclick="PlayVideo(this.nextSibling)"  title="Play Video"{{ end }}>
+<img src={{ $img }} width=16 height=9 style='height: auto; width: 100%; cursor: pointer; aspect-ratio: 16 /9; object-fit: cover'
+/>
+</a><script type="text/html">
+<iframe style="width: 66vw; height: auto; aspect-ratio: 16 / 9; max-width: 600px ;" width="16" height="9"
+  src="https://www.youtube.com/embed/{{ $id }}?autoplay=1&origin=https://peacefulscience.org&modestbranding=1&playsinline=1&cc_load_policy=1"
+  allowfullscreen="allowfullscreen"
+  mozallowfullscreen="mozallowfullscreen" 
+  msallowfullscreen="msallowfullscreen" 
+  oallowfullscreen="oallowfullscreen" 
+  webkitallowfullscreen="webkitallowfullscreen">
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+</iframe></script><a
+ class="d-print-none"
+ onclick="PlayVideo(this.previousSibling)" 
+	 title="Play Video"
+ style="transform: translateX(10px) translateY(-50%);
+  vertical-align: middle; 
+  position: absolute; 
+  top: 20%; right: 0; 
+  color: white; 
+  text-align: center; 
+  font-size: 2.5vw; cursor: pointer; 
+  width:10%; height: auto; aspect-ratio: 1 / 1">
+<svg class="shadow" style="height: 100%; width: 100%; overflow: visible;" xmlns="http://www.w3.org/2000/svg" viewBox="-220 -149 800 800">
+<circle vector-effect="non-scaling-stroke" stroke-width="2px" stroke="white"  fill="#040" cx="180" cy="256" r="500" />
+<path fill="white" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
+</a>
 </div>

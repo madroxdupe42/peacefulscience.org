@@ -1,11 +1,14 @@
 {{ define "head" }}
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
-
-   <meta name="turbo-visit-control" content="reload">
 {{ partial "jsonld" . }}
 {{ end }}
 
 {{ define "main" }}
+
+
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" 
+ media="print" onload="this.media='all'"  crossorigin="anonymous">
+ 
 <div class="bg-white">
 
 
@@ -100,83 +103,8 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
-
-<script>
-
-(()=>{
-console.info("initializing algolia");
-
-const searchClient = algoliasearch('4ODX85RSXK', 'dd433740546fc182c8ec1df6a7b16cf9');
+ <script src="{{ (resources.Get "js/search.js" | js.Build (dict "minify" true ) | resources.Fingerprint ).Permalink }}"> </script>
+     
 
 
-const search = instantsearch({
-  indexName: 'PeacefulScience',
-  limit: 5,
-  routing: true,
-  searchClient
-});
-
-  // initialize RefinementList
-  search.addWidget(
-    instantsearch.widgets.refinementList({
-      container: '#category-refinement-list',
-      limit: 10,
-      showMore: true,
-      attribute: 'categories'
-    })
-  );
-
-    // initialize RefinementList
-  search.addWidget(
-    instantsearch.widgets.refinementList({
-      container: '#author-refinement-list',
-      limit: 10,
-      showMore: true,
-      attribute: 'authors'
-    })
-  );
-
-  // initialize SearchBox
-  search.addWidget(
-    instantsearch.widgets.searchBox({
-      container: '#search-box',
-      placeholder: 'Search...'
-    })
-  );
-
-  search.addWidget(
-    instantsearch.widgets.currentRefinements({
-      container: "#current-refinements",
-    })
-  );
-
-  search.addWidget(
-    instantsearch.widgets.pagination({
-      container: '#pagination',
-    })
-  );
-
-  search.addWidget(
-   instantsearch.widgets.configure({
-    hitsPerPage: 5,
-   })
-  );
-
-  // initialize hits widget
-  search.addWidget(
-    instantsearch.widgets.hits({
-      container: '#hits',
-      limit: 5,
-      routing: true,
-      templates: {
-        item: {{ safeHTML `{{{ render }}}`  }},
-     }
-    })
-  );
-
-  search.start();
-})();
-</script>
 {{ end }}

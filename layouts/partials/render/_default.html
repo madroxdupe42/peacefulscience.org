@@ -31,7 +31,7 @@
 
 {{ with $page.Params.Headerimage.Youtube }}
   {{ if eq $style "vertical"  }}
-  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` )  `Youtube` . `Class` $imageclass   `Style` $imagestyle  ) }}
+  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `Class` $imageclass   `Style` $imagestyle  ) }}
   {{ $rendered = true }}
   {{ end }}
 {{ end }}
