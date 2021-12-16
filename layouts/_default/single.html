@@ -52,7 +52,7 @@
 
           {{ with $views }}
             <div
-              class="view-count d-inline d-print-none float-right text-right"
+              class="view-count d-inline d-print-none d-none float-right text-right"
             >
               {{ lang.FormatNumber 0 . }}
             </div>
@@ -118,10 +118,10 @@
         </div>
         
          <div>
-          {{ with .Params.pdf }}
-            <a class="d-print-none" href='{{ . | absURL }}' target=_blank class="text-smaller badge badge-secondary rounded mr-2">PDF</a>
+          {{ with partial "getpdf" . }}
+            <a href='{{ . | absURL }}' target=_blank class="d-print-none text-smaller badge badge-secondary rounded mr-2">PDF</a>
           {{ end }}
-          {{ with .Params.doi }}
+          {{ with partial "getdoi" . }}
           <span class="text-smaller  font-bold">
             {{ $doi := . }}
             <a id="doi"  target=_blank  href="https://doi.org/{{ $doi }}">https://doi.org/{{ . }}</a>

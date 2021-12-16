@@ -1,0 +1,12 @@
+{{ $doi := .Params.DOI | default nil }}
+{{ $page := . }}
+
+{{ with (index site.Data.doi .RelPermalink) }}
+  {{ $doi = . }} 
+{{ else }}
+  {{ with .Params.DOI }}
+    {{ warnf "DOI.OLD\t%s\t%s" $page.RelPermalink . }}
+  {{ end }}
+{{ end }}
+
+{{ return $doi }}

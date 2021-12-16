@@ -1,0 +1,34 @@
+
+{{ $confpages := slice }}
+{{ $confdoi := slice }}
+{{ $posteddoi := slice }}
+
+{{ $pages := slice }}
+
+{{- range $path, $doi := site.Data.doi  }}
+   {{- $path = replaceRE `/$` `` $path   }}
+   {{- with site.GetPage "page" $path }}
+     {{ $pages = $pages | append . }}
+   {{- end }}
+{{- end }}
+
+{{ $posteddoi = $pages }}
+
+{{- range site.Pages }}    
+  {{- $page := . }}
+  {{- with .Params.crossref }}
+    {{- if eq "conference" .type }}
+      {{- $thispages := intersect $pages (partial "listpages" $page) }}
+      {{- $pages = $pages | complement $thispages }}
+      {{- if gt (len $thispages) 0 }}
+        {{ $confpages = $confpages | append $page }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return (dict
+  "DoiPages" $posteddoi
+  "Conferences" $confpages
+  "PostPages" $pages)
+}}

@@ -1,0 +1,30 @@
+    {{- $page := . }}
+    {{- with .Params.crossref }}
+      {{- if ne "conference" .type }}
+        {{- warnf "NOT.XREF.CONFERENCE" }}
+      {{- end }}
+    <event_metadata>
+      <conference_name>{{.Name}}</conference_name>
+      <conference_number>{{.Number}}</conference_number>
+      <conference_date
+        start_month="{{ time.Format "1" .startdate }}"
+        start_day="{{ time.Format "02" .startdate }}"
+        start_year="{{ time.Format "2006" .startdate }}"
+        end_month="{{ time.Format "1" .enddate }}"
+        end_day="{{ time.Format "02" .enddate }}"
+        end_year="{{ time.Format "2006" .enddate }}">
+      </conference_date>
+    </event_metadata>
+    <proceedings_metadata>
+      <proceedings_title>{{ .Title }}</proceedings_title>
+      <publisher>
+        <publisher_name>Peaceful Science</publisher_name>
+      </publisher>
+      <publication_date>
+         <month>{{ time.Format "1" .publicationdate }}</month>
+         <day>{{ time.Format "02" .publicationdate }}</day>
+         <year>{{ time.Format "2006" .publicationdate }}</year>            
+      </publication_date>
+      <noisbn reason="simple_series"></noisbn>
+    </proceedings_metadata>
+  {{- end }}

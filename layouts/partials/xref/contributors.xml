@@ -1,0 +1,13 @@
+       <contributors>
+         {{- $first := true }}
+         {{- range .Params.authors }}
+           {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .))  }}
+             {{- $name := split .Title " "}}
+           <person_name contributor_role="author"  sequence="{{ if $first }}first{{ $first = false }}{{else}}additional{{ end }}" >
+             <given_name>{{ delimit (first (sub (len $name) 1) $name) " " }}</given_name>
+             <surname>{{ index (last 1 $name) 0 }}</surname>
+             {{ with .Params.orcid }}<ORCID>https://orcid.org/{{ . }}</ORCID>{{ end }}
+           </person_name>
+           {{- end }}
+         {{- end }}
+       </contributors>

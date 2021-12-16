@@ -43,9 +43,9 @@
 <meta name="prism.publicationName" content="Peaceful Science"/>
 <meta name="citation_journal_title" content="Peaceful Science"/>
 
-{{ with .Params.pdf }}
+{{ with partial "getpdf.html" . }}
     <meta name="citation_pdf_url" content="{{ . }}"/>
-{{ end }}    
+{{ end }}
     
 {{ with .Date }}
     <meta name="dc.date" content="{{ .Format "2006-01-02" }}"/>
@@ -72,7 +72,7 @@
 {{- end }}
 
 
-{{ with .Params.DOI }}
+{{ with partial "getdoi" . }}
   {{- $doi := replaceRE "https://doi.org/" "" . -}}
   {{- $doi := replaceRE "http://doi.org/" "" $doi -}}
   {{- $url := printf "https://doi.org/%s" $doi -}}
@@ -93,12 +93,18 @@
 {{ end }}
 
 <link rel="preconnect" href="https://{{ site.Params.imagecdn }}">
-
+<link crossorigin
+  rel="preload" 
+  href="https://peacefulscience.org/font/alveratasb-webfont.woff2"
+  as="font">
+  
 <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
 
+ <script src="{{ (resources.Get "js/turbo.js" | js.Build (dict "minify" true ) | resources.Fingerprint ).Permalink }}"> </script>
+     
 
 {{/*
 {{ $style := resources.Get "css/tw.css"  | resources.PostCSS  }}
@@ -106,17 +112,18 @@
   {{ $style.Content | safeCSS }}
 </style>
 {{ end}}
+*/}}
 
 {{ $style := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">
   {{ $style.Content | safeCSS }}
 </style>
-*/}}
 
-{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS  }}
-<style source="{{ $style.Permalink }}">
-  {{ $style.Content | safeCSS }}
-</style>
+
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS | resources.PostCSS | resources.Fingerprint }}
+<link data-turbo-track="reload"
+  href="{{$style.Permalink}}"
+  rel="stylesheet">
 
 
 

@@ -1,4 +1,5 @@
 ---
+headless: true
 jsonld:
   "@type": Organization
   "@id": https://peacefulscience.org/

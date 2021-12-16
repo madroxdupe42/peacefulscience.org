@@ -1,3 +1,4 @@
+
 {{ $currentPage := . }}
 {{ $menu := .Site.Menus.main  }}
 
@@ -16,7 +17,7 @@
     <ul class="navbar-nav mr-auto">
 
 
-<li class="nav-item"> <a class="nav-link grey-white-pulse" id="open-popup"  style="will-change: contents; cursor: pointer;" href='#subscribe'> Subscribe</a> </li>
+<li class="nav-item"> <a class="nav-link grey-white-pulse" id="open-popup"  style="will-change: contents; cursor: pointer;" href='#subscribe' data-turbo="false"> Subscribe</a> </li>
 
 
         {{ range $menu }}
@@ -59,7 +60,7 @@
     </ul>
            
            
-     <form class="form-inline"  action="/search/" method="get" target="_blank">
+     <form class="form-inline"  action="/search/" method="get" target="_blank" data-turbo-frame="_top" data-turbo="false">
     <button class=""  style="visibility: hidden" type="submit">Search</button>    
     <input class="form-control  text-light" type="search" name="query" style="color: white; background: none; outline: none; border: none; border-bottom: 2px" placeholder="Search" aria-label="Search">
       </form>

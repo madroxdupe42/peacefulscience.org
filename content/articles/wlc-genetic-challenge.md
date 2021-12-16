@@ -17,10 +17,9 @@ headerimage:
   credit: This article is a footnoted transcript of Dr. Craig's Defenders class earlier this month.
 title: What Became of the Genetic Challenge to Adam and Eve?
 doi: 10.5281/zenodo.5651091
-pdf: /pdf/articles/wlc-genetic-challenge.pdf
 ---
 
-Does population genetics challenge a single-couple origin to humanity? In early 2017, [Dr. Richard Buggs raised scientific concerns about Dennis Venema's book, [*Adam and the Genome*](/books/adam-genome/). His concerns were distinct and addition to [concerns that Dr. Swamidass raised that year too](https://peacefulscience.org/genealogical-rapprochement/). In late 2017, Dr. Venema responded at BioLogos, and [a conversation grew](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61). [Together, several scientists did indeed find several fundamental mistakes](http://peacefulscience.org/three-stories-on-adam/) with Dr. Venema's argument against a single couple origin of humanity. Eventually, in 2020, [even BioLogos began backing away from Venema's scientific claims](https://discourse.peacefulscience.org/t/deleted-does-genetics-point-to-a-single-primal-couple/9283). In this article, Craig summarizes for a lay audience the science behind this shift. For technical readers, [the forum thread for this article](https://discourse.peacefulscience.org/t/what-became-of-the-genetic-challenge-to-adam-and-eve/10692) expounds and clarifies his summary with greater precision.
+Does population genetics challenge a single-couple origin to humanity? In early 2017, Dr. Richard Buggs raised scientific concerns about Dennis Venema's book, [*Adam and the Genome*](/books/adam-genome/). His concerns were distinct and addition to [concerns that Dr. Swamidass raised that year too](https://peacefulscience.org/genealogical-rapprochement/). In late 2017, Dr. Venema responded at BioLogos, and [a conversation grew](https://discourse.peacefulscience.org/t/heliocentric-certainty-against-a-bottleneck-of-two/61). [Together, several scientists did indeed find several fundamental mistakes](http://peacefulscience.org/three-stories-on-adam/) with Dr. Venema's argument against a single couple origin of humanity. Eventually, in 2020, [even BioLogos began backing away from Venema's scientific claims](https://discourse.peacefulscience.org/t/deleted-does-genetics-point-to-a-single-primal-couple/9283). In this article, Craig summarizes for a lay audience the science behind this shift. For technical readers, [the forum thread for this article](https://discourse.peacefulscience.org/t/what-became-of-the-genetic-challenge-to-adam-and-eve/10692) expounds and clarifies his summary with greater precision.
 
 The traditional view of Adam and Eve as the fountainhead of all humanity has been vigorously challenged by some on the basis of the science of population genetics.
 
@@ -78,7 +77,7 @@ More recently these findings have been confirmed by Ola Hössjer and Ann Gauger,
 first couple dating to about 2 mya and (2) a model featuring a heterozygous first couple who lived about 500 kya ago. Thus, they conclude, given common assumptions shared by evolutionary geneticists, a single-couple origin is possible, despite claims to the contrary.
 
 {{% amazon-caption `080287911X` %}}
-This article was refined and included Craig's book, *In Quest of the Historical Adam**.
+This article was refined and included within Craig's book, *In Quest of the Historical Adam*.
 {{% /amazon-caption %}}
 
 So while a recent bottleneck is ruled out by the genetic divergence exhibited by today's human population, a bottleneck before 500 kya is possible, in which case the founding pair would be the common ancestors of *Homo sapiens*, Denisovans, and Neanderthals. "The dust has yet to settle on the scientific details," says Swamidass, "But it looks likely at this point that a bottleneck anytime before 700 kya is undetectable in genetic data."[^12] Such a date well within the range of our proposed classification of Adam as Heidelberg Man.
@@ -99,7 +98,7 @@ Published here with permission, this is the transcript of a Defenders class by D
 {.editor-note}
 
 
-[^1]:  This how the term is used by Dennis Venema and others who press argument (1) (Dennis R. Venema and Scot McKnight, *Adam and the Genome: Reading Scripture after Genetic Science* \[Grand Rapids, Mich.: Brazos Press, 2017\], pp. 46-48).
+[^1]:  This how the term is used by Dennis Venema and others who press argument (1) (Dennis R. Venema and Scot McKnight, *Adam and the Genome: Reading Scripture after Genetic Science*, Grand Rapids, Mich.: Brazos Press, 2017, pp. 46-48).
 
 [^2]:  David Wilcox, "Finding Adam: The Genetics of Human Origins," in *Perspectives on an Evolving Creation*, ed. Keith B. Miller (Grand Rapids, Mich.: William B. Eerdmans, 2003), p. 252.
 

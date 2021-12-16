@@ -14,7 +14,7 @@ headerimage:
   src: /img/2021/12/ets-keathley-gae.png
   youtube: UuHfOqtVMOA
 ---
-The main concern about the Genealogical Adam and Eve model (GAE) is its assertion that humans already existed outside the Garden. This can be viewed as another example of the problem of the Antipodes and the scandal of particularity. This dilemma—this theological embarrassment—is the problem of the others, the outsiders—those who appear to be outside the biblical narrative. Their very existence seems to threaten the grandeur of the biblical story and turn it into something parochial. My contention is that there is nothing new about this. 
+The main concern about the Genealogical Adam and Eve model (GAE)[^gae] is its assertion that humans already existed outside the Garden. This can be viewed as another example of the problem of the Antipodes and the scandal of particularity. This dilemma—this theological embarrassment—is the problem of the others, the outsiders—those who appear to be outside the biblical narrative. Their very existence seems to threaten the grandeur of the biblical story and turn it into something parochial. My contention is that there is nothing new about this. 
 {.dropcap}
  
 ## The Twin Particularities
@@ -86,6 +86,8 @@ Because of these confessional affirmations, I also admit that I expect a resolut
 It’s worth noting that Swamidass himself presents the GAE model simply as a possible solution, and that he does not commit himself to GAE. Therefore I see no reason to commit myself more strongly that he does. But I do believe it deserves recognition as a viable hypothesis, worthy of further research. Let the conversation continue.
 
 {{< footnotes2refs >}}
+
+[^gae]: S. Joshua Swamidass, The Genealogical Adam and Eve, 2019.
 
 [^1]: Gabriel Fackre, “The Scandals of Particularity and Universality,” Midstream 22:1 (Jan 1983), 32-52.
  

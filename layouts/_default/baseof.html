@@ -1,10 +1,25 @@
 <!DOCTYPE html>
+
+{{ range .Aliases }}
+  {{ $p := site.GetPage . }}
+ 
+  {{ if not (eq $p $) }}
+  {{ end }}
+{{ end }}
+
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
     {{- partial "head.html" . -}}
-    {{- block "head" . -}}{{- end }}
+    {{- block "head" . -}}{{- end }}   
+    
   </head>
   <body vocab="http://purl.org/dc/terms/">
+  
+      <div id="video-frame" class="bg-dark text-white" style="opacity: 0.8; position: fixed; bottom:0; right:0; z-index: 100"  data-turbo-permanent> 
+  
+    </div>
+    
+
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
 <noscript style="display:none;visibility:hidden"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDF8R85"
@@ -12,6 +27,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {{ end }}
 
+<turbo-frame id=main_outlet data-turbo-action="advance">
   
 {{ partial "nav.html" . -}}
 
@@ -22,5 +38,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
     {{- partial "footer.html" . -}}
+    
+
+</turbo-frame>
+
+
+
+{{ if site.IsServer }}
+{{ else }}
+  {{ partial "onesignal" . }} 
+{{ end }}
+
+{{ partial "modal-subscribe" . }} 
 </body>
 </html>

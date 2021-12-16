@@ -136,7 +136,7 @@ window.addEventListener('hashchange', function() {
 	if (location.hash.lastIndexOf("#fnref", 0) === 0 ) {
 		let helem = document.getElementById(location.hash.substring(1));
 		helem.parentNode.classList.add('targeted');
-	}x
+	}
 
 });
 

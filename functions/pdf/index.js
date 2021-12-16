@@ -33,7 +33,7 @@ async function docraptor(url) {
     }    
 }
 
-async function prince(url, name) {
+async function prince(url) {
   let tfile = os.tmpdir()+"/output.pdf";
   let p = Prince();
   
@@ -55,31 +55,69 @@ async function prince(url, name) {
       statusCode: 200,
       isBase64Encoded: true,
       body: buffer.toString('base64') ,
-      headers: {
-        "x-frame-options": 'SAMEORIGIN',
-        "x-permitted-cross-domain-policies": 'none',
-        "Content-Disposition": `filename="${name}"`,
-        "Cache-Control": "max-age: 0, stale-while-revalidate=604800" // 0 days, 7 days
-      }
     }         
         
-    }, function (error) {
-      return {
-        statusCode: 500,
-        body: util.inspect(error)
-      }
     }) 
 }
 
+
 exports.handler =  async function(event, context) {
-    let route = event.path.toLowerCase().split("/");
-    let path = route.slice(route.indexOf("pdf")+1, -1);
-        
+    let route = event.path.toLowerCase();
+    route = route.endsWith('/') ? route.slice(0, -1) : route;
+    route = route.split('/');
+    
+    let path = route.slice(route.indexOf("pdf")+1);    
     let url = urljoin(baseurl, "_prince", path.join("/"));
+    let canurl = urljoin(baseurl, path.join("/"));
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
+    var etag = null;
     
-    return prince(url, name);
+    if (! ["articles", "about", "prints"].includes(section) )  {
+      return {statusCode: 404}
+    }
+ 
+    
+    let headers = event.headers;
+    
+    return axios.head(url, headers=headers)
+      .then(res => {    
 
+        if (headers["if-none-match"]?.includes?.(res.headers['etag']) )  {
+          return {
+            statusCode: 304,
+            headers: {
+              "etag": res.headers['etag'],
+              "cache-control":  res.headers['cache-control'],
+              "age":  res.headers['age'],
+              "x-nf-request-id": res.headers['x-nf-request-id'],
+            }
+          }
+        }
+
+        
+        return prince(url)
+          .catch( error => {return {statusCode: 500, body: util.inspect(error)}})
+          .then(response => {
+            if (response.statusCode === 200)
+              response["headers"] = {
+                "Content-Disposition": `filename="${name}"`,
+                "Cache-Control": res.headers['cache-control'],
+                "content-type": "application/pdf",
+                "Link": `<${canurl}>; rel="canonical"`,
+                "Etag": res.headers["etag"],
+                "age":  res.headers['age'],
+                "x-nf-request-id": res.headers['x-nf-request-id']
+               }
+            return response;
+           })
+      })
+      .catch (error => {return {statusCode: error.response.status }})
+      .then(r => {console.info( `${ r.statusCode }:\t${ url }\t${JSON.stringify(event.headers)}`); return r;} )   
 }
+     
+    
+    
+
+     

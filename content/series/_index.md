@@ -13,7 +13,8 @@ cascade:
     about: = about
     hasPart: = pages
     publisher: 
-      "@id": = id /jsonld/peacefulscience
+      "@id": https://peacefulscience.org
+      name: Peaceful Science
     sameas: = sameas    
     mainEntityOfPage: 
       "@type": WebPage
