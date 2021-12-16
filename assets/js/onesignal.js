@@ -74,6 +74,7 @@
   } else {
     window.addEventListener("load", function (event) {
       documentInitOneSignal();
+      document.querySelector(".onesignal-bell-container").setAttribute(data-turbo-permanent, true);
     });
   }
 // }
