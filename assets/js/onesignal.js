@@ -2,6 +2,7 @@
 	
   var myscript = document.createElement('script');
   myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+  myscript.setAttribute('defer',true);
   document.head.appendChild(myscript);
 	
   window.OneSignal = window.OneSignal || [];
@@ -74,7 +75,7 @@
   } else {
     window.addEventListener("load", function (event) {
       documentInitOneSignal();
-      document.querySelector(".onesignal-bell-container").setAttribute(data-turbo-permanent, true);
+      document.querySelector(".onesignal-bell-container").setAttribute("data-turbo-permanent", true);
     });
   }
 // }
