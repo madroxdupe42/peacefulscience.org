@@ -7,12 +7,22 @@ window.Turbo = Turbo;
 
 document.addEventListener("turbo:frame-load", function() {
 console.info("turbo:frame-load");
-document.documentElement.scrollTop = document.body.scrollTop = 0;
+})
+
+
+document.addEventListener("turbo:before-cache", function() {
+console.info("turbo:before-cache");
+//document.querySelector("#scroll-memo").setAttribute("data-scroll", document.documentElement.scrollTop);
+//console.info("SAVE scroll-memo", document.querySelector("#scroll-memo").getAttribute("data-scroll"));
 })
 
 
 document.addEventListener("turbo:load", function() {
 console.info("turbo:load");
+// document.documentElement.scrollTop = 
+//  document.body.scrollTop = 
+//   document.querySelector("#scroll-memo").getAttribute("data-scroll");
+//console.info("READ scroll-memo", document.querySelector("#scroll-memo").getAttribute("data-scroll"));
 })
 
 document.addEventListener("turbo:visit", function(event) {

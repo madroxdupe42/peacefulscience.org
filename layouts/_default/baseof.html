@@ -108,7 +108,7 @@
     </div>
  
 
-<turbo-frame id=main_outlet data-turbo-action="advance" autoscroll=true data-autoscroll-block=start>
+<disable-turbo-frame id=main_outlet data-turbo-action="advance" autoscroll=true data-autoscroll-block=start>
   
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
@@ -119,6 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {{ partial "nav.html" . -}}
 
+<div id="scroll-memo" data-scroll=0></div>
 {{- block "background" . }}{{- end }}
 
 <div id="content" style="position: relative; z-index: 2; isolation: isolate">
@@ -133,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
     </script>
 
-</turbo-frame>
+</disable-turbo-frame>
 
 
 
