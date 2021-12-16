@@ -5,9 +5,9 @@ Turbo.setProgressBarDelay(200);
 window.Turbo = Turbo;
 
 
-function initNavBar() {
 document.addEventListener("turbo:frame-load", function() {
 console.info("turbo:frame-load");
+document.documentElement.scrollTop = document.body.scrollTop = 0;
 })
 
 
@@ -17,9 +17,6 @@ console.info("turbo:load");
 
 document.addEventListener("turbo:visit", function(event) {
 console.info("turbo:visit");
-event.detail.url
-
-document.documentElement.scrollTop = document.body.scrollTop = 0;
 })
 
 document.addEventListener("turbo:click", function(event) {
@@ -27,6 +24,8 @@ console.info("turbo:click");
 })
 
 
+function initNavBar() {
+console.info("initNavBar");
 let navbarToggler = document.querySelector('.navbar-toggler');
 let navbarDropdown = document.querySelector('#navbarNavDropdown');
 let navbarDropdownExpanded = navbarDropdown.getAttribute('aria-expanded');

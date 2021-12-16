@@ -1,5 +1,5 @@
 
-	var tocItems;
+	var tocItems = [];
     var tocLookup;
 
 	var pathLength;
@@ -80,7 +80,9 @@
 		console.info("NavProgressSync");
 		
 	    var tocPath = document.querySelector( '.toc-marker path' ); 
-
+		if (tocPath === null) return;
+		if (tocItems === null) return;
+		
 		var windowHeight = window.innerHeight;
 
 		var pathStart = pathLength,
@@ -127,25 +129,17 @@
 		lastPathEnd = pathEnd;
 
 	}
-
-
-window.addEventListener( 'resize', NavProgressInit, {passive: true, capture: false} );
-
-
 function NavProgressBind () {
-	
-  let options = {
-    root: document,
-    threshold: 1.0
-  }
+  if (tocItems === null) return;
 
-  let observer = new IntersectionObserver(NavProgressSync, options);
+  let observer = new IntersectionObserver(NavProgressSync, {threshold: 1.0});
 
   for (t of tocItems) 
 	observer.observe(t.target);
 }
 
 
-NavProgressInit();
-NavProgressBind();
 
+window.addEventListener( 'resize', NavProgressInit, {passive: true, capture: false} );
+window.addEventListener( 'turbo:load', NavProgressInit, {passive: true, capture: false} );
+window.addEventListener( 'turbo:load', NavProgressBind, {passive: true, capture: false} );
