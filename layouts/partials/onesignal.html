@@ -1,6 +1,5 @@
 
 {{ if site.IsServer }} 
-    <script defer src="{{ (resources.Get "/js/onesignal.js" | js.Build (dict "sourcemap" "inline" ) ).Permalink }}"> </script>
 {{ else }}
     <script defer src="{{ (resources.Get "/js/onesignal.js" | js.Build (dict "minify" true ) | fingerprint ).Permalink }}"> </script>
 {{ end }}

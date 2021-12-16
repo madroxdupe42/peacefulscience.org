@@ -94,21 +94,8 @@
   </style>
   
   
-    <div id=video-container class="bg-dark text-white"   data-turbo-permanent> 
-     <div id="video-frame"></div>
-     <div id="video-control-center" class="text-dark ">
-       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
-      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
-     </div>
-     
-     
-     <div id="video-control-right" class="text-dark ">
-       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
-    </div>
-    </div>
- 
 
-<disable-turbo-frame id=main_outlet data-turbo-action="advance" autoscroll=true data-autoscroll-block=start>
+<turbo-frame id=main_outlet data-turbo-action="advance" target="_top">
   
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
@@ -134,19 +121,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
     </script>
 
-</disable-turbo-frame>
+</turbo-frame>
+
+
+    <div id=video-container class="bg-dark text-white"   data-turbo-permanent> 
+     <div id="video-frame"></div>
+     <div id="video-control-center" class="text-dark ">
+       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
+      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
+     </div>
+     
+     
+     <div id="video-control-right" class="text-dark ">
+       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
+    </div>
+    </div>
+ 
 
 
 
-{{ if site.IsServer }}
-{{ else }}
-  {{ partial "onesignal" . }} 
-  <script>
-  document.addEventListener("turbo:load", function() {
-    ga('send', 'pageview', window.location.pathname);
-  })
-  </script>   
-{{ end }}
 
 {{ partial "modal-subscribe" . }} 
 </body>

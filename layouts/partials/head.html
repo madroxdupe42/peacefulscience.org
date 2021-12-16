@@ -128,6 +128,16 @@
 <link data-turbo-track="reload"
   href="{{$style.Permalink}}"
   rel="stylesheet">
+  
+{{ if site.IsServer }}
+{{ else }}
+  {{ partial "onesignal" . }} 
+  <script>
+  document.addEventListener("turbo:load", function() {
+    ga('send', 'pageview', window.location.pathname);
+  })
+  </script>   
+{{ end }}
 
 
 
