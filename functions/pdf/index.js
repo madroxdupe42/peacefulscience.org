@@ -64,12 +64,10 @@ exports.handler =  async function(event, context) {
        req_etags = req_etags.map(s => replaceAll(s, '"','').trim());
     }
     
-    
     return axios.head(url, headers=headers)
       .then(res => { 
+        res_etag = replaceAll(res.headers['etag'], '"','');
         for (req_etag of req_etags) {
-          res_etag = replaceAll(res.headers['etag'], '"','');
-          
           
           if (req_etag.includes(res_etag)) {
             return {
