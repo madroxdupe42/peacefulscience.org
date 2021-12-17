@@ -35,6 +35,9 @@ async function prince(url) {
     }) 
 }
 
+function replaceAll(str, find, replace) {
+  return str.replace(new RegExp(find, 'g'), replace);
+}
 
 exports.handler =  async function(event, context) {
     let route = event.path.toLowerCase();
@@ -47,7 +50,7 @@ exports.handler =  async function(event, context) {
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
-    let req_etags = null;
+    let req_etags = [];
     
     if (! ["articles", "about", "prints"].includes(section) )  {
       return {statusCode: 404}
@@ -55,18 +58,19 @@ exports.handler =  async function(event, context) {
     
     let headers = event.headers;
     
-    try {
-      req_etags = headers["if-none-match"]?.split(",");
-      if (req_etags === null) req_etags = [];
-      req_etags = req_etags.map(s => s.trim().replaceAll( /"/g, ''));
-    } catch (error) {
-      return {statusCode: 500, body: util.inspect(error)}
+    if ("if-none-match" in headers) {
+       req_etags = headers["if-none-match"];
+       req_etags = req_etags.split(",");
+       req_etags = req_etags.map(s => replaceAll(s, '"','').trim());
     }
-
+    
+    
     return axios.head(url, headers=headers)
       .then(res => { 
         for (req_etag of req_etags) {
-          res_etag = res.headers['etag'].replaceAll('"','')
+          res_etag = replaceAll(res.headers['etag'], '"','');
+          
+          
           if (req_etag.includes(res_etag)) {
             return {
               statusCode: 304,
