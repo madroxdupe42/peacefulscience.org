@@ -1,3 +1,8 @@
+prince-engine/ 
+fonts/
+*.zip
+*.pdf
+assets/css/tw.css
 temp*
 test*
 hash.json
