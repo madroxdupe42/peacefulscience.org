@@ -72,30 +72,34 @@ exports.handler =  async function(event, context) {
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
-    var etag = null;
     
     if (! ["articles", "about", "prints"].includes(section) )  {
       return {statusCode: 404}
     }
- 
     
     let headers = event.headers;
     
-    return axios.head(url, headers=headers)
-      .then(res => {    
+    req_etags = headers["if-none-match"]?.split(",")
+        .map(s => s.trim().replaceAll('"',''));
+        
+    req_etags = req_etags === null ? [] : req_etags;
 
-        if (headers["if-none-match"]?.includes?.(res.headers['etag']) )  {
-          return {
-            statusCode: 304,
-            headers: {
-              "etag": res.headers['etag'],
-              "cache-control":  res.headers['cache-control'],
-              "age":  res.headers['age'],
-              "x-nf-request-id": res.headers['x-nf-request-id'],
+    return axios.head(url, headers=headers)
+      .then(res => { 
+        for (req_etag of req_etags) {
+          res_etag = res.headers['etag'].replaceAll('"','')
+          if (req_etag.includes(res_etag)) {
+            return {
+              statusCode: 304,
+              headers: {
+                "etag": `"${req_etag}"`,
+                "cache-control":  res.headers['cache-control'],
+                "age":  res.headers['age'],
+                "x-nf-request-id": res.headers['x-nf-request-id'],
+              }
             }
           }
         }
-
         
         return prince(url)
           .catch( error => {return {statusCode: 500, body: util.inspect(error)}})
