@@ -8,31 +8,6 @@ const Prince = require('prince');
 
 const baseurl = "https://peacefulscience.org/";
 
-async function docraptor(url) {
-    const docraptor = "https://" + process.env.DOCRAPTOR + "@docraptor.com/docs";
-    const params = {"test": true,
-           "document_url": url,
-           "type": "pdf" ,
-           "prince_options": {
-             baseurl: baseurl
-           }};
-           
-    let response = await axios.post( docraptor, params, {
-      responseType: 'arraybuffer'
-    });
-    
-    return {
-      isBase64Encoded: true,
-      statusCode: response.status,
-      body: Buffer.from(response.data, 'binary').toString('base64'),
-      headers: {
-        "content-type": response.headers["content-type"],
-        "x-frame-options": 'SAMEORIGIN',
-        "x-permitted-cross-domain-policies": 'none',
-      }
-    }    
-}
-
 async function prince(url) {
   let tfile = os.tmpdir()+"/output.pdf";
   let p = Prince();
@@ -79,10 +54,13 @@ exports.handler =  async function(event, context) {
     
     let headers = event.headers;
     
-    req_etags = headers["if-none-match"]?.split(",")
-        .map(s => s.trim().replaceAll('"',''));
-        
+    req_etags = headers["if-none-match"]?.split(",");
     req_etags = req_etags === null ? [] : req_etags;
+    req_etags = req_etags.map(s => s.trim().replaceAll( /"/g, ''));
+    
+       
+        
+    
 
     return axios.head(url, headers=headers)
       .then(res => { 
