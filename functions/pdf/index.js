@@ -47,6 +47,7 @@ exports.handler =  async function(event, context) {
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
     let name = `PS${section}-${title}.pdf`
+    let req_etags = null;
     
     if (! ["articles", "about", "prints"].includes(section) )  {
       return {statusCode: 404}
@@ -54,13 +55,13 @@ exports.handler =  async function(event, context) {
     
     let headers = event.headers;
     
-    req_etags = headers["if-none-match"]?.split(",");
-    req_etags = req_etags === null ? [] : req_etags;
-    req_etags = req_etags.map(s => s.trim().replaceAll( /"/g, ''));
-    
-       
-        
-    
+    try {
+      req_etags = headers["if-none-match"]?.split(",");
+      if (req_etags === null) req_etags = [];
+      req_etags = req_etags.map(s => s.trim().replaceAll( /"/g, ''));
+    } catch (error) {
+      return {statusCode: 500, body: util.inspect(error)}
+    }
 
     return axios.head(url, headers=headers)
       .then(res => { 
