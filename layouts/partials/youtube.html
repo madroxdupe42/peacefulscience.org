@@ -3,6 +3,7 @@
 {{ $style := default nil }}
 {{ $class := "" }}
 {{ $link := default nil }}
+{{ $lazy := true }}
 
 {{ if reflect.IsSlice . }}
    {{ $id = index . 0 }}
@@ -15,13 +16,14 @@
    {{ $style = .Style | default $style }}
    {{ $class = .Class | default $class }}
    {{ $link = .Link | default nil }}
-   
+   {{ $lazy = .Lazy | default true }}
 {{ end }}
 
 
 <div class="border d-print-none mb-1" style="position: relative">
 <a {{with $link}}href="{{ . }}" title="Show Article"{{ else}}onclick="PlayVideo(this.nextSibling)"  title="Play Video"{{ end }}>
 <img src={{ $img }} width=16 height=9 style='height: auto; width: 100%; cursor: pointer; aspect-ratio: 16 /9; object-fit: cover'
+{{ if $lazy }} loading="lazy" {{ end }}
 />
 </a><script type="text/html">
 <iframe style="width: 66vw; height: auto; aspect-ratio: 16 / 9; max-width: 600px ;" width="16" height="9"

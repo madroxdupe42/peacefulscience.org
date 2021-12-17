@@ -77,16 +77,17 @@
             {{- with .Params.headerImage }}
 
               {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
-
+              {{ $src = printf "%s?imgeng=/w_auto,1200/" ( partial `imgcdn` $src ) }}
               {{ $headerclass := "" }}
               {{- with .youtube }}
                  <div class="d-print-none">
-                {{ partial `youtube` (slice  . ($src  | partial `imgcdn`)  ) }}
+                 
+                {{ partial `youtube` (dict  "Page" . "Image" $src "Lazy" false ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
                 <img 
-                  src="{{ $src  | partial `imgcdn` }}?imgeng=/w_auto,1200/"
+                  src="{{ $src }}"
                   class="webfeedsFeaturedVisual {{ $headerclass }}"
                   style="width: 100%; height: auto"
                   {{- with (index site.Data.imgsize $src) }}
