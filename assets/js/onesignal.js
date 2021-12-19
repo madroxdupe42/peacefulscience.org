@@ -76,9 +76,9 @@
   if (document.readyState === "complete") {
      window.setInterval(documentInitOneSignal, 15 * 1000) ;
   } else {
-    window.addEventListener("load", function (event) {
+    window.setTimeout("load", function (event) {
 	
-      window.setInterval(documentInitOneSignal, 15 * 1000) ;
+      window.setTimeout(documentInitOneSignal, 15 * 1000) ;
     });
   }
 // }
