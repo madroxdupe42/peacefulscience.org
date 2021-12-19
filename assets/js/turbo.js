@@ -1,37 +1,31 @@
 import * as Turbo from "@hotwired/turbo";
 
+Object.assign(Turbo.PageRenderer.prototype, {
+  assignNewBody() {
+    const container = document.querySelector("#app")
+    const newContainer = this.newElement.querySelector("#app")
+
+    console.info("assignNewBody", container);
+    if (container && newContainer) {
+      container.replaceWith(newContainer)
+    } else {
+      document.body.replaceWith(this.newElement)
+    }
+  }
+})
+
 Turbo.setProgressBarDelay(200);
 //Turbo.session.drive = false
 window.Turbo = Turbo;
 
 
-document.addEventListener("turbo:frame-load", function() {
-console.info("turbo:frame-load");
-})
-
-
-document.addEventListener("turbo:before-cache", function() {
-console.info("turbo:before-cache");
-//document.querySelector("#scroll-memo").setAttribute("data-scroll", document.documentElement.scrollTop);
-//console.info("SAVE scroll-memo", document.querySelector("#scroll-memo").getAttribute("data-scroll"));
-})
-
 
 document.addEventListener("turbo:load", function() {
 console.info("turbo:load");
-// document.documentElement.scrollTop = 
-//  document.body.scrollTop = 
-//   document.querySelector("#scroll-memo").getAttribute("data-scroll");
-//console.info("READ scroll-memo", document.querySelector("#scroll-memo").getAttribute("data-scroll"));
 })
 
-document.addEventListener("turbo:visit", function(event) {
-console.info("turbo:visit");
-})
 
-document.addEventListener("turbo:click", function(event) {
-console.info("turbo:click");
-})
+
 
 
 function initNavBar() {

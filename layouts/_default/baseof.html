@@ -11,7 +11,6 @@
   <head>
     {{- partial "head.html" . -}}
     {{- block "head" . -}}{{- end }}   
-    
   </head>
   
   <body vocab="http://purl.org/dc/terms/">
@@ -94,8 +93,22 @@
   </style>
   
   
+    <div id=video-container class="bg-dark text-white" > 
+     <div id="video-frame"></div>
+     <div id="video-control-center" class="text-dark ">
+       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
+      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
+     </div>
+     
+     
+     <div id="video-control-right" class="text-dark ">
+       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
+    </div>
+    </div>
+ 
+  
 
-<turbo-frame id=main_outlet data-turbo-action="advance" target="_top">
+<div id="app">
   
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
@@ -115,28 +128,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     {{- partial "footer.html" . -}}
     
+    
+    
     <script render remove>
     for (E of document.querySelectorAll("[href^='#']")) {
     	E.setAttribute("data-turbo", false);
     }
     </script>
 
-</turbo-frame>
+</div>
 
-
-    <div id=video-container class="bg-dark text-white"   data-turbo-permanent> 
-     <div id="video-frame"></div>
-     <div id="video-control-center" class="text-dark ">
-       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
-      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
-     </div>
-     
-     
-     <div id="video-control-right" class="text-dark ">
-       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
-    </div>
-    </div>
- 
 
 
 
