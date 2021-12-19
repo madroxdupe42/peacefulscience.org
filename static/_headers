@@ -4,6 +4,8 @@
 /font/*
   cache-control: public, max-age=7776000, s-max-age=7776000, immutable
   access-control-allow-origin: *
+/os.xml
+  content-Type:  application/opensearchdescription+xml
 /opensearch.xml
   content-Type:  application/opensearchdescription+xml
 /*
