@@ -74,9 +74,9 @@
 
 
   if (document.readyState === "complete") {
-     window.setInterval(documentInitOneSignal, 15 * 1000) ;
+     window.setTimeout(documentInitOneSignal, 15 * 1000) ;
   } else {
-    window.setTimeout("load", function (event) {
+    window.addEventListener("load", function (event) {
 	
       window.setTimeout(documentInitOneSignal, 15 * 1000) ;
     });
