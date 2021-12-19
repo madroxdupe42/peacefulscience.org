@@ -112,6 +112,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 {{- partial "footer.html" . -}}
 
+{{ partial "modal-subscribe" . }} 
+
+</div>
+
+
 <div id=video-container class="bg-dark text-white" > 
      <div id="video-frame"></div>
      
@@ -125,16 +130,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </div>
 
-{{ partial "modal-subscribe" . }} 
-
-  
     
  <script render remove>
     for (E of document.querySelectorAll("[href^='#']")) {
     	E.setAttribute("data-turbo", false);
     }
-    </script>
-</div>
-
+</script>
 </body>
 </html>
