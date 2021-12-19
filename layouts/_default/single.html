@@ -82,7 +82,7 @@
               {{- with .youtube }}
                  <div class="d-print-none">
                  
-                {{ partial `youtube` (dict  "Page" . "Image" $src "Lazy" false ) }}
+                {{ partial `youtube` (dict  "Youtube" . "Image" $src "Lazy" false ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
