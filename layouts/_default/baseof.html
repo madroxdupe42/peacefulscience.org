@@ -92,21 +92,7 @@
   
   </style>
   
-  
-    <div id=video-container class="bg-dark text-white" > 
-     <div id="video-frame"></div>
-     <div id="video-control-center" class="text-dark ">
-       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
-      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
-     </div>
-     
-     
-     <div id="video-control-right" class="text-dark ">
-       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
-    </div>
-    </div>
- 
-  
+
 
 <div id="app">
   
@@ -119,29 +105,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {{ partial "nav.html" . -}}
 
-<div id="scroll-memo" data-scroll=0></div>
 {{- block "background" . }}{{- end }}
 
 <div id="content" style="position: relative; z-index: 2; isolation: isolate">
-      {{- block "main" . }}{{- end }}
+  {{- block "main" . }}{{- end }}
+</div>
+{{- partial "footer.html" . -}}
+
+<div id=video-container class="bg-dark text-white" > 
+     <div id="video-frame"></div>
+     
+     <div id="video-control-center" class="text-dark ">
+       <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
+       <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
+     </div>    
+     
+     <div id="video-control-right" class="text-dark ">
+       <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
+    </div>
 </div>
 
-    {{- partial "footer.html" . -}}
+{{ partial "modal-subscribe" . }} 
+
+  
     
-    
-    
-    <script render remove>
+ <script render remove>
     for (E of document.querySelectorAll("[href^='#']")) {
     	E.setAttribute("data-turbo", false);
     }
     </script>
-
 </div>
 
-
-
-
-
-{{ partial "modal-subscribe" . }} 
 </body>
 </html>
