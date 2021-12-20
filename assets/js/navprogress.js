@@ -1,7 +1,6 @@
 
 	var tocItems = [];
-    var tocLookup;
-
+    var tocLookup = {};
 	var pathLength;
 
 	var lastPathStart,
@@ -9,11 +8,11 @@
 
 
 	function NavProgressInit() {
-		console.info("NavProgressInit");
-		
 	    var toc = document.querySelector( '.toc' );
 	    var tocPath = document.querySelector( '.toc-marker path' ); 
         
+  		console.info("NavProgressInit");
+      
         if (toc === null) return;
         if (tocPath === null) return;
 
@@ -72,7 +71,8 @@
 
 		pathLength = tocPath.getTotalLength();
         
-  
+        TocLookup = new Map;
+        for (i of tocItems) TocLookup.set(i.target, i);
 
 	}
 
@@ -88,10 +88,9 @@
 		var pathStart = pathLength,
 			pathEnd = 0;
 
-		var visibleItems = 0;
+		var visibleItems = [];
 			
-        TocLookup = new Map;
-        for (i of tocItems) TocLookup.set(i.target, i);
+
 		
 		
 		entries.forEach( function( item ) {
@@ -101,9 +100,7 @@
 				TocLookup.get(item.target).listItem.classList.remove( 'active' );
 		} );
 
-        var Visible = new Set(document.querySelectorAll(".toc .active"));
-	    
-        var visibleItems = tocItems.filter(x => Visible.has(x.listItem))
+        var visibleItems = tocItems.filter(x => x.listItem.classList.contains("active"))
 
 		
         for (item of visibleItems) {
