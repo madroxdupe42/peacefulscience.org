@@ -41,7 +41,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div id=video-container class="bg-dark text-white" > 
-     <div id="video-frame"></div>
+     <div id="video-frame" style="max-width: 100vw; height: auto; aspect-ratio: 16/ 9"></div>
      
      <div id="video-control-center" class="text-dark ">
        <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
@@ -51,6 +51,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      <div id="video-control-right" class="text-dark ">
        <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
     </div>
+    
+    <div id="video-id" class="d-none"></div>
 </div>
 
     
