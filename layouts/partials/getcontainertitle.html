@@ -1,0 +1,20 @@
+{{ $out := default nil }}
+
+{{ with .Params.series }}
+  {{ with site.GetPage "taxonomyterm" (printf "series/%s" .) }}
+    {{ $page := . }}
+    {{ with .Params.crossref.title }}
+      {{ $out = (dict "Title" . "Page" $page ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ range .Params.partof }}
+  {{ if hasPrefix . "/books/" }}
+    {{ with site.GetPage "page" (substr . 1 -1)  }}
+      {{ $out = (dict "Title" .Title "Page" . ) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $out }}

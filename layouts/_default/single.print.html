@@ -64,7 +64,7 @@ body {
     padding-right: 10pt
 }
 
-.font-special  {
+.font-special,	  .author {
   font-family: AlverataSb;
 }
 
@@ -355,6 +355,7 @@ text-indent: -1rem;
   max-width: 100%;
 }
 
+
 </style>
  
 
@@ -423,8 +424,12 @@ accessed
           {{- .Params.page_title | default .Title | markdownify -}} 
         </h1>
         
-        <div class="authors" style="margin-bottom: 1em">
+        <div class="authors" style="margin-bottom: 1em; width: 100%">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
+          
+         {{ with partial "getcontainertitle" . }}
+           <span>in <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a></span>
+        {{ end }}
          </div>
          
           <div class="doi">

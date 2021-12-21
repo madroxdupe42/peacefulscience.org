@@ -51,25 +51,27 @@
           </a>
 
           {{ with $views }}
-            <div
+      <!--       <div
               class="view-count d-inline d-print-none d-none float-right text-right"
             >
               {{ lang.FormatNumber 0 . }}
-            </div>
+            </div> -->
           {{ end }}
         {{ end }}
 
         <h1 id="title" property="title" class="article-title mt-2">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
-        
+
         <div property="description" class="d-print-none  article-description mb-2">
           {{- .Description | markdownify -}}
         </div>
         
         <div class="mb-2 pr-1">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
-
+        {{ with partial "getcontainertitle" . }}
+           <div class=" float-right"><emph>in</emph> <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a> </div>
+        {{ end }}
          </div>
 
         {{- if eq "main" $headerpos -}}
