@@ -36,6 +36,7 @@ endif
 	npm run tailwind
 	hugo -b https://peacefulscience.org/ --minify	
 	node code/render.js
+	node code/extract.js > public/ps.rdf
 
 princeclean:
 	rm -rf `zipinfo -1  prince-14.2-aws-lambda.zip`
