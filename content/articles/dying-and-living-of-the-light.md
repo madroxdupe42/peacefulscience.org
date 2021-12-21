@@ -11,8 +11,8 @@ partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
 headerimage:
-  youtube: gJivcAAbE0A
   src: /img/2022/01/galaxy.jpg
+  credit: Image by [Wikiimages](https://pixabay.com/photos/galaxy-space-universe-night-sky-11098/)
 ---
 Excerpt from [*Faith Across the Multiverse*](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763/) by Andy Walsh, &copy; 2018 by Hendrickson Publishers, Peabody, Massachusetts. Used by permission. All rights reserved.
 {.editor-note}
