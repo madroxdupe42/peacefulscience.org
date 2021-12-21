@@ -45,6 +45,7 @@
 
 {{ with partial "getpdf.html" . }}
     <meta name="citation_pdf_url" content="{{ . }}"/>
+    <link rel="alternate" href="{{ . }}" type="application/pdf" >
 {{ end }}
     
 {{ with .Date }}
