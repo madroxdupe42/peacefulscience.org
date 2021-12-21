@@ -44,7 +44,7 @@ exports.handler =  async function(event, context) {
     route = route.endsWith('/') ? route.slice(0, -1) : route;
     
     if (! route.endsWith(".pdf") ) 
-	  return {statusCode: 404}
+	  return {statusCode: 301, location: `${route}.pdf`}
 	
     route = route.slice(0, -4);
     route = route.split('/');
