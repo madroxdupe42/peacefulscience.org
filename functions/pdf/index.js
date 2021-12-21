@@ -42,14 +42,19 @@ function replaceAll(str, find, replace) {
 exports.handler =  async function(event, context) {
     let route = event.path.toLowerCase();
     route = route.endsWith('/') ? route.slice(0, -1) : route;
-    route = route.split('/');
     
+    if (! route.endsWith(".pdf") ) 
+	  return {statusCode: 404}
+	
+    route = route.slice(0, -4);
+    route = route.split('/');
+
     let path = route.slice(route.indexOf("pdf")+1);    
     let url = urljoin(baseurl, "_prince", path.join("/"));
     let canurl = urljoin(baseurl, path.join("/"));
     let title = path.slice(-1)[0];
     let section = path.slice(-2)[0];
-    let name = `PS${section}-${title}.pdf`
+    let name = `${title}.pdf`
     let req_etags = [];
     
     if (! ["articles", "about", "prints"].includes(section) )  {
