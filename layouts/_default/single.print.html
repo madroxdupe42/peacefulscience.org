@@ -55,7 +55,7 @@ body {
 
 @font-face {
   font-family: "AlverataSb";
-  src:  url("/font/alveratasb-webfont.woff2") format("woff2");
+  src:  url("https://peacefulscience.org/font/alveratasb-webfont.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -427,11 +427,11 @@ accessed
         <div class="authors" style="margin-bottom: 1em; width: 100%">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
           
-         {{ with partial "getcontainertitle" . }}
-           <span>in <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a></span>
+           {{ with partial "getcontainertitle" . }}
+           <div  style="margin-left: 2em">in <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a></div>
         {{ end }}
+  
          </div>
-         
           <div class="doi">
             <a id="doi"  target=_blank  href="{{ $url }}">{{ $url }}</a>
           </div>
