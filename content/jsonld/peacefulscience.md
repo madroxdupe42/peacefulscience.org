@@ -7,6 +7,7 @@ jsonld:
   name: Peaceful Science
   url: https://peacefulscience.org/
   logo:
+      "@id":  https://peacefulscience.org/#logo
       "@type": ImageObject
       url: https://peacefulscience.org/img/design/logo-black-square.png
   sameAs:
