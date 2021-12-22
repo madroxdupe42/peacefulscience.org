@@ -1,6 +1,8 @@
 ---
 title: The ETS Session on *The Genealogical Adam and Eve*
 date: 2020-11-19
+about:
+- https://peacefulscience.org/books/genealogical-adam-eve/
 crossref:
   type: conference
   name: Annual Meeting of the Evangelical Theological Society

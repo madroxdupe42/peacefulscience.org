@@ -1,6 +1,8 @@
 ---
 title: The AAR Session on *The Genealogical Adam and Eve*
 date: 2020-12-01
+about:
+- https://peacefulscience.org/books/genealogical-adam-eve/
 crossref:
   type: conference
   name: Annual Meetings of the American Academy of Religion and  the Society of Biblical Literature
@@ -36,7 +38,7 @@ jsonld-extend:
 
 [The 2020 Annual Meetings](https://www.aarweb.org/common/Uploaded%20files/Annual%20Meeting/Past%20AM%20Files/AM-ProgramBook-2020-web_version-reduced_file_size-rev1.pdf), hosted by the American Academy of Religion and  the Society of Biblical Literature, is the world's largest gathering of scholars interested in the study of religion.
 
-Science and Religion in *The Genealogical Adam and Eve*
+## Science and Religion in *The Genealogical Adam and Eve*
 
 Computational biologist S. Joshua Swamidass’ book, [*The Genealogical Adam and Eve*](/books/genealogical-adam-eve/), has aroused considerable dialogue between science and different religious points of view. His proposes a late Adam and Eve (ca. 10kya) created de novo by God, ancestors of us all, a view which he claims is fully compatible with contemporary evolutionary biology. This work raises questions about the limits of science, the dialogue between religion and science, and interdisciplinary questions about the meaning of “human” that matter to both secular and religious scholars alike.
 
