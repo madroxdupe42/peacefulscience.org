@@ -391,16 +391,16 @@ text-indent: -1rem;
 {{ $lastmod := .Lastmod }}
 {{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
   {{ $lastmod = .Date }}
-{{ end }}
-{{ .Date.Format "Jan 2, 2006" }} <br>
-{{ .PublishDate.Format "Jan 2, 2006" }}  <br>
+{{ end }}{{ with .Date }}
+{{ $.Date.Format "Jan 2, 2006" }} <br>
+{{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
 {{ $lastmod.Format "Jan 2, 2006" }} <br>
 {{ now.Format "Jan 2, 2006" }}
 </div>
 
 <div style="font-size: 8px; text-align: left;  padding-left: 0.5rem;">
-published   <br>
-online  <br>
+{{ with .Date }} published   <br>
+online  <br> {{ end }}
 last modified <br>
 accessed
 </div>

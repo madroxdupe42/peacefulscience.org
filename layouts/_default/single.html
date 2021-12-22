@@ -32,38 +32,6 @@
     <main>
     <article class="article-grid" >
     
-    
-
-
-<div class="article-date mt-5 ml-3" style="display: flex; ; font-size: smaller;">
-<div style=" text-align: right;  padding-right: 0.5rem;">
- <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
-            rel="”nofollow”"
-            target="_blank"
-            class="py-1 text-decoration-none d-inline"
-          >
-published   <br>
-online  <br>
-modified <br>
-accessed
-</a>
-</div><div  style="">
-
-{{ $lastmod := .Lastmod }}
-{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
-  {{ $lastmod = .Date }}
-{{ end }}
-{{ .Date.Format "Jan 2, 2006" }} <br>
-{{ .PublishDate.Format "Jan 2, 2006" }}  <br>
-{{ $lastmod.Format "Jan 2, 2006" }} <br>
-{{ now.Format "Jan 2, 2006" }}
-</div>
-
-
-
-</div>
-
 
       <header class="article-header mb-5 " style="" id="pageHeader">
 
@@ -230,6 +198,33 @@ accessed
         class="left-sidebar d-print-none"
         style="height: 100%; position: relative; isolation: isolate; z-index: 4;"
       >
+      
+        <div class="ml-5 mt-5" style="display: flex; ; font-size: smaller;">
+<div style=" text-align: right;  padding-right: 0.5rem;">
+ <a
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            rel="”nofollow”"
+            target="_blank"
+            class="py-1 text-decoration-none d-inline"
+          >
+{{ with .Date }} published   <br>
+online  <br> {{ end }}
+modified <br>
+accessed
+</a>
+</div><div  style="">
+
+{{ $lastmod := .Lastmod }}
+{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
+  {{ $lastmod = .Date }}
+{{ end }}
+{{ with .Date }} {{ $.Date.Format "Jan 2, 2006" }} <br>
+{{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
+{{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }}
+</div>
+</div>
+      
         <div
           class="hover-front position-sticky"
           style="top: 60px; width: 100%;"
@@ -258,10 +253,40 @@ accessed
           </nav>
 
         </div>
+        
+        <div class="ml-5" style="position: absolute; bottom: 0; display: flex; ; font-size: smaller;">
+<div style=" text-align: right;  padding-right: 0.5rem;">
+ <a
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            rel="”nofollow”"
+            target="_blank"
+            class="py-1 text-decoration-none d-inline"
+          >
+{{ with .Date }} published   <br>
+online  <br> {{ end }}
+modified <br>
+accessed
+</a>
+</div><div  style="">
+
+{{ $lastmod := .Lastmod }}
+{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
+  {{ $lastmod = .Date }}
+{{ end }}
+{{ with .Date }} {{ $.Date.Format "Jan 2, 2006" }} <br>
+{{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
+{{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }}
+</div>
+</div>
         <div
           class="d-none d-md-block"
           style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"
         ></div>
+        
+
+
+
       </div>
     </article>
     </main>

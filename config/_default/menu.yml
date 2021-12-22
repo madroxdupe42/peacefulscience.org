@@ -28,6 +28,6 @@ main:
   - name: Contact Us
     weight: 7
     parent: about
-    url: /about/contact/
+    url: /contact/
 
 
