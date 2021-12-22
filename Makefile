@@ -19,7 +19,8 @@ pdfinfo: static/pdf
 
 crossref:
 	xmllint  --schema  crossref/schemas/crossref5.3.1.xsd  public/.xref/*.xml --nowarning --noout
-	curl -F 'operation=doQueryUpload' -F 'fname=@${CROSSREF_FILE}' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit > temp.html
+	curl -s -F 'operation=doMDUpload' -F 'fname=@public/.xref/conf.xml' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS
+	curl -s -F 'operation=doMDUpload' -F 'fname=@public/.xref/posted.xml' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS
 
 princehack: prince-14.2-aws-lambda.zip
 	unzip -q -o prince-14.2-aws-lambda.zip
@@ -35,6 +36,7 @@ endif
 	npm run tailwind
 	hugo -b https://peacefulscience.org/ --minify	
 	node code/render.js
+	node code/extract.js > public/ps.rdf
 
 princeclean:
 	rm -rf `zipinfo -1  prince-14.2-aws-lambda.zip`

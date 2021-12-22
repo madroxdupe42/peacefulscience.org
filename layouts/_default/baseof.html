@@ -11,91 +11,13 @@
   <head>
     {{- partial "head.html" . -}}
     {{- block "head" . -}}{{- end }}   
-    
   </head>
   
   <body vocab="http://purl.org/dc/terms/">
   
-  
-  <style>
-  #video-container {
-    opacity: 0; 
-    position: fixed; 
-    bottom:10px; 
-    right:10px; 
-    z-index: 100;
-    transition: all  ease-in .3s;
-  }
-  
-  #video-container.active {
-    opacity: 1;
-  }
-  
-  #video-control-center {
-  display: none;
-  font-size: 24px; 
-  position: absolute; 
-  top:0; left:50%; 
-  transform:  translateX(-50%) translateY(-120%)
-  }
-  
-  #video-control-right {
-    display: none;
-  position: absolute; 
-  top:0; right: 30px;
-  transform:  translateX(50%) translateY(-120%)
-  }
-  
-  .active #video-control-center, .active #video-control-right {
-    display: block;
-  }
-  
-  #video-container.shrink {
-   transform: translateY(100%);
-  }
-  
-  .shrink .shrink-hide {
-    display: none;
-  }
-  
-   .shrink  #video-frame {
-    visibility: hidden;
-    }
-  
-  .shrink .shrink-show {
-    display: block;
-  }
-  
-  .shrink-show {
-    display: none;
-  }
-  
-  .pointer {
-   cursor: pointer;
-  }
-  
-  .circle-icon {
-    text-align: center;
-    font-size: 24px; 
-    line-height: 35px;
-    vertical-align: middle;
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    background: black;
-    color: white;
-    text-decoration:none;
-    border: solid white 1px;
-  }
-  .circle-icon:hover {
-  text-decoration:none;
-  }
-  
-  </style>
-  
-  
 
-<turbo-frame id=main_outlet data-turbo-action="advance" target="_top">
+
+<div id="app" style="transition: 1s">
   
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
@@ -105,42 +27,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {{ end }}
 
 {{ partial "nav.html" . -}}
-
-<div id="scroll-memo" data-scroll=0></div>
+<div style="z-index: -1; isolation: isolate">
 {{- block "background" . }}{{- end }}
-
+</div>
 <div id="content" style="position: relative; z-index: 2; isolation: isolate">
-      {{- block "main" . }}{{- end }}
+  {{- block "main" . }}{{- end }}
+</div>
+{{- partial "footer.html" . -}}
+
+{{ partial "modal-subscribe" . }} 
+
 </div>
 
-    {{- partial "footer.html" . -}}
-    
-    <script render remove>
-    for (E of document.querySelectorAll("[href^='#']")) {
-    	E.setAttribute("data-turbo", false);
-    }
-    </script>
 
-</turbo-frame>
-
-
-    <div id=video-container class="bg-dark text-white"   data-turbo-permanent> 
-     <div id="video-frame"></div>
+<div id=video-container class="text-white" > 
+     <div id="video-frame" class="m-0 px-2" style="max-width: 100vw; height: auto; aspect-ratio: 16/ 9"></div>
+     
      <div id="video-control-center" class="text-dark ">
        <i onclick="ShrinkVideo()" class=" fas fa-arrow-down pointer shrink-hide circle-icon"></i>
-      <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
-     </div>
-     
+       <i onclick="UnshrinkVideo()" class="fas fa-arrow-up pointer shrink-show circle-icon"></i>
+     </div>    
      
      <div id="video-control-right" class="text-dark ">
        <i onclick="CloseVideo()" class="fas fa-times pointer shrink-hide circle-icon"></i>
     </div>
-    </div>
- 
+     
+   <div id="video-id" class="d-none"></div>
+</div>
 
-
-
-
-{{ partial "modal-subscribe" . }} 
+    
+ <script render remove>
+    for (E of document.querySelectorAll("[href^='#']")) {
+    	E.setAttribute("data-turbo", false);
+    }
+</script>
 </body>
 </html>

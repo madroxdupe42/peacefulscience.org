@@ -1,3 +1,9 @@
+{{ $show := .Params.design.linklist | default true  }}
+
+{{ if (in (.Scratch.Get "hide") "linklist" ) }}
+     {{ $show = false }}
+{{ end }}
+
 {{ $title := "References" }}
 
 {{ if in ($.Scratch.Get "rendered") "references" }}
@@ -8,10 +14,9 @@
  {{ $title = "Links" }}
 {{ end }}
 
-{{ if (in (.Scratch.Get "hide") "linklist" ) }}
-{{ else }}
 
-{{ with .Scratch.Get "Links" }}
+{{ if $show }}
+  {{ with .Scratch.Get "Links" }}
   <section class="references d-none d-print-block link-list">
     <h2>{{ $title }}</h2>
 
@@ -21,5 +26,5 @@
     {{end}}
     </ol>
   </section>
-{{end}}
-{{ end}} 
+ {{ end }}
+{{ end }} 

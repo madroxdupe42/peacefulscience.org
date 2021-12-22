@@ -1,11 +1,12 @@
-{{ $pdf :=  printf "https://peacefulscience.org/pdf%s" .RelPermalink }}
+{{ $pdf :=  printf "https://peacefulscience.org/pdf%s.pdf" ( substr .RelPermalink 0 -1) }}
 {{ $page := . }}
 
+
+
+{{ if in (slice "articles" "prints" "about") .Section }}
   {{ with .Params.PDF }}
     {{ warnf "PDF.OLD\t%s\t%s" $page.RelPermalink . }}
   {{ end }}
-
-{{ if in (slice "articles" "prints" "about") .Section }}
 {{ else }}
   {{ $pdf =  .Params.PDF | default nil }}
 {{ end }} 

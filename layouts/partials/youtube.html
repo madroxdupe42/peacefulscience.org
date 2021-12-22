@@ -3,6 +3,7 @@
 {{ $style := default nil }}
 {{ $class := "" }}
 {{ $link := default nil }}
+{{ $lazy := true }}
 
 {{ if reflect.IsSlice . }}
    {{ $id = index . 0 }}
@@ -15,26 +16,19 @@
    {{ $style = .Style | default $style }}
    {{ $class = .Class | default $class }}
    {{ $link = .Link | default nil }}
-   
+   {{ $lazy = .Lazy | default true }}
 {{ end }}
 
 
+
 <div class="border d-print-none mb-1" style="position: relative">
-<a {{with $link}}href="{{ . }}" title="Show Article"{{ else}}onclick="PlayVideo(this.nextSibling)"  title="Play Video"{{ end }}>
+<a {{with $link}}href="{{ . }}" title="Show Article"{{ else}}onclick="PlayVideo('{{ $id }}')"  title="Play Video"{{ end }}>
 <img src={{ $img }} width=16 height=9 style='height: auto; width: 100%; cursor: pointer; aspect-ratio: 16 /9; object-fit: cover'
+{{ if $lazy }} loading="lazy" {{ end }}
 />
-</a><script type="text/html">
-<iframe style="width: 66vw; height: auto; aspect-ratio: 16 / 9; max-width: 600px ;" width="16" height="9"
-  src="https://www.youtube.com/embed/{{ $id }}?autoplay=1&origin=https://peacefulscience.org&modestbranding=1&playsinline=1&cc_load_policy=1"
-  allowfullscreen="allowfullscreen"
-  mozallowfullscreen="mozallowfullscreen" 
-  msallowfullscreen="msallowfullscreen" 
-  oallowfullscreen="oallowfullscreen" 
-  webkitallowfullscreen="webkitallowfullscreen">
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-</iframe></script><a
+</a><a
  class="d-print-none"
- onclick="PlayVideo(this.previousSibling)" 
+ onclick="PlayVideo('{{ $id }}')" 
 	 title="Play Video"
  style="transform: translateX(10px) translateY(-50%);
   vertical-align: middle; 

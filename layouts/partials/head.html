@@ -45,6 +45,7 @@
 
 {{ with partial "getpdf.html" . }}
     <meta name="citation_pdf_url" content="{{ . }}"/>
+    <link rel="alternate" href="{{ . }}" type="application/pdf" >
 {{ end }}
     
 {{ with .Date }}
@@ -99,17 +100,13 @@
   href="https://peacefulscience.org/font/alveratasb-webfont.woff2"
   as="font">
   
-<link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
+<link rel="search" href="/os.xml" type="application/opensearchdescription+xml" title="Peaceful Science">
 <link rel="manifest" href="/manifest.json">
 <link href='/ps-initials.png?h=64&w=64&nf_resize=fit' rel='shortcut icon'/>
 <link rel="apple-touch-icon" sizes="180x180" href="/ps-initials.png?h=180&w=180&nf_resize=fit">
 
-
-
  <script defer src="{{ (resources.Get "js/turbo.js" | js.Build (dict "minify" true ) | resources.Fingerprint ).Permalink }}"> </script>     
- <script defer src="{{ (resources.Get "js/navprogress.js" | js.Build (dict "minify" true ) | resources.Fingerprint ).Permalink }}"> </script>
      
-
 {{/*
 {{ $style := resources.Get "css/tw.css"  | resources.PostCSS  }}
 <style source="{{ $style.Permalink }}">
@@ -129,25 +126,20 @@
   href="{{$style.Permalink}}"
   rel="stylesheet">
   
-{{ if site.IsServer }}
-{{ else }}
-  {{ partial "onesignal" . }} 
-  <script>
-  document.addEventListener("turbo:load", function() {
-    ga('send', 'pageview', window.location.pathname);
-  })
-  </script>   
-{{ end }}
-
-
 
 {{ if not site.IsServer }}
+  {{ partial "onesignal" . }} 
+
 {{ with .Site.GoogleAnalytics }}
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KDF8R85');
+
+document.addEventListener("turbo:load", function() {
+    ga('send', 'pageview', window.location.pathname);
+  });
 </script>
 {{ end  }}
 {{ end }}

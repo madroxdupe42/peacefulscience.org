@@ -7,7 +7,7 @@ crossref:
   number: 72
   startdate: 2020-11-16
   enddate: 2020-11-20
-  title: 72nd Annual Meeting of the Evangelical Theological Society
+  title: The 72nd Annual Meeting of the Evangelical Theological Society
   publicationdate: 2020-11-20
 headerimage:
   src: /img/2021/12/ets-gae.png
@@ -20,8 +20,8 @@ jsonld-extend:
     location: 
       "@type": virtuallocation
       url: https://www.youtube.com/playlist?list=PLc0j60GXf64pcz81txpLTY4u4Q9HsbJwp
-    startDate: 2020-11-16
-    endDate: 2020-11-16
+    startDate: 2020-11-19
+    endDate: 2020-11-19
     name: ETS Session on The Genealogical Adam and Eve 
     superEvent:
       "@id": = permalink superevent

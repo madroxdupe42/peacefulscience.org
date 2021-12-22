@@ -10,9 +10,11 @@
     "@hotwired/turbo": "^7.1.0",
     "algoliasearch": "^4.11.0",
     "axios": "^0.24.0",
-    "bent": "^7.3.12",
-    "got-scraping": "^3.2.6",
+    "cheerio": "^1.0.0-rc.10",
+    "citation.js": "^0.4.1",
     "instantsearch.js": "^4.35.0",
+    "jsonld": "^5.2.0",
+    "onesignal": "^0.1.2",
     "postcss-cli": "^9.0.2",
     "postcss-filter-mq": "^1.0.1",
     "postcss-import": "^14.0.2",
@@ -21,7 +23,8 @@
     "prince": "^1.9.5",
     "uncss": "^0.17.3",
     "url-join": "^4.0.1",
-    "urljoin": "^0.1.5"
+    "urljoin": "^0.1.5",
+    "youtube-player": "^5.5.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",

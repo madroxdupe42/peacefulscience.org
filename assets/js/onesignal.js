@@ -1,10 +1,5 @@
 // if (document.documentElement.clientWidth  >= 900) {
-	
-  var myscript = document.createElement('script');
-  myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
-  myscript.setAttribute('defer',true);
-  document.head.appendChild(myscript);
-	
+		
   window.OneSignal = window.OneSignal || [];
 
   OneSignal.push(function () {
@@ -54,7 +49,13 @@
     OneSignal.showSlidedownPrompt();
   });
 
+
   function documentInitOneSignal() {
+	  var myscript = document.createElement('script');
+      myscript.setAttribute('src','https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+      myscript.setAttribute('defer',true);
+      document.head.appendChild(myscript);
+	
     var oneSignal_elements =
       document.getElementsByClassName("OneSignal-prompt");
 
@@ -70,12 +71,14 @@
       );
   }
 
+
+
   if (document.readyState === "complete") {
-    documentInitOneSignal();
+     window.setTimeout(documentInitOneSignal, 15 * 1000) ;
   } else {
     window.addEventListener("load", function (event) {
-      documentInitOneSignal();
-      document.querySelector(".onesignal-bell-container").setAttribute("data-turbo-permanent", true);
+	
+      window.setTimeout(documentInitOneSignal, 15 * 1000) ;
     });
   }
 // }

@@ -13,7 +13,7 @@ jsonld:
   publisher: = copy /jsonld/peacefulscience 
   potentialAction:
     "@type": SearchAction
-    target: https://peacefulscience.org/search/?query={search_term}
+    target: https://peacefulscience.org/search/?PeacefulScience[query]={search_term}
     query-input: required name=search_term
     
 headerimage:

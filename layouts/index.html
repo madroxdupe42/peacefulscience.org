@@ -8,17 +8,17 @@
 {{ end }}
 
 {{ define "background" }}
-
+{{ warnf "INDEX" }}
   <img
     class="panimate"
-    style="background-color: #030; position: fixed; z-index: -1; 
+    style="background-color: #030; position: fixed; z-index: -2; 
  top: 0px; left: 0px; width: 100vw; height: 100vh;object-fit: cover;
  object-position: 10% 50%;user-select: none;"
     src='{{ partial `imgcdn` `/img/design/green-hex.svg` }}'
   />
 {{ end }}
 
-{{ define "main" }}
+{{ define "main" }} 
 
   {{ $PAGES := partialCached "byviews" . }}
   {{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }}

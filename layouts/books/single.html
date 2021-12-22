@@ -20,10 +20,9 @@
 }
 
 .collapse-background {
-position: absoltue;
-height: 100%
+position: absolute;
+height: 100%;
 width: 100%
-
 }
 
 .collapsible .collapse-overlay {
@@ -55,25 +54,30 @@ width: 100%
   <div class="bg-white">
     <div style="height: 40px; width: 100%"></div>
 
-    <div class="container  pt-5 pb-5 ">
+    <div class="container  pt-5 pb-5 mx-auto">
       <div class="row">
 
-        <header class="row col-12 pb-5 ">
+        <header class="col-12 pb-5 ">
 
-        <div class="col-12">
+        
+          <h1 class="mt-2">{{ .Title }}</h1>
+          {{ with .Description }}{{ . | markdownify }}{{ end }}
+
+          <div class="mt-2 mb-5 pr-1">
+          {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
+        </div>
 
          {{ with  index  .Params.amazon 0  }}
-          <section class="float-md-right text-center p-3">
+          <aside class="float-right text-center ml-3 mb-3" style="width: 300px; max-width: 40%;">
 {{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
 
-
-<a rel="sponsored" href="https://amazon.com/dp/{{  .  }}/?tag=swamidass-20" target="_blank">
+<a href="#related-articles">
   <img src='{{ $img }}?imgeng=/w_auto,400/' 
-       style="width: 100%; height: auto" 
+       style="width:100%; height: auto" 
        width=336 height=550 
        class="shadow"/>
 </a>
-            
+
             <div> 
 
             <a class="btn btn-dark mt-3" href="https://amazon.com/dp/{{ . }}/?tag=swamidass-20" target=_blank rel=sponsored>Purchase <span class="fa-stack">
@@ -85,23 +89,14 @@ width: 100%
             {{ end }}
             </div>
             
-          </section>
+          </aside>
         {{ end }}
-        
-          <h1 class="mt-2">{{ .Title }}</h1>
-          {{ with .Description }}{{ . | markdownify }}{{ end }}
-
-          <div class="mt-2 mb-5 pr-1">
-          {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
-        </div>
-
            
           <div style="max-width: 600px">
             {{- .Content -}}
           </div>
           
-                     
-          </div>
+           
 
         </header>
         
@@ -145,6 +140,6 @@ width: 100%
 
       </div>
     </div>
-  </div>
+
 
 {{ end }}
