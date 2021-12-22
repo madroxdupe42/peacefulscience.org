@@ -6,8 +6,11 @@ authors:
 categories:
 - adam-eve
 - theology
+partof:
+- /books/mere-science-faith/
 commenturl: "http://discourse.peacefulscience.org/t/greg-cootsona-the-typology-of-adam-and-eve/6237"
-date: "2019-05-16T17:10:10"
+publishdate: "2019-05-16T17:10:10"
+date: 2018-03-13
 description: With important questions before, us how should we approach origins? Let's keep working at this with our eyes focused, not on Adam and Eve, but on Jesus.
 headerimage:
   src: /img/2019/05/cootsona.jpg
