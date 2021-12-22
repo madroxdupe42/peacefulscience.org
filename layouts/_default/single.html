@@ -89,7 +89,7 @@
           {{- range .Params.categories }}
             {{- with site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
               {{- if not (.Params.hidden | default false ) -}} 
-                <a class="tag-link d-print-none" href="{{ .Permalink }}"> {{ .Title }} </a>
+                <a class="tag-link d-print-none" rel="tag" href="{{ .Permalink }}"> {{ .Title }} </a>
               {{ end }}
             {{- end }}
           {{- end }}
@@ -99,7 +99,7 @@
         
          <div>
           {{ with partial "getpdf" . }}
-            <a href='{{ . | absURL }}' type="application/pdf" target=_blank class="d-print-none badge p-2 badge-secondary rounded mr-2 text-larger"><i class="fa fa-download" aria-hidden="true"></i></a>
+            <a href='{{ . | absURL }}' type="application/pdf" rel="alternate" target=_blank class="d-print-none badge p-2 badge-secondary rounded mr-2 text-larger"><i class="fa fa-download" aria-hidden="true"></i></a>
           {{ end }}
           {{ with partial "getdoi" . }}
           <span class="text-smaller  font-bold">
@@ -121,15 +121,15 @@
                 {{- range (partial "listpages" . ) }}
                   {{ if eq $ $page }}
                     <p> <span class="font-weight-bold"> Next in series: </span>
-                    <a  class="font-special d-block" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+                    <a  class="font-special d-block" rel="next" href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
                   {{ end }}
                   {{ if and (eq $ .) $page }}
                     <p> <span class="font-weight-bold"> Previous  in series:</span>
-                    <a class="font-special d-block" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
+                    <a class="font-special d-block" rel="prev" href="{{ $page.Permalink }}">{{ $page.Title | markdownify }}</a>
                   {{ end }}
                   {{ $page = . }}
                 {{ end }}  
-                <p> <span class="font-weight-bold">Full series:</span> <a  class="font-special d-block" href="#article-series-this">{{ .Title | markdownify }}</a>
+                <p> <span class="font-weight-bold">Full series:</span> <a  class="font-special d-block" rel="archives" href="#article-series-this">{{ .Title | markdownify }}</a>
                 
 
             </aside>
@@ -144,6 +144,35 @@
         {{ $content }}
         
         {{ partial "linklist" . }}
+
+
+
+        <div class="d-flex d-print-flex d-md-none mt-5 ml-5" style="font-size: smaller;">
+<div style=" text-align: right;  padding-right: 0.5rem;">
+ <a
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            rel="”nofollow”"
+            target="_blank"
+            class="py-1 text-decoration-none d-inline"
+          >
+{{ with .Date }} published   <br>
+online  <br> {{ end }}
+modified <br>
+accessed
+</a>
+</div><div  style="">
+
+{{ $lastmod := .Lastmod }}
+{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
+  {{ $lastmod = .Date }}
+{{ end }}
+{{ with .Date }} {{ $.Date.Format "Jan 2, 2006" }} <br>
+{{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
+{{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }}
+</div>
+</div>
+  
 
         {{ with .Params.fullurl }}
 
@@ -254,31 +283,6 @@ accessed
 
         </div>
         
-        <div class="ml-5" style="position: absolute; bottom: 0; display: flex; ; font-size: smaller;">
-<div style=" text-align: right;  padding-right: 0.5rem;">
- <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
-            rel="”nofollow”"
-            target="_blank"
-            class="py-1 text-decoration-none d-inline"
-          >
-{{ with .Date }} published   <br>
-online  <br> {{ end }}
-modified <br>
-accessed
-</a>
-</div><div  style="">
-
-{{ $lastmod := .Lastmod }}
-{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
-  {{ $lastmod = .Date }}
-{{ end }}
-{{ with .Date }} {{ $.Date.Format "Jan 2, 2006" }} <br>
-{{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
-{{ $lastmod.Format "Jan 2, 2006" }} <br>
-{{ now.Format "Jan 2, 2006" }}
-</div>
-</div>
         <div
           class="d-none d-md-block"
           style="z-index: 10; position: absolute; bottom: 0px; width: 100%; height: min(80%,  200vh); background-image: linear-gradient(#fff0,#ffff); pointer-events: none"
