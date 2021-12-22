@@ -31,34 +31,46 @@
     <div class="d-print-none" style="height: 80px; width: 100%"></div>
     <main>
     <article class="article-grid" >
-      <header class="article-header mb-5 "  id="pageHeader">
+    
+    
 
-        {{ with .Date }}
-          <a
+
+<div class="article-date mt-5 ml-3" style="display: flex; ; font-size: smaller;">
+<div style=" text-align: right;  padding-right: 0.5rem;">
+ <a
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
-            class="font-special py-1 text-decoration-none text-muted d-inline"
+            class="py-1 text-decoration-none d-inline"
           >
-              {{ .Format "January 2, 2006" }}
-              
-              {{ $lastmod := partial "lastmod" $ }}
-              {{ $day := div (sub  $lastmod.Unix $.Date.Unix  ) 86400 }}
+published   <br>
+online  <br>
+modified <br>
+accessed
+</a>
+</div><div  style="">
 
-              {{ if (gt  2 $day) }}
-               <i class="fa fa-history pl-3 d-print-none" style="color: #ccc" ></i>
-              {{ end }}
-          </a>
+{{ $lastmod := .Lastmod }}
+{{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
+  {{ $lastmod = .Date }}
+{{ end }}
+{{ .Date.Format "Jan 2, 2006" }} <br>
+{{ .PublishDate.Format "Jan 2, 2006" }}  <br>
+{{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }}
+</div>
 
-          {{ with $views }}
-      <!--       <div
-              class="view-count d-inline d-print-none d-none float-right text-right"
-            >
-              {{ lang.FormatNumber 0 . }}
-            </div> -->
-          {{ end }}
+
+
+</div>
+
+
+      <header class="article-header mb-5 " style="" id="pageHeader">
+
+        {{ with partial "getcontainertitle" . }}
+           <div stydle="margin-left: 2em" cladss=" float-right"><i>in</i> <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a> </div>
         {{ end }}
-
+        
         <h1 id="title" property="title" class="article-title mt-2">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
@@ -67,12 +79,9 @@
           {{- .Description | markdownify -}}
         </div>
         
-        <div class="mb-2 pr-1">
+        <div class="pb-2 pr-1">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
-        {{ with partial "getcontainertitle" . }}
-           <div style="margin-left: 2em" class=" float-right"><emph>in</emph> <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a> </div>
-        {{ end }}
-         </div>
+
 <div style="clear:both"></div>
         {{- if eq "main" $headerpos -}}
           <div class="pb-2">
@@ -122,7 +131,7 @@
         
          <div>
           {{ with partial "getpdf" . }}
-            <a href='{{ . | absURL }}' target=_blank class="d-print-none text-smaller badge badge-secondary rounded mr-2">PDF</a>
+            <a href='{{ . | absURL }}' type="application/pdf" target=_blank class="d-print-none badge p-2 badge-secondary rounded mr-2 text-larger"><i class="fa fa-download" aria-hidden="true"></i></a>
           {{ end }}
           {{ with partial "getdoi" . }}
           <span class="text-smaller  font-bold">
