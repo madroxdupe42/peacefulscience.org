@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: You come to a fork in your life's path. In a multiverse, there's no need to settle for just choosing one way.
-date: 2021-12-08
+publishdate: 2021-12-08
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse

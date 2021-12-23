@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: Kamala Khan or Ms Marvel? Light particle or Light wave? Jesus the Son of Man or Jesus the Son of God? Which of these identities are the true ones? They all are.
-date: 2021-12-22
+publishdate: 2021-12-22
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
