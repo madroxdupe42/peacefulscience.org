@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: Have you ever been shipped off to a military academy as a preteen, only to find it's an orbital platform with low gravity? How do you find a frame of reference to orient to those new surroundings?
-date: 2021-12-29
+publishdate: 2021-12-29
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse

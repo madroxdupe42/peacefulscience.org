@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: Entropy is unavoidable. But that doesn't mean we have no choice about its consequences and who experiences them.
-date: 2022-01-05
+publishdate: 2022-01-05
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse

@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: Some see God's grace in the way the sun rises every morning or in a nourishing rainfall. But have you ever seen God's grace in a system of equations?
-date: 2021-12-15
+publishdate: 2021-12-15
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse

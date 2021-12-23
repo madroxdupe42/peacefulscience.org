@@ -6,7 +6,8 @@ categories:
 - science
 - art
 description: They thought they were talking about the same thing because they were using the same word, but they actually had very different concepts in mind. Enter the Babelfish.
-date: 2021-12-01
+publishdate: 2021-12-01
+date: 2018-07-01
 partof:
 - /books/faith-across-multiverse/
 series: faith-across-multiverse
