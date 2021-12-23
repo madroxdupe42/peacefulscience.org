@@ -1,9 +1,12 @@
 require("dotenv").config() 
+const { builder } = require("@netlify/functions");
 const axios = require('axios');
 const urljoin = require('url-join');
 const util   = require("util");
 var os = require('os');
 var fs = require('fs');
+
+
 const Prince = require('prince');
 
 const baseurl = "https://peacefulscience.org/";
@@ -39,7 +42,7 @@ function replaceAll(str, find, replace) {
   return str.replace(new RegExp(find, 'g'), replace);
 }
 
-exports.handler =  async function(event, context) {
+async function handler(event, context) {
     let route = event.path.toLowerCase();
     route = route.endsWith('/') ? route.slice(0, -1) : route;
     
@@ -108,6 +111,6 @@ exports.handler =  async function(event, context) {
 }
      
     
-    
+exports.handler = builder(handler);
 
      
