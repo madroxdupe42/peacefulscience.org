@@ -98,7 +98,7 @@ async function handler(event, context) {
                 "Content-Disposition": `filename="${name}"`,
                 "Cache-Control": res.headers['cache-control'],
                 "content-type": "application/pdf",
-                "Link": `<${canurl}>; rel="canonical"`,
+                "Link": `<${canurl}>; rel="alternate"; type="text/html", <${event.path.toLowerCase()}>; rel="canonical"`,
                 "Etag": res.headers["etag"],
                 "age":  res.headers['age'],
                 "x-nf-request-id": res.headers['x-nf-request-id']
