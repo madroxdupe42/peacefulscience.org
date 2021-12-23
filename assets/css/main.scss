@@ -553,7 +553,6 @@ article p:last-child {
 
 .article-title {
   font-family: AlverataSb;
-  @extend .py-1;
 }
 
 main > p:not(.editor-note):first-of-type::first-letter,
