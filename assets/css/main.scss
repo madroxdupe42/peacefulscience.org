@@ -822,6 +822,17 @@ grid-template-columns: calc(25% + 20px) auto;
 }
 
 
+
+.article-date {
+
+
+grid-column: 2; grid-row: 3;
+  @include media-breakpoint-up(md) {
+ grid-row: 1;
+grid-column: 1;		
+  }
+}
+
 .article-body {
   @extend .px-3;
   display: block;
@@ -1370,6 +1381,8 @@ body {background: black}
     opacity: 1;
   }
   
+
+
   #video-control-center {
   display: none;
   font-size: 24px; 

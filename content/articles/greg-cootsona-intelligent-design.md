@@ -8,8 +8,11 @@ categories:
 - dialogue
 - science
 - theology
+partof:
+- /books/mere-science-faith/
 commenturl: "http://discourse.peacefulscience.org/t/greg-cootsona-what-about-intelligent-design/11943"
-date: "2020-09-28T18:31:22"
+date: 2018-03-13
+publishdate: "2020-09-28T18:31:22"
 description: Mere Science and the Christian Faith by Greg Cootsona sparked a conversation about Intelligent Design's place in science and in the Church.
 headerimage:
   src: /img/2020/09/Flagellum_PSF.png

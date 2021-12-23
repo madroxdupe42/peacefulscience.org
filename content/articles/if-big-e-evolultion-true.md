@@ -4,7 +4,8 @@ partof:
 - /books/thinking-about-evolution/
 authors:
 - Anjeanette Roberts
-date: 2021-11-22
+date: 2020-11-07
+publishdate: 2021-11-22
 series: rtb
 categories:
 - evolution

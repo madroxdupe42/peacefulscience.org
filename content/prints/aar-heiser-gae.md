@@ -1,8 +1,8 @@
 ---
-title: A Biblical Scholar's Perspective
+title: A Biblical Scholar's Perspective on People Outside the Garden
 authors:
-- Michael Heiser
-description:  I don’t see any biblical passage that is fatal to the thesis. 
+- michael-heiser
+description:   I don’t see any biblical passage that is fatal to the thesis. On the other hand, I also don’t see---and the author admits this openly---any explicit data in the text to support the thesis.
 date: 2020-12-01
 publishdate: 2022-01-04
 headerimage:
