@@ -34,22 +34,22 @@
     
 
       <header class="article-header mb-5 " style="" id="pageHeader">
-
-        {{ with partial "getcontainertitle" . }}
-           <div stydle="margin-left: 2em" cladss=" float-right"><i>in</i> <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a> </div>
-        {{ end }}
-        
         <h1 id="title" property="title" class="article-title mt-2">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
 
-        <div property="description" class="d-print-none  article-description mb-2">
+        {{ with partial "getcontainertitle" . }}
+           <div style="margin-left: 2em" class=" "><i>in</i> <a class="font-special" href="{{ .Page.Permalink }}">{{.Title}}</a> </div>
+        {{ end }}
+        
+
+        <div property="description" class="d-print-none  article-description mt-2 mb-2">
           {{- .Description | markdownify -}}
         </div>
         
         <div class="pb-2 pr-1">
           {{- partial "authors" (dict "page" . "class" "text-decoration-none") -}}
-
+</div>
 <div style="clear:both"></div>
         {{- if eq "main" $headerpos -}}
           <div class="pb-2">
