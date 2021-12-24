@@ -11,6 +11,8 @@ amazon:
 - B08MYF1SL5
 isbn:
 - 1886653976
+publisher: RTB Press
+date: 2020-11-07
 ---
 We Have Questions about Evolution, But Is It Safe to Ask?
 
