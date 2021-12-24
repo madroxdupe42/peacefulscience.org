@@ -21,6 +21,9 @@
       {{ partial "xref/contributors.xml" . }}
       {{ partial "xref/title.xml" . }}
       <publication_date media_type="online">
+         {{ partial "xref/date.xml" .PublishDate }}
+      </publication_date>
+      <publication_date media_type="print">
          {{ partial "xref/date.xml" .Date }}
       </publication_date>
       {{ partial "xref/doidata.xml" . }}  
