@@ -1,7 +1,7 @@
 title: "Peaceful Science"
 languageCode: "en-us"
 baseURL: https://peacefulscience.org
-
+timeZone: America/Chicago 
 enableGitInfo: true
 disableAliases: true
 
