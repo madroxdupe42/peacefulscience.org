@@ -60,7 +60,9 @@
               {{ $headerclass := "" }}
               {{- with .youtube }}
                  <div class="d-print-none">
-                 
+                 <script>
+                 window.setTimeout(() => {PolitePlayVideo("{{ . | safeJS }}")}, 10000)
+                 </script>
                 {{ partial `youtube` (dict  "Youtube" . "Image" $src "Lazy" false ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
@@ -142,6 +144,26 @@
         {{ end }}
         
         {{ $content }}
+        
+        
+        {{ $page := . }}
+        {{ range .Params.layers }}
+           {{ $layer := . }}
+          {{ if eq .type "pages" }}       
+
+          <section class="row expand-right mt-5">
+            {{  partial "heading" (dict "Text" (.heading | markdownify)  "Class" "heading-black" ) }}
+            {{ range partial "listpages" $page }}
+              {{ $args := (dict "Page" . "Layout" "col-12" "Hide" "categories" ) }}
+              {{ partial "render" $args }}
+            {{ end }}
+
+          </section>
+     
+           
+                     {{ end }}
+        {{ end }}
+        
         
         {{ partial "linklist" . }}
 
