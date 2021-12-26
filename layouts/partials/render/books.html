@@ -19,13 +19,13 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1  d-print-none d-block mx-auto" -}}
 {{- $imagestyle := "width: auto; height: auto;  max-width: min(300px,100%); max-height: 300px;" }}
-{{- $imgeng:= "?imgeng=/h_auto,360/" }}
+{{- $imgeng:= "?imgeng=/w_auto,180/" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3  mb-1 d-print-none" -}}
   {{- $imagestyle = "max-width:  min(180px,100%); width: auto; height: 180px;" }}
-  {{- $imgeng = "?imgeng=/h_auto,360/" }}
+  {{- $imgeng = "?imgeng=/w_auto,180/" }}
 {{- end -}}
 
 <article
