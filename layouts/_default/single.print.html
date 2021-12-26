@@ -13,6 +13,13 @@
 <style>  
 {{ warnf "PRINT" }}
 
+
+
+@prince-pdf {
+    prince-pdf-xmp: url(data:text/xml;base64,{{ partial "xmp.xml" . | base64Encode }});
+}
+
+
 @page {
 prince-shrink-to-fit: none;
   @bottom {
