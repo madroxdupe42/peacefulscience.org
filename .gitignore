@@ -1,5 +1,16 @@
+.externalToolBuilders
+.hugo_build.lock
+.prettierrc
+.project
+.sass-cache
+.env
+.settings
+resources
+*.ipynb
+amazon*
 prince-engine/ 
 fonts/
+newsletter*
 *.zip
 *.pdf
 assets/css/tw.css
