@@ -13,13 +13,13 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1  d-print-none d-block" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
-{{- $imgeng:= "?imgeng=/w_640/h_360/m_cropbox" }}
+{{- $imgeng:= "?imgeng=/w_auto,360/" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3  mb-1 d-print-none rounded" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
-  {{- $imgeng = "?imgeng=/w_320/h_180/" }}
+  {{- $imgeng = "?imgeng=/w_auto,160/" }}
   {{- $sizes = "160px" }}
 {{- end -}}
 
