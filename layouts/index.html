@@ -94,8 +94,8 @@
             {{ partial "heading" (dict "Text" "Discussing These Books" "Link" "/books/" "Class" "heading-green") }}
   
                 {{ range first 6 (partial "listpages" (.GetPage "/books") ) }}
-                  {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-4 col-lg-2" "Hide" "excerpt categories lazy date author"  ) }}
-
+                  {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-4 col-md-3 col-lg-2" 
+                      "Hide" "excerpt categories lazy date author"  "Sizes" "(max-width: 745px) 25vw, (min-width: 745px) 153px" ) }}
                 {{ end }}
 
           </div>
@@ -162,13 +162,10 @@
         <div class="row justify-content-center pt-3">
           {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
-          {{ range first 3 $latest }}
-            {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4" ) }}
+          {{ range $latest }}
+            {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 30vw" ) }}
           {{ end }}
 
-          {{ range after 3 $latest }}
-            {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4"  ) }}
-          {{ end }}
         </div>
       </div>
     </section>
