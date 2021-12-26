@@ -56,13 +56,10 @@
             {{- with .Params.headerImage }}
 
               {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
-              {{ $src = printf "%s?imgeng=/w_auto,1200/" ( partial `imgcdn` $src ) }}
-              {{ $headerclass := "" }}
+              {{- $src = partial `imgcdn` $src  }}
+              {{- $headerclass := "" }}
               {{- with .youtube }}
-                 <div class="d-print-none">
-                 <script>
-                 window.setTimeout(() => {PolitePlayVideo("{{ . | safeJS }}")}, 10000)
-                 </script>
+                 <div class="">
                 {{ partial `youtube` (dict  "Youtube" . "Image" $src "Lazy" false "Sizes" "(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px" ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
