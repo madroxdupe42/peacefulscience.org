@@ -1,0 +1,24 @@
+
+    <book_metadata >
+      {{- partial "xref/contributors.xml" . }}
+      {{- partial "xref/title.xml" . }}
+      
+      {{- with .Date }}
+      <publication_date media_type="print">
+         {{- partial "xref/date.xml" . }}
+      </publication_date>
+      {{- else }}
+         {{- warnf "XREF.DATE:\t%s" .RelPermalink }}
+      {{- end }}
+      {{- with .Params.isbn }}
+        {{- $isbn := . }}
+        {{- if reflect.IsSlice $isbn }}
+          {{- $isbn = index $isbn 0 }}
+        {{- end }}
+        <isbn>{{ $isbn }}</isbn>
+      {{- else }}{{ warnf "XREF.NOISBN:\t%s" .RelPermalink }}
+      {{- end }} 
+      <publisher>
+      <publisher_name>{{ .Params.publisher }}</publisher_name>
+      </publisher>      
+    </book_metadata>
