@@ -42,7 +42,7 @@
   <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" property="image" style="{{ $imagestyle | safeCSS }}" 
   src="{{ $src  | partial `imgcdn` }}{{ $imgeng }}" alt="{{ $page.Title | htmlEscape }}" 
-  {{- if $sizes }} sizes="{{ . }}"{{ end }}
+  {{- with $sizes }} sizes="{{ . }}"{{ end }}
   {{- if (in .Elements "lazy") }} loading="lazy" {{- end }}>
   </a>
 {{ end }} 
