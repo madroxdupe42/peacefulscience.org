@@ -56,16 +56,16 @@
             {{- with .Params.headerImage }}
 
               {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
-              {{- $src = partial `imgcdn` $src  }}
+              {{- $cdnsrc := partial `imgcdn` $src  }}
               {{- $headerclass := "" }}
               {{- with .youtube }}
                  <div class="">
-                {{ partial `youtube` (dict  "Youtube" . "Image" $src "Lazy" false "Sizes" "(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px" ) }}
+                {{ partial `youtube` (dict  "Youtube" . "Image" $cdnsrc "Lazy" false "Sizes" "(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px" ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
                 <img 
-                  src="{{ $src }}"
+                  src="{{ $cdnsrc }}"
                   class="webfeedsFeaturedVisual {{ $headerclass }}"
                   style="width: 100%; height: auto"
                   sizes="(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px"
