@@ -1,4 +1,6 @@
 ---
+aliases:
+- /genealogical-adam-eve/
 title: The Genealogical Adam and Eve
 description: The Surprising Science of Universal Ancestry
 authors:
@@ -7,11 +9,6 @@ amazon:
 - 151400383X
 - B08QJQ8KS3
 - B07V4TBL5Z
-- "0830852638"
-internalref:
-- /genealogical-adam-eve/
-- https://peacefulscience.org/genealogical-adam-eve/
-- /genealogical-adam-eve
 isbn: 978-0830852635
 erratum:  /pdf/genealogical-adam-eve-errata-jan2021.pdf
 ---
