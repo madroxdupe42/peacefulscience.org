@@ -69,6 +69,21 @@ body {
 }
 
 
+@font-face {
+  font-family: "AlverataSbIrreg";
+  src:  url("/font/alverata-irregular-sb-webfont.woff2") format("woff2");
+}
+
+.Falt1 {
+	font-family: AlverataSbIrreg;
+	font-variant: prince-opentype(ss04);
+}
+
+.Falt2 {
+	font-family: AlverataSbIrreg;
+	font-variant: prince-opentype(ss05);
+}
+
 .displayfootnote::footnote-marker {
     padding-right: 10pt
 }
@@ -526,6 +541,11 @@ for (var s of ss)
   if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
     s.parentElement.insertBefore(document.createElement("span"), s);
   
+</script>
+
+
+<script render remove>
+{{ (resources.Get "js/fontvar.js" ).Content | safeJS }}
 </script>
 
 

@@ -16,12 +16,25 @@ $body-color-inverse: #000;
 // @import "ampcssframework/scss/amp-source";
 // $grid-breakpoints: $amp-grid-breakpoints;
 
-
 @font-face {
   font-family: "AlverataSb";
   src:  url("https://peacefulscience.org/font/alveratasb-webfont.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "AlverataSbIrreg";
+  src:  url("/font/alverata-irregular-sb-webfont.woff2") format("woff2");
+}
+
+.Falt1 {
+	font-family: AlverataSbIrreg, AlverataSb;
+	font-feature-settings: "ss04";
+}
+
+.Falt2 {
+	font-family: AlverataSbIrreg, AlverataSb;
+	font-feature-settings: "ss05";
+}
 :root {
 	color-scheme: light;
 }

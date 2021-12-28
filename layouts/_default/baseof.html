@@ -37,6 +37,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {{ partial "modal-subscribe" . }} 
 
+
 </div>
 
 
@@ -61,5 +62,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     	E.setAttribute("data-turbo", false);
     }
 </script>
+
+
+<script render remove>
+{{ (resources.Get "js/fontvar.js" ).Content | safeJS }}
+</script>
+
 </body>
 </html>
