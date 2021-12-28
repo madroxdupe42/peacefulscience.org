@@ -22,7 +22,8 @@
 
   {{ $PAGES := partialCached "byviews" . }}
   {{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }}
-      
+  {{ $ALL := (where $ALL ".Section" "!=" "newsletter" ) }}
+       
   {{ $ALL := sort $ALL "PublishDate" "desc" }}
   
   {{ $latest := first 9 $ALL }}
