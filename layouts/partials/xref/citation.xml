@@ -1,0 +1,23 @@
+{{- $cite := .Cite }}
+{{- $key := .Key }}
+
+{{- if hasPrefix $cite "https://peacefulscience.org" }}
+  {{- $relpermalink := replaceRE `https://peacefulscience.org` `` $cite }}
+  {{- $relpermalink = replaceRE `/$` `` $relpermalink }}
+  {{- with site.GetPage "page" $relpermalink }}
+    {{- with partial "getdoi" . }}
+      <citation key="{{ $key }}"><doi>{{.}}</doi></citation>
+    {{- end  }}  
+    {{- with .Params.isbn }}
+      {{- $isbn := . }}
+      {{- if reflect.IsSlice . }}{{ $isbn = index . 0 }}{{ end }}
+      {{- $isbn = replaceRE `-` `` $isbn }}
+      <citation key="{{ $key }}"><isbn>{{$isbn}}</isbn></citation>
+    {{- end }} 
+  {{- end }}  
+{{- end }}
+
+{{- if in $cite "doi.org/10." }}
+   {{- $doi := replaceRE `^.*doi.org/` `` $cite }}
+   <citation key="{{ $key }}"><doi>{{ $doi }}</doi></citation>
+{{- end }}

@@ -26,6 +26,7 @@
          {{ partial "xref/date.xml" .Date }}
       </publication_date>
     {{ partial "xref/doidata.xml" . }}  
+    {{ partial "xref/citation_list.xml" . }}    
     </content_item>
   {{- end }}   
   

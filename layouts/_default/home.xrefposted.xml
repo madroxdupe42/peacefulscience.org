@@ -20,6 +20,7 @@
       {{ partial "xref/date.xml" .Date }}
     </posted_date>
     {{ partial "xref/doidata.xml" . }}  
+    {{ partial "xref/citation_list.xml" . }}
   </posted_content>
   {{- end }}
   

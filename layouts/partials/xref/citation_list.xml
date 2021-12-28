@@ -1,0 +1,7 @@
+<citation_list>
+{{ $key := 1 }}
+{{- range .Scratch.Get "Links" }}
+  {{- partial "xref/citation.xml" (dict "Cite" . "Key" $key) }}
+  {{- $key = add $key 1 }}
+{{- end }}
+</citation_list>
