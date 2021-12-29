@@ -146,7 +146,7 @@ revision history of [their theological position](https://discourse.peacefulscien
 
 {{< amazon `B08ZSN6BY4` `This book by William Lane Craig, also, caused the change.` >}}
 
-## What Caused the Changed?
+## What Caused the Change?
 
 Two recent books explain the science underlying these changes 
 in an accessible way.
