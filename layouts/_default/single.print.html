@@ -61,17 +61,11 @@ body {
          'IBM Plex Sans', 'Open Sans'
        
 }
-
+/*
 @font-face {
   font-family: "AlverataSb";
   src:  url("https://peacefulscience.org/font/alveratasb-webfont.woff2") format("woff2");
   font-display: swap;
-}
-
-
-@font-face {
-  font-family: "AlverataSbIrreg";
-  src:  url("/font/alverata-irregular-sb-webfont.woff2") format("woff2");
 }
 
 .Falt1 {
@@ -83,6 +77,14 @@ body {
 	font-family: AlverataSbIrreg;
 	font-variant: prince-opentype(ss05);
 }
+*/
+
+@font-face {
+  font-family: "AlverataSb";
+  src:  url("/font/alverata-irregular-sb-webfont.woff2") format("woff2");
+}
+
+
 
 .displayfootnote::footnote-marker {
     padding-right: 10pt
@@ -543,10 +545,6 @@ for (var s of ss)
   
 </script>
 
-
-<script render remove>
-{{ (resources.Get "js/fontvar.js" ).Content | safeJS }}
-</script>
 
 
 {{ end }}

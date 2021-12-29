@@ -444,5 +444,9 @@ for (var s of ss)
 </script>
 
     
+<script render remove>
+{{ (resources.Get "js/fontvar.js" ).Content | safeJS }}
+</script>
+    
  
 {{- end }}

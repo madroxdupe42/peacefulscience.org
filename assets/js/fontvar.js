@@ -19,37 +19,67 @@ function xmur3(str) {
     }
 }
  
-function randfont(T, rand) {
+function randfont(C, rand) {
+	T = C.textContent.split("");
+	let current = 0;
 	for (let i = 0; i < T.length; i++) {
-		let X = rand() * 3;
-		if (X < 1)
-	    	T[i] = `<span class="Falt1">${T[i]}</span>`;
-		if (X > 2)
-	    	T[i] = `<span class="Falt2">${T[i]}</span>`;
-	} 
-}
-
-
-for (H of document.querySelectorAll("h1, h2, h3, h4, .nav-link, .title")) {
-	seed = xmur3(H.textContent.trim());
-	rand = mulberry32(seed());
-	
-	html =[];
-	
-	for (C of H.childNodes) {
+		let X = Math.floor(rand() * 3);
+		if (current === X) continue;
+		if (T[i] === " ") continue;
 		
-		if (C.nodeType === 3) {
-			T = C.textContent.split("");
-			randfont(T, rand);
-			html.push(T.join(""))
+		if (i > 0) // Protect ligatures
+          if (T[i] === "i" || T[i] === "l" || T[i] === "f" )
+		    if (T[i-1] === "f")
+              continue;
+		
+		current = X;
+		if (X === 0) {
+			current = X;
+			T[i] = `</span>${T[i]}`;
+			continue;
 		}
-		if (C.nodeType === 1) {
-			T = C.innerHTML.split("");
-			randfont(T, rand);
-			C.innerHTML = T.join("");
-			html.push(C.outerHTML)
-		}
-	}
-    console.log(html);
-	H.innerHTML =html.join("")
+		current = X;
+		
+		T[i] = `</span><span class="Falt${X}">${T[i]}`;
+	} 
+	if (current !== 0) T.push("</span>")
+	return T.join("");
 }
+
+function process_element(E) {
+	if (E.classList.contains("__FontVar"))
+	  return;
+
+    
+	seed = xmur3(E.textContent.trim());
+	rand = mulberry32(seed());
+    
+    recursive_randfont(E, rand);
+	
+	E.classList.add("__FontVar");
+}
+
+function recursive_randfont(E, rand) {
+	html =[];
+	for (C of E.childNodes) {
+		if (C.nodeType === 3) { // Text node
+			html.push(randfont(C, rand));
+		}
+		if (C.nodeType === 1) { // Text node
+			html.push(recursive_randfont(C, rand));
+		}		
+	}
+	E.innerHTML = html.join("");
+	return E.outerHTML;
+}
+
+function process_all() {
+  for (H of document.querySelectorAll("h1, h2, h3, h4, .nav-link, .title")) 
+     process_element(H);
+}
+
+process_all();
+
+document.addEventListener("turbo:load", function() {
+  process_all();
+})
