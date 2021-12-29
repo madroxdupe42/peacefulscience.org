@@ -73,7 +73,7 @@ The fact that there are different possible GAE models implies that, even if one 
 
 > the genealogical hypothesis itself is still dissonant with the biblical Adam and Eve. In that latter picture, Adam and Eve are genealogical ancestors of all human beings who have ever lived, not merely the ones alive today.[^8]
 
-[^8] Hans Madueme. [Evolution and Historical Adam? A Provocative But Unconvincing Attempt](https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/), The Gospel Coalition. 
+[^8]: Hans Madueme. [Evolution and Historical Adam? A Provocative But Unconvincing Attempt](https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/), The Gospel Coalition. 
 
 Madueme fails to note that there are different types of GAE model presented in Swamidass’s book and GAE model per se is not committed to denying that Adam and Eve are genealogical ancestors of all human beings who have ever lived.
 
