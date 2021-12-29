@@ -106,10 +106,10 @@ In light of the previous sections of this paper, it is evident that a theistic e
 
 In response, it should be noted that, in contrast with atheistic/deistic evolution, Theistic Evolution/Evolutionary Creationism affirms macroevolution and affirms that there is a God who created the universe and also intervened in the history of the universe. Different interventions have been affirmed by different proponents, for example
 
-1. God intervenes in the process of macroevolution. 
-2. God intervenes in the creation of the first common ancestor.
-3. God intervenes in the creation of the first human.
-4. God intervenes in the acts of Special Revelation (e.g. resurrecting Jesus).
+- God intervenes in the process of macroevolution. 
+- God intervenes in the creation of the first common ancestor.
+- God intervenes in the creation of the first human.
+- God intervenes in the acts of Special Revelation (e.g. resurrecting Jesus).
 
 Consider, for example, the view of Harvard astronomer Owen Gingerich who affirms that God intervenes in the process of macroevolution. Gingerich writes 
 
