@@ -56,7 +56,8 @@ The above criticisms confuse Task A with Task C. To elaborate, the Genealogical 
 
 There are different types of GAE model. Some postulate Adam as the first God’s-image-bearer, some do not. Swamidass defends both possibilities in his book, while I defend the first.[^5]  My model would agree with John Stott who calls Adam ‘the first man to whom may be given the Biblical designation ‘made in the image of God.'[^6]  Stott writes
 
-[^5]: The Origin of Humanity: Science and Scripture in Conversation. Manuscript currently under review
+[^5]: Andrew Loke. Forthcoming 2022. The Origin of Humanity and Evolution: Science and Scripture in Conversation. London: T & T Clark.
+
 
 [^6]: John Stott, Understanding the Bible Expanded edition (London: Scripture Union, 1984), pp. 48-49.
 
@@ -158,7 +159,8 @@ Marcus Ross [‘Hedges around His garden,'](https://henrycenter.tiu.edu/2020/08/
 
 Robert Carter and John Sanford, [A ‘Genealogical’ Adam and Eve?](https://creation.com/review-swamidass-the-genealogical-adam-and-eve).
 
-Andrew Loke. The Origin of Humanity: Science and Scripture in Conversation. Under review.
+Andrew Loke. Forthcoming 2022. The Origin of Humanity and Evolution: Science and Scripture in Conversation. London: T & T Clark.
+
 
 John Stott, [Understanding the Bible Expanded edition](https://www.amazon.com/dp/0310414318/) (London: Scripture Union, 1984.
 
