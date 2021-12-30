@@ -3,6 +3,7 @@ title: Adam and the Genome
 description:: Reading Scripture after Genetic Science
 authors:
 - Dennis Venema
+- Scot McKnight
 amazon:
 - 158743394X
 - B01M1I47XX

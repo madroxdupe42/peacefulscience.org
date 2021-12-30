@@ -19,16 +19,16 @@
 {{ end }}
 
 
-  {{ $link := (slice .Permalink) }}
-  {{ with .Params.internalref }}
-    {{ $link = $link | append . }}
-  {{ end }}
-  {{ range site.RegularPages }}
+
+  {{ if .Params.pages_include_backrefs }}
+    {{ $link := (slice .Permalink) }}
+    {{ range site.RegularPages }}
+      {{ $c := .Content }}
       {{ if gt (len (intersect (.Scratch.Get "Links") $link)) 0 }}
-      {{ $pages = $pages | append . }}
+        {{ $pages = $pages | append . }}
+      {{ end }}
     {{ end }}
   {{ end }}
-
 
 {{ $out = union $out $pages }}
 

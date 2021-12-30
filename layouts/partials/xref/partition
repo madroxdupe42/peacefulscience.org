@@ -27,8 +27,23 @@
   {{ end }}
 {{ end }}
 
+{{ $book := newScratch }} 
+
+{{- range $pages  }}    
+  {{- $page := . }}
+  {{ range .Params.partof }}
+    {{ if hasPrefix . "/books/" }}
+      {{ $b := strings.TrimSuffix `/` . }}
+      {{ $book.Add $b (slice $page) }}
+      {{ $pages = $pages | complement (slice $page) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{ return (dict
   "DoiPages" $posteddoi
   "Conferences" $confpages
-  "PostPages" $pages)
+  "PostPages" $pages
+  "Books" $book.Values
+  )
 }}

@@ -1,0 +1,13 @@
+{{ $citations := slice }} 
+{{ $key := 1 }}
+{{- range .Scratch.Get "Links" }}
+  {{- $cite := partial "xref/citation.xml" (dict "Cite" . "Key" $key) }}
+  {{- if in $cite "citation" }}{{ $citations = $citations | append $cite }}{{ end }}
+  {{- $key = add $key 1 }}
+{{- end }}
+
+{{- if gt (len $citations) 0 }}
+<citation_list>
+{{- range $citations }}{{ . }}{{ end }}
+</citation_list>
+{{- end }}

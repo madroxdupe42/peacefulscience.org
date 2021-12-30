@@ -2,6 +2,7 @@
 {{- $page := .Page -}}
 {{ $height := 90 }}
 {{ $width := 160 }}
+{{ $sizes := .Sizes | default nil }}
 
 {{- $src :=  $page.Params.headerImage.Src | default site.Params.logo -}}
 
@@ -12,13 +13,14 @@
 {{- $containerclass := "p-3 text-smaller" -}}
 {{- $imageclass := "mb-1  d-print-none d-block" -}}
 {{- $imagestyle := "width: 100%; aspect-ratio: 16 / 9; height: auto; object-fit: cover;" }}
-{{- $imgeng:= "?imgeng=/w_640/h_360/m_cropbox" }}
+{{- $imgeng:= "?imgeng=/w_auto,360/" }}
 
 {{- if eq  $style  "horizontal" -}}
   {{- $containerclass = printf "%s %s" "d-flex" $containerclass -}}
   {{- $imageclass = "flex-shrink-0 mr-3  mb-1 d-print-none rounded" -}}
   {{- $imagestyle = "width: 160px; height: 90px; object-fit: cover;" | safeCSS  -}}
-  {{- $imgeng = "?imgeng=/w_320/h_180/" }}
+  {{- $imgeng = "?imgeng=/w_auto,160/" }}
+  {{- $sizes = "160px" }}
 {{- end -}}
 
 <article {{with .CStyle }}style="{{ . | safeCSS }}"{{ end }} {{with .Id }}id="{{ . }}"{{ end }} class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
@@ -30,16 +32,17 @@
 {{ else }}
 
 {{ with $page.Params.Headerimage.Youtube }}
-  {{ if eq $style "vertical"  }}
-  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `Class` $imageclass   `Style` $imagestyle  ) }}
+
+  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `Class` $imageclass   `Style` $imagestyle `Sizes` $sizes ) }}
   {{ $rendered = true }}
-  {{ end }}
+
 {{ end }}
 
 {{ if not $rendered }}
   <a href="{{$page.Permalink}}">   
   <img class="{{- $imageclass -}}" property="image" style="{{ $imagestyle | safeCSS }}" 
-  src="{{ $src  | partial `imgcdn` }}{{ $imgeng }}" alt="{{ $page.Title | htmlEscape }}"
+  src="{{ $src  | partial `imgcdn` }}{{ $imgeng }}" alt="{{ $page.Title | htmlEscape }}" 
+  {{- with $sizes }} sizes="{{ . }}"{{ end }}
   {{- if (in .Elements "lazy") }} loading="lazy" {{- end }}>
   </a>
 {{ end }} 

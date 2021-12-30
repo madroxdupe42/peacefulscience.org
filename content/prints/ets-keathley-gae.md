@@ -41,9 +41,13 @@ Medieval and Renaissance scholars almost unanimously agreed with Augustine: the 
  
 As Aquinas formulates his thought experiment, he does not even consider the possibility of Antipodes. The faithful received the good news while heretics, Jews and Muslims had rejected it. The only remaining person hypothetically possible was “someone brought up in the forest or among wolves.” If such a person existed and responded to the light of general revelation, Aquinas reasoned that God would send a preacher like he sent Peter to Cornelius. So from Augustine to Aquinas the majority view appears to be that Antipodes do not exist.
  
+{{< amazon `1421400650` >}} 
+
 When Columbus proposed his westward sea journey, the Spanish rulers called together a committee to consider his proposal. The committee recommended against sponsorship, not on the grounds that the earth is flat, but because (among other reasons) “there could not be inhabitants on the other side because they would not be descended from Adam.”[^9]
  
 So concerning Antipodes, avoidance and dismissal were historically the Church’s *modus operandi*. There’s some evidence of avoidance going on today. Consider a recent book, *Adam, the Fall, and Original Sin: Theological, Biblical, and Scientific Perspectives*.[^10] I found this to be a very helpful work in which I was in overall agreement. Several authors provide chapters of careful theological thought based on a close reading of Scripture. But at various places the writers decline to interact with the pertinent scientist issues, and instead refer the reader to the scientific section of the book.[^11] However, only one chapter actually addresses the scientific evidence, and that simply as a survey. The conclusions reached by the anonymous scientific author appear to be incompatible with what many of the biblical scholars argued, and no real attempt is made to reconcile this incongruity. They seem to dodge the question. However, just as the Church was eventually forced to confront the existence of Antipodes, so today Joshua Swamidass is calling on us to consider the existence of genetic Antipodes.
+ 
+{{< amazon `0801039924` >}}
  
 ## Unassailable Facts Sometimes Require a Rethink
 
@@ -51,8 +55,10 @@ As we all know, in 1492 Columbus sailed the ocean blue. Christendom came face to
  
 Historians point to a number of causes for the Enlightenment—which in many ways was a movement committed to the deliberate rejection of Christianity. One of the causes identified was the shock of discovering the new world. For many intellectuals of 16th and 17th centuries, the existence of Antipodes was further proof of the parochial nature of the Christian faith. How could belief in the necessity of responding to the gospel be held simultaneously with belief in the universal salvific will of God? If God truly desires the salvation of the inhabitants of the Americas, Asia and Africa, and if Explicit Faith is necessary for salvation, then why does it appear that he has been derelict in getting the message to the majority of humanity?
  
-In his novel, Emile (1762), Jean-Jacques Rousseau expressed the Enlightenment revulsion against the notion of Explicit Faith. He imagines the response of an indigenous person who hears a missionary preach for the first time:
+{{< amazon `0465019315` >}}
  
+In his novel, Emile (1762), Jean-Jacques Rousseau expressed the Enlightenment revulsion against the notion of Explicit Faith. He imagines the response of an indigenous person who hears a missionary preach for the first time:
+
 > You announce to me God, born and dying, two thousand years ago, on the far side of the world, in some small town I know not where, and you tell me that all those who have not believed in this mystery will be damned. These are strange things to be believed so quickly on the authority of an unknown person. Why did your God make these things happen so far off, if he would compel me to know about them? Is it a crime to be unaware of what is happening half a world away? Could I guess that in another hemisphere there was a Hebrew nation and a town called Jerusalem? You might as well hold me responsible for knowing what is happening on the moon.[^12]
  
 ## We’ve Lived with Ambiguity Before
@@ -69,6 +75,7 @@ As stated at the beginning, the most difficult aspect of the GAE model is that a
 So my approach to the GAE model is similar to Augustine’s approach to the creation account in Genesis. In his commentary on Genesis, Augustine admitted that he could not settle on one single interpretation, so he offered several possible interpretations. He imagined the irritated response of an exasperated reader:
  
 > Someone will say: “What have you brought out with all the threshing of this treatise? What kernel have you revealed? What have you winnowed? Why does everything seem to lie hidden under questions? Adopt one of the many interpretations which you maintain are possible.”[^13]
+
 I suspect that some may find my paper similarly irritating because I argue that the GAE model should be held as one of several possibilities.
  
 As it is, Old-earth Creationists seem to be taking three approaches. First, some move Adam as far back in time as necessary to make him the sole progenitor, not only of modern humans, but of all hominins. This requires some to date Adam as far back as 1.8 million years ago.[^14] Second, others point to some intermediate species that seem to demonstrate distinctly human activities such as creativity, symbolic reasoning or communication. The GAE model provides OEC with a third approach. Which of the three approaches is the best? At this point the conversation is very fluid.  
@@ -85,13 +92,12 @@ Because of these confessional affirmations, I also admit that I expect a resolut
  
 It’s worth noting that Swamidass himself presents the GAE model simply as a possible solution, and that he does not commit himself to GAE. Therefore I see no reason to commit myself more strongly that he does. But I do believe it deserves recognition as a viable hypothesis, worthy of further research. Let the conversation continue.
 
-{{< footnotes2refs >}}
 
-[^gae]: S. Joshua Swamidass, The Genealogical Adam and Eve, 2019.
+[^gae]: S. Joshua Swamidass, [The Genealogical Adam and Eve](/books/genealogical-adam-eve/), 2019.
 
 [^1]: Gabriel Fackre, “The Scandals of Particularity and Universality,” Midstream 22:1 (Jan 1983), 32-52.
  
-[^2]: Hans Madueme, “Evolution and Historical Adam? A Provocative but Unconvincing Attempt,” The Gospel Coalition (March 2, 2020). https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/ (Accessed 11/12/20).
+[^2]: Hans Madueme, “Evolution and Historical Adam? A Provocative but Unconvincing Attempt,” The Gospel Coalition (March 2, 2020). [https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/]() (Accessed 11/12/20).
   
 [^3]: Lactantius, Divine Institutes, 3.24; and Cosmas, Christian Topography, Book 4.
  
@@ -118,4 +124,40 @@ It’s worth noting that Swamidass himself presents the GAE model simply as a po
 [^14]:  William Stone (a pseudonym), “Adam and Modern Science,” in Adam, the Fall, and Original Sin (Grand Rapids: Baker, 2014), 80-81.
 
 [^15]: James K. S. Smith, “What Stands on the Fall? A Philosophical Exploration,” in Evolution and the Fall, William T. Cavanaugh and James K. S. Smith, eds. (Grand Rapids: Eerdmans, 2017), 49.
+
+<div class=references>
+
+## References
+
+S. Joshua Swamidass, [The Genealogical Adam and Eve](/books/genealogical-adam-eve/), 2019.
+
+Gabriel Fackre, “The Scandals of Particularity and Universality,” Midstream 22:1 (Jan 1983).
+ 
+Hans Madueme, “Evolution and Historical Adam? A Provocative but Unconvincing Attempt,” The Gospel Coalition (March 2, 2020). [https://www.thegospelcoalition.org/reviews/genealogical-adam-eve-swamidass/]() (Accessed 11/12/20).
+  
+Lactantius, Divine Institutes, 3.24; and Cosmas, Christian Topography, Book 4.
+ 
+Augustine, The City of God.
+ 
+Isidore, Etymologies.
+ 
+Aquinas, Disputed Questions on Truth.
+ 
+William Lane Craig, “‘No Other Name’: A Middle Knowledge Perspective on the Exclusivity of Salvation through Christ,” Faith and Philosophy 6:2 (April 1989): 174.
+ 
+Jeffrey Burton Russell, Inventing the Flat Earth: Columbus and Modern Historians (Westport: Praeger, 1991), 19-20
+
+David Livingstone, [Adam’s Ancestors: Race, Religion and the Politics of Human Origins](https://www.amazon.com/dp/1421400650) (Baltimore: John Hopkins, 2008), 5-16.
+ 
+Hans Madueme and Michael Reeves, [Adam, the Fall, and Original Sin: Theological, Biblical, and Scientific Perspectives](https://www.amazon.com/Adam-Fall-Original-Sin-Perspectives/dp/0801039924) (Grand Rapids: Baker, 2014).
+
+[^12]: Jean-Jacque Rousseau, [Emile](https://www.amazon.com/Emile-Education-Jean-Jacques-Rousseau/dp/0465019315) (New York: Dutton, 1969), 269.
+ 
+Augustine, The Literal Meaning of Genesis, (New York: Paulist Press, 1982).
+ 
+William Stone (a pseudonym), “Adam and Modern Science,” in Adam, the Fall, and Original Sin (Grand Rapids: Baker, 2014), 80-81.
+
+James K. S. Smith, “What Stands on the Fall? A Philosophical Exploration,” in Evolution and the Fall, William T. Cavanaugh and James K. S. Smith, eds. (Grand Rapids: Eerdmans, 2017).
+
+</div>
 

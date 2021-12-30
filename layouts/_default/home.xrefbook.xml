@@ -1,8 +1,7 @@
 {{ $PART := partial "xref/partition" . }}
-
 <doi_batch version="5.3.1" xmlns="http://www.crossref.org/schema/5.3.1">
   <head>
-    <doi_batch_id>CONFERENCE {{now | time.Format "2006-01-02 15:04:05" }}</doi_batch_id>
+    <doi_batch_id>BOOK {{now | time.Format "2006-01-02 15:04:05" }}</doi_batch_id>
     <timestamp>{{ now.Unix }}</timestamp>
     <depositor>
       <depositor_name>Peaceful Science</depositor_name>
@@ -12,12 +11,12 @@
   </head>
   <body>
   
-{{ range $PART.Conferences  }}    
-  <conference>
-  {{ partial "xref/conference_meta.xml"  . }}
+{{ range $book, $pages :=$PART.Books  }}    
+  <book book_type="monograph">
+  {{ partial "xref/book_meta.xml"  ( site.GetPage  $book ) }}
    
-  {{ range intersect $PART.DoiPages (partial "listpages" .) }}  
-    <conference_paper>
+  {{ range $pages }}  
+    <content_item component_type="other">
       {{ partial "xref/contributors.xml" . }}
       {{ partial "xref/title.xml" . }}
       <publication_date media_type="online">
@@ -26,12 +25,12 @@
       <publication_date media_type="print">
          {{ partial "xref/date.xml" .Date }}
       </publication_date>
-      {{ partial "xref/doidata.xml" . }}  
-      {{ partial "xref/citation_list.xml" . }}      
-    </conference_paper>
+    {{ partial "xref/doidata.xml" . }}  
+    {{ partial "xref/citation_list.xml" . }}    
+    </content_item>
   {{- end }}   
   
-  </conference>
+  </book>
 {{- end }}  
   </body>
 </doi_batch>

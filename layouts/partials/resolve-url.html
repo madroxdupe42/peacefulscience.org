@@ -14,6 +14,7 @@
   {{- $dest = . -}} 
 {{- end -}}
 
+{{- $dest := replaceRE `\?.*?utm.*` `` $dest }}
 
 {{- $url := urls.Parse ( $dest | absURL ) -}}
 {{- $basehost := (urls.Parse site.BaseURL).Host -}}

@@ -6,7 +6,7 @@
     <timestamp>{{ now.Unix }}</timestamp>
     <depositor>
       <depositor_name>Peaceful Science</depositor_name>
-      <email_address>info@peacefulscience.org</email_address>
+      <email_address>crossref@bots.peacefulscience.org</email_address>
     </depositor>
     <registrant>Peaceful Science</registrant>
   </head>
@@ -20,6 +20,7 @@
       {{ partial "xref/date.xml" .Date }}
     </posted_date>
     {{ partial "xref/doidata.xml" . }}  
+    {{ partial "xref/citation_list.xml" . }}
   </posted_content>
   {{- end }}
   

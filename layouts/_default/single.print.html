@@ -13,6 +13,13 @@
 <style>  
 {{ warnf "PRINT" }}
 
+
+
+@prince-pdf {
+    prince-pdf-xmp: url(data:text/xml;base64,{{ partial "xmp.xml" . | base64Encode }});
+}
+
+
 @page {
 prince-shrink-to-fit: none;
   @bottom {
@@ -54,12 +61,29 @@ body {
          'IBM Plex Sans', 'Open Sans'
        
 }
-
+/*
 @font-face {
   font-family: "AlverataSb";
   src:  url("https://peacefulscience.org/font/alveratasb-webfont.woff2") format("woff2");
   font-display: swap;
 }
+
+.Falt1 {
+	font-family: AlverataSbIrreg;
+	font-variant: prince-opentype(ss04);
+}
+
+.Falt2 {
+	font-family: AlverataSbIrreg;
+	font-variant: prince-opentype(ss05);
+}
+*/
+
+@font-face {
+  font-family: "AlverataSb";
+  src:  url("/font/alverata-irregular-sb-webfont.woff2") format("woff2");
+}
+
 
 
 .displayfootnote::footnote-marker {
@@ -520,6 +544,7 @@ for (var s of ss)
     s.parentElement.insertBefore(document.createElement("span"), s);
   
 </script>
+
 
 
 {{ end }}

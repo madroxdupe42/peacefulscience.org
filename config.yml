@@ -1,7 +1,7 @@
 title: "Peaceful Science"
 languageCode: "en-us"
 baseURL: https://peacefulscience.org
-
+timeZone: America/Chicago 
 enableGitInfo: true
 disableAliases: true
 
@@ -70,6 +70,11 @@ outputformats:
     basename: posted
     path: .xref
     notAlternative: true
+  xrefbook:
+    mediaType: "application/xml"
+    basename: book
+    path: .xref
+    notAlternative: true
   xrefconf:
     mediaType: "application/xml"
     basename: conf
@@ -84,7 +89,7 @@ outputformats:
     permalinkable: false
    
 outputs:
-  home: ["HTML", "precompute", "algolia", "RSS", "redir", "xrefconf", "xrefposted"]
+  home: ["HTML", "precompute", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
   page: ["HTML", "print"]
 
 params:

@@ -4,12 +4,22 @@
   "description": "Exploring the grand question: what does it mean to be human?",
   "icons": [
     {
-      "src": "/ps-initials.png?h=512&w=512&nf_resize=fit",
-      "sizes": "512x512",
+      "src": "https://8l2ic7fx.cdn.imgeng.in/ps-initials.png?imgeng=/w_32",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/ps-initials.png?h=512&w=512&nf_resize=fit",
+      "src": "https://8l2ic7fx.cdn.imgeng.in/ps-initials.png?imgeng=/w_64",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "https://8l2ic7fx.cdn.imgeng.in/ps-initials.png?imgeng=/w_128",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://8l2ic7fx.cdn.imgeng.in/ps-initials.png?imgeng=/w_512",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

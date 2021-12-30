@@ -1,7 +1,7 @@
 import json
 import random
 import sys
-
+import re
 
 
 doiprefix="10.54739"
@@ -26,6 +26,8 @@ def newdoi():
 
 
 for rel in sys.argv[1:]:
+  rel = re.sub("^content", "", rel)
+  rel = re.sub("\.md$", "/", rel)
   if rel in DOI:
     print("%s already assigned DOI" % rel)
   else:

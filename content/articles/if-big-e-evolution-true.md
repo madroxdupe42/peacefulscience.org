@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/if-big-e-evolultion-true/
 title: What If Big E Evolution is True?
 partof:
 - /books/thinking-about-evolution/
@@ -107,10 +109,10 @@ Scripture, too, calls us to maintain unity in love. It is the way we treat one a
 [^2]:  Noll, _Jesus Christ and the Life of the Mind_, 111–12.
 
 [^3]:
-     “Creation Project FAQ,” Carl F. H. Henry Center for Theological Understanding, henrycenter.tiu.edu/evangelical-theology-and-the-doctrine-of-creation/creation-project-faq/.
+     “Creation Project FAQ,” Carl F. H. Henry Center for Theological Understanding, https://henrycenter.tiu.edu/evangelical-theology-and-the-doctrine-of-creation/creation-project-faq/.
 
 [^4]:
-     S. Joshua Swamidass, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](https://www.amazon.com/Genealogical-Adam-Eve-Surprising-Universal/dp/0830852638) (Downers Grove, IL: IVP Academic, 2019).
+     S. Joshua Swamidass, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](https://www.amazon.com/dp/151400383X/) (Downers Grove, IL: IVP Academic, 2019).
 
 [^5]:
      “So Will I (100 Billion X),” track 4 on Hillsong UNITED, _Wonder_, Capitol Christian Music Group, 2017.
