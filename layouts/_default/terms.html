@@ -33,7 +33,7 @@
 
 <div class="container py-5" role="main" >
   <div class="row">
-        {{ range $key, $value := .Data.Terms.ByCount }}
+        {{ range $key, $value := .Data.Terms.Alphabetical }}
           {{ $page := ($.Site.GetPage "taxonomyTerm" (printf "%s/%s" ($.Data.Plural) (urlize $value.Name)))  }}
           {{ $name := $page.Title | default ($value.Name | humanize) }}
           
@@ -41,7 +41,7 @@
 
                 <a href="{{ $page.Permalink }}"><h4>
                   {{ $name }}   
-                  <span class="badge badge-secondary">{{ $value.Count }}</span></h4>
+               
                 </a>
            </div>
 
