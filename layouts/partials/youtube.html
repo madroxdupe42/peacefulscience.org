@@ -23,7 +23,7 @@
 
 
 
-<div class="border d-print-none mb-1" style="position: relative">
+<div class="border d-print-none mb-1 {{ $class }}" style="position: relative; {{ $style }}">
 <a {{with $link}}href="{{ . }}" title="Show Article"{{ else}}onclick="PlayVideo('{{ $id }}')"  title="Play Video"{{ end }}>
 <img src={{ $img }} {{with $sizes }}sizes="{{ . }}"{{end}} width=16 height=9 style='height: auto; width: 100%; cursor: pointer; aspect-ratio: 16 /9; object-fit: cover'
 {{ if $lazy }} loading="lazy" {{ end }}

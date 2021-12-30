@@ -32,10 +32,10 @@
 {{ else }}
 
 {{ with $page.Params.Headerimage.Youtube }}
-  {{ if eq $style "vertical"  }}
+
   {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `Class` $imageclass   `Style` $imagestyle `Sizes` $sizes ) }}
   {{ $rendered = true }}
-  {{ end }}
+
 {{ end }}
 
 {{ if not $rendered }}
