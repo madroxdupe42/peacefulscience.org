@@ -101,33 +101,60 @@ width: 100%
         </header>
         
 
-          
-        {{ if  $page }}
-	        {{ partial "heading" (dict "Text" "Related Articles" "Class" "heading-black") }}
-	    {{ end }}
-	
-	
-	    {{- if gt (len $page) 4 }}
-	        {{ range first 2 $page }} 
+        
+{{ $groups := newScratch }}
+{{ $group_order := slice }}
+
+{{ range $page }}
+  {{ $g := .Params.series | default "NONE" }}
+  {{ $groups.Add $g (slice . ) }}
+  {{ if not ( in $group_order $g ) }}
+    {{ $group_order = $group_order | append $g }}
+  {{ end }}
+{{ end }}
+
+{{ $grouped := slice }}
+{{ range $group_order }}
+   {{ $grouped = $grouped | append ($groups.Get . | group .)   }}
+{{ end }}
+
+
+{{ $N := 0 }}
+{{ range $grouped }}
+   {{ $N = add $N 1 }}
+   
+   {{ $params := dict "Text" `Related Articles` "Class" "heading-black w-100" }}
+   {{ if ne .Key "NONE" }}
+     {{ $s := site.GetPage "taxonomyterm" (printf "series/%s" .Key) }}
+     {{ $params = dict "Text" ($s.Title | markdownify )  "Link" $s.Permalink  "Class" "heading-black w-100" }}
+   {{ end }}
+   
+   
+   <section class=row>
+   {{ partial "heading" $params }}
+
+   {{ $page = .Pages }}
+
+	    {{- if gt (len $page) 6 }}
+	        {{ range first 4 $page }} 
 	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}       
 	        {{ end }}
 	
-	        </div>
 	        
-	        <div id="post-collapse" class="row collapsible collapsed"> 
-	        {{- range after 2 $page -}}
+
+	        <div id="post-collapse{{ $N }}" class=" collapsible collapsed" style="display:flex; flex-wrap: wrap"> 
+	        {{- range after 4 $page -}}
 	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
 	        {{ end -}}	        
 
 	        <div  class="collapse-overlay col-12">
-	        
 	           <div class=collapse-hide>
 	           <a class="btn btn-primary mx-auto position-absolute shadow" style="top: 60%; left: 50%; transform: translateX(-50%);  pointer-events: auto;" role="button" 
-	           onclick="document.getElementById('post-collapse').classList.toggle('collapsed')">Show More</a>
+	           onclick="document.getElementById('post-collapse{{ $N }}').classList.toggle('collapsed')">Show More</a>
 	           </div>
 	           <div class=collapse-show>
 	           <a class="btn btn-primary mx-auto position-absolute shadow" style="bottom: 50%; left: 50%; transform: translateX(-50%);  pointer-events: auto;" role="button" 
-	           onclick="document.getElementById('post-collapse').classList.toggle('collapsed')">Show Less</a>
+	           onclick="document.getElementById('post-collapse{{ $N }}').classList.toggle('collapsed')">Show Less</a>
 	           </div>
 	        </div>
 	       </div>
@@ -137,6 +164,12 @@ width: 100%
 	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
 	        {{ end -}}        
         {{ end }}
+
+ </section>
+{{ end }}
+
+  
+ 
 
       </div>
     </div>
