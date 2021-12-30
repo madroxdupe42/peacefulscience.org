@@ -4,7 +4,6 @@ authors:
 - Andrew Loke
 categories:
 - theology
-- philosophy
 about:
 - https://peacefulscience.org/books/genealogical-adam-eve/
 description: The critics misunderstand a highly significant result. This book answers the twelve objections to evolution raised by Wayne Grudem.
