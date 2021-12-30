@@ -63,6 +63,21 @@ Sometimes Josh is tempted to distinguish between what he calls biological, philo
 
 For these reasons I find the model of an ancient genealogical Adam to be the more plausible hypothesis.
 
+<div class=references>
+
+## References
+
+S. Joshua Swamidass, [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](/books/genealogical-adam-eve/) (Downers Grove: Intervarsity, 2019
+
+Gerhard von Rad, _Genesis: A Commentary_, rev. ed., The Old Testament Library [Louisville: Westminster John Knox Press, 1972.
+
+Gordon J. Wenham, _Genesis 1-15_, Word Biblical Commentary [Grand Rapids, Mich.: Zondervan, 1987.
+
+_Dictionary of the Old Testament: Pentateuch_, ed. T. Desmond Alexander and David W. Baker (Downers Grove, Ill.: InterVarsity Press, 2003), _s.v_. “Genesis,” by L. A. Turner.
+
+ Sally McBrearty and Alison S. Brooks, “[The Revolution that wasn’t:  a new interpretation of the origin of modern human behavior](https://www.sciencedirect.com/science/article/pii/S0047248400904354),” _Journal of Human Evolution_ 39 (2000): 492.
+
+</div>
 
 
 [^1]:
