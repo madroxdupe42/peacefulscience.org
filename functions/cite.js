@@ -2,7 +2,7 @@ require("dotenv").config()
 const { builder } = require("@netlify/functions");
 const axios = require('axios');
 const manubot_url = "https://translate.manubot.org/web?single=1&format=csljson";
-
+var urlparse = require('url-parse');
 
 
 async function doi(DOI) {
@@ -11,7 +11,9 @@ async function doi(DOI) {
         ).then(response => {          
           return axios.get(DOI)
             .then(RES => {
-              response.data.URL = RES.request.res.responseUrl 
+              let url = arse(RES.request.res.responseUrl, true);
+              url.set("query", "");
+              response.data.URL = url.href;
               return response.data;
             });
         })
