@@ -5,6 +5,7 @@ authors:
 - swamidass
 categories:
 - gae
+series: corrections-gae
 commenturl: http://discourse.peacefulscience.org/t/how-does-the-isolation-of-tasmania-impact-recent-universal-ancestry/8978
 date: '2019-12-13T22:56:46'
 description: The question of Tasmania pulls us deeper into science, wondering together

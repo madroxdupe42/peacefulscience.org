@@ -5,6 +5,7 @@ authors:
 - swamidass
 categories:
 - gae
+series: corrections-gae
 commenturl: "http://discourse.peacefulscience.org/t/how-will-you-manage-mistakes-in-your-book/9175"
 date: "2020-01-05T01:46:00"
 description: As for me, I aim to quickly correct my own mistakes as publicly as I make them. This is one of the demands of science, and what I expect of others.
