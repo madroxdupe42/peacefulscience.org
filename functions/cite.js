@@ -15,7 +15,7 @@ async function doi(DOI) {
               url.set("query", "");
               response.data.URL = url.href;
               return response.data;
-            });
+            })
         })
 }
 
@@ -42,27 +42,35 @@ async function handler(event, context) {
       }    
     }
     
-    let url = "https://" + raw_url;
+    let url = "http://" + raw_url;
     let data = {};
     
     console.log(url);
     
-    if (url.startsWith("https://doi.org/")) {
-      data = await doi(url);
-    } else {
-      data = await manubot(url);
-        
-      let { DOI } = data;
+    try {
+      if (url.startsWith("https://doi.org/")) {
+        data = await doi(url);
+      } else {
+        data = await manubot(url);
+      }
+    } catch (e) {
+      return {
+        statusCode: 500,
+        body: JSON.stringify(e.toJSON()),
+        headers: {"content-type": "application/json"}
+      }
+    }        
+
      
-      if (DOI !== undefined){     
+      if (data.DOI !== undefined){     
         return {
           statusCode: 302,
           headers: {
-                "location":  `/cite/doi.org/${DOI}`
+                "location":  `/cite/doi.org/${data.DOI}`
           }
         }     
       }    
-    }
+    
     
     return { statusCode: 200,
              body: JSON.stringify(data),
