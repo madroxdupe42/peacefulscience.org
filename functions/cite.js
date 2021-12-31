@@ -8,9 +8,13 @@ const manubot_url = "https://translate.manubot.org/web?single=1&format=csljson";
 async function doi(DOI) {
       return axios.get(DOI, 
           {headers: {"Accept": "application/vnd.citationstyles.csl+json"}}
-        ).then(response => {
-          return response.data;
-        });
+        ).then(response => {          
+          return axios.get(DOI)
+            .then(RES => {
+              response.data.URL = RES.request.res.responseUrl 
+              return response.data;
+            });
+        })
 }
 
 async function manubot(URL) {
