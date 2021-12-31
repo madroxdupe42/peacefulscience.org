@@ -11,7 +11,7 @@ async function doi(DOI) {
         ).then(response => {          
           return axios.get(DOI)
             .then(RES => {
-              let url = arse(RES.request.res.responseUrl, true);
+              let url = urlparse(RES.request.res.responseUrl, true);
               url.set("query", "");
               response.data.URL = url.href;
               return response.data;
