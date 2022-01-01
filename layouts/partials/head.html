@@ -26,6 +26,8 @@
  <meta name="citation_title"  content="{{ . }}">
 {{- end -}}
 
+<meta name="twitter:card" content="summary" />
+
 {{- with ($.Scratch.Get "Description") }}
 <meta name="description" content="{{ . }}"/>
 <meta property="og:description" content="{{ . }}"/>
