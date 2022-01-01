@@ -42,7 +42,7 @@ async function handler(event, context) {
       }    
     }
     
-    let url = "http://" + raw_url;
+    let url = "https://" + raw_url;
     let data = {};
     
     console.log(url);
