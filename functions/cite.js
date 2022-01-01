@@ -52,6 +52,15 @@ async function handler(event, context) {
         data = await doi(url);
       } else {
         data = await manubot(url);
+        
+        if (data.DOI !== undefined){     
+          return {
+            statusCode: 302,
+            headers: {
+                "location":  `/cite/doi.org/${data.DOI}`
+            }
+          }     
+        }   
       }
     } catch (e) {
       return {
@@ -61,16 +70,6 @@ async function handler(event, context) {
       }
     }        
 
-     
-      if (data.DOI !== undefined){     
-        return {
-          statusCode: 302,
-          headers: {
-                "location":  `/cite/doi.org/${data.DOI}`
-          }
-        }     
-      }    
-    
     
     return { statusCode: 200,
              body: JSON.stringify(data),
