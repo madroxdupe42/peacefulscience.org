@@ -26,6 +26,7 @@
  <meta name="citation_title"  content="{{ . }}">
 {{- end -}}
 
+
 {{- with ($.Scratch.Get "Description") }}
 <meta name="description" content="{{ . }}"/>
 <meta property="og:description" content="{{ . }}"/>
@@ -69,7 +70,7 @@
 {{ with .Params.headerimage.src | default $amazonimg | default site.Params.logo -}}
 <meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{-  . | partial `imgcdn` -}}">
+<meta name="twitter:image" content="{{-  . | absURL -}}">
 {{- end }}
 
 

@@ -26,9 +26,15 @@
        
   {{ $ALL := sort $ALL "PublishDate" "desc" }}
   
-  {{ $latest := first 9 $ALL }}
-  {{ $used := $latest }}
-
+  
+  
+  {{ $prints := first 3 (where $ALL ".Section" "==" "prints") }}
+  {{ $used := $prints }}
+  
+  {{ $latest := first 6 (where $ALL ".Section" "==" "articles" | complement $used) }}
+  {{ $used := union $latest $used }}
+  
+  
   {{ $featured := first 6 (where $PAGES.ByViews ".Params.categories" "intersect" (slice "featured")  | complement $used) }}
   {{ $used := union $featured $used }}
   
@@ -155,6 +161,19 @@
       </div>
 
     </header>
+    
+    <section id="prints" style="background-color: #eee">
+      <div class="container">
+        <div class="row justify-content-center pt-3">
+          {{ partial "heading" (dict "Text" "Latest Prints" "Class" "heading-black" "Link" ("/prints/" | absURL)   ) }}
+
+          {{ range $prints }}
+            {{ partial "render" (dict "Page" .  "Hide" "categories" "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}
+          {{ end }}
+
+        </div>
+      </div>
+    </section>    
 
     <section id="articles" style="background-color: #dfdfdf">
       <div class="container">
@@ -162,7 +181,7 @@
           {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
 
           {{ range $latest }}
-            {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}
+            {{ partial "render" (dict "Page" . "Hide" "categories"  "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}
           {{ end }}
 
         </div>
@@ -180,7 +199,7 @@
               {{ partial "heading" (dict "Text" "Featured" "Class" "heading-black" "Link" "/categories/featured/" ) }}
 
               {{ range $featured }}
-                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
+                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" "Hide" "categories" ) }}
               {{ end }}
             </div>
           </div>
@@ -189,17 +208,17 @@
             <div class="row justify-content-center my-3 pl-lg-1">
               {{ partial "heading" (dict "Text" "Ancestry, Race, and Origins" "Class" "heading-red") }}
               {{ range $race }}
-                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
+                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" "Hide" "categories") }}
               {{ end }}
 
               {{ partial "heading" (dict "Text" "Artificial Intelligence" "Class" "heading-blue") }}
               {{ range $ai }}
-                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
+                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" "Hide" "categories") }}
               {{ end }}
 
               {{ partial "heading" (dict "Text" "Art, Beauty, and Perception" "Class" "heading-green") }}
               {{ range $art }}
-                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
+                {{ partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" "Hide" "categories") }}
               {{ end }}
             </div>
           </div>

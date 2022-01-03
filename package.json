@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "make hugo-watch & make tailwind-watch",
     "algolia": "atomic-algolia",
     "hugo": "hugo",
     "scss": "scss assets/css/main.scss assets/css/main.css",
@@ -11,9 +12,7 @@
     "@netlify/functions": "^0.10.0",
     "algoliasearch": "^4.11.0",
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10",
     "citeproc": "^2.4.62",
-    "copy-to-clipboard": "^3.3.1",
     "instantsearch.js": "^4.35.0",
     "jsonld": "^5.2.0",
     "onesignal": "^0.1.2",
@@ -25,8 +24,10 @@
     "prince": "^1.9.5",
     "uncss": "^0.17.3",
     "url-join": "^4.0.1",
+    "url-parse": "^1.5.4",
     "urljoin": "^0.1.5",
-    "youtube-player": "^5.5.2"
+    "youtube-player": "^5.5.2",
+    "zotero-translators": "^0.0.2"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
