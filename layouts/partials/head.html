@@ -69,7 +69,7 @@
 
 {{ with .Params.headerimage.src | default $amazonimg | default site.Params.logo -}}
 <meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content={{ if eq . site.Params.logo }}"summary"{{ else }}"summary_large_image"{{ end }}>
 <meta name="twitter:image" content="{{-  . | absURL -}}">
 {{- end }}
 
