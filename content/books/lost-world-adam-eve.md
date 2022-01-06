@@ -11,8 +11,6 @@ amazon:
 isbn:
 - "978-0830824618"
 ---
-___Christianity Today_ Biblical Studies Award of Merit__
-
 For centuries the story of Adam and Eve has resonated richly through the corridors of art, literature and theology. But for most moderns, taking it at face value is incongruous. And even for many thinking Christians today who want to take seriously the authority of Scripture, insisting on a "literal" understanding of Genesis 2-3 looks painfully like a "tear here" strip between faith and science.
 
 How can Christians of good faith move forward? Who were the historical Adam and Eve? What if we've been reading Genesis―and its claims regarding material origins―wrong? In what cultural context was this couple, this garden, this tree, this serpent portrayed?

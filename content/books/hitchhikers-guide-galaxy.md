@@ -14,16 +14,6 @@ amazon:
 isbn:
 - "978-0345391803"
 ---
-___NEW YORK TIMES_ BESTSELLER__
-
-__“Extremely funny... inspired lunacy... \[and\] over much too soon.”—_The Washington Post Book World___
-  
-__SOON TO BE A HULU SERIES__
-
-__Now celebrating the pivotal 42nd anniversary of _The Hitchhiker’s Guide to the Galaxy_!__
-
-__Nominated as one of America’s best-loved novels by PBS’s _The Great American Read___
-
 It’s an ordinary Thursday morning for Arthur Dent... until his house gets demolished. The Earth follows shortly after to make way for a new hyperspace express route, and Arthur’s best friend has just announced that he’s an alien.
 
 After that, things get much, much worse.

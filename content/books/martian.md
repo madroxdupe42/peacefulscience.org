@@ -13,10 +13,6 @@ amazon:
 isbn:
 - "978-0553418026"
 ---
-__Selected for common reading at North Lake College__
-
-__Nominated as one of America’s best-loved novels by PBS’s _The Great American Read___
-
 Six days ago, astronaut Mark Watney became one of the first people to walk on Mars.
 
 Now, he's sure he'll be the first person to die there.

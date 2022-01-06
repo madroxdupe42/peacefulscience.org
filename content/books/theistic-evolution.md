@@ -13,6 +13,4 @@ amazon:
 isbn:
 - "978-1433552861"
 ---
-__Winner of the ECPA Book of the Year Award for Bible Reference Works__
-
 Many prominent Christians insist that the church must yield to contemporary evolutionary theory and therefore modify traditional biblical ideas about the creation of life. They argue that God used--albeit in an undetectable way--evolutionary mechanisms to produce all forms of life. Featuring two dozen highly credentialed scientists, philosophers, and theologians from Europe and North America, this volume contests this proposal, documenting evidential, logical, and theological problems with theistic evolution--making it the most comprehensive critique of theistic evolution yet produced.
