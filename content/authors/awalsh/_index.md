@@ -1,5 +1,8 @@
 ---
 title: Andy Walsh
+orcid: 0000-0003-1157-1258
+twitter: madroxdupe42
+gscholar: j6shqdQAAAAJ
 sameas: 
 - https://biologos.org/people/andy-walsh
 - https://blog.emergingscholars.org/author/andy/ 

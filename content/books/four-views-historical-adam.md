@@ -20,5 +20,3 @@ Contributors include Denis O. Lamoureux, John H. Walton, C. John Collins, and Wi
 - This book allows each contributor to not only present the case for his view, but also to critique and respond to the critiques of the other contributors, allowing you to compare their beliefs in an open forum setting to see where they overlap and where they differ.
 
 Concluding reflections by pastor-scholars Gregory A. Boyd and Philip Graham Ryken highlight the significance of the topic in the faith of everyday believers.
-
-__The _Counterpoints_ series presents a comparison and critique of scholarly views on topics important to Christians that are both fair-minded and respectful of the biblical text. Each volume is a one-stop reference that allows readers to evaluate the different positions on a specific issue and form their own, educated opinion.__

@@ -2,7 +2,7 @@
 title: The Unseen Realm
 description: "Recovering the Supernatural Worldview of the Bible"
 authors:
-- Michael S. Heiser
+- michael-heiser
 amazon:
 - "1577995562"
 - "B0141QB9XA"

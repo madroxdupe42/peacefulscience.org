@@ -9,8 +9,6 @@ amazon:
 isbn:
 - "173327782X"
 ---
-New for 2021, the Sixth Edition. Bigger and better than ever!
-
 Early Genesis: Some have relegated it to myth, while others have adopted the traditional Jewish view of the material, with perhaps bits of Christian perspective cobbled on here and there. Both of these approaches are incorrect. While not contradicting the foundation of any essential Christian doctrine, these errors have had serious consequences. Most people who believe the material don’t really understand what it is that they believe, and people who dismiss the material do not really understand what it is that they dismiss.
 
 For example, from these misunderstandings “The LORD” (Yahweh) is considered by the popular culture to be an unsympathetic figure. A proper understanding of the text shows this opinion to be the polar opposite of the truth. The post-modern world is flailing away at a straw man with Yahweh's name on it, while the church lacks the full knowledge of the character of Yahweh necessary to demonstrate the fraud of this absurdity.
