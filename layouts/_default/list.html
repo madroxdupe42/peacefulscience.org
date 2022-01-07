@@ -77,17 +77,16 @@
         </header>
         
         
-          
-{{ if $paginator.HasPrev}}
+
  <turbo-frame class="row col-12" id="__pagination{{ $paginator.PageNumber }}" target="_top">
-{{ end }}
 
         {{- range $paginator.Pages  -}}
           {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
         {{ end -}}
 
 {{ if $paginator.HasNext }}
-  <turbo-frame class="container w-100 px-0" style="display: flex; flex-wrap: wrap;" id="__pagination{{ $paginator.Next.PageNumber }}" src="{{ $paginator.Next.URL }}" loading=lazy data-turbo-action="advance" target="_top">
+  <turbo-frame class="container w-100 px-0" style="display: flex; flex-wrap: wrap;"
+      id="__pagination{{ $paginator.Next.PageNumber }}" src="{{ $paginator.Next.URL }}" loading=lazy data-turbo-action="advance" target="_top">
   
   <noscript>
     <div class= "col-12 p-3 text-center">
@@ -97,9 +96,7 @@
   </turbo-frame>
 {{ end }}
 
-{{ if $paginator.HasPrev }}
-</turbo-frame>
-{{ end }}
+
 
       </div>
     </div>
