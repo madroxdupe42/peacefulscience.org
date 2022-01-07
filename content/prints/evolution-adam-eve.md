@@ -1,5 +1,6 @@
 ---
 aliases:
+- /articles/evolution-adam-eve/
 - /evolution-adam-eve/
 authors:
 - dga
