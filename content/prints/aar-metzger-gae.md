@@ -6,7 +6,7 @@ description: Swamidass invites us to treat one another virtuously in the midst o
 date: 2020-12-01
 publishdate: 2022-01-19
 headerimage:
-  src: /img/2021/12/aar-metzger-gae.png
+  src: /img/2022/01/aar-metzger-gae.png
   youtube: 2fquG8Y4w70
 series: aar-gae
 design:
