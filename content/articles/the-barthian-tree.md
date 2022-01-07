@@ -3,7 +3,7 @@ series: 100-year-tree
 aliases:
 - /the-barthian-tree/
 authors:
-- dr-paul-metzger
+- paul-metzger
 categories:
 - evolution
 - theology
