@@ -17,7 +17,7 @@ headerimage:
 title: 'Pierre Baldi: Protein Folding and AI''s Impact on Science'
 ---
 
-Google just announced that its [Artificial Intelligence algorithm, AlphaFold, made a major advance in protein folding](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology). To help make sense of this, [I am interviewing](https://www.youtube.com/watch?v=0Y2kQf54tpM) [Pierre Baldi](http://www.igb.uci.edu/~pfbaldi/) ([h-index: 106](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)), one of the leading AI scientists in the world, and also my PhD advisor back in the day. Pierre is a Distinguished Professor at UC Irvine, and has been using AI to solve scientific problems for decades. [He literally wrote the textbook](https://www.amazon.com/Bioinformatics-Learning-Approach-Adaptive-Computation/dp/026202506X) I used in graduate school, and his *[Deep Learning in Science](https://amzn.to/3mStD5B)* book is due to be published March, 2021.
+Google just announced that its [Artificial Intelligence algorithm, AlphaFold, made a major advance in protein folding](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology). To help make sense of this, [I am interviewing](https://www.youtube.com/watch?v=0Y2kQf54tpM) [Pierre Baldi](http://www.igb.uci.edu/~pfbaldi/) ([h-index: 106](https://scholar.google.com/citations?user=RhFhIIgAAAAJ&hl=en)), one of the leading AI scientists in the world, and also my PhD advisor back in the day. Pierre is a Distinguished Professor at UC Irvine, and has been using AI to solve scientific problems for decades. [He literally wrote the textbook](https://www.amazon.com/dp/026202506X) I used in graduate school, and his *[Deep Learning in Science](https://www.amazon.com/dp/B097HRKGDZ)* book is due to be published March, 2021.
 
 ## What is Deep Learning?
 
@@ -29,17 +29,23 @@ AlphaFold is a type of Deep Learning algorithm, a neural network that learns fro
 
 So what is "protein folding"? We want to know the three-dimensional structure of proteins from the amino acid sequence. Proteins are defined by a sequence of letters, where [each letter corresponds to a different building block](https://en.wikipedia.org/wiki/Amino_acid#Table_of_standard_amino_acid_abbreviations_and_properties), like this:
 
-``` {.wp-block-code}
-VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
-```
+>VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFL
+SFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNA
+VAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHC
+LLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
 
 The task of protein folding is to translate this sequence of building blocks into a three dimensional structure, like this:
 
-![The [protein structure of hemoglobin](https://pdb101.rcsb.org/motm/41), in the style of David Goodsell. This is the structure encoded in the the amino acid sequence above.](/img/2020/12/2dhb.gif)
+{{% image `/img/2020/12/2dhb.gif` `aside-xl-wide` %}}
+The [protein structure of hemoglobin](https://pdb101.rcsb.org/motm/41), in the style of David Goodsell. This is the structure encoded in the the amino acid sequence above.
+{{% /image %}}
 
 That structure becomes important. It can give important insight into how the protein functions. In this case, we are look at hemoglobin, the oxygen carrying protein in our blood. Shifts in the structure when it binds oxygen are important to its function.
 
-![The shift in structure is key to how hemoglobin carries oxygen in our blood.](/img/2020/12/hb-animation.gif)
+
+{{% image `/img/2020/12/hb-animation.gif` `aside-xl-wide` %}}
+The shift in structure is key to how hemoglobin carries oxygen in our blood.
+{{% /image %}}
 
 There are several experimental techniques to determine protein structure: [X-Ray crystallography](https://en.wikipedia.org/wiki/X-ray_crystallography), [NMR](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_spectroscopy_of_proteins), and [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). These techniques have been used for decades, and produced thousands of protein structures that are stored in the [Protein Data Bank](https://www.rcsb.org/). However, they are expensive and slow, and they often do not work.
 
