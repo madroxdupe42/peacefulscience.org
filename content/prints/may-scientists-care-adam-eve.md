@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/may-scientists-care-adam-eve/
 date: 2021-11-08
 title: May More Scientists Care About Adam and Eve
 about:
