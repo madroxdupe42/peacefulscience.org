@@ -1,5 +1,5 @@
 ---
-title: What Young Earth Creationists are Misunderstanding
+title: What Young Earth Creationists are Missing
 description: ETS panelists explain why they are not convinced by young earth creationism, but see value in a genealogical Adam and Eve.
 authors:
 - swamidass
