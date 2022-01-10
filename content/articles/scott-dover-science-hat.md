@@ -11,6 +11,7 @@ date: "2020-10-24T06:36:29"
 description: It is the fifteenth anniversary of the Dover Trial, so let's revisit Eugenie Scott's scientist hat.
 headerimage:
   src: /img/2020/10/sddefault.jpg
+  youtube: S4RVGtUxSUY
 title: "Eugenie Scott: The Dover Trial and the Scientist Hat"
 series: dover-15
 ---

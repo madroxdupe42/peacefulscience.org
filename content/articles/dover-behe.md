@@ -11,6 +11,7 @@ date: "2020-10-30T02:04:08"
 description: 15 years ago, the biochemist Micheal Behe was a star witness at the Dover Trial. He explains the trial was Kafkaesque, a surreal experience.
 headerimage:
   src: /img/2020/10/maxresdefault.jpg
+  youtube: ltmhpG8fydM
 title: "Michael Behe: Kafka at the Dover Trial"
 series: dover-15
 ---

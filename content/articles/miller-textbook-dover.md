@@ -13,6 +13,7 @@ date: "2020-11-15T04:44:14"
 description: Fifteen years ago in the Dover Trial, one of the star witnesses was Kenneth Miller, a textbook biologist. He has many stories to tell.
 headerimage:
   src: /img/2020/11/maxresdefault.jpg
+  youtube: 1JNMz_atNnk
 title: "Kenneth Miller: A Textbook Biologist at the Dover Trial"
 series: dover-15
 ---

@@ -19,7 +19,7 @@ categories:
 
 
 
-Joshua Swamidass’ book, _The Genealogical Adam and Eve_[^1], is a bold attempt to resolve one of the most basic conflicts between science and faith. There is no question that the Genesis story of Adam and Eve matters. This Biblical narrative links the creation of humanity directly to the Divine will of a personal God, and as such it forms a theological foundation underpinning not just Christianity, but all the Abrahamic faiths. As such, it may be viewed as a literal account of the origins of our species from a single couple or taken as the symbolic representation of the intimate relationship between God and his chosen creatures.
+Joshua Swamidass’ book, _The Genealogical Adam and Eve_[^1], is a bold attempt to resolve one of the most basic conflicts between science and faith. There is no question that the Genesis story of Adam and Eve matters. This Biblical narrative links the creation of humanity directly to Divine will, and forms a theological foundation underpinning not just Christianity, but all the Abrahamic faiths. As such, it may be viewed as a literal account of the origins of our species from a single couple or taken as the symbolic representation of the intimate relationship between God and his chosen creatures.
 
 
 [^1]: S. Joshua Swamidass. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry.](/books/genealogical-adam-eve/) InterVarsity Press, 2019. 

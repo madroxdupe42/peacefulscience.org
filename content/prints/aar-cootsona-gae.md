@@ -22,7 +22,7 @@ Joshua Swamidass’s [*The Genealogical Adam and Eve*](/books/genealogical-adam-
 Joshua Swamidass’s motivation for writing *The Genealogical Adam and Eve*[^1]  seems to be summarized in this encounter from the book: 
 
 
-[^1]: The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry (Downers Grove, Illinois: InterVarsity Press, 2021). Hereafter, “GAE.” 
+[^1]: [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](/books/genealogical-adam-eve/) (Downers Grove, Illinois: InterVarsity Press, 2021). Hereafter, “GAE.” 
 
 
 > A pastor explains an honest reading of Genesis. [His scientist friends object, sometimes incorrectly.](/articles/defense-tim-keller/) The conversation ends. A fracture. (GAE, 215)[^2]
@@ -52,22 +52,24 @@ The key here is the contribution of the distinction between *genealogical* and *
 
 It also responds to skeptics, like Jerry Coyne, on integrating science with Christian theology (in fact, “integrationist” is a slur in Coyne’s lexicon): “The de novo creation of Adam and Eve is not compatible with what scientists have found in God’s creation” (GAE, 6). The GAE Hypothesis resolves this reading of the key biblical texts (and their related theological assertions), held by around four in ten white evangelicals, who answer, for example, that “humans have always existed in their present form.”[^6]  Given the prevalence of this viewpoint in conversations I’ve had with various theologians---and particularly people in the pew and my own undergraduates at Chico State University (whether they hold to this or not)---I find this is no small accomplishment. And so, I often find myself recommending GAE to the group of conservatives Christians biblical scholars and theologians---and just garden-variety “Christians in the pew.”
 
-[^6]: Pew Research Center, “For Darwin Day, 6 facts about the evolution debate,” https://www.pewresearch.org/fact-tank/2019/02/11/darwin-day, accessed November 30, 2020.
+[^6]: Pew Research Center, [“For Darwin Day, 6 facts about the evolution debate,”](https://www.pewresearch.org/fact-tank/2019/02/11/darwin-day), accessed November 30, 2020.
 
 
 ## <span>2</span>. What Kind of Literature are We Dealing With When We Read the Creation Stories?
 
 Stepping out of the particulars of the Evangelical Philosophical Society and into the context of AAR broadly, I make my next point succinctly to save space. An inerrantist biblical hermeneutic[^7] is not the sum and consensus of those Christian scholars who attend AAR. More importantly, it is also not what I see in creedal Christianity---i.e., one that follows the Nicene Creed---present in Eastern Orthodoxy, Catholicism, Protestantism. 
 
-[^7]: Notice that Josh’s commitment to Chicago Statements on Inerrancy (GAE, 13 n.15).
+[^7]: Notice that Josh’s commitment to [Chicago Statements on Inerrancy](https://en.wikipedia.org/wiki/Chicago_Statement_on_Biblical_Inerrancy) (GAE, 13 n.15).
 
+
+{{< amazon `0190650621` >}}
 This is important because---to use the language from the book, the hermeneutic present in the GAE Hypothesis does not constitute the entire “tradition” because the Christian tradition has changed and added new voices in at least the last 200 years---and one could argue, even earlier than that. Put another way, the hermeneutical position the GAE Hypothesis seeks to defend, and its related theology, does not subsume “consensual Christianity” (Thomas Oden), “mere Christianity” (Richard Baxter, and C.S. Lewis), or what has been believed “everywhere, always, and by all" (Vincent of Lerins).[^8]  This is not even the position of all evangelicals. Let’s grasp the scope numerically. In their social scientific research, Elaine Howard Ecklund and Christopher Scheitle have described the following: When asked to choose a statement that best described their beliefs on creationism, evolution, and God's role, 39.8% of the U.S. Protestant evangelicals believes that “only one of the origin narratives is definitely true.”[^9]  (Similarly, by many estimates, evangelicals are about one-third of the Christians in the U.S.[^10])
 
 [^8]: In holding to a “consensual” or “mere” or “Nicene Creed” Christian faith, I therefore demur from seeing evangelicalism as its repository. John Calvin taught me that we are ceaseless idol makers, and Karl Barth had to break with his teachers over political theology. Some recent theological statements on U.S. politics from several leading evangelical leaders are defective at best and idolatrous at worst. Therefore, I am not convinced that our sole need is to integrate science with conservative, biblically inerrantist theology. 
 
 [^9]: Ecklund & Scheitle, Religion vs. Science: What Religious People Really Think (Oxford: Oxford University Press, 2017), 77. On a related point, I wonder whether the GAE Hypothesis is wrapped up in the conflict thesis and actually doesn’t represent the consensus of the United States. Consider this insight also from Scheitle and Ecklund, “When it comes to social issues, two clearly opposite positions are usually pitted against one another (e.g., pro-choice versus pro-life, pro-gun versus antigun). This is often because those with the most extreme positions are usually the most invested in the issue and, as a result, are the most organized and vocal. Yet, in reality, public attitudes about these issues are rarely neatly dichotomized. Sure, there are people who are always, totally, and completely anti-[issue] or always, totally, and completely pro-[issue]. But when social scientists dig deeper, we almost always find that positions on an issue are much more varied and nuanced than it might appear from looking at picket signs. Evolution is no exception. Many religious individuals are not easily classified as simply young-earth creationists. Instead, as we uncover in our survey, their views on evolution and creation are complex.” (ibid., 143) 
 
-[^10]: See “5 Facts about U.S. Evangelical Protestants,” https://www.pewresearch.org/fact-tank/2018/03/01/5-facts-about-u-s-evangelical-protestants, accessed November 30, 2020. I arrive at one-third by dividing 75% of Americans who state they are Christian by 25% of the population’s identification as (white) evangelical. Because of concerns about inherent racism in evangelicalism, it’s worth adding that many Black Protestants---though they may agree with many evangelical theological tenets---do not affiliate with evangelicalism.
+[^10]: See [“5 Facts about U.S. Evangelical Protestants,”](https://www.pewresearch.org/fact-tank/2018/03/01/5-facts-about-u-s-evangelical-protestants) accessed November 30, 2020. I arrive at one-third by dividing 75% of Americans who state they are Christian by 25% of the population’s identification as (white) evangelical. Because of concerns about inherent racism in evangelicalism, it’s worth adding that many Black Protestants---though they may agree with many evangelical theological tenets---do not affiliate with evangelicalism.
 
 I find this important when we take in the scope of the problems that the GAE Hypothesis solves and for how many Christians. At the AAR, much of Christian biblical scholarship and theology in its engagement with science has moved on from an inerrantist hermeneutic as its sole, or even primary, focus.[^11]  I offer just one piece of evidence: I have served as one of the chairs of the Science, Technology, and Religion program unit at the AAR nationally and/or regionally for the past five years, and the concern about how to support an inerrantist biblical approach with modern science has never once appeared out of the hundreds of papers I’ve heard and proposals I’ve read. How then do most Christians answer the question, “What kind of literature are we dealing with when we read the creation stories?” Minimally, in a way that doesn’t necessitate an historical Adam and Eve who lived 10,000 years ago.
 
@@ -92,7 +94,7 @@ Josh sometimes calls Position Three the “no-Adam” position. I must demur. In
 
 Josh has told me several times that he is not advocating a particular position on Adam and Eve. And although there are places in the book where he accepts Position Three as legitimate (GAE, 146---and which he marked in the copy he sent to me), Josh isn’t always consistent about his assessment of this view. For example, he employs two, quite distinct uses of myth on page 17: “Some of us think evolution is a myth. Some of us think Adam and Eve are a myth.” What Josh seems to be saying is, “Some think evolution is untrue,” but is he also saying, “Some think Adam and Eve are a fiction” or “some think of Adam and Eve as stories”? For the latter, some like Polkinghorne and Lewis[^14] see myth as meaningful story, not as a falsity. Karl Barth similarly read the early chapters of Genesis as sagas or “historical sagas.”[^15]  This view takes Scripture “naturally” (to cite John Calvin’s hermeneutic). For example, it’s a sensible way to interpret talking serpents.[^16]
 
-[^14]: E.g., The Problem of Pain (New York: Macmillan, 1962).
+[^14]: E.g., [The Problem of Pain](/books/problem-pain/) (New York: Macmillan, 1962).
 
 [^15]: From the German word sagein, “to say.” See Karl Barth, Church Dogmatics III: The Doctrine of Creation, Part One, trans. J. W. Edwards, O. Bussey, Harold Knight (Edinburgh: T&T Clark, 1958 [1945]).
 
@@ -114,7 +116,13 @@ Or put another way, there is no scientific discovery that makes the position on 
 
 There’s nothing like this in science that *leads* to the GAE Hypothesis. But the victory is partial. Even if the GAE does not prove that universally solve the relationship between human origins and evolutionary science, it does offer a way for some conservative Christian scholars[^18]  to find that they can accept mainstream science and not lose Adam and Eve. This is an achievement.
 
-[^18]: Cf. the papers in the recent ETS session that disagree with the GAE Hypothesis.
+[^18]: Cf. the papers in the recent ETS session that agree with the GAE Hypothesis. 
+Andrew Ter Ern Loke ["Showing There is No Incompatibility Between Evolution and the Bible"](/prints/ets-loke-gae/), Peaceful Science 2020. [https://doi.org/10.54739/rcx8](https://doi.org/10.54739/rcx8);
+Richard E. Averbeck ["Reading Creation in the Bible in Light of Science Today"](/prints/ets-averbeck-gae/), Peaceful Science 2020. [https://doi.org/10.54739/i6cd](https://doi.org/10.54739/i6cd);
+William Lane Craig ["Preferring an Ancient Genealogical Adam and Eve"](/prints/ets-wlc-gae/), Peaceful Science 2020. [https://doi.org/10.54739/t9q9](https://doi.org/10.54739/t9q9); Kenneth D. Keathley ["Antipodes and the Scandal of Particularity"](/prints/ets-keathley-gae/), Peaceful Science 2020. [https://doi.org/10.54739/g98q](https://doi.org/10.54739/g98q)
+
+
+
 
 ## <span>4</span>.  What Would Have to Change with Science to Make the Hypothesis Invalid?
 
@@ -158,7 +166,7 @@ Pew Research Center, “For Darwin Day, 6 facts about the evolution debate,” h
 
 Lewis, C. S. Mere Christianity (New York: Macmillan, 1960).
 
-Ecklund & Scheitle, Religion vs. Science: What Religious People Really Think (Oxford: Oxford University Press, 2017).
+Ecklund & Scheitle, [Religion vs. Science: What Religious People Really Think](https://www.amazon.com/dp/0190650621) (Oxford: Oxford University Press, 2017).
 
 “5 Facts about U.S. Evangelical Protestants,” https://www.pewresearch.org/fact-tank/2018/03/01/5-facts-about-u-s-evangelical-protestants, accessed November 30, 2020. 
 
@@ -166,9 +174,17 @@ Greg Cootsona, Mere Science and Christian Faith: Bridging the Divide with Emergi
 
 John C. Polkinghorne, Science and Theology An Introduction (Minneapolis: Fortress Press, 1988), 63-4.
 
-Lewis, C. S. The Problem of Pain (New York: Macmillan, 1962).
+Lewis, C. S. [The Problem of Pain](/books/problem-pain/) (New York: Macmillan, 1962).
 
 Dalai Lama, The Universe in a Single Atom: The Convergence of Science and Spirituality (New York: Harmony, 2006), 82.
+
+Andrew Ter Ern Loke ["Showing There is No Incompatibility Between Evolution and the Bible"](/prints/ets-loke-gae/) in *The 72nd Annual Meeting of the Evangelical Theological Society*, Peaceful Science 2020. [https://doi.org/10.54739/rcx8](https://doi.org/10.54739/rcx8)
+
+Richard E. Averbeck ["Reading Creation in the Bible in Light of Science Today"](/prints/ets-averbeck-gae/) in *The 72nd Annual Meeting of the Evangelical Theological Society*, Peaceful Science 2020. [https://doi.org/10.54739/i6cd](https://doi.org/10.54739/i6cd)
+
+William Lane Craig ["Preferring an Ancient Genealogical Adam and Eve"](/prints/ets-wlc-gae/) in *The 72nd Annual Meeting of the Evangelical Theological Society*, Peaceful Science 2020. [https://doi.org/10.54739/t9q9](https://doi.org/10.54739/t9q9)
+
+Kenneth D. Keathley ["Antipodes and the Scandal of Particularity"](/prints/ets-keathley-gae/) in *The 72nd Annual Meeting of the Evangelical Theological Society*, Peaceful Science 2020. [https://doi.org/10.54739/g98q](https://doi.org/10.54739/g98q)
 
 Vogel, Jonathan. Inference to the best explanation, 1998, doi:10.4324/9780415249126-P025-1. Routledge Encyclopedia of Philosophy, Taylor and Francis, https://www.rep.routledge.com/articles/thematic/inference-to-the-best-explanation/v-1.
 
