@@ -1,16 +1,19 @@
 ---
-title: Flat Earths and Fake Footnotes, Chapter 7
+title: Flat Earths and Fake Footnotes
 authors:
 - dpeterson
 categories:
 - science
 - history
 description: Whatever else you might think of Christopher Columbus, you can rest assured he set sail from a Europe that already knew the Earth was round.
-publishdate: 2022-01-12
+publishdate: 2022-02-02
 date: 2021-02-17
 partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
+headerimage:
+  src: /img/2022/02/worlds-edge.jpg
+  credit: Image by [JooJoo41](https://pixabay.com/photos/flat-earth-world-s-edge-1054350/)
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.
 {.editor-note}
@@ -28,6 +31,8 @@ Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Eart
 
 Most of us will remember quite vividly the first representation of Christopher Columbus that we were taught; like the glimmering icons of the Orthodox Church, his portrait was given to us less a man, and more an ideal. He was a thin veil through which a portentous light of Enlightenment found quite early access to key into the world. Against the stubbornness of a backwards society, Columbus was a man, so it was said, singularly convinced of the world's rotundity, and to settle this geometric bet he set sail. Behind his lambent form was the pitch abyss of a thousand years of medievalism, ignorant or deceived by the priests' wooden reading of "the four corners of the world" in scripture. It was from this morass that Columbus strode forward resolute, now tinged with the sort of heroic loneliness American mythology devours. "If no one ever challenged the status quo, the earth would still be flat" as a 2013 Infiniti car commercial put it---making it sound like Columbus literally remolded the earth into a sphere, despite popular taste preferring to take their planets flat, thank you very much. It was a breathtaking tale; both because of his resolution in the face of such apparently astounding religious ignorance, and because no doubt at least a few of our young minds fascinated upon the uncanny image of a horizon line of waters churning over that last, vital edge. 
 {.dropcap}
+
+{{< amazon `1610171535` >}}
 
 Nor was this some idiosyncrasy of our educations. The flat earth has been a convenient staple invoked in order to emphasize how humanity has advanced out of an age of superstition and religious ignorance for a while now. The historian of science Lawrence Principe records that over the course of a decade nearly 70% of his students---mainly American---were taught in grade school that Columbus set sail to prove the world was round.[^1] Another historian, Michael Newton Keas, notes that for the last quarter century he has taught around 1200 American students, a majority of whom by show of hands believed that medieval were ignorant regarding the roundness of the earth until Columbus.[^2] While he admits his method is anecdotal, broader evidence would suggest that his experience is, sadly, statistically typical. A best–selling history of science text mentions the flat earth in order to demonstrate how curiosity about the natural world was replaced by fear and bizarre superstition in the middle ages. A main culprit in this debacle of the human spirit was the Church, who "redirected the worries of 'educated' people toward abstract theological questions," so that knowledge of nature "was considered superfluous and dangerous." The condition of astronomical knowledge regressed from that established by the Greeks for seven hundred years, and "the Earth was once again considered to be flat!"[^3] This observation regarding the flat earth as symbolic of the general decline of knowledge caused by Christians is emblematic of its broader use. The Church set science back centuries, writes Timothy Ferris, and "the proud earth was hammered flat; likewise shimmering in the sun" while the heavens were wheels, pushed by angels in the courses of their perihelion.[^4] A _Newsweek_ article for example conflated the flat earth with the Galileo affair (a confusion that no less prestigious an individual than Thomas Jefferson also committed to print) and baldly states that "the Catholic Church condemned Galileo in 1632 for his heretical notion that the earth was a round globe hurtling through space about the sun."
 
@@ -59,6 +64,8 @@ It is no coincidence that the way this scenario is depicted mirrors precisely ho
 [^11]: Lewis, _The Discarded Image_, 140–41.
 [^12]: Regarding the globular view of earth in Plato’s _Phaedo_ and why, despite a few ambiguities, Plato most certainly did believe in a round earth, see: Calder III, "The Spherical Earth in Plato’s Phaedo," 121–25; Augustine, De Genesi Ad Litteram, 1:9–10; 1:19; 1:21; 2:9; Bede, De Natura Rerum ch. 3, 5, 6–10; Aquinas, _Summa Theologia_, Ia.q.68.a2.
 [^13]: Hannam, _Genesis of Science_, 28.
+
+{{< amazon `1540960218` >}}
 
 To be sure, many of humanity's earliest commentators reasoned back and forth regarding the ultimate shape of the ground we awoke upon as a species. The Sumerians and Babylonians claimed that beneath the sky, but above the underworld, the earth stretched like a flat plane or disk, interrupted only by mountains and seas.[^14] Many have argued that Thales of Melitus (c.625–c.547 B.C.), the Ionian geometer and natural philosopher, whom Aristotle records as being something of an original thinker,[^15] and who is often credited with being the first philosopher of the West, believed the earth was a circular disk, like a piece of wood afloat a vast and shoreless sea. "This opinion," writes Aristotle, "is the most ancient which has come down to us, and is attributed to Thales."[^16] This may have come from descriptions made by many like Herodotus, who in his _Histories_, describes a "floating island," Chemmis, north–east of Naucratis, an Egyptian trading post.[^17] On the other hand, Cicero attributed to Thales the earliest idea of a celestial globe.[^18] There is in fact an ambiguity in Aristotle, who may also be describing Thales as a "globalist" when he notes some have thought the earth is spherical.[^19] Regardless, Aristotle does ascribe a flat–earth view to Anaximenes, Anaxagoras, and Democritus.[^20]
 {.dropcap}
@@ -95,6 +102,8 @@ Here we are left with little doubt, for Bede spends the time to speak of the dif
 
 [^24]: Aristotle, _De Caelo_, 2.14, 297b–298a.20.
 
+{{< amazon `0312382081` >}}
+
 Others like Eratosthenes (c.276–c.194 B.C.), a Libyan astronomer and Librarian of Alexandria, used mathematical reasoning to prod from the Earth the secret of its waistline. Utilizing "trigonometry obtained from observations of the sun's declination at different latitudes,"[^25] Eratosthenes devised an ingenious method to calculate the world's shape and size. He heard reports from a town called Syene that during the summer solstice, the sun cast no shadow because it was directly overhead. At the same time in Eratosthenes' home city of Alexandria, Egypt, the sun still cast a shadow at an angle equivalent to one–fiftieth of a circle (or seven point two degrees). Assuming the sun's rays are basically parallel, and that Alexandria was approximately (what we would measure as) five–hundred and thirty miles due north of Syene, the calculation based on the radius of a circle could be made to estimate that the circumference of the earth was in the ballpark of twenty–nine thousand miles. We do not know the exact figure, since Eratosthenes was working with "stadia" as a unit of measurement---the earth, he said, being about 250,000 of them---and no one is completely certain what precisely this length indicates. The problem being that "Stadia" literally indicates "the length of one Roman stadium," which runs into the immediate problem that stadiums had no real set length. Regardless, from a shadow in a well, this is a pretty imaginative method to say the least, and one that is not too far off from the length we now know to be a circumference of around 24,860 miles.[^26]
 
 [^25]: Russell, _Inventing the Flat Earth_, 25.
@@ -110,3 +119,23 @@ This amazing feat of geometry turns out to be an important bit of trivia for how
 {{< amazon `1532653344` >}}
 
 Now admittedly, that last bit about getting stuck at the bottom of the world will no doubt bring a smile to the reader's face for being so quaint. But we will do well to remember that they were following well entrenched principles of Ptolemaic science, and it is hard to blame this subset of men arguing such things for not being up to date on gravity or the relativity of motion nearly two centuries in advance of Isaac Newton and four before Einstein. For the Ptolemaic layout, up was up, and down was down. Hence the notion that moving along the circulature of the earth's sphere would bring with it as one traveled a shift in the frame of reference did not occur to them. Columbus was not immune to this opinion. In his travel journals transcribed by de las Casas, Columbus remarks that as he entered the mouth of the Orinoco river the vast pressures against the boat led him to believe he may have already run into the hill of the earth's curvature, and was beginning to sail upward. Far from invoking fear, however, a thrill came over Columbus in part because of the idea put forward by the theologian Peter Lombard, and later by the poet Dante, speculating that the earth was in fact more shaped like a pear hanging from a tree---with the lost paradise of Eden sitting atop the bulging crest of the world. The thought of trying to storm Eden, inaccessible because of the currents stemming from the cataract of waters glissading downward off the roof of the world was no small motivator for Columbus to continue forward, whatever the cost.
+
+<div class=references>
+
+## References
+
+Keas, Michael Newton. _Unbelievable: 7 Myths About the History and Future of Science and Religion_. (Delaware: ISI Books, 2019).
+
+Garwood, Christine. _Flat Earth: The History of an Infamous Idea_ (New York: Thomas Dunne, 2007).
+
+Grant, Edward. _God & Reason in the Middle Ages_ (Cambridge: Cambridge University Press, 2001).
+
+Russell, Jeffrey Burton. _Inventing the Flat Earth: Columbus and Modern Historians_. (Connecticut: Prager Publishers, 1997).
+
+Lewis, C.S. _The Discarded Image: An Introduction to Medieval and Renaissance Literature_. (Cambridge: Cambridge University Press, 2012).
+
+Hannam, James. _The Genesis of Science: How the Christian Middle Ages Launched the Scientific Revolution_ (Washington, D.C.: Regnery Publishing, 2011).
+
+Holt-Jenson, A. _Geography: Its History and Concepts – A Student’s Guide_, 2nd Ed. (London, 1988).
+
+</div>
