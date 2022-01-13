@@ -1967,10 +1967,6 @@
         "height": 1350,
         "width": 2400
     },
-    "/img/2021/12/aar-metzger-gae.png": {
-        "height": 1350,
-        "width": 2400
-    },
     "/img/2021/12/aar-miller-gae.png": {
         "height": 1350,
         "width": 2400
@@ -2055,17 +2051,57 @@
         "height": 603,
         "width": 1280
     },
+    "/img/2022/01/aar-metzger-gae.png": {
+        "height": 1350,
+        "width": 2400
+    },
     "/img/2022/01/cmb.jpg": {
         "height": 800,
         "width": 800
+    },
+    "/img/2022/01/complexity.png": {
+        "height": 526,
+        "width": 760
+    },
+    "/img/2022/01/dual_origins.png": {
+        "height": 228,
+        "width": 664
+    },
+    "/img/2022/01/einstein_lemaitre.png": {
+        "height": 578,
+        "width": 476
+    },
+    "/img/2022/01/ets-mte.png": {
+        "height": 1350,
+        "width": 2400
     },
     "/img/2022/01/galaxy.jpg": {
         "height": 800,
         "width": 1280
     },
+    "/img/2022/01/sacred_profane_origins.png": {
+        "height": 962,
+        "width": 1952
+    },
     "/img/2022/01/space_sunrise.jpg": {
         "height": 2560,
         "width": 2560
+    },
+    "/img/2022/02/hereford-map.jpg": {
+        "height": 2591,
+        "width": 4606
+    },
+    "/img/2022/02/worlds-edge.jpg": {
+        "height": 853,
+        "width": 1280
+    },
+    "/img/2022/03/airship.png": {
+        "height": 1011,
+        "width": 1280
+    },
+    "/img/2022/03/footnote_labyrinths.png": {
+        "height": 220,
+        "width": 286
     },
     "/img/design/PS-logo-long-white.png": {
         "height": 683,
@@ -2106,5 +2142,9 @@
     "/img/design/wood-chair-transparent.png": {
         "height": 2000,
         "width": 2000
+    },
+    "/img/web/foxnews.png": {
+        "height": 2160,
+        "width": 3840
     }
 }
