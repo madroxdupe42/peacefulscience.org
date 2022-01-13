@@ -6,11 +6,14 @@ categories:
 - science
 - history
 description: Always check the references; you never know when Washington Irving might be gaslighting you.
-publishdate: 2022-01-26
+publishdate: 2022-03-02
 date: 2021-02-17
 partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
+headerimage:
+  src: /img/2022/03/footnote_labyrinths.png
+  credit: Image from [xkcd](https://xkcd.com/1208/) ([CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/))
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.
 {.editor-note}
@@ -24,11 +27,14 @@ In a remarkable piece of detective work to which we are much indebted, Jeffery B
 
 [^51]: Irving, _Christopher Columbus_, 61–62, 47–51.
 
+{{< amazon `1333048742` >}}
+
 This is all quite literally made up. Irving wanted to turn Columbus into a mythical figure, "the hero of a romantic novel, or an epic modern Odysseus or a Faust ... or an American Adam, the First Man of the New World ..."[^52] Irving's work was a sensation, but its intent, it seems, lost on everyone. While Irving spread the myth at a more popular level, Jean–Antoine Letronne (1787–1848) secured it as an academic commonplace. Learned in Latin, Greek, Egyptology, and mathematics, the intelligent and charming Frenchman was adored by his contemporaries, and those who eulogized him declared him a "secular saint."[^53] He got on well with all manners of government, supported his widowed mother, engaged in secret acts of charity that were not known to be his work until after he passed on, fathered ten children, became director of the _Ecole des Chartes_, then Inspector General at the University of Paris, and eventually would obtain the chair of history at the College de France. Living the life of what seems to be ten men undoubtedly leaves one with little spare time, but Letronne still managed to squeeze in some blistering polemics against Christianity. In particular our interests turn us toward an essay of his, "On the Cosmographical Opinions of the Church Fathers," (1834).
 
 [^52]: Russell, _Inventing the Flat Earth_, 56.
 [^53]: Russell, _Inventing the Flat Earth_, 59.
 
+{{< amazon `027595904X` >}}
 
 Its polemical stance is made known immediately. In the very first sentence Letronne recounts acidly that until recently "all science was to be based on the Bible."[^54] Astronomers were "forced to believe" that the earth is flat, and though a few theologians like Augustine and Origin knew better, Letronne makes sure to emphasize that they were marginal figures. Our friend Cosmas, whom we met earlier, also makes an appearance. In the course of six detailed pages oozing with all of Cosmas' bizarre opinions including the idea that the earth is a tableland, flat beneath the vaulted heavens Letronne gives the impression that Cosmas was well known, influential, important. The reader may recall, however, that Cosmas had only just then in Letronne's own time been rediscovered and unceremoniously baptized by nineteenth–century historians as representative of that backwater they declared the "Dark Ages." We have a record of only one individual who had read Cosmas, St. Photius, the Ecumenical Patriarch of Constantinople. Photius, who had garnered a widely reputed honor of being the most well–read scholar of his age and who is referred to in a recent history as "the leading light in the 9th century renaissance," had in turn nothing nice to say about Cosmas.[^55] "The style is poor," he says, "he relates much that is incredible from a historical point of view, so that he may fairly be regarded as a fabulist rather than a trustworthy authority." Indeed, Photius then goes on to mention that it is specifically Cosmas' view on the flat earth that he finds so bizarre: "the views on which he [Cosmas] lays special stress are: that neither the sky nor the earth is spherical, but that the former is a kind of vault, and the latter a rectangular plane."[^56] In other words the only person to have apparently read Cosmas sees him as something of a misguided fantasist notable for holding such an outlandish view. It is, to say the least, a bold strategy for Letronne to then hold up Cosmas as exemplary of an entire era while simultaneously making the argument that two of Christianity's most seminal theologians---Augustine and Aquinas---were in this case ignored as the black sheep of Christ's ramshackle flock.
 
@@ -40,6 +46,8 @@ Nonetheless, this haphazard backwardness, for Letronne, essentially summarized t
 
 [^57]: Russell, _Inventing the Flat Earth_, 61.
 [^58]: Russell, _Inventing the Flat Earth_, 60.
+
+{{< amazon `B09KRQ648H` >}}
 
 Both Irving and Letronne's works found their way into the pages of two men with whom we are already quite familiar: John William Draper and Andrew Dickson White. Given that the title "Flat Earther" is still used to indicate anyone who holds dogmatically to an outlandish view in the face of science, one can imagine the sort of currency Irving's and Letronne's tale had for men who wanted to portray the length of history as one of the heroic struggles of science in the face of dogmatic repression.  "[White and Draper] saw the Flat Error as a powerful weapon."[^59] And so, they made it a mascot of their story. White took Irving's portrayal of Columbus and weaponized it to create the popular anti–science image of institutionalized Christian cosmography:
 
@@ -66,3 +74,23 @@ The story takes an unexpected and interesting turn, however. White cites Irving 
 [^67]: Quoted in Neem, "The Early Republic," 37.
 
 Even stranger, the sparse instances of the flat earth, the strange nature of the fake footnotes that account for it, were all overlooked because, as it happens, modern forms of flat earth belief began to arise contemporary to Draper and White, Irving and Letronne, giving their histories, no doubt, the air of plausibility. In fact, as we have mentioned far from being a storied legacy of Christianity the flat earth is largely an artifact from what came to be understood as the debates over Darwinian evolution and the professionalization of science in the latter half of the nineteenth century. And this origin is no mere piece of trivia, for it is precisely in the same period that the first few waves of writers authoring histories of science---and so giving legitimacy to their new profession---were putting pen to paper. In this way not just the flat earth---but the notion of the warfare it often represented---came to nest themselves firmly into the self–perceptions of scientists, even religious ones.
+
+<div class=references>
+
+## References
+
+Russell, Jeffrey Burton. _Inventing the Flat Earth: Columbus and Modern Historians_. (Connecticut: Prager Publishers, 1997).
+
+Cormack, Lesley B. "Flat Earth or Round Sphere: Misconceptions of the Shape of the Earth and the Fifteenth-Century Transformation of the World." _Ecumene_ 1 (1994): 363–85.
+
+White, Andrew Dickson. _A History of the Warfare of Science With Theology in Christendom_ 2 vols. (New York: D. Appleton and Company, 1896).
+
+Draper, John William. _History of the Conflict Between Religion and Science_. (London: Henry S. King & Co. 1875).
+
+Youngson, R. _Scientific Blunders_ (New York: Carrol and Graff, 1998).
+
+Jefferson, Thomas. _Notes on the State of Virginia_ (New York: Penguin Classics, 1998).
+
+Neem, Johann N. "The Early Republic: Thomas Jefferson’s Philosophy of History and the Future of American Christianity," in Charles Matthewes and Christopher McKnight Nichols, _Prophesies of Godlessness: Predictions of America's Immanent Secularization from the Puritans to the Present Day_ (Oxford: Oxford University Press, 2008).
+
+</div>
