@@ -4,7 +4,7 @@ authors:
 - paul-metzger
 description: Swamidass invites us to treat one another virtuously in the midst of  our  differences, not as things but as persons, as King envisioned in view of Jesus.
 date: 2020-12-01
-publishdate: 2022-01-19
+publishdate: 2022-01-17
 headerimage:
   src: /img/2022/01/aar-metzger-gae.png
   youtube: 2fquG8Y4w70
@@ -63,9 +63,6 @@ There is something here for all of us to take away from Swamidass’s reflection
 
 The only point I would add as a theologian is that the starting point in Scripture as I read it is the divine empathy, which inspires courage and curiosity bound up with increasing confidence in Christ Jesus, which in turn gives rise to empathy for one another.  
 
-
-##  Scientific Authority, Virtue and Beauty
-
 Swamidass notes in chapter eighteen that scientists wield “immense authority” about human origins.[^10] It is important that they wield such authority as a scalpel rather than a blunt sword. In other words, they must wield their authority virtuously.[^11] Like religious authority, scientific authority can easily be abused.[^12] What is required are the virtues of **tolerance,** **humility,** and **patience,** which are set forth in chapter eighteen.
 
 
@@ -77,6 +74,10 @@ Swamidass notes in chapter eighteen that scientists wield “immense authority�
 
 [^12]:
     Ibid., 220.
+    
+    
+
+##  Scientific Authority, Virtue and Beauty
     
 Swamidass recounts a story from chapter one where a discussion on human origins and Adam and Eve [involving an evolutionary scientist and a pastor](/articles/defense-tim-keller/) holding to a traditional reading of the Genesis account led to a dead end. The conversation could have moved toward a new crossroads rather than roadblock involving a collision and fracture if these virtues had shaped the conversation.
 
@@ -155,7 +156,7 @@ In reading Swamidass on the import of the virtues and beauty, I was reminded of 
     Ibid., 26, 31, 37, 99. For further discussion on the construction of world religions, see Tomoko Masuzawa, [_The Invention of World Religions: Or, How European Universalism Was Preserved in the Language of Pluralism_](https://www.amazon.com/dp/0226509893) (Chicago: The University of Chicago Press, 2005), 20; Jason Ānanda Josephson, [_The Invention of Religion in Japan_](https://www.amazon.com/dp/B009MBTR3O) (Chicago: The University of Chicago Press, 2012). See also: Derrick Peterson, [_Flat Earths and Fake Footnotes: The Strange Tale of How the Conflict of Science and Christianity Was Written Into History_](https://www.amazon.com/dp/B08X79J5Q8) (Eugene: Cascade Books, 2020), 42-90.
 
 
-In reading Swamidass’s pursuit of a multifaceted and many-splendored beauty in a world of fractures, I call to mind Owen Gingerich’s treatment of Copernicus’s challenge to the Ptolemic conception of the universe. Gingrich argues that aesthetics played a foundational and pivotal role in scientific exploration, specifically the Copernican Revolution. Beauty, not simply cold facts, leads to scientific discovery.[^27] Along with Einstein’s novel scientific work, Copernicus’ revolution was “motivated by the passionate search for symmetries and an aesthetic structure of the universe. Only afterward the facts, and even the crisis, are marshalled in support of the new world view.”[^28] Copernicus’ revolution moved us beyond the separation of planetary motions into homocentric spheres, and with them Ptolemy’s equant, which Copernicus believed resulted in a cosmological “monster” of disparate parts rather than a whole “man”.[^29] Swamidass brings this pursuit of a beautiful vision of human perfection to bear on the faith and science debate over the genealogical Adam and Eve. Whereas for Copernicus, the debate concerned which is more beautiful—a geocentric vs. heliocentric universe, for Swamidass, it is the beautiful compatibility of Genesis and evolutionary genetics.
+In reading Swamidass’s pursuit of a multifaceted and many-splendored beauty in a world of fractures, I call to mind Owen Gingerich’s treatment of Copernicus' challenge to the Ptolemic conception of the universe. Gingrich argues that aesthetics played a foundational and pivotal role in scientific exploration, specifically the Copernican Revolution. Beauty, not simply cold facts, leads to scientific discovery.[^27] Along with Einstein’s novel scientific work, Copernicus’ revolution was “motivated by the passionate search for symmetries and an aesthetic structure of the universe. Only afterward the facts, and even the crisis, are marshalled in support of the new world view.”[^28] Copernicus’ revolution moved us beyond the separation of planetary motions into homocentric spheres, and with them Ptolemy’s equant, which Copernicus believed resulted in a cosmological “monster” of disparate parts rather than a whole “man”.[^29] Swamidass brings the pursuit of a beautiful vision of human perfection to bear on the faith and science debate over the genealogical Adam and Eve. Whereas for Copernicus, the debate concerned which is more beautiful—a geocentric vs. heliocentric universe, for Swamidass, it is the beautiful compatibility of Genesis and evolutionary genetics.
 
 
 [^27]:
@@ -169,7 +170,7 @@ In reading Swamidass’s pursuit of a multifaceted and many-splendored beauty in
     
 ## From a Fracture to a Beloved Community
 
-Swamidass combines these two emphases on the virtues and aesthetics in his pursuit of civil interdisciplinary discourse that turns the fractures into facets of a new and grander synthesis of seemingly disparate parts for the sake of cultivating the beloved community. Here I prefer to replace Swamidass’s call for “accepting” and possibly even valuing “faithful heterodoxy” as part of “a larger ecclesial conversation”[^30] with a centered-set methodology. This methodology centers on the aspirations and virtues embodied in Jesus Christ, which include the ones Swamidass sketches. As important as questions of human origins are, it is not ultimately a matter of where we come from, but where we are going. So, the first Adam must give way in terms of ultimate importance for Christians to Jesus Christ, the second Adam. As noted earlier, Swamidass’s own quest bathed in curiosity led to the book we now analyze. That quest resulted from a growing sense of confidence in the second Adam. For Swamidass, Jesus is greater than the debate over origins. 
+Swamidass combines these two emphases on the virtues and aesthetics in his pursuit of civil interdisciplinary discourse that turns the fractures into facets of a new and grander synthesis of seemingly disparate parts for the sake of cultivating the beloved community. Here I prefer to replace Swamidass’s call for “accepting” and possibly even valuing “faithful heterodoxy” as part of “a larger ecclesial conversation”[^30] with a centered-set methodology. This methodology centers on the aspirations and virtues embodied in Jesus Christ, virtues which include the ones Swamidass sketches. As important as questions of human origins are, it is not ultimately a matter of where we come from, but where we are going. So, the first Adam must give way in terms of ultimate importance for Christians to Jesus Christ, the second Adam. As noted earlier, Swamidass’s own quest bathed in curiosity led to the book we now analyze. That quest resulted from a growing sense of confidence in the second Adam. For Swamidass, Jesus is greater than the debate over origins. 
 
 [^30]:
     Swamidass, _The Genealogical Adam & Eve_, 220.
