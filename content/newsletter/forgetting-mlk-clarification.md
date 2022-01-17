@@ -7,7 +7,7 @@ date: 2022-01-17T17:00:00
 layers:
 - type: body
 ---
-I hope everyone is having a good and thoughtful MLK day, whether at home or work. On a personal note, please consider this important clarification of [the message from us you received this morning.](/newsletter/forgetting-mlk-clarification/)
+I hope everyone is having a good and thoughtful MLK day, whether at home or work. On a personal note, please consider this important clarification of [the message from us you received this morning.](/newsletter/forgetting-mlk/)
  
 The organizers of the event mentioned in our newsletter *did* intend and hope for a more diverse slate of speakers. Recruiting non-white speakers is difficult. The absence of non-white speakers is a problem downstream of larger societal problems, and this absence did *not* reflect the best hopes of the organizers. Indeed, similar observations of a gap in diverse voices are observable in just about all scientific and science/religion meetings.
 
