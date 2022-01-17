@@ -24,11 +24,9 @@ White-moderate Christians in Birmingham agreed with his cause, but urged patienc
 
 Almost 60 years later, we did not integrate. [Our conference last week](https://www.beesondivinity.com/events/Alone-in-the-Cosmos-Theological-Anthropology-for-a-Scientific-Age) had eight plenary talks, each with a respondent. Birmingham is 70% black. All of the speakers, except for myself and one respondent, however, was white.
 
-Only one speaker engaged the questions of race. We heard from a leading expert on the Image of God. But he did not mention or even know much about MLK's theology of the Image of God.
+Only one speaker engaged the questions of race. We heard from a leading expert on the Image of God. But he did not mention MLK's theology of the Image of God.
 
-At the final session, I called this out, "This is broken. There must be a better way."
-
-How did they respond? The response was honest recognition. We need to find a better way.
+At the final session, I called this out, "This is broken. There must be a better way." How did they respond? The response was honest recognition. We need to find a better way.
 
 We broke bread together. A pastor thanked me and shared some stories. In 1994 (when I was in 10th grade), he was fired from a pastorate for inviting and including black children to a youth retreat with white children.
 
