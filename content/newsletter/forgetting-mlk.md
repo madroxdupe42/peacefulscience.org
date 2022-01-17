@@ -42,7 +42,7 @@ Please [consider this important clarification](/newsletter/forgetting-mlk-clarif
 
 The organizers of the event did intend and hope for a more diverse slate of speakers. Recruiting non-white speakers is difficult. The absence of non-white speakers is a problem downstream of larger societal problems, and this absence did not reflect the best hopes of the organizers. Indeed, similar observations of a gap in diverse voices are observable in just about all scientific and science/religion meetings.
 
-The conference itself was very high quality, bringing together scholars in a way that engages the public in a way that was elucidating and educational. The weekend was personally impactful to me, and I am grateful to the attendees for their willingness and openness to dialogue. In many ways, they are a positive example for those of us who are genuinely trying to move forward and do better.
+The conference itself was very high quality, bringing together scholars to engage the public in a way that was elucidating and educational. The weekend was personally impactful to me, and I am grateful to the attendees for their willingness and openness to dialogue. In many ways, they are a positive example for those of us who are genuinely trying to move forward and do better.
 
 We recognize that conversation about race is difficult and sensitive, but we also believe that these conversations are worth pursuing together.
 
