@@ -24,15 +24,15 @@ White-moderate Christians in Birmingham agreed with his cause, but urged patienc
 
 Almost 60 years later, we did not integrate. [Our conference last week](https://www.beesondivinity.com/events/Alone-in-the-Cosmos-Theological-Anthropology-for-a-Scientific-Age) had eight plenary talks, each with a respondent. Birmingham is 70% black. All of the speakers, except for myself and one respondent, however, was white.
 
-We heard from a leading expert on the Image of God. But he did not mention or even know much about MLK's theology of the Image of God.
+Only one speaker engaged the questions of race. We heard from a leading expert on the Image of God. But he did not mention or even know much about MLK's theology of the Image of God.
 
-The segregated reality of the Deep South, the non-white speaker was the only speaker to ask any questions about race. At the final session, I called this out, and I addressed the conference directly.  "This is broken. There must be a better way."
+At the final session, I called this out, "This is broken. There must be a better way."
 
 How did they respond? The response was honest recognition. We need to find a better way.
 
 We broke bread together. A pastor thanked me and shared some stories. In 1994 (when I was in 10th grade), he was fired from a pastorate for inviting and including black children to a youth retreat with white children.
 
-In view of this broken reality, we are publishing today an article from Paul Louis Metzger, a theologian who saw the ethical argument for virtues most clearly in my book. His response takes us back to MLK's ethic of protest. 
+Today, we are publishing today an article from Paul Louis Metzger, a theologian who saw the ethical argument for virtues most clearly in my book. His response takes us back to MLK's ethic of protest. 
 
 Pursuit of virtue sometimes demands protest. Protest creates conflict. This conflict is often the only path to greater peace.
 
