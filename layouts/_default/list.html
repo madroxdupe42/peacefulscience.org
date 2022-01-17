@@ -7,6 +7,7 @@
 {{ define "main" }}
 {{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
 {{ $style := .Params.design.style | default "vertical" }}
+{{ $hide := .Params.design.hide | default "" }}
 
 {{ $pages := partial "listpages" . }}
 
@@ -81,7 +82,7 @@
  <turbo-frame class="row col-12" id="__pagination{{ $paginator.PageNumber }}" target="_top">
 
         {{- range $paginator.Pages  -}}
-          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout "Hide" $hide ) }}
         {{ end -}}
 
 {{ if $paginator.HasNext }}
