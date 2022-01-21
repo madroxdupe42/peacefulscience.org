@@ -1,4 +1,4 @@
-{{ $out := .Data.Pages }}
+{{ $out := .RegularPagesRecursive }}
 {{ $reversed := .Params.reverse  | default true }}
 
 {{ $page := (slice ) }}
