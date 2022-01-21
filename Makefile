@@ -11,6 +11,9 @@ algolia:
 	hugo -e index
 	npm run algolia
 
+links:
+	bash code/links.bsh
+
 imginfo: static/img
 	python code/imgsize.py > data/imgsize.json
 
