@@ -21,6 +21,7 @@ headerimage:
 
 cascade:
   rss: false
+  defaultimg: /img/design/logo-black-square.png
   jsonld:
     "@type": WebPage
     "@id": = permalink webpage

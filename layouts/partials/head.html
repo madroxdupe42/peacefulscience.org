@@ -67,7 +67,7 @@
  {{ $amazonimg = partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg`  (index . 0) )  }}
 {{ end }}
 
-{{ with .Params.headerimage.src | default $amazonimg | default site.Params.logo -}}
+{{ with .Params.headerimage.src | default $amazonimg | default .Params.defaultimg | default site.Params.logo -}}
 <meta property="og:image" content="{{- . | partial `imgcdn` -}}"/>
 <meta name="twitter:card" content={{ if eq . site.Params.logo }}"summary"{{ else }}"summary_large_image"{{ end }}>
 <meta name="twitter:image" content="{{-  . | absURL -}}">
