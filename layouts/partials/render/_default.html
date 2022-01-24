@@ -4,7 +4,7 @@
 {{ $width := 160 }}
 {{ $sizes := .Sizes | default nil }}
 
-{{- $src :=  $page.Params.headerImage.Src | default site.Params.logo -}}
+{{- $src :=  $page.Params.headerImage.Src | default $page.Params.defaultimg -}}
 
 {{- $layout := .Layout | default "col-6 col-md-3" -}}
 

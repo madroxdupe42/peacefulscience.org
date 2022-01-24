@@ -58,7 +58,7 @@ width: 100%
       <div class="row">
 
         <header class="col-12 pb-5 ">
-
+        {{ partial "breadcrumbs" . }}
         
           <h1 class="mt-2">{{ .Title }}</h1>
           {{ with .Description }}{{ . | markdownify }}{{ end }}

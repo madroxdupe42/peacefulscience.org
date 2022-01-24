@@ -1,4 +1,6 @@
 ---
+aliases:
+- /newsletter/forgetting-mlk-clarification
 title: Forgetting Dr. Martin Luther King Jr.
 description: Pursuit of virtue sometimes demands protest. Protest creates conflict. This conflict is often the only path to greater peace.
 authors:
@@ -38,7 +40,7 @@ Come remember MLK with us.
 
 <div class="editor-note">
 
-Please [consider this important clarification](/newsletter/forgetting-mlk-clarification/) of this message.
+Please consider this important clarification: 
 
 The organizers of the event did intend and hope for a more diverse slate of speakers. Recruiting non-white speakers is difficult. The absence of non-white speakers is a problem downstream of larger societal problems, and this absence did not reflect the best hopes of the organizers. Indeed, similar observations of a gap in diverse voices are observable in just about all scientific and science/religion meetings.
 

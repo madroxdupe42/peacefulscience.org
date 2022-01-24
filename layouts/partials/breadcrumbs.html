@@ -1,55 +1,19 @@
-{{- $ctx := .ctx }}
-{{- $output_type := .output_type }}
-{{- $header := print "breadcrumbs/" $output_type "/header.html" }}
-{{- $item := print "breadcrumbs/" $output_type "/item.html" }}
-{{- $footer := print "breadcrumbs/" $output_type "/footer.html" }}
-{{- $full_data := "" }}
+{{ if not .Parent.IsHome }}
+<nav class="pb-5">
+{{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent ) }}
+</nav>
+{{ end }}
+{{ define "breadcrumbnav" }}
+{{ $class := "border-left border-dark pl-2 pr-1 d-inline-block" }}
+{{ if .p1.Parent }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2  )  }} 
+{{ else if not .p1.IsHome }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ else }}
+  {{ $class = "font-special d-inline-block pr-1" }}
+{{ end }}
 
 
-{{- with $ctx }}
-  {{- $path := split .RelPermalink "/" }}
+  <a href="{{ .p1.Permalink }}"{{ with $class }} class="{{ . }}"{{end}}{{ if eq .p1 .p2 }} class="active"{{ end }}>{{ .p1.Title }}</a>
 
-  {{- $data := partial $header . }}
-  {{- $full_data = printf "%s%s" $full_data $data }}
-
-
-  {{- if eq .Kind "taxonomyTerm" }}
-
-    {{- $data := partial $item (dict "caption" .Title "url" "" "level" 1 "image" "" "final" true) }}
-    {{- $full_data = printf "%s%s" $full_data $data }}
-
-  {{- else if eq .Kind "term" }}
-
-    {{/* Find the taxonomyTerm and render */}}
-
-    {{- $taxonomyTerm := .Site.GetPage "taxonomyTerm" .Data.Plural }}
-    {{- $data := partial $item (dict "caption" $taxonomyTerm.Title "url" $taxonomyTerm.RelPermalink "level" 1 "image" "" "final" false) }}
-
-    {{- $full_data = printf "%s%s" $full_data $data }}
-
-    {{/* Render the taxonomy item */}}
-
-    {{- $data := partial $item (dict "caption" .Title "url" .RelPermalink "level" 2 "image" "" "final" true) }}
-    {{- $full_data = printf "%s%s" $full_data $data }}
-
-  {{- else if or ( eq .Kind "section" ) ( eq .Kind "page" ) }}
-
-    {{/* Display all relevant section elements */}}
-
-    {{- $data := partial "breadcrumbs/recursive.html" (dict "output_type" $output_type "sections" .Site.Home.Sections "level" 1 "path" $path "dir" .RelPermalink ) }}
-    {{- $full_data = printf "%s%s" $full_data $data }}
-
-    {{- if eq .Kind "page" }}
-
-      {{- $aux := split .RelPermalink "/" }}
-      {{- $data := partial $item (dict "caption" .Title "url" .RelPermalink "level" (sub (len $aux) 2 ) "image" .Params.share_img "final" true ) }}
-      {{- $full_data = printf "%s%s" $full_data $data }}
-
-    {{- end }}
-  {{- end }}
-
-  {{- $data := partial $footer . }}
-  {{- $full_data = printf "%s%s" $full_data $data }}
-{{- end }}
-
-{{- $full_data | safeHTML}}
+{{ end }}
