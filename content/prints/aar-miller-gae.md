@@ -4,7 +4,7 @@ authors:
 - Ken Miller
 description:   The Genesis story of Adam and Eve matters. Not just to Christians, but to people of all Abrahamic faiths.
 date: 2020-12-01
-publishdate: 2022-01-28
+publishdate: 2022-01-25
 headerimage:
   src: /img/2021/12/aar-miller-gae.png
   youtube: kCXl6uTFGFk

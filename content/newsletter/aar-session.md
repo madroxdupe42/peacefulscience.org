@@ -15,5 +15,5 @@ pages:
 ---
 Each year, The American Academic of Religion (AAR) and the Society for Biblical Literature (SBL) hold perhaps the largest annual meeting on religion. This a meeting with people of all faiths and theological committments. In 2020, they held a session discussing *The Genealogical Adam and Eve.*
 
-This last few weeks we've published several papers from this session. In the coming weeks, Ken Millers article and a rejoinders to the ETS and AAR critics will be published too.
+This last few weeks we've published several papers from this session. In the coming weeks, Ken Miller's article and rejoinders to the ETS and AAR critics will be published too.
 
