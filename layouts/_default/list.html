@@ -40,7 +40,12 @@
             
           </section>
         {{ end }}
-                {{ partial "breadcrumbs" . }}
+        
+         {{ if eq .Kind "term" }}
+            {{ partial "breadcrumbs" .Parent }}
+         {{ else }}
+            {{ partial "breadcrumbs" . }}
+         {{ end }}
           <h1 class="mt-2">{{ .Title  | markdownify }}</h1>
           {{ with .Description }}{{ . | markdownify }}{{ end }}
 
