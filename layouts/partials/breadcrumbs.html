@@ -1,8 +1,8 @@
-{{ if not .Parent.IsHome }}
+
 <nav class="pb-5">
-{{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent ) }}
+{{ template "breadcrumbnav" (dict "p1" . "p2" . ) }}
 </nav>
-{{ end }}
+
 {{ define "breadcrumbnav" }}
 {{ $class := "border-left border-dark pl-2 pr-1 d-inline-block" }}
 {{ if .p1.Parent }}
@@ -13,7 +13,7 @@
   {{ $class = "font-special d-inline-block pr-1" }}
 {{ end }}
 
+  <a href="{{ .p1.Permalink }}"  {{ if ne .p1 .p2 }}href="{{ .p1.Permalink }}"{{ end }} class="{{ with $class }}{{ . }}{{end}}">{{ .p1.LinkTitle | markdownify }}</a>
 
-  <a href="{{ .p1.Permalink }}"{{ with $class }} class="{{ . }}"{{end}}{{ if eq .p1 .p2 }} class="active"{{ end }}>{{ .p1.Title }}</a>
 
 {{ end }}

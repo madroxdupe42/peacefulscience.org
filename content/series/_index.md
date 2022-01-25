@@ -1,5 +1,5 @@
 ---
-
+title: Series
 cascade:
   reverse: false
   design:
