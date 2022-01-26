@@ -1,6 +1,6 @@
 ---
 title: 'On Mere Theistic Evolution'
-description: '"So far as I can see, we are not in a position to conclude that MTE has been weighed in the balances and found wanting."'
+description: So far as I can see, we are not in a position to conclude that MTE has been weighed in the balances and found wanting.
 sameas:
 - https://doi.org/10.5840/pc20202212
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
@@ -16,9 +16,17 @@ series: ets-mte
 This article was first presented in a session of *The 71st Annual Meeting of the Evangelical Theological Society.* It was then published, closed access, in [*Philosophia Christi*](https://doi.org/10.5840/pc20202212).
 {.editor-note}
 
-### Abstract
+
+
+<div class="abstract">
 
 What Michael J. Murray and John Ross Churchill offer as "Mere Theistic Evolution" is an intriguing proposal that should be taken seriously by Christians who are convinced of the truth of classical Christian theology while also engaged in respectful and appreciative dialogue with the natural sciences. In this essay, I argue that the main theological arguments against theistic evolution put forth in the influential volume _Theistic Evolution: A Scientific, Philosophical, and Theological Critique_ are not decisive against mere theistic evolution. The proposal raises many interesting and important issues, and it deserves further engagement.
+
+</div>
+
+***
+
+
 
 ## In Appreciation: Important Apologetic and Pastoral Elements
 
@@ -50,7 +58,7 @@ So far as I can see, the MTE proposal is simply a theory that seeks to make sens
 
 As the authors of the MTE paper point out, these sorts of moves are made all the time when theologians consider various challenges. So the Bible seems to teach (or presuppose, or imply) both meticulous providence and the reality of human freedom and responsibility. Some theologians and philosophers think that it can't be the case that both are true. It's either meticulous providence or freedom; pick one. Enter Molinism. Molinism is, as our authors remind us, "the name of a sophisticated proposal that aims to unify two sets of commitments: commitment to human free will, on the one hand, and to God's providential control over all the world's events, on the other."[^3] Molinism's defenders will sometimes argue that their view actually is, minimally, suggested in Scripture (thus 1 Samuel 23 and so forth). But the main point of the theory is to unify the two major sets of claims, both of which seem to be well-supported by biblical teaching. The success of Molinism does not depend on the successful deployment of a proof text. As our authors remind us, the theory does "not aim to provide any positive evidence for the existence of God or for the reality of human free will," nor does it "aim to explain human agency in any illuminating sense." Thus "to object to Molinism on the grounds that it does neither of these things is to fail to understand its value."[^4] Molinism is just a test case; we could multiply these all over the common topics of theology (for example, the Trinity).
 
-[^3]: Michael J. Murray and John Ross Churchill, "Mere Theistic Evolution: A Review of _Theistic Evolution_, Edited by Moreland, Meyer, Shaw, Gauger, and Grudem," _Philosophia Christi_ 22 (2020): 25.
+[^3]: Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
 [^4]: Ibid
 
 As a layman, it seems to me that this is the kind of thing that sometimes happens in science too. For instance, consider what Darrell Falk does when discussing the evolution of old world and new world monkeys. After noting the proliferation and diversity of new world monkeys (currently 124 species), he compares them with old world monkeys (which tend to have narrower snouts, nostrils that face down rather than up, and very little in the way of tails rather than the long prehensile tails common in South America).[^5] He notes that fossils found from about thirty-five million years ago show close relationships between monkeys of the old and new worlds and lead us to the conclusion that they stem from the same ancestral species. This raises a question: how, then, did they get separated? The easy answer would seem to be that the continents of Africa and South America were formerly contiguous and that the separation of the continents (which had to do with tectonic plate shifts) resulted in the changes that we now see in the various species of monkeys. Alas, this explanation is too easy and will not work. It will not work because the continental shift took place about 100 million years ago, and the strikingly close similarities in the fossil record are about 60–70 million years later than that. So how did they get separated, how did these monkeys get from Africa to South America? Falk tells us that "there is almost unanimous consensus" that something close to the following happened: "a small number (perhaps a single pregnant female) was trapped on a huge tropical tree as it floated down river (possibly in a massive flood) and then, having been transported in an ocean current, the tree with its clinging cargo" made it to South America.[^6]
@@ -144,11 +152,11 @@ Moreland, J. P., Meyer, Stephen C., Shaw, Christopher, Gauger, Ann K., and Grude
 
 Ecklund, Elaine. _Science vs. Religion: What Scientists Really Think_. (New York: Oxford University Press, 2010)
 
-Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution: A Review of _Theistic Evolution_, Edited by Moreland, Meyer, Shaw, Gauger, and Grudem." _Philosophia Christi_ 22 (2020): 25.
+Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
 
 Falk, Darrell. "Human Origins: The Evolutionary Story," in _Evolution and the Fall_, ed. William T. Cavanaugh and James K. A. Smith (Grand Rapids, MI: Eerdmans, 2017)
 
-Venema, Dennis R. and McKnight, Scot. _Adam and the Genome: Reading Scripture aer Genetic Science_. (Grand Rapids, MI: Baker Academic, 2017)
+Venema, Dennis R. and McKnight, Scot. _Adam and the Genome: Reading Scripture after Genetic Science_. (Grand Rapids, MI: Baker Academic, 2017)
 
 Giberson, Karl. _Saving the Original Sinner: How Christians Have Used the Bible's First Man to Oppress, Inspire, and Make Sense of the World_. (Boston: Beacon, 2015)
 
@@ -167,5 +175,7 @@ Collins, C. John. _Did Adam and Eve Really Exist? Who They Were and Why You Shou
 Smith, James K. A. "What Stands on the Fall? A Philosophical Exploration," in _Evolution and the Fall_, ed. William T. Cavanaugh and James K. A. Smith (Grand Rapids, MI: Eerdmans, 2017)
 
 Alexander, Denis. _Creation or Evolution: Do We Have to Choose?_. (Oxford: Monarch Books, 2008)
+
+Swamidass, S. Joshua. _The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_. (Downers Grove, IL: InterVarsity Academic, 2019)
 
 </div>
