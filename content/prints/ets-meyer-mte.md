@@ -1,6 +1,6 @@
 ---
 title: Do Christians Need to Reconcile Evolutionary Theory and Doctrines of Divine Providence and Creation?
-description: '"So rather than ask, ''_Can_ we reconcile orthodox evolutionary theory with orthodox theological commitments?'' I want instead ask: ''_Should_ we, or need we, affect such a reconciliation?''"'
+description: 'Rather than ask, "_Can_ we reconcile orthodox evolutionary theory with orthodox theological commitments?", I ask: "_Should_ we?"'
 sameas:
 - https://doi.org/10.5840/pc20202215
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
@@ -16,9 +16,12 @@ series: ets-mte
 This article was first presented in a session of *The 71st Annual Meeting of the Evangelical Theological Society.* It was then published, closed access, in [*Philosophia Christi*](https://doi.org/10.5840/pc20202215).
 {.editor-note}
 
-### Abstract
+
+<div class="abstract">
 
 Many Christian scholars have argued that standard versions of evolutionary theory and orthodox theological commitments can be reconciled. Some theistic evolutionists or "evolutionary creationists" have argued that evolutionary mechanisms such as random mutation and natural selection are nothing less than God's way of creating. Though I dispute the logical coherence of these attempted reconciliations elsewhere, I argue here that there is little reason for Christians to attempt them, since an accumulating body of evidence from multiple subdisciplines of biology casts doubt on the creative power of the main evolutionary mechanisms. Thus, rather than addressing the question, "Can a meaningful doctrine of divine providence or creation be reconciled with mainstream evolutionary theory?" this essay will address the question of whether Christians should, or need to, attempt such a reconciliation at all.
+
+</div>
 
 ***
 
@@ -170,6 +173,9 @@ In summary, Christian scholars have been entirely too sanguine about, and defere
 <div class=references>
 
 ## References
+
+
+Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
 
 Moreland, J. P., Meyer, Stephen C., Shaw, Christopher, Gauger, Ann K., and Grudem, Wayne, eds. _Theistic Evolution: A Scientific, Philosophical, and Theological Critique_. (Wheaton, IL: Crossway, 2017)
 

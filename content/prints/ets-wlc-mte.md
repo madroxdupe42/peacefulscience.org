@@ -1,6 +1,6 @@
 ---
 title: 'Response to "Mere Theistic Evolution"'
-description: '"Rather the burden of Murray and Churchill''s paper is to defend theistic evolution against theological objections to the viewpoint. On this score I think that they do an admirable job."'
+description: Murray and Churchill's paper do an admirable job  defending theistic evolution against theological objections.
 sameas:
 - https://doi.org/10.5840/pc20202214
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
@@ -16,15 +16,17 @@ series: ets-mte
 This article was first presented in a session of *The 71st Annual Meeting of the Evangelical Theological Society.* It was then published, closed access, in [*Philosophia Christi*](https://doi.org/10.5840/pc20202214).
 {.editor-note}
 
-### Abstract
+<div class="abstract">
 
 Murray and Churchill argue correctly that theistic evolution as they define it is theologically compatible with orthodox Christian doctrines concerning divine providence, natural theology, miracles, and immaterial souls. I close with some reflections on mutual misunderstandings of Intelligent Design proponents and theistic evolutionists that arise because each sees the other as a distorted mirror image of himself.
 
-***
+</div>
+
+---
 
 One of the things I appreciate about Michael J. Murray and John Ross Churchill's paper is their candid embrace of the label, "theistic evolution," for their view.[^1] This strikes me as much more accurate and straightforward a label than the euphemistic appellation, "evolutionary creationism," recently adopted by some theistic evolutionists, which seems clearly an attempt to coopt the label, "creationism," in order to make their view more palatable to evangelical Christians.
 
-[^1]: Michael J. Murray and John Ross Churchill, "Mere Theistic Evolution: A Review of _Theistic Evolution_, Edited by Moreland, Meyer, Shaw, Gauger, and Grudem," _Philosophia Christi_ 22 (2020): 7–40.
+[^1]:  Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
 
 It will be helpful at the outset to note the very limited scope of Murray and Churchill's response to the volume, _Theistic Evolution: A Scientic, Philosophical, and Theological Critique (SPTC)_. They state that the volume as a whole conveys "the message that _for Christians with traditional doctrinal commitments, no version of theistic evolution that adheres largely to consensus views in biology will be a plausible option_."[^2]  They maintain to the contrary that it is "incontrovertible" that there are versions of theistic evolution that are "immune to many of the key criticisms advanced" in the book.[^3] More specifically, they argue that "there are versions of theistic evolution ... that are consistent with traditional doctrinal commitments" concerning divine providence, miracles, evidence for theism, and nonphysical souls. It is evident, then, that their concern is with _doctrinal_ criticisms of theistic evolution.[^4]
 
@@ -47,7 +49,7 @@ Consider each of the doctrinal commitments they mention.
 
 ## Theological Acceptability of Theistic Evolution
 
-### 1. _Divine Providence_
+### 1. Divine Providence
 
 First, divine providence. Here they render the considerable service of correcting the misimpression often given by popularizers on both sides of the debate that when evolutionary biologists say that the mutations responsible for evolutionary change occur randomly, they mean by chance or purposelessly. If they did, then evolutionary theory would be enormously presumptuous, since science is just not in a position to say with any justification that there is no divinely intended direction or goal of the evolutionary process. How could a scientist know that God did not supernaturally intervene to cause the crucial mutations that led to important evolutionary transitions, for example, the reptile to bird transition?
 
@@ -68,7 +70,7 @@ But the evolutionary biologist is _not_ using the word "random" in that sense.[^
 
 [^11]: Fortunately, as a scientifically informed philosopher, Steve Meyer makes this same point himself in _SPTC_. On the standard view, he explains, organisms "generate mutations randomly, that is without respect to their survival needs" (281). Unfortunately, elsewhere in the volume, after noting that "'Random' means 'without respect to functional outcome,'" he adds, "entailing that there can be no inherent directionality or _telos_ to mutational events" (112). This added gloss is a _non sequitur_.
 
-### 2. _God's Miraculous Activity_
+### 2. God's Miraculous Activity
 
 The second doctrinal commitment Murray and Churchill discuss is God's miraculous activity in the world. Unfortunately, having ignored a Molinist account of providence in their first doctrinal section, they give an unnuanced characterization of miracles in the second section. For they characterize extraordinary providence, or miracles, as God's "bringing about His desired outcome by (among other things) ensuring that a process within creation unfolds in a radically different way than is typical for processes of that kind."[^12] This characterization is ambiguous. God's middle knowledge enables us to distinguish a kind of extraordinary providence that involves no divine intervention in the series of natural, secondary causes but which is discernable and distinguishable from God's ordinary providence by its atypical and highly coincidental nature. Miracles, by contrast, involve God's intervention in the series of secondary causes to bring about an event which is impossible for the natural causes operative at the time and place of the event to bring about.
 
@@ -98,7 +100,7 @@ Here Murray and Churchill make what is in my opinion perhaps the most important 
 
 I think that because Intelligent Design _is_ offered as a scientific theory, ID proponents mistakenly think that theistic evolution is so offered as well and therefore criticize its scientific value. It is so important for mutual understanding that ID advocates realize that theistic evolution is not a scientific theory, much less a rival scientific theory. Rather it is a view which tries to integrate scientific theory and theology.
 
-### 4. _Nonphysical Souls_
+### 4. Nonphysical Souls
 
 The fourth and final doctrinal commitment is to the reality of nonphysical souls. While I think that it is true that nonphysical souls fit much better within a theistic worldview than within a naturalistic worldview, I see no reason to think that the theist cannot maintain that at some point in hominid evolution, once the brain had suciently evolved, God created a soul and incarnated it in a hominin he had prepared to become the first human being.
 
@@ -122,7 +124,9 @@ I have good friends and colleagues on both sides of the debate, and I hope that 
 
 ## References
 
-Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution: A Review of _Theistic Evolution_, Edited by Moreland, Meyer, Shaw, Gauger, and Grudem." _Philosophia Christi_ 22 (2020): 7–40.
+Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
+
+Tom McCall, "On Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/mt3a](https://doi.org/10.54739/mt3a)
 
 Craig, William Lane and Ayala, Francisco. "Is Intelligent Design Viable?" http://bit.ly/CraigAyala, published November 2009, accessed January 24, 2022
 

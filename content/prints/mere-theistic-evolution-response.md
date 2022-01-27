@@ -28,7 +28,7 @@ We think McCall has done all of us a service by parsing one of Wayne Grudem’s 
 
 In responding to this argument, McCall takes what for many might seem a surprising approach. He chooses not to dispute that second premise. He concedes for present purposes that if we are to be faithful to the Bible we must commit to the doctrine that all of us descended from an initial human pair. Rather, McCall challenges the first premise. He argues that evolution is, after all, consistent with commitment to Adam and Eve, with our descent from them, and with associated doctrines like original sin. He demonstrates this by way of illustration presenting two recent proposals, one by philosopher Peter van Inwagen[^1] and one by geneticist Joshua Swamidass, where each of those two recent proposals affirm both evolution and an initial human pair as the ancestors of us all. They do that in very different ways.
 
-[^1]: Reference????
+[^1]: Peter van Inwagen. _The Problem of Evil_. (New York: Oxford University Press, 2006)
 
 We have nothing to add to what McCall has given us here except to say that we hope in the future to see more proposals like those by van Inwagen and Swamidass---that is, more rigorous attempts and creative attempts to explore the potential harmony between biology on the one hand and Christian theology on the other. And we hope to see more presentations like McCall’s, which explain these proposals in sophisticated but accessible fashion. Thank you, Tom.
 
@@ -70,14 +70,17 @@ One last thing. I think that one thing you hear from Meyer and many of those who
 
 ## References
 
-Tom McCall's paper (details to be added)
 
-William Lane Craig's paper (details to be added)
+Murray, Michael J. and Churchill, John Ross. "Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6qip](https://doi.org/10.54739/6qip)
 
-Stephen C. Meyer's paper (details to be added)
+Tom McCall, "On Mere Theistic Evolution" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/mt3a](https://doi.org/10.54739/mt3a)
+
+William Lane Craig. "Response to 'Mere Theistic Evolution'" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/6yr3](https://doi.org/10.54739/6yr3)
+
+Stephen C. Meyer. "Do Christians Need to Reconcile Evolutionary Theory and Doctrines of Divine Providence and Creation?" in  _The 71st Annual Meeting of the Evangelical Theological Society_, 2019. [https://doi.org/10.54739/aa4w](https://doi.org/10.54739/aa4w)
 
 S. Joshua Swamidass. The Genealogical Adam and Eve. (Intervarsity Press, 2019).
 
-Peter van Inwagen, reference?
+Peter van Inwagen. _The Problem of Evil_. (New York: Oxford University Press, 2006)
 
 </div>
