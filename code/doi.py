@@ -36,6 +36,6 @@ for rel in sys.argv[1:]:
 
 
 OUT = json.dumps(DOI, sort_keys=True, indent=4)
-print(OUT)
+## print(OUT)
 
 print(OUT, file=open("data/doi.json", "w"))  

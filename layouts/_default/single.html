@@ -36,7 +36,7 @@
       <header class="article-header mb-5 " style="" id="pageHeader">
         {{ partial "breadcrumbs" .Parent }}
       
-        <h1 id="title" property="title" class="article-title mt-2" {{with .Params.deletiondate}} style="text-decoration: line-through red  0.08em;" {{end}}>
+        <h1 id="title" property="title" class="article-title mt-2" {{with .Params.deletiondate}} style="text-decoration: line-through rgba(255,0,0,0.7)  0.08em;" {{end}}>
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
 

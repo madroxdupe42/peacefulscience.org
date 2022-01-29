@@ -1,0 +1,198 @@
+      
+  
+-def IF(cond)
+  mj-raw ="*|%s|*" % cond
+  =caller.body()
+  
+  -if getattr(caller, "ELSE", None) != None
+    mj-raw | *|ELSE:|*  
+    =caller.ELSE()
+    
+  mj-raw | *|END:IF|*
+
+
+-def INTERESTED(cond)
+  mj-raw ="*|INTERESTED:%s|*" % cond
+  =caller.body()
+  
+  -if getattr(caller, "ELSE", None) != None
+    mj-raw | *|ELSE:|*  
+    =caller.ELSE()
+    
+  mj-raw | *|END:INTERESTED|*
+
+          
+          
+-def header()
+  mj-section (background-size="cover" background-url="https://8l2ic7fx.cdn.imgeng.in/img/design/green-hex.png" background-color="#020" padding="20px 0 20px 0"  full-width="full-width")
+    mj-column 
+      mj-image (align="center" width="420px" href="https://peacefulscience.org/" alt="Peaceful Science"
+       src="https://8l2ic7fx.cdn.imgeng.in/img/design/PS-logo-long-white.png?w=696&nf_resize=fit")
+
+
+
+
+-def section_header(text, color='#000')
+      mj-text  padding-bottom="0px" padding-top="0px"
+        h4.section-header style="background:${color}"
+            = text
+      mj-divider border-color=color  padding-bottom="0px" padding-top="0px" border-width="2px"
+
+-def render_wp_style1(articles)
+  -for article in articles
+    mj-section padding="15px 20px 10px 20px" 
+      mj-column  padding="5px 5px 0px 5px"
+        
+          mj-image (href=article["link"] align="left" width="300px" padding="0px 0px 5px 0px" src=${article["featured_image"]+"?resize=320%2C180&ssl=1"}
+            border-radius="5px"  )
+
+      mj-column padding="0px"
+        mj-text padding="0px"
+          p style='padding:0 0 4px 0'
+            a.article-title  href=article["link"] = article["title"]
+          div 
+            span.article-author = article["author"]["name"]
+            span.article-date = article["date"]
+          p
+            span.article-excerpt = article["excerpt"]
+          
+          -for tag in article["tags"]
+            span.article-tag = tag["name"]
+
+
+-def render_hugo_style1(articles)
+  mj-section padding="0px 25px 0px 25px" 
+    -for article in articles
+      mj-column padding="0px 0px 0px 0px" width="35%"
+        
+          mj-image (href=article["permalink"] align="left" padding="10px 10px 5px 0px" src=${article["image"]+"?w=320&h=180&nf_resize=smartcrop"}
+            border-radius="5px"  )
+
+      mj-column padding="0px" width="65%"
+        mj-text padding="0px"
+          p style='padding:0 0 4px 0'
+            a.article-title  href=article["permalink"] = article["title"]
+          div 
+            span.article-author == article["authors"][0] + ("" if len(article["authors"]) < 2 else ", <i>et al.</i>")
+            span.article-date = article["publishdate"]
+          p
+            span.article-excerpt = article["description"]
+          
+-def render_links1(links)
+  mj-text
+    -for link in links 
+      div style="padding-bottom: 20px"
+       a.article-title href=link["link"] =  link["title"]
+       span.article-author = link["source"]
+       span.article-date = link["date"]
+             
+  
+  
+-def HEADER()
+  mj-head 
+    mj-style 
+      |  .mybutton td a {background-color: white !important; color: black !important; font-family: AlverataSb,Arial,Sans-Serif !important}
+      |  a {text-decoration: none; color:#060}
+      |  .dark div {color: white !important}
+      |  .dark a {color: #eee !important; text-decoration: underline}
+      |  a.author {color: #060 !important}
+      |  a:hover {text-decoration: underline}
+      |  blockquote {border-left:  2px solid gray; padding-left: 0.5em; margin-left: 0.5em;}
+      |  .mytable {line-height: unset}
+      |  .article-title {font-family: AlverataSb,Arial,Sans-Serif;
+      |     font-size:14px;line-height:1.2;padding-right:5px; font-weight: bold;}
+      |  .article-date {color: #999; padding-left: 5px}
+      |  .article-excerpt {font-family: Arial; color: #444; line-height: 1.2}
+      |  .article-tag {font-family: AlverataSb,Arial; text-decoration:none; 
+      |    color: white; background: rgba(0,0,0,.3); 
+      |    padding: 4px; margin:0px 4px 4px 0px; display:inline-block;
+      |    font-size: 11px}
+      |  h1,h2,h3,h4,h5 {font-family: AlverataSb,Arial,Sans-Serif}
+      |  .section-header {color:white;font-size:14px;margin:0px;padding:5px 5px 3px 5px; display: inline-block;}
+      |   @font-face {font-family: AlverataSb; src: url(https://peacefulscience.org/font/alveratasb-webfont.woff2); format('woff2'); } 
+      
+   
+   
+-def ARTICLES()
+   -if articles
+      mj-section padding-bottom="0px" padding-top="40px" 
+        mj-column  
+          =section_header(heading)
+      =render_hugo_style1(articles)
+      mj-section
+        mj-column
+          mj-spacer height="40px"
+
+
+-def ADVISORY()
+      -call cond="ADVISORY:Member,Invited,Unknown" self:INTERESTED
+        mj-section background-color="#242" full-width="full-width"
+          mj-column 
+            mj-text  css-class="dark"
+              h1 align="center" Advisory Council
+            mj-button css-class="mybutton" href="https://us19.list-manage.com/survey?u=3b4602126e38b8a5951fd6fd1&id=3982808b05&e=*|UNIQID|*" | Take the Survey            
+            mj-text   css-class="dark"
+          mj-column
+            mj-text css-class="dark"
+              p
+                You are seeing this section because you are part of (or were invited to) our Advisory Council. In the meantime, please respond to this brief survey.
+
+-def UPDATE()
+      -call cond="IFNOT:ADDRESS" self:IF
+        mj-section background-color="#444" full-width="full-width"
+          mj-column 
+            mj-text css-class="dark"          
+              Please update your profile to help us serve you better.
+          mj-column
+            mj-button css-class="mybutton" href="*|UPDATE_PROFILE|*" | Update  Profile
+
+           
+-def LINKS()
+  -if links
+      mj-section padding-bottom="50px" padding-top="40px"  background-color="#fff" full-width="full-width"    
+        mj-column 
+          =section_header("Videos and Articles Across the Web")
+          =render_links1(links )
+          
+-def PATREON()
+            -md
+             \*|IF:PATREON>0|\*
+               **Thank you** for supporting our work as one of our patrons 
+               [($\*|PATREON|\* per month).](https://www.patreon.com/peacefulscience)
+               I am very grateful to you.
+             \*|ELSE:|\*
+               **Would you [become one of our patrons?](https://www.patreon.com/peacefulscience)** 
+               Access exclusive benefits and support our mission for $1, $5, or $10 per month.                        
+             \*|END:IF|\*
+             
+
+mjml
+  =HEADER()
+  mj-body background-color="#f1f1f1"
+      =header()
+      mj-section padding="0px" background-color="black" full-width="full-width"
+        mj-column padding="0px"
+          mj-text  align="center" color="white"
+            h2 style="{line-height: 1em;}"= '{dt:%B} {dt.day}, {dt.year}'.format(dt=date) 
+
+      mj-section
+        mj-column
+          mj-text
+            == HTML             
+
+      =ARTICLES() 
+     
+      =LINKS()
+      
+      mj-section full-width="full-width" background-color="#dfdfdf"
+        mj-column    
+          mj-text
+            =PATREON()       
+
+    mj-section full-width="full-width" background-color="#333"
+      mj-column 
+        mj-text align="center"  css-class="dark" 
+          p 
+            | *|LIST:DESCRIPTION|* <br /><br />
+            
+            | *|HTML:LIST_ADDRESS_HTML|* <a href="*|UNSUB|*">Unsubscribe</a> *|EMAIL|* from this list. | <a href="*|FORWARD|*">Forward</a> this email to a friend | <a href="*|UPDATE_PROFILE|*">Update your profile</a>

@@ -1,0 +1,1 @@
+HUGO_LINKS=1 hugo -F | grep LINK | awk '{print $6}' | sort | uniq -c | sort -k1n
