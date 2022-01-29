@@ -23,7 +23,8 @@
   {{- $sizes = "160px" }}
 {{- end -}}
 
-<article {{with .CStyle }}style="{{ . | safeCSS }}"{{ end }} {{with .Id }}id="{{ . }}"{{ end }} class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
+<article {{with .CStyle }}style="{{ . | safeCSS }}"{{ end }} {{with .Id }}id="{{ . }}"{{ end }} 
+  class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
 
 {{ $rendered := false }}
 
@@ -52,7 +53,8 @@
 
 <header>
 
-    <a class="title d-block" property="title"  href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
+    <a class="title d-block" property="title" {{with $page.Params.deletiondate}} style="text-decoration: line-through rgba(255,0,0,0.7)    0.08em;" {{end}}
+       href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
 {{ if in .Elements "authors" -}}
     <span class="text-smaller pr-2 text-muted">
