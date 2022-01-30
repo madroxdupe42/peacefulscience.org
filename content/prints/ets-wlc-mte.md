@@ -61,7 +61,7 @@ This fact became clear to me in the course of my preparation for my debate with 
 
 Alvin Plantinga has made this same point in his book, _Where the Conflict Really Lies_.[^9] Plantinga chastises scientists who have recklessly asserted that according to evolutionary biology the evolutionary process is undirected or purposeless. Such claims are not, he says, properly part of the biological theory itself but are a philosophical add-on, an extrascientific assertion. In support, Plantinga quotes the eminent evolutionary biologist Ernst Mayr, who wrote: "When it is said that mutation or variation is random, the statement simply means that there is no correlation between the production of new genotypes and the adaptational needs of an organism in a given environment."[^10] This is the same definition given by Ayala.
 
-[^9]: Alvin Plantinga, _Where the Conflict Really Lies_ (New York: Oxford University Press, 2011).
+[^9]: Plantinga, Alvin _Where the Conflict Really Lies_ (New York: Oxford University Press, 2011).
 [^10]: Mayr, quoted in Plantinga, _Where the Conflict Really Lies_, 11.
 
 {{< amazon `0199812098` >}}
@@ -97,8 +97,8 @@ This leaves me confused as to the degree of miraculous activity mere theistic ev
 
 The third doctrinal commitment concerns the viability of natural theology. Murray and Churchill point out that the resources for a robust natural theology are much broader than the development of biological complexity. In my own work I have defended at least six arguments for the existence of God, none of which appeals to biological complexity as a basis for inferring God's existence.[^16] Indeed, the cutting edge of design arguments these days concerns the fine-tuning of the fundamental constants and quantities of nature which must be in place before the origin of life and the evolution of biological complexity can even take place.[^17] Theistic evolutionists can be strong proponents of arguments for an intelligent designer of the cosmos based on fine tuning.
 
-[^16]: See William Lane Craig and J. P. Moreland, eds., _Philosophical Foundations for a Christian Worldview_, 2nd ed. (Downers Grove, IL: InterVarsity, 2017), chaps. 25–6; and "Is There Evidence for God?," https://www.youtube.com/watch?v=8KMd_eS2J7o
-[^17]: Robin Collins, "The Teleological Argument: An Exploration of the Fine Tuning of the Universe," in [_The Blackwell Companion to Natural Theology_](/books/blackwell-companion-natural-theology/), ed. William Lane Craig and J. P. Moreland (Oxford: Wiley-Blackwell, 2009), 202–81; Geraint F. Lewis and Luke A. Barnes, [_A Fortunate Universe: Life in a Finely Tuned Cosmos_](/books/fortunate-universe/) (New York: Cambridge University Press, 2016).
+[^16]: See Craig, William Lane and Moreland, J. P., eds., _Philosophical Foundations for a Christian Worldview_, 2nd ed. (Downers Grove, IL: InterVarsity, 2017), chaps. 25–6; and "Is There Evidence for God?," https://www.youtube.com/watch?v=8KMd_eS2J7o
+[^17]: Collins, Robin "The Teleological Argument: An Exploration of the Fine Tuning of the Universe," in [_The Blackwell Companion to Natural Theology_](/books/blackwell-companion-natural-theology/), ed. William Lane Craig and J. P. Moreland (Oxford: Wiley-Blackwell, 2009), 202–81; Lewis, Geraint F. and Barnes, Luke A. [_A Fortunate Universe: Life in a Finely Tuned Cosmos_](/books/fortunate-universe/) (New York: Cambridge University Press, 2016).
 
 {{< amazon `1405176571` >}}
 
