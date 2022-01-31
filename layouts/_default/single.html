@@ -177,7 +177,7 @@
             target="_blank"
             class="py-1 text-decoration-none d-inline"
           >
-{{ with .Date }} published   <br>
+{{ with .Date }} created   <br>
 online  <br> {{ end }}
 modified <br>
 accessed
@@ -192,6 +192,7 @@ accessed
 {{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
 {{ $lastmod.Format "Jan 2, 2006" }} <br>
 {{ now.Format "Jan 2, 2006" }}
+
 </div>
 </div>
   
@@ -253,19 +254,26 @@ accessed
 
 <div class="ml-5 mt-5" style="display: flex; ; font-size: smaller;">
 <div style=" text-align: right;  padding-right: 0.5rem;">
+
+{{with .Params.deletiondate }}
+   <span style="color: red"> deleted</span><br>
+{{ end }}
  <a
             href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="py-1 text-decoration-none d-inline"
           >
-{{ with .Date }} published   <br>
+{{ with .Date }} created   <br>
 online  <br> {{ end }}
 modified <br>
 accessed
+
 </a>
 </div><div  style="">
-
+{{with .Params.deletiondate }}
+  {{ time.Format "Jan 2, 2006" . }}  <br>
+{{ end }}
 {{ $lastmod := .Lastmod }}
 {{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
   {{ $lastmod = .Date }}
@@ -274,6 +282,7 @@ accessed
 {{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
 {{ $lastmod.Format "Jan 2, 2006" }} <br>
 {{ now.Format "Jan 2, 2006" }}
+
 </div>
 </div>
 
@@ -408,6 +417,26 @@ accessed
   
 <script render remove>
 var toplevel = document.querySelectorAll(".article-text > *");
+
+
+if (toplevel !== null ) {
+	for (var child of toplevel) {
+		if (child.classList.contains('editor-note')) {
+			continue;
+		}
+		
+		if (child.tagName === 'P') {
+			child.classList.add("dropcap")
+			break;
+		}
+		if (child.tagName === 'H2') {
+			break;
+		}
+		
+	}
+
+}
+
 
 var footnotes = document.querySelector(".footnotes");
 

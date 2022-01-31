@@ -325,7 +325,7 @@ p {
   orphans: 2;
 }
 
-.article-text > p:not(.editor-note):first-of-type::first-letter,
+
 .dropcap::first-letter {
   font-family: AlverataSb;
 
@@ -337,7 +337,6 @@ p {
 }
 
 
-.article-text > p:not(.editor-note):first-of-type,
 .dropcap {
 text-indent: -1rem;
 }
@@ -404,13 +403,15 @@ text-indent: -1rem;
 <div style="font-size: 16px;">
 <span class="font-special" style="padding-right: 0.5rem; border-right: solid white 1px">
  Peaceful Science</span><span 
- class="" style="padding-left: 0.5rem; flex-grow: 1; font-weight: 300; ">{{.Section | title }}
+ class="" style="padding-left: 0.5rem; flex-grow: 1; font-weight: 300; ">{{.Parent.LinkTitle | title }}
 </span>
 </div>
 <div style="flex-grow: 3">
 </div>
 <div style="font-size: 8px; text-align: right;">
-
+{{with .Params.deletiondate }}
+{{ time.Format "Jan 2, 2006" . }} <br>
+{{ end }}
 {{ $lastmod := .Lastmod }}
 {{ if gt  .PublishDate.Unix  .Lastmod.Unix }}
   {{ $lastmod = .Date }}
@@ -418,14 +419,16 @@ text-indent: -1rem;
 {{ $.Date.Format "Jan 2, 2006" }} <br>
 {{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
 {{ $lastmod.Format "Jan 2, 2006" }} <br>
-{{ now.Format "Jan 2, 2006" }}
 </div>
 
 <div style="font-size: 8px; text-align: left;  padding-left: 0.5rem;">
-{{ with .Date }} published   <br>
+{{with .Params.deletiondate }}
+   <span style="font-weight: bold"> deleted</span><br>
+{{ end }}
+
+{{ with .Date }} created   <br>
 online  <br> {{ end }}
-last modified <br>
-accessed
+last modified 
 </div>
 <div style="flex-grow: 1"></div>
 </div>
@@ -527,8 +530,23 @@ footnotes.classList.add("d-none");
     } 
 }};
 
+if (toplevel !== null ) {
+	for (var child of toplevel) {
+		if (child.classList.contains('editor-note')) {
+			continue;
+		}
+		
+		if (child.tagName === 'P') {
+			child.classList.add("dropcap")
+			break;
+		}
+		if (child.tagName === 'H2') {
+			break;
+		}
+		
+	}
 
-
+}
 
 var fc = document.querySelectorAll("figcaption");
 
