@@ -12,6 +12,7 @@ description: In the conversation between theology and science, digital dialogue 
 headerimage:
   src: /img/2018/08/ipad-book.png
 title: The Perils of Digital Dialogue
+series: publishing-practices
 ---
 
 In [his response to *The* *Genealogical Adam* at the Dabar Conference](https://peacefulscience.org/wp-content/uploads/2018/07/collins_swamidass_dabar.pdf), Jack Collins cited [an insightful blog](http://potiphar.jongarvey.co.uk/2012/05/17/irenaeus-and-others-on-original-sin/) by Jon Garvey on Original Sin, as if it was a journal article. I have been wondering about the significance of this footnote citation for two months.

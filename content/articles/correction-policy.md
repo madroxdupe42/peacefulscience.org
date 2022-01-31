@@ -12,6 +12,7 @@ description: We adopted an error correction policy that commits us to correcting
 headerimage:
   src: /img/2019/08/mistake-968334_1920.jpg
 title: Error Correction Policy
+series: publishing-practices
 ---
 
 In 2020, a committee was formed to establish error correction policies for Peaceful Science. This committee was chaired by Stephen Matheson, the chief editor of [Cell Reports](https://www.cell.com/cell-reports/home), and included [Jordan Mantha](https://www.mnu.edu/academics/faculty/jordan-mantha) and [Curtis Henderson](https://hbu.edu/contact/curtis-henderson/) as members. The committee [invited public comment](https://discourse.peacefulscience.org/t/request-for-comment-publication-ethics-for-peaceful-science/12215) to inform their recommendations. In January 2021, the committee returned this report, which we adopted as our policy. We invite comment on this policy, and expect it to be refined in the coming years. The full history of revisions is available [online](https://github.com/PeacefulScience/policy/blob/main/error_correction.md).
