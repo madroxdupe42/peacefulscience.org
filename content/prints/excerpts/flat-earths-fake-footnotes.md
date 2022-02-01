@@ -27,7 +27,9 @@ Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Eart
 > Some people still thought the world was flat!\
 > Can you even image that?
 
---A traditional children's poem
+<div>
+–A traditional children's poem
+</div>
 
 Most of us will remember quite vividly the first representation of Christopher Columbus that we were taught; like the glimmering icons of the Orthodox Church, his portrait was given to us less a man, and more an ideal. He was a thin veil through which a portentous light of Enlightenment found quite early access to key into the world. Against the stubbornness of a backwards society, Columbus was a man, so it was said, singularly convinced of the world's rotundity, and to settle this geometric bet he set sail. Behind his lambent form was the pitch abyss of a thousand years of medievalism, ignorant or deceived by the priests' wooden reading of "the four corners of the world" in scripture. It was from this morass that Columbus strode forward resolute, now tinged with the sort of heroic loneliness American mythology devours. "If no one ever challenged the status quo, the earth would still be flat" as a 2013 Infiniti car commercial put it---making it sound like Columbus literally remolded the earth into a sphere, despite popular taste preferring to take their planets flat, thank you very much. It was a breathtaking tale; both because of his resolution in the face of such apparently astounding religious ignorance, and because no doubt at least a few of our young minds fascinated upon the uncanny image of a horizon line of waters churning over that last, vital edge. 
 {.dropcap}
@@ -124,7 +126,19 @@ Now admittedly, that last bit about getting stuck at the bottom of the world wil
 
 ## References
 
+Principe, Lawrence M. "Transmuting History." _Isis_ 98 no.4 (2007): 779-87.
+
 Keas, Michael Newton. _Unbelievable: 7 Myths About the History and Future of Science and Religion_. (Delaware: ISI Books, 2019).
+
+Gleiser, Marcelo. _The Dancing Universe: From Creation Myths to the Big Bang_ (New York: Plume, 1998).
+
+Ferris, Timothy. _Coming of Age in the Milky Way_ (New York: William Morrow & Co, 1988).
+
+Kinnamin, David and Lyons, Gabe. _unChristian: What a New Generation Really Thinks about Christianity ... and Why It Matters_ (Ada: Baker Books, 2007).
+
+Bidna, David B. _We the People: A History of the United States_ (Lexington: D.C. Heath and Company, 1977).
+
+Schreiber, Joan E. _America Past and Present_ (Northbrook: Scott Foresman, 1986).
 
 Garwood, Christine. _Flat Earth: The History of an Infamous Idea_ (New York: Thomas Dunne, 2007).
 
@@ -134,8 +148,28 @@ Russell, Jeffrey Burton. _Inventing the Flat Earth: Columbus and Modern Historia
 
 Lewis, C.S. _The Discarded Image: An Introduction to Medieval and Renaissance Literature_. (Cambridge: Cambridge University Press, 2012).
 
+Calder III, William M. "The Spherical Earth in Plato's Phaedo." _Phronesis_ 3 no2. (1958):121-125.
+
+Augustine. [_De Genesi Ad Litteram_](https://www.worldcat.org/title/sancti-aureli-avgustini-de-genesi-ad-litteram-libri-duodecim-eiusdem-libri-capitula/oclc/190826981). 1:9–10; 1:19; 1:21; 2:9.
+
+Bede. [_De Natura Rerum_](https://www.worldcat.org/title/de-natura-rerum/oclc/847572172). ch. 3, 5, 6–10
+
+Aquinas, Thomas. [_Summa Theologia_](https://www.worldcat.org/title/summa-theologica-of-st-thomas-aquinas/oclc/732887658). Ia.q.68.a2.
+
 Hannam, James. _The Genesis of Science: How the Christian Middle Ages Launched the Scientific Revolution_ (Washington, D.C.: Regnery Publishing, 2011).
 
+Walton, John H. _Ancient Near Eastern Thought and The Old Testament_ (Ada: Baker Academic, 2006).
+
+Aristotle. [_Metaphysica_](https://www.worldcat.org/title/metaphysica/oclc/1200103235). 983 b20–28.
+
+Aristotle. [_De Caelo_](https://www.worldcat.org/title/de-caelo/oclc/1147886430). 293 b33–294 a1; 294 a28–30; 294 b14–15.
+
+Herodotus. [_The Histories_](https://www.worldcat.org/title/herodotus-the-histories/oclc/951420107). II.156.
+
+Cicero, Marcus Tullius. [_Republic_](https://www.worldcat.org/title/republic/oclc/1101331354). I.XIII.22.
+
 Holt-Jenson, A. _Geography: Its History and Concepts – A Student’s Guide_, 2nd Ed. (London, 1988).
+
+Colon, Fernando. _The Life of the Admiral Christopher Columbus by His Son Ferdinand_ (New Brunswick: Rutgers University Press, 1959).
 
 </div>

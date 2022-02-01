@@ -119,6 +119,10 @@ The pairing of the falsehoods Christians teach---that of the flat earth, and the
 
 Garwood, Christine. _Flat Earth: The History of an Infamous Idea_ (New York: Thomas Dunne, 2007).
 
+Bacon, Francis. [_The New Organon_](https://www.worldcat.org/title/new-organon/oclc/1274239853). 87, section 89.
+
+Turner, Frank M. "The Victorian Conflict between Science and Religion: A Professional Dimension." _Isis_ 69 no.3 (1978): 356-376.
+
 Secord, James A. _Victorian Sensation: The Extraordinary Publication, Reception, and Secret Authorship of Vestiges of the Natural History of Creation_ (Chicago: University of Chicago Press, 2000).
 
 Josephson-Storm, Jason Ã. _The Myth of Disenchantment: Magic, Modernity, and the Birth of the Human Sciences_ (Chicago: University of Chicago Press, 2017).
@@ -133,6 +137,8 @@ Cohen, H. Floris _The Scientific Revolution: A Historiographical Inquiry_. (Chic
 
 Russell, Jeffrey Burton. _Inventing the Flat Earth: Columbus and Modern Historians_. (Connecticut: Prager Publishers, 1997).
 
+Whewell, William. _History of the Inductive Sciences: From the Earliest to the Present Time_ (New York: Palala Press, 2015).
+
 Morgan, Luke. _The Monster in the Garden: The Grotesque and the Gigantic in Renaissance Landscape Design_ (Pennsylvania: University of Pennsylvania Press, 2016).
 
 Davis, Kathleen. "The Sense of an Epoch: Periodization, Sovereignty, and the Limits of Secularization," in Andrew Cole and D. Vance Smith, _The Legitimacy of the Middle Ages_ (Cambridge: Duke University Press, 2010): 39-69.
@@ -141,9 +147,19 @@ Bildhauer, Bettina and Mills, Robert. Eds. _The Monstrous Middle Ages_. (Toronto
 
 Butterfield, Herbert. _The Whig Interpretation of History_ (New York: W.W. Norton and Company, 1965).
 
+Parry, Robin A. _The Biblical Cosmos: A Pilgrim's Guide to the Weird and Wonderful World of the Bible_ (Eugene: Wipf and Stock, 2014).
+
+Boccaletti, Dino. _The Waters Above the Firmament: An Exemplary Case of Faith-Reason Conflict_ (New York: Springer, 2020).
+
 Brown, Andrew. _The Days of Creation: A History of Christian Interpretation of Genesis 1:1-2:3_. (Dorset, UK: Deo Publishing, 2014).
 
+Bouteneff, Peter C. _Beginnings: Ancient Christian Readings of the Biblical Creation Narratives_ (Ada: Baker Academic, 2008).
+
 Worthen, Molly. _Apostles of Reason: The Crisis of Authority in American Evangelicalism_. (Oxford: Oxford University Press, 2016).
+
+Gloege, Timothy. _Guaranteed Pure: The Moody Bible Institute, Business, and the Making of Modern Evangelicalism_ (Chapel Hill: University of North Carolina Press, 2015).
+
+Livingstone, David N. _Adam's Ancestors: Race, Religion, and the Politics of Human Origins_ (Baltimore: Johns Hopkins University Press, 2008)
 
 Keas, Michael Newton. _Unbelievable: 7 Myths About the History and Future of Science and Religion_. (Delaware: ISI Books, 2019).
 

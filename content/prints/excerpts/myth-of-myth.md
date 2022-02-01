@@ -81,11 +81,17 @@ Even stranger, the sparse instances of the flat earth, the strange nature of the
 
 Russell, Jeffrey Burton. _Inventing the Flat Earth: Columbus and Modern Historians_. (Connecticut: Prager Publishers, 1997).
 
+Irving, Washington. _History of the Life and Voyages of Christopher Columbus_ (Sydney: Wentworth Press, 2019).
+
+Louth, Andrew. _Greek East And Latin West: The Church AD 681-1071_ (Yonkers: St. Vladimir's Seminary Press, 2007).
+
 Cormack, Lesley B. "Flat Earth or Round Sphere: Misconceptions of the Shape of the Earth and the Fifteenth-Century Transformation of the World." _Ecumene_ 1 (1994): 363–85.
 
 White, Andrew Dickson. _A History of the Warfare of Science With Theology in Christendom_ 2 vols. (New York: D. Appleton and Company, 1896).
 
 Draper, John William. _History of the Conflict Between Religion and Science_. (London: Henry S. King & Co. 1875).
+
+Gould, Stephen Jay. "Late Birth of the Flat Earth" in _Dinosaur in a Haystack: Reflections in Natural History_ (New York: Harmony, 1995).
 
 Youngson, R. _Scientific Blunders_ (New York: Carrol and Graff, 1998).
 
