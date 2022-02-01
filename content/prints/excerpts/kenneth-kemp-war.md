@@ -7,11 +7,14 @@ categories:
 - history
 - science
 - theology
+partof:
+- /books/war-never-was
 commenturl: "http://discourse.peacefulscience.org/t/kenneth-kemp-the-war-that-never-was/12288"
-date: "2020-10-29T03:33:46"
+publishdate: "2020-10-29T03:33:46"
+date: 2020-05-29
 description: In his book, The War that Never Was, Kenneth Kemp unpacks the historical misconception that science and faith are inherently at odds.
 headerimage:
-  src: /img/2020/10/toy-1551383_1920.jpg
+  src: /img/2022/02/war-never-was.png
 title: The War That Never Was
 ---
 
@@ -44,9 +47,14 @@ Sometimes, to be sure, the source of the problem is the unreflective conservatis
 The use of the Warfare Thesis as a lens through which to view the relation between science and theology or religion invites its adherents to see as confirmations of the thesis incidents that are not that at all. It does not bring the history of science (or the nature of theology or religion) into focus. Indeed it often distorts each of these subjects. One can only hope that it will soon cease to be a theme in popular intellectual culture. 
 
 
+## References
+
+Kenneth W. Kemp. [The War That Never Was](/books/war-never-was), 2020. 
+
+
 <div class="editor-note">
 
 
-Used with permission from Wipf and Stock Publishers: [www.wipfandstock.com](http://www.wipfandstock.com/). The feature image is from [Pixabay](https://pixabay.com/photos/toy-soldier-plastic-action-war-1551383/).
+Used with permission from  [Wipf and Stock Publishers](http://www.wipfandstock.com/). The feature image's background is from [Pixabay](https://pixabay.com/photos/toy-soldier-plastic-action-war-1551383/).
 
 </div>
