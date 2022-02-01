@@ -1,6 +1,7 @@
 ---
 aliases:
 - /kenneth-kemp-war/
+- /articles/kenneth-kemp-war/
 authors:
 - kkemp
 categories:
