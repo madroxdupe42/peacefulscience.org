@@ -2055,6 +2055,10 @@
         "height": 1350,
         "width": 2400
     },
+    "/img/2022/01/biologos-delete.png": {
+        "height": 1350,
+        "width": 2400
+    },
     "/img/2022/01/cmb.jpg": {
         "height": 800,
         "width": 800
@@ -2070,6 +2074,22 @@
     "/img/2022/01/einstein_lemaitre.png": {
         "height": 578,
         "width": 476
+    },
+    "/img/2022/01/ets-mte-mccall.png": {
+        "height": 1350,
+        "width": 2400
+    },
+    "/img/2022/01/ets-mte-meyers.png": {
+        "height": 1350,
+        "width": 2400
+    },
+    "/img/2022/01/ets-mte-murray.png": {
+        "height": 1350,
+        "width": 2400
+    },
+    "/img/2022/01/ets-mte-wlc.png": {
+        "height": 1350,
+        "width": 2400
     },
     "/img/2022/01/ets-mte.png": {
         "height": 1350,
@@ -2090,6 +2110,10 @@
     "/img/2022/02/hereford-map.jpg": {
         "height": 2591,
         "width": 4606
+    },
+    "/img/2022/02/worlds-edge-cover.png": {
+        "height": 1350,
+        "width": 2400
     },
     "/img/2022/02/worlds-edge.jpg": {
         "height": 853,
@@ -2142,6 +2166,10 @@
     "/img/design/wood-chair-transparent.png": {
         "height": 2000,
         "width": 2000
+    },
+    "/img/web/bible_project.png": {
+        "height": 1441,
+        "width": 1441
     },
     "/img/web/foxnews.png": {
         "height": 2160,
