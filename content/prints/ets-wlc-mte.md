@@ -5,7 +5,7 @@ sameas:
 - https://doi.org/10.5840/pc20202214
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
 headerimage:
-  src: /img/2022/01/ets-mte.png
+  src: /img/2022/01/ets-mte-wlc.png
 authors:
 - wlc
 publishdate: 2022-03-08
