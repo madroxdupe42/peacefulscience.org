@@ -56,13 +56,13 @@
         {{- if eq "main" $headerpos -}}
           <div class="pb-2">
             {{- with .Params.headerImage }}
-
+              {{- $startsec := .startsec | default 0 }}
               {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
               {{- $cdnsrc := partial `imgcdn` $src  }}
               {{- $headerclass := "" }}
               {{- with .youtube }}
                  <div class="">
-                {{ partial `youtube` (dict  "Youtube" . "Image" $cdnsrc "Lazy" false "Sizes" "(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px" ) }}
+                {{ partial `youtube` (dict  "Youtube" . "Image" $cdnsrc "Lazy" false `StartSec` $startsec "Sizes" "(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px" ) }}
                 </div>
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              

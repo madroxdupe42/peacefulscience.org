@@ -1,6 +1,7 @@
 
 {{- $page := .Page -}}
 {{ $height := 90 }}
+{{ $startsec := $page.Params.Headerimage.Startsec | default 0 }}
 {{ $width := 160 }}
 {{ $sizes := .Sizes | default nil }}
 
@@ -34,7 +35,7 @@
 
 {{ with $page.Params.Headerimage.Youtube }}
 
-  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `Class` $imageclass   `Style` $imagestyle `Sizes` $sizes ) }}
+  {{ partial `youtube` (dict `Image` ($src | partial `imgcdn` ) `Link` $page.Permalink `Youtube` . `StartSec`  $startsec `Class` $imageclass   `Style` $imagestyle `Sizes` $sizes ) }}
   {{ $rendered = true }}
 
 {{ end }}

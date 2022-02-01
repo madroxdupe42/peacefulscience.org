@@ -5,13 +5,13 @@ import YouTubePlayer from 'youtube-player';
 var player = false;
 
 
-window.PlayVideo = function (yid) {
+window.PlayVideo = function (yid, startsec = 0) {
 	player = player || YouTubePlayer('video-frame', {playerVars: {modestbranding: 1, playsinline: 1, origin: "https://peacefulscience.org", widget_referrer: window.location}});
 	var video_frame = document.getElementById('video-container');
 	var currentID = document.getElementById('video-id');	
 	video_frame.classList.add("active");
 	video_frame.classList.remove("shrink");
-	player.cueVideoById(yid);
+	player.cueVideoById(yid, startsec);
     currentID.innerHTML = yid;
 }
 
@@ -30,7 +30,7 @@ window.UnshrinkVideo = function () {
 
 
 
-window.PolitePlayVideo = function (yid) {
+window.PolitePlayVideo = function (yid, startsec = 0) {
 /* State of the player. Possible values are:
 -1 – unstarted
 0 – ended
@@ -38,10 +38,10 @@ window.PolitePlayVideo = function (yid) {
 2 – paused
 3 – buffering
 5 – video cued */
-  if (player === false) {window.PlayVideo(yid); return};
+  if (player === false) {window.PlayVideo(yid, startsec); return};
 
   var state = player.getPlayerState();
   if (player === false || state === -1 || state === 0 )
-	window.PlayVideo(yid);
+	window.PlayVideo(yid, startsec);
 }
 
