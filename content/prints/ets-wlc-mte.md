@@ -6,6 +6,8 @@ sameas:
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
 headerimage:
   src: /img/2022/01/ets-mte-wlc.png
+  youtube: SIWvDg5Ag9g
+  startsec: 2100
 authors:
 - wlc
 publishdate: 2022-03-08

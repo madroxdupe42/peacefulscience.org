@@ -6,6 +6,8 @@ sameas:
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0073_0079
 headerimage:
   src: /img/2022/01/ets-mte-murray.png
+  youtube: SIWvDg5Ag9g
+  startsec: 7515
 authors:
 - Michael Murray
 - John Ross Churchill
