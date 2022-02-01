@@ -12,11 +12,10 @@ partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
 headerimage:
-  src: /img/2022/02/worlds-edge.jpg
-  credit: Image by [JooJoo41](https://pixabay.com/photos/flat-earth-world-s-edge-1054350/)
+  src: /img/2022/02/worlds-edge-cover.png
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.
-{.editor-note}
+{.editor-note .aside-xl-right}
 
 > In fourteen hundred and ninety–two,\
 > Columbus sailed the ocean blue.\
