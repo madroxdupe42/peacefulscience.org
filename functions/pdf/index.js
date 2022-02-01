@@ -56,7 +56,7 @@ async function handler(event, context) {
     let url = urljoin(baseurl, "_prince", path.join("/"));
     let canurl = urljoin(baseurl, path.join("/"));
     let title = path.slice(-1)[0];
-    let section = path.slice(-2)[0];
+    let section = path.slice(route.indexOf("pdf")+1)[0];
     let name = `${title}.pdf`
     let req_etags = [];
     
