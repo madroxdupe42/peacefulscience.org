@@ -1,10 +1,18 @@
 # Netlify redirects
 
 # From aliases frontmatter
-{{ range $p := site.Pages -}}
-  {{- range .Aliases -}}
-{{ . }} {{ $p.RelPermalink }}
-{{ end -}}
+{{ range site.Pages -}}
+  {{- $aliases := .Aliases -}}
+  {{- $target := .RelPermalink }}
+  {{- range $aliases }}
+{{ . }} {{ $target }}
+  {{- end -}}
+  {{- with partial "getpdf" . -}}
+    {{- $pdf := . -}}
+    {{- range $aliases }}
+{{ printf "/pdf%s.pdf" ( replaceRE `\/$` `` .) }} {{ $pdf }}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 
 # from redirects partial
