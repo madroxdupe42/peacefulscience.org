@@ -20,13 +20,13 @@ Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Eart
 
 > _Imagine a map of our present ... what's the shape of the existential terrain in which we find ourselves in late modernity? Where are the valleys of despair and mountains of bliss, the pitfalls and dead ends? What are the sites of malaise and regions of doubt? Where are the spaces of meaning? Are they hidden in secluded places, or waiting to be discovered in the mundane that is always with us? Where should we look for the 'thin places' that still seem haunted by transcendence? Or have they disappeared, torn up to make way for progress and development? ... Could we imagine an existential map of our secular age that would actually help us to locate ourselves and give us a feel for where we are?_
 
----James K. A. Smith, _How Not To Be Secular_[^28]
+—James K. A. Smith, _How Not To Be Secular_[^28]
 
 [^28]: Smith, _How Not To Be Secular_, 1–2.
 
 > [Eustace] _read only the wrong books. They had a lot to say about exports and imports and governments and drains, but they were weak on dragons._
 
----C.S. Lewis, _The Voyage of the Dawn Treader_[^29]
+—C.S. Lewis, _The Voyage of the Dawn Treader_[^29]
 
 [^29]: Lewis, _The Voyage of the Dawn Treader_, 87.
 
@@ -100,6 +100,16 @@ Bartlett, Robert. _The Natural and the Supernatural in the Middle Ages_. (Cambri
 
 Boorstin, Daniel. _The Discoverers: A History of Man’s Search to Know His World and Himself_. (New York: Vintage Books, 1985).
 
+Eco, Umberto. "The Force of Falsity" in _Serendipities: Language and Lunacy_ (New York: Columbia University Press, 1998).
+
+Tattersall, Jill. "Sphere or Disc? Allusions to the Shape of the Earth in Some Twelfth-Century and Thirteenth-Century Vernacular French Works." _The Modern Language Review_ 76 no.1 (1981): 31-46.
+
+Tolkien, J.R.R. "_Beowulf_: The Monsters and the Critics." _Proceedings of the British Academy_ 22 (1936): 245–295.
+
 Woodward, Daniel. "Reality, Symbolism, Time and Space in Medieval World Maps," _Annals of the Association of American Geographers_ 75 (1985): 510-521.
+
+Johnson, Mark and Lakoff, George. "Conceptual Metaphor in Everyday Language." _The Journal of Philosophy_ 77 no.8 (1980):453-486.
+
+Biddick, Kathleen. _The Shock of Medievalism_ (Durham: Duke University Press Books, 1998).
 
 </div>
