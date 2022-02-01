@@ -28,10 +28,10 @@
   
   
   
-  {{ $prints := first 3 (where $ALL ".Section" "==" "prints") }}
+  {{ $prints := first 9 (where $ALL ".Section" "==" "prints") }}
   {{ $used := $prints }}
   
-  {{ $latest := first 6 (where $ALL ".Section" "==" "articles" | complement $used) }}
+  {{ $latest := first 3 (where $ALL ".Section" "in" (slice "articles" "prints" ) | complement $used) }}
   {{ $used := union $latest $used }}
   
   
@@ -167,10 +167,12 @@
         <div class="row justify-content-center pt-3">
           {{ partial "heading" (dict "Text" "Latest Prints" "Class" "heading-black" "Link" ("/prints/" | absURL)   ) }}
 
-          {{ range $prints }}
+          {{ range first 3 $prints }}
             {{ partial "render" (dict "Page" .  "Hide" "categories" "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}
           {{ end }}
-
+          {{ range after 3 $prints }}
+            {{ partial "render" (dict "Page" .  "Hide" "image categories" "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}
+          {{ end }}
         </div>
       </div>
     </section>    
