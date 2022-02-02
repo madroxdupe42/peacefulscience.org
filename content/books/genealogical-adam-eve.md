@@ -1,6 +1,6 @@
 ---
 aliases:
-- /genealogical-adam-eve/
+- /genealogical-adam-eve
 title: The Genealogical Adam and Eve
 description: The Surprising Science of Universal Ancestry
 authors:
