@@ -9,6 +9,8 @@ amazon:
 - "1532653344"
 isbn:
 - "978-1532653339"
+date: 2017-02-17
+publisher: Cascade Books
 ---
 We are all haunted by histories. They shape our presuppositions and ballast our judgments. In terms of science and religion this means most of us walk about haunted by rumors of a long war. However, there is no such thing as the "history of the conflict of science and Christianity," and this is a book about it. In the last half of the twentieth century a sea change in the history of science and religion occurred, revealing not only that the perception of protracted warfare between religion and science was a curious set of mythologies that had been combined together into a sort of supermyth in need of debunking. It was also seen that this collective mythology arose in the nineteenth and twentieth centuries by historians involved in many sides of the debates over Darwin's discoveries, and from there latched onto the public imagination at large.
 

@@ -12,8 +12,7 @@ partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
 headerimage:
-  src: /img/2022/03/footnote_labyrinths.png
-  credit: Image from [xkcd](https://xkcd.com/1208/) ([CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/))
+  src: /img/2022/02/footnotes-cover.png
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.
 {.editor-note}

@@ -12,7 +12,7 @@ partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
 headerimage:
-  src: /img/2022/03/airship.png
+  src: /img/2022/02/invention-cover.png
   credit: Image by [GDJ](https://pixabay.com/vectors/airship-landscape-dirigible-5171304/)
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.

@@ -12,8 +12,8 @@ partof:
 - /books/flat-earths-fake-footnotes/
 series: flat-earths-fake-footnotes
 headerimage:
-  src: /img/2022/02/hereford-map.jpg
-  credit: Hereford Mappa Mundi ([Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hereford-Karte.jpg))
+  src: /img/2022/02/map-world-cover.png
+  credit: Background image is the Hereford Mappa Mundi ([Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hereford-Karte.jpg))
 ---
 Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Earths-Fake-Footnotes-Christianity/dp/1532653344/) by Derrick Peterson, &copy; 2021 by Wipf and Stock Publishers, Eugene, Oregon. Used by permission. All rights reserved.
 {.editor-note}
