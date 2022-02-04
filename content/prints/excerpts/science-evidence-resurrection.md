@@ -4,7 +4,7 @@ aliases:
 title: Science, Evidence, and the Resurrection
 description: I am often asked by my colleagues about evidence I see for the resurrection. This is how I explain it to them.
 date: 2017-04-16
-publishdate: 2022-02-07
+publishdate: 2022-02-23
 partof:
 - /books/genealogical-adam-eve/
 authors:
@@ -14,10 +14,10 @@ sameas:
 - https://web.archive.org/web/20170916033354/http://www.veritas.org/evidence-easter-scientists-list/
 categories:
 - confession
+- featured
+- resurrection
 headerimage:
   src: /img/2018/03/emptytomb.jpg
-categories:
-- featured
 ---
 
 
