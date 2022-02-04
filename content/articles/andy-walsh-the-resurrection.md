@@ -13,6 +13,7 @@ description: Andy Walsh wonders about Jesus's microbiome and the Resurrection. W
 headerimage:
   src: /img/2020/01/jwp_hs_wal_f-21_f_web.jpg
 title: "An Imaginative Applied Scientist Considers the Resurrection"
+series: scientists-resurrection
 ---
 
 Andy Walsh is the author of *[Faith Across The Multiverse](https://www.amazon.com/Faith-Across-Multiverse-Parables-Science/dp/1683070763?tag=swamidass-20)*, a surprising, playful, and deep book about parables in science. We recommend the book, of course, and are pleased to see this confession from an imaginative computational biologist.

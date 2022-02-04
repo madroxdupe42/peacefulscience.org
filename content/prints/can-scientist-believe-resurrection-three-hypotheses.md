@@ -15,6 +15,7 @@ categories:
 - resurrection
 headerimage:
   src: /img/2022/02/Ian-Hutchinson-photo.jpeg
+series: scientists-resurrection
 ---
 
 

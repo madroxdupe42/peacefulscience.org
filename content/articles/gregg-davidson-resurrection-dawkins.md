@@ -12,6 +12,7 @@ description: For Geologist Gregg Davidson, the words of Richard Dawkins were a g
 headerimage:
   src: /img/2020/04/8-Davidson-scaled.jpg
 title: The Resurrection, With a Little Help from Richard Dawkins
+series: scientists-resurrection
 ---
 
 

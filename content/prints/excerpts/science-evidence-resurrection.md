@@ -18,6 +18,7 @@ categories:
 - resurrection
 headerimage:
   src: /img/2018/03/emptytomb.jpg
+series: scientists-resurrection
 ---
 
 

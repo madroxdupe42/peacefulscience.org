@@ -12,6 +12,7 @@ description: An evolutionary biologist confesses that Jesus rose from the dead. 
 headerimage:
   src: /img/2019/02/zach_2018_crop.jpg
 title: "Resurrection and Reality"
+series: scientists-resurrection
 ---
 
 It is my pleasure to present this confession from Dr. [*Zachary Ardern*](https://zacharyardern.com/), a postdoctoral fellow in evolutionary biology. Ardern studies the evolution of bacteria, hoping to understand more about how novel proteins and functions arise. He muses about [evolution and theology](https://capturingchristianity.com/was-the-genesis-of-humanity-through-evolution/) too.

@@ -13,6 +13,7 @@ description: Sy Garte saw Jesus in a dream. Can a scientist believe a miracle li
 headerimage:
   src: /img/2019/11/garte-book.jpeg
 title: 'Why I Believe in the Resurrection'
+series: scientists-resurrection
 ---
 
 At *Peaceful Science*, we see value in lucid self-disclosures. It is our pleasure to present this confession from Sy Garte, a biologist, who explains how he came to affirm the Resurrection. Dr. Garte's story is expanded in *[The Work of His Hands: A Scientist's Journey from Atheism to Faith](https://www.amazon.com/Works-His-Hands-Scientists-Journey/dp/0825446074)*, released today, and this book is significant for our current moment. As an atheist biology professor, Dr. Garte encountered Jesus in a dream.

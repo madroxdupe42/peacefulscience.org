@@ -12,6 +12,7 @@ description: Read the anthropologist Robert Canfield's confession of the Resurre
 headerimage:
   src: /img/2018/07/afghans.png
 title:  Canfield's Confession to Doubters
+series: scientists-resurrection
 ---
 
 <div class="editor-note">

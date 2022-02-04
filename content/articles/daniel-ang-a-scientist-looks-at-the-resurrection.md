@@ -10,7 +10,7 @@ categories:
 commenturl: "http://discourse.peacefulscience.org/t/daniel-ang-a-scientist-looks-at-the-resurrection/4554"
 date: "2019-02-15T15:00:26"
 description: A physicist confesses that the electron is round and that Jesus rose from the dead. My own faith is informed by the evidence, but it is much more.
-
+series: scientists-resurrection
 headerimage:
   src: /img/2019/02/ang.jpg
 title: "A Scientist Looks at the Resurrection"

@@ -12,6 +12,7 @@ description: "I am a confessing scientist: a scientist in the Church and a Chris
 headerimage:
   src: /img/2018/01/cade_todd.png
 title: Todd Cade's Confession of Hope
+series: scientists-resurrection
 ---
 
 I, [William Todd Cade](https://pt.wustl.edu/faculty-staff/faculty/w-todd-cade-pt-phd/), make a confession. [I am a confessing scientist](https://peacefulscience.org/confessing-scientist/): a scientist in the Church and a Christian in science, serving the common good with a truthful account of what I have seen. I love my scientific work, but I found something greater.
