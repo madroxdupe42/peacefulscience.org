@@ -5,8 +5,8 @@ authors:
 categories:
 - science
 - history
-description: 
-publishdate: 2022-02-09
+description: Exploring what paleontology, archaeology and biology tell us about when our ancestors acquired uniquely human traits.
+publishdate: 2022-03-23
 date: 2021-09-28
 headerimage:
   src: /img/2022/02/cave-painting.jpg
@@ -21,11 +21,19 @@ Symbolic thinking is the quintessential human cognitive ability. We earlier appe
 
 ### Image and Representation
 
-In recent years, discoveries have pushed the date of prehistoric art into the ever more distant past. On the island of Borneo, Indonesia, a cave painting of a bull has been dated by uranium-thorium testing of calcium carbonate deposits overlying the figure to greater than 40 kya (fig. 11.1).[^1]
+In recent years, discoveries have pushed the date of prehistoric art into the ever more distant past. On the island of Borneo, Indonesia, a cave painting of a bull has been dated by uranium-thorium testing of calcium carbonate deposits overlying the figure to greater than 40 kya (fig. 1).[^1]
+
+{{% image `/img/2022/02/cave-painting.jpg` `aside-xl-wide` %}}
+**Figure 1**: Cave painting from Lubang Jeriji Saléh Cave on Borneo.
+{{% /image %}}
 
 [^1]: Aubert, M., et al., “Paleolithic Cave Art in Borneo,” _Nature_ 564, no. 7735 (November 7, 2018): 254–57, [https://doi.org/10.1038/s41586-018-0679-9](https://doi.org/10.1038/s41586-018-0679-9). The date of the deposit over the painting yields a minimum age for the painting, whereas the date of a deposit that has itself been painted over would give a maximum age of that painting. The former is obviously more significant.
 
-In Sulawesi, Indonesia, the oldest-known instance of figurative art, depicting a scene with a buffalo and pigs, and perhaps human hunters, has been dated by uranium-thorium testing of calcite deposits overlying the figures to a minimum age of 44 kya (fig. 11.2).[^2] These caves also contain, as we have seen, hand stencils of comparable age.
+In Sulawesi, Indonesia, the oldest-known instance of figurative art, depicting a scene with a buffalo and pigs, and perhaps human hunters, has been dated by uranium-thorium testing of calcite deposits overlying the figures to a minimum age of 44 kya (fig. 2).[^2] These caves also contain, as we have seen, hand stencils of comparable age.
+
+{{% image `/img/2022/02/cave-painting2.jpg` `aside-xl-wide` %}}
+**Figure 2**: Cave painting from Leang Bulu’Sipong 4 Cave on Sulawesi.
+{{% /image %}}
 
 [^2]: Callaway, Ewen. “Is This Cave Painting Humanity’s Oldest Story?,” _Nature_, December 11, 2019, [https://doi.org/10.1038/d41586-019-03826-4](https://doi.org/10.1038/d41586-019-03826-4).
 
@@ -135,9 +143,13 @@ In early _Homo sapiens_ there occurred a restructuring of the skull that brought
 
 Remarkably, in human ontogeny, from embryogenesis to childhood, this process is recapitulated. The tongue moves back into the pharynx, pushing the larynx down, until the “horizontal” oral cavity and vertical pharyngeal cavity of the SVT have equal 1:1 proportions. In the first two years of life the face retracts and the base of the skull flexes from the relatively flat contour that it had at birth. This cranial base flexion ceases by two to three years of age, but the tongue and larynx continue to descend until ages six to eight, when the proportions of the oral and pharyngeal cavities become equal.
 
-The descent of the larynx in adult humans enlarges the space above the larynx, so that sounds emitted from the larynx can be modified to a greater degree than is possible for any other mammal. Movements of the tongue in the right-angle space defined by the mouth and pharynx are able to produce the changes necessary for utterance of the so-called quantal vowels (phonetically discrete vowels) [i], [u] and [a] (fig. 11.3).[^34] By contrast, the tongues of apes, like the tongues of human newborns, are located almost entirely within their mouths, making the production of these vowel sounds impossible.
+The descent of the larynx in adult humans enlarges the space above the larynx, so that sounds emitted from the larynx can be modified to a greater degree than is possible for any other mammal. Movements of the tongue in the right-angle space defined by the mouth and pharynx are able to produce the changes necessary for utterance of the so-called quantal vowels (phonetically discrete vowels) [i], [u] and [a] (fig. 3).[^34] By contrast, the tongues of apes, like the tongues of human newborns, are located almost entirely within their mouths, making the production of these vowel sounds impossible.
 
-[^34]: Lieberman maintains that in order to produce stable, quantal vowels, an SVT must consist of an oral cavity and a pharyngeal cavity of 1:1 proportions and have a tongue that is able to modify each cavity to a ratio of about 10:1. For example, when we say the vowel [i], we raise and extend the tongue, making the cross-sectional area of the oral cavity about ten times smaller than the pharyngeal cavity. But when we say the vowel [a], we depress and retract the tongue, making the cross-sectional area of the pharyngeal cavity about ten times smaller than the oral cavity. See figure 11.3, which shows tongue positions and formant frequencies differentiating speech sounds. Lieberman explains that formant frequencies are the frequencies at which maximum acoustic energy can pass through the SVT, denoted F1, F2, and so on. The relative positioning of F1 and F2 is usually sufficient to distinguish a sound from all others. The formant frequency patterns that differentiate vowels are produced by changes in the shape of the SVT, allowing maximum energy through at particular formant frequencies (Lieberman, _Evolution of the Human Head_, 318).
+{{% image `/img/2022/02/tongue_shape.jpg` `aside-xl-wide` %}}
+**Figure 3**: Changes in the shape of the tongue modify the harmonic peaks (formant frequencies) that differentiate speech sounds. Tongue position and formant frequencies are shown for the sounds [i], [a], and [u].
+{{% /image %}}
+
+[^34]: Lieberman maintains that in order to produce stable, quantal vowels, an SVT must consist of an oral cavity and a pharyngeal cavity of 1:1 proportions and have a tongue that is able to modify each cavity to a ratio of about 10:1. For example, when we say the vowel [i], we raise and extend the tongue, making the cross-sectional area of the oral cavity about ten times smaller than the pharyngeal cavity. But when we say the vowel [a], we depress and retract the tongue, making the cross-sectional area of the pharyngeal cavity about ten times smaller than the oral cavity. See figure 3, which shows tongue positions and formant frequencies differentiating speech sounds. Lieberman explains that formant frequencies are the frequencies at which maximum acoustic energy can pass through the SVT, denoted F1, F2, and so on. The relative positioning of F1 and F2 is usually sufficient to distinguish a sound from all others. The formant frequency patterns that differentiate vowels are produced by changes in the shape of the SVT, allowing maximum energy through at particular formant frequencies (Lieberman, _Evolution of the Human Head_, 318).
 
 Fossil remains at Skhūl and Qafzeh revealed a fully human SVT in archaic humans 100 kya. Philip Lieberman points out that the biological disadvantages of the human SVT (such as choking on food, impacted molars, reduced chewing efficiency) would reduce fitness unless it was being used to enhance the intelligibility of speech communication.[^35] The presence of “such an odd, seemingly maladaptive configuration” is thus indicative of articulate speech.[^36]
 
@@ -167,7 +179,11 @@ But he cautions, “Their speech was different, however, being less intelligible
 [^46]: Lieberman, P. “Neanderthal Speech and Human Evolution,” 157. Johansson similarly remarks that with a human brain in control, virtually any mammalian vocal tract could produce useful speech (“Language Abilities in Neanderthals,” 316). Cf. Lieberman, Philip. “Vocal Tract Anatomy and the Neural Bases of Talking,” _JP_ 40, no. 4 (July 2012): 613, [https://doi.org/10.1016/j.wocn.2012.04.001](https://doi.org/10.1016/j.wocn.2012.04.001), on the vocal capability of monkeys and apes to talk, despite their inability to produce the quantal vowels.
 [^47]: Lieberman, P. “Neanderthal Speech and Human Evolution,” 157 (my emphasis). Daniel Lieberman explains, “Chimpanzees and other mammals apparently lack much of the neural circuitry necessary to move the lips and tongue with enough speed, precision, and coordination to make the kind of rapid, endlessly recombinatorial sequences of distinct formant frequencies that make up speech” (_Evolution of the Human Head_, 323).
 
-Daniel Lieberman explains that what makes the quantal vowels so useful for oral communication is that, being discrete sounds, they are not so easily confused with other vowels. When different speakers utter words in random order, listeners occasionally make identification errors for most vowels—for example, the [ε] in “beg” with the [I] in “big.” But [i] and [u] are not so frequently confused. Since they have almost no overlap among different speakers (see fig. 11.4), they are especially useful sounds for vocal communication.
+Daniel Lieberman explains that what makes the quantal vowels so useful for oral communication is that, being discrete sounds, they are not so easily confused with other vowels. When different speakers utter words in random order, listeners occasionally make identification errors for most vowels—for example, the [ε] in “beg” with the [I] in “big.” But [i] and [u] are not so frequently confused. Since they have almost no overlap among different speakers (see fig. 4), they are especially useful sounds for vocal communication.
+
+{{% image `/img/2022/02/vowel_sounds.jpg` `aside-xl-wide` %}}
+**Figure 4**: Quantal vowels from a large sample of speakers. The vowels are quantal (distinct) in the sense that they occupy almost completely nonoverlapping positions on the graph.
+{{% /image %}}
 
 Thus, a speaker can be less precise in articulation and yet still produce sounds such as [i], [a], and [u] with a high degree of perceptibility. “Put differently,” says Daniel Lieberman, “they permit sloppy articulation.”[^48] Indeed, “one can approximate the vowels with a nonhuman vocal tract of a different configuration, but the formant frequencies are less distinct.”[^49] Without quantal vowels to set the standard, random vowel sounds would indeed be less intelligible; but then, of course, we are not dealing with random vowel sounds in speech. If we let our imaginations run, we can imagine one Neanderthal saying to another, “That is a beg rhinoceros!” or “I big you to come on the hunt,” and the context of utterance makes the meaning quite plain, despite any problems with articulation. Phonetic differences in articulation need not impinge seriously on the intelligibility of Neanderthal speech to one another.
 
@@ -219,7 +235,11 @@ Even if one does not accept that the explanation for increased thoracic innervat
 
 #### Genetic Clues
 
-The sequencing of a complete Neanderthal genome in 2010 revolutionized palaeoanthropological studies. We now have nearly twenty partial or complete specimens of the Neanderthal genome, which can be compared to the genome of modern humans. As a result, the debate as to whether Neanderthals and _Homo sapiens_ interbred has now been decisively answered in the affirmative on the basis of evidence of mutual introgression of genetic materials (fig. 11.5). Approximately 2 percent of the DNA of all living nonAfricans is derived from Neanderthals, and Oceanic populations have an additional 2–4 percent of their DNA from Denisovans.
+The sequencing of a complete Neanderthal genome in 2010 revolutionized palaeoanthropological studies. We now have nearly twenty partial or complete specimens of the Neanderthal genome, which can be compared to the genome of modern humans. As a result, the debate as to whether Neanderthals and _Homo sapiens_ interbred has now been decisively answered in the affirmative on the basis of evidence of mutual introgression of genetic materials (fig. 5). Approximately 2 percent of the DNA of all living nonAfricans is derived from Neanderthals, and Oceanic populations have an additional 2–4 percent of their DNA from Denisovans.
+
+{{% image `/img/2022/02/human_interbreeding.jpg` `aside-xl-wide` %}}
+**Figure 5**: Inter breeding between lines of ancient humans.
+{{% /image %}}
 
 The simple fact alone of interbreeding carries implications for the capacity of Neanderthals and Denisovans for speech. They interacted repeatedly with anatomically modern human beings over tens of thousands of years, in Dediu and Levinson’s memorable words, “exchanging genes, parasites and culture.”[^63] Such social and sexual intercourse plausibly requires communication and hence language. Kai Whiting et al. comment, “It seems quite unreasonable to assume that all sexual encounters between the different Homo species were of the non-consensual variety. It is much more likely that at least some of the instances of interbreeding between co-existing Homo species, including anatomically modern humans, were the result of communication and a degree of affection or appreciation. Regardless of the exact dynamics of sexual relations, we know for certain that some resulted in offspring that could claim kinship to more than one set of human species.”[^64] Thus, interbreeding and the production of hybrid offspring who could, like the _Homo sapiens_ parent, speak are themselves suggestive of language ability in the partners.
 

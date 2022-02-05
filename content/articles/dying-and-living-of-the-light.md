@@ -46,3 +46,13 @@ I think this entropic perspective helps us get our heads around one of the more 
 {.dropcap}
 
 Or consider the words of the apostle Paul, who encourages believers "to present your bodies as a sacrifice—alive, holy, and pleasing to God" ([Romans 12:1](https://netbible.org/bible/Romans+12)). An animal presented for sacrifice would have been killed and either eaten or burnt up. Grain offerings would likewise be consumed in one fashion or the other. So what exactly would it mean to be a sacrifice and yet remain alive?
+
+<div class=references>
+
+## References
+
+Seife, Charles. _Decoding the Universe: How the New Science of Information Is Explaining Everything in the Cosmos, from Our Brains to Black Holes_. (New York: Viking, 2006)
+
+Penrose, Roger. _Cycles of Time: An Extraordinary New View of the Universe_. (New York: Knopf, 2011)
+
+</div>

@@ -59,4 +59,20 @@ Most of the time English speakers don't consciously experience a deficiency or l
 
 In *Arrival*, Louise Banks addresses this conceptual gap between her language and the aliens' by combining written language with demonstrations. She and her team act out the words and sentences as they speak and write them. In this way, they build shared experiences with the aliens so that their communication has something to reference. Without that experience, the two parties might wind up using the same words but internally connecting them to very different concepts. As an example, she brings up the Sanskrit word गविष्टि, which some linguists translate as "an argument" while she prefers "a desire for more cows."
 
+<div class=references>
 
+## References
+
+Adams, Douglas. _The Hitchhiker's Guide to the Galaxy_. (London: Pan Books, 1979)
+
+Rhodes, Margaret. "How _Arrival_'s Designers Crafted a Mesmerizing Alien Alphabet," https://www.wired.com/2016/11/arrivals-designers-crafted-mesmerizing-alien-alphabet/, published November 16, 2016, accessed December 1, 2021
+
+_Arrival_. Directed by Denis Villeneuve, performances by Amy Adams, Jeremy Renner, and Forest Whitaker. (Paramount Pictures, 2016)
+
+Hofstadter, Douglas and Sander, Emmanuel. _Surfaces and Essences: Analogy as the Fuel and Fire of Thinking_. (New York: Basic Books, 2013)
+
+Pinker, Steven. _The Stuff of Thought: Language as a Window into Human Nature_. (New York: Viking, 2007)
+
+Christiansen, Morten H. and Chater, Nick. _Creating Language: Integrating Evolution, Acquisition, and Processing_. (Cambridge: MIT Press, 2016)
+
+</div>

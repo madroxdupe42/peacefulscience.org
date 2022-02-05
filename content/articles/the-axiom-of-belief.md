@@ -58,3 +58,15 @@ Mismatched assumptions play into the plot of  [Raiders of the Lost Ark](https://
 [Henry McCoy](https://en.wikipedia.org/wiki/Beast_(comics)) has a similar problem with mismatched assumptions. He assumes that natural causes which can be described with science are the opposite of anything religious or theological and that God or gods only manifest via the supernatural. Therefore, he feels compelled to reject religious concepts in spite of his own personal experience with various deities. But the dichotomy he believes in is not required by the Bible, which is comfortable associating natural causes with God. We read that "the heavens declare the glory of God" (Psalm 19:1). And elsewhere, we find the claim that "since the creation of the world \[God's\] invisible attributes---his eternal power and divine nature---have been clearly seen, because they are understood through what has been made" (Romans 1:20). Drawing a sharp line between what God does and what we can understand through science isn't strictly necessary.
 
 At the same time, I don't think these verses require us to conclude that creation itself indisputably proves God's existence. If the world was such that a belief in God was the only logical conclusion, or the only logically consistent way of understanding the world, then God's work is done from the beginning and he has no need to communicate any further. But this is not the story that the Bible tells. Instead, it indicates that God repeatedly reveals himself personally, [culminating in his incarnation in Jesus](https://discourse.peacefulscience.org/t/peace-be-with-you/100). Yes, there are other purposes of the incarnation, but one of them is to enable knowledge of God. As Jesus himself says, "If you have known me, you will know my Father too. And from now on you do know him and have seen him" (John 14:7).
+
+<div class=references>
+
+## References
+
+_Raiders of the Lost Ark_. Directed by Steven Spielberg, performances by Harrison Ford, Karen Allen, and Paul Freeman. (Paramount Pictures, 1981)
+
+Swamidass, S. Joshua. [Peace Be With You](/articles/peace-be-with-you/), Peaceful Science, 2018.
+
+Hofstadter, Douglas. _Gödel, Escher, Bach: An Eternal Golden Braid_. (New York: Basic Books, 1979)
+
+</div>

@@ -37,3 +37,13 @@ Now perhaps a system that returns to an attractor still doesn't seem like freedo
 {{< amazon `1683070763` >}}
 
 Let's see if this perspective helps us to understand the story in [Exodus](https://netbible.org/bible/Exodus+3) any better. We saw God asserting his sovereignty over the world and claiming responsibility for how events play out; our model is consistent with this idea. We saw Moses choose to decline the commission to speak to Pharaoh on his own; our model affirms that this is genuinely a choice on Moses' part and allows for such choices. That makes it easier to understand God's anger at Moses' choice, since it is something Moses has genuinely chosen without God having always intended for Moses to act thusly; our model indicates that Moses' choice will have real consequences, which may be suboptimal for Moses and/or other people in Moses' sphere of influence, and thus represent a true sin which would displease God. One of those consequences is that Aaron will accompany Moses to lead the Israelites out of exile, and it is Aaron who will later facilitate the worship of the golden calf in place of God while Moses communes with God on his own. If Aaron hadn't been Moses' spokesperson, perhaps he would not have later been seen as having the authority to condone the forging of the calf. Finally, we know that the nation of Israel was freed from its exile in Egypt; our model proposes that outcomes such as this will be resilient to individual choices.
+
+<div class=references>
+
+## References
+
+Gleick, James. _Chaos: The Making of a New Science_. (New York: Viking, 1987)
+
+Oord, Thomas Jay. _The Uncontrolling Love of God: An Open and Relational Account of Providence_. (Westmont: IVP Academic, 2015)
+
+</div>

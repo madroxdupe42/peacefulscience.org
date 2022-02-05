@@ -50,3 +50,21 @@ Broadening one's horizons and changing one's perspective have positive and negat
 {.dropcap}
 
 While special relativity predicts that the outcome of certain measurements will depend on the context of the measuring, it is also a theory with absolutes. We are not giving up a more absolute model for a more relative one, we are simply changing which quantities are absolute and which are relative. And we are doing so because the model better reflects the reality in which we live, which provides an absolute point of reference of a different sort. At the same time, we also cannot completely escape relative motion. It is a part of everyday experience that is consistently modeled in special relativity and the theories that preceded it.
+
+<div class=references>
+
+## References
+
+Card, Orson Scott. _Ender's Game_. (New York: Tor Books 1985)
+
+_Ender's Game_. Directed by Gavin Hood, performances by Asa Butterfield, Harrison Ford, and Hailee Steinfeld. (Lionsgate, 2013)
+
+Seymour, Mike. "Ender’s Game: how DD made zero-g," https://www.fxguide.com/fxfeatured/enders-game-how-dd-made-zero-g/ published November 4, 2013, accessed December 29, 2021
+
+Penrose, Roger. _The Road to Reality: A Complete Guide to the Laws of the Universe_. (London: Jonathan Cape, 2004)
+
+Kaku, Michio. _Hyperspace: A Scientific Odyssey Through Parallel Universes, Time Warps, and the 10th Dimension_. (Oxford: Oxford University Press, 1994)
+
+Lederman, Leon M. and Hill, Christopher T. _Symmetry and the Beautiful Universe_. (Amherst: Prometheus Books, 2004)
+
+</div>

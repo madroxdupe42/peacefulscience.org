@@ -48,3 +48,21 @@ The first thing that I notice is that the observations we have of Jesus are equa
 Understandably, the emotions in that situation are intense. And yet, through their inner turmoil Lazarus' sisters recognize that Jesus might still have the power to to help their brother. They seem to be appealing to his divine nature, to exercise authority over life and death in a way that no human being would be capable of. And the immediate response they get is the shortest, and one of the most famous, verses in the Bible: "Jesus wept" (John 11:35). This is a very human, emotional reaction to the situation, when what was sought was a display of power. The Gospel of John does record that Jesus ultimately brings Lazarus back from the dead, apparently confirming his divine nature, but not without complicating our ability to understand what that means.
 
 Or does it? Maybe what Jesus is really showing us is that our understanding of humanity and divinity is flawed. That fits with our ultimate premise, that Jesus represents God's ultimate effort to model for us concepts that we would otherwise have been unlikely to arrive at, in order to facilitate communication between us and God. So let's see what else Jesus teaches us and how that relates to what it means to be man and God.
+
+<div class=references>
+
+## References
+
+Penrose, Roger. _The Road to Reality: A Complete Guide to the Laws of the Universe_. (London: Jonathan Cape, 2004)
+
+Lederman, Leon M. and Hill, Christopher T. _Symmetry and the Beautiful Universe_. (Amherst: Prometheus Books, 2004)
+
+Polkinghorne, John. _Quantum Physics and Theology: An Unexpected Kinship_. (New Haven: Yale University Press, 2007)
+
+Spurrier, Simon, writer. _X-Men Legacy_. Pencils by Tan Eng Huat _et al_, Inks by Craig Yeung _et al_. (New York: Marvel Comics, 2012)
+
+David, Peter, writer. _X-Factor_. Pencils by Valentine De Landro _et al_, Inks by Pat Davidson _et al_. (New York: Marvel Comics, 2005)
+
+Wilson, G. Willow, writer. _Ms. Marvel_. Pencils by Adrian Alphona _et al_, Inks by Adrian Alphona _et al_. (New York: Marvel Comics, 2013)
+
+</div>
