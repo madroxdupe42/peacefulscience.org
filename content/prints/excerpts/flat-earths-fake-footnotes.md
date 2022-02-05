@@ -25,10 +25,9 @@ Excerpt from [*Flat Earths and Fake Footnotes*](https://www.amazon.com/Flat-Eart
 > As he sailed across the open sea.\
 > Some people still thought the world was flat!\
 > Can you even image that?
+>
+> –A traditional children's poem
 
-<div>
-–A traditional children's poem
-</div>
 
 Most of us will remember quite vividly the first representation of Christopher Columbus that we were taught; like the glimmering icons of the Orthodox Church, his portrait was given to us less a man, and more an ideal. He was a thin veil through which a portentous light of Enlightenment found quite early access to key into the world. Against the stubbornness of a backwards society, Columbus was a man, so it was said, singularly convinced of the world's rotundity, and to settle this geometric bet he set sail. Behind his lambent form was the pitch abyss of a thousand years of medievalism, ignorant or deceived by the priests' wooden reading of "the four corners of the world" in scripture. It was from this morass that Columbus strode forward resolute, now tinged with the sort of heroic loneliness American mythology devours. "If no one ever challenged the status quo, the earth would still be flat" as a 2013 Infiniti car commercial put it---making it sound like Columbus literally remolded the earth into a sphere, despite popular taste preferring to take their planets flat, thank you very much. It was a breathtaking tale; both because of his resolution in the face of such apparently astounding religious ignorance, and because no doubt at least a few of our young minds fascinated upon the uncanny image of a horizon line of waters churning over that last, vital edge. 
 {.dropcap}

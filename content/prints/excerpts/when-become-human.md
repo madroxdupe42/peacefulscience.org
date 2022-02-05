@@ -11,7 +11,7 @@ date: 2021-09-28
 partof:
 - /books/quest-historical-adam/
 headerimage:
-  src: /img/2022/02/cave-painting.jpg
+  src: /img/2022/02/cave-art-wlc.png
   credit: Cave painting from Lubang Jeriji Saléh Cave on Borneo
 ---
 This excerpt is Chapter 11 of  [*In Quest of the Historical Adam: A Biblical and Scientific Exploration*](https://www.amazon.com/dp/080287911X) by William Lane Craig, &copy; 2021 by Eerdmans Publishers, Grand Rapids, Michigan. Used by permission. All rights reserved. Figure numbers were altered by removing chapter-prefix, and the title of the chapter was replaced.
