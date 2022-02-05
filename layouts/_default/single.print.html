@@ -362,6 +362,19 @@ text-indent: -1rem;
 
 }
 
+.footnote  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+ padding: 0;
+}
+
+
+.footnote > p {
+ margin: 0;
+ padding: 0;
+}
+
+
 .references > p {
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -522,11 +535,22 @@ footnotes.classList.add("d-none");
 	var fn = document.getElementById(hash);
 
     if (fn) {
-      var R = document.createElement('span');
-      R.classList.add("footnote");
-      R.innerHTML = fn.closest("li").querySelector("p").innerHTML;
-      var refp = ref.closest("sup");
-      refp.parentElement.replaceChild(R, refp);
+      var li = fn.closest("li");
+      
+      if (li.childElementCount === 1) {
+        var R = document.createElement('span');
+        R.classList.add("footnote");
+        R.innerHTML = li.querySelector("p").innerHTML;
+        var refp = ref.closest("sup");
+        refp.parentElement.replaceChild(R, refp);
+        
+      } else {
+          var R = document.createElement('div');
+          R.classList.add("footnote");
+          R.innerHTML = li.innerHTML;
+          var refp = ref.closest("sup");
+          refp.parentElement.replaceChild(R, refp); 
+      }
     } 
 }};
 
