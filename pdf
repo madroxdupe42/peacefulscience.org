@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+hugo -F
+node code/render.js
+
+for i in $*
+do
+  i=${i#content}
+  i=${i%.md}
+  src=public/_prince${i}/index.html
+  
+  pdf=${i##*/}.pdf
+  
+  prince $src -o $pdf --fileroot=public/
+  open $pdf
+done
