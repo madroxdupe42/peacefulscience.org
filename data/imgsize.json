@@ -2115,6 +2115,14 @@
         "height": 1500,
         "width": 2250
     },
+    "/img/2022/02/cave-painting.jpg": {
+        "height": 1155,
+        "width": 1814
+    },
+    "/img/2022/02/cave-painting2.jpg": {
+        "height": 500,
+        "width": 800
+    },
     "/img/2022/02/footnotes-cover.png": {
         "height": 1350,
         "width": 2400
@@ -2123,6 +2131,10 @@
         "height": 2591,
         "width": 4606
     },
+    "/img/2022/02/human_interbreeding.png": {
+        "height": 1092,
+        "width": 1994
+    },
     "/img/2022/02/invention-cover.png": {
         "height": 1350,
         "width": 2400
@@ -2130,6 +2142,14 @@
     "/img/2022/02/map-world-cover.png": {
         "height": 1350,
         "width": 2400
+    },
+    "/img/2022/02/tongue_shape.png": {
+        "height": 1558,
+        "width": 1566
+    },
+    "/img/2022/02/vowel_sounds.png": {
+        "height": 1176,
+        "width": 1152
     },
     "/img/2022/02/war-never-was.png": {
         "height": 1350,

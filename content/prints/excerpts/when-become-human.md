@@ -8,11 +8,13 @@ categories:
 description: Exploring what paleontology, archaeology and biology tell us about when our ancestors acquired uniquely human traits.
 publishdate: 2022-03-23
 date: 2021-09-28
+partof:
+- /books/quest-historical-adam/
 headerimage:
   src: /img/2022/02/cave-painting.jpg
   credit: Cave painting from Lubang Jeriji Saléh Cave on Borneo
 ---
-Excerpt from [*In Quest of the Historical Adam: A Biblical and Scientific Exploration*](https://www.amazon.com/Quest-Historical-Adam-Scientific-Exploration/dp/080287911X) by William Lane Craig, &copy; 2021 by Eerdmans Publishers, Grand Rapids, Michigan. Used by permission. All rights reserved.
+This excerpt is Chapter 11 of  [*In Quest of the Historical Adam: A Biblical and Scientific Exploration*](https://www.amazon.com/dp/080287911X) by William Lane Craig, &copy; 2021 by Eerdmans Publishers, Grand Rapids, Michigan. Used by permission. All rights reserved. Figure numbers were altered by removing chapter-prefix, and the title of the chapter was replaced.
 {.editor-note}
 
 ## Symbolic Behavior
@@ -113,7 +115,7 @@ The nineteenth-century philologist Max Müller declared, “The one great barrie
 [^23]: Wheeler and Fischer, “Functionally Referential Signals,” 195.
 [^24]: Noting that “the main question is whether animals, limited to sense faculties alone, can ever understand the nature of referencing at all,” Dennis Bonnette aptly remarks, “A chimpanzee’s correct identification of, communication about, and employment of an appropriate tool to obtain food is no assurance of true intellective understanding. A spider weaving its web to catch insects repeatedly creates the same type of tool designed exquisitely to catch the same type of victim. ... Nature programs the spider, human beings the chimpanzee” (_Origin of the Human Species_, VIBS 106 [Amsterdam: Rodopi, 2001], 59, 56).
 
-#### Anatomical Clues
+### Anatomical Clues
 
 Anatomically, a large brain size in a hominin is a prerequisite for language capacity, and the presence of a large brain increases the probability of linguistic ability. So Roger Lewin and Robert Foley think that once hominins attained a brain size in excess of one thousand cubic centimeters, there seems to be little doubt that linguistic capabilities existed and that therefore language may have been present at least in Neanderthals.[^25] “Given their large brains, there is little doubt that Neanderthals are intelligent flexible hominins, even if there may have been some differences between them and modern humans.”[^26]
 
@@ -145,7 +147,7 @@ Remarkably, in human ontogeny, from embryogenesis to childhood, this process is 
 
 The descent of the larynx in adult humans enlarges the space above the larynx, so that sounds emitted from the larynx can be modified to a greater degree than is possible for any other mammal. Movements of the tongue in the right-angle space defined by the mouth and pharynx are able to produce the changes necessary for utterance of the so-called quantal vowels (phonetically discrete vowels) [i], [u] and [a] (fig. 3).[^34] By contrast, the tongues of apes, like the tongues of human newborns, are located almost entirely within their mouths, making the production of these vowel sounds impossible.
 
-{{% image `/img/2022/02/tongue_shape.jpg` `aside-xl-wide` %}}
+{{% image `/img/2022/02/tongue_shape.png` `aside-xl-wide` %}}
 **Figure 3**: Changes in the shape of the tongue modify the harmonic peaks (formant frequencies) that differentiate speech sounds. Tongue position and formant frequencies are shown for the sounds [i], [a], and [u].
 {{% /image %}}
 
@@ -181,7 +183,7 @@ But he cautions, “Their speech was different, however, being less intelligible
 
 Daniel Lieberman explains that what makes the quantal vowels so useful for oral communication is that, being discrete sounds, they are not so easily confused with other vowels. When different speakers utter words in random order, listeners occasionally make identification errors for most vowels—for example, the [ε] in “beg” with the [I] in “big.” But [i] and [u] are not so frequently confused. Since they have almost no overlap among different speakers (see fig. 4), they are especially useful sounds for vocal communication.
 
-{{% image `/img/2022/02/vowel_sounds.jpg` `aside-xl-wide` %}}
+{{% image `/img/2022/02/vowel_sounds.png` `aside-xl-wide` %}}
 **Figure 4**: Quantal vowels from a large sample of speakers. The vowels are quantal (distinct) in the sense that they occupy almost completely nonoverlapping positions on the graph.
 {{% /image %}}
 
@@ -233,11 +235,11 @@ Examining the possible explanations for this increased thoracic innervation—su
 
 Even if one does not accept that the explanation for increased thoracic innervation is the need of respiratory control for speech, minimally what MacLarnon and Hewitt’s results imply is that one of the singly necessary and jointly sufficient conditions for human speech is already present, along with other similar conditions, in Neanderthals. Neanderthal speech is thus more probable given the presence of this condition than otherwise, so that it constitutes evidence for Neanderthal speech.
 
-#### Genetic Clues
+### Genetic Clues
 
 The sequencing of a complete Neanderthal genome in 2010 revolutionized palaeoanthropological studies. We now have nearly twenty partial or complete specimens of the Neanderthal genome, which can be compared to the genome of modern humans. As a result, the debate as to whether Neanderthals and _Homo sapiens_ interbred has now been decisively answered in the affirmative on the basis of evidence of mutual introgression of genetic materials (fig. 5). Approximately 2 percent of the DNA of all living nonAfricans is derived from Neanderthals, and Oceanic populations have an additional 2–4 percent of their DNA from Denisovans.
 
-{{% image `/img/2022/02/human_interbreeding.jpg` `aside-xl-wide` %}}
+{{% image `/img/2022/02/human_interbreeding.png` `aside-xl-wide` %}}
 **Figure 5**: Inter breeding between lines of ancient humans.
 {{% /image %}}
 
