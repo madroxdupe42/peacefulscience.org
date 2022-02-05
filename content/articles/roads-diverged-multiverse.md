@@ -48,3 +48,23 @@ I propose that we are lost when we are not the best possible version of ourselve
 Then again, who's to say we aren't that best version already? And why does God or Jesus get to decide what the best version is? I think it's fair to ask those questions and correct to think that there are alternatives. At the same time, according to the Bible, those alternatives may be considered sin by God's reckoning.
 
 Yep, sin. We don't enjoy the idea of being told that we have sinned or that we are sinners. Nevertheless, the Bible does mention sin a fair bit, so if we are going to know God we need to have some idea of what it is. My primary aim is to explore the concept of sin and to establish why it is a useful idea, rather than enumerating specific sins.
+
+<div class=references>
+
+## References
+
+_Edge of Tomorrow_. Directed by Doug Liman, performances by Tom Cruise, Emily Blunt, and Bill Paxton. (Warner Brothers, 2014)
+
+_Run, Lola, Run_. Directed by Tom Tykwer, performances by Franka Potente, Moritz Bleibtrau, and Herbert Knaup. (Arte, 1998)
+
+_Terminator 2: Judgment Day_. Directed by James Cameron, performances by Arnold Schwarzenegger, Linda Hamilton, and Edward Furlong. (TriStar Pictures, 1991)
+
+_Back to the Future Part II_. Directed by Robert Zemeckis, performances by Michael J. Fox, Christopher Lloyd, and Lea Thompson. (Universal Pictures, 1989)
+
+_X-Men: Days of Future Past_. Directed by Bryan Singer, performances by Patrick Stewart, Ian McKellan, and Hugh Jackman. (20th Century FOX, 2014)
+
+_Groundhog Day_. Directed by Harold Ramis, performances by Bill Murray, Andie MacDowell, and Chris Elliott. (Columbia Pictures, 1993)
+
+Weir, Andy. _The Martian_. (New York: Crown, 2014)
+
+</div>
