@@ -1,6 +1,7 @@
 ---
 aliases:
 - /the-axiom-of-belief/
+- /articles/the-axiom-of-belief/
 authors:
 - awalsh
 categories:

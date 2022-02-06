@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/roads-diverged-multiverse/
 title: Two Roads Diverged in the Multiverse
 authors:
 - awalsh

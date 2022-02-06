@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/dying-and-living-of-the-light/
 title: The Dying and Living of the Light
 authors:
 - awalsh

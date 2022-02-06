@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/power-of-babelfish/
 title: The Power of Babelfish
 authors:
 - awalsh

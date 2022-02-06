@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/certain-point-of-view/
 title: From a Certain Point of View
 authors:
 - awalsh

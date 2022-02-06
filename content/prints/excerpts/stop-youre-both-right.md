@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/stop-youre-both-right/
 title: Stop! You're Both Right!
 authors:
 - awalsh

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /articles/strange-attractor-of-god/
 title: There But for the Strange Attractor of God
 authors:
 - awalsh
