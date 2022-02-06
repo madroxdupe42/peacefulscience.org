@@ -419,6 +419,7 @@ accessed
 var toplevel = document.querySelectorAll(".article-text > *");
 
 
+
 if (toplevel !== null ) {
 	for (var child of toplevel) {
 		if (child.classList.contains('editor-note')) {
@@ -432,11 +433,12 @@ if (toplevel !== null ) {
 		if (child.tagName === 'H2') {
 			break;
 		}
-		
+		if (child.classList.contains('article-question')) {
+			break;
+		}
 	}
 
 }
-
 
 var footnotes = document.querySelector(".footnotes");
 

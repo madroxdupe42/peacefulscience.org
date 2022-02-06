@@ -392,6 +392,14 @@ text-indent: -1rem;
   max-width: 100%;
 }
 
+.article-question  {
+  font-family: AlverataSb;
+  margin-left: -1em;
+}
+
+.article-question > h2, .article-question > h3 {
+  display: none;
+}
 
 </style>
  
@@ -567,7 +575,9 @@ if (toplevel !== null ) {
 		if (child.tagName === 'H2') {
 			break;
 		}
-		
+		if (child.classList.contains('article-question')) {
+			break;
+		}
 	}
 
 }
