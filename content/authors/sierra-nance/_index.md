@@ -1,0 +1,6 @@
+---
+title: Sierra A. Nance
+twitter: sa_nance
+orcid: 0000-0001-5773-6500
+---
+Sierra A. Nance is a PhD Candidate at the University of Michigan. She received her B.S. in Chemistry from Winston Salem State University in 2015 and is currently pursuing her PhD in Molecular & Integrative Physiology at the University of Michigan. Sierra was awarded the Ruth L. Kirschstein Predoctoral Individual Predoctoral Fellowship by the National Institutes of Health to support  her dissertation work which investigates the role of adipose tissue immunity in the pathogenesis of obesity-associated Type 2 Diabetes. In addition to research, Sierra has demonstrated her commitment to professional development and increasing diversity in STEM. Outside of her institutional commitments, Sierra is a member of the Obesity Society, the Endocrine Society, and the National Black MBA Association, as well as co-founder of [HBCU-DAP](https://www.hbcudap.com/), a non-profit organization dedicated to providing resources, mentorship, and support for  students at [Historically Black Colleges and Universities (HBCUs)](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities)  on their journey to the Doctorate.
