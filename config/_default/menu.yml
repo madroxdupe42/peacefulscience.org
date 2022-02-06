@@ -1,7 +1,7 @@
     
 main:
-  - name: Articles
-    url: /articles/
+  - name: Prints 
+    url: /prints/
     weight: -115  
   - name: Books
     url: /books/
@@ -9,10 +9,14 @@ main:
   - name: Forum
     url: /forum/
     weight: -108
+  - name: Newsletter
+    url: /newsletter/
+    weight: -107
   - name: About
     identifier: about
     url: /about/
     weight: -100
+
   - name: Mission and Values
     parent: about
     weight: 10
