@@ -479,13 +479,11 @@ for (var s of ss)
   
 // move MathJax glyphs into #app for Turbo
 
-const app = dom.document.querySelector("#app");
-const mj = dom.document.querySelector("#MathJax_SVG_glyphs")?.closest("svg");
+var A = document.querySelector("#app");
+var mj = document.querySelector("#MathJax_SVG_glyphs")?.closest("svg");
 
-if (app && mj )
-  app.appendChild(mj);
-return dom;
-}
+if (A && mj )
+	A.appendChild(mj);
 
 
 </script>
