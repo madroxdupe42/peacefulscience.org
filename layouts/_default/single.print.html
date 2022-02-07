@@ -11,7 +11,6 @@
 
 
 <style>  
-{{ warnf "PRINT" }}
 
 
 
@@ -38,7 +37,7 @@ prince-shrink-to-fit: none;
         padding-left: 2rem;
         list-style-position: inside
     }
-    
+
 }
 
 @page:first {
@@ -279,7 +278,8 @@ figcaption{
 
 blockquote {
   margin: 0;
-  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 1px solid gray ;
 }
 
 sup {
@@ -315,12 +315,12 @@ a {
   width: 100% !important;
 }
 
-p:not(.editor-note) + .dropcap {
+p:not(.editor-note) + .dropcap, .p:not(.editor-note) + .dropcap {
  padding-top: 2em;
 
 }
 
-p {
+p, .p {
   widows: 2;
   orphans: 2;
 }
@@ -363,17 +363,23 @@ text-indent: -1rem;
 }
 
 .footnote  p {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5em;
- padding: 0;
-}
-
-
-.footnote > p {
  margin: 0;
  padding: 0;
 }
 
+p, .p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footnote *:not(:first-child)  {
+  margin-top: 0.5em;
+}
 
 .references > p {
   margin-top: 0;
@@ -526,22 +532,31 @@ var footnotes = document.querySelector(".footnotes");
 
 if (footnotes !== null && footnotes.querySelector("h2") === null ) {
 
-footnotes.classList.add("d-none");
+  footnotes.classList.add("d-none");
+  
+  for (var p of document.querySelectorAll("p")) {
+	  if (p.querySelectorAll(".footnote-ref").length ) {
+		  D = document.createElement('div');
+		  D.innerHTML = p.innerHTML;
+		  D.classList.add("p");
+		  
+		  for (c of p.classList) D.classList.add(c);
+		  
+		  D.style.cssText = p.style.cssText;
+		  p.parentElement.replaceChild(D, p);
+		  
+	  }
+  }
 
   var refs = document.querySelectorAll(".footnote-ref");
   var div = document.createElement("aside");
   div.classList.add("sidenote");
-
-  
   
   for (var ref of refs) {
-	  
-	
 	var hash = ref.href.split("#")[1];
-
 	var n = hash.split(":")[1];
 	var fn = document.getElementById(hash);
-
+	
     if (fn) {
       var li = fn.closest("li");
       
@@ -560,7 +575,8 @@ footnotes.classList.add("d-none");
           refp.parentElement.replaceChild(R, refp); 
       }
     } 
-}};
+  }
+};
 
 if (toplevel !== null ) {
 	for (var child of toplevel) {
@@ -595,6 +611,7 @@ for (var s of ss)
   if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
     s.parentElement.insertBefore(document.createElement("span"), s);
   
+
 </script>
 
 
