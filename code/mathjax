@@ -1,3 +1,7 @@
+
+# not needed now, so exit.
+exit
+
 echo MATHJAX:
 for i in `grep -irnl public -e RUN_MATHJAX `
 do
