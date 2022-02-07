@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 hugo -F
+bash code/mathjax
 node code/render.js
 
 for i in $*

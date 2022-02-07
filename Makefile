@@ -38,7 +38,8 @@ else
 production:
 endif
 	npm run tailwind
-	hugo -b https://peacefulscience.org/ --minify	
+	hugo -b https://peacefulscience.org/ --minify
+	bash code/mathjax	
 	node code/render.js
 	node code/extract.js > public/ps.rdf
 

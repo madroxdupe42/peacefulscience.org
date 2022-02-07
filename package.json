@@ -15,6 +15,10 @@
     "citeproc": "^2.4.62",
     "instantsearch.js": "^4.35.0",
     "jsonld": "^5.2.0",
+    "load-json-file": "^7.0.1",
+    "mathjax": "^3.2.0",
+    "mathjax-node": "^2.1.1",
+    "mathjax-node-page": "^3.2.0",
     "onesignal": "^0.1.2",
     "postcss-cli": "^9.0.2",
     "postcss-filter-mq": "^1.0.1",
@@ -26,6 +30,7 @@
     "url-join": "^4.0.1",
     "url-parse": "^1.5.4",
     "urljoin": "^0.1.5",
+    "write-json-file": "^5.0.0",
     "youtube-player": "^5.5.2",
     "zotero-translators": "^0.0.2"
   },
