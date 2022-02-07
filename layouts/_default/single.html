@@ -474,6 +474,20 @@ for (var s of ss)
   if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
     s.parentElement.insertBefore(document.createElement("span"), s);
   
+  
+  
+  
+// move MathJax glyphs into #app for Turbo
+
+const app = dom.document.querySelector("#app");
+const mj = dom.document.querySelector("#MathJax_SVG_glyphs")?.closest("svg");
+
+if (app && mj )
+  app.appendChild(mj);
+return dom;
+}
+
+
 </script>
 
     
