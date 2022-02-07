@@ -1077,9 +1077,15 @@ max-height: 300px;
 }
 
 
+.sidenote *:not(:first-child)  {
+  margin-top: 11pt;
+}
+
+.sidenote * {
+  margin-bottom: 0em;
+}
 
 blockquote {
-  @extend .ml-4;
   @extend .pl-2;
   font-size: smaller;
   border-left: 3px solid #dfdfdf;
@@ -1090,6 +1096,10 @@ blockquote {
   }
 }
 
+.sidenote blockquote {
+	
+	font-size: inherit;
+}
 
 
 
