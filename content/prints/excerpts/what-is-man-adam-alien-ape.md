@@ -1,14 +1,20 @@
 ---
-title: Who Do You Think You Are?
+title: Adam, Alien or Ape?
 authors:
 - Edgar Andrews
 categories:
 - science
 - theology
 - adam-eve
+partof:
+- /books/what-is-man/
 description: Four possible models of how humans came to possess their unique traits
 publishdate: 2022-03-30
 date: 2018-07-03
+headerimage:
+  src: /img/2022/02/what-is-man.png
+  credit: Background image credit  [MaxPixel](https://www.maxpixel.net/Skin-Brown-Skin-Brown-Skin-Up-Close-Skin-Up-Close-2016480).
+draft: true
 ---
 This article is an edited version of chapter 1 of the book [*What is Man? Adam, Alien or Ape?*](https://www.amazon.com/WHAT-MAN-Adam-Alien-Ape/dp/1595558462/) by Edgar Andrews, &copy; 2018 by Elm Hill Books, Nashville, Tennessee. Used by permission. All rights reserved. We capitalize the word “man” to read “Man” when it refers to humanity as a whole.
 {.editor-note}
@@ -18,7 +24,6 @@ This article is an edited version of chapter 1 of the book [*What is Man? Adam, 
 
 Let’s start by making clear what we mean by ‘man’. The word is used in three ways. It can mean a male member of the human race (man = male). It can mean the human race itself (man = humanity). And it can mean a member of the human race regardless of gender (man = person). A manhole can be used by women as well as men, and a man-eating tiger isn’t bothered about the sex of its victim. This third use of ‘man’ is today often considered politically incorrect but it is common historically and, for example, occurs frequently in the Bible. In this book I shall make use of all three meanings but I trust that the context will always make it clear which is intended. For clarity I will always capitalise the first letter to read ‘Man’ whenever the reference is to humanity as a whole.
 
-{{< amazon `1385439637` >}}
 
 The poet Alexander Pope writing in 1734 described the contradictions of human nature (Man = humanity) with eloquent clarity. Man is, he writes[^1];
 > “In doubt to deem himself a god or beast;  
@@ -151,6 +156,8 @@ Many years ago I appeared in the British late-night TV magazine program ‘Newsn
 Looked at in this way, I suggest, all our explanations call for miracles of one kind or another, whether we are evolutionists or creationists. This is not perhaps as obvious as it should be, because the evolutionary narrative claims the support of plausible natural processes to account for the transformation of mud into a man, whereas _by definition_ special creation can propose no such processes. But in _Who Made God?_ I showed that the processes on which macro-evolution relies are nowhere near as plausible as is claimed and, in the case of the origin of life itself, are actually non-existent.[^15]
 
 [^15]: Andrews, Edgar. _Who made God? Searching for a theory of everything_ (Darlington UK: EP Books, 2009) pp. 198-199. 
+
+{{< amazon `1595556842` >}}
 
 Doesn’t this mean, however, that arguments in favour of special creation are intrinsically negative, being limited to rebutting the positive claims of evolution? My answer is ‘no’. What it means is that the plausibility of creation scenarios rest on a much broader foundation, namely, the totality of creative power that must be attributed to God if, indeed, he exists. For example, we shall see in chapter 3 that the origin of the universe is only explicable logically in terms of the creative activity of a non-material Creator. And if we take _that_ concept on-board then the special creation of Man with his ‘God-like’ attributes should present no difficulty to the rational mind, even though we can have no understanding of the miraculous processes involved. In a further chapter we shall explore the whole question of special creation and the _imago dei_ (the image of God in Man).[^16]
 
