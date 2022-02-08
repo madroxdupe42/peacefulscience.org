@@ -634,7 +634,9 @@ label {
 }
 
 
-
+.editor {
+	  background: #f2f2f2;
+}
 .editor-note {
   font-size: smaller;
   background: #f2f2f2;
@@ -899,7 +901,9 @@ width: 100%;
     padding-left: 22px;
     text-indent: -22px;
 
-    margin-bottom: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em; 
+    margin-bottom: 0;
   }
 
 
@@ -908,7 +912,9 @@ width: 100%;
 
   .aside-xl-wide {
    @extend .expand-right;	
-   img {width: 100; max-width: unset}
+   img {width: 100%; max-width: unset; 
+   object-fit: contain;
+}
   }
 
 
