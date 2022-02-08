@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-hugo -F
+hugo -DF
 bash code/mathjax
 node code/render.js
 
