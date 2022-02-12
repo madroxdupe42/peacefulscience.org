@@ -27,16 +27,17 @@ The exchange in and around this article is a salient window into where stands th
 2. **Old Earth Creationists** are taking the olive branch. We are finding a better way forward.
 
 3. **Evangelical scholars** are engaging more deeply in the questions of human origins, and [their academic work](https://peacefulscience.org/prints/) is rising into public view. **Michael Murray** writes,
-> ...we have arrived at the point where we can confidently affirm that the basic evolutionary story is not the threat to Christian orthodoxy that we once feared, and not because we had to compromise on orthodoxy.
+
+    > ...we have arrived at the point where we can confidently affirm that the basic evolutionary story is not the threat to Christian orthodoxy that we once feared, and not because we had to compromise on orthodoxy.
 
 4. Through this dialogue, important academic questions are visible. For example, in  these exchanges, we can see confusion and inconsistency in how **"sole-progenitor"** is used. With closer scrutiny, much more will unravel.
 
 5.  [**Nathan Lents** published an article in *The Skeptic*](https://www.skeptic.com/reading_room/mytho-history-evolution-of-adam-and-eve-quest-of-historical-adam/). As an atheist scientist, he reminisces about [the RTB-PS workshop](https://peacefulscience.org/articles/human-origins-rtb-workshop/) on human origins, and explains why he endorses both William Lane Craig's book and *The Genealogical Adam and Eve.*
-> I applaud Craig for the courage it took to stake his position so publicly. As he explains so well, Christians can feel safe and secure in celebrating the fascinating science of human evolution. They may even see it as divine. 
+    > I applaud Craig for the courage it took to stake his position so publicly. As he explains so well, Christians can feel safe and secure in celebrating the fascinating science of human evolution. They may even see it as divine. 
 
 6. **The BioLogos Foundation** was absentee. They did not respond to the journalist's request for comment. I am told there was a board-level decision to refuse and avoid dialogue with our work on Adam and Eve.
 
 7.  **Peter Enns** is a famous "no-Adam" theologian. He sees the divide is in theology, but still [offers a better word](https://twitter.com/peteenns/status/1478466460758560770) to Craig and Nathan.
-> I agree Craig’s book and others may be a step forward for evangelicals to engage science and shape theology around it. Their theological ceiling will not allow them to accept Adam as mythical, but at least the divide is in theology not mishandling of science.
+    > I agree Craig’s book and others may be a step forward for evangelicals to engage science and shape theology around it. Their theological ceiling will not allow them to accept Adam as mythical, but at least the divide is in theology not mishandling of science.
 
 Just as important as all of this...and exciting, the conversation still is growing. Together, maybe, we might understand something more about how sacred and natural history entwines. 
