@@ -192,6 +192,11 @@ Thus, a speaker can be less precise in articulation and yet still produce sounds
 [^48]: Lieberman, D. _Evolution of the Human Head_, 324.
 [^49]: Lieberman, D. _Evolution of the Human Head_, 325. Lieberman explains that [i] and to a lesser extent [u] serve as supervowels which are the standards for hearing correctly other vowel sounds.
 
+
+{{< image `/img/2022/02/wlc-grandkid.jpg` >}}
+William Lane Craig's grandson, Oliver, at 3 years old.
+{{< /image >}}
+
 The speech of little children furnishes a wonderful illustration here. Recall that children do not arrive at an adult configuration of their SVT until ages six to eight, and yet younger children can talk and be understood. Daniel Lieberman observes that children whose SVTs have not yet reached 1:1 proportion “do speak, often well,” but because “their formant frequencies are not as quantal, ... perception errors by listeners are higher.”[^50] But he immediately adds, “Some of these problems, however, may be due to less motor control of the tongue.”[^51] Of course; and it would be very unfair to expect little children, who are just learning to speak, to exemplify the same degree of articulate speech as an adult Neanderthal, even if the latter also lacked the SVT of a modern adult. Parents of youngsters learning to talk are especially good at interpreting their speech, and we can surmise that Neanderthals would be similarly accustomed to hearing and understanding one another correctly. Noting studies that purport to show that a Neanderthal equipped with a modern SVT would have a larynx impossibly low in the chest, Daniel Lieberman asks, “If true, does this result mean that Neanderthals, other species of archaic _Homo_, and possibly even some early modern humans couldn’t speak? Of course not. It is hard to imagine that they lacked the capacity for speech, particularly given the large size of their brains. But it may be possible that their articulation was less precise than an adult modern human’s, perhaps more like that of a 4–6 year-old, lacking fully quantal _eehs_ and _oohs_.”[^52]
 
 [^50]: Lieberman, D. _Evolution of the Human Head_, 327.
@@ -201,7 +206,7 @@ The speech of little children furnishes a wonderful illustration here. Recall th
 As for Hauser et al.’s second point—namely, the lack of archaeological evidence of Neanderthal cognitive capacity—our survey of the archaeological evidence leads to a quite different conclusion, that Neanderthals compared very favorably with MSA _Homo sapiens_ in anticipating Cro-Magnon cognitive ability. I must agree with Dan Dediu and Stephen Levinson that
 
 > language affords culture-carrying capacity (e.g. there are no advanced technologies without language), and this linkage allows reasonable inferences from the archeological record. Therefore, we think it is overwhelmingly likely that Neanderthals were as much articulate beings as we ourselves are, that is, with large vocabularies and combinatorial structures that allowed propositional content and illocutionary force to be conveyed. Only such an advanced communication system could have carried the advanced cultural adaptations that Neanderthals exhibited. ... 
-
+>
 > If one considers all of the cultural skills needed to survive in ecologies from the Arctic to game-poor Mediterranean littorals, it is difficult to argue that Neanderthals lacked complex linguistic codes, capable of communicating about spatial locations, hunting and gathering, fauna and flora, social relations, technologies, and so on. This would imply a large lexicon, and propositional encoding. Granting Neanderthals advanced language capacities seems to us inevitable.[^53]
 
 [^53]: Dediu, Dan and Levinson, Stephen C. “Neanderthal Language Revisited: Not Only Us,” _COBS_ 21 (2018): 52–53, [https://doi.org/10.1016/j.cobeha.2018.01.001](https://doi.org/10.1016/j.cobeha.2018.01.001).
