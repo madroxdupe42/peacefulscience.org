@@ -1475,3 +1475,15 @@ body {background: black}
   text-decoration:none;
   }
 
+ins, .ins {
+	background: rgba(0,255,0, 0.2);
+	text-decoration-color: rgb(0,200,0); 
+	text-decoration-line: underline;
+}
+
+del, .del {
+		background: rgba(255,0,0, 0.1);
+		text-decoration-color: rgba(255,0,0, 0.3); 
+		text-decoration-line: line-through;
+	
+}

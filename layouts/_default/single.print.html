@@ -47,6 +47,22 @@ prince-shrink-to-fit: none;
 
 }
 
+
+ins, .ins {
+	background: rgba(0,255,0, 0.2);
+	text-decoration-line: underline;
+	 text-underline-color: rgb(0,255,0); 
+	
+}
+
+del, .del {
+		background: rgba(255,0,0, 0.1);
+			text-decoration-line: line-through;
+		 text-line-through-color: rgba(255,0,0, 0.5); 
+	
+	
+}
+
 .editor {
 	  background: #f2f2f2;
 }
@@ -467,10 +483,13 @@ last modified
 
 
 <div class="margins header">
-  {{ with .Params.headerimage }}
+  {{ $src := .Params.headerimage.src | default .Params.defaultimage | default nil }}
+  {{ $credit := .Params.headerimage.credit | default nil }}
+
+  {{ with $src }}
      <div style="float: right; margin-left: 1rem; margin-bottom: 16px">
-    <img src="{{ .src | partial "imgcdn" }}" style="max-width: 250px; max-height: 250px; height: auto; width: auto;">
-    {{ with .Credit }}
+    <img src="{{ . | partial "imgcdn" }}" style="max-width: 250px; max-height: 250px; height: auto; width: auto;">
+    {{ with $credit }}
     <div style="display: block; font-size: 8px; text-align: right">
       {{ $page.RenderString . }}
       </div>
