@@ -8,6 +8,8 @@ amazon:
 - "1532652003"
 isbn:
 - "978-1532652011"
+publisher: Cascade Books
+date: 2019-01-14
 ---
 God's world was created "very good," Genesis chapter 1 tells us, and in this book Jon Garvey rediscovers the truth, known to the Church for its first 1,500 years but largely forgotten now, that the fall of mankind did not lessen that goodness. The natural creation does not require any apologies or excuses, but rather celebration and praise. The author's re-examination of the scriptural evidence, the writings of two millennia of Christian theologians, and the physical evidence of the world itself lead to the conclusion that we, both as Christians and as modern Westerners, have badly misunderstood our world. Restoring a truer vision of the goodness of the present creation can transform our own lives, sharpen the ministry of the church to the world of both people and nature, and give us a better understanding of what God always intended to bring about through Christ in the age to come.
 

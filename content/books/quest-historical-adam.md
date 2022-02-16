@@ -8,6 +8,8 @@ amazon:
 - B08ZSN6BY4
 isbn:
 - 080287911X
+date: 2021-09-28
+publisher: Eerdmans
 ---
 *Was Adam a real historical person? And if so, who was he and when did he live?*
 

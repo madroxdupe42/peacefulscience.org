@@ -9,6 +9,8 @@ amazon:
 - B07BB5WZ1S
 isbn:
 - 978-1595556844
+publisher: Elm Hill
+date: 2018-07-03
 ---
 In 1906, American humorist Mark Twain published a sixty-page essay entitled “What is man?” Consisting of an interminable dialogue between a senior citizen (who believes that man is just a machine) and a young man (who believes nothing in particular but is open to persuasion), it wasn’t one of his finest books. But at least he tried. Authors since then seem to have avoided the subject like the plague, often tackling the respective roles of men and women in society but seldom asking deeper questions about what it means to be human. When the psalmist asked, “What is man?” (Psalm 8 v.4) he was, I think, seeking an altogether more profound answer.
 
