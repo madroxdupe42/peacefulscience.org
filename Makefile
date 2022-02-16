@@ -20,8 +20,12 @@ imginfo: static/img
 pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
 
-crossref:
+crossref-check:
 	xmllint  --schema  crossref/schemas/crossref5.3.1.xsd  public/.xref/*.xml --nowarning --noout
+
+crossref: crossref-check crossref-nocheck
+
+crossref-nocheck:
 	curl -s -F 'operation=doMDUpload' -F 'fname=@public/.xref/conf.xml' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS
 	curl -s -F 'operation=doMDUpload' -F 'fname=@public/.xref/posted.xml' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS
 	curl -s -F 'operation=doMDUpload' -F 'fname=@public/.xref/book.xml' -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS
@@ -37,7 +41,7 @@ production: princehack
 else
 production:
 endif
-	echo $INCOMING_HOOK_BODY
+	echo ${INCOMING_HOOK_BODY}
 	npm run tailwind
 	hugo -b https://peacefulscience.org/ --minify | tee hugo.log
 	bash code/mathjax	
