@@ -34,10 +34,10 @@ PARAMS = {
 
 print(PARAMS)
 
-# R = requests.post(URL, headers=HEADERS, data=PARAMS);
+R = requests.post(URL, headers=HEADERS, data=PARAMS);
 
 
-TOPIC_ID = 100
+TOPIC_ID = int(R.json()["topic_id"])
 
 
 URL = "%s/t/%d/status.json" % (BASE, TOPIC_ID)
@@ -48,4 +48,4 @@ PARAMS = {
   "until": str(datetime.datetime.now() + datetime.timedelta(days=14))
 }
 
-# R = requests.put(URL, headers=HEADERS, data=PARAMS);
+R = requests.put(URL, headers=HEADERS, data=PARAMS);
