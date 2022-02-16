@@ -13,7 +13,7 @@
 {{ printf "/pdf%s.pdf" ( replaceRE `\/$` `` .) }} {{ $pdf }}
     {{- end -}}
   {{- end -}}
-{{- end -}}
+{{- end }}
 
 # from redirects partial
 {{ partial "redirects" }}
