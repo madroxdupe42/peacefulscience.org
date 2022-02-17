@@ -1482,8 +1482,21 @@ ins, .ins {
 }
 
 del, .del {
-		background: rgba(255,0,0, 0.1);
-		text-decoration-color: rgba(255,0,0, 0.3); 
+		background: rgba(255,0,0, 0.15);
+		text-decoration-color: rgba(255,0,0, 0.4); 
 		text-decoration-line: line-through;
-	
+
+}
+
+.article-text del a {
+			text-decoration-line: line-through underline;
+			text-decoration-color: rgba(255,0,0, 0.4); 
+}
+
+.hide-ins ins,  .hide-ins .ins {
+  display: none
+}
+
+.hide-del del, .hide-del .del {
+  display: none
 }
