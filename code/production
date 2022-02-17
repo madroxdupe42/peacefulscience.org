@@ -17,6 +17,10 @@ then
     echo
     echo Registering DOIs
     make crossref-nocheck
+
+    echo
+    echo Updating Algolia
+    npm run algolia
   fi
 
   for i in `awk '/TODAY/ {print $5}' hugo.log`
@@ -26,3 +30,5 @@ then
     python share_discourse.py content/$i
   done  
 fi
+
+rm public/algolia.json
