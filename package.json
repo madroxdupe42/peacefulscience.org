@@ -24,6 +24,7 @@
     "postcss-import": "^14.0.2",
     "postcss-import-url": "^7.0.0",
     "prince": "^1.9.5",
+    "random-string-generator": "^1.0.0",
     "url-join": "^4.0.1",
     "url-parse": "^1.5.4",
     "urljoin": "^0.1.5",

@@ -5,14 +5,14 @@ const urljoin = require('url-join');
 const util   = require("util");
 var os = require('os');
 var fs = require('fs');
-
+var random = require('random-string-generator');
 
 const Prince = require('prince');
 
 const baseurl = "https://peacefulscience.org/";
 
 async function prince(url) {
-  let tfile = os.tmpdir()+"/output.pdf";
+  let tfile = os.tmpdir()+"/" + random() + ".output.pdf";
   let p = Prince();
   
   if (process.env.PRINCE) {
@@ -29,6 +29,7 @@ async function prince(url) {
       return fs.readFileSync(tfile, null);
     })
     .then(function (buffer) {    
+     fs.unlinkSync(tfile);
      return {    
       statusCode: 200,
       isBase64Encoded: true,
