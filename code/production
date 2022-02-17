@@ -11,16 +11,18 @@ node code/extract.js > public/ps.rdf
 
 if [ ${INCOMING_HOOK_BODY:-X} == "DAILY" ] 
 then
-  echo
-  echo Registering DOIs
-  make crossref-nocheck
-  echo
+
+  if grep -q TODAY hugo.log
+  then
+    echo
+    echo Registering DOIs
+    make crossref-nocheck
+  fi
 
   for i in `awk '/TODAY/ {print $5}' hugo.log`
   do
     echo
     echo Sharing: $i 
     python share_discourse.py content/$i
-
   done  
 fi
