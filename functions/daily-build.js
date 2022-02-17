@@ -13,4 +13,6 @@ const handler = async function(event, context) {
   )
 };
 
-module.exports.handler = schedule("0 16 * * *", handler);
+// Run at 8am daily
+
+module.exports.handler = schedule("0 14 * * *", handler); 
