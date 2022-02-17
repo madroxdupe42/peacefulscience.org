@@ -4,7 +4,7 @@
 {{ $id := printf "adobe-dc-view%s" .Ordinal }}
 
 {{- if not (fileExists (printf "static%s" $pdf )) -}}
-  {{- warnf "MISSING.PDF:\t%s\t%s" $.Page.Path $pdf -}}
+  {{- warnf "MISSING.PDF:\t%s\t%s" $.Page.File.Path $pdf -}}
   {{ $pdf = $pdf | absURL }}
 {{- end -}}
 

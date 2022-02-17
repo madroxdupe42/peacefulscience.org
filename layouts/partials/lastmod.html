@@ -1,6 +1,6 @@
 {{ $out := .Lastmod }}
 {{ $date := .Date }}
-{{ $path := .Path }}
+{{ $path := .File.Path }}
 
 {{ with index site.Data.lastmod $path }}
   {{ $ignore := time .ignore }}

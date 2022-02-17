@@ -12,19 +12,19 @@
   
   {{ with .Description }}
     {{ if in . "..." }}
-      {{ warnf "DESC.ELLIPSE\t%s" $.Path }}
+      {{ warnf "DESC.ELLIPSE\t%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
   {{ with .Content }}
     {{ if in . "::" }}
-      {{ warnf "CONTENT.COLONS\tcontent/%s" $.Path }}
+      {{ warnf "CONTENT.COLONS\tcontent/%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
   {{ with .Content }}
     {{ if or ( in . "^") ( in (replace .  "style>*" "style>ASTERIX" ) "*") }}
-      {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.Path }}
+      {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
@@ -60,7 +60,7 @@
           <div class="pb-2">
             {{- with .Params.headerImage }}
               {{- $startsec := .startsec | default 0 }}
-              {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
+              {{- $src := partial "imgurl" (dict "src"  .src "loc" $.File.Path ) -}}
               {{- $cdnsrc := partial `imgcdn` $src  }}
               {{- $headerclass := "" }}
               {{- with .youtube }}
@@ -175,7 +175,7 @@
         <div class="d-flex d-print-flex d-md-none mt-5 ml-5" style="font-size: smaller;">
 <div style=" text-align: right;  padding-right: 0.5rem;">
  <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="py-1 text-decoration-none d-inline"
@@ -262,7 +262,7 @@ accessed
    <span style="color: red"> deleted</span><br>
 {{ end }}
  <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="py-1 text-decoration-none d-inline"
@@ -369,14 +369,14 @@ accessed
                   >
                 {{ end }}
                 <a
-                  href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .Path | safeURL }}"
+                  href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}"
                   rel="”nofollow”"
                   target="_blank"
                   class="font-special my-3 btn btn-primary btn-md"
                   >Suggest Changes</a
                 >
                 <a
-                  href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .Path  | safeURL }}"
+                  href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}"
                   rel="”nofollow”"
                   target="_blank"
                   class="font-special my-3 btn btn-primary btn-md"
