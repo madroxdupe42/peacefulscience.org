@@ -1,0 +1,26 @@
+
+npm run tailwind
+
+hugo -b https://peacefulscience.org/ --minify | tee hugo.log
+
+bash -e code/mathjax	
+
+node code/render.js
+
+node code/extract.js > public/ps.rdf
+
+if [ ${INCOMING_HOOK_BODY:-X} == "DAILY" ] 
+then
+  echo
+  echo Registering DOIs
+  make crossref-nocheck
+  echo
+
+  for i in `awk '/TODAY/ {print $5}' hugo.log`
+  do
+    echo
+    echo Sharing: $i 
+    python share_discourse.py content/$i
+
+  done  
+fi

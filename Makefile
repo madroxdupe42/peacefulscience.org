@@ -41,12 +41,7 @@ production: princehack
 else
 production:
 endif
-	echo ${INCOMING_HOOK_BODY}
-	npm run tailwind
-	hugo -b https://peacefulscience.org/ --minify | tee hugo.log
-	bash code/mathjax	
-	node code/render.js
-	node code/extract.js > public/ps.rdf
+	bash -e code/production	
 
 princeclean:
 	rm -rf `zipinfo -1  prince-14.2-aws-lambda.zip`
