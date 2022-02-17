@@ -23,7 +23,7 @@
     
     {{- $image:= "" -}}
     {{- with .Params.headerImage.Src }}
-      {{-  $image = partial "imgurl" (dict "src"  . "loc" $.Path ) | partial "imgcdn"  -}}
+      {{-  $image = partial "imgurl" (dict "src"  . "loc" $.File.Path ) | partial "imgcdn"  -}}
     {{- end -}}    
     
     {{- $.Scratch.Add "index" 

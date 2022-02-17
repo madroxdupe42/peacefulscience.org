@@ -35,7 +35,7 @@
 {{- end }}
 
 {{- if not .Text -}}
-  {{- warnf "EMPTY.LINK:\t%s" $.Page.Path -}}
+  {{- warnf "EMPTY.LINK:\t%s" $.Page.File.Path -}}
 {{- end -}}
 
 {{- $scratch := $.Page.Scratch -}}
