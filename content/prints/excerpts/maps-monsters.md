@@ -5,7 +5,7 @@ authors:
 categories:
 - science
 - history
-description: Here be dragons ... and what they really meant to those who included them.
+description: Here be dragons, and what they really meant to those who included them on their maps.
 publishdate: 2022-02-16
 date: 2021-02-17
 partof:
