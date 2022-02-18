@@ -7,7 +7,7 @@ date: 2022-02-22
 layers:
 - type: body
 - type: pages
-  heading: Related  Articles
+  heading: Related Articles
 pages:
 - /prints/ets-mccall-mte
 - /articles/cancer-evolution
