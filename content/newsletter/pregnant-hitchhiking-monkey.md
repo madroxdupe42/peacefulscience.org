@@ -1,6 +1,6 @@
 ---
 title: Mind the Pregnant Hitchhiking Monkey
-description: Tom McCall 
+description: A curious tale from evolutionary science takes center stage as the conversation on MTE continues.
 authors:
 - swamidass
 date: 2022-02-22
