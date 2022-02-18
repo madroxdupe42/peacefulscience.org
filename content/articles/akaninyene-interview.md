@@ -3,6 +3,8 @@ title: Pursuing Justice in Public Health
 authors:
 - Akaninyene Ruffin
 - ciara 
+editor: 
+- ciara
 description: I went to Vanderbilt specifically to study the social determinants of health, specifically those related to outcomes of Black birthing folks. 
 date: 2022-02-24
 categories:

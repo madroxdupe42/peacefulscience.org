@@ -4,6 +4,8 @@ date: 2022-02-06
 authors:
 - Sierra Nance
 - ciara
+interview:
+- ciara
 categories:
 - science
 - race  
