@@ -11,8 +11,8 @@ layers:
 pages:
 - /prints/ets-averbeck-gae
 - /prints/ets-loke-gae
-- /articles/certain-point-of-view
-- /articles/stop-youre-both-right
+- /prints/excerpts/certain-point-of-view
+- /prints/excerpts/stop-youre-both-right
 ---
 
 
