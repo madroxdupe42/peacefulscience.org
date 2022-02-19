@@ -255,6 +255,10 @@ accessed
       >
 
 
+{{ if .Params.math }}
+  {{ partial "mathjax" . }}
+{{ end }}
+
 <div class="ml-5 mt-5" style="display: flex; ; font-size: smaller;">
 <div style=" text-align: right;  padding-right: 0.5rem;">
 

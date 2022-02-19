@@ -638,4 +638,8 @@ for (var s of ss)
 
 
 
+{{ if .Params.math }}
+  {{ partial "mathjax" . }}
+{{ end }}
+
 {{ end }}
