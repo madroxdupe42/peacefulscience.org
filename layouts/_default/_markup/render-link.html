@@ -11,7 +11,14 @@
 {{- $data := default nil -}}
 {{- $tag := $resolve.Tag -}}
 {{- $rel := $resolve.Rel -}}
+{{- $hash := $resolve.Hash -}}
 {{- $tooltip := $resolve.Tooltip -}}
+
+{{- with $hash }}
+  {{- $hash = printf "#%s" $hash }}
+{{- else }}
+  {{- $hash = `` }}
+{{- end }} 
 
 {{- if eq $resolve.Type "internal" }}
   {{- $class = "" -}}
@@ -77,8 +84,8 @@
   {{ warnf "EMPTYDEST:\t%s\t%s" .Page.RelPermalink .Destination }}
 {{ end }} 
 
-<a href="{{- $dest -}}{{- $tag }}"
-{{-  with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
+<a href="{{- $dest -}}{{ $hash }}{{- $tag }}"
+{{- with $data }} data-toggle="tooltip" data-placement="bottom" data-html="true" title="{{- $data -}}" {{- end -}}
 {{- with $target }} target='{{- $target -}}'{{- end -}}
 {{- with $rel }} rel='{{- $rel -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}}
