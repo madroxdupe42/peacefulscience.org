@@ -2111,6 +2111,10 @@
         "height": 2560,
         "width": 2560
     },
+    "/img/2022/02/3generations.jpeg": {
+        "height": 132,
+        "width": 432
+    },
     "/img/2022/02/Ian-Hutchinson-photo.jpeg": {
         "height": 1500,
         "width": 2250
@@ -2159,6 +2163,18 @@
         "height": 259,
         "width": 523
     },
+    "/img/2022/02/combo1-3.jpeg": {
+        "height": 264,
+        "width": 432
+    },
+    "/img/2022/02/combo1.jpeg": {
+        "height": 92,
+        "width": 432
+    },
+    "/img/2022/02/crossover.png": {
+        "height": 497,
+        "width": 900
+    },
     "/img/2022/02/divergence.png": {
         "height": 277,
         "width": 525
@@ -2173,6 +2189,10 @@
     },
     "/img/2022/02/dnavariant.png": {
         "height": 626,
+        "width": 900
+    },
+    "/img/2022/02/ecab.png": {
+        "height": 195,
         "width": 900
     },
     "/img/2022/02/footnotes-cover.png": {
@@ -2190,6 +2210,10 @@
     "/img/2022/02/hereford-map.jpg": {
         "height": 2591,
         "width": 4606
+    },
+    "/img/2022/02/heterozyg.png": {
+        "height": 229,
+        "width": 900
     },
     "/img/2022/02/human_interbreeding.png": {
         "height": 1092,
@@ -2227,9 +2251,17 @@
         "height": 176,
         "width": 597
     },
+    "/img/2022/02/selection.png": {
+        "height": 351,
+        "width": 900
+    },
     "/img/2022/02/tongue_shape.png": {
         "height": 1558,
         "width": 1566
+    },
+    "/img/2022/02/two-brains.png": {
+        "height": 1350,
+        "width": 2400
     },
     "/img/2022/02/venema6pic.png": {
         "height": 425,
