@@ -1,4 +1,15 @@
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-mml-svg.js" RUN_MATHJAX remove>
+<script render remove>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+   fontCache: 'none',
+    mtextInheritFont: true,
+  }
+};
+</script>
+
+<script async type="text/javascript" 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-mml-svg.js" id="MathJax-script" mathjax remove>
   </script>
-{{ warnf "MATHJAX %s" .RelPermalink }}

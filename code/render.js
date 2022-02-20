@@ -4,6 +4,20 @@ const fs = require('fs').promises;
 const fg = require('fast-glob');
 const classes = new Set();
 
+const {mathjax} = require('mathjax-full/js/mathjax.js');
+const {TeX} = require('mathjax-full/js/input/tex.js');
+const {SVG} = require('mathjax-full/js/output/svg.js');
+const {liteAdaptor} = require('mathjax-full/js/adaptors/liteAdaptor.js');
+const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
+const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
+require('mathjax-full/js/util/entities/all.js');
+
+const adaptor = liteAdaptor({fontSize: 16});
+RegisterHTMLHandler(adaptor);
+
+const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
+const svg = new SVG({fontCache: "local", exFactor: 0.5});
+
 function parsedom(html) {
     const dom = parseHTML(html);
     dom.context = vm.createContext({
@@ -12,16 +26,6 @@ function parsedom(html) {
       "navigator": dom.navigator,
     });
     return dom;
-}
-
-//const twitterjs = fetch("https://platform.twitter.com/widgets.js");
-
-async function twitter(dom) {
-  twitterjs
-    .then(response => {
-        console.log(response)
-    });
-  return dom;
 }
 
 async function dom2html(dom) {
@@ -46,14 +50,27 @@ async function remove(dom) {
  return dom;
 }
 
+async function render_mathjax(html) {
+  const mj = mathjax.document(html, {InputJax: tex, OutputJax: svg});
+  mj.render();
+  html = adaptor.doctype(mj.document) + "\n" ;
+  html += adaptor.outerHTML(adaptor.root(mj.document));
+  return html;
+}
+
 async function render(html) {
  const dom = parsedom(html);
-
+ 
+ hasMJ = dom.document.querySelector("[mathjax]");
+ 
  return runscripts(dom)
-   .then(runscripts)
    .then(remove)
    .then(getclasses)
    .then(dom2html)
+   .then((html) => {
+     if (hasMJ) return render_mathjax(html);
+     return html;
+   })
 }
 
 async function renderall(glob) {
@@ -72,7 +89,8 @@ async function renderall(glob) {
 let globs = process.argv.slice(2);
 
 globs = globs.length ? globs : 'public/**/*.html';
-console.log(globs)
+
+console.log("RENDERING: ", globs)
 
 renderall(globs)
-.then(r => fs.writeFile("layouts/classes.html", [...classes].join(' ')))
+.then(r => fs.writeFile("layouts/classes.html", [...classes].join('\n')))

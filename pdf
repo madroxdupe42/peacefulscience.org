@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-hugo -DF
-bash code/mathjax
+hugo -DF | tee hugo.log
+
 node code/render.js
+
 
 for i in $*
 do

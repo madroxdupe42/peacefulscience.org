@@ -1,5 +1,5 @@
-bash -e code/mathjax
 
+echo
 node code/render.js
 
 node code/extract.js > public/ps.rdf
