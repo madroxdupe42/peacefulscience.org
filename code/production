@@ -1,6 +1,6 @@
 bash -e code/prebuild.hook
 
-npm run tailwind
+# npm run tailwind
 
 hugo -b https://peacefulscience.org/ --minify | tee hugo.log
 
