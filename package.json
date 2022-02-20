@@ -19,7 +19,6 @@
     "load-json-file": "^7.0.1",
     "mathjax": "^3.2.0",
     "mathjax-full": "^3.2.0",
-    "mathjax-node-page": "^1.4.0",
     "onesignal": "^0.1.2",
     "postcss-cli": "^9.0.2",
     "postcss-import": "^14.0.2",
