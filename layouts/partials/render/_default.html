@@ -69,7 +69,7 @@
 {{- end -}}
 
 {{- if in .Elements "date" -}}
-  {{- with $page.Date -}}
+  {{- with $page.PublishDate -}}
     <span class="text-muted article-date text-smaller"> {{ .Format "January 2, 2006" }}</span>
   {{- end -}}
 {{- end -}}
