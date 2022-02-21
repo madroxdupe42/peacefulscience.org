@@ -3,8 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $vlookup := index (partialCached "byviews" .).Lookup }}
-  {{ $views := index $vlookup .RelPermalink "Views" }}
+  {{/* $vlookup := index (partialCached "byviews" .).Lookup  */}}
+  {{/* $views := index $vlookup .RelPermalink "Views" */}}
   
   {{ if eq (now.Format "2006-01-02") (.PublishDate.Format "2006-01-02")  }}
     {{ warnf "TODAY %s" .File.Path }}
@@ -39,7 +39,7 @@
       <header class="article-header mb-5 " style="" id="pageHeader">
         {{ partial "breadcrumbs" .Parent }}
       
-        <h1 id="title" property="title" class="article-title mt-2" {{with .Params.deletiondate}} style="text-decoration: line-through rgba(255,0,0,0.7)  0.08em;" {{end}}>
+        <h1 id="title" property="title" class="article-title mt-2{{with .Params.deletiondate}} red-stike{{end}}">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
 
@@ -70,7 +70,7 @@
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
                 <img 
-                  src="{{ $cdnsrc }}?imgeng=/w_auto"
+                  src="{{ $cdnsrc }}?imgeng=/w_auto,800/"
                   class="webfeedsFeaturedVisual {{ $headerclass }}"
                   style="width: 100%; height: auto"
                   sizes="(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px"
@@ -257,6 +257,11 @@ accessed
 
 {{ if .Params.math }}
   {{ partial "mathjax" . }}
+{{ end }}
+
+
+{{ if .Params.hypothesis }}
+  <script hypothesis></script>
 {{ end }}
 
 <div class="ml-5 mt-5" style="display: flex; ; font-size: smaller;">

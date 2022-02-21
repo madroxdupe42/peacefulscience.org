@@ -89,7 +89,7 @@ outputformats:
     permalinkable: false
    
 outputs:
-  home: ["HTML", "precompute", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
+  home: ["HTML", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
   page: ["HTML", "print"]
 
 params:

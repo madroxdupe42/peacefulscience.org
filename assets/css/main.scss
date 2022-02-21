@@ -914,8 +914,14 @@ width: 100%;
    @extend .expand-right;	
    img {width: 100%; max-width: unset; 
    object-fit: contain;
+   object-position: left;
 }
   }
+
+.red-strike {
+  text-decoration: line-through rgba(255,0,0,0.7)  0.08em;
+}
+
 
 
   .aside-xl-right {

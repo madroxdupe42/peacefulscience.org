@@ -12,11 +12,6 @@ const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
 const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 require('mathjax-full/js/util/entities/all.js');
 
-const adaptor = liteAdaptor({fontSize: 16});
-RegisterHTMLHandler(adaptor);
-
-const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
-const svg = new SVG({fontCache: "local", exFactor: 0.5});
 
 function parsedom(html) {
     const dom = parseHTML(html);
@@ -50,6 +45,12 @@ async function remove(dom) {
  return dom;
 }
 
+const adaptor = liteAdaptor({fontSize: 16});
+RegisterHTMLHandler(adaptor);
+
+const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
+const svg = new SVG({fontCache: "local", exFactor: 0.5});
+
 async function render_mathjax(html) {
   const mj = mathjax.document(html, {InputJax: tex, OutputJax: svg});
   mj.render();
@@ -61,16 +62,13 @@ async function render_mathjax(html) {
 async function render(html) {
  const dom = parsedom(html);
  
- hasMJ = dom.document.querySelector("[mathjax]");
+ var has_mathjax = dom.document.querySelector("[mathjax]");
  
  return runscripts(dom)
    .then(remove)
    .then(getclasses)
    .then(dom2html)
-   .then((html) => {
-     if (hasMJ) return render_mathjax(html);
-     return html;
-   })
+   .then(has_mathjax && render_mathjax);  
 }
 
 async function renderall(glob) {
