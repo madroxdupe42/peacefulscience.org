@@ -8,6 +8,7 @@
     "build:style": "npm run tailwind && npm run scss"
   },
   "dependencies": {
+    "@google-cloud/language": "^4.3.2",
     "@hotwired/turbo": "^7.1.0",
     "@netlify/functions": "^1.0.0",
     "algoliasearch": "^4.11.0",
@@ -15,11 +16,14 @@
     "citeproc": "^2.4.62",
     "instantsearch.js": "^4.35.0",
     "jsdom": "^19.0.0",
+    "json-to-pretty-yaml": "^1.2.2",
     "jsonld": "^5.2.0",
     "load-json-file": "^7.0.1",
     "mathjax": "^3.2.0",
     "mathjax-full": "^3.2.0",
     "onesignal": "^0.1.2",
+    "p-debounce": "^4.0.0",
+    "p-limit": "^4.0.0",
     "postcss-cli": "^9.0.2",
     "postcss-import": "^14.0.2",
     "postcss-import-url": "^7.0.0",

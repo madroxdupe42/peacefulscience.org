@@ -13,7 +13,7 @@ const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 require('mathjax-full/js/util/entities/all.js');
 
 
-function parsedom(html) {
+async function parsedom(html) {
     const dom = parseHTML(html);
     dom.context = vm.createContext({
       'window': dom, 
@@ -59,27 +59,35 @@ async function render_mathjax(html) {
   return html;
 }
 
-async function render(html) {
- const dom = parsedom(html);
+async function render(path) {
+ var has_mathjax = false;
  
- var has_mathjax = dom.document.querySelector("[mathjax]");
- 
- return runscripts(dom)
+ return fs.readFile(path)
+   .then(parsedom)
+   .then((dom) => {
+     has_mathjax = dom.document.querySelector("[mathjax]");
+     if(has_mathjax) console.log("mathjax", path);
+     return dom;})
+   .then(runscripts)
    .then(remove)
    .then(getclasses)
    .then(dom2html)
-   .then(has_mathjax && render_mathjax);  
+   .then(has_mathjax && render_mathjax) 
+   .then(fs.writeFile.bind(null, path));
 }
 
 async function renderall(glob) {
   const tasks = [];
   const stream = fg.stream(glob);
+  const pLimit = (await import('p-limit')).default;
+
+  var limit = pLimit(50);
+  
   for await (const path of stream) 
     tasks.push(
-      fs.readFile(path)
-        .then(render)
-        .then(fs.writeFile.bind(null, path))
+      limit(() => render(path)
         .catch(e => {console.error(e); throw e;})
+      )
     )
   return Promise.all(tasks);
 };
