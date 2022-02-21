@@ -91,5 +91,5 @@
 {{- with $class }} class='{{- $class -}}'{{- end -}}
 {{- with $class }} class='{{- $class -}}'{{- end -}} 
 {{- with .Title }} title="{{- . -}}" {{- end -}}
->{{- .Text | safeHTML }}{{ with $num }}<sup class="link-ref d-none">[{{- . | partial "letternum"  -}}]</sup>{{end}}</a>
+>{{- .Text | safeHTML }}{{ with $num }}{{end}}</a>
 {{- end -}}
