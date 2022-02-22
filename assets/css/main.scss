@@ -848,6 +848,10 @@ grid-template-columns: calc(25% + 20px) auto;
 }
 
 
+.red-strike {
+  text-decoration: line-through rgba(255,0,0,0.7)  calc(0.04em + 1.2px) ;
+}
+
 
 .article-date {
 
@@ -926,9 +930,6 @@ width: 100%;
 }
   }
 
-.red-strike {
-  text-decoration: line-through rgba(255,0,0,0.7)  0.08em;
-}
 
 
 
