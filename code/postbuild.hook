@@ -14,11 +14,11 @@ then
 
     make crossref-nocheck
     rm -rf _cache/xref
-    mv public/.xref _cache/xref
+#    mv public/.xref _cache/xref
 
     echo
     echo Updating Algolia
-    npm run algolia
+#    npm run algolia
   fi
 
   for i in `awk '/TODAY/ {print $5}' hugo.log`
