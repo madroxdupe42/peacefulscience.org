@@ -1,6 +1,6 @@
 ---
 title: 'On Mere Theistic Evolution'
-description: So far as I can see, we are not in a position to conclude that MTE has been weighed in the balances and found wanting.
+description: The Christian community needs to see more humility from its intellectual leaders—and more patience and less pressure to crank out surefire answers to  hard questions on complex issues.
 sameas:
 - https://doi.org/10.5840/pc20202212
 - https://www.pdcnet.org/pc/content/pc_2020_0022_0001_0007_0040
