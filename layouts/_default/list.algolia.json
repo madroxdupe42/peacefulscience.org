@@ -1,11 +1,15 @@
+
+
 {{/* Generates a valid Algolia search index */}}
 {{- $.Scratch.Add "index" slice -}}
-{{- $section := $.Site.GetPage "section" .Section }}
+{{- $sections := (slice "articles" "prints" "about" "newsletter") }}
 
 {{- range .Site.RegularPages -}}
-  {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
+  {{ warnf "%s" .Section }}
+  {{- if and (in $sections .Section ) (and (not .Draft) (not .Params.private)) -}}
   
-    {{ $render :=  partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "col-12" ) }}
+    {{ $render :=  partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "w-100" ) }}
+    {{ $render = replaceRE `(?m:\s\s+)` ` ` $render }}
     
     {{- $authors := (slice) -}}
     {{- with .Params.Authors -}}
@@ -28,7 +32,7 @@
     
     {{- $.Scratch.Add "index" 
        (dict "objectID" .File.UniqueID 
-             "content" .Plain 
+             "content" (substr .Plain 0 90000) 
              "date" .Date.UTC.Unix 
              "description" .Description 
              "dir" .File.Dir
