@@ -4,8 +4,8 @@ touch _cache/_redirects
 if [ ${INCOMING_HOOK_BODY:-X} == "DAILY" ] || [ ! -f _cache/trending.json ]
 then
   echo
-  echo Computing analytics
-  python code/update_analytics.py;
+  echo Computing analytics...
+  python code/update_analytics.py || echo FALIED.;
 fi
 
 cp _cache/*.json data/
