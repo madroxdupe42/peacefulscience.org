@@ -33,10 +33,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="content" style="position: relative; z-index: 2; isolation: isolate">
   {{- block "main" . }}{{- end }}
 </div>
+
+{{- if .Params.design.footer | default true -}}
 {{- partial "footer.html" . -}}
-
-{{ partial "modal-subscribe" . }} 
-
+{{- end -}}
 
 </div>
 
@@ -55,6 +55,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      
    <div id="video-id" class="d-none"></div>
 </div>
+
+{{ partialCached "modal-subscribe" . }} 
 
 </body>
 </html>

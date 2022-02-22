@@ -1,6 +1,8 @@
 ---
 layout: search
 title: Search
+design:
+  footer: false
 description: Search the Peaceful Science archives.
 jsonld:
     "@type": WebPage

@@ -9,10 +9,10 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" 
  media="print" onload="this.media='all'"  crossorigin="anonymous">
  
-<div class="bg-white">
+<div class="" style="height: 100vh; background: #dfdfdf">
 
 
-<div class="gae-header-bg shadow" style="z-index:100;position: relative;">
+<div class="gae-header-bg shadow" style="height: 200px; z-index:100;position: relative; ">
 
 <div style="height: 40px; width: 100%"></div>
 <div class="container">
@@ -37,17 +37,21 @@
 </div>
 
 
-<div class="article-grid">
+<div class="container">
 
-<div class="article-body pb-5 clearfix" style="z-index:10">
-<div id="hits" ></div>
-<div id="pagination"></div>
+<div class="row shadow" style="background: white">
+
+<div class="col-12 pb-5 clearfix col-lg-8" style="  z-index:10;  overscroll-behavior: none; overflow-y: scroll;  height: calc(100vh - 200px)">
+<div >
+  <div id="hits" class="py-5"></div>
+  <div id="pagination"></div>
+</div>
 </div>
 
 
-<div class="left-sidebar" style="height: 100%;">
+<div class="col-4 d-none d-lg-block" style="height: calc(100vh - 200px); overscroll-behavior: none; overflow-y: scroll">
   <div style="position: relative">
-   <div class="position-sticky pl-5 py-5" style="top:0%; width: 100%; background: white">
+   <div class="position-sticky py-5" style="top:0%; width: 100%; background: white">
 
 
 
@@ -101,6 +105,8 @@
   </div>
 </div>
 
+
+</div>
 </div>
 
  <script src="{{ (resources.Get "js/search.js" | js.Build (dict "minify" true ) | resources.Fingerprint ).Permalink }}"> </script>
