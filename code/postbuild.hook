@@ -5,8 +5,7 @@ if [[ "${TASKS}" == *"CROSSREF"* ]] && grep -q TODAY _cache/hugo.log
 then
   echo
   echo CROSSREF task...
-  python code/update_analytics.py || echo FALIED.;
-
+  
   for file in _cache/xref/*.xml
   do 
     if  curl -s -F 'operation=doMDUpload' -F "fname=@${file}" -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS > /dev/null;
@@ -16,6 +15,7 @@ then
       echo  $file failed. ;
     fi
   done 
+  
   echo
 fi
 
