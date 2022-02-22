@@ -5,7 +5,6 @@
 {{- $sections := (slice "articles" "prints" "about" "newsletter") }}
 
 {{- range .Site.RegularPages -}}
-  {{ warnf "%s" .Section }}
   {{- if and (in $sections .Section ) (and (not .Draft) (not .Params.private)) -}}
   
     {{ $render :=  partial "render" (dict "Page" .  "Style" "horizontal" "Layout"  "w-100" ) }}
