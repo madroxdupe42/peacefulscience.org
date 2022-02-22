@@ -1,35 +1,44 @@
+set -e
+set -o pipefail
 
-echo
-node code/render.js
-
-node code/extract.js > public/ps.rdf
-
-if [ ${INCOMING_HOOK_BODY:-X} == "DAILY" ]
+if [[ "${TASKS}" == *"CROSSREF"* ]] && grep -q TODAY _cache/hugo.log
 then
+  echo
+  echo CROSSREF task...
+  python code/update_analytics.py || echo FALIED.;
 
-  if grep -q TODAY hugo.log
-  then
-    echo
-    echo Registering DOIs
+  for file in _cache/xref/*.xml
+  do 
+    if  curl -s -F 'operation=doMDUpload' -F "fname=@${file}" -F 'login_id=${CROSSREF_ID}' -F 'login_passwd=${CROSSREF_PASS}' https://doi.crossref.org/servlet/deposit | grep SUCCESS > /dev/null;
+    then 
+      echo  $file ;
+    else
+      echo  $file failed. ;
+    fi
+  done 
+  echo
+fi
 
-    make crossref-nocheck
-    rm -rf _cache/xref
-#    mv public/.xref _cache/xref
 
-    echo
-    echo Updating Algolia
-#    npm run algolia
-  fi
+if [[ "${TASKS}" == *"ALGOLIA"* ]] && grep -q TODAY _cache/hugo.log
+then
+  echo
+  echo ALGOLIA task...
+  ALGOLIA_INDEX_FILE=_cache/algolia.json npm run algolia
+  echo
+fi
 
-  for i in `awk '/TODAY/ {print $5}' hugo.log`
+
+if [[ "${TASKS}" == *"DISCOURSE"* ]] && grep -q TODAY _cache/hugo.log
+then
+  echo DISCOURSE task...
+  
+  for i in `awk '/TODAY/ {print $5}' _cache/hugo.log`
   do
     echo
-    echo Sharing: $i
+    echo $i
     python share_discourse.py content/$i
   done
 fi
 
-rm public/algolia.json
-
-cp public/_redirects _cache
 

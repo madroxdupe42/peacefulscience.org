@@ -1,11 +1,13 @@
-mkdir -p _cache
-touch _cache/_redirects
+set -e
+set -o pipefail
 
-if [ ${INCOMING_HOOK_BODY:-X} == "DAILY" ] || [ ! -f _cache/trending.json ]
+if [[ "${TASKS}" == *"ANALYTICS"* ]] 
 then
   echo
-  echo Computing analytics...
+  echo ANALYTICS task...
   python code/update_analytics.py || echo FALIED.;
+  cp _cache/*.json data/
+  echo
 fi
 
-cp _cache/*.json data/
+

@@ -1,8 +1,45 @@
-bash -e code/prebuild.hook
+#!/usr/bin/env bash
+set -e
+set -o pipefail
+
+export TASKS=${INCOMING_HOOK_BODY:-${TASKS:-BUILD}}
+
+if [[ "${TASKS}" == "DAILY" ]]
+then
+  export TASKS="BUILD DISCOURSE CROSSREF"
+fi
+
+echo TASKS: $TASKS
+echo
+
+
+mkdir -p _cache
+touch _cache/_redirects
+
+bash code/prebuild.hook
 
 # npm run tailwind
 
-hugo -b https://peacefulscience.org/ --minify | tee hugo.log
+if [[ "${TASKS}" == *"BUILD"* ]] 
+then
+  echo
+  echo BUILD task... 
+  CMD="hugo ${HUGO_ARGS:--b https://peacefulscience.org/ --minify}"
+  echo "    "$CMD
+  $CMD | tee _cache/hugo.log | awk '{print "    "$0}'
+  echo 
+  node code/render.js
+  
+  rm -rf _cache/xref
+  mv public/.xref _cache/xref
+  echo
+  
+  # node code/extract.js > public/ps.rdf
+  cp public/_redirects _cache
+  
+  mv public/algolia.json _cache
+  echo
+fi
 
-bash -e code/postbuild.hook
+bash code/postbuild.hook
 
