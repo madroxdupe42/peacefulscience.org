@@ -14,8 +14,14 @@ headerimage:
   src: /img/2022/02/akaninyene.png
 ---
 
+
+Two days ago, [Paul Farmer died](https://www.npr.org/sections/goatsandsoda/2022/02/21/1082117707/global-health-champion-dr-paul-farmer-has-died) unexpectedly in Rwanda, at age 62. A physician and a medical anthropologist, he has done so much to advance global health in the far reaches of the world, from Haiti to Rwanda and more. His works makes so clear the strong connections between science and justice.
+{.editor-note .aside-xl-wide} 
+
 Akaninyene Ruffin is a Family Nurse Practitioner in Nashville, TN. Prior to her nursing training she attended Vanderbilt University studying Medicine, Health and Society and African American and Diaspora Studies. She spiritually identifies as one who believes like Jacob in wrestling with God until you receive all of your blessings. Her faith informs her idea that the pursuit of justice is righteousness in its purest form. This belief has inspired her work to address and eliminate health disparities among some of our most vulnerable populations. Her next goal is to augment her practice by becoming a certified nurse midwife in efforts to create more spaces for Black birthing people and families to access reproductive justice. 
 {.editor-note .aside-xl-wide} 
+
+{{< tweet user=`aprilkapu` id=`1382045452405735436` >}}
 
 <div class="article-question"> 
 
