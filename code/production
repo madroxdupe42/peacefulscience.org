@@ -9,12 +9,19 @@ then
   export TASKS="BUILD DISCOURSE CROSSREF ALGOLIA"
 fi
 
+if [[ "${CONTEXT:-production}" == "production" ]]
+then
+  CMD="hugo -b ${URL:-https://peacefulscience.org} --minify"
+else
+  CMD="hugo -b ${BUILD_URL} --minify -DF"
+  BUILD_URL="$DEPLOY_URL"
+fi
+
 echo TASKS: $TASKS
 echo
 
 
 mkdir -p _cache
-touch _cache/_redirects
 
 bash code/prebuild.hook
 
@@ -24,7 +31,6 @@ if [[ "${TASKS}" == *"BUILD"* ]]
 then
   echo
   echo BUILD task... 
-  CMD="hugo ${HUGO_ARGS:--b https://peacefulscience.org/ --minify}"
   echo "    "$CMD
   $CMD | tee _cache/hugo.log | awk '{print "    "$0}'
   echo 
