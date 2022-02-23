@@ -11,4 +11,12 @@ then
   echo
 fi
 
-
+if [[ "${TASKS}" == *"CACHE"* ]]
+then
+  echo
+  echo CACHE task...
+  find _cache -type f 
+  mkdir -p public
+  cp -r _cache	public
+  echo
+fi

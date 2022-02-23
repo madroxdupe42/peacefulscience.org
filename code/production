@@ -31,8 +31,8 @@ if [[ "${TASKS}" == *"BUILD"* ]]
 then
   echo
   echo BUILD task... 
-  echo "    "$CMD
-  $CMD | tee _cache/hugo.log | awk '{print "    "$0}'
+  echo $CMD
+  $CMD | tee _cache/hugo.log | awk '{print "  "$0}'
   echo 
   node code/render.js
   
@@ -45,7 +45,15 @@ then
   
   mv public/algolia.json _cache
   echo
-fi
 
-bash code/postbuild.hook
+  bash code/postbuild.hook
+
+else
+  
+  bash code/postbuild.hook
+
+  echo No BUILD, so exit with error to prevent deploy.
+  exit 100
+
+fi
 
