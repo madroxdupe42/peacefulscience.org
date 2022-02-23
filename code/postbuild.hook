@@ -1,8 +1,6 @@
 set -e
 set -o pipefail
 
-source .env
-
 if [[ "${TASKS}" == *"CROSSREF"* ]] && grep -q TODAY _cache/hugo.log
 then
   echo
