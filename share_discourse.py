@@ -11,14 +11,24 @@ CATEGORY = 8
 BASE = "https://discourse.peacefulscience.org"
 
 HEADERS = {"Api-Key": os.environ["DISCOURSE_API"], "Api-Username": "system"}
+PATH = sys.argv[1]
+D = Document(PATH)
 
-D = Document(sys.argv[1])
+# POST = [] # ["> " + line for line in  D.text.split("\n")]
 
-POST = [] # ["> " + line for line in  D.text.split("\n")]
-POST = D.permalink() + "\n\n"
-POST = POST + "> " + D["description"]
 
-POST = POST + "".join(["\n\n%s" % p for p in D.pages()])
+try: 
+  POST = "https://peacefulscience.org" +  D["headerimage"]["src"]
+except:
+  POST = ""
+
+POST +=  "\n\n" + D.permalink() 
+POST += "\n\n> " + D["description"]
+
+if "content/newsletter" in PATH:
+  POST += "\n\n" + D.text
+
+POST += "\n\n" + "\n\n".join(D.pages())
 
 # print(POST)
 
