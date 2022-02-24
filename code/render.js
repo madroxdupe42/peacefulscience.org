@@ -9,11 +9,13 @@ const {TeX} = require('mathjax-full/js/input/tex.js');
 const {SVG} = require('mathjax-full/js/output/svg.js');
 const {liteAdaptor} = require('mathjax-full/js/adaptors/liteAdaptor.js');
 const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
-const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
+//const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 require('mathjax-full/js/util/entities/all.js');
 
+const adaptor = liteAdaptor({fontSize: 16});
+RegisterHTMLHandler(adaptor);
 
-async function parsedom(html) {
+function parsedom(html) {
     const dom = parseHTML(html);
     dom.context = vm.createContext({
       'window': dom, 
@@ -45,18 +47,16 @@ async function remove(dom) {
  return dom;
 }
 
-const adaptor = liteAdaptor({fontSize: 16});
-RegisterHTMLHandler(adaptor);
 
-const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
-const svg = new SVG({fontCache: "local", exFactor: 0.5});
-
-async function render_mathjax(html) {
+function render_mathjax(html) {
+  const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
+  const svg = new SVG({fontCache: "local", exFactor: 0.5});
   const mj = mathjax.document(html, {InputJax: tex, OutputJax: svg});
+  
   mj.render();
-  html = adaptor.doctype(mj.document) + "\n" ;
-  html += adaptor.outerHTML(adaptor.root(mj.document));
-  return html;
+  
+  doctype = adaptor.doctype(mj.document) + "\n" ;
+  return doctype + adaptor.outerHTML(adaptor.root(mj.document));
 }
 
 async function render(path) {
