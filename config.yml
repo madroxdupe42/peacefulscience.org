@@ -90,7 +90,7 @@ outputformats:
    
 outputs:
   home: ["HTML", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
-  page: ["HTML", "print"]
+  page: ["HTML"]
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"
