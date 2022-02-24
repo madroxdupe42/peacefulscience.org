@@ -16,6 +16,7 @@ cascade:
     mentions: = mentions
     publisher: = copy /jsonld/peacefulscience
     sameas: = sameas
+    isBasedOn: = basedon
     about: = about
     isPartOf: = series
     isAccessibleForFree: true
