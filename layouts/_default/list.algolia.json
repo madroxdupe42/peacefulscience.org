@@ -35,7 +35,6 @@
              "date" .Date.UTC.Unix 
              "description" .Description 
              "dir" .File.Dir
-             "expirydate" .ExpiryDate.UTC.Unix 
              "fuzzywordcount" .FuzzyWordCount "keywords" 
              .Keywords "kind" .Kind 
              "lang" .Lang 
