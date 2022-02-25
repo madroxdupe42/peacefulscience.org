@@ -1,7 +1,7 @@
 import algoliasearch from 'algoliasearch/lite';
 import instantsearch from 'instantsearch.js';
-
-import { searchBox,refinementList,currentRefinements,pagination, hits, configure } from 'instantsearch.js/es/widgets';
+import { connectInfiniteHits } from 'instantsearch.js/es/connectors';
+import { searchBox,refinementList,currentRefinements, configure } from 'instantsearch.js/es/widgets';
 
 
 function InitSearch () {
@@ -12,8 +12,8 @@ const searchClient = algoliasearch('4ODX85RSXK', 'dd433740546fc182c8ec1df6a7b16c
 
 const search = instantsearch({
   indexName: 'PeacefulScience',
-  limit: 5,
-  routing: true,
+  limit: 10,
+  routing: false,
   searchClient
 });
 
@@ -51,17 +51,19 @@ const search = instantsearch({
     })
   );
 
-  search.addWidget(
+/*  search.addWidget(
      pagination({
       container: '#pagination',
     })
-  );
+  );*/
 
   search.addWidget(
    configure({
-    hitsPerPage: 15,
+    hitsPerPage: 10,
    })
   );
+
+/*
 
   // initialize hits widget
   search.addWidget(
@@ -75,7 +77,47 @@ const search = instantsearch({
     })
   );
 
+
+*/
+
+
+const infiniteHits = connectInfiniteHits(
+  (renderArgs, isFirstRender) => {
+    const { hits, showMore, widgetParams } = renderArgs;
+    const { container, sentinel } = widgetParams;
+    lastRenderArgs = renderArgs;
+
+    if (isFirstRender) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+	      console.log(entry)
+          if (entry.target == sentinel && entry.isIntersecting && !lastRenderArgs.isLastPage) {
+            showMore();
+          }
+        });
+      });
+
+      observer.observe(sentinel);
+      container.innerHTML = hits.map(hit => hit.render).join('');
+      return;
+    }
+
+    container.innerHTML = hits.map(hit => hit.render).join('');
+  }
+);
+
+ search.addWidget(
+	infiniteHits({
+		container: document.getElementById("hits"),
+		sentinel: document.getElementById("pagination"),
+		routing: false,
+	})
+);
+
+
+
   search.start();
 }
+
 
 InitSearch();

@@ -848,6 +848,14 @@ grid-template-columns: calc(25% + 20px) auto;
 }
 
 
+.ais-SearchBox-input{
+  width: 80%;
+}
+
+ button.ais-SearchBox-submit  {
+	
+	display: none;
+}
 .red-strike {
   text-decoration: line-through rgba(255,0,0,0.7)  calc(0.04em + 1.2px) ;
 }
