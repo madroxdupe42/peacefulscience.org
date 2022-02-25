@@ -40,7 +40,7 @@
              "lang" .Lang 
              "lastmod" .Lastmod.UTC.Unix 
              "permalink" .Permalink 
-             "publishdate"   ( .PublishDate.Format "January 2, 2006" )
+             "publishdate"   .PublishDate.UTC.Unix
              "readingtime" .ReadingTime 
              "relpermalink" .RelPermalink 
              "summary" .Summary 
@@ -48,11 +48,11 @@
              "type" .Type 
              "url" .Permalink 
              "weight" .Weight 
+             "section" .Section
              "wordcount" .WordCount 
              "section" .Section 
              "authors" $authors
              "categories" $cat
-             "views" ( .Scratch.Get "Views"  | default 0 )
              "image" $image
              "render" $render
              )
