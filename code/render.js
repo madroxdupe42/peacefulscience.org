@@ -4,6 +4,17 @@ const fs = require('fs').promises;
 const fg = require('fast-glob');
 const classes = new Set();
 
+const {mathjax} = require('mathjax-full/js/mathjax.js');
+const {TeX} = require('mathjax-full/js/input/tex.js');
+const {SVG} = require('mathjax-full/js/output/svg.js');
+const {liteAdaptor} = require('mathjax-full/js/adaptors/liteAdaptor.js');
+const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
+//const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
+require('mathjax-full/js/util/entities/all.js');
+
+const adaptor = liteAdaptor({fontSize: 16});
+RegisterHTMLHandler(adaptor);
+
 function parsedom(html) {
     const dom = parseHTML(html);
     dom.context = vm.createContext({
@@ -12,16 +23,6 @@ function parsedom(html) {
       "navigator": dom.navigator,
     });
     return dom;
-}
-
-//const twitterjs = fetch("https://platform.twitter.com/widgets.js");
-
-async function twitter(dom) {
-  twitterjs
-    .then(response => {
-        console.log(response)
-    });
-  return dom;
 }
 
 async function dom2html(dom) {
@@ -46,25 +47,47 @@ async function remove(dom) {
  return dom;
 }
 
-async function render(html) {
- const dom = parsedom(html);
 
- return runscripts(dom)
+function render_mathjax(html) {
+  const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
+  const svg = new SVG({fontCache: "local", exFactor: 0.5});
+  const mj = mathjax.document(html, {InputJax: tex, OutputJax: svg});
+  
+  mj.render();
+  
+  doctype = adaptor.doctype(mj.document) + "\n" ;
+  return doctype + adaptor.outerHTML(adaptor.root(mj.document));
+}
+
+async function render(path) {
+ var has_mathjax = false;
+ 
+ return fs.readFile(path)
+   .then(parsedom)
+   .then((dom) => {
+     has_mathjax = dom.document.querySelector("[mathjax]");
+     if(has_mathjax) console.log("mathjax", path);
+     return dom;})
    .then(runscripts)
    .then(remove)
    .then(getclasses)
    .then(dom2html)
+   .then(has_mathjax && render_mathjax) 
+   .then(fs.writeFile.bind(null, path));
 }
 
 async function renderall(glob) {
   const tasks = [];
   const stream = fg.stream(glob);
+  const pLimit = (await import('p-limit')).default;
+
+  var limit = pLimit(50);
+  
   for await (const path of stream) 
     tasks.push(
-      fs.readFile(path)
-        .then(render)
-        .then(fs.writeFile.bind(null, path))
+      limit(() => render(path)
         .catch(e => {console.error(e); throw e;})
+      )
     )
   return Promise.all(tasks);
 };
@@ -72,7 +95,8 @@ async function renderall(glob) {
 let globs = process.argv.slice(2);
 
 globs = globs.length ? globs : 'public/**/*.html';
-console.log(globs)
+
+console.log("RENDERING: ", globs)
 
 renderall(globs)
-.then(r => fs.writeFile("layouts/classes.html", [...classes].join(' ')))
+.then(r => fs.writeFile("layouts/classes.html", [...classes].join('\n')))

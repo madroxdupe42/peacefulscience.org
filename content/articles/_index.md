@@ -2,6 +2,9 @@
 title: Articles
 cascade:
   rss: true
+  outputs:
+  - HTML
+  - print
   jsonld:
     "@type": Article
     "@id": = permalink 
@@ -16,6 +19,7 @@ cascade:
     mentions: = mentions
     publisher: = copy /jsonld/peacefulscience
     sameas: = sameas
+    isBasedOn: = basedon
     about: = about
     isPartOf: = series
     isAccessibleForFree: true

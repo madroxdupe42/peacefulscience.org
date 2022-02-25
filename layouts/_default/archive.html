@@ -1,3 +1,7 @@
-{{ $paginator := .Paginate  .Site.RegularPages }}
+
+
+{{ $pages := uniq (sort site.RegularPages "PublishDate") }}
+
+{{ $paginator := .Paginate  $pages.Reverse }}
 {{ .Render "list" }}
 

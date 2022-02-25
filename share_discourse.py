@@ -20,10 +20,10 @@ POST = POST + "> " + D["description"]
 
 POST = POST + "".join(["\n\n%s" % p for p in D.pages()])
 
-print(POST)
+# print(POST)
 
 URL = "%s/posts.json" % BASE
-print(len(D["description"]))
+# print(len(D["description"]))
 
 PARAMS = {
   "raw": POST,
@@ -32,7 +32,7 @@ PARAMS = {
   "embed_url": D.permalink()
 }
 
-print(PARAMS)
+# print(PARAMS)
 
 R = requests.post(URL, headers=HEADERS, data=PARAMS);
 

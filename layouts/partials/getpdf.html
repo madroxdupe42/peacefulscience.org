@@ -1,4 +1,4 @@
-{{ $pdf :=  printf "https://peacefulscience.org/pdf%s.pdf" ( substr .RelPermalink 0 -1) }}
+{{ $pdf :=  printf "/pdf%s.pdf" ( substr .RelPermalink 0 -1) }}
 {{ $page := . }}
 
 

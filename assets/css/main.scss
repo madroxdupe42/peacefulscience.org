@@ -59,18 +59,20 @@ a.doi-badge {
 
 
 
+
 #search-box > div {
   max-width: 100%;
-  font-size: 40px;
+  font-size: 25px;
   @include media-breakpoint-up(lg) {
-    font-size: 60px;
+    font-size: 30px;
   }
+
   &:after {
     content: "";
     display: block;
     width: 50%;
     padding-top: 20px;
-    border-bottom: 5px solid white;
+    border-bottom: 3px solid white;
     transition: .5s;
   }
 
@@ -79,9 +81,15 @@ a.doi-badge {
     width: 80%;
     border-bottom: 5px solid white;
   }
+  button svg path {
+	color: white;
+	stroke: white;
+	fill: white;
+	
+}
 
   input {
-    @extend .pl-5;
+    
     background: none;
     border: none;
     color: white;
@@ -840,6 +848,10 @@ grid-template-columns: calc(25% + 20px) auto;
 }
 
 
+.red-strike {
+  text-decoration: line-through rgba(255,0,0,0.7)  calc(0.04em + 1.2px) ;
+}
+
 
 .article-date {
 
@@ -914,8 +926,11 @@ width: 100%;
    @extend .expand-right;	
    img {width: 100%; max-width: unset; 
    object-fit: contain;
+   object-position: left;
 }
   }
+
+
 
 
   .aside-xl-right {
@@ -1482,8 +1497,21 @@ ins, .ins {
 }
 
 del, .del {
-		background: rgba(255,0,0, 0.1);
-		text-decoration-color: rgba(255,0,0, 0.3); 
+		background: rgba(255,0,0, 0.15);
+		text-decoration-color: rgba(255,0,0, 0.4); 
 		text-decoration-line: line-through;
-	
+
+}
+
+.article-text del a {
+			text-decoration-line: line-through underline;
+			text-decoration-color: rgba(255,0,0, 0.4); 
+}
+
+.hide-ins ins,  .hide-ins .ins {
+  display: none
+}
+
+.hide-del del, .hide-del .del {
+  display: none
 }

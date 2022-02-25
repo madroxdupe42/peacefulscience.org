@@ -64,22 +64,24 @@ I believe in the resurrection of Christ because I believe in God, and in Jesus C
 *For more information about the book, and to order, please see      <https://theworksofhishands.com/>*.
 {.editor-note}
 
-## References
+
 
 <div class="references">
 
-J. Warner Wallace *[Cold Case Christianity: A Homicide Detective Investigates the Claims of the Gospels](https://www.amazon.com/Cold-Case-Christianity-Homicide-Detective-Investigates/dp/1434704696)* David C Cook, Colorado Springs, CO, 2013
+## References
 
- Rodney Stark *[The Rise of Christianity: How the Obscure, Marginal Jesus Movement Became the Dominant Religious Force in the Western World in a Few Centuries](https://www.amazon.com/Rise-Christianity-Marginal-Religious-Centuries/dp/0060677015)* Harper, San Francisco 1997
+J. Warner Wallace, *[Cold Case Christianity: A Homicide Detective Investigates the Claims of the Gospels](https://www.amazon.com/Cold-Case-Christianity-Homicide-Detective-Investigates/dp/1434704696)* David C Cook, Colorado Springs, CO, 2013
 
-Sean McDowell *[The Fate of the Apostles: Examining the Martyrdom Accounts of the Closest Followers of Jesus](https://www.amazon.com/Fate-Apostles-Sean-McDowell/dp/1138549134)*  Routledge, Abingdon, UK, 2016
+ Rodney Stark, *[The Rise of Christianity: How the Obscure, Marginal Jesus Movement Became the Dominant Religious Force in the Western World in a Few Centuries](https://www.amazon.com/Rise-Christianity-Marginal-Religious-Centuries/dp/0060677015)* Harper, San Francisco 1997
 
-Lee Strobel *[The Case for Christ: A Journalist's Personal Investigation of the Evidence for Jesus](https://www.amazon.com/dp/B01863JLK2)* Zondervan, Grand Rapids MI, 1998
+Sean McDowell, *[The Fate of the Apostles: Examining the Martyrdom Accounts of the Closest Followers of Jesus](https://www.amazon.com/Fate-Apostles-Sean-McDowell/dp/1138549134)*  Routledge, Abingdon, UK, 2016
 
-Josh and Sean McDowell *[More Than a Carpenter](https://www.amazon.com/More-Than-Carpenter-Josh-McDowell/dp/1414326270)* Tyndale Carol Stream, IL, 2009
+Lee Strobel, *[The Case for Christ: A Journalist's Personal Investigation of the Evidence for Jesus](https://www.amazon.com/dp/B01863JLK2)* Zondervan, Grand Rapids MI, 1998
 
-N.T. Wright [*The Resurrection of the Son of God*](https://www.amazon.com/Resurrection-Christian-Origins-Question-Vol/dp/0800626796)Fortress Press Minneapolis MN, 2003
+Josh McDowell and Sean McDowell, *[More Than a Carpenter](https://www.amazon.com/More-Than-Carpenter-Josh-McDowell/dp/1414326270)* Tyndale Carol Stream, IL, 2009
 
-Michael Licona *[The Resurrection of Jesus A New Historiographical Approach](https://www.amazon.com/Resurrection-Jesus-New-Historiographical-Approach/dp/0830827196)* IVP Downers Grove IL, 2010
+N.T. Wright, [*The Resurrection of the Son of God*](https://www.amazon.com/Resurrection-Christian-Origins-Question-Vol/dp/0800626796)Fortress Press Minneapolis MN, 2003
+
+Michael Licona, *[The Resurrection of Jesus A New Historiographical Approach](https://www.amazon.com/Resurrection-Jesus-New-Historiographical-Approach/dp/0830827196)* IVP Downers Grove IL, 2010
 
 </div>

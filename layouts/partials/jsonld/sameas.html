@@ -1,5 +1,9 @@
 {{ $out := (slice) }}
 
+{{ range .Page.Params.sameas }}
+  {{ $out = $out | append . }} 
+{{ end }}
+
 {{ with .Page.Params.orcid }}
   {{ $out = $out | append (printf "https://orcid.org/%s" .) }} 
 {{ end }}
@@ -26,7 +30,7 @@
   {{ $out = $out | append (printf "http://www.worldcat.org/isbn/%s" .) }} 
 {{ end }}
 
-{{ with .Page.Params.doi }}
+{{ with partial "getdoi" .Page }}
   {{ $out = $out | append (printf "https://doi.org/%s" .) }} 
 {{ end }}
 
@@ -38,8 +42,9 @@
   {{ $out = $out | append .  }} 
 {{ end }}
 
-{{ range .Page.Params.sameas }}
-  {{ $out = $out | append . }} 
+{{ range .Page.Aliases }}
+  {{ $out = $out | append (printf "https://peacefulscience.org%s" . )  }}
 {{ end }}
 
-{{ return $out }}
+
+{{ return ($out | uniq)  }}

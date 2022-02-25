@@ -38,11 +38,6 @@
 <meta property="og:url" content="{{ .Permalink | absURL }}"/>
 <meta property="og:site_name" content="{{ .Site.Title }}"/>
 <meta name="twitter:site" content="@peacefulscience">
-<meta name="twitter:creator" content="@swamidass">
-
-<meta name="dc.source" content="Peaceful Science"/>
-<meta name="prism.publicationName" content="Peaceful Science"/>
-<meta name="citation_journal_title" content="Peaceful Science"/>
 
 {{ with partial "getpdf.html" . }}
     <meta name="citation_pdf_url" content="{{ . }}"/>
@@ -90,10 +85,16 @@
       {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
         <meta property="author" content="{{ .Title | markdownify |  plainify }}"/>
         <meta name="citation_author" content="{{ .Title | markdownify |  plainify }}"/>
+        <meta name="twitter:creator" content="@{{ .Params.twitter }}">
       {{- end }}
     {{- end }}
 {{ end }}
 
+
+{{ $publisher := .Params.publisher | default `Peaceful Science` }}
+<meta name="dc.source" content="{{ $publisher }}"/>
+<meta name="prism.publicationName" content="{{ $publisher }}"/>
+<meta name="citation_journal_title" content="{{ $publisher }}"/>
 
 <link rel="preconnect" href="https://{{ site.Params.imagecdn }}">
 <link crossorigin

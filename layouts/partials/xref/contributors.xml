@@ -1,9 +1,22 @@
        <contributors>
          {{- $first := true }}
+         {{- $editors := .Params.interview | union .Params.editor }}
          {{- range .Params.authors }}
+           {{- $contributor_role := "author" }}
+           {{- $sequence := "additional" }}
+           
+           {{- if in . $editors }}
+             {{- $contributor_role = "editor" }}
+           {{- else }}
+             {{- if $first }}
+               {{- $sequence = "first" }}
+               {{- $first = false }}
+             {{- end }}
+           {{- end }}
+           
            {{- with site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .))  }}
              {{- $name := split .Title " "}}
-           <person_name contributor_role="author"  sequence="{{ if $first }}first{{ $first = false }}{{else}}additional{{ end }}" >
+           <person_name contributor_role="{{ $contributor_role }}"  sequence="{{ $sequence }}" >
              <given_name>{{ delimit (first (sub (len $name) 1) $name) " " }}</given_name>
              <surname>{{ index (last 1 $name) 0 }}</surname>
              {{ with .Params.orcid }}<ORCID>https://orcid.org/{{ . }}</ORCID>{{ end }}

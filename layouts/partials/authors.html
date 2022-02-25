@@ -1,7 +1,8 @@
 {{ $page := .page }}
 {{ $interviewer := .page.Params.interview |  default (slice ) }}
+{{ $editor := .page.Params.editor | default (slice ) }}
 {{ $source := .page.Params.sources | default (slice ) }}
-{{ $authors := .authors | default $page.Params.authors | default (slice ) | complement  $interviewer | complement  $source }}
+{{ $authors := .authors | default $page.Params.authors | default (slice ) | complement  $interviewer | complement $editor | complement  $source }}
 {{ $etal := .etal | default false }}
 {{ $class := .class | default ""}}
 
@@ -15,17 +16,6 @@
      
 {{ else }}
 
-
-     {{ range $interviewer }}
-      
-       {{ $author := site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-        <a href="{{ $author.Permalink }}" property="author" class="author {{ $class }}">{{ $author.Title }}</a>
-        {{ with .Params.orcid }}
-          <a target="_blank" rel="author" href="https://orcid.org/{{ . }}"><i class="pl-1 fab fa-orcid" style="color: black;"></i></a>
-        {{ end }}
-        <span class="text-muted">interviews </span>
-
-     {{ end }}
      
     {{ $html := (slice) }}
     {{- range $authors }}
@@ -46,6 +36,32 @@
        
      {{- end -}}
      {{ delimit $html ", "  " and "}}
+    
+    
+
+     {{ with $interviewer }}
+        <span class="text-muted">with editor</span>
+        
+       {{ range . }}
+       {{ $author := site.GetPage "taxonomyTerm" (printf "authors/%s/" (urlize .)) }}
+        <a href="{{ $author.Permalink }}" property="author" class="author {{ $class }}">{{ $author.Title }}</a>
+        {{ with $author.Params.orcid }}
+          <a target="_blank" rel="author" href="https://orcid.org/{{ . }}"><i class="pl-1 fab fa-orcid" style="color: black;"></i></a>
+        {{ end }}
+        {{ end }}
+     {{ end }}
+    
+      {{ with $editor }}
+        <span class="text-muted">with editor</span>
+        
+       {{ range . }}
+       {{ $author := site.GetPage "taxonomyTerm" (printf "authors/%s/" (urlize .)) }}
+        <a href="{{ $author.Permalink }}" property="author" class="author {{ $class }}">{{ $author.Title }}</a>
+        {{ with $author.Params.orcid }}
+          <a target="_blank" rel="author" href="https://orcid.org/{{ . }}"><i class="pl-1 fab fa-orcid" style="color: black;"></i></a>
+        {{ end }}
+        {{ end }}
+     {{ end }}
     
      {{ with $page.Params.sources }}
         <span class="text-muted">on</span>

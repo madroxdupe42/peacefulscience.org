@@ -13,6 +13,7 @@ date: "2017-06-10T22:14:22"
 description: I depart from *Adam and the Genome*'s main thesis. Critical information was left out of this book about genealogical science.
 headerimage:
   src: /img/2017/06/maxresdefault.jpg
+  youtube: dS16yem65v4
 title: Reviewing *Adam and the Genome*
 ---
 
@@ -24,7 +25,6 @@ This book is important. There is much with which to agree. However, I depart fro
 
 A [complete review](https://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/) will appear in *Sapientia*, as part of an [online symposium](http://henrycenter.tiu.edu/2017/06/adam-and-the-genome-introducing-the-symposium/) run by the Creation Project.
 
-{{< youtube `dS16yem65v4` >}}
 
 {{< amazon `B01M1I47XX` >}}
 

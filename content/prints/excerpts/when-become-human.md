@@ -6,14 +6,13 @@ categories:
 - science
 - history
 description: Exploring what paleontology, archaeology and biology tell us about when our ancestors acquired uniquely human traits.
-publishdate: 2022-03-23
+publishdate: 2022-03-07
 date: 2021-09-28
 partof:
 - /books/quest-historical-adam/
 headerimage:
   src: /img/2022/02/cave-art-wlc.png
   credit: Cave painting from Lubang Jeriji Saléh Cave on Borneo
-draft: true
 ---
 This excerpt is Chapter 11 of  [*In Quest of the Historical Adam: A Biblical and Scientific Exploration*](https://www.amazon.com/dp/080287911X) by William Lane Craig, &copy; 2021 by Eerdmans Publishers, Grand Rapids, Michigan. Used by permission. All rights reserved. Figure numbers were altered by removing chapter-prefix, and the title of the chapter was replaced.
 {.editor-note}
@@ -236,7 +235,7 @@ Subsequent studies, however, have challenged their conclusions, finding no corre
 
 Additional anatomical evidence comes from the enlarged thoracic vertebral canal in human beings, through which pass the nerves that control the muscles used to regulate breathing. Such fine respiratory control is crucial for human speech. Ann MacLarnon and Gwen Hewitt explain that “full human language requires extended exhalations for vocalizations and increased control of volume, emphasis, and intonation compared with nonhuman primates and therefore presumably compared with early hominids. Such features require fast, intricate, flexible, and integrated neural control of intercostal and abdominal muscles.”[^59] The muscles enabling such fine respiratory control are all thoracically innervated.
 
-[^59]: MacLarnon, A. M. and Hewitt, G. P. “The Evolution of Human Speech: The Role of Enhanced Breathing Control,” _AJPA_ 109, no. 3 (1999): 358, [https://doi.org/10.1002/(sici)1096-8644(199907)109:3%3C341::aid-ajpa5%3E3.0.co;2-2](https://doi.org/10.1002/(sici)1096-8644(199907)109:3%3C341::aid-ajpa5%3E3.0.co;2-2).
+[^59]: MacLarnon, A. M. and Hewitt, G. P. “The Evolution of Human Speech: The Role of Enhanced Breathing Control,” _AJPA_ 109, no. 3 (1999): 358. [https://doi.org/b2b7q2](https://doi.org/b2b7q2)
 
 So MacLarnon and Hewitt measured the thoracic vertebral canal for a variety of fossil hominins: _Australopithecus afarensis_, _Australopithecus africanus_, _Homo ergaster_ (or early _Homo erectus_), four Neanderthals, and one early _Homo sapiens_, in addition to three modern human samples. They found that both the Neanderthals and the early and contemporary modern humans have larger relative thoracic canal cross-sectional areas than any of the non-human primates. “This evidence indicates that thoracic innervation in earlier fossil hominids, australopithecines and _Homo ergaster_, was similar to that of extant nonhuman primates, but that Neanderthals and early modern humans had expanded thoracic innervation similar to that in extant humans.”[^60]
 
@@ -374,7 +373,7 @@ Kay, R. F., Cartmill, M., and Balow, M. “The Hypoglossal Canal and the Origin 
 
 DeGusta, David, Gilbert, W. Henry, and Turner, Scott P. “Hypoglossal Canal Size and Hominid Speech,” _Proceedings of the National Academy of Sciences of the United States of America_ 96, no. 4 (February 16, 1999): 1800–804, [https://doi.org/10.1073/pnas.96.4.1800](https://doi.org/10.1073/pnas.96.4.1800).
 
-MacLarnon, A. M. and Hewitt, G. P. “The Evolution of Human Speech: The Role of Enhanced Breathing Control,” _American Journal of Physical Anthropology_ 109, no. 3 (1999): 358, [https://doi.org/10.1002/(sici)1096-8644(199907)109:3%3C341::aid-ajpa5%3E3.0.co;2-2](https://doi.org/10.1002/(sici)1096-8644(199907)109:3%3C341::aid-ajpa5%3E3.0.co;2-2).
+MacLarnon, A. M. and Hewitt, G. P. “The Evolution of Human Speech: The Role of Enhanced Breathing Control,” _American Journal of Physical Anthropology_ 109, no. 3 (1999): 358. [https://doi.org/b2b7q2](https://doi.org/b2b7q2)
 
 Whiting, Kai et al., “Were Neanderthals Rational? A Stoic Approach,” _Humanities_ 7, no. 2 (2018): 39, [https://doi.org/10.3390/h7020039](https://doi.org/10.3390/h7020039).
 

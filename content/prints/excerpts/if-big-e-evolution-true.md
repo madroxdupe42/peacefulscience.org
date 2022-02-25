@@ -1,6 +1,7 @@
 ---
 aliases:
-- /articles/if-big-e-evolultion-true/
+- /articles/if-big-e-evolution-true
+- /articles/if-big-e-evolultion-true
 title: What If Big E Evolution is True?
 partof:
 - /books/thinking-about-evolution/

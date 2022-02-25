@@ -11,7 +11,7 @@ layers:
 pages:
 - /articles/human-origins-rtb-workshop
 - /prints/ets-keathley-gae
-- /articles/if-big-e-evolution-true
+- /prints/excerpts/if-big-e-evolution-true
 - /articles/three-stories-on-adam
 - /articles/biologos-uturn-adam-eve-position
 ---

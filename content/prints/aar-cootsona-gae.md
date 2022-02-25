@@ -158,7 +158,7 @@ I’ve learned a great deal since that evening. One is that my deepest hope in a
 
 
 
-S. Joshua Swamidass. The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry (Downers Grove, Illinois: InterVarsity Press, 2021)
+S. Joshua Swamidass. [The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry](/books/genealogical-adam-eve/) (Downers Grove, Illinois: InterVarsity Press, 2019).
 
 S. Joshua Swamidass. [In Defense of Tim Keller](/articles/defense-tim-keller/), Peaceful Science, 2017. [https://doi.org/10.54739/p9cc](https://doi.org/10.54739/p9cc)
 

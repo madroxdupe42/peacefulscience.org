@@ -4,20 +4,25 @@ date: 2022-02-06
 authors:
 - Sierra Nance
 - ciara
+interview:
+- ciara
 categories:
 - science
 - race  
 headerimage:
   src: /img/2022/02/hbcu.jpeg
 description: I was not afforded the same opportunities for research as students who went to other institutions. My knowledge and abilities were questioned because I went to a smaller, less well-known HBCU. 
+
 ---
+
+
 
 Sierra A. Nance is a PhD Candidate at the University of Michigan. She received her B.S. in Chemistry from Winston Salem State University in 2015 and is currently pursuing her PhD in Molecular & Integrative Physiology at the University of Michigan. Sierra was awarded the Ruth L. Kirschstein Predoctoral Individual Predoctoral Fellowship by the National Institutes of Health to support  her dissertation work which investigates the role of adipose tissue immunity in the pathogenesis of obesity-associated Type 2 Diabetes. In addition to research, Sierra has demonstrated her commitment to professional development and increasing diversity in STEM. Outside of her institutional commitments, Sierra is a member of the Obesity Society, the Endocrine Society, and the National Black MBA Association, as well as co-founder of [HBCU-DAP](https://www.hbcudap.com/), a non-profit organization dedicated to providing resources, mentorship, and support for students at [Historically Black Colleges and Universities (HBCUs)](https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities)  on their journey to the Doctorate.
 {.editor-note .aside-xl-wide} 
 
 
 
-<div class="article-question expand-right">
+<div class="article-question ">
 
 ## What inspired you to become a scientist?
 
@@ -111,3 +116,6 @@ Not only was there a constant pressure from family to do what I could to make su
 Black people are underserved in education as well; less than 2% of PhD holders are Black and that number is smaller when you look specifically at Biomedical/Life sciences. Institutions can do a better job in supporting students like myself by acknowledging that there is a lack of support and providing funding and/or doing the work to close these gaps. 
 
 For example, I work with human tissue samples to better understand obesity-associated Type 2 Diabetes. However, most of our samples come from predominantly Caucasian individuals. Instead of ending the conversation with, "we don't have the patient population to do these studies in Black people", help come up with solutions to recruit more Black people - even if that means collaborating with a different community.
+
+This article was supported by a 2020 Diversity grant from the National Association of Science Writers (NASW).
+{.editor-note}

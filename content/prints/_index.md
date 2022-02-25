@@ -2,6 +2,9 @@
 title: Prints 
 cascade:
   rss: true
+  outputs:
+  - HTML
+  - print
   jsonld-template: /articles
   jsonld:
     "@type": ScholarlyArticle

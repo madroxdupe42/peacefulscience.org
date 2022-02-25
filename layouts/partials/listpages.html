@@ -1,10 +1,13 @@
 {{ $out := .RegularPagesRecursive }}
 {{ $reversed := .Params.reverse  | default true }}
+{{ $this := . }}
 
 {{ $page := (slice ) }}
 {{ range .Params.pages }}
-   {{ with site.GetPage . }}
+   {{ with site.GetPage (replaceRE `/$` `` .)  }}
      {{ $page = $page | append  . }}
+   {{ else }}
+     {{ warnf "PAGES.MISSING\t%s\t%s" $this.RelPermalink  . }}
    {{ end }}
 {{ end }}
 

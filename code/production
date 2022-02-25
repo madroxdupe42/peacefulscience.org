@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+set -e
+set -o pipefail
+
+export TASKS=${INCOMING_HOOK_BODY:-${TASKS:-BUILD}}
+
+if [[ "${TASKS}" == "DAILY" ]]
+then
+  export TASKS="BUILD DISCOURSE CROSSREF ALGOLIA"
+fi
+
+if [[ "${CONTEXT:-production}" == "production" ]]
+then
+  CMD="hugo -b ${URL:-https://peacefulscience.org} --minify"
+else
+  CMD="hugo -b ${BUILD_URL} --minify -DF"
+  BUILD_URL="$DEPLOY_URL"
+fi
+
+echo TASKS: $TASKS
+echo
+
+
+mkdir -p _cache
+
+bash code/prebuild.hook
+
+# npm run tailwind
+
+if [[ "${TASKS}" == *"BUILD"* ]] 
+then
+  echo
+  echo BUILD task... 
+  echo $CMD
+  $CMD | tee _cache/hugo.log | awk '{print "  "$0}'
+  echo 
+  node code/render.js
+  
+  rm -rf _cache/xref
+  mv public/.xref _cache/xref
+  echo
+  
+  # node code/extract.js > public/ps.rdf
+  cp public/_redirects _cache
+  
+  mv public/algolia.json _cache
+  echo
+
+  bash code/postbuild.hook
+
+else
+  
+  bash code/postbuild.hook
+
+  echo No BUILD, so exit with error to prevent deploy.
+  exit 100
+
+fi
+

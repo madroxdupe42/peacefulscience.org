@@ -59,7 +59,7 @@ const search = instantsearch({
 
   search.addWidget(
    configure({
-    hitsPerPage: 5,
+    hitsPerPage: 15,
    })
   );
 
@@ -67,7 +67,7 @@ const search = instantsearch({
   search.addWidget(
     hits({
       container: '#hits',
-      limit: 5,
+      limit: 100,
       routing: true,
       templates: {
         item:  '{{{ render }}}',

@@ -77,6 +77,17 @@
             {{- .Content -}}
           </div>
           
+      
+{{ $sections := .Sections }}
+
+
+{{ with $sections }}
+  <div class="mt-5 ">
+  {{ range . }}
+  <a class="mr-2  py-1 px-2 text-white text-smaller" style="background: #040" title="{{.Title}}" href="{{ .Permalink }}">{{ .LinkTitle }}</a> 
+  {{ end }}
+  </div>
+{{ end }}
                      
           </div>
 

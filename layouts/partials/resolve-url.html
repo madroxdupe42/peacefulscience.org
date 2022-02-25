@@ -1,6 +1,6 @@
 {{ $dest := .Destination }}
-{{ $location := $.Page.Path }}
-
+{{ $location := $.Page.File.Path }}
+{{ $hash := default nil }}
 {{ $out := (dict ) }}
 
 {{- $dest = replaceRE  `tag=.*` `` $dest -}}
@@ -28,6 +28,12 @@
   {{- $path := replaceRE ".*//peacefulscience.org" "" $dest -}}
   {{- $path := replaceRE (printf ".*//%s"  $basehost) "" $path -}}
   {{- $path := replaceRE "/$" "" $path -}}
+  
+  {{ if in $path  "#"  }}
+    {{ $hash = replaceRE `.*#` `` $path }}
+    {{ $path = replaceRE `#.*` `` $path }}
+  {{ end }}
+  
   {{- with site.GetPage $path -}}
     {{- $dest = .Permalink -}}
     {{- $tooltip = .Title | markdownify -}}
@@ -105,7 +111,7 @@
   {{- end }}
 {{- end }}
 
-{{- $out = (dict "Destination" $dest "Tag" $tag "Type" $type "Amazon" $asin  "Rel" $rel "Tooltip" $tooltip ) }}
+{{- $out = (dict "Destination" $dest "Tag" $tag "Type" $type "Amazon" $asin  "Rel" $rel "Tooltip" $tooltip "Hash" $hash ) }}
 
 
 {{- return $out }}

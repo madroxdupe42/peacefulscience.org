@@ -89,8 +89,8 @@ outputformats:
     permalinkable: false
    
 outputs:
-  home: ["HTML", "precompute", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
-  page: ["HTML", "print"]
+  home: ["HTML", "algolia", "RSS", "redir", "xrefconf", "xrefposted", "xrefbook"]
+  page: ["HTML"]
 
 params:
   baseGitHub: "https://github.com/PeacefulScience/peacefulscience.org/"

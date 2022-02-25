@@ -2,7 +2,7 @@
 aliases:
 - /prints/science-evidence-resurrection/
 title: Science, Evidence, and the Resurrection
-description: I am often asked by my colleagues about evidence I see for the resurrection. This is how I explain it to them.
+description: I am a scientist, and I am often asked by my colleagues about evidence I see for the resurrection. This is how I explain it to them.
 date: 2017-04-16
 publishdate: 2022-02-23
 partof:
@@ -24,7 +24,7 @@ series: scientists-resurrection
 
 
 I am often asked by my colleagues about evidence I see for the resurrection. This is how
-I explain it to them. Originally titled "Is There Evidence for Easter? A Scientist’s List," this article was [first published](https://web.archive.org/web/20170916033354/http://www.veritas.org/evidence-easter-scientists-list/) Easter of 2017, on the website of the Veritas Forums, then again on Easter of 2018. Then it was included as an appendix in [_The Genealogical Adam and Eve._](/books/genealogical-adam-eve)
+I explain it to them. Originally titled "Is There Evidence for Easter? A Scientist’s List," this article was [first published](https://web.archive.org/web/20170916033354/http://www.veritas.org/evidence-easter-scientists-list/) Easter of 2017, on the website of the Veritas Forums, then again on Easter of 2018. Then it was included as an appendix in [_The Genealogical Adam and Eve._](/books/genealogical-adam-eve) by S. Joshua Swamidass. Copyright © 2019 by S. Joshua Swamidass. Used by permission of [InterVarsity Press](https://www.ivpress.com), PO Box 1400, Downers Grove, IL 60559. 
 {.editor-note}
 
 

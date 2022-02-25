@@ -54,7 +54,7 @@
 
 <header>
 
-    <a class="title d-block" property="title" {{with $page.Params.deletiondate}} style="text-decoration: line-through rgba(255,0,0,0.7)    0.08em;" {{end}}
+    <a class="title d-block{{with $page.Params.deletiondate}} red-strike{{end}}" property="title"
        href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
 {{ if in .Elements "authors" -}}

@@ -20,7 +20,6 @@
 
 {{ define "main" }} 
 
-  {{ $PAGES := partialCached "byviews" . }}
   {{ $ALL := (where .Site.RegularPages ".Params.rss" "==" true ) }}
   {{ $ALL := (where $ALL ".Section" "!=" "newsletter" ) }}
        
@@ -35,7 +34,7 @@
   {{ $used := union $latest $used }}
   
   
-  {{ $featured := first 6 (where $PAGES.ByViews ".Params.categories" "intersect" (slice "featured")  | complement $used) }}
+  {{ $featured := first 6 (where .Site.RegularPages ".Params.categories" "intersect" (slice "featured")  | complement $used | shuffle ) }}
   {{ $used := union $featured $used }}
   
   {{ $race := first 2 (where $ALL ".Params.categories" "intersect" (slice "race" "ancestry") | complement $used) }}
@@ -47,7 +46,7 @@
   {{ $art := first 2 (where $ALL ".Params.categories" "intersect" (slice "art") | complement $used) }}
   {{ $used := union $used $art }}
 
-  {{ $articles :=  (intersect $PAGES.BySessions  ($ALL | complement $used) ) }}
+  {{ $articles :=  (intersect .Site.RegularPages  ($ALL | complement $used) ) | shuffle }}
 
 
   <div style="contain: layout">
@@ -180,7 +179,7 @@
     <section id="articles" style="background-color: #dfdfdf">
       <div class="container">
         <div class="row justify-content-center pt-3">
-          {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/articles/" | absURL)   ) }}
+          {{ partial "heading" (dict "Text" "Latest Articles" "Class" "heading-black" "Link" ("/archive/" | absURL)   ) }}
 
           {{ range $latest }}
             {{ partial "render" (dict "Page" . "Hide" "categories"  "Style" "vertical" "Layout"  "col-md-4"  "Sizes" "(max-width: 745px) calc(100vw - 32px), (min-width: 745px) 345px" ) }}

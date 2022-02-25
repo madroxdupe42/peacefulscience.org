@@ -1,5 +1,5 @@
 
-{{- $src := partial "imgurl" (dict "src" (.Get 0) "loc" $.Page.Path )  -}}
+{{- $src := partial "imgurl" (dict "src" (.Get 0) "loc" $.Page.File.Path )  -}}
 
 {{- $class := .Get 1 | default "aside-xl-right" -}}
 

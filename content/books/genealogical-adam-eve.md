@@ -12,6 +12,8 @@ amazon:
 - '0830852638'
 isbn: 978-0830852635
 erratum:  /pdf/genealogical-adam-eve-errata-jan2021.pdf
+publisher: IVP Academic
+date: 2019-12-10
 ---
 Evolutionary science teaches that humans arose as a population, sharing common ancestors with other animals. Most readers of the book of Genesis in the past understood all humans descended from Adam and Eve, a couple specially created by God. These two teachings seem contradictory, but is that necessarily so? In the fractured conversation of human origins, can new insight guide us to solid ground in both science and theology? In *The Genealogical Adam and Eve*, S. Joshua Swamidass tests a scientific hypothesis: What if the traditional account is somehow true, with the origins of Adam and Eve taking place alongside evolution? Building on well-established but overlooked science, Swamidass explains how it's possible for Adam and Eve to be rightly identified as the ancestors of everyone. His analysis opens up new possibilities for understanding Adam and Eve, consistent both with current scientific consensus and with traditional readings of Scripture. These new possibilities open a conversation about what it means to be human. In this book, Swamidass
 

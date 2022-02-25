@@ -465,6 +465,7 @@ p, .p {
 {{ $.Date.Format "Jan 2, 2006" }} <br>
 {{ $.PublishDate.Format "Jan 2, 2006" }}  <br> {{ end }}
 {{ $lastmod.Format "Jan 2, 2006" }} <br>
+{{ now.Format "Jan 2, 2006" }} <br>
 </div>
 
 <div style="font-size: 8px; text-align: left;  padding-left: 0.5rem;">
@@ -472,9 +473,10 @@ p, .p {
    <span style="font-weight: bold"> deleted</span><br>
 {{ end }}
 
-{{ with .Date }} created   <br>
+{{ with .Date }} published   <br>
 online  <br> {{ end }}
-last modified 
+modified <br>
+accessed
 </div>
 <div style="flex-grow: 1"></div>
 </div>
@@ -637,5 +639,9 @@ for (var s of ss)
 </script>
 
 
+
+{{ if .Params.math }}
+  {{ partial "mathjax" . }}
+{{ end }}
 
 {{ end }}

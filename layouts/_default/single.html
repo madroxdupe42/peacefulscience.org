@@ -3,25 +3,28 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $vlookup := index (partialCached "byviews" .).Lookup }}
-  {{ $views := index $vlookup .RelPermalink "Views" }}
+  {{/* $vlookup := index (partialCached "byviews" .).Lookup  */}}
+  {{/* $views := index $vlookup .RelPermalink "Views" */}}
   
-
+  {{ if eq (now.Format "2006-01-02") (.PublishDate.Format "2006-01-02")  }}
+    {{ warnf "TODAY %s" .File.Path }}
+  {{ end }}
+  
   {{ with .Description }}
     {{ if in . "..." }}
-      {{ warnf "DESC.ELLIPSE\t%s" $.Path }}
+      {{ warnf "DESC.ELLIPSE\t%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
   {{ with .Content }}
     {{ if in . "::" }}
-      {{ warnf "CONTENT.COLONS\tcontent/%s" $.Path }}
+      {{ warnf "CONTENT.COLONS\tcontent/%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
   {{ with .Content }}
     {{ if or ( in . "^") ( in (replace .  "style>*" "style>ASTERIX" ) "*") }}
-      {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.Path }}
+      {{ warnf "CONTENT.FORMATTING \tcontent/%s" $.File.Path }}
     {{ end }}
   {{ end }}
 
@@ -36,7 +39,7 @@
       <header class="article-header mb-5 " style="" id="pageHeader">
         {{ partial "breadcrumbs" .Parent }}
       
-        <h1 id="title" property="title" class="article-title mt-2" {{with .Params.deletiondate}} style="text-decoration: line-through rgba(255,0,0,0.7)  0.08em;" {{end}}>
+        <h1 id="title" property="title" class="article-title mt-2{{with .Params.deletiondate}} red-strike{{end}}">
           {{- .Params.page_title | default .Title | markdownify -}}
         </h1>
 
@@ -57,7 +60,7 @@
           <div class="pb-2">
             {{- with .Params.headerImage }}
               {{- $startsec := .startsec | default 0 }}
-              {{- $src := partial "imgurl" (dict "src"  .src "loc" $.Path ) -}}
+              {{- $src := partial "imgurl" (dict "src"  .src "loc" $.File.Path ) -}}
               {{- $cdnsrc := partial `imgcdn` $src  }}
               {{- $headerclass := "" }}
               {{- with .youtube }}
@@ -67,7 +70,7 @@
                  {{ $headerclass = "d-none d-print-block" }}
               {{- end -}}              
                 <img 
-                  src="{{ $cdnsrc }}?imgeng=/w_auto"
+                  src="{{ $cdnsrc }}?imgeng=/w_auto,800/"
                   class="webfeedsFeaturedVisual {{ $headerclass }}"
                   style="width: 100%; height: auto"
                   sizes="(max-width: 768px) calc(100vw - 32px), (min-width: 768px) 768px"
@@ -172,12 +175,12 @@
         <div class="d-flex d-print-flex d-md-none mt-5 ml-5" style="font-size: smaller;">
 <div style=" text-align: right;  padding-right: 0.5rem;">
  <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="py-1 text-decoration-none d-inline"
           >
-{{ with .Date }} created   <br>
+{{ with .Date }} published   <br>
 online  <br> {{ end }}
 modified <br>
 accessed
@@ -252,6 +255,15 @@ accessed
       >
 
 
+{{ if .Params.math }}
+  {{ partial "mathjax" . }}
+{{ end }}
+
+
+{{ if .Params.hypothesis }}
+  <script hypothesis></script>
+{{ end }}
+
 <div class="ml-5 mt-5" style="display: flex; ; font-size: smaller;">
 <div style=" text-align: right;  padding-right: 0.5rem;">
 
@@ -259,12 +271,12 @@ accessed
    <span style="color: red"> deleted</span><br>
 {{ end }}
  <a
-            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.Path  | safeURL }}"
+            href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub $.File.Path  | safeURL }}"
             rel="”nofollow”"
             target="_blank"
             class="py-1 text-decoration-none d-inline"
           >
-{{ with .Date }} created   <br>
+{{ with .Date }} published   <br>
 online  <br> {{ end }}
 modified <br>
 accessed
@@ -366,14 +378,14 @@ accessed
                   >
                 {{ end }}
                 <a
-                  href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .Path | safeURL }}"
+                  href="{{ printf `%sedit/master/content/%s` site.Params.baseGitHub .File.Path | safeURL }}"
                   rel="”nofollow”"
                   target="_blank"
                   class="font-special my-3 btn btn-primary btn-md"
                   >Suggest Changes</a
                 >
                 <a
-                  href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .Path  | safeURL }}"
+                  href="{{ printf `%scommits/master/content/%s` site.Params.baseGitHub .File.Path  | safeURL }}"
                   rel="”nofollow”"
                   target="_blank"
                   class="font-special my-3 btn btn-primary btn-md"
@@ -474,17 +486,6 @@ for (var s of ss)
   if (s.previousSibling.nodeType == 3)  //Node.TEXT_NODE
     s.parentElement.insertBefore(document.createElement("span"), s);
   
-  
-  
-  
-// move MathJax glyphs into #app for Turbo
-
-var A = document.querySelector("#app");
-var mj = document.querySelector("#MathJax_SVG_glyphs")?.closest("svg");
-
-if (A && mj )
-	A.appendChild(mj);
-
 
 </script>
 
