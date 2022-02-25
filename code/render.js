@@ -7,13 +7,11 @@ const classes = new Set();
 const {mathjax} = require('mathjax-full/js/mathjax.js');
 const {TeX} = require('mathjax-full/js/input/tex.js');
 const {SVG} = require('mathjax-full/js/output/svg.js');
+// const {CHTML} = require('mathjax-full/js/output/chtml.js');
 const {liteAdaptor} = require('mathjax-full/js/adaptors/liteAdaptor.js');
 const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
-//const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
+ const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 require('mathjax-full/js/util/entities/all.js');
-
-const adaptor = liteAdaptor({fontSize: 16});
-RegisterHTMLHandler(adaptor);
 
 function parsedom(html) {
     const dom = parseHTML(html);
@@ -47,32 +45,48 @@ async function remove(dom) {
  return dom;
 }
 
+const adaptor = liteAdaptor({fontSize: 16});
+RegisterHTMLHandler(adaptor);
+
 
 function render_mathjax(html) {
-  const tex = new TeX({inlineMath: [['$', '$'], ['\\(', '\\)']]});
-  const svg = new SVG({fontCache: "local", exFactor: 0.5});
+  const tex = new TeX({
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    packages: AllPackages
+  });
+  const svg = new SVG({
+    fontCache: "local",
+    exFactor: 0.5,
+     mtextInheritFont: false,
+ });
+  
+//  const chtml = new CHTML({
+//  scale: 1 / 1.131,
+//  });
+
   const mj = mathjax.document(html, {InputJax: tex, OutputJax: svg});
   
   mj.render();
-  
-  doctype = adaptor.doctype(mj.document) + "\n" ;
-  return doctype + adaptor.outerHTML(adaptor.root(mj.document));
+  html = adaptor.doctype(mj.document) + "\n" ;
+  html += adaptor.outerHTML(adaptor.root(mj.document));
+  return html;
 }
 
 async function render(path) {
- var has_mathjax = false;
- 
  return fs.readFile(path)
    .then(parsedom)
    .then((dom) => {
      has_mathjax = dom.document.querySelector("[mathjax]");
+     
      if(has_mathjax) console.log("mathjax", path);
-     return dom;})
-   .then(runscripts)
-   .then(remove)
-   .then(getclasses)
-   .then(dom2html)
-   .then(has_mathjax && render_mathjax) 
+     
+     return Promise.resolve(dom)  
+      .then(runscripts)
+      .then(remove)
+      .then(getclasses)
+      .then(dom2html)
+      .then(has_mathjax && render_mathjax) 
+   })
    .then(fs.writeFile.bind(null, path));
 }
 
