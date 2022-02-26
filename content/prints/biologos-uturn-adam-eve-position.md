@@ -2,6 +2,7 @@
 series: biologos
 aliases:
 - /articles/biologos-evolving-position/
+- /articles/biologos-uturn-adam-eve-position/
 authors:
 - swamidass
 categories:
@@ -77,9 +78,6 @@ opportunity to build trust in religious communities.
 
 ## What is BioLogos?
 
-
-
-
 The BioLogos Foundation is an important organization in the conversation between
 evolutionary science and the Church. Founded by Francis Collins, the director of the NIH,
 BioLogos has done a lot of good over the years. In particular, the organization has given 
@@ -105,6 +103,7 @@ A decade later, this June 2021, [**BioLogos published a new position on what gen
 
 
 
+
 BioLogos also quietly deleted several articles from their website, 
 and these deletions are equally important to understanding
 the organization's past and current position.
@@ -126,6 +125,8 @@ The same day the new position was published,
 BioLogos quietly deleted a series of 
 articles which
 explained the scientific claims they presented to *Christianity Today* and NPR in 2011.
+
+
 
 
 2. Dennis Venema. ["Adam, Eve, and Human Population Genetics."](/pdf/deleted-biologos/deleted-biologos-2021-genetics.pdf)  November 12, 2014.
@@ -392,6 +393,65 @@ we now know was overstated and often incorrect. The article ironically hopes for
  
 
 
+<div class="references">
 
+## References 
 
+S. Joshua Swamidass, [*The Genealogical Adam and Eve*](/books/genealogical-adam-eve/) (Intervarsity Press Academic, 2019).
+
+S. Joshua Swamidass, [*The Overlooked Science of Genealogical Ancestry*](https://asa3.org/ASA/PSCF/2018/PSCF3-18Swamidass.pdf) Perspectives on Science and Christian Faith, 2018. 
+
+Richard N. Ostling, [*The Search for the Historical Adam*](https://www.christianitytoday.com/ct/2011/june/historicaladam.html) Christianity Today, 2011.
+
+Editors, [*No Adam, No Eve, No Gospel*](https://www.christianitytoday.com/ct/2011/june/noadamevenogospel.html) Christianity Today, 2011.
+
+Barbara Bradley Hagerty. [Evangelicals Question The Existence Of Adam And Eve](https://www.npr.org/2011/08/09/138957812/evangelicals-question-the-existence-of-adam-and-eve) National Public Radio, 2011;
+
+Stephen Schaffner, [What Genetics Says About Adam and Eve](https://biologos.org/articles/what-genetics-say-about-adam-and-eve), BioLogos, 2021.
+
+BioLogos, *[Were Adam and Eve historical figures?](https://biologos.org/common-questions/were-adam-and-eve-historical-figures/)* BioLogos.
+
+S. Joshua Swamidass, [*The BioLogos Statement on Adam and Eve*](https://discourse.peacefulscience.org/t/_/5847), Peaceful Science Forum, 2019.
+
+Dennis Venema and Darrel Falk. ["Does Genetics Point to a Single Primal Couple?"](/pdf/deleted-biologos/deleted-biologos-2020-three-lines.pdf) BioLogos 2010.
+
+Dennis Venema. ["Adam, Eve, and Human Population Genetics."](/pdf/deleted-biologos/deleted-biologos-2021-genetics.pdf) BioLogos 2014.
+
+Dennis Venema. ["Vern Poythress, Population Genomics, and Locating the Historical Adam."](/pdf/deleted-biologos/deleted-biologos-2021-poythress.pdf) BioLogos 2015.
+
+Dennis Venema. ["Genetics and the Historical Adam: A Response to William Lane Craig."](/pdf/deleted-biologos/deleted-biologos-2021-wlc.pdf) BioLogos 2015.
+
+Dennis Venema.  ["Adam & Eve, Apologetics, and Christian Witness."](/pdf/deleted-biologos/deleted-biologos-2021-apologetics.pdf) BioLogos 2015.
+
+William Lane Craig. [In Quest of the Historical Adam: A Biblical and Scientific Exploration](https://www.amazon.com/dp/B08ZSN6BY4),  (Eerdmans, 2021)
+
+William Lane Craig. [What Became of the Genetic Challenge to Adam and Eve?](https://peacefulscience.org/articles/wlc-genetic-challenge/). Peaceful Science, 2020. [https://doi.org/10.54739/e7r9](https://doi.org/10.54739/e7r9)
+
+S. Joshua Swamidass. [BioLogos Edits Their Response to Keller](https://discourse.peacefulscience.org/t/_/4798). Peaceful Science Forum, 2019.
+
+S. Joshua Swamidass. [Three Stories on Adam and Eve](/three-stories-on-adam/). Peaceful Science, 2018. [https://doi.org/10.54739/3doe](https://doi.org/10.54739/3doe)
+
+Richard Buggs. [Adam and Eve: lessons learned](http://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/), 2018.
+
+S. Joshua Swamidass. [Heliocentric Certainty Against a Bottleneck of Two?](https://discourse.peacefulscience.org/t/_/61). Peaceful Science Forum, 2017. [https://doi.org/10.5281/zenodo.1328247](https://doi.org/10.5281/zenodo.1328247)
+
+S. Joshua Swamidass. [A Genealogical Rapprochement on Adam and Eve](/genealogical-rapprochement/). Peaceful Science, 2017.  [https://doi.org/10.54739/9mu3](https://doi.org/10.54739/9mu3)
+
+Richard Buggs. [Adam and Eve: a tested hypothesis?](https://natureecoevocommunity.nature.com/posts/22075-adam-and-eve-a-tested-hypothesis), 2017.
+
+S. Joshua Swamidass. [In Defense of Tim Keller](/articles/defense-tim-keller/). Peaceful Science, 2017. [https://doi.org/10.54739/p9cc](https://doi.org/10.54739/p9cc)
+
+S. Joshua Swamidass. [A Genealogical Adam and Eve in Evolution](https://henrycenter.tiu.edu/2017/06/a-genealogical-adam-and-eve-in-evolution/). Sapientia, 2017. 
+
+S. Joshua Swamidass. [The Humility of Our Scholars](/articles/humility-of-our-scholars/). Peaceful Science, 2019.
+cience.org/articles/humility-of-our-scholars/),
+
+Deborah Haarsma, [Truth Seeking in Science](https://biologos.org/articles/truth-seeking-in-science), BioLogos 2020.
+
+Thomas H. McCall, [Will The Real Adam Please Stand Up? The Surprising Theology Of Universal Ancestry](https://biologos.org/series/book-review-the-genealogical-adam-and-eve/articles/will-the-real-adam-please-stand-up-the-surprising-theology-of-universal-ancestry) BioLogos 2020.
+
+Daniel Gordon Ang, Jon Garvey, David Kwon and S. Joshua Swamidass, [*"Is evolutionary science in conflict with Adam and Eve?"*](/articles/evolution-adam-eve/) Peaceful Science, 2021. [https://doi.org/10.54739/qg9m](https://doi.org/10.54739/qg9m)
+{.editor}
+
+</div>
 
