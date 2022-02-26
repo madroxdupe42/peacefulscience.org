@@ -10,7 +10,7 @@ const {SVG} = require('mathjax-full/js/output/svg.js');
 // const {CHTML} = require('mathjax-full/js/output/chtml.js');
 const {liteAdaptor} = require('mathjax-full/js/adaptors/liteAdaptor.js');
 const {RegisterHTMLHandler} = require('mathjax-full/js/handlers/html.js');
- const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
+const {AllPackages} = require('mathjax-full/js/input/tex/AllPackages.js');
 require('mathjax-full/js/util/entities/all.js');
 
 function parsedom(html) {
@@ -72,7 +72,9 @@ function render_mathjax(html) {
   return html;
 }
 
+
 async function render(path) {
+ 
  return fs.readFile(path)
    .then(parsedom)
    .then((dom) => {
