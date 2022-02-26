@@ -2,7 +2,7 @@ import algoliasearch from 'algoliasearch/lite';
 import instantsearch from 'instantsearch.js';
 import { connectInfiniteHits } from 'instantsearch.js/es/connectors';
 import { searchBox,refinementList,currentRefinements, configure } from 'instantsearch.js/es/widgets';
-
+import debounce from 'lodash/debounce';
 
 function InitSearch () {
   console.info("InitSearch");
@@ -37,13 +37,22 @@ const search = instantsearch({
     })
   );
 
+
+
+
+
   // initialize SearchBox
   search.addWidget(
     searchBox({
       container: '#search-box',
-      placeholder: 'Search...'
+      placeholder: 'Search...',
+	  showSubmit: false,
     })
   );
+
+
+
+
 
   search.addWidget(
     currentRefinements({
@@ -118,6 +127,7 @@ const infiniteHits = connectInfiniteHits(
 
   search.start();
 }
+
 
 
 InitSearch();
