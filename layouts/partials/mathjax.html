@@ -1,15 +1,26 @@
-<script remove>
+<script defer id="mathjax-config"  mathjax remove>
+
+console.log('MathJax LAUNCH');
+
 window.MathJax = {
+ startup: {
+    pageReady: () => {
+      return MathJax.startup.defaultPageReady().then(() => {
+        console.log('MathJax DONE');
+        document.getElementById("mathjax-config").classList.add("mathjax-done")
+      });
+    }
+  },
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
   },
   svg: {
-   fontCache: 'none',
-    mtextInheritFont: true,
+   fontCache: 'local',
+    mtextInheritFont: false,
   }
 };
+
 </script>
 
-<script async type="text/javascript" 
-  src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-mml-svg.js" id="MathJax-script" mathjax remove>
-  </script>
+<script defer type="text/javascript" 
+src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-svg.js" id="MathJax-script" mathjax remove></script>
