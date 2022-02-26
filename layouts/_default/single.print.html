@@ -63,6 +63,44 @@ del, .del {
 	
 }
 
+* {box-sizing: border-box;;}
+
+figure.del {
+	position: relative;
+
+}
+
+
+figure.del img {
+	border: 10px solid rgba(255,0,0, 0.1);
+	
+
+}
+figure.del 	.overlay {
+		z-index: 100;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	/*	background: rgba(255,0,0, 0.15); */
+	}
+	
+figure.ins {
+	position: relative;
+}
+
+figure.ins	.overlay {
+		z-index: 100;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,255,0, 0.2);
+	}
+
+
 .editor {
 	  background: #f2f2f2;
 }
@@ -248,9 +286,9 @@ html .amazon-xl-right img {
   margin: 0;
   padding: 0;
   margin-top: 0rem;
-  padding-bottom: 0.5rem;
-   border-bottom: solid black thin;
-   border-top: solid black thin;
+  margin-bottom: 0.5rem;
+ /* border-bottom: solid black thin;
+   border-top: solid black thin;*/
      font-size: 9px;
  }
 
