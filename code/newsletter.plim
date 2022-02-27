@@ -109,7 +109,7 @@
       |    font-size: 11px}
       |  h1,h2,h3,h4,h5 {font-family: AlverataSb,Arial,Sans-Serif}
       |  .section-header {color:white;font-size:14px;margin:0px;padding:5px 5px 3px 5px; display: inline-block;}
-      |   @font-face {font-family: AlverataSb; src: url(https://peacefulscience.org/font/alveratasb-webfont.woff2); format('woff2'); } 
+      |   @font-face {font-family: AlverataSb; src: url(https://peacefulscience.org/font/alveratasb-webfont.woff2) format('woff2'); } 
       
    
    
