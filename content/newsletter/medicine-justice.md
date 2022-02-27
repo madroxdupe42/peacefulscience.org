@@ -10,6 +10,7 @@ layers:
   heading: Related Articles
 pages:
 - /articles/akaninyene-interview/
+- /prints/misreading-mlk/
 - /articles/sierra-nance-interview/
 ---
 
@@ -18,3 +19,5 @@ Science matters in questions of justice in our fallen world. This is particularl
 Last week, [Paul Farmer died](https://www.npr.org/sections/goatsandsoda/2022/02/21/1082117707/global-health-champion-dr-paul-farmer-has-died) at age 62. A physician and a medical anthropologist, he has done so much to advance global health in the far reaches of the world, from Haiti to Rwanda and more. Farmer is an example for us all.
 
 We interviewed Akaninyene Ruffin, a health practitioner, who sees the connection between Science and Justice too.
+
+These questions, also, bring us to theology. Aaron Ducksworth invites us to truthfully read Martin Luther King Jr.
