@@ -41,7 +41,7 @@
              "lastmod" .Lastmod.UTC.Unix 
              "permalink" .Permalink 
              "publishdate"   .PublishDate.UTC.Unix
-             "displaydate"    ( .PublishDate.Format "January 1, 2006" )
+             "displaydate"    ( .PublishDate.Format "January 2, 2006" )
              "readingtime" .ReadingTime 
              "relpermalink" .RelPermalink 
              "summary" .Summary 
