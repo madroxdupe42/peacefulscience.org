@@ -14,7 +14,7 @@ categories:
 ---
 
 This article is based on [an article](
-https://cfc.sebts.edu/faith-and-culture/misreading-martin-luther-king-jr/) first published at South Easter Baptist Seminary (SEBTS), where Dr. S. Joshua Swamidass [is currently a scientist-in-residence](/articles/science-sbc-first-week). The author, Aaron Ducksworth, is a doctoral student at SEBTS. He holds a B.S. in Interdisciplinary Studies from Mississippi State University, a M.Div., and a ThM in Theology from Southeastern. He is currently pursuing a PhD in Christian Ethics. 
+https://cfc.sebts.edu/faith-and-culture/misreading-martin-luther-king-jr/) first published at Southeastern Baptist Seminary (SEBTS), where Dr. S. Joshua Swamidass [is currently a scientist-in-residence](/articles/science-sbc-first-week). The author, Aaron Ducksworth, is a doctoral student at SEBTS. He holds a B.S. in Interdisciplinary Studies from Mississippi State University, a M.Div., and a ThM in Theology from Southeastern. He is currently pursuing a PhD in Christian Ethics. 
 {.editor-note}
 
 
