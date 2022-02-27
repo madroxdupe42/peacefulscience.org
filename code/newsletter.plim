@@ -52,7 +52,7 @@
             a.article-title  href=article["link"] = article["title"]
           div 
             span.article-author = article["author"]["name"]
-            span.article-date = article["date"]
+            span.article-date = article["displaydate"]
           p
             span.article-excerpt = article["excerpt"]
           
@@ -74,7 +74,7 @@
             a.article-title  href=article["permalink"] = article["title"]
           div 
             span.article-author == article["authors"][0] + ("" if len(article["authors"]) < 2 else ", <i>et al.</i>")
-            span.article-date = article["publishdate"]
+            span.article-date = article["displaydate"]
           p
             span.article-excerpt = article["description"]
           
