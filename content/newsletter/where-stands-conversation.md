@@ -13,7 +13,7 @@ pages:
 - /prints/ets-keathley-gae
 - /prints/excerpts/if-big-e-evolution-true
 - /articles/three-stories-on-adam
-- /articles/biologos-uturn-adam-eve-position
+- /prints/biologos-uturn-adam-eve-position
 ---
 
 Last week, [Tyler O'Neal published an article](https://www.foxnews.com/faith-values/christians-point-to-breakthroughs-in-genetics-to-show-adam-and-eve-are-not-incompatible-with-evolution) covering the growing conversation on Adam and Eve, covering [The Genealogical Adam and Eve](https://peacefulscience.org/books/genealogical-adam-eve/) and books [by William Lane Craig](https://peacefulscience.org/books/quest-historical-adam/) and [by *Reasons to Believe*](https://peacefulscience.org/books/thinking-about-evolution/).
