@@ -17,7 +17,7 @@ resources
 amazon*
 prince-engine/ 
 fonts/
-newsletter.*
+./newsletter.*
 *.zip
 *.pdf
 assets/css/tw.css
