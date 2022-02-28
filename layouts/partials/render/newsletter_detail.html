@@ -1,7 +1,7 @@
 
 {{- $style := .Style | default "horizontal" -}}
 
-<article resource="{{ .Page.Permalink }}" class="container col-12 my-3 {{ .Layout  }}">
+<article resource="{{ .Page.Permalink }}" class="container my-3 {{ .Layout  }}">
 <div class=row   >
 <div class="col-12  " >
 <div style="border-bottom: solid #ddd; ">
@@ -18,7 +18,7 @@
 
 <div class="col-12 col-md-8 container">
 <div class="row">
-{{ range .Page.Params.Pages | first 4 }}
+{{ range .Page.Params.Pages  }}
  {{ with site.GetPage (path.Clean .)  }}
       {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-6 col-lg-4 col-xl-3" "Hide" "excerpt categories date"  "Sizes" "(max-width: 745px) calc(50vw - 32px), (min-width: 745px) 253px" ) }}
   {{ end }}
