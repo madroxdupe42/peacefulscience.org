@@ -14,15 +14,12 @@
 {{ $paginator := .Paginate $pages }}
 
   <div class="bg-white">
-    <div style="height: 40px; width: 100%"></div>
+    
 
-    <div class="container">
-      <div id="post-list" class="row pt-5 pb-5 ">
-
-        <header class="row col-12 pb-5 ">
-
-        <div class="col-12">
-
+        <header class=container>
+         <div style="height: 40px; width: 100%"></div>
+         
+         <div class=row> <div class=col-12>
          {{ with .Params.amazon }}
           <section class="float-md-right text-center p-3">
             {{ partial `amazon` (index . 0)  }}
@@ -88,35 +85,41 @@
   {{ end }}
   </div>
 {{ end }}
-                     
-          </div>
-
+</div>
+</div>
         </header>
         
         
+<div class=container>
 
- <turbo-frame class="row col-12" id="__pagination{{ $paginator.PageNumber }}" target="_top">
-
+ <turbo-frame class="container" id="__pagination{{ $paginator.PageNumber }}" target="_top">
+<div class=row>
         {{- range $paginator.Pages  -}}
           {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout "Hide" $hide ) }}
         {{ end -}}
-
+        
 {{ if $paginator.HasNext }}
-  <turbo-frame class="container w-100 px-0" style="display: flex; flex-wrap: wrap;"
-      id="__pagination{{ $paginator.Next.PageNumber }}" src="{{ $paginator.Next.URL }}" loading=lazy data-turbo-action="advance" target="_top">
-  
-  <noscript>
-    <div class= "col-12 p-3 text-center">
-  <a class="btn btn-dark text-larger" href="{{ $paginator.Next.URL}}">Next</a>
-  </div></noscript>
-  
-  </turbo-frame>
+     <turbo-frame class="container" style="display: flex; flex-wrap: wrap;"
+      id="__pagination{{ $paginator.Next.PageNumber }}" src="{{ $paginator.Next.URL }}" loading=lazy data-turbo-action="advance" target="_top"></turbo-frame>
+       
+          <noscript>
+    <div class= "w-100 text-center">
+  <a class="btn btn-dark text-larger" href="{{ $paginator.Next.URL}}">Next</a></div>
+  </noscript>
 {{ end }}
+   
+</div>
+</turbo-frame>
+
+</div>
 
 
 
-      </div>
-    </div>
+
+
+
+
   </div>
+
 
 {{ end }}

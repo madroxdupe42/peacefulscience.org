@@ -8,21 +8,26 @@
   
 
 
-<article resource="{{ .Page.Permalink }}" class="container my-3 {{ .Layout  }}">
-<div class=row  >
-<div class="col-12 font-special " style="border-bottom: solid #ddd; font-size: 22px; color: #aaa">
-{{ .Page.Date.Format "January 2, 2006" }}
+<article resource="{{ .Page.Permalink }}" class="container col-12 my-3 {{ .Layout  }}">
+<div class=row   >
+<div class="col-12  " >
+<div style="border-bottom: solid #ddd; ">
+<div property="date"  class="d-inline-block font-special " style="font-size: 22px; color: #080">
+<a href="{{ .Page.Permalink }}">{{ .Page.Date.Format "January 2, 2006" }}</a></div>
+<span class="pl-3" style="color: #aaa">  {{ div .Page.WordCount 100. | lang.FormatNumber 1}} minute read
+</span>
+</div></div>
+
+<div class="col-12 col-md-4 " >
+{{- $params := merge . (dict "Style" "horizontal" "Layout" "w-100")  }}
+{{ partial "render/_default.html"  $params }}
 </div>
 
-
-{{- $params := merge . (dict "Style" "horizontal" "Layout" "col-12 col-md-4" )  }}
-{{ partial "render/_default.html"  $params }}
-
-<div class="col-12 col-md-8 ">
+<div class="col-12 col-md-8 container">
 <div class="row">
 {{ range .Page.Params.Pages | first 4 }}
  {{ with site.GetPage (path.Clean .)  }}
-      {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-6 col-lg-3" "Hide" "excerpt categories date"  "Sizes" "(max-width: 745px) calc(50vw - 32px), (min-width: 745px) 253px" ) }}
+      {{ partial "render" (dict "Page" .  "Style" "vertical" "Layout"  "col-6 col-md-6 col-lg-4 col-xl-3" "Hide" "excerpt categories date"  "Sizes" "(max-width: 745px) calc(50vw - 32px), (min-width: 745px) 253px" ) }}
   {{ end }}
 {{ end }}
 </div>
