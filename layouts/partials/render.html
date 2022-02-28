@@ -1,9 +1,13 @@
 
 {{- $partial := "render/_default.html" }}
 
+
+{{- if fileExists (printf "layouts/partials/render/%s.html" .Section ) }}
+  {{- $partial = printf "render/%s.html" .Section   }}
+{{- end }}
+
 {{- if fileExists (printf "layouts/partials/render/%s.html" .Page.Type ) }}
   {{- $partial = printf "render/%s.html" .Page.Type  }}
-  
 {{- end }}
 
 

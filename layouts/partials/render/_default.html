@@ -57,6 +57,8 @@
     <a class="title d-block{{with $page.Params.deletiondate}} red-strike{{end}}" property="title"
        href="{{$page.Permalink}}">{{ $page.Params.page_title | default $page.Title  | markdownify }} </a>
 
+
+{{ if or (in .Elements  "authors" ) (in .Elements "date") }}
 {{ if in .Elements "authors" -}}
     <span class="text-smaller pr-2 text-muted">
     {{- with $page.Params.authors }}
@@ -74,7 +76,7 @@
   {{- end -}}
 {{- end -}}
     <br>
-    
+{{ end }}    
 {{- if in .Elements "excerpt" -}}
     <span property="description" class="d-block excerpt text-smaller"> {{ $page.Params.description | markdownify }} </span>
 {{- end -}}

@@ -1,9 +1,11 @@
 ---
 title: Newsletter 
 design:
-  hide: image authors
-  layout: col-md-7 col-12
+  hide: image authors date
+  layout: col-12
+  style: newsletter
 cascade:
   rss: true
   jsonld-template: /articles
+  outputs: ["HTML", "mjml", "print"]
 ---
