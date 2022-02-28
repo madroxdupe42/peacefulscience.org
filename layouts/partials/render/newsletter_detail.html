@@ -1,13 +1,6 @@
 
 {{- $style := .Style | default "horizontal" -}}
 
-{{ if in $style (slice "horizontal" "vertical")  }}
-  {{ partial "render/_default.html" . }}
-{{ end }}
-
-  
-
-
 <article resource="{{ .Page.Permalink }}" class="container col-12 my-3 {{ .Layout  }}">
 <div class=row   >
 <div class="col-12  " >
@@ -35,4 +28,3 @@
 
 </div>
 </article>
-

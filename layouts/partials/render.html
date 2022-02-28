@@ -2,30 +2,33 @@
 {{- $partial := "render/_default.html" }}
 
 
-{{- if fileExists (printf "layouts/partials/render/%s.html" .Section ) }}
-  {{- $partial = printf "render/%s.html" .Section   }}
-{{- end }}
-
 {{- if fileExists (printf "layouts/partials/render/%s.html" .Page.Type ) }}
   {{- $partial = printf "render/%s.html" .Page.Type  }}
 {{- end }}
 
 
-{{ $elem := split "title lazy description categories date excerpt authors image" " " }}
+{{- if fileExists (printf "layouts/partials/render/%s.html" .Style ) }}
+  {{- $partial = printf "render/%s.html" .Style   }}
+{{- end }}
 
-{{ with .Hide }}
-  {{ $elem = $elem | complement (split . " ") }}
-{{ end }}
 
-{{ with .Show }}
-  {{ $elem =  union $elem (split . " ") }}
-{{ end }}
+{{- $elem := split "title lazy description categories date excerpt authors image" " " }}
 
-{{ with .Toggle }}
-  {{ $elem = $elem | symdiff (split . " ") }}
-{{ end }}
+{{- with .Hide }}
+  {{- $elem = $elem | complement (split . " ") }}
+{{- end }}
 
-{{ $config :=  merge (dict "Layout" "col-6 col-md-3" "Style" "horizontal" "Elements" $elem) . }}
+{{- with .Show }}
+  {{- $elem =  union $elem (split . " ") }}
+{{- end }}
+
+{{- with .Toggle }}
+  {{- $elem = $elem | symdiff (split . " ") }}
+{{- end }}
+
+{{- $config :=  merge (dict "Layout" "col-6 col-md-3" "Style" "horizontal" "Elements" $elem) . }}
 
 
 {{- partial $partial $config -}}
+
+
