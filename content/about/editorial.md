@@ -17,7 +17,7 @@ In some cases, before proposing specific corrections, it may be better to [creat
 
 For good reasons, we do not endorse or agree with all content on this website. For example,
 
-1. To maintain a record of academic exchanges, we archive [some scientific articles from other organizations](http://localhost:1313/articles/biologos-uturn-adam-eve-position/) that are known to contain scientific inaccuracies.
+1. To maintain a record of academic exchanges, we archive [some scientific articles from other organizations](/prints/biologos-uturn-adam-eve-position) that are known to contain scientific inaccuracies.
 
 2. In the interest of dialogue, we may publish articles from authors we disagree with, and these articles may include scientific information we judge to be incorrect.
 
@@ -27,7 +27,7 @@ It is usually clear from context where we do not endorse the accuracy of content
 
 ## Corrections Policy
 
-We follow [the recommendations](http://localhost:1313/articles/correction-policy/) of a committee on error correction.
+We follow [the recommendations](/articles/correction-policy/) of a committee on error correction.
 
 ### Categories of Errors
 
@@ -65,7 +65,7 @@ We will ensure all URLs to substantive content on our website remain stable. Art
 
 [Digital object identifiers (DOI)](https://en.wikipedia.org/wiki/Digital_object_identifier) are a stable way of referencing digital articles. They are the standard used by most academic publishers. The DOI system guarantees long-term access to content and long-term stability of URL references. 
 
-We do not assign DOIs to all articles. However, on request, we will assign a DOI to any article we publish. When a DOI is assigned, it is visible in the article’s header (see [example](http://127.0.0.1:1313/articles/adam-eve-evolution/)). Note that arrived PDFs stored by our DOI provider are stripped of all hyperlinks. If the link targets are important, the PDFs and pages stored at *Peaceful Science* will be preferred.
+We do not assign DOIs to all articles. However, on request, we will assign a DOI to any article we publish. When a DOI is assigned, it is visible in the article’s header (see [example](/prints/evolution-adam-eve)). Note that arrived PDFs stored by our DOI provider are stripped of all hyperlinks. If the link targets are important, the PDFs and pages stored at *Peaceful Science* will be preferred.
 
 
 
