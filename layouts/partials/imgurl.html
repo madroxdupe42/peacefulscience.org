@@ -14,7 +14,10 @@
    {{- warnf "BROKEN.IMG:\t%s\t%s" $loc $src -}}
  {{- end -}}
 {{- else -}}
- {{- warnf "BROKEN.IMG:\t%s\t%s" $loc $src -}}
+ {{- if findRE "^http" $src }}
+ {{- else }}
+   {{- warnf "BROKEN.IMG:\t%s\t%s" $loc $src -}}
+  {{- end }}
 {{- end -}}
 
 {{ return $src  }}
