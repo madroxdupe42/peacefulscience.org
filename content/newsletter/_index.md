@@ -7,5 +7,4 @@ design:
 cascade:
   rss: true
   jsonld-template: /articles
-  outputs: ["HTML", "mjml", "print"]
 ---
