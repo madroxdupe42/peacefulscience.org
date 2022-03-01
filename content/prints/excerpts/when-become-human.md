@@ -6,7 +6,7 @@ categories:
 - science
 - history
 description: Exploring what paleontology, archaeology and biology tell us about when our ancestors acquired uniquely human traits.
-publishdate: 2022-03-07
+publishdate: 2022-03-09
 date: 2021-09-28
 partof:
 - /books/quest-historical-adam/
