@@ -3,6 +3,8 @@
   
   
 <style>
+
+* {box-sizing: border-box}
 .collapsible.collapsed {
   height: 200px;
   overflow-y: hidden;
@@ -15,7 +17,7 @@
   height: 200px;
   top: 0px;
   position: absolute;
-  background-image: linear-gradient(#fff0, #fffd, #ffff);
+  background-image: linear-gradient(#dfdfdf00, #dfdfdfd0, #dfdfdfff);
   pointer-events: none;
 }
 
@@ -47,7 +49,7 @@ width: 100%
 
 {{ define "main" }}
 
-{{ $layout := .Params.design.layout | default "col-6 col-md-4"  }}
+{{ $columns := 2 }}
 {{ $style := .Params.design.style | default "vertical" }}
 {{ $page := partial "listpages" . }}
 
@@ -100,14 +102,11 @@ width: 100%
 
         </header>
    
-      </div>     
-
-        
 {{ $groups := newScratch }}
 {{ $group_order := slice }}
 
 {{ range $page }}
-  {{ $g := .Params.series | default "NONE" }}
+  {{ $g := .Params.series | default .RelPermalink }}
   {{ $groups.Add $g (slice . ) }}
   {{ if not ( in $group_order $g ) }}
     {{ $group_order = $group_order | append $g }}
@@ -120,32 +119,47 @@ width: 100%
 {{ end }}
 
 
+   <div class="col-12 " style="display: grid; grid-column-gap: 15px;
+ grid-template-columns: repeat(auto-fill, minmax(calc(min(500px, 100%)), 1fr));
+  grid-auto-flow: row dense;"> 
+
 {{ $N := 0 }}
 {{ range $grouped }}
    {{ $N = add $N 1 }}
    
-   {{ $params := dict "Text" `Related Articles` "Class" "heading-black w-100" }}
-   {{ if ne .Key "NONE" }}
-     {{ $s := site.GetPage "taxonomyterm" (printf "series/%s" .Key) }}
-     {{ $params = dict "Text" ($s.Title | markdownify )  "Link" $s.Permalink  "Class" "heading-black w-100" }}
+   {{ $params := default nil }}
+   {{ with site.GetPage "taxonomyterm" (printf "series/%s" .Key) }}
+     {{ $params = dict "Text" ( .Params.listtitle | default .LinkTitle | default .Title | markdownify )  "Link" .Permalink  "Class" "heading-black w-100" }}
    {{ end }}
    
    
-   <section class=row>
-   {{ partial "heading" $params }}
+   {{ $X := len .Pages }}
+   {{ with $params }} {{ $X = add $X 1  }} {{ end}} 
+   
+   <section class=""
+     style="grid-row: auto / span {{$X}};  {{with $params  }} margin-bottom: 16px; align-self: center; {{end }}" >  
+     
+        {{ $css := "padding-top: 0px; padding-bottom: 0px; " }}
 
+     
+  <div class="" style="">
+   {{ with $params }}
+     <div class="heading {{ .Class }}" style="margin-top: 16px;;"> 
+        <a style="max-width: 80%; white-space: normal; margin-left: 0px;; text-align: left" id="{{ .Link | urlize }}" href="{{ .Link }}">
+        {{ .Text }}</a> 
+        </div>
+     {{ $css = "background: #dfdfdf; padding-right: 10px" }}
+   {{ end }}
    {{ $page = .Pages }}
 
-	    {{- if gt (len $page) 6 }}
-	        {{ range first 4 $page }} 
-	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}       
+	    {{- if gt (len $page) 10000 }}
+	        {{ range first 2 $page }} 
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  "col-12" "Hide" "categories" ) }}       
 	        {{ end }}
-	
-	        
 
 	        <div id="post-collapse{{ $N }}" class=" collapsible collapsed" style="display:flex; flex-wrap: wrap"> 
-	        {{- range after 4 $page -}}
-	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+	        {{- range after 2 $page -}}
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  "col-12" "Hide" "categories") }}
 	        {{ end -}}	        
 
 	        <div  class="collapse-overlay col-12">
@@ -162,15 +176,19 @@ width: 100%
         
         {{ else }}
 	        {{- range $page -}}
-	          {{ partial "render" (dict "Page" .  "Style" $style "Layout"  $layout  ) }}
+	          {{ partial "render" (dict "Page" .  "Style" $style "Layout" "w-100  py-0" "Hide" "categories" "CStyle" $css ) }}
 	        {{ end -}}        
         {{ end }}
-
+        
+</div>
  </section>
+ 
 {{ end }}
-
+</div>
   
  
+      </div>  
+        
 
     </div>
 

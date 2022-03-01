@@ -25,7 +25,7 @@
 {{- end -}}
 
 <article {{with .CStyle }}style="{{ . | safeCSS }}"{{ end }} {{with .Id }}id="{{ . }}"{{ end }} 
-  class="{{ $layout }} {{ $containerclass }}" resource="{{ $page.Permalink }}">
+  class="{{ $containerclass }} {{ $layout }} " resource="{{ $page.Permalink }}">
 
 {{ $rendered := false }}
 
