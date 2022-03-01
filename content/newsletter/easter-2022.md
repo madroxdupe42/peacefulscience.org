@@ -2,7 +2,7 @@
 title: Can a Scientist Affirm the Resurrection?
 description: Each Easter, many Christians celebrate the Resurrection. How can this be so?
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-04-16
 layers:
 - type: body

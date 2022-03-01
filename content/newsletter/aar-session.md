@@ -2,7 +2,7 @@
 title: Mike Heiser, Paul Metzger and Greg Cootsona Respond
 description: Pursuit of virtue sometimes demands protest. Protest creates conflict. This conflict is often the only path to greater peace.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-01-24
 layers:
 - type: body

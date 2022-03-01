@@ -2,7 +2,7 @@
 title: Where Stands a Growing Conversation
 description: Last week, millions of people learned about the new conversation on Adam and Eve. The response is a salient window into where stands the conversation.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-01-10
 layers:
 - type: body

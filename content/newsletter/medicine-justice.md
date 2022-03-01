@@ -2,7 +2,7 @@
 title: Medical Science and the Questions of Justice
 description: This last week of Black History Month, Paul Farmer died, and we interviewed Akaninyene Ruffin. Science matters to Justice.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-02-28
 layers:
 - type: body

@@ -2,7 +2,7 @@
 title: Renewing a Conversation on Mere Theistic Evolution
 description: Michael Murray and John Churchill answer several theological objections to evolution, offering a better way.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-02-15
 layers:
 - type: body

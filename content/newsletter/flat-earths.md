@@ -2,7 +2,7 @@
 title: Flat Earths and Fake Footnotes
 description: At the interface of science and faith, two quite entertaining scholars have many stories to tell.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-02-02
 layers:
 - type: body

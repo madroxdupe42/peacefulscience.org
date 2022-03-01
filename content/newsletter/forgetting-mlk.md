@@ -4,7 +4,7 @@ aliases:
 title: Forgetting Dr. Martin Luther King Jr.
 description: Pursuit of virtue sometimes demands protest. Protest creates conflict. This conflict is often the only path to greater peace.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-01-17T09:00:00
 layers:
 - type: body

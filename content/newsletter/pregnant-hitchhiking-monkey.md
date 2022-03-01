@@ -2,7 +2,7 @@
 title: Mind the Pregnant Hitchhiking Monkey
 description: A curious tale from evolutionary science takes center stage as the conversation on MTE continues.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-02-22
 layers:
 - type: body
