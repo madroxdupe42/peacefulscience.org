@@ -2,7 +2,7 @@
 title: Science and Historical Black Colleges and Universities  
 description: This month is Black History month. We asked a black science student about her journey to science from a HBUC.
 authors:
-- swamidass
+- Peaceful Science
 date: 2022-02-07
 layers:
 - type: body
