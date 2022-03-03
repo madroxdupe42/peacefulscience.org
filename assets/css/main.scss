@@ -208,28 +208,24 @@ h8 {
 .article-text {
 
 
-  & h2,
-  & h3,
-  & h4,
-  & h5,
-  & h6,
-  & h7,
-  & h8 {
-	
-	
-    margin-left: -0.5rem;
-
+  :where(h2,h3,h4,h5, h6)
+  {
+    margin-left: calc( max(min(-3vw, -1rem), -0.5rem));
+ 
   };
+
+  :where(h1, h2, h3, h4, h5, h6) + :where(h1, h2, h3, h4, h5, h6) {
+	margin-top: 0.8em;
+	}
 }
 
 ol li:not(:last-child) {
   padding-bottom: 0.5rem;
 }
+
 article img {
   width: 100%;
 };
-
-
 
 .font-special {
   font-family: AlverataSb;
@@ -1506,6 +1502,7 @@ del, .del {
 		text-decoration-line: line-through;
 
 }
+
 
 figure.del {
 	position: relative;
