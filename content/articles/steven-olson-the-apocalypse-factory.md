@@ -12,12 +12,11 @@ description: 'On August 17, 2020, Steve Olson is discussing his book on the nucl
   bomb and the Hanford site: the factory refined plutonium fuel for the bombs.'
 headerimage:
   src: /img/2020/08/apocalypse-factory-olson.png
+  youtube: 0ipqmyBZHpw
 title: 'Steven Olson: The Apocalypse Factory'
 ---
 
 On August 17, 2020, Steve Olson is discussing his book on the nuclear bomb and the Hanford site: the factory refined plutonium fuel for the bombs. He is an award-winning science writer who just authored *[The Apocalypse Factory: Plutonium and the Making of the Atomic Age](https://www.amazon.com/gp/product/B07ZTSVNL5/)*. He is also the author of *[Mapping Human History: Genes, Race, and Our Common Origins](https://amzn.to/3gr8a0m)*, which was one of five finalists for the 2002 National Book Award for Nonfiction.
-
-{{< youtube `0ipqmyBZHpw` >}}
 
 Seventy-five years ago today, on August 6, 1945, the first atomic bomb ever used in war was dropped on Hiroshima. A city was destroyed. Three days later, on August 9th, the second bomb was dropped on Nagasaki. Another city destroyed. A war was ended, but at what cost?
 
@@ -54,6 +53,9 @@ The warnings by scientists of climate change also bring us to these moral questi
 In these ways, the story of the Hanford site brings us some of the most pressing questions of our moment.
 
 This is much is certain. We live in a fallen world. Do we hope that God's will might be done on earth as it is in heaven? Do we want a better way? Or is the world passed down to us good enough?
+generations that find a better way.
+
+{{< amazon `B07ZTSVNL5` >}}
 
 Olson's book is important for helping us remember what faces us. It is a revealing book, exposing generational problems we should should know about, but have already forgotten. In teaching us our history, this book could also give us hope. The moral questions facing us at Hanford are just like those we are finding elsewhere. These questions call us to have courage in our moment, and they reveal our nature and our character.
 
@@ -61,6 +63,4 @@ At *Peaceful Science* we are thinking about questions of ancestry, which brings 
 
 In view of the Hanford site, the apocalypse factory, what is the revelation for us?
 
-Maybe our generation could be different. Maybe we could be good. Maybe we can be among the generations that find a better way.
-
-{{< amazon `B07ZTSVNL5` >}}
+Maybe our generation could be different. Maybe we could be good. Maybe we can be among the 
