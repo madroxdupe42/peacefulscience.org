@@ -10,7 +10,7 @@ headerimage:
 
 <div class="editor-note aside-xl-wide">
 
-*Peaceful Science* mission is to encourage conversation around the grand question of what it means to be human. To support this mission, [we plan](/prints/deleted) to republish academically and historically important articles that have been deleted by other organizations. We asked our legal counsel to determine if copyright law prohibits us from  republishing deleted articles *without* the original authors' authorization. This their response to us. They found that republishing deleted articles is "fair use," closely aligned with the constitutional purpose of copyright law.
+*Peaceful Science* mission is to encourage conversation around the grand question of what it means to be human. To support this mission, [we plan](/prints/deleted) to republish academically and historically important articles that have been deleted by other organizations. We asked our legal counsel to determine if copyright law prohibits us from  republishing deleted articles *without* the original authors' authorization. This is their response to us. They found that republishing deleted articles is "fair use," closely aligned with the constitutional purpose of copyright law.
 </div>
 
 Fair Use (“fair use”) is one of the most significant ways the US Copyright Act allows persons, other than the copyright owner and its licensees, to use a copyrighted work without authorization. It is applicable in the situation of an academic debate where certain papers have been buried to obscure the academic record and avoid critique. To attempt to use copyright law as a shield against academic critique is contrary to the very purpose of copyright law.
