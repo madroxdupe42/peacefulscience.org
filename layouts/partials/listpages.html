@@ -2,6 +2,11 @@
 {{ $reversed := .Params.reverse  | default true }}
 {{ $this := . }}
 
+{{ if .Params.pages_filter_rss }}
+  {{ warnf "FILTERING" .Section }}
+  {{ $out = (where $out ".Params.rss" "==" true ) }}
+{{ end }}
+
 {{ $page := (slice ) }}
 {{ range .Params.pages }}
    {{ with site.GetPage (replaceRE `/$` `` .)  }}

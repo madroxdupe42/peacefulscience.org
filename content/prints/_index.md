@@ -1,5 +1,6 @@
 ---
 title: Prints 
+pages_filter_rss: true
 cascade:
   rss: true
   outputs:
