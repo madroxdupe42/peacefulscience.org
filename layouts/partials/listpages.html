@@ -3,7 +3,6 @@
 {{ $this := . }}
 
 {{ if .Params.pages_filter_rss }}
-  {{ warnf "FILTERING" .Section }}
   {{ $out = (where $out ".Params.rss" "==" true ) }}
 {{ end }}
 
