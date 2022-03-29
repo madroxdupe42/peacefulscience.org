@@ -8,13 +8,12 @@ categories:
 - adam-eve
 partof:
 - /books/what-is-man/
-description: Four possible models of how humans came to possess their unique traits
+description: Four possible models of how humans came to possess their unique traits, in an imaginative old earth creationist book.
 publishdate: 2022-03-30
 date: 2018-07-03
 headerimage:
   src: /img/2022/02/what-is-man.png
   credit: Background image credit  [MaxPixel](https://www.maxpixel.net/Skin-Brown-Skin-Brown-Skin-Up-Close-Skin-Up-Close-2016480).
-draft: true
 ---
 This article is an edited version of chapter 1 of the book [*What is Man? Adam, Alien or Ape?*](https://www.amazon.com/WHAT-MAN-Adam-Alien-Ape/dp/1595558462/) by Edgar Andrews, &copy; 2018 by Elm Hill Books, Nashville, Tennessee. Used by permission. All rights reserved. We capitalize the word “man” to read “Man” when it refers to humanity as a whole.
 {.editor-note}
