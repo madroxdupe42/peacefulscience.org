@@ -1,5 +1,5 @@
 ---
-title: Learning About the Science and Adam and Eve
+title: Learning About the Science of Adam and Eve
 description: What does genetic science tell us about Adam and Eve? We are taking a detailed dive at a workshop in this summer's ASA conference.
 authors:
 - Peaceful Science
