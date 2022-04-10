@@ -331,7 +331,7 @@ The publication of the complete orangutan genome in 2011 allowed for the same ca
 
 ### Implications for human origins
 
-The conclusions of this article are substatially revised, but [BioLogos claimed they were "unchanged."](https://discourse.peacefulscience.org/t/18-million-years-ago-means-500-000/13988). Moreover, analysis of "incomplete lineage sorting" does not demonstrate the conclusions stated here.
+The conclusions of this article are substatially revised, but [BioLogos claimed they were "unchanged"](https://discourse.peacefulscience.org/t/18-million-years-ago-means-500-000/13988). Moreover, analysis of "incomplete lineage sorting" does not demonstrate the conclusions stated here.
 {.editor-note .aside-xl-right}
 
 While this quantitative data is not as easy to appreciate as other sorts of evidence we have examined, it nonetheless is compelling: humans, chimpanzees, and gorillas have, within their genomes, the exact pattern of incomplete lineage sorting predicted by (a) relatedness as evidenced by all other lines of genomic evidence (such as shared mutations in individual genes) and (b) large ancestral population sizes throughout the speciation process. <del>The smallest population our lineage was reduced to in the last 15 million years or more, then, was to the bottleneck of 10,000 individuals once our lineage parted ways with the chimpanzee lineage.</del>
