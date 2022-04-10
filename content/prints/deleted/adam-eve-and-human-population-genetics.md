@@ -27,7 +27,7 @@ In 2017, [this article was found to have several conclusion-altering scientific 
 
 Instead, in June 2021, BioLogos deleted the article. They posted a new article at a different URL with different authorship. The new aricle is a substantially revised version of this deleted article, back-dated to November 12, 2014. The [conclusions of the new article](/prints/deleted/adam-eve-and-human-population-genetics#implications-for-human-origins) are substatially reivised, but [the note claimed they  were "unchanged."](https://discourse.peacefulscience.org/t/18-million-years-ago-means-500-000/13988)
 
- Insertions and deletions made to the original text in the revised article article are marked here. These changes indicate  BioLogos' scientific position, and how this position changed. 
+ Insertions and deletions made to the original text in the revised article are marked. 
 
 </div>
 
