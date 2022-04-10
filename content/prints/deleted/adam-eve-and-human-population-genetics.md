@@ -9,7 +9,7 @@ basedon:
 - https://web.archive.org/web/20200812100251/https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments/adam-eve-and-human-population-genetics
 description: It's impossible to prove that we didn't descend from just two individuals. But the genetic evidence makes that scenario extremely unlikely.
 deletiondate: 2021-06-15
-publishdate: 2022-04-11
+publishdate: 2022-04-10
 date: 2014-11-12
 headerimage: 
   src: /img/2022/03/biologos-deleted-2014-ct.png
