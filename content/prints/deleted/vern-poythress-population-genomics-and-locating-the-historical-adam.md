@@ -21,7 +21,7 @@ In order to preserve the academic and historical record, this deleted article is
 
 The article was [first published by the BioLogos Foundation in 2015](https://web.archive.org/web/20200812100251/https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments/adam-eve-and-human-population-genetics).  
 
-In 2017, [this article was found to have several conclusion-altering scientific errors](/articles/three-stories-on-adam). January 2020, BioLogos [briefly acknolwedged](https://biologos.org/articles/truth-seeking-in-science) errors in this article. However, they declined our request to transparently correct the scientific errors here. Instead, in June 2021, BioLogos deleted the article. 
+In 2017, [this article was found to have several conclusion-altering scientific errors](/articles/three-stories-on-adam). January 2020, BioLogos [briefly acknowledged](https://biologos.org/articles/truth-seeking-in-science) errors in this article. However, they declined our request to transparently correct the scientific errors here. Instead, in June 2021, BioLogos deleted the article. 
 
 </div>
 
