@@ -1,6 +1,7 @@
 ---
 title: Dennis Venema's Response to Richard Buggs
 description: What does the evidence in population genetics really say about Adam and Eve?
+deletiondate: 2021-06-15
 ---
 
 In 2017, scientist Dennis Venema and theologian Scot McKnight published [Adam and the Genome](/books/adam-genome). This book makes several claims about population genetics that were publicly criticized by Richard Buggs.

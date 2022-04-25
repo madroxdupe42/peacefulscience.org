@@ -2,7 +2,7 @@
 title: The BioLogos Series on "Adam, Eve, and Population Genetics"
 sameas:
 - https://web.archive.org/web/20200812100251/https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments
-description: In this series, we explore the genetic evidence that indicates humans became a separate species as a substantial population, rather than descending uniquely from an ancestral pair
+deletiondate: 2021-06-15
 ---
 
 In 2010, the BioLogos Foundation's arguments against Adam and Eve were covered in Christianity Today. In response to scientific criticism of these arguments, BioLogos published [this series of articles in 2014 and 2015](https://web.archive.org/web/20200812100251/https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments).  

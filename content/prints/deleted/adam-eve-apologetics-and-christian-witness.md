@@ -12,6 +12,7 @@ date: 2015-12-15
 rss: false
 headerimage: 
   src: /img/2022/01/biologos-delete.png
+series: deleted-biologos
 ---
 
 <aside class="editor-note aside-xl-right">
