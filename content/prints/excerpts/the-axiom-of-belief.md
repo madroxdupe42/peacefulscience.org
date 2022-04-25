@@ -7,7 +7,6 @@ authors:
 categories:
 - science
 - theology
-commenturl: "http://discourse.peacefulscience.org/t/the-axiom-of-belief/526"
 date: "2018-06-28T07:27:38"
 description: "Dr. Andy Walsh's new book is a treat. *Faith Across the Multiverse: Parables from Modern Science* is a unique book, certainly worth reading."
 headerimage:

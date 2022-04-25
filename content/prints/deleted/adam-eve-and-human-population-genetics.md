@@ -3,7 +3,6 @@ title: "Adam, Eve and Human Population Genetics"
 series: deleted-biologos
 authors:
 - Dennis Venema
-description: An exploration of the genetic evidence that indicates humans evolved as a population, rather than descending from two people.
 basedon:
 - https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments/adam-eve-and-human-population-genetics
 - https://web.archive.org/web/20200812100251/https://biologos.org/articles/series/genetics-and-the-historical-adam-responses-to-popular-arguments/adam-eve-and-human-population-genetics
