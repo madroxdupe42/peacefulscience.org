@@ -300,7 +300,13 @@ William Lane Craig, [Doctrine of Man (Part 11)](https://www.reasonablefaith.org/
 
 Fazale Rana, [Were They Real? The Scientific Case for Adam and Eve](https://www.reasons.org/articles/were-they-real-the-scientific-case-for-adam-and-eve), Reasons to Believe, 2010.
 
-
 Renaud Kaeuffer, David W Coltman, Jean-Louis Chapuis, Dominique Pontier, and Denis Réale. [Unexpected heterozygosity in an island mouflon population founded by a single pair of individuals.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1766376/), Proc. Biol. Sci. 2007. [https://dx.doi.org/10.1098/Frspb.2006.3743](https://dx.doi.org/10.1098/Frspb.2006.3743)
+
+
+S. Joshua Swamidass, [Three Stories on Adam](/articles/three-stories-on-adam/), Peaceful Science, 2018. [https://doi.org/10.54739/3doe](https://doi.org/10.54739/3doe)
+{.editor}
+
+S. Joshua Swamidass, [BioLogos Deletes an Article](/articles/biologos-stealth-deletes-an-article/), Peaceful Science, 2021. [https://doi.org/10.54739/rv8k](https://doi.org/10.54739/rv8k)
+{.editor}
 
 </div>
