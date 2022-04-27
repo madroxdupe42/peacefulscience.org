@@ -11,10 +11,10 @@ sameas:
 authors:
 - Dennis Venema
 - darrel-falk
-date: 2010-04-02
+date: 2010-04-05
 headerimage: 
   src: /img/2022/03/biologos-deleted-2010-ct.png
-publishdate: 2022-04-05
+publishdate: 2022-04-03
 deletiondate: 2020-01-15
 ---
 

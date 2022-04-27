@@ -13,7 +13,6 @@ canonical: https://www.wsj.com/articles/evangelicals-take-on-artificial-intellig
 headerimage:
   src: /img/2019/09/wsj-ai-swamidass.png
 title: Evangelicals Take on Artificial Intelligence
-canonical: https://www.wsj.com/articles/evangelicals-take-on-artificial-intelligence-11557442994
 ---
 
 Appeared in the [May 10, 2019 print edition](https://www.wsj.com/articles/evangelicals-take-on-artificial-intelligence-11557442994) of the Wall Street Journal. The title was chosen by the editor.

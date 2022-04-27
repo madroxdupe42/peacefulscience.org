@@ -33,6 +33,7 @@ cache
 wp
 assets/css/bootstrap*
 migrate.ipynb
-
+hugo.log
 # Local Netlify folder
 .netlify
+*.pdf
