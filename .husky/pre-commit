@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+git diff --cached --name-only --diff-filter=ACMRTUXB -z | xargs -0  npx git-date-extractor --gitCommitHook=pre --onlyIn=content --outputToFile=true --outputFileName=data/dates.json
