@@ -1,0 +1,1646 @@
+{
+  "content/404.html": {
+    "created": 1632182602,
+    "modified": 1632194787
+  },
+  "content/_index.md": {
+    "created": 1610753129,
+    "modified": 1642960091
+  },
+  "content/about/_index.md": {
+    "created": 1632505414,
+    "modified": 1645719996
+  },
+  "content/about/authors-guide.md": {
+    "created": 1616695699,
+    "modified": 1635708043
+  },
+  "content/about/editorial.md": {
+    "created": 1635707792,
+    "modified": 1646089181
+  },
+  "content/about/grants.md": {
+    "created": 1645216942,
+    "modified": 1645216942
+  },
+  "content/about/mission-and-values.md": {
+    "created": 1615089099,
+    "modified": 1638728436
+  },
+  "content/archive/_index.html": {
+    "created": 1612813068,
+    "modified": 1645408478
+  },
+  "content/articles/100-year-old-tree.md": {
+    "created": 1615089099,
+    "modified": 1634591802
+  },
+  "content/articles/_index.md": {
+    "created": 1631049614,
+    "modified": 1645719996
+  },
+  "content/articles/age-rubios-earth.md": {
+    "created": 1615089099,
+    "modified": 1636571443
+  },
+  "content/articles/agree-behe.md": {
+    "created": 1615089099,
+    "modified": 1635823710
+  },
+  "content/articles/akaninyene-interview.md": {
+    "created": 1645162817,
+    "modified": 1645568731
+  },
+  "content/articles/an-old-earther-on-peaceful-science.md": {
+    "created": 1615089099,
+    "modified": 1631995431
+  },
+  "content/articles/ancestral-shadow.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/andy-walsh-the-resurrection.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/articles/art-and-ancestry.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/assess-rtb-model.md": {
+    "created": 1615089099,
+    "modified": 1631995431
+  },
+  "content/articles/baldi-ai-science.md": {
+    "created": 1615089099,
+    "modified": 1641537512
+  },
+  "content/articles/barbara-forrest-trojan-horse-at-dover.md": {
+    "created": 1615089099,
+    "modified": 1631590401
+  },
+  "content/articles/billy-graham-anthropology.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/biologos-stealth-deletes-an-article.md": {
+    "created": 1615089099,
+    "modified": 1638727119
+  },
+  "content/articles/bring-questions-of-ai.md": {
+    "created": 1615089099,
+    "modified": 1615780078
+  },
+  "content/articles/bryan-butler-image-of-god.md": {
+    "created": 1615089099,
+    "modified": 1635878988
+  },
+  "content/articles/camel-chews-miracle-tree.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/cancer-evolution.md": {
+    "created": 1615089099,
+    "modified": 1635823710
+  },
+  "content/articles/common-ground-year-1.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/compromise-on-creationism.md": {
+    "created": 1617677294,
+    "modified": 1636665318
+  },
+  "content/articles/confessing-jesus-in-science.md": {
+    "created": 1615089099,
+    "modified": 1630795749
+  },
+  "content/articles/confessing-scientist.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/confident-faith-science-1.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/confident-faith-science-2.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/confident-faith-science-3.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/cootsona-adam-eve.md": {
+    "created": 1615089099,
+    "modified": 1640199800
+  },
+  "content/articles/coronavirus-beauty.md": {
+    "created": 1615089099,
+    "modified": 1615655478
+  },
+  "content/articles/correction-policy.md": {
+    "created": 1615089099,
+    "modified": 1643647969
+  },
+  "content/articles/covid-19-created-designed.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/daniel-ang-a-scientist-looks-at-the-resurrection.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/articles/darwin-day-2019.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/defense-tim-keller.md": {
+    "created": 1615089099,
+    "modified": 1637479394
+  },
+  "content/articles/definition-race.md": {
+    "created": 1615089099,
+    "modified": 1635823710
+  },
+  "content/articles/digital-dialogue.md": {
+    "created": 1615089099,
+    "modified": 1643647969
+  },
+  "content/articles/dover-behe.md": {
+    "created": 1615089099,
+    "modified": 1641709793
+  },
+  "content/articles/eating-animals-plants.md": {
+    "created": 1637479368,
+    "modified": 1637479368
+  },
+  "content/articles/ecklund-science-faith.md": {
+    "created": 1615089099,
+    "modified": 1626116165
+  },
+  "content/articles/evidence-and-evolution.md": {
+    "created": 1615089099,
+    "modified": 1615778690
+  },
+  "content/articles/fair-hearing-behe.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/front-porch.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/garden-path.md": {
+    "created": 1615089099,
+    "modified": 1638727119
+  },
+  "content/articles/garvey-generations-genealogical-adam-eve.md": {
+    "created": 1645761250,
+    "modified": 1646104629
+  },
+  "content/articles/garvey-generations.md": {
+    "created": 1615089099,
+    "modified": 1633496578
+  },
+  "content/articles/garvey-theology-garden.md": {
+    "created": 1615089099,
+    "modified": 1616815303
+  },
+  "content/articles/genealogical-rapprochement.md": {
+    "created": 1615089099,
+    "modified": 1632149778
+  },
+  "content/articles/genealogical-science.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/glenn-morton.md": {
+    "created": 1615089099,
+    "modified": 1630795749
+  },
+  "content/articles/godawa-midrash.md": {
+    "created": 1615089099,
+    "modified": 1634697552
+  },
+  "content/articles/greg-cootsona-intelligent-design.md": {
+    "created": 1615089099,
+    "modified": 1640199800
+  },
+  "content/articles/gregg-davidson-resurrection-dawkins.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/articles/harris-evolutionary-evil.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/heiser-sacred-natural.md": {
+    "created": 1615089099,
+    "modified": 1631590401
+  },
+  "content/articles/history-of-science.md": {
+    "created": 1615089099,
+    "modified": 1634098945
+  },
+  "content/articles/human-origins-rtb-workshop.md": {
+    "created": 1615089099,
+    "modified": 1637608927
+  },
+  "content/articles/humans-rendered-apart.md": {
+    "created": 1615089099,
+    "modified": 1635823710
+  },
+  "content/articles/humility-of-our-scholars.md": {
+    "created": 1615089099,
+    "modified": 1635920082
+  },
+  "content/articles/imagination-game-aaas.md": {
+    "created": 1615089099,
+    "modified": 1624741369
+  },
+  "content/articles/implicated-vs-incidental.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/inazu-humility-tolerance-patience.md": {
+    "created": 1615089099,
+    "modified": 1631590401
+  },
+  "content/articles/inquiry-into-common-ground.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/invitation-to-rana.md": {
+    "created": 1615089099,
+    "modified": 1631995431
+  },
+  "content/articles/irb-ethics-artificial-intellligence.md": {
+    "created": 1628011350,
+    "modified": 1628011778
+  },
+  "content/articles/is-phosphine-venus-clouds.md": {
+    "created": 1628916596,
+    "modified": 1630645639
+  },
+  "content/articles/isolation-tasmania.md": {
+    "created": 1615089099,
+    "modified": 1640905101
+  },
+  "content/articles/join-the-conversation.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/launching.md": {
+    "created": 1615089099,
+    "modified": 1635182329
+  },
+  "content/articles/lents-in-usa-today.md": {
+    "created": 1615089099,
+    "modified": 1635920082
+  },
+  "content/articles/logo-meaning.md": {
+    "created": 1615089099,
+    "modified": 1630603866
+  },
+  "content/articles/lutherans-artistic-tree.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/managing-mistakes.md": {
+    "created": 1615089099,
+    "modified": 1640905101
+  },
+  "content/articles/methodological-naturalism.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/metzger-new-wine-new-wineskins.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/miller-textbook-dover.md": {
+    "created": 1615089099,
+    "modified": 1641709793
+  },
+  "content/articles/more-than-apes.md": {
+    "created": 1615089099,
+    "modified": 1634098945
+  },
+  "content/articles/moreland-minds-soul.md": {
+    "created": 1615089099,
+    "modified": 1626116165
+  },
+  "content/articles/much-to-discuss.md": {
+    "created": 1615089099,
+    "modified": 1630608154
+  },
+  "content/articles/muotri-neanderthal.md": {
+    "created": 1615089099,
+    "modified": 1631590401
+  },
+  "content/articles/murphys-truthful-tree.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/my-response-to-the-asas-apology.md": {
+    "created": 1616004978,
+    "modified": 1630608154
+  },
+  "content/articles/narnians-martians-neanderthals.md": {
+    "created": 1615089099,
+    "modified": 1634593152
+  },
+  "content/articles/new-old-ancient-conversation.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/new-voice.md": {
+    "created": 1615089099,
+    "modified": 1616695699
+  },
+  "content/articles/on-peaceful-science.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/one-flesh-joint-intentionality.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/origins-yec.md": {
+    "created": 1646279153,
+    "modified": 1646279153
+  },
+  "content/articles/ortlund-augustine.md": {
+    "created": 1615089099,
+    "modified": 1616815303
+  },
+  "content/articles/ortlund-hills.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/paumore-musings-on-killmitzer.md": {
+    "created": 1615089099,
+    "modified": 1630737786
+  },
+  "content/articles/peace-be-with-you.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/pentecostal-smithsonian.md": {
+    "created": 1629660446,
+    "modified": 1631052939
+  },
+  "content/articles/preprint-server-doi.md": {
+    "created": 1645988858,
+    "modified": 1645988858
+  },
+  "content/articles/publisher-report.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/qa-wsj-compromise-on-creationism.md": {
+    "created": 1616695699,
+    "modified": 1617081975
+  },
+  "content/articles/quayshawn-spencer-race.md": {
+    "created": 1615089099,
+    "modified": 1626116165
+  },
+  "content/articles/repairing-the-fracture.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/response-to-madueme-scripture.md": {
+    "created": 1615089099,
+    "modified": 1618677256
+  },
+  "content/articles/reviewing-adam-and-the-genome.md": {
+    "created": 1615089099,
+    "modified": 1645122083
+  },
+  "content/articles/reworking-adam.md": {
+    "created": 1615089099,
+    "modified": 1638727119
+  },
+  "content/articles/robert-canfield.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/articles/rtb-thinking-about-evolution.md": {
+    "created": 1615089099,
+    "modified": 1637608927
+  },
+  "content/articles/rubio-age-earth.md": {
+    "created": 1615089099,
+    "modified": 1636571191
+  },
+  "content/articles/rutherford-racist.md": {
+    "created": 1615089099,
+    "modified": 1626116165
+  },
+  "content/articles/rygiol-science-art.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/science-civil-rights-and-the-doll-test.md": {
+    "created": 1615089099,
+    "modified": 1630603866
+  },
+  "content/articles/science-sbc-first-week.md": {
+    "created": 1633106826,
+    "modified": 1633144610
+  },
+  "content/articles/scientist-woman-picture.md": {
+    "created": 1615089099,
+    "modified": 1617081975
+  },
+  "content/articles/scott-dover-science-hat.md": {
+    "created": 1615089099,
+    "modified": 1641709793
+  },
+  "content/articles/sierra-nance-interview.md": {
+    "created": 1644118148,
+    "modified": 1645214661
+  },
+  "content/articles/stephen-matheson-humanists-invitation.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/steven-olson-the-apocalypse-factory.md": {
+    "created": 1615089099,
+    "modified": 1646806871
+  },
+  "content/articles/sy-garte-resurrection.md": {
+    "created": 1615089099,
+    "modified": 1645423388
+  },
+  "content/articles/the-barthian-tree.md": {
+    "created": 1615089099,
+    "modified": 1641535574
+  },
+  "content/articles/theological-history-science.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/thinking-about-evolution-and-progressive-creation.md": {
+    "created": 1628011350,
+    "modified": 1637608927
+  },
+  "content/articles/three-stories-on-adam.md": {
+    "created": 1615089099,
+    "modified": 1638727119
+  },
+  "content/articles/time-comes.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/todd-cade.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/articles/tour-friendship-across-disagreements.md": {
+    "created": 1615089099,
+    "modified": 1631590401
+  },
+  "content/articles/tour-pascal.md": {
+    "created": 1615089099,
+    "modified": 1630795749
+  },
+  "content/articles/trust-between-worlds.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/venus-phosphine.md": {
+    "created": 1615089099,
+    "modified": 1616815303
+  },
+  "content/articles/why-i-went-public-evolution.md": {
+    "created": 1615089099,
+    "modified": 1636571155
+  },
+  "content/articles/why-we-talk-about-race.md": {
+    "created": 1615089099,
+    "modified": 1615089099
+  },
+  "content/articles/wlc-genetic-challenge.md": {
+    "created": 1615089099,
+    "modified": 1639416765
+  },
+  "content/articles/wlc-responds-ham.md": {
+    "created": 1615089099,
+    "modified": 1634671721
+  },
+  "content/articles/wlc-schooled-evolution.md": {
+    "created": 1635362912,
+    "modified": 1635718010
+  },
+  "content/articles/written-of-interviews-gae.md": {
+    "created": 1615089099,
+    "modified": 1634179718
+  },
+  "content/articles/wrong-on-monophyletic.md": {
+    "created": 1615089099,
+    "modified": 1640905101
+  },
+  "content/articles/wsj-ai-evangelicals.md": {
+    "created": 1615089099,
+    "modified": 1650901520
+  },
+  "content/articles/zachary-ardern-resurrection-and-reality.md": {
+    "created": 1615089099,
+    "modified": 1643946051
+  },
+  "content/authors/_index.html": {
+    "created": 1631416208,
+    "modified": 1638852078
+  },
+  "content/authors/aaron-ducksworth/_index.md": {
+    "created": 1645565004,
+    "modified": 1645565004
+  },
+  "content/authors/afuentes/_index.md": {
+    "created": 1641355127,
+    "modified": 1641356047
+  },
+  "content/authors/andrew-loke/_index.md": {
+    "created": 1638426061,
+    "modified": 1638426061
+  },
+  "content/authors/ashleymoses/_index.md": {
+    "created": 1628011350,
+    "modified": 1636597169
+  },
+  "content/authors/awalsh/_index.md": {
+    "created": 1615090101,
+    "modified": 1641512497
+  },
+  "content/authors/ciara/_index.md": {
+    "created": 1615090101,
+    "modified": 1636597310
+  },
+  "content/authors/cootsona/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/darrel-falk/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/david-rygiol/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/authors/dennis-venema/_index.md": {
+    "created": 1643434903,
+    "modified": 1643434903
+  },
+  "content/authors/dga/_index.md": {
+    "created": 1615090101,
+    "modified": 1636651051
+  },
+  "content/authors/dkwon/_index.html": {
+    "created": 1618180461,
+    "modified": 1625365636
+  },
+  "content/authors/dpeterson/_index.html": {
+    "created": 1634687140,
+    "modified": 1641356047
+  },
+  "content/authors/edgar-andrews/_index.md": {
+    "created": 1644342818,
+    "modified": 1644342818
+  },
+  "content/authors/gdavidson/_index.md": {
+    "created": 1615090101,
+    "modified": 1637708737
+  },
+  "content/authors/gmorton/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/authors/gmurphy/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/authors/gortlund/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/ian-hutchinson/_index.md": {
+    "created": 1643946051,
+    "modified": 1643946051
+  },
+  "content/authors/jboyd/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/authors/jgarvey/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/jh/_index.md": {
+    "created": 1628011350,
+    "modified": 1628011350
+  },
+  "content/authors/jhilber/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/jmantha/_index.md": {
+    "created": 1615090101,
+    "modified": 1637708737
+  },
+  "content/authors/jmtour/_index.md": {
+    "created": 1630795749,
+    "modified": 1637708737
+  },
+  "content/authors/jokamoto/_index.md": {
+    "created": 1630795749,
+    "modified": 1636944430
+  },
+  "content/authors/ken-keathley/_index.md": {
+    "created": 1638728474,
+    "modified": 1638728474
+  },
+  "content/authors/ken-miller/_index.md": {
+    "created": 1641521879,
+    "modified": 1641521879
+  },
+  "content/authors/kkemp/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/kristel/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/michael-heiser/_index.md": {
+    "created": 1640115382,
+    "modified": 1640115382
+  },
+  "content/authors/michael-murray/_index.md": {
+    "created": 1642823867,
+    "modified": 1642823867
+  },
+  "content/authors/mmoore/_index.md": {
+    "created": 1615521871,
+    "modified": 1636944430
+  },
+  "content/authors/mtennesen/_index.md": {
+    "created": 1629660850,
+    "modified": 1636944430
+  },
+  "content/authors/paul-metzger/_index.md": {
+    "created": 1615090101,
+    "modified": 1641535574
+  },
+  "content/authors/paul-s-braterman/_index.md": {
+    "created": 1615090101,
+    "modified": 1637708737
+  },
+  "content/authors/primmer/_index.md": {
+    "created": 1628916596,
+    "modified": 1637708737
+  },
+  "content/authors/rcanfield/_index.md": {
+    "created": 1630795749,
+    "modified": 1630795749
+  },
+  "content/authors/richard-averbeck/_index.md": {
+    "created": 1638426061,
+    "modified": 1638426061
+  },
+  "content/authors/rogero/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/sfmatheson/_index.md": {
+    "created": 1615090101,
+    "modified": 1637708737
+  },
+  "content/authors/sgarte/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/sierra-nance/_index.md": {
+    "created": 1644118148,
+    "modified": 1644118148
+  },
+  "content/authors/stephen-meyer/_index.md": {
+    "created": 1643229266,
+    "modified": 1643229266
+  },
+  "content/authors/suan-sonna/_index.md": {
+    "created": 1635362912,
+    "modified": 1636944430
+  },
+  "content/authors/swamidass/_index.md": {
+    "created": 1615090101,
+    "modified": 1638414162
+  },
+  "content/authors/tcade/_index.md": {
+    "created": 1630795749,
+    "modified": 1630795749
+  },
+  "content/authors/thomas-mccall/_index.md": {
+    "created": 1643229266,
+    "modified": 1643229266
+  },
+  "content/authors/timothy-saleska/_index.md": {
+    "created": 1615090101,
+    "modified": 1636944430
+  },
+  "content/authors/wlc/_index.md": {
+    "created": 1615090101,
+    "modified": 1638414286
+  },
+  "content/authors/zardern/_index.md": {
+    "created": 1630795749,
+    "modified": 1644180276
+  },
+  "content/books/_index.html": {
+    "created": 1631049614,
+    "modified": 1641189055
+  },
+  "content/books/adam-genome.md": {
+    "created": 1638727119,
+    "modified": 1640746865
+  },
+  "content/books/apocalypse-factory.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/argue-with-racist.md": {
+    "created": 1638782319,
+    "modified": 1638782319
+  },
+  "content/books/becoming-human.md": {
+    "created": 1640318561,
+    "modified": 1641512497
+  },
+  "content/books/behind-scenes-old-testament.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/best-enemies.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/bioinformatics.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/bird-families-world.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/blackwell-companion-natural-theology.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/blind-watchmaker.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/book-acts-setting-hellenistic-history.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/cambrian-explosion.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/case-christ.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/christian-perspectives-origins.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/chronicles-narnia.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/coldcase-christianity.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/coming-peace-science.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/confident-pluralism.md": {
+    "created": 1638728436,
+    "modified": 1638728436
+  },
+  "content/books/creation-evolution.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/creation-fall.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/creative-spark.md": {
+    "created": 1641355127,
+    "modified": 1641356047
+  },
+  "content/books/crosses-pompeii.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/cs-lewis-crisis-christian.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/cultic-prophecy-psalms.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/darwin-devolves.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/darwin-trial.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/darwins-black-box.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/darwins-doubt.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/darwins-unfinished-symphony.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/david-ascendant.md": {
+    "created": 1640924115,
+    "modified": 1642353671
+  },
+  "content/books/denial.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/destroyer-gods.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/divine-foreknowledge-human-freedom.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/early-genesis.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/eden-was-here.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/edge-evolution.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/evolution-fall.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/ezekiel.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/faith-across-multiverse.md": {
+    "created": 1637296473,
+    "modified": 1640323891
+  },
+  "content/books/fate-apostles.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/flat-earths-fake-footnotes.md": {
+    "created": 1641183271,
+    "modified": 1643857235
+  },
+  "content/books/fool-heretic.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/fortunate-universe.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/four-views-historical-adam.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/friend-science-friend-faith.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/genealogical-adam-eve.md": {
+    "created": 1637295340,
+    "modified": 1645032936
+  },
+  "content/books/generations-heaven-earth.md": {
+    "created": 1637296473,
+    "modified": 1637296544
+  },
+  "content/books/genetic-entropy-mystery-genome.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/god-delusion.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/god-time-eternity.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/gods-good-earth.md": {
+    "created": 1640924115,
+    "modified": 1645032936
+  },
+  "content/books/grand-canyon-monument-ancient-earth.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/heavens-declare.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/hills-to-die-on.md": {
+    "created": 1638782319,
+    "modified": 1641512497
+  },
+  "content/books/hitchhikers-guide-galaxy.md": {
+    "created": 1640318561,
+    "modified": 1641512497
+  },
+  "content/books/is-there-god.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/jesus-christ-life-mind.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/jesus-exist.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/jesus-eyewitnesses.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/jesus-god.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/jesus-temple.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/language-god.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/laying-arms-heal-creationevolution-divide.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/lifes-solution.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/lost-world-adam-eve.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/lost-world-genesis-one.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/man-woman-created.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/mapping-human-history.md": {
+    "created": 1638782319,
+    "modified": 1640323891
+  },
+  "content/books/martian.md": {
+    "created": 1640318561,
+    "modified": 1641512497
+  },
+  "content/books/martin-luther-king-jr-image-god.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/mere-christianity.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/mere-science-faith.md": {
+    "created": 1637295340,
+    "modified": 1640325705
+  },
+  "content/books/more-than-carpenter.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/natural-history-human-morality.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/natural-history-human-thinking.md": {
+    "created": 1640318561,
+    "modified": 1641512497
+  },
+  "content/books/negotiating-science-religion-america.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/problem-pain.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/proper-confidence.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/providence-god.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/quest-historical-adam.md": {
+    "created": 1637295340,
+    "modified": 1645032936
+  },
+  "content/books/really-need-know-learned-kindergarten.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/reasonable-faith.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/religion-science.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/resurrection-jesus.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/resurrection-son-god.md": {
+    "created": 1640318561,
+    "modified": 1640325941
+  },
+  "content/books/rethinking-race.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/retrieving-augustines-doctrine-creation.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/rise-christianity.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/roberts-rules-order-action.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/science-faith-need.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/secret-success.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/shaping-science-rhetoric.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/social-conquest-earth.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/social.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/surprised-scripture.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/theism-atheism-big-bang-cosmology.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/theistic-evolution.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/thinking-about-evolution.md": {
+    "created": 1637295340,
+    "modified": 1640323891
+  },
+  "content/books/trouble-principle.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/uncommon-ground.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/unseen-realm.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/walking-blind.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/war-never-was.md": {
+    "created": 1640924115,
+    "modified": 1643737454
+  },
+  "content/books/what-is-man.md": {
+    "created": 1644032481,
+    "modified": 1645032936
+  },
+  "content/books/what-is-race.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/who-was-adam.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/who-we-are-how-we-got-here.md": {
+    "created": 1640924115,
+    "modified": 1641512497
+  },
+  "content/books/works-hands.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/worlds-last-night.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/books/you-lost-me.md": {
+    "created": 1640924115,
+    "modified": 1641188224
+  },
+  "content/categories/adam-eve/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/ancestry/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/art/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/artificial-intelligence/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/confession/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/design/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/dialogue/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/evolution/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/featured/_index.md": {
+    "created": 1635823710,
+    "modified": 1635905702
+  },
+  "content/categories/forum/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/gae/_index.md": {
+    "created": 1615090101,
+    "modified": 1635905702
+  },
+  "content/categories/history/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/news/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/policy/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/race/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/resurrection/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/science/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/society/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/theology/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/categories/video/_index.md": {
+    "created": 1615090101,
+    "modified": 1615090101
+  },
+  "content/contact.html": {
+    "created": 1617124535,
+    "modified": 1640204797
+  },
+  "content/forum/_index.html": {
+    "created": 1613884834,
+    "modified": 1613884834
+  },
+  "content/grants/_index.md": {
+    "created": 1645201470,
+    "modified": 1645201470
+  },
+  "content/jsonld/index.html": {
+    "created": 1631484083,
+    "modified": 1639349580
+  },
+  "content/jsonld/peacefulscience.md": {
+    "created": 1631484083,
+    "modified": 1640199743
+  },
+  "content/news/changing-faces.md": {
+    "created": 1615089099,
+    "modified": 1615435505
+  },
+  "content/newsletter/_index.md": {
+    "created": 1638426061,
+    "modified": 1646086584
+  },
+  "content/newsletter/aar-session.md": {
+    "created": 1642959982,
+    "modified": 1646158083
+  },
+  "content/newsletter/advances-science-adam-eve.md": {
+    "created": 1648570413,
+    "modified": 1648747104
+  },
+  "content/newsletter/easter-2022.md": {
+    "created": 1645565929,
+    "modified": 1646158083
+  },
+  "content/newsletter/ets-mte.md": {
+    "created": 1644939484,
+    "modified": 1646158083
+  },
+  "content/newsletter/ets-responses.md": {
+    "created": 1641238382,
+    "modified": 1646158083
+  },
+  "content/newsletter/flat-earths.md": {
+    "created": 1643766467,
+    "modified": 1646158083
+  },
+  "content/newsletter/forgetting-mlk.md": {
+    "created": 1642356933,
+    "modified": 1646158083
+  },
+  "content/newsletter/hbcu.md": {
+    "created": 1644121985,
+    "modified": 1646158083
+  },
+  "content/newsletter/history-matters.md": {
+    "created": 1646806871,
+    "modified": 1646806871
+  },
+  "content/newsletter/medicine-justice.md": {
+    "created": 1645568731,
+    "modified": 1646158083
+  },
+  "content/newsletter/pregnant-hitchhiking-monkey.md": {
+    "created": 1645156824,
+    "modified": 1646158083
+  },
+  "content/newsletter/science-theology-race.md": {
+    "created": 1648567744,
+    "modified": 1648567744
+  },
+  "content/newsletter/top-2021.md": {
+    "created": 1640715736,
+    "modified": 1646158083
+  },
+  "content/newsletter/unlikely-lucky-providential.md": {
+    "created": 1646290695,
+    "modified": 1646290695
+  },
+  "content/newsletter/when-human.md": {
+    "created": 1648012962,
+    "modified": 1648012962
+  },
+  "content/newsletter/where-stands-conversation.md": {
+    "created": 1641769516,
+    "modified": 1646158083
+  },
+  "content/prints/_index.md": {
+    "created": 1638426061,
+    "modified": 1647460177
+  },
+  "content/prints/aar-cootsona-gae.md": {
+    "created": 1640724586,
+    "modified": 1645423388
+  },
+  "content/prints/aar-heiser-gae.md": {
+    "created": 1640115382,
+    "modified": 1640746820
+  },
+  "content/prints/aar-metzger-gae.md": {
+    "created": 1641535574,
+    "modified": 1642228223
+  },
+  "content/prints/aar-miller-gae.md": {
+    "created": 1641522930,
+    "modified": 1643126535
+  },
+  "content/prints/biologos-uturn-adam-eve-position.md": {
+    "created": 1630347768,
+    "modified": 1645895619
+  },
+  "content/prints/can-scientist-believe-resurrection-three-hypotheses.md": {
+    "created": 1643945401,
+    "modified": 1643946051
+  },
+  "content/prints/deleted/_index.md": {
+    "created": 1645129527,
+    "modified": 1647460177
+  },
+  "content/prints/deleted/adam-eve-and-human-population-genetics.md": {
+    "created": 1649620550,
+    "modified": 1650901520
+  },
+  "content/prints/deleted/adam-eve-and-population-genetics-a-reply-to-dr-richard-buggs-part-1.md": {
+    "created": 1650904255,
+    "modified": 1650904255
+  },
+  "content/prints/deleted/adam-eve-and-population-genetics-a-reply-to-dr-richard-buggs-part-2.md": {
+    "created": 1650904255,
+    "modified": 1650904255
+  },
+  "content/prints/deleted/adam-eve-apologetics-and-christian-witness.md": {
+    "created": 1650902220,
+    "modified": 1650904721
+  },
+  "content/prints/deleted/does-genetics-point-to-a-single-primal-couple.md": {
+    "created": 1648565469,
+    "modified": 1648956064
+  },
+  "content/prints/deleted/genetics-and-the-historical-adam-a-response-to-william-lane-craig.md": {
+    "created": 1650663207,
+    "modified": 1650902220
+  },
+  "content/prints/deleted/vern-poythress-population-genomics-and-locating-the-historical-adam.md": {
+    "created": 1649635472,
+    "modified": 1649703562
+  },
+  "content/prints/ets-averbeck-gae.md": {
+    "created": 1638728572,
+    "modified": 1640886253
+  },
+  "content/prints/ets-keathley-gae.md": {
+    "created": 1638426061,
+    "modified": 1642228198
+  },
+  "content/prints/ets-loke-gae.md": {
+    "created": 1640759749,
+    "modified": 1640891762
+  },
+  "content/prints/ets-mccall-mte.md": {
+    "created": 1642823867,
+    "modified": 1645554852
+  },
+  "content/prints/ets-meyer-mte.md": {
+    "created": 1642823867,
+    "modified": 1643860514
+  },
+  "content/prints/ets-wlc-gae.md": {
+    "created": 1638728572,
+    "modified": 1640887418
+  },
+  "content/prints/ets-wlc-mte.md": {
+    "created": 1642823867,
+    "modified": 1646672713
+  },
+  "content/prints/evolution-adam-eve.md": {
+    "created": 1618178115,
+    "modified": 1641591973
+  },
+  "content/prints/excerpts/_index.md": {
+    "created": 1643648880,
+    "modified": 1643648880
+  },
+  "content/prints/excerpts/certain-point-of-view.md": {
+    "created": 1638158941,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/dying-and-living-of-the-light.md": {
+    "created": 1638158941,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/flat-earths-fake-footnotes.md": {
+    "created": 1641183271,
+    "modified": 1644094451
+  },
+  "content/prints/excerpts/generations-heaven-earth.md": {
+    "created": 1645729130,
+    "modified": 1645729130
+  },
+  "content/prints/excerpts/gods-good-earth-case-unfallen-creation.md": {
+    "created": 1644897619,
+    "modified": 1644897619
+  },
+  "content/prints/excerpts/if-big-e-evolution-true.md": {
+    "created": 1637609470,
+    "modified": 1645164756
+  },
+  "content/prints/excerpts/kenneth-kemp-war.md": {
+    "created": 1615089099,
+    "modified": 1643735372
+  },
+  "content/prints/excerpts/maps-monsters.md": {
+    "created": 1641183271,
+    "modified": 1645129164
+  },
+  "content/prints/excerpts/myth-of-myth.md": {
+    "created": 1641354435,
+    "modified": 1643857235
+  },
+  "content/prints/excerpts/power-of-babelfish.md": {
+    "created": 1638045920,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/recent-inventions-flat-earth.md": {
+    "created": 1641354435,
+    "modified": 1643857235
+  },
+  "content/prints/excerpts/roads-diverged-multiverse.md": {
+    "created": 1638158941,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/science-evidence-resurrection.md": {
+    "created": 1643674916,
+    "modified": 1645129164
+  },
+  "content/prints/excerpts/stop-youre-both-right.md": {
+    "created": 1638158941,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/strange-attractor-of-god.md": {
+    "created": 1638158941,
+    "modified": 1644120125
+  },
+  "content/prints/excerpts/the-axiom-of-belief.md": {
+    "created": 1615089099,
+    "modified": 1650901520
+  },
+  "content/prints/excerpts/what-is-man-adam-alien-ape.md": {
+    "created": 1644031366,
+    "modified": 1648565122
+  },
+  "content/prints/excerpts/when-become-human.md": {
+    "created": 1643860514,
+    "modified": 1646118385
+  },
+  "content/prints/fair-use-deleted.md": {
+    "created": 1646806871,
+    "modified": 1647203698
+  },
+  "content/prints/fixing-math-error-my-book.md": {
+    "created": 1645939241,
+    "modified": 1651033250
+  },
+  "content/prints/may-scientists-care-adam-eve.md": {
+    "created": 1636405130,
+    "modified": 1645996367
+  },
+  "content/prints/mere-theistic-evolution-response.md": {
+    "created": 1642823867,
+    "modified": 1643735281
+  },
+  "content/prints/mere-theistic-evolution.md": {
+    "created": 1642823867,
+    "modified": 1644880828
+  },
+  "content/prints/misreading-mlk.md": {
+    "created": 1645986941,
+    "modified": 1645997732
+  },
+  "content/prints/origns-yec.md": {
+    "created": 1649633808,
+    "modified": 1649633808
+  },
+  "content/search.md": {
+    "created": 1619367106,
+    "modified": 1645513069
+  },
+  "content/series/100-year-tree/_index.md": {
+    "created": 1615435681,
+    "modified": 1615435681
+  },
+  "content/series/_index.md": {
+    "created": 1636405163,
+    "modified": 1643078678
+  },
+  "content/series/aar-gae/_index.md": {
+    "created": 1640115382,
+    "modified": 1643078689
+  },
+  "content/series/biologos/_index.html": {
+    "created": 1632148788,
+    "modified": 1632148788
+  },
+  "content/series/buggs-venema/_index.md": {
+    "created": 1650904255,
+    "modified": 1650904721
+  },
+  "content/series/confident-faith/_index.md": {
+    "created": 1633496578,
+    "modified": 1633496578
+  },
+  "content/series/corrections-gae/_index.md": {
+    "created": 1640905101,
+    "modified": 1640905101
+  },
+  "content/series/deleted-biologos/_index.md": {
+    "created": 1649623926,
+    "modified": 1650904721
+  },
+  "content/series/dover-15/_index.md": {
+    "created": 1615435816,
+    "modified": 1630737786
+  },
+  "content/series/ets-gae/_index.md": {
+    "created": 1638728509,
+    "modified": 1640199879
+  },
+  "content/series/ets-mte/_index.md": {
+    "created": 1642960115,
+    "modified": 1642960115
+  },
+  "content/series/faith-across-multiverse/_index.md": {
+    "created": 1638045920,
+    "modified": 1638045920
+  },
+  "content/series/flat-earths-fake-footnotes/_index.md": {
+    "created": 1641183271,
+    "modified": 1641188224
+  },
+  "content/series/public-evolution/_index.md": {
+    "created": 1636569930,
+    "modified": 1636738757
+  },
+  "content/series/publishing-practices/_index.md": {
+    "created": 1643647969,
+    "modified": 1643647969
+  },
+  "content/series/rtb/_index.html": {
+    "created": 1631995846,
+    "modified": 1631995846
+  },
+  "content/series/scientists-resurrection/_index.md": {
+    "created": 1643946051,
+    "modified": 1643946051
+  }
+}
