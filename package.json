@@ -19,6 +19,7 @@
     "date-fns": "^2.28.0",
     "git-date-extractor": "^4.0.1",
     "instantsearch.js": "^4.40.4",
+    "jquery": "^3.6.0",
     "jsdom": "^19.0.0",
     "json-to-pretty-yaml": "^1.2.2",
     "jsonld": "^5.2.0",
@@ -65,7 +66,6 @@
   "directories": {
     "test": "test"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PeacefulScience/peacefulscience.org.git"
