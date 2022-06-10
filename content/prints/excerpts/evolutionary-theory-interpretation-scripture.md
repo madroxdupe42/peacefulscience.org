@@ -6,12 +6,12 @@ categories:
 - theology
 partof:
 - /books/reformed-theology-evolutionary-theory/
-description: 
+description: Exploring options for reconciling evolutionary science with the Bible, with a focus on Reformed theologies and hermaneutics.
 publishdate: 2022-06-15
 date: 2020-02-25
 draft: true
 ---
-This article is chapter 3 of the book [*Reformed Theology and Evolutionary Theory*](https://www.amazon.com/Reformed-Theology-Evolutionary-Theory-Gijsbert/dp/0802874428/) by Gijsbert van den Brink, &copy; 2020 by Eerdmans, Grand Rapids, Michigan. Used by permission. All rights reserved.
+This article is chapter 3 of the book [*Reformed Theology and Evolutionary Theory*](/books/reformed-theology-evolutionary-theory/) by Gijsbert van den Brink, &copy; 2020 by Eerdmans, Grand Rapids, Michigan. Used by permission. All rights reserved.
 {.editor-note}
 
 > Nature is as truly a revelation of God as the Bible; and we only interpret the Word of God by the Word of God when we interpret the Bible by science. ... When the Bible speaks of the foundations, or the pillars of the earth, or of the solid heavens, or of the motion of the sun, do not you and every other sane man interpret this language by the facts of science? For five thousand years the Church understood the Bible to teach that the earth stood still in space, and that the sun and stars revolved around it. Science has demonstrated that this is not true. Shall we go on to interpret the Bible so as to make it teach the falsehood that the sun moves around the earth, or shall we interpret it by science ... ?
@@ -258,7 +258,7 @@ Yet, while granting this point, one may still doubt whether the parallel between
 
 ## References
 
-van den Brink, Gijsbert. [*Reformed Theology and Evolutionary Theory*](https://www.amazon.com/Reformed-Theology-Evolutionary-Theory-Gijsbert/dp/0802874428/). (Grand Rapids: Eerdmans, 2020).
+van den Brink, Gijsbert. [*Reformed Theology and Evolutionary Theory*](/books/reformed-theology-evolutionary-theory/). (Grand Rapids: Eerdmans, 2020).
 
 Hodge, Charles “The Bible and Science.” _New York Observer_, March 26, 1863, 98–99.
 
