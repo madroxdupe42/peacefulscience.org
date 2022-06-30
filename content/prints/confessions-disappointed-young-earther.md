@@ -3,13 +3,12 @@ title: The Confessions of a Disappointed Young-Earther
 description: An old-earth creationist who once accepted a young earth surveys the shifts in arguments for a young earth that changed his mind.
 authors:
 - ken-keathley
-publishdate: 2022-07-02
+publishdate: 2022-07-01
 date: 2013-03-07
 sameas:
   - http://www.theologyforthechurch.com/wp-content/uploads/2014/02/Disappointed-young-earther-03-06-13.pdf
 headerimage:
   src: /img/2022/06/keathley-flood.png
-draft: true
 ---
 
 I sometimes describe myself as a “disappointed young-earther.” By that I mean I started out holding to the young-earth position, but the shortcomings of most of the YEC arguments and the shenanigans of certain YEC proponents forced me to the old-earth position.
