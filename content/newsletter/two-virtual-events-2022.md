@@ -1,10 +1,10 @@
 ---
 title: Two Virtual Events This July
 description:  Learn about the new consensus on Adam and Eve.
-   Take a shortcourse with Carver Classroom, or join the workshop at the ASA. 
+   Take a short-course with Carver Classroom, or join the workshop at the ASA. 
 authors:
 - Peaceful Science
-date: 2022-07-04
+date: 2022-07-02
 layers:
 - type: body
 - type: pages
@@ -16,7 +16,7 @@ pages:
 
 This month, July of 2022, *Peaceful Science* is programming two virtual events worth joining. See you soon!
 
-## Short Course with Carver Classroom
+## Short-Course with Carver Classroom
 
 Hosted by [*The Carver Project*](https://www.carverstl.org/), this is a four week course, one hour each meeting, 
 designed for pastors and other ministry leaders in the Church.
@@ -31,7 +31,7 @@ the context of diverse congregations.
 
 - Dates: Wednesdays, July 6, 13, 20, and 27
 - Time: 3:00pm - 4:00pm Central Time
-- Cost: \$100 (scholarships available)
+- Cost: $100 (scholarships available)
 
 Time is short for this opportunity. [Apply online](https://www.carverstl.org/courses-2022) before the first class. Classes are limited to twelve people, and registration is almost full.
 
@@ -51,6 +51,6 @@ this workshop from their annual conference in San Diego.
 
 - Date: Friday, July 29
 - Time: 1:30pm - 4:30pm Pacific Time
-- Cost: \$25 live-stream or \$50 in person
+- Cost: $25 live-stream or $50 in person
 
 [Register with the ASA](https://network.asa3.org/mpage/ASA2022) in order to join virtually or in person.
