@@ -16,7 +16,7 @@ pages:
 
 This month, July of 2022, *Peaceful Science* is programming two virtual events worth joining. See you soon!
 
-## Short-Course with Carver Classroom
+## Short-Course with *The Carver Project*
 
 Hosted by [*The Carver Project*](https://www.carverstl.org/), this is a four week course, one hour each meeting, 
 designed for pastors and other ministry leaders in the Church.
