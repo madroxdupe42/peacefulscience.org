@@ -4,7 +4,7 @@ description: A discussion of various proposals regarding Adam & Eve and how they
 authors:
 - John DeRosa
 date: 2022-07-27
---draft: true
+draft: true
 ---
 
 ## Introduction
