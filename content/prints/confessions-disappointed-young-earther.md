@@ -1,6 +1,6 @@
 ---
 title: The Confessions of a Disappointed Young-Earther
-description: An old-earth creationist who once accepted a young earth surveys the shifts in arguments for a young earth that changed his mind.
+description: An old-earth creationist explains how he changed is mind, surveyingthe shifts in young earth arguments over the last 50 years.
 authors:
 - ken-keathley
 publishdate: 2022-07-01
@@ -28,27 +28,37 @@ It would be difficult to exaggerate the influence Whitcomb and Morris’ book ha
 
 So when Whitcomb and Morris used the term “scientific creationism,” what did they mean? They meant that an assessment of the scientific evidence which was not biased by anti-theistic presuppositions would objectively conclude that the earth is only a few thousand years old. We will look further at the nature and role of presuppositions later in the paper. Whitcomb and Morris’ argument can be broken down into six parts.
 
-___Opposition to Uniformitarianism___: Uniformitarianism is the principle that the processes of today should be used to interpret the past. Applied to geology, it implies that the geological formations were formed gradually over immense periods of time. Whitcomb and Morris argued that the presupposition of uniformitarianism hopelessly biased modern geological theory so that geologists fail to see the clear evidences for the global catastrophe that occurred during Noah’s day.[^2] They further contended that this current blindness on the part of the geological profession is a fulfillment of the apostle Peter’s prophecy of apostasy during the latter days (2 Peter 3:3-7).[^3] In this way, flood geology and young-earth creationism fit very well within the premillennial worldview of classic Dispensationalism which dominated evangelical thinking for much of the 20<sup>th</sup> century.
+### Opposition to Uniformitarianism
+
+ Uniformitarianism is the principle that the processes of today should be used to interpret the past. Applied to geology, it implies that the geological formations were formed gradually over immense periods of time. Whitcomb and Morris argued that the presupposition of uniformitarianism hopelessly biased modern geological theory so that geologists fail to see the clear evidences for the global catastrophe that occurred during Noah’s day.[^2] They further contended that this current blindness on the part of the geological profession is a fulfillment of the apostle Peter’s prophecy of apostasy during the latter days (2 Peter 3:3-7).[^3] In this way, flood geology and young-earth creationism fit very well within the premillennial worldview of classic Dispensationalism which dominated evangelical thinking for much of the 20<sup>th</sup> century.
 
 [^2]: John Whitcomb and Henry Morris, [_The Genesis Flood: The Biblical Record and Its Scientific Implications_](https://www.amazon.com/Genesis-Flood-50th-Anniversary/dp/159638395X/) (Phillipsburg: Presbyterian and Reformed, 1961), 130-42.
 [^3]: Ibid., 451-54.
 
-___2nd Law of Thermodynamics as an Effect of the Curse___: One of the most fundamental laws of nature is the second law of thermodynamics, otherwise known as entropy. It is the principle that nature has the tendency to move from a state of higher order to a lower state. In short, entropy is the phenomena of everything running down. Whitcomb and Morris interpreted the Genesis account to teach that the universe was originally created perfect: no death, decay, or deterioration. This, to them, does not seem to be compatible with entropy, so Whitcomb and Morris suggested that the second law came into effect when God cursed the earth for Adam’s sake.[^4]
+### 2nd Law of Thermodynamics as an Effect of the Curse
+
+ One of the most fundamental laws of nature is the second law of thermodynamics, otherwise known as entropy. It is the principle that nature has the tendency to move from a state of higher order to a lower state. In short, entropy is the phenomena of everything running down. Whitcomb and Morris interpreted the Genesis account to teach that the universe was originally created perfect: no death, decay, or deterioration. This, to them, does not seem to be compatible with entropy, so Whitcomb and Morris suggested that the second law came into effect when God cursed the earth for Adam’s sake.[^4]
 
 [^4]: Ibid., 225-27.
 
-___The Canopy Theory___: The creation account (Gen 1:6) speaks of God separating the waters above the firmament from the waters below the firmament. Whitcomb and Morris interpreted this to teach that God place a vapor canopy above the atmosphere.[^5] This canopy provided the waters that inundated the world during Noah’s flood. Whitcomb and Morris argued that the vapor covering provided by the canopy created a very different environment for the pre-flood world from that of the present world.[^6] The blanket of water produced a very favorable greenhouse effect that created a moderate climate worldwide. They interpreted Gen 2:5-6 to teach that it in those days it did not rain, and suggest that the vapor canopy provided the mist mentioned. In addition, the canopy acted as a protection from cosmic rays, which perhaps accounted for the remarkably long lives listed in the genealogies of Gen 4-5.
+### The Canopy Theory
+
+ The creation account (Gen 1:6) speaks of God separating the waters above the firmament from the waters below the firmament. Whitcomb and Morris interpreted this to teach that God place a vapor canopy above the atmosphere.[^5] This canopy provided the waters that inundated the world during Noah’s flood. Whitcomb and Morris argued that the vapor covering provided by the canopy created a very different environment for the pre-flood world from that of the present world.[^6] The blanket of water produced a very favorable greenhouse effect that created a moderate climate worldwide. They interpreted Gen 2:5-6 to teach that it in those days it did not rain, and suggest that the vapor canopy provided the mist mentioned. In addition, the canopy acted as a protection from cosmic rays, which perhaps accounted for the remarkably long lives listed in the genealogies of Gen 4-5.
 
 [^5]: Ibid., 239-43.
 [^6]: Ibid., 243-58.
 
-___Rejection of the Geological Column___: Whitcomb and Morris argued that the geological column, with its strata and layers, was created by the flood waters of the Deluge. Rather than giving evidence of great periods of time, the layers testify to different phases of the waters rising, cresting and receding. They pointed to “frequent flagrant contradictions to the established geologic time sequences” and to inversions in the geological column in which the supposed ages are out of order. They concluded that the “geologic time scale is an extremely fragile foundation on which a tremendous and unwieldy superstructure of interpretation has been erected.”[^7] The world underwent dramatic transformation during and immediately after Noah’s flood, with the world’s mountain ranges being formed as the waters receded.[^8] In addition, the ice age, if it happened at all, occurred almost immediately after the Deluge.[^9]
+### Rejection of the Geological Column
+
+ Whitcomb and Morris argued that the geological column, with its strata and layers, was created by the flood waters of the Deluge. Rather than giving evidence of great periods of time, the layers testify to different phases of the waters rising, cresting and receding. They pointed to “frequent flagrant contradictions to the established geologic time sequences” and to inversions in the geological column in which the supposed ages are out of order. They concluded that the “geologic time scale is an extremely fragile foundation on which a tremendous and unwieldy superstructure of interpretation has been erected.”[^7] The world underwent dramatic transformation during and immediately after Noah’s flood, with the world’s mountain ranges being formed as the waters receded.[^8] In addition, the ice age, if it happened at all, occurred almost immediately after the Deluge.[^9]
 
 [^7]: Ibid., 209; cf. 169-211.
 [^8]: Ibid., 141-53.
 [^9]: Ibid., 288-303.
 
-___The Bending of Space Theory___: The immensity of the universe poses a special problem to the young-earth position. It appears that light from distance objects has taken millions and billions of years to arrive at earth. This does not seem possible in a 6000-year-old universe. Young-earth creationism (YEC) advocate Kurt Wise sums up the situation well when he states, “A face-value reading of the Bible indicates that the creation is thousands of years old. A face-value examination of the creation suggests it is millions or billions of years old. The reconciliation of these two observations is one of the most significant challenges to creation research.”[^10] Remarkably, Whitcomb and Morris devote only two pages to the starlight and time problem.[^11] They dismiss the issue with an appeal to the “appearance of age” argument. However, they also appeal to an article published in 1953 by Parry Moon and Domina Spencer. In the article, Moon and Spencer argued that light, when travelling great distances through space, was able to take a shortcut, so to speak. Rather than travelling in a straight line, light travelled through “Riemannian space.” They concluded, “In this way the time required for light to reach us from the most distant stars is only 15 years.”[^12]
+### The Bending of Space Theory
+
+The immensity of the universe poses a special problem to the young-earth position. It appears that light from distance objects has taken millions and billions of years to arrive at earth. This does not seem possible in a 6000-year-old universe. Young-earth creationism (YEC) advocate Kurt Wise sums up the situation well when he states, “A face-value reading of the Bible indicates that the creation is thousands of years old. A face-value examination of the creation suggests it is millions or billions of years old. The reconciliation of these two observations is one of the most significant challenges to creation research.”[^10] Remarkably, Whitcomb and Morris devote only two pages to the starlight and time problem.[^11] They dismiss the issue with an appeal to the “appearance of age” argument. However, they also appeal to an article published in 1953 by Parry Moon and Domina Spencer. In the article, Moon and Spencer argued that light, when travelling great distances through space, was able to take a shortcut, so to speak. Rather than travelling in a straight line, light travelled through “Riemannian space.” They concluded, “In this way the time required for light to reach us from the most distant stars is only 15 years.”[^12]
 
 Moon and Spencer never provided any mathematical support their hypothesis. And critics pointed out numerous problems with the theory. For example, if the theory were correct, certain nearby stars would take up more of our night sky than the moon.[^13] There is some evidence that Moon and Spencer presented their theory with tongue in cheek, and that they never meant for the proposal to be taken seriously.[^14] Whitcomb and Morris presented the bending of space hypothesis only tentatively, and rather put much more emphasis on the “appearance of age” hypothesis, or what is otherwise known as the mature creation view. We will come back to this issue later.
 
@@ -60,7 +70,9 @@ Moon and Spencer never provided any mathematical support their hypothesis. And c
 
 {{< amazon `0674023390` >}}
 
-___Dinosaur and Human Fossils Together___: A centerpiece to the cumulative case presented in _The Genesis Flood_ was the fossils found in a limestone bed of the Paluxy River near Glen Rose, Texas. Whitcomb and Morris presented photographs of what appeared to be fossilized impressions of dinosaurs and human footprints side by side. This evidence, they argued, overturned the conventional interpretation of geological history that the era of dinosaurs and the time of humans were separated by millions of years. Under the photos they declared,
+### Dinosaur and Human Fossils Together
+
+A centerpiece to the cumulative case presented in _The Genesis Flood_ was the fossils found in a limestone bed of the Paluxy River near Glen Rose, Texas. Whitcomb and Morris presented photographs of what appeared to be fossilized impressions of dinosaurs and human footprints side by side. This evidence, they argued, overturned the conventional interpretation of geological history that the era of dinosaurs and the time of humans were separated by millions of years. Under the photos they declared,
 
 > These tracks were both cut from the Paluxy River Bed near Glen Rose, Texas, in supposedly Cretaceous strata, plainly disproving the evolutionist’s contention that the dinosaurs were extinct some 70 million years before man “evolved.” Geologists have rejected this evidence, however, preferring to believe that the human footprints were carved by some modern artist, while at the same time accepting the dinosaur footprints as genuine. If anything, the dinosaur prints look more “artificial” than the human, but the genuineness of neither would be questioned at all were it not for the geologically sacrosanct evolutionary time-scale.[^15]
 
@@ -78,7 +90,9 @@ Whitcomb and Morris inspired a generation of young-earth creationists, and I cou
 
 These issues were noted by others within the young-earth community. To their credit, organizations such as Answers in Genesis have attempted to address honestly the integrity issue. And some YEC scientists have attempted to provide an updated young-earth model. One such scientist is Australian geologist Andrew Snelling. Snelling wrote the 1100 page, two-volume _Earth’s Catastrophic Past: Geology, Creation, and the Flood_ for the express purpose of updating the flood model presented in _The Genesis Flood_. But in many ways Snelling’s work is a total revamp. Snelling, along with other YEC researchers such as paleontologist Kurt Wise and astrophysicist Russell Humphreys, recognize that the case argued by Whitcomb and Morris needed significant retooling.
 
-___Drops the Canopy Theory___: Significantly, Snelling abandons the canopy theory.[^18] He and other current YEC advocates recognize that the biblical evidence for the canopy theory is tenuous at best. Some, such as Joseph Dillow, did extensive work to provide a viable model but today most YEC proponents have given up on the theory.[^19] Snelling points out there are simply too many scientific obstacles. Any such canopy would have created a runaway greenhouse effect that would have boiled the earth. He explains,
+### Drops the Canopy Theory
+
+Significantly, Snelling abandons the canopy theory.[^18] He and other current YEC advocates recognize that the biblical evidence for the canopy theory is tenuous at best. Some, such as Joseph Dillow, did extensive work to provide a viable model but today most YEC proponents have given up on the theory.[^19] Snelling points out there are simply too many scientific obstacles. Any such canopy would have created a runaway greenhouse effect that would have boiled the earth. He explains,
 
 [^18]: Andrew Snelling, [_Earth’s Catastrophic Past: Geology Creation, and the Flood_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/) (Dallas: ICR, 2009), 663-67.
 [^19]: Joseph Dillow, [_The Waters Above_](https://www.amazon.com/Waters-Above-Earths-Pre-Flood-Canopy/dp/0802491987/) (Chicago: Moody, 1981).
@@ -93,11 +107,15 @@ Snelling accepts Humphrey’s idiosyncratic interpretation that the “waters ab
 [^22]: Andrew Snelling, [_Earth’s Catastrophic Past_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/), 683-706; and Kurt Wise, [_Faith, Form, and Time: What the Bible Teaches and Science Confirms about Creation and the Age of the Universe_](https://www.amazon.com/Faith-Form-Time-Confirms-Creation/dp/0805424628/) (Nashville: Broadman and Holman, 2002), 181-89.
 [^23]: Andrew Snelling, [_Earth’s Catastrophic Past_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/), 669-73.
 
-___Drops the Notion that the 2nd Law of Thermodynamics Is an Effect of the Curse___: Snelling, along with other global flood advocates, realize that Whitcomb and Morris’ argument that entropy was a manifestation of the curse was extremely problematic.[^24] Without the second law in force no normal process would be able to function. For example, the second law is necessary for digestion. Whitcomb and Morris’ theory also seemed to be contrary to certain biblical passages. The Bible states that Eden had four rivers (Gen 2:10-14). Rivers are channels of water flowing from a higher level to a lower level. By definition they are examples of the second law in action.
+### Drops the Notion that the 2nd Law of Thermodynamics Is an Effect of the Curse
+
+Snelling, along with other global flood advocates, realize that Whitcomb and Morris’ argument that entropy was a manifestation of the curse was extremely problematic.[^24] Without the second law in force no normal process would be able to function. For example, the second law is necessary for digestion. Whitcomb and Morris’ theory also seemed to be contrary to certain biblical passages. The Bible states that Eden had four rivers (Gen 2:10-14). Rivers are channels of water flowing from a higher level to a lower level. By definition they are examples of the second law in action.
 
 [^24]: Ibid., 620.
 
-___Drops the Paluxy River Fossils___: Snelling makes no mention of the fossils found in the riverbed of the Paluxy River. To their credit, most young-earth proponents (with a few notable exceptions) admit that the supposedly human footprints are in fact not human at all. Henry Morris’ son, John Morris publicly acknowledges that none of the prints “can today be regarded as unquestionably of human origin.”[^25]
+### Drops the Paluxy River Fossils
+
+Snelling makes no mention of the fossils found in the riverbed of the Paluxy River. To their credit, most young-earth proponents (with a few notable exceptions) admit that the supposedly human footprints are in fact not human at all. Henry Morris’ son, John Morris publicly acknowledges that none of the prints “can today be regarded as unquestionably of human origin.”[^25]
 
 [^25]: John Morris, “The Paluxy River Mystery,” Available online: http://www.icr.org/article/paluxy-river-mystery/. Accessed 11-05-12.
 
@@ -112,7 +130,9 @@ ___Humans and Dinosaurs Lived at the Same Time but in Different Regions___: The 
 
 {{< amazon `0852346921` >}}
 
-___Floating continents___: One serious challenge to the global flood model is the amount of coal and oil deposits located in the earth. Such deposits are the remnants of buried vegetation. There simply could not have been enough vegetation growing on the earth at one time to account for all the deposits that have been found. As a solution, Snelling, along with Wise and others, propose that during the pre-flood era there existed giant floating continents.[^29] Upon these floating islands, which covered much of the world’s oceans, grew immense forests.
+### Floating continents
+
+One serious challenge to the global flood model is the amount of coal and oil deposits located in the earth. Such deposits are the remnants of buried vegetation. There simply could not have been enough vegetation growing on the earth at one time to account for all the deposits that have been found. As a solution, Snelling, along with Wise and others, propose that during the pre-flood era there existed giant floating continents.[^29] Upon these floating islands, which covered much of the world’s oceans, grew immense forests.
 
 [^29]: Andrew Snelling, [_Earth’s Catastrophic Past_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/), 675-77.
 
@@ -130,13 +150,17 @@ ___Suspension of the Normal Laws of Nature___: Snelling concedes that much of th
 
 Appealing to a change in the laws of nature marks a remarkable change in YEC strategy, and in many ways it also makes a significant admission. As a strategy, it indicates an end to any real attempt to empirically establish the historicity of a global flood. Miracles, by definition, cannot be scientifically examined. The appeal also admits that the scientific evidence does not support the YEC model.
 
-___Compressed ice ages___: Standard geological models hold that during earth’s natural history there have been five distinct ice ages which cover hundreds of millions of years. In addition, mainstream geologists believe that over the last million years there have been a several glacial periods where glacial ice has advanced and retreated. These models, of course, do not fit with a global flood model. Global flood adherents argue that at the very most, from beginning to end, the ice age was only 700 years long.[^32] The ice surged out in a “couple of decades,” and then receded within “a couple of decades.”[^33] The ice age lasted only a few centuries at the maximum. Therefore, rather than calling it the ice age, Snelling says a more accurate label would be “the ice advance.”[^34]
+### Compressed ice ages
+
+ Standard geological models hold that during earth’s natural history there have been five distinct ice ages which cover hundreds of millions of years. In addition, mainstream geologists believe that over the last million years there have been a several glacial periods where glacial ice has advanced and retreated. These models, of course, do not fit with a global flood model. Global flood adherents argue that at the very most, from beginning to end, the ice age was only 700 years long.[^32] The ice surged out in a “couple of decades,” and then receded within “a couple of decades.”[^33] The ice age lasted only a few centuries at the maximum. Therefore, rather than calling it the ice age, Snelling says a more accurate label would be “the ice advance.”[^34]
 
 [^32]: Paul Garner, [_The New Creationism_](https://www.amazon.com/New-Creationism-Building-Scientific-Foundation/dp/0852346921/), 209-21.
 [^33]: Kurt Wise, [_Faith, Form, and Time_](https://www.amazon.com/Faith-Form-Time-Confirms-Creation/dp/0805424628/), 215-16.
 [^34]: Andrew Snelling, [_Earth’s Catastrophic Past_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/), 774-86.
 
-___Accelerated evolution___: Global flood proponents recognize that the ark presents two problems related to speciation: 1) the number of species that were on the ark, and 2) the worldwide distribution of species after they disembarked. The number of species of life on earth is mind-boggling. James LeFanu points out that there are over 40 species of parrots, 70 species of monkeys, tens of thousands of species of butterflies, 20,000 species of ants, 8,000 species of termites, 400,000 known species of beetles—this list goes on and on.[^35] There are millions and millions of species.
+### Accelerated evolution
+
+ Global flood proponents recognize that the ark presents two problems related to speciation: 1) the number of species that were on the ark, and 2) the worldwide distribution of species after they disembarked. The number of species of life on earth is mind-boggling. James LeFanu points out that there are over 40 species of parrots, 70 species of monkeys, tens of thousands of species of butterflies, 20,000 species of ants, 8,000 species of termites, 400,000 known species of beetles—this list goes on and on.[^35] There are millions and millions of species.
 
 [^35]: Charles Le Fanu, [_Why Us? How Science Rediscovered the Mystery of Ourselves_](https://www.amazon.com/Why-Us-Science-Rediscovered-Ourselves/dp/1400030544/) (New York: Vintage: 2009), 59-62.
 
@@ -156,7 +180,9 @@ Hugh Ross accuses proponents of the AGEing process of being “hyperevolutionist
 
 [^40]: Hugh Ross, [_A Matter of Days: Resolving a Creation Controversy_](https://www.amazon.com/Matter-Days-Resolving-Creation-Controversy/dp/1576833755/) (Colorado Springs: 2004), 121-30.
 
-___Presuppositional Bias_?__ Snelling repeats the assertion made by Whitcomb and Morris that the presuppositions held by mainstream geologists prevent them from considering the global flood model. Those who decide to embrace assumptions that go against the young-earth model and flood geology reveal a decision to throw off the authority of Scripture. “The bias exhibited by one’s choice of assumptions may not simply be a matter of objective science, but rather primarily of one’s subconscious spiritual condition.”[^41] However, many, if not most, geologists of the early 19<sup>th</sup> century were Christians who held to a high view of the Bible. These geologists gave up flood geology only reluctantly, and then only after they were convinced that the empirical evidence left them with no choice. As early as 1834, long before Darwin published his theory, an article in the _Christian Observer_ lamented that Christian geologists felt they were intellectually compelled to abandon flood geology:
+### Presuppositional Bias?
+
+ Snelling repeats the assertion made by Whitcomb and Morris that the presuppositions held by mainstream geologists prevent them from considering the global flood model. Those who decide to embrace assumptions that go against the young-earth model and flood geology reveal a decision to throw off the authority of Scripture. “The bias exhibited by one’s choice of assumptions may not simply be a matter of objective science, but rather primarily of one’s subconscious spiritual condition.”[^41] However, many, if not most, geologists of the early 19<sup>th</sup> century were Christians who held to a high view of the Bible. These geologists gave up flood geology only reluctantly, and then only after they were convinced that the empirical evidence left them with no choice. As early as 1834, long before Darwin published his theory, an article in the _Christian Observer_ lamented that Christian geologists felt they were intellectually compelled to abandon flood geology:
 
 [^41]: Andrew Snelling, [_Earth’s Catastrophic Past_](https://www.amazon.com/Earths-Catastrophic-Past-Geology-Creation/dp/0890518742/), 295-97.
 
@@ -168,7 +194,9 @@ ___Presuppositional Bias_?__ Snelling repeats the assertion made by Whitcomb and
 
 The Bible-believing geologists of the 19<sup>th</sup> century were driven by the geological findings to the conclusion that the earth is ancient and that Noah’s flood cannot account for those findings. They resisted this conclusion, and did not come to it happily. They certainly were not motivated by an atheistic agenda nor were they blinded by naturalistic presuppositions.
 
-___The Accusation of Fideism Parading as Science___: To account for evidence that goes against YEC in general and the global flood model in particular, Snelling suggests that God supernaturally intervened to change the laws of nature during the flood event. Old-earth proponents Davis Young and Ralph Stearley, as fellow evangelicals, acknowledge that they, in principle, have no problem with an appeal to the miraculous. However, they contend that this puts the event beyond scientific investigation and defense.
+### The Accusation of Fideism Parading as Science
+
+To account for evidence that goes against YEC in general and the global flood model in particular, Snelling suggests that God supernaturally intervened to change the laws of nature during the flood event. Old-earth proponents Davis Young and Ralph Stearley, as fellow evangelicals, acknowledge that they, in principle, have no problem with an appeal to the miraculous. However, they contend that this puts the event beyond scientific investigation and defense.
 
 > The only recourse that flood catastrophists have to save their theory is to appeal to a pure miracle and thus eliminate entirely the possibility of historical geology. We think that would be a more honest course of action for young-Earth advocates to take. Young-Earth creationists should cease their efforts to convince the lay Christian public that geology supports a young Earth when it does not do so. To continue that effort is misguided and detrimental to the health of the church and the cause of Christ.[^43]
 
