@@ -1,9 +1,9 @@
- ---
-title: Survey of Adam & Eve Interpretations for Catholics
+---
+title: "Adam & Eve: A Survey of Models for Catholics"
 description: A discussion of various proposals regarding Adam & Eve and how they align with science and Catholic theology
 authors:
 - John DeRosa
-date: 2022-07-27
+date: 2022-08-03
 draft: true
 ---
 
@@ -14,7 +14,7 @@ Did Adam and Eve really exist? Were there two, real people from whom our entire 
 
 As She often does, the Church permits latitude among specific proposals while also setting up particular doctrinal boundaries. Hence, there is not one required view of Adam and Eve. Nonetheless, there are views which clearly fall within the bounds of Catholic teaching and others which do not. Below, I consider various proposals with an eye on advantages and disadvantages.
 
-Along the way, I pose several questions that have not been definitively answered by the Catholic magisterium. Lastly, I articulate my preferred position on the topic. My hope is that this “Shopper’s Guide” serves both Catholic and Non-Catholic Christians in their understanding of Adam and Eve.
+Along the way, I pose several questions that have not been definitively answered by the Catholic magisterium. My hope is that this survey serves both Catholic and Non-Catholic Christians in their understanding of Adam and Eve.
 
 ## Catholic Christians and Church Authority
 
@@ -25,35 +25,31 @@ Catholic Christians profess faith in God and all that He has revealed (cf. CCC 1
 {{< amazon `1683570944` >}}
 
 The three main levels of magisterial teaching and authority are as follows:
-* Level 1: The Church teaches a doctrine of faith or morals to be believed as divinely revealed.
-* Level 2: The Church teaches a doctrine of faith or morals to be definitively held.
-* Level 3: The Church teaches a doctrine of faith or morals that is owed religious submission.
+* Level 1: The Church sets forth a doctrine of faith or morals to be believed as divinely revealed.
+* Level 2: The Church sets forth a doctrine of faith or morals to be definitively held.
+* Level 3: The Church sets forth a doctrine of faith or morals that is owed religious submission.
 
 In level 1 and level 2 teachings, the Church exercises her infallible teaching authority. In response, an unwavering assent is demanded by the faithful. In other words, it is outside the bounds of Catholic teaching to view a Level 1 or Level 2 doctrine as possibly false.
 
-In level 3 teachings, the Church exercises her non-infallible teaching authority, also known as the Authentic Magisterium. Since this mode of teaching is non-definitive, the mode of assent required is not the unwavering adherence required for definitive teaching. Rather, level 3 teachings are owed religious assent (or religious submission of mind and will) such that one acquiesces to the teaching as true, even while recognizing that there are possible (exceptional) cases where a level 3 teaching could be false.[^2]
+In level 3 teachings, the Church exercises her non-infallible teaching authority, sometimes referred to as merely authentic magisterium. Since this mode of teaching is non-definitive, the mode of assent required is not the unwavering adherence required for definitive teaching. Rather, level 3 teachings are owed religious assent (or religious submission of mind and will) such that one acquiesces to the teaching as true, even while recognizing that there are possible (exceptional) cases where a level 3 teaching could be false.[^2]
 
-[^2]: For guidance on the conditions surrounding possible, legitimate dissent from level 3 teachings, read paragraphs 24-33 in the document [_Donum Veritatis_](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19900524_theologian-vocation_en.html).
-
-Sometimes, the Church teaches in a way that is disciplinary. She sets up disciplinary regulations which govern theological discourse surrounding a particular issue. Since such regulations are in principle reformable, they can be viewed on par with level 3 teaching.[^3]
-
-[^3]: There are further levels of distinction one can find in Jimmy Akin’s book [_Teaching with Authority_](https://www.amazon.com/Teaching-Authority-Doctrinal-Confusion-Understand/dp/1683570944/). A primer on the three levels of teaching authority occurs in this podcast episode with Dr. John Joy: [www.classicaltheism.com/joy](https://www.classicaltheism.com/joy)
+[^2]: For guidance on the conditions surrounding possible, legitimate dissent from level 3 teachings, read paragraphs 24-33 in the document [_Donum Veritatis_](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19900524_theologian-vocation_en.html). There are further levels of distinction one can find in Jimmy Akin’s book [_Teaching with Authority_](https://www.amazon.com/Teaching-Authority-Doctrinal-Confusion-Understand/dp/1683570944/). A primer on the three levels of teaching authority occurs in this podcast episode with Dr. John Joy: [www.classicaltheism.com/joy](https://www.classicaltheism.com/joy)
 
 This brings me to an important question. What are the qualities of a proposition such that it falls within the bounds of Catholic teaching? Here, I suggest the following thesis:
 
-* (A) A proposition _p_ is ___within the bounds of Catholic teaching___ if affirming _p_ is compatible with firmly holding all level 1 and level 2 teachings as well as giving religious submission to all level 3 teachings.[^4]
+* (A) A proposition _p_ is ___within the bounds of Catholic teaching___ if affirming _p_ is compatible with firmly holding all level 1 and level 2 teachings as well as giving religious submission to all level 3 teachings.[^3]
 
-[^4]: This is a working thesis for this article. I avoid the language of “orthodox” and “heterodox” so as to avoid the insinuating that person X is a heretic or that person Y teaches heresy. Of course, those are very important matters, but for the official judgments of such things I defer to the magisterium as well as professional theologians and canon lawyers.
+[^3]: This is a working thesis for this article. I avoid the language of “orthodox” and “heterodox” so as to avoid the insinuating that person X is a heretic or that person Y teaches heresy. Of course, those are very important matters, but for the official judgments of such things I defer to the magisterium as well as professional theologians and canon lawyers.
 
 Some positions are _clearly_ within the bounds of Catholic teaching while others are _clearly_ out of bounds. Still other positions occupy a middle ground where it is less than clear if they fall within the bounds of Catholic teaching. I evaluate potential Catholic views of Adam and Eve according to this scheme:
 
 * 1) A position is _clearly not_ within the bounds of Catholic teaching. (Red)
-* 2) A position is _not clearly_ within the bounds of Catholic teaching. (YELLOW)
-* 3) A position is _clearly_ within the bounds of Catholic teaching. (GREEN)
+* 2) A position is _not clearly_ within the bounds of Catholic teaching. (Yellow)
+* 3) A position is _clearly_ within the bounds of Catholic teaching. (Green)
 
-These three designations map on well to a standard traffic light. A __red__ light is given to (1); such views are out of bounds for Catholics. A __green__ light is given to (3); such views are clearly in-bounds for Catholics. A __yellow__ light of caution can be assigned to (2); it is not clear whether the view is within the bounds of Catholic teaching. It should be noted that “not clearly within the bounds of Catholic teaching” is not the same as “automatically heterodox.” Rather, the view’s conformity to Church teaching is not evident, and the magisterium has not asserted in its favor.[^5]
+These three designations map on well to a standard traffic light. A __red__ light is given to (1); such views are out of bounds for Catholics. A __green__ light is given to (3); such views are clearly in-bounds for Catholics. A __yellow__ light of caution can be assigned to (2); it is not clear whether the view is within the bounds of Catholic teaching. It should be noted that “not clearly within the bounds of Catholic teaching” is not the same as “automatically heterodox.” Rather, the view’s conformity to Church teaching is not evident, and the magisterium has not asserted in its favor.[^4]
 
-[^5]: Consider an example of how these categories apply to an issue in contemporary Catholic moral theology. The proposition that In Vitro Fertilization (IVF) is ethically permissible is _clearly not_ within the bounds of Catholic teaching. In other words, IVF is immoral. The view that adoption is ethically permissible is _clearly_ within the bounds of Catholic teaching; people can legitimately adopt. But what about adopting a stranger’s embryo that was frozen in the course of IVF? Is that ethically permissible? The answer is not clear, and moral theologians have argued both ways. Hence, the view that adopting a stranger’s embryo is ethically permissible is _not clearly_ within the bounds of Catholic teaching.
+[^4]: Consider an example of how these categories apply to an issue in contemporary Catholic moral theology. The proposition that In Vitro Fertilization (IVF) is ethically permissible is _clearly not_ within the bounds of Catholic teaching. In other words, IVF is immoral. The view that adoption is ethically permissible is _clearly_ within the bounds of Catholic teaching; people can legitimately adopt. But what about adopting a stranger’s embryo that was frozen in the course of IVF? Is that ethically permissible? The answer is not clear, and moral theologians have argued both ways. Hence, the view that adopting a stranger’s embryo is ethically permissible is _not clearly_ within the bounds of Catholic teaching.
 
 ## The Minimum Requirements
 
@@ -75,16 +71,16 @@ _Humani Generis, Paragraphs 36-37 (1950)_:
 
 “37. When, however, there is question of another conjectural opinion, namely polygenism, the children of the Church by no means enjoy such liberty. For the faithful cannot embrace that opinion which maintains that either after Adam there existed on this earth true men who did not take their origin through natural generation from him as from the first parent of all, or that Adam represents a certain number of first parents. Now it is no no way apparent how such an opinion can be reconciled with that which the sources of revealed truth and the documents of the Teaching Authority of the Church propose with regard to original sin, which proceeds from a sin actually committed by an individual Adam and which, through generation, is passed on to all and is in everyone as his own.”
 
-From the Catechism and these magisterial texts, we infer that the following elements are essential to a Catholic understanding of Adam and Eve:
+The strength of the teaching from Trent is at least Level 2, and the strength of the teaching from [_Humani Generis_](https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html) is at least Level 3. From the Catechism and these magisterial texts, we infer that the following elements are essential to a Catholic understanding of Adam and Eve:
 
 * (F1) The Fall refers to a real event involving our first parents.
 * (F2) The sin of Adam was “in its origin one.”
-* (F3) Original sin is passed on to all “by propagation, not by imitation.”[^6]
+* (F3) Original sin is passed on to all “by propagation, not by imitation.”[^5]
 * (F4) There was “a sin actually committed by an individual Adam and which, through generation, is passed on to all.”
 * (F5) All “true men” on Earth after Adam “take their origin through natural generation from him.”
 * (F6) Evolution of the human body is possible, but God’s special action is required for the creation of the soul.
 
-[^6]: In Catholic theology, “original sin” constitutes a deprivation of the original grace possessed by our first parents. It is not a guilty status imputed to us as if we too committed the sin of Adam. Rather, we are born deprived of the grace in which our parents were created.
+[^5]: In Catholic theology, “original sin” constitutes a deprivation of the original grace possessed by our first parents. It is not a guilty status imputed to us as if we too committed the sin of Adam. Rather, we are born deprived of the grace in which our parents were created.
 
 While there may be additional essential elements (e.g. that Adam was male, that he had freedom of choice, that Eve was made from him, etc.), these six suffice as a workable list to consult when evaluating options. To the extent that proposals about Adam and Eve are compatible with (F1) - (F6), they are compatible with Catholic teaching.
 
@@ -93,32 +89,34 @@ While there may be additional essential elements (e.g. that Adam was male, that 
 Mainstream cosmology, geology, biology, and genetics support the following three theses:
 
 * (S1) The universe and the Earth are billions of years old.
-* (S2) “[C]ommon ancestry and biological evolution are supported by several lines of empirical evidence.”[^7] Additionally, “Species originate by descent with modification from previously existing species.”[^8]
-* (S3) Modern humans originally came from a population of at least several thousand individuals.[^9]
+* (S2) “[C]ommon ancestry and biological evolution are supported by several lines of empirical evidence.”[^6] Additionally, “Species originate by descent with modification from previously existing species.”[^7]
+* (S3) Modern humans originally came from a population of at least several thousand individuals.[^8]
 
-[^7]: This is a quote from the [Next Generation Science Standards](https://docs.google.com/document/d/1HaNtw5FzeYJRaar-iqBonJvBmayjAFONJ004kInMpMA/edit)
-[^8]: Kemp, Kenneth. ["Science, Theology, and Monogenesis"](https://www3.nd.edu/~afreddos/papers/kemp-monogenism.pdf), 221.
-[^9]: This thesis must be qualified based on the meaning of “Modern humans.” Some recent scientific discussions suggest that as long as the single couple lived sufficiently long ago, it’s possible that rational humans descended from just two individuals rather than several thousand.
+[^6]: This is a quote from the [Next Generation Science Standards](https://docs.google.com/document/d/1HaNtw5FzeYJRaar-iqBonJvBmayjAFONJ004kInMpMA/edit)
+[^7]: Kemp, Kenneth. ["Science, Theology, and Monogenesis"](https://www3.nd.edu/~afreddos/papers/kemp-monogenism.pdf), 221.
+[^8]: This thesis must be qualified based on the meaning of “Modern humans.” Some recent scientific discussions suggest that as long as the single couple lived sufficiently long ago, it’s possible that rational humans descended from just two individuals rather than several thousand.
 
-To the extent that Christian views can accommodate mainstream science, they gain credibility among those who take science seriously. In the remainder of this article, we explore various “models” of Adam and Eve with an eye on their compatibility with mainstream science and Catholic teaching.[^10]
+To the extent that Christian views can accommodate mainstream science, they gain credibility among those who take science seriously. In the remainder of this article, we explore various “models” of Adam and Eve with an eye on their compatibility with mainstream science and Catholic teaching.[^9]
 
-[^10]: I do not claim that mainstream science is unquestionable or unassailable; it is not. But challenging mainstream scientific views goes beyond the scope of this article.
+[^9]: I do not claim that mainstream science is unquestionable or unassailable; it is not. But challenging mainstream scientific views goes beyond the scope of this article.
 
 ### Young Earth Creation Models
 
-According to Young Earth creation (YEC) models, the Earth was made 6,000 - 10,000 years ago, Adam and Eve were specially created by God as the first human beings in existence, and the general theory of evolution is false. YEC models are permitted by the Church, and they are clearly within the bounds of Catholic orthodoxy. Catholics who take this route can readily affirm (F1) - (F6). So, one option for Catholics is to mine the YEC literature and visit sources such as [creation.com](https://creation.com) and [answersingenesis.org](https://answersingenesis.org).
+According to Young Earth creation (YEC) models[^10], the Earth was made 6,000 - 10,000 years ago, Adam and Eve were specially created by God as the first human beings in existence, and the general theory of evolution is false. YEC models are permitted by the Church, and they are clearly within the bounds of Catholic teaching. Catholics who take this route can readily affirm (F1) - (F6). So, one option for Catholics is to mine the YEC literature and visit sources such as [creation.com](https://creation.com) and [answersingenesis.org](https://answersingenesis.org).
+
+[^10]: When giving a “model” for a proposition or set of propositions, one provides a description of how the propositions could be true.
 
 One advantage of this approach is that it clearly squares with the early chapters of Genesis; it takes those accounts to be historically and scientifically accurate. Another advantage of YEC models is that they clearly comport with what many early Church fathers believed concerning the historical truth of early Genesis.
 
-The major disadvantage of YEC models is that they clash with mounting scientific evidence in favor of an old universe, old earth, evolution, and common descent. They require a denial of (S1), (S2), and (S3). Another disadvantage is that these models tend to insist upon a scientifically accurate account of man’s origin rather than permitting the author to write within a genre that doesn’t demand scientific accuracy.
+The major disadvantage of YEC models is that they clash with mounting scientific evidence in favor of an old universe, old earth, evolution, and common descent. They require a denial of (S1), (S2), and (S3). Another disadvantage is that these models tend to insist Genesis provides a scientifically accurate account of man’s origin rather than permitting the author to write within a genre that doesn’t demand scientific accuracy.
 
 ### Old Earth Creation Models
 
-According to Old Earth Creation (OEC) models, the universe and Earth are billions of years old, Adam and Eve were specially created by God as the first human beings in existence, and the general theory of evolution is false. OEC models are permitted by the Church, and they are clearly within the bounds of Catholic orthodoxy. Catholics pursuing this route can readily affirm (F1) - (F6) and they can find resources at OEC advocates such as those at [_Reasons to Believe_](https://reasons.org).
+According to Old Earth Creation (OEC) models, the universe and Earth are billions of years old, Adam and Eve were specially created by God as the first human beings in existence, and the general theory of evolution is false. OEC models are permitted by the Church, and they are clearly within the bounds of Catholic orthodoxy. Catholics pursuing this route can readily affirm (F1) - (F6) and they can find resources from OEC advocates such as those at [_Reasons to Believe_](https://reasons.org).
 
-One advantage of OEC models is that they are consistent with ample, mainstream scientific evidence that the Earth and Universe are old (S1). This is a major advantage over YEC models. Another advantage of OEC models is that they clearly preserve God’s special divine action in the making of the first human beings.
+One advantage of OEC models is that they are consistent with ample, mainstream scientific evidence that the Earth and universe are old (S1). This is a major advantage over YEC models. Another advantage of OEC models is that they clearly preserve God’s special divine action in the making of the first human beings.
 
-One disadvantage of OEC models is their inconsistency with (S2) and in particular the genetic and fossil evidence that suggests common descent. Additionally, OEC models seem incompatible with (S3); genetic evidence suggests the original human population must have been several thousand individuals. However, recent scientific discussions show that if the original couple is pushed into the distant past, further than 500,000 years ago, (S3) is not necessarily true. This will be discussed below when we visit William Lane Craig’s model.
+One disadvantage of OEC models is their inconsistency with (S2). In particular, these models conflict with the genetic and fossil evidence that suggests common descent. Additionally, OEC models seem incompatible with (S3); genetic evidence suggests the original human population must have been several thousand individuals. However, recent scientific discussions show that if the original couple is pushed into the distant past, further than 500,000 years ago, (S3) is not necessarily true. This will be discussed below when we visit William Lane Craig’s model.
 
 ### Theistic Evolution Models
 
@@ -130,7 +128,7 @@ According to symbolic proposals, Adam was not a real individual human being, but
 
 In a second iteration, Adam symbolizes the first community of, say, several thousand human beings who were the first humans endowed with rational freedom. That first community corporately turned away from God, such that the Fall was a real historical event implicating all of them. After the Fall, original sin was passed on through natural generation.
 
-Both iterations are clearly not within the bounds of Catholic teaching. first view fails to acknowledge the Fall as a real, historical event, and thus fails to include that a sin is “actually committed by an individual Adam.”
+Both iterations are clearly not within the bounds of Catholic teaching. The first view fails to acknowledge the Fall as a real, historical event, and thus fails to include that a sin is “actually committed by an individual Adam.”
 
 The first view is compatible with (F1), (F3), and (F6), but it is incompatible with (F4). It could be made compatible with (F2) and (F5) if the symbolic reading of “Adam” is permitted there. However, it clearly conflicts with (F4), which says: There was “a sin actually committed by an individual Adam and which, through generation, is passed on to all.” It is implausible to read this statement as anything other than an individual person, Adam, who committed the sin.
 
@@ -142,19 +140,19 @@ The main advantage of both symbolic views is that they are fully compatible with
 
 {{< amazon `0801030994` >}}
 
-According to this view, there was a decision of human freedom at the dawn of humanity that directed humanity's plight negatively.[^11] In one place, he describes a possible scenario that unfolds as follows, “The first man created in the state of original justice is nominated by God as the trustee, in respect of the justice compulsorily intended by God for all men, for all the men who follow him, whether they descend from him physically or not.” Call this representative Adam. Now, according to Rahner, Adam could be part of an original community, and yet if he chose to sin, original justice would be lost for the representative individual Adam as well as all members in the community.
+According to this view, there was a decision of human freedom at the dawn of humanity that directed humanity's plight negatively.[^11] In one place, Rahner describes a possible scenario that unfolds as follows, “The first man created in the state of original justice is nominated by God as the trustee, in respect of the justice compulsorily intended by God for all men, for all the men who follow him, whether they descend from him physically or not.” Call this representative Adam. Now, according to Rahner, Adam could be part of an original community, and yet if he chose to sin, original justice would be lost for the representative individual Adam as well as all members in the community.
 
 [^11]: Levering, Matthew. [_Engaging the Doctrine of Creation_](https://www.amazon.com/Engaging-Doctrine-Creation-Creatures-Creator/dp/0801030994/), 237.
 
-If Rahner’s view allows that men of this original community possessed rational freedom, then the view fails to fall within the bounds of Catholic teaching. The reason is that (F5) will not be true, on this iteration of Rahner’s view, since not all true men will take their origin through natural generation from Adam – some people have been on-the-scene independently of Adam.[^12]
+If Rahner’s view allows that multiple human beings in this original community possessed rational freedom, then the view fails to fall within the bounds of Catholic teaching. The reason is that (F5) will not be true, since not all true men will take their origin through natural generation from Adam – some people have been on-the-scene independently of descent from Adam.[^12]
 
-[^12]: If Rahner’s view allows that men in that community were not fully rational human beings, then his view would merge with Kemp’s, which is evaluated in 3C.
+[^12]: If Rahner’s view allows that multiple human beings in that community were not fully rational human beings, then his view would merge with Kemp’s, which is evaluated next.
 
 An advantage of Rahner’s view is that it is fully compatible with mainstream science. A disadvantage of the view is that it does not fall within the bounds of Catholic teaching. 
 
 #### Kenneth Kemp’s Proposal
 
-According to this view, we can distinguish man as a biological species, philosophical species, and theological species. The “biological species” includes all human individuals that are reproductively compatible. Man as a “philosophical species” refers to human beings that possess a rational soul. Philosophical human beings that are also offered an eternal destiny of friendship with God constitute a “theological species.” These categories are not necessarily coextensive.[^13]
+According to this view, we can distinguish man as a biological species, philosophical species, and theological species. The biological species includes all human individuals that are reproductively compatible. Man as a philosophical species refers to human beings that possess a rational soul. Philosophical human beings that are also offered an eternal destiny of friendship with God constitute a theological species. These categories are not necessarily coextensive.[^13]
 
 [^13]: Kemp, 230.
 
@@ -174,9 +172,9 @@ This view grants, along the lines of Kemp, a distinction between a biological sp
 
 Suarez holds that God endowed two human beings, Adam and Eve, with a fully rational soul. These were the first rational humans though they may have lived among non-rational biological humans. After Adam and Eve sinned, they were deprived of the original holiness and justice which God had afforded. At that moment (i.e. the moment of their transgression), through special divine action, God raised all of the non-rational biological humans to the status of fully rational human beings. Ever since that moment, the entire human race and all of their offspring were rational and fallen.
 
-One advantage of this view is that it is compatible with all mainstream science. Another advantage of this view is that it avoids the interbreeding in Kemp’s solution which some have found problematic. Additionally, Suarez does not think personal modern humans could have lived among non-rational humans.[^15] Though it goes beyond the scope of this essay, I do not find Suarez’s reasons compelling on this point. Also, Suarez preserves the existence of an original couple who committed a sin that plunged humanity into a fallen state.
+One advantage of this view is that it is compatible with all mainstream science. Another advantage of this view is that it avoids the interbreeding in Kemp’s solution which some have found problematic. Additionally, Suarez does not think personal modern humans could have lived among non-rational humans.[^15] Also, Suarez preserves the existence of an original couple who committed a sin that plunged humanity into a fallen state.
 
-[^15]: Suarez asks, “Would it have been possible for personal modern humans to have met non-personal ones and lived with them? I think the answer is no.” ["'Transmission at Generation': Could original sin have happened at the time when Homo sapiens already had a large population size?"](https://apcz.umk.pl/SetF/article/view/SetF.2016.014), _Scientia et Fides_, 2016, Antoine Suarez. 
+[^15]: Suarez asks, “Would it have been possible for personal modern humans to have met non-personal ones and lived with them? I think the answer is no.” ["'Transmission at Generation': Could original sin have happened at the time when Homo sapiens already had a large population size?"](https://apcz.umk.pl/SetF/article/view/SetF.2016.014), _Scientia et Fides_, 2016, Antoine Suarez. Though it goes beyond the scope of this essay, I do not find Suarez’s reasons compelling on this point. A reply to Suarez on this matter can be found in the forthcoming [episode 201](http://www.classicaltheism.com/episodes/) of the Classical Theism Podcast.
 
 One disadvantage of this view is that it is exotic; it involves the miracle of raising all biological human beings, scattered wherever they existed at that time, to a new rational life. Of course, this does not contradict the divine power, but it is quite the miracle of which we find no trace in Scripture, Tradition, or magisterial teaching. Another disadvantage is that the view is _not clearly_ within the bounds of Catholic teaching. Why not?
 
@@ -194,31 +192,31 @@ William Lane Craig and Dennis Bonnette have made proposals that challenge (S3), 
 
 [^17]: See William Lane Craig’s book [_In Quest of the Historical Adam: A Biblical and Scientific Exploration_](https://www.amazon.com/Quest-Historical-Adam-Scientific-Exploration/dp/080287911X/) (2021) as well as Dr. Dennis Bonnette’s article ["The Scientific Possibility of Adam and Eve"](https://strangenotions.com/the-scientific-possibility-of-adam-and-eve/) at [Strangenotions.com](https://strangenotions.com).
 
-In Craig’s book _In Search of the Historical Adam_, he argues that several lines of evidence point toward identifying the first rational human beings with homo-heidelbergensis (or Heidelberg Man for short), which came into existence in the right time frame (i.e. 500,000 to 1 million years ago) that they could plausibly correspond to Adam and Eve. Craig maintains that God’s direct action was involved in the origination of the first two fully rational human beings.[^18]
+In Craig’s book _In Search of the Historical Adam_, he argues that several lines of evidence point toward identifying the first rational human beings with homo-heidelbergensis (or Heidelberg Man for short). They came into existence in the right time frame (i.e. 500,000 to 1 million years ago) to plausibly correspond with Adam and Eve. Craig maintains that God’s direct action was involved in the origination of the first two fully rational human beings.[^18]
 
 [^18]: “God's creation of Adam and Eve plausibly required both biological and spiritual renovations, biological to equip their brains with the capacity to serve as instruments of rational thought and spiritual to furnish them with rational souls different from any sort of soul that nonhuman animals might be thought to possess." [_In Quest of the Historical Adam_](https://www.amazon.com/Quest-Historical-Adam-Scientific-Exploration/dp/080287911X/), William Lane Craig, 540. 
 
 The major advantage of this view is that it is both compatible with mainstream science and within the bounds of Catholic teaching. Additionally, it does not require that rational human beings interbred with non-rational human beings.
 
-One disadvantage of this view is that it pushes Adam and Eve extremely far into the past, such that they lived eons prior to the first civilizations of human beings. Why would God create our first parents so long ago prior to the birth of Christ? To be more intellectually satisfying, Craig’s view should be supplemented possible philosophical or theological answers to that question. Also, to date, it has not been widely admitted by Christians that Neanderthals and other ancient hominids were fully rational members of the human race. Nonetheless, the scholarly work in Craig’s book is quite comprehensive and his arguments on this front deserve serious attention.[^19]
+One disadvantage of this view is that it pushes Adam and Eve extremely far into the past, such that they lived eons prior to the first civilizations of human beings. Why would God create our first parents so long ago prior to the birth of Christ? To be more intellectually satisfying, Craig’s view should be supplemented with possible philosophical or theological answers to that question. Also, to date, it has not been widely admitted by Christians that Neanderthals and other ancient hominids were fully rational members of the human race. Nonetheless, the scholarly work in Craig’s book is quite comprehensive and his arguments on this front deserve serious attention.[^19]
 
 [^19]: In his review of the Craig’s book at _First Things_, Kenneth Kemp speaks positively about Craig’s conclusions on the point of _when_ Adam lived: [https://www.firstthings.com/web-exclusives/2021/12/the-science-of-adam](https://www.firstthings.com/web-exclusives/2021/12/the-science-of-adam)
 
 #### Joshua Swamidass’s Proposal: The Genealogical Adam and Eve
 
-{{< amazon `151400383X` >}}
-
 In [_The Genealogical Adam and Eve_](/books/genealogical-adam-eve/), Joshua Swamidass examines a score of information related to this topic. He does not advance a single thesis regarding Adam and Eve, but rather a plurality of possible models. According to Swamidass, the proposals of Kemp and Suarez would count as models consistent with his own.
 
-However, here I will highlight one unique proposal from Swamidass and discuss whether it falls within the bounds of Catholic teaching. Swamidass distinguishes ‘genetic descent’ from ‘genealogical descent.’ X _genetically descends_ from Y if a portion of the genome of X was inherited from Y. X _genealogically descends_ from Y if Y is a parent of X or a parent of one of X’s parents, grandparents, great-grandparents, and so forth.
+However, here I will highlight one unique proposal from Swamidass and discuss whether it falls within the bounds of Catholic teaching. Swamidass distinguishes ‘genetic descent’ from ‘genealogical descent.’ X _genetically descends_ from Y if a portion of the genome of X was inherited from Y. X _genealogically descends_ from Y if Y is a parent of X or a parent of one of X’s parents, grandparents, great-grandparents, and so forth.[^20]
 
-Swamidass shows that it is scientifically possible that all human beings living today could be _genealogical descendants_ of Adam and Eve, even if Adam and Eve were created out of the dust of the ground just a few thousand years ago. Hence, his view is compatible with a theologically conservative paradigm as Kemp notes, “Swamidass’s results permit dates recent enough to satisfy even those who take the Genesis chronologies relatively literally.”[^20] However, this presents theological concerns.
+[^20]: Swamidass notes, "[T]he genealogical hypothesis states Adam and Eve are our universal _genealogical_ ancestors, but not necessarily our universal _genetic_ ancestors." _The Genealogical Adam and Eve_, 40.
 
-[^20]: ["Adam and Eve and Evolution"](https://catholicscientists.org/articles/adam-eve-evolution/), Kenneth Kemp’s review of _The Genealogical Adam and Eve_ by Joshua Swamidass.
+Swamidass shows that it is scientifically possible that all human beings living today could be _genealogical descendants_ of Adam and Eve, even if Adam and Eve were created out of the dust of the ground just a few thousand years ago. Hence, his view is compatible with a theologically conservative paradigm as Kemp notes, “Swamidass’s results permit dates recent enough to satisfy even those who take the Genesis chronologies relatively literally.”[^21] However, this presents theological concerns.
+
+[^21]: ["Adam and Eve and Evolution"](https://catholicscientists.org/articles/adam-eve-evolution/), Kenneth Kemp’s review of _The Genealogical Adam and Eve_ by Joshua Swamidass.
  
-If God created Adam and Eve just a few thousand years ago, they could only be our genealogical ancestors of all human beings alive today if they lived among a larger population of human beings. Additionally, fully rational human beings that did not descend from Adam and Eve would have already been on the scene prior to a few thousand years ago.[^21] So, there would be, on this iteration of Swamidass’s work, fully rational human beings outside the Garden of Eden that preexisted he Garden.
+{{< amazon `151400383X` >}}
 
-[^21]: Or at least this would be the common position of mainstream scientists.
+If God created Adam and Eve just a few thousand years ago, they could only be genealogical ancestors of all human beings alive today if they lived among a larger population of human beings. Additionally, fully rational human beings that did not descend from Adam and Eve would have already been on the scene prior to a few thousand years ago (or at least this would be the common position of mainstream scientists given data from archaeology and paleonotology). So, there would be, on this iteration of Swamidass’s work, fully rational human beings outside the Garden of Eden that preexisted the garden.
 
 While this possibility is open to the divine power, it does not fall within the bounds of Catholic teaching. Particularly, (F5) would be false. In other words, the following would not be true: “All “true men” on Earth after Adam “take their origin through natural generation from him.”
 
@@ -230,7 +228,7 @@ Swamidass wonders if it may be possible to construe “true men” in a way that
 
 Perhaps Catholics will be surprised to hear that (iii) was traditionally considered orthodox. Orthodox sources well before the Second Vatican Council affirm the possibility of (iii). For example, the 1911 Catholic Encyclopedia contains a section on “Preadamites” which permits (iii). Additionally, in a 1928 work of Catholic apologetics, Fr. Thomas B. Chetwood SJ reports: 
 
-> The Scripture and the Church's Tradition together with the teaching of the Fathers are unanimous in proclaiming one pair of progenitors for the whole human race. It is true this teaching would not strictly exclude the existence of an earlier race which had passed away entirely when the present human arrived.[^22] (emphasis mine)
+> The Scripture and the Church's Tradition together with the teaching of the Fathers are unanimous in proclaiming one pair of progenitors for the whole human race. It is true this teaching would not strictly exclude the existence of an earlier race which had passed away entirely when the present human arrived.[^22]
 
 [^22]: [_God and Creation_](https://www.amazon.com/God-creation-Thomas-B-Chetwood/dp/B00085BHKE/), Fr. Thomas B. Chetwood S.J., 1928, published by Benzinger Brothers.
 
@@ -240,7 +238,9 @@ An advantage of the view discussed in this section is that it is fully compatibl
 
 [^23]: For Catholics, those chapters need not be read as literal history as we discussed in section 3.
 
-Catholic theologians might further inquire about Swamidass’s proposal by investigating the following questions: Why is it consistent with Catholic teaching for there to be a rational human race prior to Adam? Why is it inconsistent with Catholic teaching for there to be fully rational humans after Adam who are unrelated to him genetically? What are the theological foundations for the teachings proposed and referenced in [_Humani Generis_](https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html) 37? Is there a possibility of magisterial clarification or development that allows Swamidass’s proposal to fall within the bounds of Catholic teaching? While these questions are worthwhile, they would take us well beyond this article.
+Catholic theologians might further inquire about Swamidass’s proposal by investigating the following questions: Why is it consistent with Catholic teaching for there to be a rational human race that existed prior to Adam but died out before Adam? Why is it inconsistent with Catholic teaching for there to be fully rational humans after Adam who are unrelated to him genetically? What are the theological foundations for the teachings proposed and referenced in [_Humani Generis_](https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html) 37? Is there a possibility of magisterial clarification or development that allows Swamidass’s proposal to fall within the bounds of Catholic teaching? While these questions are worthwhile, they would take us well beyond this article.
+
+<p style="page-break-before: always;"></p>
 
 ## Summary of the Evaluations
 
@@ -256,7 +256,7 @@ Catholic theologians might further inquire about Swamidass’s proposal by inves
 | Swamidass’s Proposal | <div style="background: yellow">Not clearly</div> | <div style="background: green">Yes</div> |
 
 ## Conclusion
-There is no single Catholic understanding of Adam and Eve. When exploring this topic, Catholics should stick to models that are clearly within the bounds of Catholic orthodoxy. Affirming such models ensures that one is not committing to something opposed to the faith. Additionally, if one values the conclusions of mainstream science, then it is fitting to select models compatible with that science. 
+There is no single Catholic understanding of Adam and Eve. When exploring this topic, Catholics should stick to models that are clearly within the bounds of Catholic teaching. Affirming such models ensures that one is not committing to something opposed to the faith. Additionally, if one values the conclusions of mainstream science, then it is fitting to select models compatible with that science. 
 
 Catholic Christians should consider various proposals, assessing their advantages and disadvantages. The views of Kenneth Kemp, William Lane Craig, and Dennis Bonnette stand out as proposals that are both clearly within the bounds of Catholic teaching and fully compatible with mainstream science. Such proposals neutralize purported conflict between evolution and the existence of Adam and Eve.
 
