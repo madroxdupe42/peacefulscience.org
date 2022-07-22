@@ -8,6 +8,7 @@ categories:
 headerimage:
   src: /img/2022/06/gae-cancel1.png
 date: 2022-07-11
+draft: true
 ---
 
 Is my scientific work on genealogical ancestry peer-reviewed? 
