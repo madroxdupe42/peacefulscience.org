@@ -84,14 +84,14 @@ the spread of genealogical ancestry within an existing human population (i.e. a 
 always be faster than the geographic spread of a population without interbreeding (i.e. Ross's young earth creationism). So
 Ross's argument against *The Genealogical Adam and Eve*, if it were legitimate, would easily be flipped into an argument against his own position.
 
-For most scientists, my rebuttal settles the matter entirely. I thought the rebuttal had settled the matter for Ross too.
+For most scientists, this rebuttal settles the matter entirely. I thought the rebuttal had settled the matter for Ross too.
 
 
 ## Come Reason With Me
 
 
 As a scientist, I do my best to accurately represent the evidence. I also know I will make mistakes.
-It is for this reason, I take objections to my scientific work very seriously. I know that
+It is for this reason that I take objections to my scientific work very seriously. I know that
 other scholars will identify problems, and even mistakes, that merit correction. At the same time,
 I expect objection to be raised in good faith. 
 
