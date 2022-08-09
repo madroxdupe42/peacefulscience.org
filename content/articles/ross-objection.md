@@ -104,18 +104,32 @@ Ross never took me up on this invitation.
 The next year at a creationist conference, [in late 2021, Ross debated me directly on
 *The Genealogical Adam & Eve*.](https://www.youtube.com/watch?v=zCyjDbahdr0) In front of this audience, so very friendly to him,
 Ross could have raised his objection, responded to my rebuttal, and taken me
-to task on the science. If his objection was well-grounded, I am sure Ross would have done so. 
+to task on the science. If his objection was well-grounded, I am sure Ross would have done so.[^2] 
 He did not.
 
-Now two years later, while engaging a non-scientist in a debate, 
-Ross raises the same objection again? He did not acknowledge or address my rebuttal either. This is not fair play. 
+[^2]: Ross states, after reviewing this article, that he did intend to raise this objection
+ in the debate, but ran out of time.
+
+After the debate, Ross did privately discuss his objection with me, 
+asking some follow up questions.[^1]
+I clarified what the genetic evidence showed, and I explained the rebuttal further to him. 
+It was my understanding that this private discussion settled the matter entirely.
+In case there remained any doubt, I again invited Ross to write down
+and publish a response to my rebuttal. He did not.
+
+[^1]: Ross asked me to include a summary of this private conversation.
+
+Now two years after my rebuttal, while engaging a non-scientist in a debate, 
+Ross raises the same objection again? Ross neither acknowledged
+nor addressed the substance of my rebuttal. This is not fair play. 
 
 There is no reason to argue by proxy with the scholars who rely upon my work. 
-*Peaceful Science* is still willing to publish an article from Ross, in which he may lay out in
-full detail his response to my rebuttal.
+*Peaceful Science* is still willing to publish an article in which Ross may lay out in
+full detail his response to my rebuttal. 
 
-I am here. If there is any substance to this objection, 
-let Ross come reason with *me*.
+I am here. Come reason with me. 
+
+If there is any substance to this objection, let us see Ross's written response to my rebuttal.
 
 
 
