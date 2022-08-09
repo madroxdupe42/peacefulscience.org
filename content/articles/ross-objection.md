@@ -26,7 +26,7 @@ is Evolution Compatible with Genesis?
 This question leads to an asymmetric debate, one  which Ross is bound to lose. There are many many ways to read Genesis consistent with evolution. To successfully argue for incompatibility, 
 Ross must demonstrate each and every one of these interpretations is wrong. This is a very difficult
 task to accomplish. Even if one particular reading of Genesis fails, there is a multiverse full of more readings to contend 
-with too. Each and everyone of them must be dispatched to declare that "evolution is not compatible with Genesis."
+with too. Each and every one of them must be dispatched to declare that "evolution is not compatible with Genesis."
 
 A more interesting debate would be symmetric. Granting from the outset that Genesis can be compatible with evolution , the qeustion could be whether young earth creationism was *more compatible* with Genesis than readings of Genesis that allow for evolution. This, at least, would put both sides on even footing. It seems, however, many creationists are not ready yet to grant evolution can be compatible with Genesis. 
 
