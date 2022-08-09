@@ -21,14 +21,14 @@ But, if Ross has any scientific objections to my work, let him to take them up d
 ## Is Evolution Compatible with Genesis?
 
 This last weekend I was at a conference that included a debate, between Michael Jones and  Ross. The question:
-is Evolution Compatible with Genesis?
+[Is Evolution Compatible with Genesis?](https://www.youtube.com/watch?v=K-dPOh4VN14)
 
 This question leads to an asymmetric debate, one  which Ross is bound to lose. There are many many ways to read Genesis consistent with evolution. To successfully argue for incompatibility, 
 Ross must demonstrate each and every one of these interpretations is wrong. This is a very difficult
 task to accomplish. Even if one particular reading of Genesis fails, there is a multiverse full of more readings to contend 
 with too. Each and every one of them must be dispatched to declare that "evolution is not compatible with Genesis."
 
-A more interesting debate would be symmetric. Granting from the outset that Genesis can be compatible with evolution, the question could be whether young earth creationism was *more compatible* with Genesis than readings of Genesis that allow for evolution. This, at least, would put both sides on even footing. It seems, however, many creationists are not ready yet to grant evolution can be compatible with Genesis. 
+A more interesting debate would be symmetric, a fair fight. Granting from the outset that Genesis can be compatible with evolution, the question could be whether young earth creationism was *more compatible* with Genesis than readings of Genesis that allow for evolution. This, at least, would put both sides on even footing. It seems, however, many creationists are not ready yet to grant evolution can be compatible with Genesis. 
 
 Still, I was pleased to see Jones use [my book](/books/genealogical-adam-eve/) to make his case (at 18:17),
 
