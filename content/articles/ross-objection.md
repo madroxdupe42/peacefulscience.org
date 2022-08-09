@@ -12,10 +12,10 @@ title: Would Marcus Ross Come Reason With Me?
 ---
 
 
-Dr. Marcus Ross is a young earth creationist, a palentologist, and a friend of mine. His voice is important.
+Dr. Marcus Ross is a young earth creationist, a paleontologist, and a friend of mine. His voice is important.
 I am pleased to see he is contributing to a four views book on 
 Adam and Eve, along with Andrew Loke, William Lane Craig, and Kenton Sparks. 
-I often reccomend Ross as a speaker to those looking to include young earth creationists.
+I often recommend  Ross as a speaker to those looking to include young earth creationists.
 But, if Ross has any scientific objections to my work, let him to take them up directly with me. 
 
 ## Is Evolution Compatible with Genesis?
@@ -28,7 +28,7 @@ Ross must demonstrate each and every one of these interpretations is wrong. This
 task to accomplish. Even if one particular reading of Genesis fails, there is a multiverse full of more readings to contend 
 with too. Each and every one of them must be dispatched to declare that "evolution is not compatible with Genesis."
 
-A more interesting debate would be symmetric. Granting from the outset that Genesis can be compatible with evolution , the qeustion could be whether young earth creationism was *more compatible* with Genesis than readings of Genesis that allow for evolution. This, at least, would put both sides on even footing. It seems, however, many creationists are not ready yet to grant evolution can be compatible with Genesis. 
+A more interesting debate would be symmetric. Granting from the outset that Genesis can be compatible with evolution, the question could be whether young earth creationism was *more compatible* with Genesis than readings of Genesis that allow for evolution. This, at least, would put both sides on even footing. It seems, however, many creationists are not ready yet to grant evolution can be compatible with Genesis. 
 
 Still, I was pleased to see Jones use [my book](/books/genealogical-adam-eve/) to make his case (at 18:17),
 
@@ -96,7 +96,7 @@ other scholars will identify problems, and even mistakes, that merit correction.
 I expect objection to be raised in good faith. 
 
 The exchange in *Sapientia* gave me the last word, but I still want to accurately represent the science, even 
-if that means acknowleding where I made a mistake. 
+if that means acknowledging  where I made a mistake. 
 So I invited Ross to publicly clarify his objections,
 expecting that he would concede the point or engage my rebuttal.
 Ross never took me up on this invitation. 
