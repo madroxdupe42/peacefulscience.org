@@ -7,8 +7,8 @@ categories:
 partof:
 - /books/reformed-theology-evolutionary-theory/
 description: Exploring options for reconciling evolutionary science with the Bible, with a focus on Reformed theologies and hermaneutics.
+publishdate: 2022-07-27
 draft: true
-publishdate: 2022-07-10
 date: 2020-02-25
 headerimage:
  src: /img/2022/06/reformed-theology-evolution.png
@@ -254,7 +254,7 @@ Some Christians, however, argue that the parallel drawn here between heliocentri
 
 Therefore, the findings on which evolutionary theory is based may urge us to go back to the Bible, asking ourselves whether our traditional interpretations of various verses really captured their meaning or were partly inspired by a model of the world that has now become obsolete and should no longer be used as a hermeneutical lens.
 
-Yet, while granting this point, one may still doubt whether the parallel between the case of evolutionary theory and that of heliocentrism fully applies. For it seems that evolutionary theory not only forces us to update our exegesis of a number of individual verses but also has much more serious _theological_ consequences than adopting heliocentrism had at the time. As we have seen above ([Where Science and Christianity Overlap: History]({{< relref "#where-science-and-christianity-overlap-history" >}})), this is a keen and fair observation indeed. I will therefore use the rest of this book to address it. Let us examine in the next couple of chapters which theological issues have to be revisited as a result of Darwinian evolution, focusing once again (though not exclusively) on the Reformed tradition. In deciding whether or not to take evolutionary theory on board, we need to know as exactly as _possible_ how doing so will affect our theological outlook. Quite understandably, many Christians apply Luke 14:28 to the situation: before deciding to accept evolutionary theory (at least as a possible explanation for the natural world’s biodiversity), they “sit down and estimate the cost.” Let us see how we can do this. Could it be that we end up with a gain rather than a loss?
+Yet, while granting this point, one may still doubt whether the parallel between the case of evolutionary theory and that of heliocentrism fully applies. For it seems that evolutionary theory not only forces us to update our exegesis of a number of individual verses but also has much more serious _theological_ consequences than adopting heliocentrism had at the time. As we have seen above ([Where Science and Christianity Overlap: History]({{< relref "#where-science-and-christianity-overlap-history" >}})), this is a keen and fair observation indeed. I will therefore use the rest of this book to address it. Let us examine in the next couple of chapters which theological issues have to be revisited as a result of Darwinian evolution, focusing once again (though not exclusively) on the Reformed tradition. In deciding whether or not to take evolutionary theory on board, we need to know as exactly as possible how doing so will affect our theological outlook. Quite understandably, many Christians apply Luke 14:28 to the situation: before deciding to accept evolutionary theory (at least as a _possible_ explanation for the natural world’s biodiversity), they “sit down and estimate the cost.” Let us see how we can do this. Could it be that we end up with a gain rather than a loss?
 
 <div class=references>
 
