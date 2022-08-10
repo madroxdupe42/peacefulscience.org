@@ -15,7 +15,7 @@ links:
 	bash code/links.bsh
 
 imginfo: static/img
-	python code/imgsize.py > data/imgsize.json
+	python3 code/imgsize.py > data/imgsize.json
 
 pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
