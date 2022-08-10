@@ -7,9 +7,11 @@ categories:
 partof:
 - /books/reformed-theology-evolutionary-theory/
 description: Exploring options for reconciling evolutionary science with the Bible, with a focus on Reformed theologies and hermaneutics.
-publishdate: 2022-06-15
-date: 2020-02-25
 draft: true
+publishdate: 2022-07-10
+date: 2020-02-25
+headerimage:
+ src: /img/2022/06/reformed-theology-evolution.png
 ---
 This article is chapter 3 of the book [*Reformed Theology and Evolutionary Theory*](/books/reformed-theology-evolutionary-theory/) by Gijsbert van den Brink, &copy; 2020 by Eerdmans, Grand Rapids, Michigan. Used by permission. All rights reserved.
 {.editor-note}
