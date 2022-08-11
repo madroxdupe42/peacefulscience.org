@@ -1,6 +1,6 @@
 ---
 title: Two Debates with Marcus Ross
-description: A leading young earth creationist, a paleontologist, debates Dr. Swamidass and Michael Jones on evolution, and whether it is compatible with evolution.
+description: A leading young earth creationist, a paleontologist, debates Dr. Swamidass and Michael Jones on evolution, and whether it is compatible with Genesis.
 authors:
 - Peaceful Science
 date: 2022-08-11
