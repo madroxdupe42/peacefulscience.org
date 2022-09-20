@@ -17,7 +17,7 @@
   },
   "content/about/editorial.md": {
     "created": 1635707792,
-    "modified": 1646089181
+    "modified": 1659485584
   },
   "content/about/grants.md": {
     "created": 1645216942,
@@ -1549,7 +1549,7 @@
   },
   "content/prints/fixing-math-error-my-book.md": {
     "created": 1645939241,
-    "modified": 1651033250
+    "modified": 1656650343
   },
   "content/prints/may-scientists-care-adam-eve.md": {
     "created": 1636405130,
@@ -1642,5 +1642,17 @@
   "content/series/scientists-resurrection/_index.md": {
     "created": 1643946051,
     "modified": 1643946051
+  },
+  "content/prints/confessions-disappointed-young-earther.md": {
+    "created": 1654835103,
+    "modified": 1656689338
+  },
+  "content/articles/reviewer-5-gae.md": {
+    "created": 1656379417,
+    "modified": 1657506860
+  },
+  "content/newsletter/two-virtual-events-2022.md": {
+    "created": 1656689792,
+    "modified": 1656695752
   }
 }

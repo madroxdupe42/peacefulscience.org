@@ -65,7 +65,7 @@ We will ensure all URLs to substantive content on our website remain stable. Art
 
 [Digital object identifiers (DOI)](https://en.wikipedia.org/wiki/Digital_object_identifier) are a stable way of referencing digital articles. They are the standard used by most academic publishers. The DOI system guarantees long-term access to content and long-term stability of URL references. 
 
-We do not assign DOIs to all articles. However, on request, we will assign a DOI to any article we publish. When a DOI is assigned, it is visible in the article’s header (see [example](/prints/evolution-adam-eve)). Note that arrived PDFs stored by our DOI provider are stripped of all hyperlinks. If the link targets are important, the PDFs and pages stored at *Peaceful Science* will be preferred.
+We do not assign DOIs to all articles. However, on request, we will assign a DOI to any article we publish. When a DOI is assigned, it is visible in the article’s header (see [example](/prints/evolution-adam-eve)). 
 
 
 
