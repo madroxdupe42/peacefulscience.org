@@ -7,8 +7,7 @@ categories:
 partof:
 - /books/reformed-theology-evolutionary-theory/
 description: Exploring options for reconciling evolutionary science with the Bible, with a focus on Reformed theologies and hermaneutics.
-publishdate: 2022-07-27
-draft: true
+publishdate: 2022-10-13
 headerimage:
  src: /img/2022/06/reformed-theology-evolution.png
 ---

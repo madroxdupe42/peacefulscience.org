@@ -3,8 +3,9 @@ title: "Adam & Eve: A Survey of Models for Catholics"
 description: A discussion of various proposals regarding Adam & Eve and how they align with science and Catholic theology
 authors:
 - John DeRosa
-date: 2022-08-03
-draft: true
+date: 2022-10-13
+headerimage:
+ src: /img/2022/10/webRNS-Original-Sin1-020719.webp
 ---
 
 ## Introduction
@@ -216,7 +217,7 @@ Swamidass shows that it is scientifically possible that all human beings living 
  
 {{< amazon `151400383X` >}}
 
-If God created Adam and Eve just a few thousand years ago, they could only be genealogical ancestors of all human beings alive today if they lived among a larger population of human beings. Additionally, fully rational human beings that did not descend from Adam and Eve would have already been on the scene prior to a few thousand years ago (or at least this would be the common position of mainstream scientists given data from archaeology and paleonotology). So, there would be, on this iteration of Swamidass’s work, fully rational human beings outside the Garden of Eden that preexisted the garden.
+If God created Adam and Eve just a few thousand years ago, they could only be genealogical ancestors of all human beings in the current theological era if they lived among a larger population of beings with rational souls. Additionally, fully rational human beings that did not descend from Adam and Eve would have been on the scene prior to a few thousand years ago---or at least this would be the common position of mainstream scientists given data from archaeology and paleontology. So, there would be, on this iteration of Swamidass’s work, fully rational beings outside the Garden of Eden that pre-existed the garden.
 
 While this possibility is open to the divine power, it does not fall within the bounds of Catholic teaching. Particularly, (F5) would be false. In other words, the following would not be true: “All “true men” on Earth after Adam “take their origin through natural generation from him.”
 
