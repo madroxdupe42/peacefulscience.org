@@ -8,6 +8,8 @@ amazon:
 - "B08546DVLS"
 isbn:
 - "978-0802874429"
+publisher: Eerdmans
+date: 2020-02-25
 ---
 <span>Many
  books aim to help beginners explore whether or not evolutionary science
