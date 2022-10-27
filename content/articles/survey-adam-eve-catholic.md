@@ -224,7 +224,7 @@ While this possibility is open to the divine power, it does not fall within the 
 Swamidass wonders if it may be possible to construe “true men” in a way that fits with his proposal. Perhaps [_Humani Generis_](https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html) could allow that “true men” refers to all of those related genealogically and covenantally to Adam and Eve while withholding judgment on whether there are other rational beings who don’t meet that standard. After all, Catholics willingly acknowledge the possibility of a rational beings apart from Adam and Eve. Consider the following examples:
 
 * (i) The angels who are immaterial rational beings.
-* (ii) The possibility of an intelligent alien race on another planet never interacts with us.
+* (ii) The possibility of an intelligent alien race somewhere else in the universe. 
 * (iii) The possibility of a rational human race that lived and died out prior to Adam and Eve, without overlapping chronologically.
 
 Perhaps Catholics will be surprised to hear that (iii) was traditionally considered orthodox. Orthodox sources well before the Second Vatican Council affirm the possibility of (iii). For example, the 1911 Catholic Encyclopedia contains a section on “Preadamites” which permits (iii). Additionally, in a 1928 work of Catholic apologetics, Fr. Thomas B. Chetwood SJ reports: 
