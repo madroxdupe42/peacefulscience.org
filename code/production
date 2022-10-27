@@ -6,7 +6,7 @@ export TASKS=${INCOMING_HOOK_BODY:-${TASKS:-BUILD}}
 
 if [[ "${TASKS}" == "DAILY" ]]
 then
-  export TASKS="BUILD DISCOURSE CROSSREF ALGOLIA"
+  export TASKS="BUILD CROSSREF ALGOLIA" # removed DISCOURSE for now
 fi
 
 if [[ "${CONTEXT:-production}" == "production" ]]
