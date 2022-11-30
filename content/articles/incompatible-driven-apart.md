@@ -1,10 +1,11 @@
 ---
-title: "Incompatible, or driven apart? The psychological mechanisms of conflict and dialogue between religion and science"
-description: How the perception of a science/religion conflict can make it a reality
+title: "Incompatible, or driven apart?"
+description: The psychological mechanisms of conflict and dialogue between religion and science
 authors:
 - Joshua March
 date: 2022-12-07
-draft: true
+headerimage:
+  src: /img/2022/11/puzzle-fit.png
 ---
 
 {{< amazon `1108716040` >}}
