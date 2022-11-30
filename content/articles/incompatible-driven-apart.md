@@ -1,5 +1,5 @@
 ---
-title: "Incompatible, or driven apart?"
+title: "Incompatible, or Driven Apart?"
 description: The psychological mechanisms of conflict and dialogue between religion and science
 authors:
 - Joshua March
