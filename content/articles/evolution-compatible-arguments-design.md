@@ -3,8 +3,9 @@ title: "Could evolution be compatible with arguments for design in biology after
 description: Revisiting Asa Gray's understanding of designed evolution for the 21st century
 authors:
 - E. V. R. Kojonen
-date: 2022-12-14
-draft: true
+date: 2023-01-03
+headerimage:
+  src: /img/2023/01/evolution-design-kojonen.png
 ---
 
 ## Design and its Denial
