@@ -28,7 +28,7 @@ async function handler(event, context) {
     }))
     .catch((e) => ({
       statusCode: 500,
-      body: JSON.stringify(e),
+      body: e.message,
       headers: {
         ttl: 0,
       },
