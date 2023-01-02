@@ -1,6 +1,6 @@
 {{ $embed := printf `https://kindleweb.s3.amazonaws.com/app/1.0.11.053.093655/KindleReaderApp.html?asin=%s&tag=swamidass-20` . }}
 
-{{ $img :=  partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg` . )  }}
+{{ $img :=  partial `imgcdn`  ( printf `/img/bookcover/%s` . )  }}
 
 {{ $resolve := partial "resolve-url" (dict "Destination" (printf "https://amazon.com/dp/%s/"  .) )}}
  

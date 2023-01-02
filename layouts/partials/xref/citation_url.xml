@@ -1,0 +1,6 @@
+{{- $cite := .Cite }}
+{{- $key := .Key }}
+
+{{- $data := getJSON "https://peacefulscience.org/cite/" $cite }}
+
+{{- warnf "%s" .Cite  }}

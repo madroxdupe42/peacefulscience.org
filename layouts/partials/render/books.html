@@ -4,7 +4,7 @@
 {{ $width := 160 }}
 {{ $sizes := .Sizes | default nil }}
 
-{{ $src := partial `imgcdn`  ( printf `http://images.amazon.com/images/P/%s.LZZZZZZZ.jpg`  (index $page.Params.amazon 0) )  }}
+{{ $src := partial `imgcdn`  ( printf `/img/bookcover/%s`  (index $page.Params.amazon 0) )  }}
 
 {{- $hide := split (index . "Hide" | default "") " "  -}}
 
