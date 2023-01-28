@@ -6,7 +6,7 @@ authors:
 date: 2022-10-13
 headerimage:
  src: /img/2022/10/stl-basilica-indoor.png
- caption: The Cathedral Basilica of St. Louis
+ credit: The Cathedral Basilica of St. Louis
 ---
 
 ## Introduction
