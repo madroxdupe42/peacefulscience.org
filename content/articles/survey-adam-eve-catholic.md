@@ -5,7 +5,8 @@ authors:
 - John DeRosa
 date: 2022-10-13
 headerimage:
- src: /img/2022/10/webRNS-Original-Sin1-020719.webp
+ src: /img/2022/10/stl-basilica-indoor.png
+ caption: The Cathedral Basilica of St. Louis
 ---
 
 ## Introduction
