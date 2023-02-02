@@ -19,4 +19,4 @@ As [Washington University explains further](https://medicine.wustl.edu/news/swam
 > He also served as an adviser for the exhibit “Scripture and Science: Our Universe, Ourselves, Our Place” at the Museum of the Bible in Washington, D.C. The exhibit, which runs through January 2024, explores the Bible’s role in the historical relationship between science and religion.
 
 
-The emphasis on his public outreach is significant validaiton of *Peaceful Science*, including our work on Adam and Eve.
+The emphasis on his public outreach is significant validation of *Peaceful Science*, including our work on Adam and Eve.
