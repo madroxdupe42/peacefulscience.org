@@ -1,4 +1,5 @@
-: Evolution Vindicates Monogenesis
+---
+title: Evolution Vindicates Monogenesis
 authors:
 - swamidass
 description: Plenary Response to David Livingstone, ASA 2021
@@ -9,6 +10,7 @@ categories:
 - science
 - ancestry
 - adam-eve
+draft: true
 ---
 
 The historian Dr. Livingstone’s presents a synopsis of his excellent book, _Adam’s Ancestors_.[^1] This history is an exceedingly useful in undoing several false assumptions that cause conflict between evolution and orthodox Christian theology.
