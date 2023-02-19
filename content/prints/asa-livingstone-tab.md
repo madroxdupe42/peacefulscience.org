@@ -10,6 +10,7 @@ categories:
 - science
 - ancestry
 - adam-eve
+draft: true
 ---
 
 Thanks to commentators for their thoughtful and insight set of reflections. 
