@@ -10,6 +10,7 @@ categories:
 - science
 - ancestry
 - adam-eve
+draft: true
 ---
 
 # Ideas: Consequents and Antecedents
