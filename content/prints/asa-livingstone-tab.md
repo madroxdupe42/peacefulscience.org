@@ -15,7 +15,7 @@ draft: true
 
 Thanks to commentators for their thoughtful and insight set of reflections. 
 
-# Hans Madeume
+## Hans Madeume
 
 Good to see you again Hans. I see you’re still looking for David Livingstone!  This is Hans’s second attempt, he tells me. I guess I might have to say “Third time lucky”!
 
@@ -25,7 +25,7 @@ A couple of questions for Hans by way of reply.  Suppose he could classify me as
 
 All of this is a way of asking what difference classifying the historian makes to Hans’s hermeneutics. Like definitions, classifications wield cultural power.  They police scholarship by determining who is in or out of some hermeneutic circle. One thing I am convinced of is, though, that whatever side anyone takes on Hans’s classification, all need to be made more aware of the darker side and the complications of the Adamic story, and its ongoing legacy.
 
-# Joshua Swamidass
+## Joshua Swamidass
 
 I’m very grateful for Josh’s reflections. I confess I haven’t followed the literature on genetic bottlenecks and I’m interested to hear what he has to say on that subject.
 
@@ -39,7 +39,7 @@ There are troubled waters here. Take the recent spat in the journal _Science_ ov
 
 Second, Christianity and Monogenism.  Again, not straightforward. Josh hopes that what I’ll call the new monogenism may combat racism and reassert the belief that “we are all bound together” as the “sons and daughters” of Adam and Eve. That we are all “one blood, one family, one race”. Racial equality and justice, however, haven’t simply followed from that doctrine. Take the rank racism of Christian slaveholders in the Old South despite their staunch resistance to the polygenetic anthropology of Nott, Gliddon and Agassiz and their robust defence of universal descent from Adam and Eve.   A number of conservative theologians published books with titles such as ‘The Christian Doctrine of Slavery’. People like Robert Dabney, George Armstrong and John Girardeau certainly thought polygenism and evolution were anti-biblical. But slavery wasn’t. To the contrary. They argued that slavery was endorsed in scripture, and they went through every verse in the bible that contained words like slave, love-slave, servant, servitude and the like.  These were never condemned. 
 
-# Alan Love
+## Alan Love
 
 Thanks Alan for that very astute set of observations.  I find myself in total agreement with your observations. Your foregrounding of the importance of motivations and methods seems exactly right to me, as do your thoughts on downstream and upstream consequences. I thoroughly approve of your comment that the “links between good science, orthodox theology, and morality were (and are) tangled and knotted in complex ways”.
 
@@ -47,7 +47,7 @@ I just want to add a thought on your emphasis on mixed motives. It turns out tha
 
 There are pitfalls on every side here.  On the one hand, Ernst Mayr insisted that eugenics was merely contextual, not constitutive for the development of biological thinking, and therefore not part of evolution’s lofty intellectual genealogy. It could be left out of the mainstream story. On the other hand, Gonville and Gaius College Cambridge, under pressure from anti-racist activists, has removed a window commemorating the research of Sir Ronald Fisher.
 
-# Conclusion
+## Conclusion
 
 My commentators today have been kind.  And for that I am grateful, particularly for this kind of lecture.  Let me explain why.  Doing contextual history has been a rewarding experience for me. But  contextual history can be a struggle too.  Back in the late 1980s – before anyone was ‘woke’ – I was working on science, race and religion.  I recall presenting a paper at an academic conference where I quoted some pretty nasty racist comments by early nineteenth century anthropologists, and reproduced one or two images from their works.  By doing that I was accused by someone in the audience of reproducing racism.  I found this bizarre and tried to forget about it.  Then the American Philosophical Society refused to publish an 1830s or 40s image I wanted to use in a monograph on the subject on account of its offensiveness.  Again I found this strange as I was using the image to show how science (no less than religion) could be implicated in racist sentiments.
 
