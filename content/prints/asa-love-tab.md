@@ -13,7 +13,7 @@ categories:
 draft: true
 ---
 
-# Ideas: Consequents and Antecedents
+## Ideas: Consequents and Antecedents
 
 {{< amazon `B006IMMOVW` >}}
 
@@ -33,7 +33,7 @@ A deep insight of Livingstone’s historical narrative (one of many) is the iden
 [^2]: “The question of human origins was not simply about science and species; it was about society and sex, cultural identity and racial purity. Bloodlines matter economically, politically, spiritually. Labor economics, voting rights, marriage laws, church membership all were fold into the passion to determine just who was, and who was not, of Adam’s lineage” (Livingstone 2008, 169).
 [^3]: Bliss 2012; Keel 2018
 
-# Tracking Methods
+## Tracking Methods
 
 Attending to motivations for tracking Adam’s bloodline is important because these guide and animate different methods of tracking, weightings of which methods take precedent or have evidential heft, and distinct conceptions of what is being tracked. Take the example of mitochondrial Eve (mtEve). The use of maternally inherited DNA from mitochondria processed with phylogenetic algorithms tracked matrilineality. However, motivations burst through the skeleton of inquiry as researchers drew attention to their “discovery” by labeling it with biblical imagery and then saw mtEve re-produced through a diversity of social and political lenses, a process they contributed to liberally.[^4] A similar pattern is observable for ‘Y-chromosome’ Adam (YchAdam) where patrilineality is tracked, though with a different item (nuclear DNA) exhibiting different properties (e.g., mtDNA has 16,000 base pairs and a greater mutation rate than the 60 million base pairs of the Y chromosome).
 
@@ -58,7 +58,7 @@ The tracking methods for both mtEve and YchAdam are genetic. What is being track
 
 In addition to subtleties of tracking methods, there is a logic behind them worth noticing. Scientific practices of tracking involve proxies—measurements of specific properties that stand in for something else. Biologists use subsets of characters (parts), such as genomic sequences, and their differing states to follow organisms or lineages (wholes). In genomic analyses, some parts exhibit desirable properties to support inferences, such as the exclusive maternal inheritance of mitochondrial DNA, which then serve as proxies for the lineages studied, frequently in the absence of other parts (e.g., skeletal remains or cultural artifacts). When single characters are taken to represent a lineage, they are often reified as exemplifying the nature of the thing they represent. What it means to be “human” in many of these tracking methods is to have a particular complement of DNA and, by way of a positive, justificatory feedback loop, encourages more inferences about lineages (i.e., bloodlines) in terms of these proxies.
 
-#  Why It Matters
+## Why It Matters
 
 Why should we care about the mixed motives and the multiplicity of methods exhibited in attempts to track Adam’s bloodline? Clearly Livingstone pulls up the rug to show the darker side of motivations, such as those of white supremacist groups that pertain to concerns about “race-mixing” and foster a denial of the humanity of non-Adamic lineages. More broadly, I see two key reasons why it matters. First, it directs our attention to what drives our fascination with these questions: identity. What does it mean to be “human”?[^7] Theological answers that emphasize the _imago dei_ (whether attributes or role) seem radically divergent from genealogical continuity or the ability to interbreed (as the biological species concept would suggest). Scientific stories are empirically grounded though complicated and open to interpretation: which concept of species should we adopt?[^8] More concerning (to many) is that these membership conditions are a thin gruel with respect to meaning and significance. There isn’t much to work with in fashioning an account of who we are based on material continuity alone. The theological answers are also subject to different interpretations and difficult to pin down empirically, but their attractiveness (and controversial status) lies in the robustness of the accounts, whether in terms of our mission in the world or expectation for a relational existence. Questions of identity are deeply motivational.
 
