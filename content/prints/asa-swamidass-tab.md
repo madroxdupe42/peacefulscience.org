@@ -28,7 +28,7 @@ These questions guide my reading of both Livingstone’s history and the convers
 2. _Did their lineage interbreed with others?_ Science hinges on this question, but it is a mystery in theology, an open question.
 3. _What is human?_ This is central question of origins. But “human” is a term with multiple meanings. Scientists and theologians use the term in different ways.
 
-# The Tradition of Monogenesis
+## The Tradition of Monogenesis
 
 In the monogenesis tradition of the Church, one of the demands of orthodoxy became, “we all descend from Adam and Eve.” This doctrine was crystalized in opposition to La Peyrere’s theory of polygenesis. In 1492, when Columbus sailed the ocean blue, he found a new continent with people living upon it. La Peyrere _incorrectly_ surmised that these new peoples could not possibly have descended from Adam and Eve. Appealing to Romans 5:12-14, La Peyrere’s suggested pre-Adamites as the explanation of co-Adamites in present day.
 
@@ -44,7 +44,7 @@ But what about the primordial past? Long ago, did Adam and Eve’s lineage inter
 
 **Figure 1. The monogenesis tradition of the Church rejects the existence of co-Adamites in present day.** The Genesis account has a great deal of mystery and open questions within that stimulated speculation of all sorts. The discovery of people in the New World challenged the account. La Peyrere proposed that they descended from pre-Adamites, but _not_ from Adam and Eve. The monogenesis tradition of the Church, instead, insisted that they also descended from Adam and Eve.
 
-# Science Vindicates Monogenesis
+## Science Vindicates Monogenesis
 
 Monogenesis was a theological conclusion, making an audacious claim about the world, one without any scientific backing. For centuries, scientists scoffed. Do we all descend from Adam and Eve? For centuries the answer was “no.” Recently, however, science recently changed its answer.
 
@@ -59,11 +59,11 @@ There is a catch. In the primordial past, Adam and Eve’s lineage must have int
 
 This is change to the scientific response to monogenesis might defuse centuries of conflict. For a long time, theologians insisted that the universe had a beginning. Scientists objected and scoffed. Then, about 100 years ago, the purely scientific theory of the Big Bang vindicated the theologians. In the same way, recent universal ancestry vindicates the monogenesis tradition.
 
-# The Genetic Hammer
+## The Genetic Hammer
 
 Evolutionary creationists at BioLogos are a helpful foil. They are very intent on arguing against monogenesis. The perceived conflict between evolution and monogenesis encourages the specific theological revisions they advocate.
 
-## Our Ancestral Population Size Was Large
+### Our Ancestral Population Size Was Large
 
 For the last decade, they proclaimed that the genetic evidence demonstrates our ancestral population size was never less than 10,000 individuals at any point in the last 18 million years. Therefore, Adam and Eve are _not_ ancestors of us all,[^6] and theology must be revised.
 
@@ -77,7 +77,7 @@ What was missed? They forgot to account for interbreeding between Adam and Eve�
 
 **Figure 2. Large ancestral population sizes do not demonstrate that Adam and Eve were not ancestors of us all.** Even if our ancestral population was large, our best estimates indicate Adam and Eve would become ancestors of us all in about 4,000 years. They even could have been created de novo, without parents of their own.
 
-## Ruling Out a Single-Couple Bottleneck
+### Ruling Out a Single-Couple Bottleneck
 
 Last month, they published an updated argument:[^8] The genetic evidence rules out a “genetic bottleneck” of two individuals within the last 500,000 years. Therefore, Adam and Eve were not our “sole and unique” progenitors, and the “traditional” account of Adam and Eve must be revised.
 
@@ -95,7 +95,7 @@ The target is still monogenesis. In a telling omission, the scientific account d
 
 **Figure 3: Which of these two couples is the unique progenitors of humanity?** Is it the bottleneck couple or the headwater couple? Both are objectively unique by different criteria. If the black circles and squares depict humanity, it is a category error to think that the bottleneck couple are our sole progenitors. Instead, the headwater couple is. The headwater couple is the uniquely and solely located as the only progenitors of the human lineage. In contrast, the bottleneck couple is unique for different reasons of almost no relevance to theology. Scientists should not foist scientific criteria for uniqueness onto the theological discourse.
 
-## The Twist on Human
+### The Twist on Human
 
 A more fundamental error plagues this argument. Terms like “sole,” “unique,” “first,” “progenitor,” and “only” are defined in the scientific frame alone; they must _always_ reference the bottleneck couple. No other definition is permitted. Consequently, in an ongoing and unfair mistake, evidence against a single-couple bottleneck is still cited as evidence against RTB’s “sole-genetic progenitor” model.[^11]
 
@@ -111,11 +111,11 @@ Livingstone observes that St. Augustine essentially _defines_ human as “Adam, 
 
 By _this_ definition, Adam and Eve are the sole couple to sit at the head of the human lineage. Whether or not they are a genetic bottleneck, they would still be the _first_ and _only_ couple of the human lineage, _progenitors_ situated _solely_ and _uniquely_ at the headwaters of all humanity.
 
-## A World of Screws
+### A World of Screws
 
 These are the best scientific arguments against monogenesis. They hinge entirely on hidden theological assumptions, tightly controlled vocabulary, and strategic scientific omissions. The fixation on negation, on trumpeting evolutionary conflict with monogenesis, increasingly looks like a hammer in a world of screws. Hammering in a screw might work at times, but damage is done. Hammering out a screw, it seems, is nearly impossible.
 
-# A Constructive Voice on Race
+## A Constructive Voice on Race
 
 Much as scientists were wrong about an eternal universe, we were also wrong about monogenesis. If Adam and Eve are real people in a real past, all of us descend from them. In an epic twist, evolutionary science vindicates the doctrine of monogenesis.
 
