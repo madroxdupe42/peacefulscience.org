@@ -4,12 +4,14 @@ authors:
 - Alan C. Love
 description: Commentary on “Tracking Adam’s Bloodline” by David N. Livingstone
 date: 2021-07-29
-publishdate: 2023-03-01
+publishdate: 2023-03-15
 series: asa-tab
 categories:
 - science
 - ancestry
 - adam-eve
+headerimage:
+  youtube: wohyhPw2-OI
 draft: true
 ---
 
