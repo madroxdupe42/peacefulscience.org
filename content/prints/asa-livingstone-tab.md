@@ -4,12 +4,14 @@ authors:
 - David N. Livingstone
 description: Addressing the questions and issues raised by commentary on the plenary
 date: 2021-07-29
-publishdate: 2023-03-15
+publishdate: 2023-03-29
 series: asa-tab
 categories:
 - science
 - ancestry
 - adam-eve
+headerimage:
+  youtube: wohyhPw2-OI
 draft: true
 ---
 
