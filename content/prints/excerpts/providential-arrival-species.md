@@ -9,7 +9,7 @@ categories:
 partof:
 - /books/divine-origin-species/
 description: An exploration of the unique providential events (and nonevents) in the evolutionary lineage of humans
-publishdate: 2023-02-24
+publishdate: 2023-03-08
 draft: true
 ---
 
