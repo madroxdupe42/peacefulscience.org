@@ -6,15 +6,22 @@ categories:
 - science
 - theology
 - evolution
-partof:
-- /books/divine-origin-species/
+categories:
+- science
+basedon:
+- https://www.amazon.com/dp/B072BYRDDP
+headerimage:
+  src: /img/2022/03/monkeys-2459881.jpg
 description: An exploration of the unique providential events (and nonevents) in the evolutionary lineage of humans
-publishdate: 2023-03-08
-draft: true
+publishdate: 2023-03-07
 ---
 
-This article is derived from an excerpt of the upcoming book: Falk, Darrel R. 2023. _The (Divine) Origin of Our Species_, Eugene, OR: Cascade Books.  We thank the publisher for permission to post it.
+This article is derived, with permission, from an excerpt of the upcoming book: Falk, Darrel R. 2023. _The (Divine) Origin of Our Species_, Eugene, OR: Cascade Books, an imprint of [Wipf and Stock](https://wipfandstock.com/).  This chapter includes content adapted from *Evolution and the Fall* by William T. Cavanaugh and James K. A. Smith ©2017 (Wm. B. Eerdmans Publishing Co.).
 {.editor-note}
+
+
+{{< amazon `0544859936` >}}
+
 
 It was the great theoretical biologist, Stuart Kaufmann who, prior to Steven Jay Gould and his famous book, _Wonderful Life_, first proposed the thought-experiment of replaying the history of life “myriad times” to see what properties of life would emerge repeatedly.[^1]  Although it will always only be a thought-experiment, it is certainly meaningful to consider it carefully as it relates to the emergence of humans. In fact, there are “natural” experiments that really did take place and speak clearly to the likelihood of the arrival of humans.[^2]
 
