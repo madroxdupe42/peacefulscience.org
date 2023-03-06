@@ -4,12 +4,14 @@ authors:
 - swamidass
 description: Plenary Response to David Livingstone, ASA 2021
 date: 2021-07-29
-publishdate: 2023-03-08
+publishdate: 2023-03-22
 series: asa-tab
 categories:
 - science
 - ancestry
 - adam-eve
+headerimage:
+  youtube: wohyhPw2-OI
 draft: true
 ---
 
