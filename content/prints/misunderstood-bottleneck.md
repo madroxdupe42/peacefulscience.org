@@ -4,11 +4,10 @@ authors:
 - swamidass
 series: asa-workshop-2022
 date: 2022-07-29
-publishdate: 2023-03-22
+publishdate: 2023-03-20
 headerimage:
   src: /img/2022/07/misunderstood-bottleneck.png
 math: true
-draft: true
 ---
 
 The science of genetic bottlenecks is known to many, but often misunderstood.  A 2010 article laid out a specific genetic argument against Adam and Eve.[^1]  This argument was expanded substantially outside peer-review, leading to coverage in _Christianity Today_[^2] and coverage by _National Public Radio_ (NPR)[^3] in 2011. This genetic argument, summarized, was that
@@ -77,7 +76,7 @@ Charitably biasing the discussion towards Venema, the discussion focused on dete
 
 Even under these most favorable of terms, the primary evidence in _Adam and the Genome_ did not support the revised conclusion. Several lines of evidence were discussed in detail (Figure 1), but they were all irrelevant, invalid, disputed, or did not cover the relevant time periods. Eventually, another scientist produced a _new_ line of evidence that could estimate the minimum possible population size, the time to most recent 4 alleles (TMR4A). 
 
-{{% image `/img/2023/03/misunderstood-bottleneck-fig1.png` %}}
+{{% image `/img/2023/03/misunderstood-bottleneck-fig1.png` `aside-xl-wide` %}}
 
 **Figure 1**: This figure depicts (left) the genetic-bottleneck model on which Venema’s revised claim is focused, and (right) the lines of evidence assessed in this review, showing what time ranges they cover (not to scale).  Linkage disequilibrium analysis (LD) and incomplete lineage sorting (ILS) are the primary lines of evidence in _Adam and the Genome_, but these are irrelevant lines of evidence that do not rule out a bottleneck (red). Mt-eve and Y-adam rules out the bottleneck any time more recent than ~150,000 years ago, and lineage time inference (LiTI) on autosomal DNA _robustly_ rules out a bottleneck as far back as 500,000 years, and possibly up to 600,000 years ago if DNA from archaic humans is included (black). Other lines of evidence, such as trans-species variation (TSV) and simulations of allele frequency spectrums (AFS) are _disputed_ (gray).
 
@@ -107,7 +106,7 @@ Putting these two corrections together, if there truly was a brief population bo
 
 The most straightforward interpretation of this information is that LD, and any other $N_e$-based method, is an _irrelevant_ line of evidence. Consequently, high estimates of $N_e$ point neither _toward_ nor _away_ from a brief bottleneck. Using a method of computing $N_e$ which more advanced than LD, this fundamental finding, hopefully obvious now, was empirically confirmed in a study published in 2021 (Figure 2). 
 
-{{% image `/img/2023/03/misunderstood-bottleneck-fig2.png` %}}
+{{% image `/img/2023/03/misunderstood-bottleneck-fig2.png` `aside-xl-wide` %}}
 
 **Figure 2**: Brief bottlenecks are outside the genetic streetlight. This figure shows the results of applying an advanced, genome-wide method of estimating $N_e$ to simulated data (orange) in which there is a single-couple bottleneck followed by exponential growth (black line). The method does not detect single couple bottlenecks, even when as recent as 75,000 years ago.[^17]
 
@@ -221,7 +220,7 @@ What was the median TMR4A date? For humans alive today, the median TMR4A is appr
 
 [^37]: Notably, AFS does not withstand similar scrutiny from Buggs, but Buggs does ultimately refer to AFS  positively in the end due to superficially confirmatory results with TMR4A. Richard Buggs, ['Adam and Eve: Lessons Learned'](https://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/) [accessed 8 July 2022]. See the responses to criticism here: Swamidass, ['Heliocentric Certainty Against a Bottleneck of Two?'](https://doi.org/10.5281/zenodo.1328247); BioLogos Forum.
 
-{{% image `/img/2023/03/misunderstood-bottleneck-fig2.png` %}}
+{{% image `/img/2023/03/misunderstood-bottleneck-fig3.png` `aside-xl-wide` %}}
 
 **Figure 3**: This figure from the 2017 post-publication review of _Adam and the Genome_ shows that a single-couple bottleneck is ruled out before 495,000 years ago.[^38] The right figure displays the distribution of TMR4A estimates across the whole autosomal genome. The left figure displays the same data in a different way, as a cumulative probability density function (CDF). The black line identifies the median TMR4A, at 495,000 years ago.
 
@@ -391,7 +390,7 @@ This scholarship was supported by a visiting professorship funded by the John Te
 
 ## References
 
- Ayala, F J, a Escalante, C O’Huigin, and J Klein, ['Molecular Genetics of Speciation and Human Origins.'](https://doi.org/10.1073/pnas.91.15.6787), _Proceedings of the National Academy of Sciences of the United States of America_, 91.15 (1994), 6787–94 [https://doi.org/10.1073/pnas.91.15.6787](https://doi.org/10.1073/pnas.91.15.6787).
+Ayala, F J, a Escalante, C O’Huigin, and J Klein, ['Molecular Genetics of Speciation and Human Origins.'](https://doi.org/10.1073/pnas.91.15.6787), _Proceedings of the National Academy of Sciences of the United States of America_, 91.15 (1994), 6787–94 [https://doi.org/10.1073/pnas.91.15.6787](https://doi.org/10.1073/pnas.91.15.6787).
 
 Ayala, Francisco J., and Ananias A. Escalante, [‘The Evolution of Human Populations: A Molecular Perspective’](https://doi.org/10.1006/mpev.1996.0013), _Molecular Phylogenetics and Evolution_, 5.1 (1996), 188–201 [https://doi.org/10.1006/mpev.1996.0013](https://doi.org/10.1006/mpev.1996.0013).
 
@@ -403,7 +402,7 @@ Bradley Hagerty, Barbara, [‘Evangelicals Question The Existence Of Adam And Ev
 
 Buggs, Richard, [‘Adam and Eve: A Tested Hypothesis?’](https://ecoevocommunity.nature.com/posts/22075-adam-and-eve-a-tested-hypothesis), _Nature Portfolio Ecology & Evolution Community_, 2017 [accessed 6 November 2021].
 
-———, [‘Adam and Eve: Lessons Learned’](https://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/) [accessed 8 July 2022].
+Buggs, Richard, [‘Adam and Eve: Lessons Learned’](https://richardbuggs.com/2018/04/18/adam-and-eve-lessons-learned/) [accessed 8 July 2022].
 
 Clouser, Roy, [‘Three Theological Arguments in Support of Carol Hill’s Reading of the Historicity of Genesis and Original Sin’](https://www.asa3.org/ASA/PSCF/2021/PSCF9-21Clouser.pdf), _Perspectives on Science and Christian Faith_, 73.3 (2021), 7.
 
@@ -425,9 +424,9 @@ Hossjer, Ola, and Ann Gauger, [‘A Single-Couple Human Origin Is Possible’](h
 
 Jeanson, Nathaniel, [‘Evidence for a Human Y Chromosome Molecular Clock’](https://answersingenesis.org/evidence-y-chromosome-molecular-clock/), _Answers Research Journal_, 2019 [accessed 9 July 2022].
 
-———, [_Replacing Darwin: The New Origin of Species_](https://www.amazon.com/Replacing-Darwin-New-Origin-Species/dp/1683440757/) (Master Books, 2017).
+Jeanson, Nathaniel, [_Replacing Darwin: The New Origin of Species_](https://www.amazon.com/Replacing-Darwin-New-Origin-Species/dp/1683440757/) (Master Books, 2017).
 
-———, [_Traced: Human DNA’s Big Surprise_](https://www.amazon.com/Traced-Human-DNAs-Big-Surprise/dp/1683442911/) (Master Books, 2022).
+Jeanson, Nathaniel, [_Traced: Human DNA’s Big Surprise_](https://www.amazon.com/Traced-Human-DNAs-Big-Surprise/dp/1683442911/) (Master Books, 2022).
 
 Kemp, Kenneth W, [‘Science, Theology, and Monogenesis’](https://doi.org/10.5840/acpq201185213), _American Catholic Philosophical Quarterly_, 85.2 (2011), 217–36 [https://doi.org/10.5840/acpq201185213](https://doi.org/10.5840/acpq201185213).
 
@@ -451,9 +450,9 @@ R. Vahdati, Ali, and Andreas Wagner, [‘Parallel or Convergent Evolution in Hum
 
 Roberts, Anjeanette, [‘How Can Christians Disagree over Adam and Eve?’](https://reasons.org/explore/blogs/theorems-theology/how-can-christians-disagree-over-adam-and-eve), _Reasons to Believe_, 2019 [accessed 22 July 2022].
 
-———, [‘Mosaic Eve: Mother of All (Part 1)’](https://reasons.org/explore/blogs/theorems-theology/mosaic-eve-mother-of-all-part-1), _Reasons to Believe_, 2020 [accessed 5 July 2022].
+Roberts, Anjeanette, [‘Mosaic Eve: Mother of All (Part 1)’](https://reasons.org/explore/blogs/theorems-theology/mosaic-eve-mother-of-all-part-1), _Reasons to Believe_, 2020 [accessed 5 July 2022].
 
-———, [‘Mosaic Eve: Mother of All (Part 2)’](https://reasons.org/explore/blogs/theorems-theology/mosaic-eve-mother-of-all-part-2), _Reasons to Believe_, 2020 [accessed 5 July 2022].
+Roberts, Anjeanette, [‘Mosaic Eve: Mother of All (Part 2)’](https://reasons.org/explore/blogs/theorems-theology/mosaic-eve-mother-of-all-part-2), _Reasons to Believe_, 2020 [accessed 5 July 2022].
 
 Sanford, John, Robert Carter, Wes Brewer, John Baumgardner, Bruce Potter, and Jon Potter, [‘Adam and Eve, Designed Diversity, and Allele Frequencies’](https://doi.org/10.15385/jpicc.2018.8.1.20), _Proceedings of the International Conference on Creationism_, 8.1 (2018) [https://doi.org/10.15385/jpicc.2018.8.1.20](https://doi.org/10.15385/jpicc.2018.8.1.20).
 
@@ -463,25 +462,25 @@ Schaffner, Stephen, [‘What Genetics Says About Adam and Eve’](https://biolog
 
 Swamidass, S. Joshua, [‘A U-Turn on Adam and Eve’](https://doi.org/10.54739/83rj), _Peaceful Science_, 2021 [https://doi.org/10.54739/83rj](https://doi.org/10.54739/83rj).
 
-———, [‘BioLogos Deletes an Article’](https://doi.org/10.54739/rv8k) [https://doi.org/10.54739/rv8k](https://doi.org/10.54739/rv8k), _Peaceful Science_, 2021 [https://doi.org/10.54739/83rj](https://doi.org/10.54739/83rj).
+Swamidass, S. Joshua, [‘BioLogos Deletes an Article’](https://doi.org/10.54739/rv8k) [https://doi.org/10.54739/rv8k](https://doi.org/10.54739/rv8k), _Peaceful Science_, 2021 [https://doi.org/10.54739/83rj](https://doi.org/10.54739/83rj).
 
-———, ['Heliocentric Certainty Against a Bottleneck of Two?'](https://doi.org/10.5281/zenodo.1328247), 2018 [https://doi.org/10.5281/zenodo.1328247](https://doi.org/10.5281/zenodo.1328247).
+Swamidass, S. Joshua, ['Heliocentric Certainty Against a Bottleneck of Two?'](https://doi.org/10.5281/zenodo.1328247), 2018 [https://doi.org/10.5281/zenodo.1328247](https://doi.org/10.5281/zenodo.1328247).
 
-———, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](/books/genealogical-adam-eve/) (InterVarsity Press, 2019).
+Swamidass, S. Joshua, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](/books/genealogical-adam-eve/) (InterVarsity Press, 2019).
 
-———, [‘The Overlooked Science of Genealogical Ancestry’](https://peacefulscience.org/pdf/PSCF3-18p19-35Swamidass.pdf), _Perspectives on Science and Christian Faith_, 70.1 (2018).
+Swamidass, S. Joshua, [‘The Overlooked Science of Genealogical Ancestry’](https://peacefulscience.org/pdf/PSCF3-18p19-35Swamidass.pdf), _Perspectives on Science and Christian Faith_, 70.1 (2018).
 
 Tenesa, Albert, Pau Navarro, Ben J. Hayes, David L. Duffy, Geraldine M. Clarke, Mike E. Goddard, and others, [‘Recent Human Effective Population Size Estimated from Linkage Disequilibrium’](https://doi.org/10.1101/gr.6023607), _Genome Research_, 17.4 (2007), 520–26 [https://doi.org/10.1101/gr.6023607](https://doi.org/10.1101/gr.6023607).
 
 Venema, Dennis R., [‘Adam, Eve and Human Population Genetics’](https://doi.org/10.54739/d67o), _BioLogos_, 2014 [https://doi.org/10.54739/d67o](https://doi.org/10.54739/d67o).
 
-———, [‘Adam, Eve and Population Genetics: A Reply to Dr. Richard Buggs (Part 1)’](https://doi.org/10.54739/ju3t), _BioLogos_, 2017 [https://doi.org/10.54739/ju3t](https://doi.org/10.54739/ju3t).
+Venema, Dennis R., [‘Adam, Eve and Population Genetics: A Reply to Dr. Richard Buggs (Part 1)’](https://doi.org/10.54739/ju3t), _BioLogos_, 2017 [https://doi.org/10.54739/ju3t](https://doi.org/10.54739/ju3t).
 
-———, [‘Adam, Eve and Population Genetics: A Reply to Dr. Richard Buggs (Part 2)’](https://doi.org/10.54739/2xqh), _BioLogos_, 2017 [https://doi.org/10.54739/2xqh](https://doi.org/10.54739/2xqh).
+Venema, Dennis R., [‘Adam, Eve and Population Genetics: A Reply to Dr. Richard Buggs (Part 2)’](https://doi.org/10.54739/2xqh), _BioLogos_, 2017 [https://doi.org/10.54739/2xqh](https://doi.org/10.54739/2xqh).
 
-———, [‘Genesis and the Genome: Genomics Evidence for Human-Ape Common Ancestry and Ancestral Hominid Population Sizes’](https://www.asa3.org/ASA/PSCF/2010/PSCF9-10Venema.pdf), _Perspectives on Science and Christian Faith_, 62.3 (2010).
+Venema, Dennis R., [‘Genesis and the Genome: Genomics Evidence for Human-Ape Common Ancestry and Ancestral Hominid Population Sizes’](https://www.asa3.org/ASA/PSCF/2010/PSCF9-10Venema.pdf), _Perspectives on Science and Christian Faith_, 62.3 (2010).
 
-———, [‘Vern Poythress, Population Genomics, and Locating the Historical Adam’](https://doi.org/10.54739/atjo), _BioLogos_, 2015 [https://doi.org/10.54739/atjo](https://doi.org/10.54739/atjo).
+Venema, Dennis R., [‘Vern Poythress, Population Genomics, and Locating the Historical Adam’](https://doi.org/10.54739/atjo), _BioLogos_, 2015 [https://doi.org/10.54739/atjo](https://doi.org/10.54739/atjo).
 
 Venema, Dennis R., and Darrel R. Falk, [‘Does Genetics Point to a Single Primal Couple?’](https://doi.org/10.54739/vqbj), _BioLogos_, 2010 [https://doi.org/10.54739/vqbj](https://doi.org/10.54739/vqbj).
 
