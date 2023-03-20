@@ -9,8 +9,8 @@ layers:
 - type: pages
   heading: Related Articles
 pages:
-- /prints/misunderstood-bottleneck/
 - /prints/confessions-disappointed-young-earther/
+- /prints/misunderstood-bottleneck/
 ---
 
 Scientific conclusions are important. The reasoning behind these conclusions is important too. 
@@ -19,6 +19,6 @@ The [first article](https://peacefulscience.org/prints/confessions-disappointed-
 
 How have the scientific arguments of young earth creationism fared? Keathley explains the history here, and how the failure of these arguments disappointed him.
 
-The [second article](https://peacefulscience.org/prints/misunderstood-bottleneck/) was presented last summer at ASA, and it tells a similar story from the other direction. Looking closely at the genetic arguments of evolutionary creationism, this article serves as an accessible and citable review of what the evidence does and does not tell us about genetic bottlenecks. Despite what some evolutionary creationists publicly argue, William Lane Craig and Reasons to Believe's models of an ancient human origins---not the recent genealogical Adam and Eve---can be consistent with the genetic evidence. 
+The [second article](https://peacefulscience.org/prints/misunderstood-bottleneck/) was presented last summer at ASA, and it tells a similar story from the other direction. Looking closely at the genetic arguments of evolutionary creationism, this article serves as an accessible and citable review of what the evidence does and does not tell us about genetic bottlenecks. Despite what some evolutionary creationists publicly argue, William Lane Craig and *Reasons to Believe*'s models of an ancient human origins---not the recent genealogical Adam and Eve---can be consistent with the genetic evidence. 
 
 In this case, the scientific conclusions changed quite a bit, but the scientific reasons for the conclusions changed even more.
