@@ -6,6 +6,7 @@ crossref:
   type: conference
   name: American Scientific Affiliation
   startdate: 2022-07-29
+  number: 77
   enddate: 2022-08-01
   title: The 2022 Annual Meeting of the American Scientific Affiliation
   publicationdate: 2022-07-29
