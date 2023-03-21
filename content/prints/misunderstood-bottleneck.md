@@ -28,12 +28,15 @@ Beyond the scope of this review, the second point does not follow from the first
 
 [^6]: Andrew Ter Ern Loke, ['Reconciling Evolution and Biblical Literalism: A Proposed Research Program'](https://doi.org/10.1080/14746700.2016.1156328), _Theology and Science_, 14.2 (2016), 160–74 [https://doi.org/10.1080/14746700.2016.1156328](https://doi.org/10.1080/14746700.2016.1156328); Kenneth W Kemp, ['Science, Theology, and Monogenesis](https://doi.org/10.5840/acpq201185213), _American Catholic Philosophical Quarterly_, 85.2 (2011), 217–36 [https://doi.org/10.5840/acpq201185213](https://doi.org/10.5840/acpq201185213); S. Joshua Swamidass, [‘The Overlooked Science of Genealogical Ancestry’](https://peacefulscience.org/pdf/PSCF3-18p19-35Swamidass.pdf), _Perspectives on Science and Christian Faith_, 70.1 (2018); S. Joshua Swamidass, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](/books/genealogical-adam-eve/) (InterVarsity Press, 2019).
 
-The goal of this review is to explain what the evidence in genetics tells us about single couple bottlenecks, clarifying each line of evidence. The narrow focus is single couple “genetic bottlenecks,” which does not generalize to most models of Adam and Eve. This is a model in which humanity arises from a single couple with _normal_ biology, and there is _absolutely_ and _precisely_ zero interbreeding between their lineage and others. Findings about genetic bottlenecks do not apply to any model that (1) allows _any_ interbreeding _at all_ between Adam and Eve’s lineage and others, or (2) posits exotic biology in Adam and Eve. 
+The goal of this review is to explain what the evidence in genetics tells us about single-couple bottlenecks, clarifying each line of evidence. The narrow focus is single-couple “genetic bottlenecks,” and the findings here do not generalize to most models of Adam and Eve. This is a model in which humanity arises from a single couple with _normal_ biology, and there is _absolutely_ and _precisely_ zero interbreeding between their lineage and others. Findings about genetic bottlenecks do not apply to any model that (1) allows _any_ interbreeding _at all_ between Adam and Eve’s lineage and others, or (2) posits exotic biology in Adam and Eve. 
 
-There are two key corrections to the first point.
+There are three key corrections to the first point.[^7]
 
 1. The genetic evidence only rules out a single-couple bottleneck (2, not 10,000) going back about 500,000 years (not 18 million). 
-2. LD, ILS, and $N_e$ are irrelevant lines of evidence. Instead, the primary line of evidence establishing the revised conclusion, the most recent time to 4-alleles (TMR4A), first reported in 2017.[^7]
+
+2. LD, ILS, and $N_e$ are irrelevant lines of evidence, that do not rule out a single-couple bottlenck in any relevant time scale. 
+
+3. Instead, the primary line of evidence establishing the revised conclusion, the most recent time to 4-alleles (TMR4A), was first reported in 2017.
 
 [^7]: S. Joshua Swamidass, ['Heliocentric Certainty Against a Bottleneck of Two?'](https://doi.org/10.5281/zenodo.1328247), 2018 [https://doi.org/10.5281/zenodo.1328247](https://doi.org/10.5281/zenodo.1328247).
 
@@ -70,9 +73,9 @@ Venema also clarified he was only interested in models of a single couple “gen
 
 He thought the evidence ruled out a bottleneck going back 18 million years but was most certain a bottleneck would be ruled out at the origin of _Homo sapiens_, about 200,000 years ago. But if the focus is on our species, this corresponds to a model which excludes all interbreeding between _Homo sapiens_ and other hominids. Most old earth creationists and young earth creationists agree Neanderthals and _Homo sapiens_ interbreed.[^14] When asked for any evidence that there were never just two _Homo sapiens_ amidst a larger population, Venema could not provide any. So, it must be emphasized, Venema’s revised conclusion is almost entirely irrelevant to the theological conversation on origins.
 
-[^14]: For example, they explain that, if required, the would move to a model in which Adam and Eve are genetic mosaics, with would not limit them to just 4 alleles. John Sanford and others, ['Adam and Eve, Designed Diversity, and Allele Frequencies'](https://doi.org/10.15385/jpicc.2018.8.1.20), _Proceedings of the International Conference on Creationism_, 8.1 (2018) [https://doi.org/10.15385/jpicc.2018.8.1.20](https://doi.org/10.15385/jpicc.2018.8.1.20).
+[^14]: For example, they explain that, if required, they would move to a model in which Adam and Eve are genetic mosaics, with would not limit them to just 4 alleles. John Sanford and others, ['Adam and Eve, Designed Diversity, and Allele Frequencies'](https://doi.org/10.15385/jpicc.2018.8.1.20), _Proceedings of the International Conference on Creationism_, 8.1 (2018) [https://doi.org/10.15385/jpicc.2018.8.1.20](https://doi.org/10.15385/jpicc.2018.8.1.20).
 
-Charitably biasing the discussion towards Venema, the discussion focused on determining which lines of evidence (beyond interbreeding) ruled out a bottleneck of two individuals (not several thousand) in at least the last ~200,000 (not 3 million) years, a time that is long after (not long before) archaic “humans” arise about 2 million years ago.
+Charitably biasing the discussion towards Venema, we focused on determining which lines of evidence (beyond interbreeding) ruled out a bottleneck of two individuals (not several thousand) in at least the last ~200,000 (not 3 million) years, a time that is long after (not long before) archaic “humans” arise about 2 million years ago.
 
 Even under these most favorable of terms, the primary evidence in _Adam and the Genome_ did not support the revised conclusion. Several lines of evidence were discussed in detail (Figure 1), but they were all irrelevant, invalid, disputed, or did not cover the relevant time periods. Eventually, another scientist produced a _new_ line of evidence that could estimate the minimum possible population size, the time to most recent 4 alleles (TMR4A). 
 
@@ -247,6 +250,8 @@ A preprint published in 2021 demonstrates that LiTI is very robust indeed, empir
 
 There is one caveat to resolve in future work. This TMR4A is computed only from people alive today. Adding in the DNA from archaic humans, such as Neanderthals and Denisovans is more difficult because ancient DNA has many degradation errors that inflate the inferred date. Due to interbreeding in the past, most of the archaic genomes are already included in the current analysis any ways, so the impact of this data may already be baked in. Perhaps TMR4A might increase to 600,000 or 700,000 years ago or stay the same. We do not yet know.
 
+### A Broad and Deep Consensus
+
 The consensus around TMR4A is broad and deep. TMR4A features prominently in William Lane Craigs’ response to BioLogos and in his book,[^44] which was reviewed favorably by secular scientists. Stephen Schaffner, when writing BioLogos’s new position, is silent on the limitations of $N_e$, LD, and ILS, but he discreetly cites TMR4A as a “more sophisticated method” than the disputed evidence he presented instead.[^45] Reasons to Believe also endorsed the TMR4A analysis too, and used it to guide refinements to their model.[^46] This analysis has been in public now for almost five years, without uncovering any valid criticism.[^47] Young earth creationists have been largely silent on TMR4A, but the criticism that did arise indicates misunderstanding of the analysis, not any errors.[^48]
 
 [^44]: William Lane Craig, ['What Became of the Genetic Challenge to Adam and Eve?'](https://doi.org/10.54739/e7r9), _Peaceful Science_, 2020 [https://doi.org/10.54739/e7r9](https://doi.org/10.54739/e7r9).
@@ -343,7 +348,6 @@ In 2021, _Perspectives on Science and the Christian Faith_ (PSCF) published a se
 
 A recent book by Loren Haarsma, _When Did Sin Begin?_, repeats several incorrect scientific claims. On the one hand, this book’s summary of the evidence presents a very different position than BioLogos held in the past. Recent universal ancestry is presented early on.[^64] Viable models of _de novo_ creation of Adam and Eve are presented, and the book makes clear that the “humans” of theology need not correspond to specific taxonomic categories, such as _Homo sapiens_.[^65]
 
-
 [^64]: Loren Haarsma, ['When Did Sin Begin?'](https://www.amazon.com/When-Did-Sin-Begin-Evolution/dp/1540964264/) (Baker Academic, 2021). Oddly, the book’s scientific explanation does not cite the scholarship that changed BioLogos's position.  Swamidass, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](/books/genealogical-adam-eve/); Swamidass, [‘The Overlooked Science of Genealogical Ancestry’](https://peacefulscience.org/pdf/PSCF3-18p19-35Swamidass.pdf).
 [^65]: The book, however, does not credit, in its references or text, the corrective scholarship that changed BioLogos’s position on this matter. Swamidass, [_The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry_](/books/genealogical-adam-eve/).
 
@@ -380,7 +384,6 @@ Because they are a credible organization, this response creates a confusion situ
 ## Conclusions
 
 This review explains what population genetics tells us about single-couple genetic bottlenecks. Special attention was given to explaining each line of evidence, and how our understanding has changed over the last decade. 
-
 
 ## Acknowledgement
 
