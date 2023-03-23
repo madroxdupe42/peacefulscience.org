@@ -1,5 +1,6 @@
 ---
 title: The Misunderstood Science of Genetic Bottlenecks
+description: The science of genetic bottlenecks is known to many, but often misunderstood. 
 authors:
 - swamidass
 series: asa-workshop-2022
@@ -9,6 +10,16 @@ headerimage:
   src: /img/2022/07/misunderstood-bottleneck.png
 math: true
 ---
+
+<div class="editor-note aside-xl-right">
+
+This article was presented at a workshop in the 2022 Annual Meeting of the American Scientific Affiliation. 
+
+We acknowedge support by a visiting professorship funded by the John Templeton Foundation and hosted by the Southeastern Baptist Theological Seminary in 2021-2022. The author is grateful to several scholars for reading and providing feedback on a draft of this manuscript: John Wood, Ken Keathley, Michael Murray, William Lane Craig, Ken Turner, Andrew Loke, Jeff Hardin, Jeff Schloss, Greg Cootsona, Gerry McDermott, AJ Roberts, Glenn Branch, Ted Davis, and Daniel Ang. 
+
+Deborah Haarsma, Jim Stump, Loren Haarsma, Ard Louis, and Dennis Venema from BioLogos were also presented a draft of this manuscript, but they did not provide a response.
+
+</div>
 
 The science of genetic bottlenecks is known to many, but often misunderstood.  A 2010 article laid out a specific genetic argument against Adam and Eve.[^1]  This argument was expanded substantially outside peer-review, leading to coverage in _Christianity Today_[^2] and coverage by _National Public Radio_ (NPR)[^3] in 2011. This genetic argument, summarized, was that
 
@@ -387,7 +398,9 @@ This review explains what population genetics tells us about single-couple genet
 
 ## Acknowledgement
 
-This scholarship was supported by a visiting professorship funded by the John Templeton Foundation and hosted by the Southeastern Baptist Theological Seminary in 2021-2022. The author is grateful to several scholars for reading and providing feedback on a draft of this manuscript: John Wood, Ken Keathley, Michael Murray, William Lane Craig, Ken Turner, Andrew Loke, Jeff Hardin, Jeff Schloss, Greg Cootsona, Gerry McDermott, AJ Roberts, Glenn Branch, Ted Davis, and Daniel Ang. Deborah Haarsma, Jim Stump Loren Haarsma, Ard Louis, and Dennis Venema from BioLogos were also presented a draft of this manuscript, but they did not provide a response.
+This scholarship was supported by a visiting professorship funded by the John Templeton Foundation and hosted by the Southeastern Baptist Theological Seminary in 2021-2022. The author is grateful to several scholars for reading and providing feedback on a draft of this manuscript: John Wood, Ken Keathley, Michael Murray, William Lane Craig, Ken Turner, Andrew Loke, Jeff Hardin, Jeff Schloss, Greg Cootsona, Gerry McDermott, AJ Roberts, Glenn Branch, Ted Davis, and Daniel Ang. 
+
+Deborah Haarsma, Jim Stump, Loren Haarsma, Ard Louis, and Dennis Venema from BioLogos were also presented a draft of this manuscript, but they did not provide a response.
 
 <div class="references">
 
