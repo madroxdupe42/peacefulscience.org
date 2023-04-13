@@ -11,7 +11,9 @@ categories:
 basedon:
 - https://www.amazon.com/dp/B072BYRDDP
 headerimage:
-  src: /img/2022/03/monkeys-2459881.jpg
+  src: /img/2023/03/monkey-raft.png
+  credit: An image of monkeys riding a raft on the ocean, created in a modern and engaging style. By [Midjourney](https://www.midjourney.com/).
+
 description: An exploration of the unique providential events (and nonevents) in the evolutionary lineage of humans
 publishdate: 2023-03-07
 ---
