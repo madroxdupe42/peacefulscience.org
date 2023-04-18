@@ -6,6 +6,7 @@ authors:
 categories:
 - science
 - society
+series: academic-freedom-creationism
 date: "2021-03-22T22:05:57"
 description: The growing conversation around accreditation of creation science, academic freedom, and national norms can be guided by better information.
 headerimage:

@@ -3,6 +3,7 @@ aliases:
 - /compromise-on-creationism/
 authors:
 - swamidass
+series: academic-freedom-creationism
 categories:
 - society
 commenturl: http://discourse.peacefulscience.org/t/a-compromise-on-creationism/13489
