@@ -109,7 +109,7 @@
   },
   "content/articles/compromise-on-creationism.md": {
     "created": 1617677294,
-    "modified": 1636665318
+    "modified": 1681843067
   },
   "content/articles/confessing-jesus-in-science.md": {
     "created": 1615089099,
@@ -401,7 +401,7 @@
   },
   "content/articles/qa-wsj-compromise-on-creationism.md": {
     "created": 1616695699,
-    "modified": 1617081975
+    "modified": 1681843063
   },
   "content/articles/quayshawn-spencer-race.md": {
     "created": 1615089099,
@@ -1705,7 +1705,7 @@
   },
   "content/prints/excerpts/providential-arrival-species.md": {
     "created": 1677621998,
-    "modified": 1677961337
+    "modified": 1681401448
   },
   "content/newsletter/providential-arrival.md": {
     "created": 1677916839,
@@ -1726,5 +1726,17 @@
   "content/newsletter/shifting-science.md": {
     "created": 1679334205,
     "modified": 1679336878
+  },
+  "content/books/when-sin-begin.md": {
+    "created": 1681401531,
+    "modified": 1681402041
+  },
+  "content/books/traced.md": {
+    "created": 1681402495,
+    "modified": 1681402782
+  },
+  "content/series/academic-freedom-creationism/_index.md": {
+    "created": 1681842739,
+    "modified": 1681842824
   }
 }

@@ -1,10 +1,14 @@
 ---
-title: How Jesus Changed My Life
-description: 
+title: How Jesus Changed This Scientist's Life
+description: Tom Ingebritsen was a biology professor at Iowa State University for 24 years when he found something that changed everything.
 authors:
 - tsingebritsen
-date: 2023-06-21
-draft: true
+date: 2023-08-28
+categories:
+- confession
+- resurrection
+headerimage:
+  src:  /img/2023/08/ingebritsen.png
 ---
 
 I am a scientist with a PhD in Biochemistry. I was a professor at Iowa State University for 24 years. When I came to Iowa State University in 1986, I was not walking with Christ. I had attended church while I was growing up, but I never understood who Jesus was or why he died on the cross, and I didn’t know what any of that meant for my life. When I left home to go to college, I quit going to church and didn’t think much about spiritual things for the next 25 years.
