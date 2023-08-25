@@ -3,7 +3,7 @@ ifneq (,$(wildcard ./.env))
     export
 endif
 
-.PHONY: crossref
+.PHONY: crossref pdf doi info imginfo pdfinfo news-*
 
 all: imginfo pdfinfo production
 
@@ -14,8 +14,10 @@ algolia:
 links:
 	bash code/links.bsh
 
+info: imginfo pdfinfo
+
 imginfo: static/img
-	python3 code/imgsize.py > data/imgsize.json
+	python code/imgsize.py > data/imgsize.json
 
 pdfinfo: static/pdf
 	python code/pdfinfo.py > data/pdfinfo.json
@@ -58,3 +60,24 @@ dev:
 	sleep 100000
 
 dev1: hugo-watch tailwind-watch 
+
+
+# if INPUT env is defined, new options available.
+ifneq ($(INPUT),)
+pdf:
+	code/pdf ${INPUT}
+
+doi: 
+	python code/doi.py ${INPUT}
+
+news-create: 
+	python -m code.newsletter  ${INPUT} CREATE
+	open newsletter.html
+
+news-update:
+	python -m code.newsletter  ${INPUT} UPDATE
+	open newsletter.html
+
+news-send: 
+	python -m code.newsletter  ${INPUT} SEND
+endif
