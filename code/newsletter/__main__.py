@@ -1,11 +1,11 @@
 from dotenv import load_dotenv
-from code.newsletter.bottlim import PlimTemplate
+from .bottlim import PlimTemplate
 from bs4 import BeautifulSoup as bs
 from mailchimp3 import MailChimp
 import requests
 from datetime import datetime
 from markdown2 import Markdown
-from code.document import Document
+from ..document import Document
 import json
 import sys
 import re
@@ -107,19 +107,12 @@ def create_newsletter(DATA, HTML):
         }
     )
 
-    with open("newsletter_id.txt", "w") as F:
-        print(C["id"], file=F)
+    campaign_id = C["id"]
 
-    mc.campaigns.content.update(C["id"], {"message": "Newsletter", "html": HTML})
-
-    mc.campaigns.actions.test(
-        C["id"], {"send_type": "html", "test_emails": ["swamidass@gmail.com"]}
-    )
+    return campaign_id
 
 
-def update_newsletter(DATA, HTML):
-    with open("newsletter_id.txt") as F:
-        ID = F.read()
+def update_newsletter(DATA, HTML, ID):
     mc.campaigns.content.update(ID, {"message": "Newsletter", "html": HTML})
 
     mc.campaigns.actions.test(
@@ -149,20 +142,28 @@ def main(args=sys.argv[1:]):
     D = Document(args[0])
     DATA = newsletter_data(D)
 
-    if "SEND" in args:
-        send_newsletter(DATA)
-        return
+    # if "SEND" in args:
+    #     send_newsletter(DATA)
+    #     return
 
     TEMPLATE = open("code/newsletter.plim").read()
     HTML = plim_mjml(TEMPLATE, **DATA)
     with open("newsletter.html", "w") as F:
         print(HTML, file=F)
 
-    if "CREATE" in args:
-        create_newsletter(DATA, HTML)
+    D.frontmatter["mailchimp"] = D.frontmatter.get("mailchimp", {})
+    if "campaign_id" in D.frontmatter["mailchimp"]:
+        ID = D.frontmatter["mailchimp"]["campaign_id"]
+        print(f"Updating campaign {ID}")
 
-    if "UPDATE" in args:
-        update_newsletter(DATA, HTML)
+    else:
+        ID = create_newsletter(DATA, HTML)
+        print(f"Creating campaign {ID}")
+        D.frontmatter["mailchimp"]["campaign_id"] = ID
+        with open(D.filename, "w") as f:
+            D.dump(f)
+
+    update_newsletter(DATA, HTML, ID)
 
 
 if __name__ == "__main__":

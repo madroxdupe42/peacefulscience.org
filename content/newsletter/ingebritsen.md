@@ -1,6 +1,7 @@
 ---
 title: AI in Iowa State and Professor Tom Ingebritsen's Story
-description: What if a chimpanzee stood up one day and talked to us with the same level as competence as a does ChatGPT?
+description: What if a chimpanzee stood up one day and talked to us with the same
+  level of competence as does ChatGPT?
 authors:
 - Peaceful Science
 date: 2023-08-28
@@ -11,9 +12,11 @@ layers:
 pages:
 - /articles/how-jesus-changed-life
 - /articles/zachary-ardern-resurrection-and-reality
+mailchimp:
+  campaign_id: bc393b3a90
 ---
 
-Dr. Swamidass [spoke at Iowa State University on AI](https://www.youtube.com/watch?v=UbzUwG3u-4o). ChatGPT is not a human. But what if a chimpanzee stood up one day and talked to us with the same level of competence as a does ChatGPT? Well, maybe we might have some new ethical responsibilities to this chimpanzee...
+Dr. Swamidass [spoke at Iowa State University on AI](https://www.youtube.com/watch?v=UbzUwG3u-4o). ChatGPT is not a human. But what if a chimpanzee stood up one day and talked to us with the same level of competence as does ChatGPT? Well, maybe we might have some new ethical responsibilities to this chimpanzee...
 
 [The second night in Iowa](https://www.youtube.com/watch?v=SzMhNZYBCuM)  focused on [*The Genealogical Adam and Eve*](/books/gae). The conversation---at this secular university---was incredible, particularly some remarkable exchanges with students in Prof. Tom Ingebritsen's course on faith and science. 
 

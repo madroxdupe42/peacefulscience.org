@@ -3,7 +3,7 @@ ifneq (,$(wildcard ./.env))
     export
 endif
 
-.PHONY: crossref pdf doi info imginfo pdfinfo news-*
+.PHONY: crossref pdf doi info imginfo pdfinfo news
 
 all: imginfo pdfinfo production
 
@@ -70,14 +70,7 @@ pdf:
 doi: 
 	python code/doi.py ${INPUT}
 
-news-create: 
-	python -m code.newsletter  ${INPUT} CREATE
+news: 
+	python -m code.newsletter  ${INPUT}
 	open newsletter.html
-
-news-update:
-	python -m code.newsletter  ${INPUT} UPDATE
-	open newsletter.html
-
-news-send: 
-	python -m code.newsletter  ${INPUT} SEND
 endif
