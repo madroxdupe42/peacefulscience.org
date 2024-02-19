@@ -3,7 +3,7 @@ authors:
 - swamidass
 categories:
 - theology
-date: 2024-02-20
+date: 2024-02-19
 description: Many of us still feel Michael Hesier's absence. I certainly do, and will for some time come.
 headerimage:
   src: /img/2024/02/heiser-memory.png
